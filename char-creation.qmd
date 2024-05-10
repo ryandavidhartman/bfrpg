@@ -5,7 +5,7 @@
 
 First, you will need a piece of paper to write down the character's statistics on. You may use a preprinted character sheet if one is available, or you may simply use a piece of notebook paper. An example character is shown below. You should use a pencil to write down all information, as any statistic may change during play.
 
-Roll 3d6 for each ability score, as described in the [Character Abilities](abilities.qmd#ability-scores) section, and write the results after the names of the abilities. Write down the scores in the order you roll them; if you are unhappy with the scores you have rolled, ask your Game Master for advice, as he or she may allow some form of point or score exchanging.
+Roll 4d6 for each ability score. Reroll any 1s and discard the lowest die.  Assign the results to each ability, described in the [Character Abilities](abilities.qmd#ability-scores) section, as desired.
 
 Write down the ability score bonus (or penalty) for each score beside the score itself, as shown on the table on the next page.
 

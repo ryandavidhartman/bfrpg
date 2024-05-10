@@ -1,19 +1,19 @@
 
-# Introduction
+# Brief history of OnceWas
 
-_It was our third foray into the dungeons beneath the ancient fortress in the middle of the river.  We were on the second level down from the ruins, standing before the great bronze doors beyond which we believed lay the tomb of an ancient barbarian chieftain.  I hadn't believed the tales of the old drunk at the tavern back at Morgansfort, but for some reason Apoqulis, the Cleric, believed him.  Turned out his stories were true… mostly, anyway._
+![](./images/OnceWas.jpg)
 
-_I held a torch for Barthal, the Thief, as he tried briefly to pick the lock.  He turned around and said, "It must be held by magic.  The lock won't even wiggle."_
+_There once was a Great Kingdom. It was ruled by Acererak. He was known as the OverKing, and he had conquered all the land from the Far Away Sea to the Eastern Ocean. During the reign of the Overking, there were advancements in architecture, agriculture and trade. The Great Kingdom flourished for over a hundred years._
 
-_Morningstar, the Elf, smiled.  "I have just the thing," she said, drawing from her backpack the scroll we took from the goblins.  She unrolled it and began to read, and though I couldn't understand her words I could see the characters burning away as she read them, little wisps of smoke as from a candle rising up from each in turn. Seeing that she was nearly through, I turned my attention to the lock.  I'm not sure what I was expecting, but the little puff of dust that came from it as she finished didn't seem like much.  She turned to Barthal and said, "Try again."_
+_As the century passed, the Overking became corrupt and evil. Perhaps he was manipulated by his advisor Iuz, or driven mad by arcane longevity. The OverKing became withdrawn from the world and Iuz ruled as his regent._
 
-_I'm tempted to say that Barthal bent to his work, but he's a Halfling; at just over three feet tall he could look straight into the lock without stooping a bit.  I must have looked impatient, as Apoqulis leaned over to me and said, "Be still, Darion, he'll be through in a moment or two."_
+_Iuz’s rule was chaotic and cruel. He was seen as a parasite over the Great Kingdom. The human fiefs rose up against him. The houses of Dun, Isig, Nyr, Keo and Glant rebelled against the necromancer, marking the beginning of the Great War._
 
-_Then I heard a loud click, and Barthal turned to me with a smile.  "It's open, my friend.  After you!"  I handed him the torch, then stepped to the doors, sword drawn, and Morningstar joined me, likewise ready.  I steeled myself and opened the doors…_
+_The Great Kingdom fell quickly. Iuz created an empire in the North. The House of Dun raised the banner of Dunador. Glantry, Keoland and Isigir rose as individual Kingdoms._
 
-_Beyond lay a stone sarcophagus, resting atop a raised platform.  Strewn about the floor were many human skeletons.  Apoqulis made a sign with his hand that I didn't recognize; then we walked in carefully, trying not to trip over the bones.  I noticed among the bones several bronze swords, covered in verdigris.  I stepped to the sarcophagus.  "The lid is likely very heavy," I said.  "Come, Morningstar, rather than lift it, let's turn it about so we can see what treasures lie inside."_
+_Iuz’s necromancy continued to grow in strength, using dark rituals to steal power and life force. Once beautiful, Iuz now appeared gnarled and old. He was considered the enemy of every sane and free person in Oncewas. His tyranny ended when an alliance of wizards used a powerful magic device to imprison him in the Far Realm._
 
-_Morningstar called "Wait!" but it was too late… I had already laid hands upon the sarcophagus.  The bones on the floor began to rattle, then rose up and assembled themselves in a mockery of life.  Without delay they picked up their swords from the floor and began to attack us.  I would have to wait until later to kick myself, I mused, as I put my back against the sarcophagus and began to fight the monsters…_
+_Hundreds of years have passed and the people of OnceWas barely remember Acererak, the Great Kingdom or Iuz. All that remain are strange ruins and old ghosts._
 
 
 # What is this ?
@@ -37,29 +37,6 @@ If you are to be a player, you should have a pencil, some notebook paper, and a 
 
 If you are the Game Master, you need all of the above. If this is your first time as GM, or you have limited preparation time, you might wish to use a pre-written adventure (called a module) rather than create one yourself.  Several modules are distributed for free on the [basicfantasy.org](https://www.basicfantasy.org/) website; many of the modules available on the website are specifically designed for use with a party of new players.  Adventure modules written for other game systems may also be used, but the Game Master may need to spend some time "converting" such a module before beginning play.
 
-<!-- 
-::: {.column-margin}
-![](./images/d20.jpg){width=50%}
-:::
-
-::: {.column-margin}
-![](./images/d10.jpg){width=50%}
-
-![](./images/d100.jpg){width=50%}
-:::
-
-::: {.column-margin}
-![](./images/d4.jpg){width=50%}
-:::
-
-::: {.column-margin}
-![](./images/d6.jpg){width=50%}
-
-![](./images/d8.jpg){width=50%}
-
-![](./images/d12.jpg){width=50%}
-
-::: -->
 
 # Using the Dice
 
