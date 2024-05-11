@@ -1,16 +1,17 @@
 # Preface {.unnumbered}
 
-This is a Jack Frank's homebrew version of Basic Fantasy made for his Wistful World of OnceWas campaign.  For the original game by Chris Gonnerman please refer to:  the [Basic Fantasy Role-Playing Game](https://www.basicfantasy.org)
+This is Jack Frank's homebrew version of Basic Fantasy, tailored for his Wistful World of OnceWas campaign. For the original game by Chris Gonnerman, please refer to the [Basic Fantasy Role-Playing Game](https://www.basicfantasy.org).
 
- ![Yleh](./images/Ylleh.png)
-Some tools to check out: 
+![Yleh](./images/Ylleh.png)
+
+Here are some tools you might find useful:
 
 - [Monster Index](monstersTab.qmd)
 - [Interactive Tools](appendix_interactive.qmd)
 - [Dungeon Maker](appendixMapmaker.qmd)
-- Simple [Character Sheet](char_sheet.qmd) tool that comes along with this SRD
-- Another awesome [Character Sheet](https://codex.quest/) tool created by J. Garrett Vorbeck. 
+- A simple [Character Sheet](char_sheet.qmd) tool
+- Another excellent [Character Sheet](https://codex.quest/) tool created by J. Garrett Vorbeck.
 
-This website was created by Ryan Hartman based on John Atom's (jmhimara) original code.
+This website was created by Ryan Hartman, based on John Atom's (jmhimara) original code.
 
-All its code and unique content are also distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License**. 
+All code and unique content on this site are also distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License**.

@@ -2,23 +2,58 @@
 
 ## Ability Scores
 
-Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
+Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
 
-| Ability Score | Bonus/Penalty |
-|:------:|:------:|
-| 3 | -3 |
-| 4-5 | -2 |
-| 6-8 | -1 |
-| 9-12 | 0 |
-| 13-15 | +1 |
-| 16-17 | +2 |
-| 18 | +3 |
+<table style="border-collapse: collapse; width: 50%; margin-left: auto; margin-right: auto;">
+  <tr style="background-color: SteelBlue; border: 1px solid black;">
+    <td style="border: 1px solid black;">Ability Score</td>
+    <td style="border: 1px solid black;">Bonus/Penalty</td>
+  </tr>
+  <tr style="background-color: lightgray; border: 1px solid black;">
+    <td style="border: 1px solid black;">3</td>
+    <td style="border: 1px solid black;">-3</td>
+  </tr>
+  <tr style="background-color: lightgray; border: 1px solid black;">
+    <td style="border: 1px solid black;">4-5</td>
+    <td style="border: 1px solid black;">-2</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">6-8</td>
+    <td style="border: 1px solid black;">-1</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">9-12</td>
+    <td style="border: 1px solid black;">0</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">13-15</td>
+    <td style="border: 1px solid black;">+1</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">16-17</td>
+    <td style="border: 1px solid black;">+2</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">18</td>
+    <td style="border: 1px solid black;">+3</td>
+  </tr>
+  <tr style="background-color: lightgray; border: 1px solid black;">
+    <td style="border: 1px solid black;">19</td>
+    <td style="border: 1px solid black;">+4</td>
+  </tr>
+  <tr style="background-color: lightgray; border: 1px solid black;">
+    <td style="border: 1px solid black;">20</td>
+    <td style="border: 1px solid black;">+5</td>
+  </tr>
+</table>
+
+
 
 **Strength:** As the name implies, this ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](combat.qmd#damage) section for details).
 
-**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users). The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character is able to learn to read and write; if the character has an Intelligence penalty, he or she cannot read more than a word or two, and will only know his or her native language.
+**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character is able to learn to read and write. If the character has an Intelligence penalty, they may struggle with learning languages, being limited to understanding only their native language.
 
-**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for [Clerics](class.qmd#cleric). The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
+**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for [Clerics](class.qmd#cleric), and they receive a Spell Bonus and bonus to Turn Undead based on their Wisdom score.  The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
 
 **Dexterity:** This ability measures the character's quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty is applied to all [attack rolls](combat.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](combat.qmd#initiative) die roll.
 
@@ -29,9 +64,10 @@ Each character will have a score ranging from 3 to 18 in each of the following a
 #### Stat Roller
 
 ```{ojs}
-import { generalDice } from "./custom.js"
+import { rollAbilityScore } from "./custom.js"
 
-viewof statRolls = Inputs.button("Roll Stats", {value: null, reduce: () => [generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0)]})
+viewof statRolls = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Stats</button>`, {value: null, reduce: () => [rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore()]})
+
 ```
 
 
@@ -39,15 +75,6 @@ viewof statRolls = Inputs.button("Roll Stats", {value: null, reduce: () => [gene
 import { calculateModifier } from "./custom.js"
 {
     var x = ""
-/*     if (statRolls != null){
-        x = md`<br>${statRolls[0]} &emsp; (${calculateModifier(statRolls[0])}) 
-        <br>${statRolls[1]} &emsp; (${calculateModifier(statRolls[1])})
-        <br>${statRolls[2]} &emsp; (${calculateModifier(statRolls[2])})
-        <br>${statRolls[3]} &emsp; (${calculateModifier(statRolls[3])}) 
-        <br>${statRolls[4]} &emsp; (${calculateModifier(statRolls[4])}) 
-        <br>${statRolls[5]} &emsp; (${calculateModifier(statRolls[5])})`
-    } else {x = md`<br><b>Press button to roll stats<b>`} */
-
     if (statRolls != null) {
         x = html`<br><table style="max-width:20%;">
                     <tr>
@@ -92,6 +119,21 @@ First level characters begin play with a single hit die of the given type, plus 
 
 ## Languages
 
-All characters begin the game knowing their native language. In most campaign worlds, Humans all (or nearly all) speak the same language, often called "Common." Each demi-human race has its own language, i.e. Elvish, Dwarvish, or Halfling, and members of the demi-human races begin play knowing both their own language and Common (or the local Human language if it isn't called Common).
+There are twelve languages in the OnceWas:
 
-Characters with Intelligence of 13 or higher may choose to begin the game knowing one or more languages other than those given above; the number of additional languages that may be learned is equal to the Intelligence bonus (+1, +2, or +3). Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orc, Goblin, etc. The GM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language "slots" open, to be filled during play. Some Game Masters may even allow player characters to learn exotic languages such as Dragon; also, "dead" or otherwise archaic languages might be allowed to more scholarly characters.
+1. Common
+2. Ancient Tongue (from the Age of Dragons, before the Age of Man)
+3. Elvish or Sylvan
+4. Dwarven or the Under Tongue
+5. Northern or the Cold Tongue
+6. Sunndi or the Desert Tongue
+7. Orkish (goblins, bugbears, gnolls, etc. all speak this)
+8. Draconic (dragons, lizardmen, kobolds, etc. all speak this)
+9. Abysmal or Demonic
+10. Arcane or Magic Tongue
+11. Thieve’s Cant to Thieve’s Tongue
+12. Druidic
+
+ All characters speak Common. Elves and Dwarves know their language as well
+
+Characters with Intelligence of 13 or higher may choose to begin the game knowing one or more languages other than those given above; the number of additional languages that may be learned is equal to the Intelligence bonus (+1, +2, or +3). Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orkish, etc. The GM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language "slots" open, to be filled during play. Some Game Masters may even allow player characters to learn exotic languages such as Draconic; also, "dead" or otherwise archaic languages might be allowed to more scholarly characters.
