@@ -12,7 +12,7 @@
 ```{ojs}
 viewof gridsize = Inputs.text({placeholder:"Grid Size"})
 
-viewof grid1 = Inputs.button("Create Grid", {reduce: () =>  draw(Number(gridsize))})
+viewof grid1 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Create Grid</button>`, {reduce: () =>  draw(Number(gridsize))})
 
 ```
 
@@ -23,7 +23,7 @@ size = 30
 viewof form = Inputs.form(
   {
     button1: "  ",
-    button2: Inputs.button("Delete Grid", {reduce: () => resetGrid()})
+    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">Delete Grid</button>`, {reduce: () => resetGrid()})
   },
   {
     template: (formParts) => htl.html`
@@ -293,5 +293,5 @@ exportBtn.addEventListener('click', function() {
 ::: 
 
 ```{ojs}
-Inputs.button("Export to PNG", {reduce: () => exportToImage(size, "png", Number(gridsize), grid1.col, grid1.chars)})
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Export to PNG</button>`, {reduce: () => exportToImage(size, "png", Number(gridsize), grid1.col, grid1.chars)})
 ```

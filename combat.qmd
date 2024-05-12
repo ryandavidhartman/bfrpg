@@ -36,7 +36,7 @@ In cases where the reaction of the monsters to the party is not obvious, a **re
 
 import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
 
-viewof mreaction = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRowRet("#monster-reaction", generalTableSelect2([2,6,0],[[2,2],[3,7],[8,11],[12,12]]))})
+viewof mreaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#monster-reaction", generalTableSelect2([2,6,0],[[2,2],[3,7],[8,11],[12,12]]))})
 md`2d6: ${mreaction}`
 ```
 

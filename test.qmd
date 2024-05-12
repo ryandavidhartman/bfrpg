@@ -7,7 +7,7 @@ execute:
 ---
 
 ```{ojs}
-viewof x = Inputs.button("Button")
+viewof x = Inputs.button(html`<button style="color: black; background-color: lightgray;">Button</button>`)
 ```
 
 ```{=html}

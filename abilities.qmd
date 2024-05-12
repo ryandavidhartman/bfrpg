@@ -5,10 +5,12 @@
 Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
 
 <table style="border-collapse: collapse; width: 50%; margin-left: auto; margin-right: auto;">
-  <tr style="background-color: SteelBlue; border: 1px solid black;">
-    <td style="border: 1px solid black;">Ability Score</td>
-    <td style="border: 1px solid black;">Bonus/Penalty</td>
-  </tr>
+  <thead>
+    <tr>
+     <th style="background-color: lightblue; border: 1px solid black;">Ability Score</th>
+     <th style="background-color: lightblue;border: 1px solid black;">Bonus/Penalty</th>
+    </tr>
+  </thead>
   <tr style="background-color: lightgray; border: 1px solid black;">
     <td style="border: 1px solid black;">3</td>
     <td style="border: 1px solid black;">-3</td>
@@ -131,7 +133,7 @@ There are twelve languages in the OnceWas:
 8. Draconic (dragons, lizardmen, kobolds, etc. all speak this)
 9. Abysmal or Demonic
 10. Arcane or Magic Tongue
-11. Thieve’s Cant to Thieve’s Tongue
+11. Thieve’s Cant or Thieve’s Tongue
 12. Druidic
 
  All characters speak Common. Elves and Dwarves know their language as well

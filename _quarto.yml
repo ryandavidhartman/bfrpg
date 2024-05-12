@@ -5,7 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank"
-  date: "5/9/2024"  
+  date: "5/11/2024"  
   chapters:
     - index.qmd
     - part: Introduction
@@ -45,6 +45,9 @@ book:
       chapters: 
         - gm01.qmd
         - gm02.qmd
+    - part: The World of OnceWas
+      chapters:
+        - gods.qmd    
     - part: Appendix
       chapters:
         - appendix_interactive.qmd

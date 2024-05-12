@@ -139,7 +139,7 @@ Duration: level+1d4 rounds
 
 import {rolld4} from "./custom.js"
 
-viewof click = Inputs.button("Roll 1d4", {value: 0, reduce: () => rolld4()})
+viewof click = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll 1d4</button>`, {value: 0, reduce: () => rolld4()})
 ```
 
 
@@ -259,7 +259,7 @@ This spell causes up to 3d6 living creatures within a 30' radius circle around t
 
 import {confusionTable, highlightTableRow} from "./custom.js"
 
-viewof gemJewel3 = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
+viewof gemJewel3 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
 
 ```
 
@@ -2057,7 +2057,7 @@ Roll on the following table to determine what sort of creature the character bec
 
 import {generalTableSelect} from "./custom.js"
 
-viewof reincarnate = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#reincarnate-spell", generalTableSelect([1,100,0],[[1,1],[2,15],[16,29],[30,30],[31,39],[40,46],[47,60],[61,88],[89,91],[92,93],[94,98],[99,100]]))})
+viewof reincarnate = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#reincarnate-spell", generalTableSelect([1,100,0],[[1,1],[2,15],[16,29],[30,30],[31,39],[40,46],[47,60],[61,88],[89,91],[92,93],[94,98],[99,100]]))})
 
 ```
 <br>

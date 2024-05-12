@@ -6,11 +6,11 @@
 
 ```{ojs}
 
-import {generalDice, calculateModifier} from "./custom.js"
+import {generalDice, calculateModifier, rollAbilityScore} from "./custom.js"
 
 
 
-viewof statrolls = Inputs.button("Roll Statistics", {reduce: () => [generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0),generalDice(3,6,0)]}
+viewof statrolls = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Stats</button>`, {reduce: () => [rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore()]}
 
 )
 ```
@@ -30,7 +30,7 @@ viewof statrolls = Inputs.button("Roll Statistics", {reduce: () => [generalDice(
 ```{ojs}
 
 
-viewof goldRoll = Inputs.button("Roll Gold (3d6 x 10)", {value: 0, reduce: () => {
+viewof goldRoll = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Gold (3d6 x 10)</button>`, {value: 0, reduce: () => {
   let temp = (10 * generalDice(3,6,0));
   set (viewof startingGold, temp);
   return temp}})
@@ -102,7 +102,7 @@ miscItems = items.map(x => x[0])
 mutable myarray = []
 
 
-viewof b = Inputs.button("add selected", {
+viewof b = Inputs.button(html`<button style="color: black; background-color: lightgray;">add selected</button>`, {
     reduce: () => mutable myarray = [...mutable myarray].concat(items) })
 ```
 
@@ -118,7 +118,7 @@ viewof inventory = Inputs.select(myarray, {multiple:true
 
 ```{ojs}
 
-viewof c = Inputs.button("remove selected", {
+viewof c = Inputs.button(html`<button style="color: black; background-color: lightgray;">remove selected</button>`, {
     reduce: () => mutable myarray = [...mutable myarray].filter(item => !inventory.includes(item)) })
 ```
 

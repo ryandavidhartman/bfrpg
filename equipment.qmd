@@ -19,7 +19,7 @@ First level characters generally begin the game with 3d6 x 10 gp (unless the GM 
 ```{ojs}
 import { generalDice } from "./custom.js"
 
-viewof goldRoll = Inputs.button("Roll Starting Gold", {value: 0, reduce: () => (10 * generalDice(3,6,0))})
+viewof goldRoll = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Starting Gold</button>`, {value: 0, reduce: () => (10 * generalDice(3,6,0))})
 ```
 
 **Starting Gold**: ${goldRoll}

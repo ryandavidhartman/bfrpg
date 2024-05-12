@@ -21,7 +21,7 @@ In an average dungeon, a wandering monster encounter will occur on a roll of 1 o
 
 import {generalTableSelect, highlightTableRow} from "./custom.js"
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#dungeon-encounters-1", 
 generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})
@@ -50,7 +50,7 @@ generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[
 
 ```{ojs}
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#dungeon-encounters-2", 
 generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})
@@ -84,7 +84,7 @@ To check for a wilderness encounter, roll 1d6; on a roll of 1, an encounter occu
 
 ```{ojs}
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#wilderness-encounters-1", 
 generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
@@ -115,7 +115,7 @@ generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 
 
 ```{ojs}
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#wilderness-encounters-2", 
 generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
@@ -145,7 +145,7 @@ generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 
 
 ```{ojs}
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#wilderness-encounters-3", 
 generalTableSelect([2,8,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12],[ 13, 13],[ 14, 14], [ 15, 15],[ 16, 16]]))})
@@ -183,7 +183,7 @@ The GM is encouraged to create his or her own encounter tables for use in each c
 
 ```{ojs}
 
-Inputs.button("Roll on Table", 
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#city-encounters", 
 generalTableSelect([2,6,0],[[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[ 6 , 6 ],[ 7 , 7 ],[ 8 , 8 ],[ 9 , 9 ],[ 10, 10],[ 11, 11],[ 12, 12]]))})

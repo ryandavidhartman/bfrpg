@@ -68,7 +68,7 @@ viewof torch = Inputs.input(0)
 
 htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle"> 
 <div>
-${Inputs.bind(Inputs.button("Torch Turns (1d4+4)", {value: 0, reduce: () => (4 + rolld4() )}), viewof torch)}
+${Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;">Torch Turns (1d4+4)</button>`, {value: 0, reduce: () => (4 + rolld4() )}), viewof torch)}
 </div><div>
 Torch burn turns = ${torch.value}</div>
 </div>
@@ -84,7 +84,7 @@ Torch burn turns = ${torch.value}</div>
 viewof oil = Inputs.input(0)
 
 htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle">
-${Inputs.bind(Inputs.button("Oil Lantern (1d6 + 18)", {value: 0, reduce: () => (18 + rolld6() )}), viewof oil)}
+${Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;">Oil Lantern (1d6 +18)</button>`, {value: 0, reduce: () => (18 + rolld6() )}), viewof oil)}
 Lantern Turns = ${oil.value}
 </div>
 `
@@ -123,9 +123,9 @@ viewof k = Inputs.input(0)
 
 viewof form = Inputs.form(
   {
-    doors: Inputs.bind(Inputs.button(" 1d6 ", {value: 1, reduce: () => (rolld6() )}), viewof i),
-    forceBars: Inputs.bind(Inputs.button(" Force Bar ", {value: 0, reduce: () => (generalDice(1,20,0) )}), viewof j),
-    forceDoor: Inputs.bind(Inputs.button(" Force Door ", {value: 0, reduce: () => (generalDice(1,10,0) )}), viewof k),
+    doors: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;" 1d6 </button>`, {value: 1, reduce: () => (rolld6() )}), viewof i),
+    forceBars: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Bar </button>`, {value: 0, reduce: () => (generalDice(1,20,0) )}), viewof j),
+    forceDoor: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Door </button>`, {value: 0, reduce: () => (generalDice(1,10,0) )}), viewof k),
   },
   {
     template: (formParts) => htl.html`

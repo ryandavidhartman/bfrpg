@@ -114,7 +114,7 @@ Use the tables below to determine the base value and number found when gems are 
 
 import {highlightTableRow, treasureGeMTable} from "./custom.js"
 
-viewof gemJewel = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry", treasureGeMTable())})
+viewof gemJewel = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#gem-jewelry", treasureGeMTable())})
 
 ```
 
@@ -138,7 +138,7 @@ The values of gems vary from the above for reasons of quality, size, etc. The GM
 
 import {treasureGeMTable2} from "./custom.js"
 
-viewof gemJewel2 = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRow("#gem-jewelry-2", treasureGeMTable2())})
+viewof gemJewel2 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#gem-jewelry-2", treasureGeMTable2())})
 
 ```
 
@@ -160,7 +160,7 @@ viewof gemJewel2 = Inputs.button("Roll on Table", {value: 0, reduce: () => highl
 
 import {generalTableSelect} from "./custom.js"
 
-viewof gemJewel3 = Inputs.button("Roll on Table", 
+viewof gemJewel3 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#gem-jewelry-3", 
 generalTableSelect([1,100,0],[[1,5],[6,12],[13,20],[21,30],[31,40],[41,43],[44,48],[49,57],[58,63],[64,68],[69,78],[79,88],[89,91],[92,95],[96,100]]))})
@@ -196,7 +196,7 @@ Standard items of jewelry are valued at 2d8x100 gp value. The table below can be
 
 import {treasureGeMTable4, highlightTableCell} from "./custom.js"
 
-viewof gemJewel4 = Inputs.button("Roll on Table", {value: 0, reduce: () => {var temp = treasureGeMTable4(); highlightTableCell("#gem-jewelry-4", temp[0], temp[1])}})
+viewof gemJewel4 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => {var temp = treasureGeMTable4(); highlightTableCell("#gem-jewelry-4", temp[0], temp[1])}})
 
 ```
 

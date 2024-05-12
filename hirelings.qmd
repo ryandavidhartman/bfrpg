@@ -14,7 +14,7 @@ If the player character is successful, one or more NPCs will present themselves 
 
 import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
 
-viewof reaction = Inputs.button("Roll on Table", {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([2,6,0],[[2,2],[3,5],[6,8],[9,11],[12,12]]))})
+viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([2,6,0],[[2,2],[3,5],[6,8],[9,11],[12,12]]))})
 md`2d6: ${reaction}`
 ```
 
