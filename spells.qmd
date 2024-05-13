@@ -14,6 +14,157 @@ Clerics receive their spells through faith and prayer. Each day, generally in th
 
 Because they gain their spells through prayer, a Cleric may prepare any spell of any level he or she is able to cast. However, in some cases the Cleric's deity may limit the availability of certain spells; for instance, a deity devoted to healing may refuse to grant reversed healing spells.
 
+::: {.callout-tip icon=false collapse=true}
+
+## Level 0, Clerical (Orisons)
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Minor Wounds*
+
+Cleric 0, Druid 0
+
+Range: Touch
+
+Duration: Instantaneous
+
+With this spell the caster heals 1 hit points of damage by laying his or her hand upon the injured creature.
+
+The reverse form of this spell, **cause minor wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
+
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure minor wounds** and healed by **cause minor wounds**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Dowse
+
+Cleric 0, Druid 0
+
+Range: Self
+
+Duration: Contcentration
+
+This minor magical effect allows the caster to sense the presence of potable water using a forked stick (any will do, but some have favorites). While outdoors the dowsing rod will twist to point in the direction of such fresh water up to 1000 feet +100' per level of the caster. Water that is underground, in containers, or within structures can be located within 25 feet +5' per level. The effect lasts as long as the caster maintains concentration.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Guidance*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous
+
+The cleric grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Hallow*
+
+Cleric 0, Druid
+
+Range: Self
+
+Duration: Instantaneous
+
+By chanting holy phrases, the caster makes the 0 foot radius area around him 'hallowed', granting +1 bonus on Healing spells and Turning attempts. The effect continues as long as the caster maintains the chant, but any action other than moving and defending oneself ends the effect. However, the effect lasts one additional round after the chant ends, giving the caster the option to cast or turn once and enjoy the effect himself.
+
+The reverse, **Unhallow**, works in the same manner by granting +1 damage on Inflict spells (reversed healing) makes undead (or vile netherworld inhabitants) harder to Turn by one point (or optionally easier to Command by one point). It likewise lasts one round longer than the chant is maintained.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Meal Blessing
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instaneous
+
+The cleric says this short prayer before a meal to give the diners a blessing. Anyone who eats the meal within twenty minutes heals 1 hit point. The meal must be normally prepared and obtained in a way that the deity permits.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mend
+
+Cleric 0, Druid  0
+
+Range: 10'
+
+Duration: Instantaneous
+
+Mends breaks, dents, and holes in small objects.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Predict Weather
+
+Cleric 0, Druid 0
+
+Range: General surroundings
+
+Duration: Instantaneous
+
+The caster may accurately predict the weather up to 24 hours in advance.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Virtue
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: 1 round
+
+A subject gains one temporary hit point for ten minutes.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ward*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous 
+
+Grants +1 to the subject’s next saving throw. Reversed, this becomes **Curse**, which gives the opposite effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Water to Wine*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous
+
+The cleric may turn one flask or mug of water to wine.  The reverse **Wine to Water** turns a flask of wine to pure water.
+
+:::
+
+:::
 
 ::: {.callout-tip icon=false collapse=true}
 
@@ -21,13 +172,29 @@ Because they gain their spells through prayer, a Cleric may prepare any spell of
 
 ::: {.callout-note icon=false collapse=true}
 
-## Cure Light Wounds*
+## Command
 
 Cleric 1
 
-Range: touch
+Range: 10'
 
-Duration: instantaneous
+Duration: 1 round
+
+The caster speaks a single-word command, which will be obeyed by a single creature within the given range. The command must be given in a language the recipient understands. The recipient will do its best to obey, as long as the command is a clear, imperative verb. "Suicide" isn't a verb. "Die" would cause the recipient to fake death for the duration of the spell (believing it was dead). Typical commands are back, halt, flee, run, stop, fall, fly, go, leave, surrender, sleep, rest, etc.
+
+Undead are not affected. Creatures with Intelligence of 13 or more and creatures with 6 or more hit dice may save vs. Spells to resist.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Light Wounds*
+
+Cleric 1, Druid 1
+
+Range: Touch
+
+Duration: Instantaneous
 
 With this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.
 
@@ -41,9 +208,9 @@ Undead are affected by this spell and its reverse in opposite fashion; they are 
 
 ## Detect Evil*
 
-Range: 60'
-
 Cleric 1, Magic-User 2
+
+Range: 60'
 
 Duration: 1 round/level
 
@@ -59,9 +226,9 @@ Reversed, this spell becomes **detect good**, which works just as described abov
 
 ## Detect Magic
 
-Range: 60'
+Cleric 1, Druid 1, Magic-User 1
 
-Cleric 1, Magic-User 1
+Range: 60'
 
 Duration: 2 turns
 
@@ -71,11 +238,43 @@ The caster of this spell is able to detect enchanted or enspelled objects or cre
 
 ::: {.callout-note icon=false collapse=true}
 
+## Detect Poison
+
+Cleric 1, Druid 1
+
+Range: 1'
+
+Duration: 1 turn + 1 round/level
+
+This spell enables the priest to determine if an object has been poisoned or is poisonous. One object, or one 5-foot cubic mass, can be checked per round. The priest has a 5% chance per level of determining the exact type of poison.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Disruption*
+
+Cleric 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The Disruption spell blesses one blunt melee weapon, be it a mace, hammer, staff, with divine power. When fighting undead creatures or beings of the netherworld (demons, devils, and the like) the weapon is enhanced by +1 to hit and damage. This is in addition to any existing powers for an enchanted weapon.
+
+Any being subject to this bonus that is struck in combat must save versus Magic or be turned, exactly like the cleric ability (see Turning in the core rules), causing the affected monster to flee the area. The character wielding the blessed weapon may opt to not cause the disruption effect, but must declare their intention before their attack roll. The caster can have only one weapon blessed in this manner at a time.
+
+The reverse of this spell **Corruption** works exactly the same against creatures of goodness from various heavenly realms. Only those worshiping vile powers would have access to the reversed version of this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Light*
 
-Range: 120'
+Cleric 1, Druid 1, Magic-User 1
 
-Cleric 1, Magic-User 1
+Range: 120'
 
 Duration: 6 turns + 1/level
 
@@ -91,11 +290,11 @@ Either version of this spell may be used to blind an opponent by means of castin
 
 ::: {.callout-note icon=false collapse=true}
 
-## Protection from Evil*
+## Protection From Evil
 
 Cleric 1, Magic-User 1
 
-Range: touch
+Range: Touch
 
 Duration: 1 turn/level
 
@@ -107,7 +306,7 @@ Second, the barrier blocks any attempt to possess the warded creature (by a magi
 
 Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
 
-Reversed, this spell becomes **protection from good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
+Reversed, this spell becomes **Protection From Good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
 
 :::
 
@@ -119,7 +318,7 @@ Cleric 1
 
 Range: 10'
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions.
 
@@ -129,17 +328,15 @@ This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and 
 
 ## Remove Fear*
 
-Range: touch (120')
-
 Cleric 1
 
-Duration: instantaneous
+Range: Touch (120')
 
-(2 turns)
+Duration: Instantaneous (2 turns)
 
 This spell will calm the creature touched. If the target creature is currently subject to any sort of magical fear, it is allowed a new save vs. Spells to resist that fear, at a bonus of +1 per level of the caster.
 
-The reverse of this spell, **cause fear**, causes one target creature within 120' to become frightened; if the target fails to save vs. Spells, it flees for 2 turns. Creatures with 6 or more hit dice are immune to this effect.
+The reverse of this spell, **Cause Fear**, causes one target creature within 120' to become frightened; if the target fails to save vs. Spells, it flees for 2 turns. Creatures with 6 or more hit dice are immune to this effect.
 
 :::
 
@@ -147,13 +344,29 @@ The reverse of this spell, **cause fear**, causes one target creature within 12
 
 ## Resist Cold
 
-Range: touch
+Cleric 1, Druid 1
 
-Cleric 1
+Range: Touch
 
 Duration: 1 round/level
 
 This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Sanctuary
+
+Cleric 1
+
+Range: Self
+
+Duration: 2 round + 1 round/level
+
+This spell causes opponents to ignore the caster. Any opponent who might otherwise wish to attack or harm the caster must make a successful saving throw vs. Spells in order to do so; if this save fails, that opponent will behave as if the caster is not important and move on to whatever activity it would normally do if the caster were not present.
+
+This spell does not prevent area effect attacks (fireball, ice storm, etc.) from harming the caster. While under protection from the spell, the caster is unable to perform any offensive acts, but may take any other action desired.
 
 :::
 
@@ -167,15 +380,15 @@ This abjuration grants a creature temporary immunity to cold. Minor cold (such a
 
 ## Bless*
 
-Range: 50' radius
-
 Cleric 2
+
+Range: 50' radius
 
 Duration: 1 minute/level
 
 This spell gives the caster and his or her allies (within a 50' radius of the caster) a bonus of +1 on attack rolls, morale checks (for monsters or NPCs allied with the caster), and saving throws against magical **fear**.
 
-The reverse of **bless** is called **bane**. It fills the caster's enemies (within a 50' radius) with fear and doubt, causing each affected creature to suffer a --1 penalty on attack rolls, morale checks, and saving throws against magical **fear**.
+The reverse of **bless** is called **bane**. It fills the caster's enemies (within a 50' radius) with fear and doubt, causing each affected creature to suffer a -1 penalty on attack rolls, morale checks, and saving throws against magical **fear**.
 
 :::
  
@@ -183,9 +396,9 @@ The reverse of **bless** is called **bane**. It fills the caster's enemies (w
 
 ## Charm Animal
 
-Range: 60'
+Cleric 2, Druid 2
 
-Cleric 2
+Range: 60'
 
 Duration: level+1d4 rounds
 
@@ -199,9 +412,9 @@ This spell does not grant the caster any special means of communication with the
 
 ## Find Traps
 
-Range: 30'
-
 Cleric 2
+
+Range: 30'
 
 Duration: 3 turns
 
@@ -211,11 +424,51 @@ This spell permits the caster to detect a variety of traps, both mechanical and 
 
 ::: {.callout-note icon=false collapse=true}
 
+## Gentle Repose
+
+Cleric 2
+
+Range: Touch
+
+Duration: 3 months/level
+
+This spell preserves the remains of a dead creature (including a zombie, if so desired). This prevents any decay of the remains for the duration of the spell. This extends the time limit imposed by raise dead, allowing for a longer time to cast the spells.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Heat Metal
+
+Cleric 2, Druid 2
+
+Range: 25'
+
+Duration: 7 rounds
+
+This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
+
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+
+| Round    | Temperature | Damage |
+|----------|-------------|--------|
+| 1st      | Warm        | None   |
+| 2nd-3rd  | Hot         | 1d4    |
+| 4th-5th  | Searing     | 2d4    |
+| 6th      | Hot         | 1d4    |
+| 7th      | Warm        | None   |
+
+The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Hold Person
 
-Range: 180'
-
 Cleric 2, Magic-User 3
+
+Range: 180'
 
 Duration: 2d8 turns
 
@@ -227,15 +480,30 @@ A winged creature which is paralyzed cannot flap its wings and falls (if in flig
 
 ::: {.callout-note icon=false collapse=true}
 
-## Resist Fire
-
-Range: touch
+## Remove Paralysis
 
 Cleric 2
 
+Range: Touch
+
+Duration: Instantaneous
+
+This spell permits the caster to free the creature touched from paralysis induced either by magical means or by monster attack (e.g. venom or ghouls).
+
+:::
+
+
+::: {.callout-note icon=false collapse=true}
+
+## Resist Fire
+
+Cleric 2, Druid 2
+
+Range: Touch
+
 Duration: 1 round/level
 
-This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a **fireball**), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a **Fireball**), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
 
 :::
 
@@ -243,7 +511,7 @@ This abjuration grants a creature temporary immunity to fire and heat. Minor hea
 
 ## Silence 15' Radius
 
-Cleric 2
+Cleric 2, Druid 2
 
 Range: 360'
 
@@ -257,9 +525,9 @@ Upon the casting of this spell, complete silence prevails within a 15' radius ar
 
 ## Speak with Animals
 
-Cleric 2
+Cleric 2, Druid 2
 
-Range: special
+Range: Special
 
 Duration: 1 turn/4 levels
 
@@ -271,13 +539,13 @@ The caster can comprehend and communicate with any one animal (normal or giant s
 
 ## Spiritual Hammer
 
-Range: 30'
-
 Cleric 2
+
+Range: 30'
 
 Duration: 1 round/level
 
-This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster's normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **dispel magic**, **disintegrate**, or a **rod of cancellation** will dispel it.
+This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster's normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **Dispel Magic**, **Disintegrate**, or a **Rod of Cancellation** will dispel it.
 
 :::
 
@@ -291,9 +559,9 @@ This spell causes a warhammer made of pure force to spring into existence, attac
 
 ## Continual Light*
 
-Range: 360'
-
 Cleric 3, Magic-User 2
+
+Range: 360'
 
 Duration: 1 year/level
 
@@ -309,13 +577,13 @@ The reversed spell, **continual darkness**, causes complete absence of light in
 
 ## Cure Blindness
 
-Range: touch
-
 Cleric 3
 
-Duration: instantaneous
+Range: Touch
 
-With this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including **light** or **continual light**). Blindness caused by a curse cannot be cured by this spell.
+Duration: Instantaneous
+
+With this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including **Light** or **Continual Light**). Blindness caused by a curse cannot be cured by this spell.
 
 :::
 
@@ -323,15 +591,17 @@ With this spell the caster can cure a creature suffering blindness (whether caus
 
 ## Cure Disease*
 
-Range: touch
+Cleric 3, Druid 3
 
-Cleric 3
+Range: Touch
 
-Duration: instantaneous
+Duration: Instantaneous
 
 Cure disease cures all diseases that the subject is suffering from. The spell also kills parasites afflicting the target creature. Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
 
 Note: This spell does not prevent reinfection after a new exposure to the same disease.
+
+The reverse spell **Cause Diseas** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
 
 :::
 
@@ -339,7 +609,7 @@ Note: This spell does not prevent reinfection after a new exposure to the same d
 
 ## Growth of Animals
 
-Cleric 3
+Cleric 3, Druid 3
 
 Range: 60'+10'/level
 
@@ -357,13 +627,13 @@ The spell gives no means of command or influence over the enlarged animals.
 
 ## Locate Object
 
-Range: 360'
-
 Cleric 3, Magic-User 2
+
+Range: 360'
 
 Duration: 1 round/level
 
-This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **clairvoyance** or a **crystal ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
+This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **Clairvoyance** or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
 
 :::
 
@@ -371,15 +641,15 @@ This spell allows the caster to sense the direction of a well-known or clearly v
 
 ## Remove Curse*
 
+Cleric 3, Druid 3, Magic-User 4
+
 Range: 30'
 
-Cleric 3, Magic-User 4
-
-Duration: instantaneous
+Duration: Instantaneous
 
 Remove curse instantaneously removes all curses on an object or a creature. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
 
-The reverse of this spell, **bestow curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
+The reverse of this spell, **Bestow Curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
 
 --4 decrease to an ability score (minimum 1).
 
@@ -387,17 +657,31 @@ The reverse of this spell, **bestow curse**, allows the caster to place a curse
 
 Each round of combat, the target has a 50% chance to act normally; otherwise, it takes no action.
 
-The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **remove curse** spell.
+The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Speak with Dead
-
-Range: 10'
+## Sacrifice*
 
 Cleric 3
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell allows the cleric to transfer any desired number of hit points from himself to the target. The reverse of this spell, **Drain Life**, allows the caster to drain 1d6+1 hp from a creature, with a successful attack roll. The hit points are transferred to the cleric through healing.
+:::
+
+
+::: {.callout-note icon=false collapse=true}
+
+## Speak with Dead
+
+Cleric 3
+
+Range: 10'
 
 Duration: 3 rounds/level
 
@@ -415,15 +699,44 @@ This spell does not affect a corpse that has been turned into an undead creature
 
 ## Striking
 
-Range: touch
-
 Cleric 3
+
+Range: Touch
 
 Duration: 1 round/level
 
 This spell bestows upon one weapon the ability to deal 1d6 points of additional damage. This extra damage is applied on each successful attack for the duration of the spell. It provides no attack bonus, but if cast on a normal weapon, the spell allows monsters only hit by magical weapons to be affected; only the 1d6 points of magical damage applies to such a monster, however.
 
 :::
+
+::: {.callout-note icon=false collapse=true}
+
+## Tongues
+
+Cleric 3, Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Water Breathing
+
+Cleric 3, Druid 3, Magic-User 2
+
+Range: Touch
+
+Duration: 2 hours/level
+
+The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
+
+:::
+
 
 :::
 
@@ -435,7 +748,7 @@ This spell bestows upon one weapon the ability to deal 1d6 points of additional 
 
 ## Animate Dead
 
-Range: touch
+Range: Touch
 
 Cleric 4, Magic-User 5
 
@@ -465,9 +778,9 @@ This spell creates one gallon of water per caster level. Note that one or more v
 
 Cleric 4
 
-Range: touch
+Range: Touch
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell works exactly like **cure light wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **cause serious wounds**, also works exactly like **cause light wounds**, except that it inflicts 2d6 + caster level in damage.
 
@@ -481,7 +794,7 @@ Range: 120'
 
 Cleric 4, Magic-User 3
 
-Duration: instantaneous
+Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
@@ -495,11 +808,11 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
 
 ## Neutralize Poison*
 
-Range: touch
+Range: Touch
 
 Cleric 4
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.
 
@@ -553,7 +866,7 @@ This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (no
 
 ## Commune
 
-Range: self
+Range: Self
 
 Cleric 5
 
@@ -581,7 +894,7 @@ The food that this spell creates is simple fare of the caster's choice, highly n
 
 ## Dispel Evil
 
-Range: touch
+Range: Touch
 
 Cleric 5
 
@@ -641,11 +954,11 @@ A quest (and all effects thereof) can be ended by a **remove curse** spell fro
 
 ## Raise Dead*
 
-Range: touch
+Range: Touch
 
 Cleric 5
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell restores life to a deceased human, demi-human or humanoid. The caster can raise a creature that has been dead for no longer than one day per caster level. In addition, the subject's soul must be free and willing to return. If the subject's soul is not willing to return, the spell does not work.
 
@@ -665,7 +978,7 @@ The reverse of this spell, **slay living**, will kill instantly the creature to
 
 ## True Seeing
 
-Range: touch
+Range: Touch
 
 Cleric 5
 
@@ -743,7 +1056,7 @@ A blade barrier provides cover (+4 bonus to Armor Class) against attacks made th
 
 ## Find the Path
 
-Range: touch
+Range: Touch
 
 Cleric 6
 
@@ -761,7 +1074,7 @@ The spell enables the subject to sense the correct direction that will eventuall
 
 ## Heal*
 
-Range: touch
+Range: Touch
 
 Cleric 6
 
@@ -779,7 +1092,7 @@ Generally, both **heal** and** harm** only affect living creatures. If used 
 
 ## Regenerate
 
-Range: touch
+Range: Touch
 
 Cleric 6
 
@@ -795,7 +1108,7 @@ This spell also heals 3d8 points of damage. Regenerate has no effect on nonlivin
 
 ## Restoration
 
-Range: touch
+Range: Touch
 
 Cleric 6
 
@@ -827,11 +1140,11 @@ The caster can comprehend and communicate with any one monster that is in sight 
 
 ## Word of Recall
 
-Range: self (special)
+Range: Self (special)
 
 Cleric 6
 
-Duration: instantaneous
+Duration: Instantaneous
 
 Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
 
@@ -941,7 +1254,7 @@ Range: 100'+10'/level
 
 Magic User 1
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell causes a missile of magical energy to dart forth from the caster's fingertip and strike its target, which must be at least partially visible to the caster, dealing 1d6+1 points of damage. The missile strikes unerringly. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.
 
@@ -973,7 +1286,7 @@ The range limit of a trigger is 10 feet per caster level, so a 6th-level caster 
 
 Cleric 1, Magic-User 1
 
-Range: touch
+Range: Touch
 
 Duration: 1 turn/level
 
@@ -1031,7 +1344,7 @@ When cast upon any magical text, such as a spellbook or magic-user spell scroll,
 
 ## Shield
 
-Range: self
+Range: Self
 
 Magic User 1
 
@@ -1135,7 +1448,7 @@ By means of this spell the caster is able to see invisible characters, creatures
  
 ## Invisibility
  
-Range: touch
+Range: Touch
 
 Magic User 2
 
@@ -1167,7 +1480,7 @@ The knock spell opens stuck, barred, locked, **held**, or **wizard locked** d
  
 ## Levitate
  
-Range: touch
+Range: Touch
 
 Magic User 2
 
@@ -1215,7 +1528,7 @@ Rock more than 2 inches thick or a thin coating of lead or gold will block the s
  
 ## Mirror Image
  
-Range: self
+Range: Self
 
 Magic User 2
 
@@ -1305,7 +1618,7 @@ This spell enables the caster to see into another area through the eyes of a liv
  
 ## Darkvision
  
-Range: touch
+Range: Touch
 
 Magic User 3
 
@@ -1323,7 +1636,7 @@ Range: 120'
 
 Cleric 4, Magic-User 3
 
-Duration: instantaneous
+Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
@@ -1341,7 +1654,7 @@ Range: 100'+10'/level
 
 Magic User 3
 
-Duration: instantaneous
+Duration: Instantaneous
 
 A fireball spell creates an explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level to every creature within a spherical volume having a 20' radius. A save vs. Spells for half damage is allowed. The explosion creates almost no pressure.
 
@@ -1355,7 +1668,7 @@ The fireball sets fire to combustibles and damages objects in the area. It can m
  
 ## Fly
  
-Range: touch
+Range: Touch
 
 Magic User 3
 
@@ -1405,7 +1718,7 @@ A winged creature which is paralyzed cannot flap its wings and falls (if in flig
  
 Magic User 3
 
-Range: touch
+Range: Touch
 
 Duration: 1 turn/level
 
@@ -1423,7 +1736,7 @@ Range: 50'+10'/level
 
 Magic User 3
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell releases a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level to each creature within its area. A save vs. Spells for half damage is allowed. The bolt begins at the caster's fingertips and extends to the range given. The caster may choose to limit the range of the spell, but the minimum range is 60 feet. The lightning bolt passes through an area 5' wide, arcing and jumping, so that, while it is not actually 5' wide, for game purposes treat it as if it is so.
 
@@ -1437,7 +1750,7 @@ The lightning bolt sets fire to combustibles and damages objects in its path. It
  
 Cleric 4, Magic-User 3
 
-Range: touch
+Range: Touch
 
 Duration: 1 turn/level
 
@@ -1453,7 +1766,7 @@ Reversed, this spell becomes **protection from good 10' radius**, and functions
  
 Magic User 3
 
-Range: self
+Range: Self
 
 Duration: 1 turn/level
 
@@ -1465,7 +1778,7 @@ The caster is completely protected from small sized, non-magical missile attacks
  
 ## Water Breathing
  
-Range: touch
+Range: Touch
 
 Magic User 3
 
@@ -1529,7 +1842,7 @@ Range: 10'
 
 Magic User 4
 
-Duration: instantaneous
+Duration: Instantaneous
 
 The caster of this spell instantly transfers himself or herself, or any single target creature within range, to any spot within 200' plus 20' per caster level. The caster or target creature always arrives at exactly the spot desired, whether the caster visualizes the area or states direction and distance. An unwilling target may save vs. Spells to avoid being transported. Anything worn or carried by the caster or target creature will be transported also, including another character or creature if the transportee can lift it. If the target area is within a solid object, the spell fails automatically.
 
@@ -1621,7 +1934,7 @@ Unwilling targets that successfully save against Polymorph are not affected. The
  
 ## Polymorph Self
  
-Range: self
+Range: Self
 
 Magic User 4
 
@@ -1643,7 +1956,7 @@ Range: 30'
 
 Cleric 3, Magic-User 4
 
-Duration: instantaneous
+Duration: Instantaneous
 
 Remove curse instantaneously removes all curses on an object or a creature. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
 
@@ -1707,7 +2020,7 @@ With this spell the caster creates an invisible magical “eye” through which 
  
 ## Animate Dead
  
-Range: touch
+Range: Touch
 
 Cleric 4, Magic-User 5
 
@@ -1813,7 +2126,7 @@ Passwall creates a passage through wooden, plaster, or stone walls, but not thro
  
 ## Telekinesis
  
-Range: self
+Range: Self
 
 Magic User 5
 
@@ -1827,11 +2140,11 @@ This spell permits the caster to move objects or creatures by concentration alon
  
 ## Teleport
  
-Range: self
+Range: Self
 
 Magic User 5
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell instantly transports the caster to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster). Unwilling creatures are allowed a saving throw vs. Spells to resist the spell, and the caster may need to make an attack roll to make contact with such a creature. Likewise, a successful save vs. Spells will prevent items in a creature's possession from being teleported.
 
@@ -1912,7 +2225,7 @@ Range: 240'
 
 Magic User 6
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit). Excess levels of effectiveness are lost. Each creature affected is allowed to save vs. Death Ray; those that fail the save die immediately. Creatures of 8 or more hit dice or levels are immune to the spell, as are undead monsters, golems, and any other “creature” that is not truly alive.
 
@@ -1926,7 +2239,7 @@ Range: 60'
 
 Magic User 6
 
-Duration: instantaneous
+Duration: Instantaneous
 
 This spell causes a thin, green ray to spring from the caster's pointing finger. Any single creature or object (up to a 10x10x10 foot cube of material) is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature’s equipment is unaffected.
 
@@ -2020,11 +2333,11 @@ This spell creates a quasi-real, illusory version of the caster. The intangible 
  
 ## Reincarnate
  
-Range: touch
+Range: Touch
 
 Magic User 6
 
-Duration: instantaneous
+Duration: Instantaneous
 
 With this spell, the caster brings back a dead character (or humanoid creature) in another body, provided that its death occurred no more than one week before the casting of the spell and the subject's soul is free and willing to return. If the subject's soul is not willing to return, the spell does not work.
 

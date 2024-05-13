@@ -326,19 +326,21 @@ Note that special rules apply to retainers; see the relevant rules in the [Hirel
 
 #### Turning the Undead
 
-Clerics can Turn the undead, that is, drive away undead monsters by means of faith alone. The Cleric brandishes his or her holy symbol and calls upon the power of his or her divine patron. The player rolls 1d20 and tells the GM the result. Note that the player should always roll, even if the GM knows the character can't succeed (or can't fail), as telling the player whether or not to roll may reveal too much.
+Clerics can Turn undead, that is, drive away undead monsters by means of faith alone. The Cleric brandishes their holy symbol and calls upon the power of their divine patron. The player rolls 1d20 and adds their Wisdom Bonus.
 
-The GM looks up the Cleric's level on the Clerics vs. Undead table, and cross-references it with the undead type or Hit Dice. (The Hit Dice row is provided for use with undead monsters not found in the Core Rules; only use the Hit Dice row if the specific type of undead monster is not on the table and no guidance is given in the monster's description.) If the table indicates "No" for that combination, it is not possible for the Cleric to affect that type of undead monster. If the table gives a number, that is the minimum number needed on 1d20 to Turn that sort of undead. If the table says "T" for that combination, that type of undead is automatically affected (no roll needed). If the result shown is a "D," then that sort of undead will be Damaged (and possibly destroyed) rather than merely Turned.
+If the table indicates “No”, it is not possible for the Cleric to affect that type of undead monster. If the table gives a number, that is the minimum number needed on 1d20 to Turn. Areas indicating “T” indicate that this type of undead is automatically affected. If the result shown is a “D,” then the undead is destroyed rather than merely Turned.
 
-If the roll is a success, 2d6 hit dice of undead monsters are affected; surplus hit dice are lost (so if zombies are being Turned and a roll of 7 is made, at most 3 zombies can be Turned), but a minimum of one creature will always be affected if the first roll succeeds.
+If the roll is a success, 2d6 + Wis hit dice of undead monsters are affected. Surplus hit dice are lost (so if zombies are being Turned and a roll of 7 is made, at most 3 zombies can be Turned), but a minimum of one creature will always be affected if the first roll succeeds.
 
-If a mixed group of undead (say, a wight and a pair of zombies) is to be Turned, the player still rolls just once. The result is checked against the weakest sort first (the zombies), and if they are successfully Turned, the same result is checked against the next higher type of undead. Likewise, the 2d6 hit dice are rolled only once. For example, if the group described above is to be Turned by a 2^nd^ level Cleric, he or she would first need to have rolled a 15 or higher to Turn the zombies. If this is a success, 2d6 are rolled; assuming the 2d6 roll is a 7, this would Turn both zombies and leave a remainder of 3 hit dice of effect. Wights are, in fact, 3 hit die monsters, so assuming the original 1d20 roll was a 20, the wight is Turned as well. Obviously, were it a group of 3 zombies and a wight, the 2d6 roll would have to be a total of 9 or higher to affect them all.
+If a mixed group of undead is to be Turned, the result is checked against the weakest first.
 
-If a Cleric succeeds at Turning the undead, but not all undead monsters present are affected, he or she may try again in the next round to affect those which remain. If any roll to Turn the Undead fails, that Cleric may not attempt to Turn Undead again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose.
-
-Undead monsters which are Turned flee from the Cleric and his or her party at maximum movement. If the party pursue and corner the Turned undead, they may resume attacking the party; but if left alone, the monsters will not return or attempt to attack the Cleric or those near him or her for at least 2d4 turns.
+If a Cleric succeeds at Turning the undead, but not all undead monsters present are affected, they may try again in the next round to turn any remaining undead. If any roll to Turn the Undead fails, that Cleric may not attempt to Turn Undead again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose. Turned Undead monsters flee from the Cleric at maximum movement. If the party pursue and corner the Turned undead, they may resume attacking the party; but if left alone, the monsters will not return or attempt to attack the Cleric or those near them for at least 2d4 turns.
 
 Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of the Cleric (roll once and apply the same damage to all undead monsters affected); those reduced to zero hit points are utterly destroyed, being blasted into little more than dust. Those surviving this damage are still Turned as above.
+
+Undead monsters that are destroyed will burst into fiery embers and ash.
+
+Note: Evil clerics can choose to command Undead rather than turn them.
 
 ::: {.column-page-right}
 ::: {.table-responsive}
