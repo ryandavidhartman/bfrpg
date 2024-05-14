@@ -21,14 +21,14 @@ output:
 
 :::{.columns}
 :::{.column}
+<br>
 Clerics fight about as well as Thieves, but not as well as Fighters. They are hardier than Thieves, at least at lower levels, as they are accustomed to physical labor that the Thief would deftly avoid. Clerics can cast [spells of divine nature](spells.qmd#cleric-spells) starting at 2^nd^ level, and they have the power to Turn the Undead, that is, to drive away undead monsters by means of faith alone (see the [Encounter](combat.qmd#turning-the-undead) section for details).
 
 The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score of 9 or higher to become a Cleric. They may wear any armor and have no weapon restrictions.
-
 :::
 
 :::{.column}
-![](images/Cleric.png)
+![](images/cleric.jpg)
 :::
 :::
 
@@ -822,7 +822,38 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 : Magic User Saving Throws {#tbl-save-mage}
 
 ## Thief
+---
+quarto:
+  preamble:
+    - '<style>
+        .columns {
+          display: flex;
+        }
+        .column {
+          flex: 1;
+          margin-right: 20px;
+        }
+      </style>'
+output:
+  pdf_document: default
+---
 
+:::{.columns}
+:::{.column}
+<br>
+Thieves are those who take what they want or need by stealth, disarming traps and picking locks to get to the gold they crave; or “borrowing” money from pockets, beltpouches, etc. right under the nose of the “mark” without the victim ever knowing.
+
+Thieves fight better than Magic-Users but not as well as Fighters. Avoidance of honest work leads Thieves to be less hardy than the other classes, though they do pull ahead of the Magic-Users at higher levels.
+:::
+
+:::{.column}
+![](images/thief.jpg)
+:::
+:::
+
+The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity score of 9 or higher to become a Thief. They may use any weapon, but may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however.
+
+Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the GM may amend this as he or she sees fit. The GM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the GM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the GM might apply a penalty of 20% for the slimy wall.
 
 | Level | Exp. Points | Hit Dice |AB       |
 |--|-----|--|---------|
@@ -847,13 +878,6 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 | 19 | 900,000 | 9d4+20 |+8      |
 | 20 | 975,000 | 9d4+22 |+8      |
 
-Thieves are those who take what they want or need by stealth, disarming traps and picking locks to get to the gold they crave; or “borrowing” money from pockets, beltpouches, etc. right under the nose of the “mark” without the victim ever knowing.
-
-Thieves fight better than Magic-Users but not as well as Fighters. Avoidance of honest work leads Thieves to be less hardy than the other classes, though they do pull ahead of the Magic-Users at higher levels.
-
-The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity score of 9 or higher to become a Thief. They may use any weapon, but may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however.
-
-Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the GM may amend this as he or she sees fit. The GM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the GM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the GM might apply a penalty of 20% for the slimy wall.
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|
