@@ -124,9 +124,1430 @@ The caster may accurately predict the weather up to 24 hours in advance.
 
 ::: {.callout-note icon=false collapse=true}
 
-## Virtue
+## Summon Vermin*
+
+Magic-user 0, Druid 0
+
+Range: 30'
+
+Duration: 1 turn/level
+
+This cantrip/orison summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ward*
 
 Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous 
+
+Grants +1 to the subject’s next saving throw. Reversed, this becomes **Curse**, which gives the opposite effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Water to Wine*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous
+
+The cleric may turn one flask or mug of water to wine.  The reverse **Wine to Water** turns a flask of wine to pure water.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+## Level 1, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Command
+
+Cleric 1
+
+Range: 10'
+
+Duration: 1 round
+
+The caster speaks a single-word command, which will be obeyed by a single creature within the given range. The command must be given in a language the recipient understands. The recipient will do its best to obey, as long as the command is a clear, imperative verb. "Suicide" isn't a verb. "Die" would cause the recipient to fake death for the duration of the spell (believing it was dead). Typical commands are back, halt, flee, run, stop, fall, fly, go, leave, surrender, sleep, rest, etc.
+
+Undead are not affected. Creatures with Intelligence of 13 or more and creatures with 6 or more hit dice may save vs. Spells to resist.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Light Wounds*
+
+Cleric 1, Druid 1
+
+Range: Touch
+
+Duration: Instantaneous
+
+With this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.
+
+The reverse form of this spell, **cause light wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
+
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure light wounds** and healed by **cause light wounds**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Detect Evil*
+
+Cleric 1, Magic-User 2
+
+Range: 60'
+
+Duration: 1 round/level
+
+This spell allows the caster to detect evil; specifically, the caster can detect creatures with evil intentions, magic items with evil enchantments, and possibly extraplanar creatures of evil nature. Normal characters, even “bad” characters, cannot be detected by this spell, as only overwhelming evil is detectable. The caster sees the “evil” creatures or objects with a definite glow around them, but the glow cannot be seen by anyone else.
+
+The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
+
+Reversed, this spell becomes **detect good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Detect Magic
+
+Cleric 1, Druid 1, Magic-User 1
+
+Range: 60'
+
+Duration: 2 turns
+
+The caster of this spell is able to detect enchanted or enspelled objects or creatures within the given range by sight, seeing them surrounded by a pale glowing light. Only the caster sees the glow. Invisible creatures or objects are not detected by this spell, but the emanations of the invisibility magic will be seen as an amorphous glowing fog, possibly allowing the caster (only) to attack the invisible creature at an attack penalty of only -2.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Detect Poison
+
+Cleric 1, Druid 1
+
+Range: 1'
+
+Duration: 1 turn + 1 round/level
+
+This spell enables the priest to determine if an object has been poisoned or is poisonous. One object, or one 5-foot cubic mass, can be checked per round. The priest has a 5% chance per level of determining the exact type of poison.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Disruption*
+
+Cleric 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The Disruption spell blesses one blunt melee weapon, be it a mace, hammer, staff, with divine power. When fighting undead creatures or beings of the netherworld (demons, devils, and the like) the weapon is enhanced by +1 to hit and damage. This is in addition to any existing powers for an enchanted weapon.
+
+Any being subject to this bonus that is struck in combat must save versus Magic or be turned, exactly like the cleric ability (see Turning in the core rules), causing the affected monster to flee the area. The character wielding the blessed weapon may opt to not cause the disruption effect, but must declare their intention before their attack roll. The caster can have only one weapon blessed in this manner at a time.
+
+The reverse of this spell **Corruption** works exactly the same against creatures of goodness from various heavenly realms. Only those worshiping vile powers would have access to the reversed version of this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Light*
+
+Cleric 1, Druid 1, Magic-User 1
+
+Range: 120'
+
+Duration: 6 turns + 1/level
+
+This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
+
+Reversed, **light** becomes **darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+
+A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
+
+Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **light** or **darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Protection From Evil
+
+Cleric 1, Magic-User 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
+
+First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual GM to decide.
+
+Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
+
+Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
+
+Reversed, this spell becomes **Protection From Good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Purify Food and Water
+
+Cleric 1
+
+Range: 10'
+
+Duration: Instantaneous
+
+This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Remove Fear*
+
+Cleric 1
+
+Range: Touch (120')
+
+Duration: Instantaneous (2 turns)
+
+This spell will calm the creature touched. If the target creature is currently subject to any sort of magical fear, it is allowed a new save vs. Spells to resist that fear, at a bonus of +1 per level of the caster.
+
+The reverse of this spell, **Cause Fear**, causes one target creature within 120' to become frightened; if the target fails to save vs. Spells, it flees for 2 turns. Creatures with 6 or more hit dice are immune to this effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Resist Cold
+
+Cleric 1, Druid 1
+
+Range: Touch
+
+Duration: 1 round/level
+
+This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Sanctuary
+
+Cleric 1
+
+Range: Self
+
+Duration: 2 round + 1 round/level
+
+This spell causes opponents to ignore the caster. Any opponent who might otherwise wish to attack or harm the caster must make a successful saving throw vs. Spells in order to do so; if this save fails, that opponent will behave as if the caster is not important and move on to whatever activity it would normally do if the caster were not present.
+
+This spell does not prevent area effect attacks (fireball, ice storm, etc.) from harming the caster. While under protection from the spell, the caster is unable to perform any offensive acts, but may take any other action desired.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+## Level 2, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Bless*
+
+Cleric 2
+
+Range: 50' radius
+
+Duration: 1 minute/level
+
+This spell gives the caster and his or her allies (within a 50' radius of the caster) a bonus of +1 on attack rolls, morale checks (for monsters or NPCs allied with the caster), and saving throws against magical **fear**.
+
+The reverse of **bless** is called **bane**. It fills the caster's enemies (within a 50' radius) with fear and doubt, causing each affected creature to suffer a -1 penalty on attack rolls, morale checks, and saving throws against magical **fear**.
+
+:::
+ 
+::: {.callout-note icon=false collapse=true}
+
+## Charm Animal
+
+Cleric 2, Druid 2
+
+Range: 60'
+
+Duration: level+1d4 rounds
+
+This spell allows the caster to charm one or more animals, in much the same fashion as **charm person**, at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
+
+This spell does not grant the caster any special means of communication with the affected animals; if combined with **speak with animals**, this spell becomes significantly more useful.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Find Traps
+
+Cleric 2
+
+Range: 30'
+
+Duration: 3 turns
+
+This spell permits the caster to detect a variety of traps, both mechanical and magical. When the caster moves within 30’ of a trap, he or she will see it glow with a faint greenish-blue aura. The caster is not, however, able to detect certain natural hazards such as quicksand, a sinkhole, or unsafe walls of natural rock. The spell also does not bestow the caster with the knowledge needed to disarm the trap, nor any details about its type or nature.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gentle Repose
+
+Cleric 2
+
+Range: Touch
+
+Duration: 3 months/level
+
+This spell preserves the remains of a dead creature (including a zombie, if so desired). This prevents any decay of the remains for the duration of the spell. This extends the time limit imposed by raise dead, allowing for a longer time to cast the spells.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Heat Metal
+
+Cleric 2, Druid 2
+
+Range: 25'
+
+Duration: 7 rounds
+
+This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
+
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+
+| Round    | Temperature | Damage |
+|----------|-------------|--------|
+| 1st      | Warm        | None   |
+| 2nd-3rd  | Hot         | 1d4    |
+| 4th-5th  | Searing     | 2d4    |
+| 6th      | Hot         | 1d4    |
+| 7th      | Warm        | None   |
+
+The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Hold Person
+
+Cleric 2, Magic-User 3
+
+Range: 180'
+
+Duration: 2d8 turns
+
+This spell will render any living (not undead) human, demi-human or humanoid creature paralyzed. Creatures larger than ogres will not be affected by this spell. Targets of the spell are aware, and breathe normally, but cannot take any actions, including speech. A successful save vs. Spells will negate the effect. The spell may be cast at a single person, who makes his or her save at -2, or at a group, in which case 1d4 of the creatures in the group may be affected.
+
+A winged creature which is paralyzed cannot flap its wings and falls (if in flight at the time). A paralyzed swimmer can’t swim and may drown.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Remove Paralysis
+
+Cleric 2
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell permits the caster to free the creature touched from paralysis induced either by magical means or by monster attack (e.g. venom or ghouls).
+
+:::
+
+
+::: {.callout-note icon=false collapse=true}
+
+## Resist Fire
+
+Cleric 2, Druid 2
+
+Range: Touch
+
+Duration: 1 round/level
+
+This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a **Fireball**), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Silence 15' Radius
+
+Cleric 2, Druid 2
+
+Range: 360'
+
+Duration: 2 rounds/level
+
+Upon the casting of this spell, complete silence prevails within a 15' radius around the target. All sound is stopped: Conversation is impossible, spells cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, making the effect stationary, or it may be cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature receives a save vs. Spells to negate the spell. If an item in another creature’s possession is targeted, that creature also receives a save vs. Spells to negate. This spell provides a defense against sonic or language-based attacks or spells.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Speak with Animals
+
+Cleric 2, Druid 2
+
+Range: Special
+
+Duration: 1 turn/4 levels
+
+The caster can comprehend and communicate with any one animal (normal or giant sized, but not magical or monstrous) that is in sight of the caster and able to hear him or her. The caster may change which animal he or she is speaking with at will, once per round. The spell doesn’t alter the animal’s reaction or attitude towards the caster; a standard reaction roll should be made to determine this. Furthermore, more intelligent animals are likely to be terse and evasive, while less intelligent ones make inane comments. However, if an animal is friendly toward the caster, it may be willing to grant some favor or service.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Spiritual Hammer
+
+Cleric 2
+
+Range: 30'
+
+Duration: 1 round/level
+
+This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster's normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **Dispel Magic**, **Disintegrate**, or a **Rod of Cancellation** will dispel it.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 3, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Continual Light*
+
+Cleric 3, Magic-User 2
+
+Range: 360'
+
+Duration: 1 year/level
+
+This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
+
+As with **light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
+
+The reversed spell, **continual darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Blindness
+
+Cleric 3
+
+Range: Touch
+
+Duration: Instantaneous
+
+With this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including **Light** or **Continual Light**). Blindness caused by a curse cannot be cured by this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Disease*
+
+Cleric 3, Druid 3
+
+Range: Touch
+
+Duration: Instantaneous
+
+Cure disease cures all diseases that the subject is suffering from. The spell also kills parasites afflicting the target creature. Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.
+
+Note: This spell does not prevent reinfection after a new exposure to the same disease.
+
+The reverse spell **Cause Diseas** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Growth of Animals
+
+Cleric 3, Druid 3
+
+Range: 60'+10'/level
+
+Duration: 1 turn/level
+
+This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion).
+
+All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.
+
+The spell gives no means of command or influence over the enlarged animals.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Locate Object
+
+Cleric 3, Magic-User 2
+
+Range: 360'
+
+Duration: 1 round/level
+
+This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **Clairvoyance** or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Remove Curse*
+
+Cleric 3, Druid 3, Magic-User 4
+
+Range: 30'
+
+Duration: Instantaneous
+
+Remove curse instantaneously removes all curses on an object or a creature. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
+
+The reverse of this spell, **Bestow Curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
+
+--4 decrease to an ability score (minimum 1).
+
+--4 penalty on attack rolls and saves.
+
+Each round of combat, the target has a 50% chance to act normally; otherwise, it takes no action.
+
+The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Sacrifice*
+
+Cleric 3
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell allows the cleric to transfer any desired number of hit points from himself to the target. The reverse of this spell, **Drain Life**, allows the caster to drain 1d6+1 hp from a creature, with a successful attack roll. The hit points are transferred to the cleric through healing.
+:::
+
+
+::: {.callout-note icon=false collapse=true}
+
+## Speak with Dead
+
+Cleric 3
+
+Range: 10'
+
+Duration: 3 rounds/level
+
+This spell grants the semblance of life and intellect to a corpse, allowing it to answer several questions that the caster puts to it. The caster may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are often brief, cryptic, or repetitive.
+
+If the corpse has been subject to speak with dead within the past week, the new spell fails. The caster can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.
+
+This spell does not let the caster actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge “stored” in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information. Indeed, it can’t even remember being questioned.
+
+This spell does not affect a corpse that has been turned into an undead creature.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Striking
+
+Cleric 3
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell bestows upon one weapon the ability to deal 1d6 points of additional damage. This extra damage is applied on each successful attack for the duration of the spell. It provides no attack bonus, but if cast on a normal weapon, the spell allows monsters only hit by magical weapons to be affected; only the 1d6 points of magical damage applies to such a monster, however.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Tongues
+
+Cleric 3, Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Water Breathing
+
+Cleric 3, Druid 3, Magic-User 2
+
+Range: Touch
+
+Duration: 2 hours/level
+
+The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
+
+:::
+
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 4, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Animate Dead
+
+Cleric 4, Magic-User 5
+
+Range: Touch
+
+Duration: special
+
+This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Create Water
+
+Cleric 4
+
+Range: 10'
+
+Duration: permanent
+
+This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Serious Wounds*
+
+Cleric 4, Druid 4
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell works exactly like **cure light wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **cause serious wounds**, also works exactly like **cause light wounds**, except that it inflicts 2d6 + caster level in damage.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Dispel Magic
+
+Cleric 4, Magic-User 3
+
+Range: 120'
+
+Duration: Instantaneous
+
+The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
+
+If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **dispel magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
+
+Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **bestow curse** (the reverse of **remove curse**) as well as by cursed items.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
+## Magic Mirror
+
+Cleric 4, Magic-User 4
+
+Range: 10'
+
+Duration: 1 round/level
+
+Turns a reflective surface within range into a magic mirror through which the caster can view other creatures. The caster must know and name the creature. The caster and any other creatures viewing the mirror will be able to see the images, but only the caster will hear sound from the viewing. Detection and vision spells can be cast into it with a 3% chance per caster level of success. If successful, this allows the caster to cast detect magic, see invisible, etc. through the mirror.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Neutralize Poison*
+
+Cleric 4
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.
+
+Reversed, this spell becomes **Poison**. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster's touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Protection from Evil 10' Radius*
+
+Cleric 4, Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell functions exactly as **Protection from Evil**, but with a 10' radius rather than a 1' radius.  All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
+
+Reversed, this spell becomes **Protection from Good 10' Radius**, and functions exactly as the reversed form of **Protection from Evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Speak with Plants
+
+Cleric 4, Druid 4
+
+Range: 20'
+
+Duration: 1 turn
+
+The caster can comprehend and communicate with both normal plants and plant creatures. A normal plant’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity. The spell doesn’t alter the plant’s reaction or attitude towards the caster; however, normal plants will generally communicate freely with the caster, as they have nothing else of importance to do. Intelligent plant creatures are more likely to be terse and evasive, behaving in much the same fashion as any other monster. If a plant creature is friendly toward the caster, it may decide to do some favor or service for him or her. Normal plants are usually not animate, and thus cannot generally perform “services” other than to answer questions.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Sticks to Snakes
+
+Cleric 4, Druid 4
+
+Range: 120'
+
+Duration: 6 turns
+
+This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. (See the **Monsters** section for details on types of snakes.) The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 5, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Commune
+
+Cleric 5
+
+Range: Self
+
+Duration: 1 round/level
+
+This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM's discretion.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Create Food
+
+Cleric 5
+
+Range: 10'
+
+Duration: Permanent
+
+The food that this spell creates is simple fare of the caster's choice, highly nourishing, but rather bland. Up to 3 men or one horse per caster level can be fed for one day with this spell. Food so created decays and becomes inedible within 24 hours, although it can be kept fresh for another 24 hours by casting **Purify Food and Water** on it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Dispel Evil
+
+Cleric 5
+
+Range: Touch
+
+Duration: 1 round/level
+
+This powerful spell aids the caster in dealing with creatures from the nether planes, hereafter called "evil creatures."
+
+First, the caster gains a +4 bonus to Armor Class against attacks by evil creatures.
+
+Second, the caster can choose to drive an evil creature back to its home plane by touch (requiring a successful attack roll). The creature can negate the effects with a successful save vs. Spells. This use discharges and ends the spell, even if the saving throw succeeds.
+
+Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by **Dispel Magic** also can't be dispelled by **Dispel Evil**. Saving throws do not apply to this effect. This use also ends the spell.
+
+The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Insect Plague
+
+Cleric 5, Druid 5
+
+Range: 300'+30'/level
+
+Duration: 1 round/level
+
+This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18th level. See Insect Swarm in the **Monsters** section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Plane Shift
+
+Cleric 5
+
+Range: Touch
+
+Duration: Instantaneous
+
+ When cast, the caster or the creature touched is sent to another plane. If multiple creatures link hands in a circle, up to eight may plane shift. All participants must be willing. If any intended participant is unwilling, the spell fails with no effect. Plane shift is highly inaccurate and while the desired plane or dimension will always be reached, arrival will be 1-100 (d100) miles from the intended destination.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Quest*
+
+Cleric 5
+
+Range: 5'/level
+
+Duration: Special
+
+Quest places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a quest cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
+
+A saving throw vs. Spells will allow an unwilling target to resist a quest when it is first cast. However, the target may choose to accept the quest, typically as part of a bargain with the caster to perform some service.
+
+The affected creature must follow the given instructions until the quest is completed, no matter how long it takes.
+
+If the instructions involve some open-ended task that the recipient cannot complete through his own actions the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions.
+
+If the subject is prevented from obeying the quest for 24 hours, it takes 3d6 points of damage each day.
+
+A quest (and all effects thereof) can be ended by a **Remove Curse** spell from a caster two or more levels higher than the caster of the quest, or by a wish, or by the reverse of this spell. **Dispel Magic** does not affect a **Quest** spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Raise Dead*
+
+Cleric 5
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell restores life to a deceased human, demi-human or humanoid. The caster can raise a creature that has been dead for no longer than one day per caster level. In addition, the subject's soul must be free and willing to return. If the subject's soul is not willing to return, the spell does not work.
+
+Coming back from the dead is an ordeal. The subject of the spell loses one level (or 1 hit die) when it is raised, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1^st^ level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can't be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
+
+Also note, a character who died with spells prepared has none prepared upon being raised.
+
+A raised creature has a number of hit points equal to its current hit dice. Normal poison and normal disease are cured in the process of raising the subject, but magical diseases and curses are not undone. While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. None of the dead creature's equipment or possessions are affected in any way by this spell.
+
+A creature which has become undead can't be raised by this spell. Constructs and elementals cannot be raised. The spell cannot bring back a creature that has died of old age.
+
+The reverse of this spell, **Slay Living**, will kill instantly the creature touched (which may be of any sort, not just a human, demi-human or humanoid) unless a save vs. Spells is made. If the saving throw is successful, 2d6 damage is dealt to the victim instead. An attack roll is required to apply this spell in combat.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ring of Lesser Healing*
+
+Cleric 5
+
+Range: 15' radius
+
+Duration: Instantaneous
+
+This spell allows the caster to create an effect equivalent to the spell **Cure Light Wounds** affecting multiple creatures within a 15' radius. This spell thus cures 1d6+1 points of damage for the caster plus one living creature per 3 caster levels. If more creatures are within the area of effect than the caster may heal, then the caster must choose which creatures receive the healing. Undead affected by this spell suffer damage rather than receiving healing; such a monster is allowed a saving throw vs. Spells to resist this damage fully.
+
+The reverse of this spell, **Ring of Lesser Infliction**, allows the caster to cast **Cause Light Wounds** on multiple creatures within a 15' radius. This form of the spell causes 1d6+1 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
+## True Seeing
+
+Cleric 5
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell confers on the target the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors, sees the exact locations of displaced creatures or objects, sees through normal or magical disguises, sees invisible creatures or objects normally, sees through illusions, and sees the true form of polymorphed, changed, or transmuted things. The range of true seeing conferred is 120 feet.
+
+**True seeing**, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a **Crystal ball** or in conjunction with **Clairvoyance**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wall of Fire
+
+Cleric 5, Druid 5, Magic-User 4
+
+Range: 180'
+
+Duration: 1 round/level (or special)
+
+An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by the caster, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those beyond 10 feet but within 20 feet. The wall deals this damage when it appears and on the caster's turn each round to all creatures in the area. In addition, the wall deals 2d6 points +1 point per caster level of fire damage to any creature passing through it. The wall deals double damage to undead creatures.
+
+The wall is either a sheet of flame up to 20' in length per caster level, or a ring with a radius up to 5' per caster level. The caster may choose to make the wall smaller if desired. The wall may be up to 20' tall (as desired by the caster and/or constrained by the ceiling).
+
+If the caster evokes the wall so that it appears where creatures are, each creature takes damage as if passing through the wall; a save vs. Spells is allowed, with success indicating that damage is rolled as if the creature is within 10' of the wall.
+
+The caster may choose to maintain the spell indefinitely (within reasonable limits of endurance) by concentration, or may cast it with the standard duration of 1 round per level, at his or her option.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wall of Stone
+
+Cleric 5, Druid 5, Magic-User 5
+
+Range: 15'/level
+
+Duration: Permanent
+
+This spell creates a wall of rock that merges into adjoining rock surfaces.  The wall is composed of up to one 10'x10' square section, 1' thick, per caster level.  The caster can double the wall’s area by halving its thickness.  The wall cannot be conjured so that it occupies the same space as a creature or another object.
+
+The caster can create a wall of stone in almost any shape the caster desires.  The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone.  It can be used to bridge a chasm, for instance, or as a ramp.  For this use, if the span is more than 20 feet, the wall must be arched and buttressed, reducing the spell’s area by half.  The wall can also be crudely shaped to create crenelations, battlements, and so forth by similarly reducing the area.
+
+Like any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping.
+
+It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.  Creatures can avoid entrapment with successful saves vs. Death Ray.
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 6, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Animate Objects
+
+Cleric 6
+
+Range: 100'+10'/level
+
+Duration: 1 round/level
+
+This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12th level, 325 lbs. at 13th level, and so on).
+
+The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Blade Barrier
+
+Cleric 6
+
+Range: 90'
+
+Duration: 1 round/level
+
+This spell creates a wall of whirling blades up to 20' long per caster level, or a ringed wall of whirling blades with a radius of up to 5' per two levels. Either form will be up to 20 ft. high (as allowed by available space). Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a save vs. Death Ray reducing damage to half.
+
+If the caster evokes the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful save vs. Death Ray.
+
+A blade barrier provides cover (+4 bonus to Armor Class) against attacks made through it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Find the Path
+
+Cleric 6, Druid 6
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The recipient of this spell can find the shortest, most direct physical route to a specified destination. The caster must have some knowledge about the location; any location the caster has ever visited can be so located, as well as locations described to the caster. Even knowing the name of a location (if it has a name) is enough for this spell to function.
+
+The locale can be outdoors or underground. **Find the path** works with respect to locations, not objects or creatures. The location must be on the same plane as the caster at the time of casting.
+
+The spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take. For example, the spell enables the subject to detect secret doors and to know any passwords required. The spell ends when the destination is reached or the duration expires, whichever comes first.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Heal*
+
+Cleric 6, Druid 6
+
+Range: Touch
+
+Duration: Permanent
+
+Heal enables the caster to wipe away injury and afflictions. It immediately ends any and all of the following adverse conditions affecting the target: ability damage, blindness, confusion, deafness, disease, exhaustion or fatigue, **Feeblemind**, insanity, nausea, and poison. It also restores all but 1d4 of the target's hit points. Heal does not remove negative levels or restore permanently drained ability score points.
+
+The reversed spell, **Harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **Harm** may kill a creature).
+
+Generally, both **Heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Regenerate
+
+Cleric 6, Druid 7
+
+Range: Touch
+
+Duration: Permanent
+
+This spell causes the subject’s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
+
+This spell also heals 3d8 points of damage. Regenerate has no effect on nonliving creatures or constructs (including undead).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Restoration*
+
+Cleric 6
+
+Range: Touch
+
+Duration: Permanent
+
+Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the **Encounter** section) for more details.
+
+Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
+
+Restoration does not restore levels lost due to death (as described for the spell **Raise Dead**).
+
+The reverse, **Energy Drain**, draws away one life energy level like a wight. The energy drain requires the victim to be touched.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Speak with Monsters
+
+Cleric 6, Druid 6
+
+Range: Special
+
+Duration: 1 turn/5 levels
+
+The caster can comprehend and communicate with any one monster that is in sight of the caster and able to hear him or her. The caster may change which monster he or she is speaking with at will, once per round. Others able to understand the language spoken by the target monster (if any) will be able to understand the caster. The spell doesn’t alter the monster’s reaction or attitude towards the caster. Furthermore, more intelligent monsters are likely to be terse and evasive, while less intelligent ones make inane comments. If a monster is friendly toward the caster, it may decide to do some favor or service for him or her. Mindless monsters, plant creatures and undead are unaffected by this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Undeath to Death
+
+Cleric 6, Magic-user (Black) 6
+
+Range: 240'
+
+Duration: Instantaneous
+
+This spell destroys 3d12 hit dice or levels of undead creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit).  Excess levels of effectiveness are lost.  Each undead creature affected is allowed to save vs. Death Ray; those that fail the save are immediately destroyed. 
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
+## Word of Recall
+
+Cleric 6, Druid 6
+
+Range: Self (special)
+
+Duration: Instantaneous
+
+Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
+
+An unwilling creature can’t be teleported by word of recall. Likewise, a creature’s save vs. Spells prevents items in its possession from being teleported.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 7, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Anti-Magic Shell
+
+Cleric 6, Druid 7, Magic-user 6
+
+Range: 10' Radius
+
+Duration: 1 turn/level
+
+Within a 10' radius around the caster, all magic is negated for the full duration of the spell.  Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Astral Projection
+
+Cleric 7, Magic-user 7
+
+Range: Self
+
+Duration: Special
+
+This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.
+
+The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.
+
+This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
+
+Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Control Weather
+
+Cleric 7, Druid 7
+
+Range: 2 miles
+
+Duration: 4d12 hours
+
+The caster can change the weather in the local area. Any kind of weather appropriate to the climate and season of the area may be invoked. It takes 10 minutes for the weather to change to the desired conditions. For the duration of the spell, the caster may again change the conditions, but any such change will take another 10 minutes for the new conditions to arrive.
+
+The caster has control over the general conditions of the weather, such as the direction and force of the winds, whether lightning is occurring, whether there is a tornado, and other directives. But, there is no specific control, so lightning cannot be forced to hit a particular spot and the path of a tornado cannot be dictated.
+
+The spell allows the caster to remove conditions as well as bring them. (For example, an existing tornado can be replaced with calm weather.) At the end of the spell, the current conditions will continue, the caster just won’t be able to control them anymore.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Earthquake
+
+Cleric 7, Druid 7
+
+Range: 400' + 40'/level
+
+Duration: 1 round
+
+When cast, this spell causes a powerful, but localized, earthquake that is 10 feet in diameter per caster level. The shock of the quake will knock down creatures, topple plants, collapse structures, open cracks in the earth, and more. The effect lasts for one round, during which creatures in the affected area cannot move or act. The earthquake affects everything touching the ground in the affected area. The specific effect depends on the type of terrain where the spell is cast:
+
+• Cave, cavern, tunnel: Causes the roof to collapse causing 8d6 damage to everyone in the affected area (save vs. Petrify for half damage), pinning all creatures beneath the rubble. Small rooms and tunnels become completely filled.
+
+• Cliff: Causes a landslide. Any creatures in the path take 8d6 damage (save vs. Petrify for half damage), pinning all creatures beneath the rubble.
+
+• Open ground: All creatures in the area must save vs. Petrify or fall to the ground. Fissures open up and all creatures in the area have a 1 in 4 chance of falling in (save vs. Death Ray to avoid). After the end of the spell, the fissures close up, killing anything that fell in.
+
+• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring hardness. If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
+
+• River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
+
+Any creature pinned by rubble takes 1d6 points of non-lethal damage per minute until rescued or they fall unconscious. Once unconscious, they take 1d6 points of lethal damage per minute until they are rescued or die.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Fire Storm
+
+Cleric 7, Druid 7
+
+Range: 100' + 10'/level
+
+Duration: Instantaneous
+
+This spell causes an area 20’x10’x10’ per caster level to be filled with holy fire. The caster can determine the shape of the area, but the entire area must be contiguous. Any creature in the designated area takes 1d6 points of damage that bypasses any immunity or resistance to fire. Any creature that dies from the damage (or was already dead when the fire storm is cast) is completely consumed by the fire.  The fire only harms creatures and does not affect the surrounding environment.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gate
+
+Cleric 7, Magic-User 7
+
+Range: 120'
+
+Duration: Special
+
+This spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.
+
+The gate appears as a flat circle with a diameter of 5 to 20 feet (caster's choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.
+
+The gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell's duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.
+
+Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
+
+As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Holy Word
+
+Cleric 7
+
+Range: 30'
+
+Duration: Instantaneous
+
+This spell represents the single most powerful word of any cleric's purest faith. When uttered, the cleric pulses with a blinding radiance and all enemies of the cleric within a 30' radius that can hear the caster suffer 2d8 points of damage per level of the cleric. Because of the searing light emanating from him, each enemy within range that can see the cleric must make a save vs. Spells or be blinded. Creatures struck dead by this spell burst into fierce flames and burn down to a fine ash within a single round.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Resurrection
+
+Cleric 7
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell restores life to a deceased creature. The caster can raise a creature that has been dead for no longer than ten years per caster level. In addition, the subject’s soul must be free and willing to return. If the subject’s soul is not willing to return, the spell does not work.
+
+This spell operates similarly to raise dead, but is more powerful. The full body is not required; only a small portion is required, but that portion must have been part of the subject’s body at the time of death. (The dust left from a disintegrate spell counts as the required small portion.) A whole new body is created, so it will be at the peak of health, with full hit points, and all spells prepared at the time of death.
+
+This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1st level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
+
+A creature which has become undead can be resurrected as long as the undead creature has been destroyed. Constructs and elementals cannot be resurrected.
+
+The spell cannot bring back a creature that has died of old age.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ring of Greater Healing*
+
+Cleric 7
+
+Range: 15' radius
+
+Duration: Instantaneous
+
+This spell allows the caster to create an effect equivalent to the spell **Cure Serious Wounds** affecting multiple creatures within a 15' radius. This spell thus cures 3d6+3 points of damage for the caster plus one living creature per 3 caster levels. If more creatures are within the area of effect than the caster may heal, then the caster must choose which creatures receive the healing. Undead affected by this spell suffer damage rather than receiving healing; such a monster is allowed a saving throw vs. Spells to resist this damage fully.
+
+The reverse of this spell, **Ring of Greater Infliction**, allows the caster to cast **Cause Serious Wounds** on multiple creatures within a 15' radius. This form of the spell causes 3d6+3 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wind Walk
+
+Cleric 7
+
+Range: Touch
+
+Duration: 1 hour/level
+
+This spell alters the substance of the caster’s body to a cloud-like vapor (as the **Gaseous Form** spell) and the caster can move through the air, potentially at great speed. Other creatures can be touched by the caster, which causes them to be affected by the spell, too, each of whom acts independently. Up to one additional person per three caster levels my be included in the spell.
+
+While under the spell, a wind walker flies at a speed of 10 feet, able to move any direction at any time. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round, but maneuverability becomes very poor. Wind walkers are not invisible but rather appear misty and translucent. If fully clothed in white, they are likely to be mistaken for clouds, fog, vapors, or the like.
+
+For the duration of the spell, each participant may freely switch between its physical form and its vaporous form as desired, but each change takes five rounds. The caster can dismiss the spell at any time, either individually or for everyone at once.
+
+:::
+
+:::
+
+# Druid Spells
+
+Druids will bring their magic into being by tapping into the innate magic of the natural world, the Elemental Planes and the gods of OnceWas. Each day, generally in the morning, a druid must meditate for at least three turns to prepare spells.  A Druid may prepare any spell of any level they are able to cast. 
+
+::: {.callout-tip icon=false collapse=true}
+
+## Level 0, Druid (Orisons)
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Minor Wounds*
+
+Cleric 0, Druid 0
+
+Range: Touch
+
+Duration: Instantaneous
+
+With this spell the caster heals 1 hit points of damage by laying his or her hand upon the injured creature.
+
+The reverse form of this spell, **cause minor wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
+
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure minor wounds** and healed by **cause minor wounds**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Dowse
+
+Cleric 0, Druid 0
+
+Range: Self
+
+Duration: Contcentration
+
+This minor magical effect allows the caster to sense the presence of potable water using a forked stick (any will do, but some have favorites). While outdoors the dowsing rod will twist to point in the direction of such fresh water up to 1000 feet +100' per level of the caster. Water that is underground, in containers, or within structures can be located within 25 feet +5' per level. The effect lasts as long as the caster maintains concentration.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Guidance*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous
+
+The cleric grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Hallow*
+
+Cleric 0, Druid
+
+Range: Self
+
+Duration: Instantaneous
+
+By chanting holy phrases, the caster makes the 0 foot radius area around him 'hallowed', granting +1 bonus on Healing spells and Turning attempts. The effect continues as long as the caster maintains the chant, but any action other than moving and defending oneself ends the effect. However, the effect lasts one additional round after the chant ends, giving the caster the option to cast or turn once and enjoy the effect himself.
+
+The reverse, **Unhallow**, works in the same manner by granting +1 damage on Inflict spells (reversed healing) makes undead (or vile netherworld inhabitants) harder to Turn by one point (or optionally easier to Command by one point). It likewise lasts one round longer than the chant is maintained.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Meal Blessing
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instaneous
+
+The cleric says this short prayer before a meal to give the diners a blessing. Anyone who eats the meal within twenty minutes heals 1 hit point. The meal must be normally prepared and obtained in a way that the deity permits.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mend
+
+Cleric 0, Druid  0
+
+Range: 10'
+
+Duration: Instantaneous
+
+Mends breaks, dents, and holes in small objects.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Predict Weather
+
+Cleric 0, Druid 0
+
+Range: General surroundings
+
+Duration: Instantaneous
+
+The caster may accurately predict the weather up to 24 hours in advance.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Virtue
+
+Cleric 0
 
 Range: 10'
 
@@ -748,9 +2169,9 @@ The affected creatures can breathe water freely. Divide the duration evenly amon
 
 ## Animate Dead
 
-Range: Touch
-
 Cleric 4, Magic-User 5
+
+Range: Touch
 
 Duration: special
 
@@ -762,9 +2183,9 @@ This spell turns the bones or bodies of dead creatures into undead skeletons or 
 
 ## Create Water
 
-Range: 10'
-
 Cleric 4
+
+Range: 10'
 
 Duration: permanent
 
@@ -776,7 +2197,7 @@ This spell creates one gallon of water per caster level. Note that one or more v
 
 ## Cure Serious Wounds*
 
-Cleric 4
+Cleric 4, Druid 4
 
 Range: Touch
 
@@ -790,9 +2211,9 @@ This spell works exactly like **cure light wounds,** save that it heals 2d6 po
 
 ## Dispel Magic
 
-Range: 120'
-
 Cleric 4, Magic-User 3
+
+Range: 120'
 
 Duration: Instantaneous
 
@@ -806,25 +2227,48 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
 
 ::: {.callout-note icon=false collapse=true}
 
-## Neutralize Poison*
 
-Range: Touch
+## Magic Mirror
 
-Cleric 4
+Cleric 4, Magic-User 4
 
-Duration: Instantaneous
+Range: 10'
 
-This spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.
+Duration: 1 round/level
 
-Reversed, this spell becomes **poison**. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster's touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).
+Turns a reflective surface within range into a magic mirror through which the caster can view other creatures. The caster must know and name the creature. The caster and any other creatures viewing the mirror will be able to see the images, but only the caster will hear sound from the viewing. Detection and vision spells can be cast into it with a 3% chance per caster level of success. If successful, this allows the caster to cast detect magic, see invisible, etc. through the mirror.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Protection from Evil 10' radius*
+## Neutralize Poison*
 
-Spell text 
+Cleric 4
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.
+
+Reversed, this spell becomes **Poison**. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster's touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Protection from Evil 10' Radius*
+
+Cleric 4, Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell functions exactly as **Protection from Evil**, but with a 10' radius rather than a 1' radius.  All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
+
+Reversed, this spell becomes **Protection from Good 10' Radius**, and functions exactly as the reversed form of **Protection from Evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
 
 :::
 
@@ -832,9 +2276,9 @@ Spell text
 
 ## Speak with Plants
 
-Range: 20'
+Cleric 4, Druid 4
 
-Cleric 4
+Range: 20'
 
 Duration: 1 turn
 
@@ -846,9 +2290,9 @@ The caster can comprehend and communicate with both normal plants and plant crea
 
 ## Sticks to Snakes
 
-Range: 120'
+Cleric 4, Druid 4
 
-Cleric 4
+Range: 120'
 
 Duration: 6 turns
 
@@ -866,9 +2310,9 @@ This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (no
 
 ## Commune
 
-Range: Self
-
 Cleric 5
+
+Range: Self
 
 Duration: 1 round/level
 
@@ -880,13 +2324,13 @@ This spell puts the caster in contact with his patron deity or an extraplanar se
 
 ## Create Food
 
-Range: 10'
-
 Cleric 5
 
-Duration: permanent
+Range: 10'
 
-The food that this spell creates is simple fare of the caster's choice, highly nourishing, but rather bland. Up to 3 men or one horse per caster level can be fed for one day with this spell. Food so created decays and becomes inedible within 24 hours, although it can be kept fresh for another 24 hours by casting **purify food and water** on it.
+Duration: Permanent
+
+The food that this spell creates is simple fare of the caster's choice, highly nourishing, but rather bland. Up to 3 men or one horse per caster level can be fed for one day with this spell. Food so created decays and becomes inedible within 24 hours, although it can be kept fresh for another 24 hours by casting **Purify Food and Water** on it.
 
 :::
 
@@ -894,9 +2338,9 @@ The food that this spell creates is simple fare of the caster's choice, highly n
 
 ## Dispel Evil
 
-Range: Touch
-
 Cleric 5
+
+Range: Touch
 
 Duration: 1 round/level
 
@@ -906,7 +2350,7 @@ First, the caster gains a +4 bonus to Armor Class against attacks by evil creatu
 
 Second, the caster can choose to drive an evil creature back to its home plane by touch (requiring a successful attack roll). The creature can negate the effects with a successful save vs. Spells. This use discharges and ends the spell, even if the saving throw succeeds.
 
-Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by **dispel magic** also can't be dispelled by dispel evil. Saving throws do not apply to this effect. This use also ends the spell.
+Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by **Dispel Magic** also can't be dispelled by **Dispel Evil**. Saving throws do not apply to this effect. This use also ends the spell.
 
 The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
 
@@ -916,9 +2360,9 @@ The exact definition of evil is left for the GM to decide; however, extraplanar 
 
 ## Insect Plague
 
-Range: 300'+30'/level
+Cleric 5, Druid 5
 
-Cleric 5
+Range: 300'+30'/level
 
 Duration: 1 round/level
 
@@ -928,13 +2372,27 @@ This spell summons one swarm of locusts per three caster levels, to a maximum of
 
 ::: {.callout-note icon=false collapse=true}
 
-## Quest*
-
-Range: 5'/level
+## Plane Shift
 
 Cleric 5
 
-Duration: special
+Range: Touch
+
+Duration: Instantaneous
+
+ When cast, the caster or the creature touched is sent to another plane. If multiple creatures link hands in a circle, up to eight may plane shift. All participants must be willing. If any intended participant is unwilling, the spell fails with no effect. Plane shift is highly inaccurate and while the desired plane or dimension will always be reached, arrival will be 1-100 (d100) miles from the intended destination.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Quest*
+
+Cleric 5
+
+Range: 5'/level
+
+Duration: Special
 
 Quest places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a quest cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
 
@@ -946,7 +2404,7 @@ If the instructions involve some open-ended task that the recipient cannot compl
 
 If the subject is prevented from obeying the quest for 24 hours, it takes 3d6 points of damage each day.
 
-A quest (and all effects thereof) can be ended by a **remove curse** spell from a caster two or more levels higher than the caster of the quest, or by a wish, or by the reverse of this spell. **Dispel magic** does not affect a **quest** spell.
+A quest (and all effects thereof) can be ended by a **Remove Curse** spell from a caster two or more levels higher than the caster of the quest, or by a wish, or by the reverse of this spell. **Dispel Magic** does not affect a **Quest** spell.
 
 :::
 
@@ -954,9 +2412,9 @@ A quest (and all effects thereof) can be ended by a **remove curse** spell fro
 
 ## Raise Dead*
 
-Range: Touch
-
 Cleric 5
+
+Range: Touch
 
 Duration: Instantaneous
 
@@ -970,23 +2428,40 @@ A raised creature has a number of hit points equal to its current hit dice. Norm
 
 A creature which has become undead can't be raised by this spell. Constructs and elementals cannot be raised. The spell cannot bring back a creature that has died of old age.
 
-The reverse of this spell, **slay living**, will kill instantly the creature touched (which may be of any sort, not just a human, demi-human or humanoid) unless a save vs. Spells is made. If the saving throw is successful, 2d6 damage is dealt to the victim instead. An attack roll is required to apply this spell in combat.
+The reverse of this spell, **Slay Living**, will kill instantly the creature touched (which may be of any sort, not just a human, demi-human or humanoid) unless a save vs. Spells is made. If the saving throw is successful, 2d6 damage is dealt to the victim instead. An attack roll is required to apply this spell in combat.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## True Seeing
-
-Range: Touch
+## Ring of Lesser Healing*
 
 Cleric 5
+
+Range: 15' radius
+
+Duration: Instantaneous
+
+This spell allows the caster to create an effect equivalent to the spell **Cure Light Wounds** affecting multiple creatures within a 15' radius. This spell thus cures 1d6+1 points of damage for the caster plus one living creature per 3 caster levels. If more creatures are within the area of effect than the caster may heal, then the caster must choose which creatures receive the healing. Undead affected by this spell suffer damage rather than receiving healing; such a monster is allowed a saving throw vs. Spells to resist this damage fully.
+
+The reverse of this spell, **Ring of Lesser Infliction**, allows the caster to cast **Cause Light Wounds** on multiple creatures within a 15' radius. This form of the spell causes 1d6+1 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
+## True Seeing
+
+Cleric 5
+
+Range: Touch
 
 Duration: 1 round/level
 
 This spell confers on the target the ability to see all things as they actually are. The subject sees through normal and magical darkness, notices secret doors, sees the exact locations of displaced creatures or objects, sees through normal or magical disguises, sees invisible creatures or objects normally, sees through illusions, and sees the true form of polymorphed, changed, or transmuted things. The range of true seeing conferred is 120 feet.
 
-True seeing, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a **crystal ball** or in conjunction with **clairvoyance**.
+**True seeing**, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a **Crystal ball** or in conjunction with **Clairvoyance**.
 
 :::
 
@@ -994,13 +2469,11 @@ True seeing, however, does not penetrate solid objects. It in no way confers X-r
 
 ## Wall of Fire
 
+Cleric 5, Druid 5, Magic-User 4
+
 Range: 180'
 
-Cleric 5, Magic-User 4
-
-Duration: 1 round/level
-
-(or special)
+Duration: 1 round/level (or special)
 
 An immobile, blazing curtain of shimmering violet fire springs into existence. One side of the wall, selected by the caster, sends forth waves of heat, dealing 2d4 points of fire damage to creatures within 10 feet and 1d4 points of fire damage to those beyond 10 feet but within 20 feet. The wall deals this damage when it appears and on the caster's turn each round to all creatures in the area. In addition, the wall deals 2d6 points +1 point per caster level of fire damage to any creature passing through it. The wall deals double damage to undead creatures.
 
@@ -1010,6 +2483,25 @@ If the caster evokes the wall so that it appears where creatures are, each creat
 
 The caster may choose to maintain the spell indefinitely (within reasonable limits of endurance) by concentration, or may cast it with the standard duration of 1 round per level, at his or her option.
 
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wall of Stone
+
+Cleric 5, Druid 5, Magic-User 5
+
+Range: 15'/level
+
+Duration: Permanent
+
+This spell creates a wall of rock that merges into adjoining rock surfaces.  The wall is composed of up to one 10'x10' square section, 1' thick, per caster level.  The caster can double the wall’s area by halving its thickness.  The wall cannot be conjured so that it occupies the same space as a creature or another object.
+
+The caster can create a wall of stone in almost any shape the caster desires.  The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone.  It can be used to bridge a chasm, for instance, or as a ramp.  For this use, if the span is more than 20 feet, the wall must be arched and buttressed, reducing the spell’s area by half.  The wall can also be crudely shaped to create crenelations, battlements, and so forth by similarly reducing the area.
+
+Like any other stone wall, this one can be destroyed by a disintegrate spell or by normal means such as breaking and chipping.
+
+It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.  Creatures can avoid entrapment with successful saves vs. Death Ray.
 :::
 
 :::
@@ -1022,9 +2514,9 @@ The caster may choose to maintain the spell indefinitely (within reasonable limi
 
 ## Animate Objects
 
-Range: 100'+10'/level
-
 Cleric 6
+
+Range: 100'+10'/level
 
 Duration: 1 round/level
 
@@ -1038,9 +2530,9 @@ The GM must rule on the effectiveness of animated objects in combat. In general,
 
 ## Blade Barrier
 
-Range: 90'
-
 Cleric 6
+
+Range: 90'
 
 Duration: 1 round/level
 
@@ -1056,9 +2548,9 @@ A blade barrier provides cover (+4 bonus to Armor Class) against attacks made th
 
 ## Find the Path
 
-Range: Touch
+Cleric 6, Druid 6
 
-Cleric 6
+Range: Touch
 
 Duration: 1 turn/level
 
@@ -1074,17 +2566,17 @@ The spell enables the subject to sense the correct direction that will eventuall
 
 ## Heal*
 
+Cleric 6, Druid 6
+
 Range: Touch
 
-Cleric 6
+Duration: Permanent
 
-Duration: permanent
+Heal enables the caster to wipe away injury and afflictions. It immediately ends any and all of the following adverse conditions affecting the target: ability damage, blindness, confusion, deafness, disease, exhaustion or fatigue, **Feeblemind**, insanity, nausea, and poison. It also restores all but 1d4 of the target's hit points. Heal does not remove negative levels or restore permanently drained ability score points.
 
-Heal enables the caster to wipe away injury and afflictions. It immediately ends any and all of the following adverse conditions affecting the target: ability damage, blindness, confusion, deafness, disease, exhaustion or fatigue, **feeblemind**, insanity, nausea, and poison. It also restores all but 1d4 of the target's hit points. Heal does not remove negative levels or restore permanently drained ability score points.
+The reversed spell, **Harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **Harm** may kill a creature).
 
-The reversed spell, **harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **harm** may kill a creature).
-
-Generally, both **heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
+Generally, both **Heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
 
 :::
 
@@ -1092,11 +2584,11 @@ Generally, both **heal** and** harm** only affect living creatures. If used 
 
 ## Regenerate
 
+Cleric 6, Druid 7
+
 Range: Touch
 
-Cleric 6
-
-Duration: permanent
+Duration: Permanent
 
 This spell causes the subject’s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
 
@@ -1106,19 +2598,21 @@ This spell also heals 3d8 points of damage. Regenerate has no effect on nonlivin
 
 ::: {.callout-note icon=false collapse=true}
 
-## Restoration
-
-Range: Touch
+## Restoration*
 
 Cleric 6
 
-Duration: permanent
+Range: Touch
+
+Duration: Permanent
 
 Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the **Encounter** section) for more details.
 
 Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
 
-Restoration does not restore levels lost due to death (as described for the spell **raise dead**).
+Restoration does not restore levels lost due to death (as described for the spell **Raise Dead**).
+
+The reverse, **Energy Drain**, draws away one life energy level like a wight. The energy drain requires the victim to be touched.
 
 :::
 
@@ -1126,9 +2620,9 @@ Restoration does not restore levels lost due to death (as described for the spel
 
 ## Speak with Monsters
 
-Cleric 6
+Cleric 6, Druid 6
 
-Range: special
+Range: Special
 
 Duration: 1 turn/5 levels
 
@@ -1138,11 +2632,26 @@ The caster can comprehend and communicate with any one monster that is in sight 
 
 ::: {.callout-note icon=false collapse=true}
 
+## Undeath to Death
+
+Cleric 6, Magic-user (Black) 6
+
+Range: 240'
+
+Duration: Instantaneous
+
+This spell destroys 3d12 hit dice or levels of undead creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit).  Excess levels of effectiveness are lost.  Each undead creature affected is allowed to save vs. Death Ray; those that fail the save are immediately destroyed. 
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Word of Recall
 
-Range: Self (special)
+Cleric 6, Druid 6
 
-Cleric 6
+Range: Self (special)
 
 Duration: Instantaneous
 
@@ -1154,6 +2663,194 @@ An unwilling creature can’t be teleported by word of recall. Likewise, a creat
 
 :::
 
+::: {.callout-tip icon=false collapse=true}
+
+# Level 7, Clerical
+
+::: {.callout-note icon=false collapse=true}
+
+## Anti-Magic Shell
+
+Cleric 6, Druid 7, Magic-user 6
+
+Range: 10' Radius
+
+Duration: 1 turn/level
+
+Within a 10' radius around the caster, all magic is negated for the full duration of the spell.  Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Astral Projection
+
+Cleric 7, Magic-user 7
+
+Range: Self
+
+Duration: Special
+
+This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.
+
+The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.
+
+This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
+
+Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Control Weather
+
+Cleric 7, Druid 7
+
+Range: 2 miles
+
+Duration: 4d12 hours
+
+The caster can change the weather in the local area. Any kind of weather appropriate to the climate and season of the area may be invoked. It takes 10 minutes for the weather to change to the desired conditions. For the duration of the spell, the caster may again change the conditions, but any such change will take another 10 minutes for the new conditions to arrive.
+
+The caster has control over the general conditions of the weather, such as the direction and force of the winds, whether lightning is occurring, whether there is a tornado, and other directives. But, there is no specific control, so lightning cannot be forced to hit a particular spot and the path of a tornado cannot be dictated.
+
+The spell allows the caster to remove conditions as well as bring them. (For example, an existing tornado can be replaced with calm weather.) At the end of the spell, the current conditions will continue, the caster just won’t be able to control them anymore.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Earthquake
+
+Cleric 7, Druid 7
+
+Range: 400' + 40'/level
+
+Duration: 1 round
+
+When cast, this spell causes a powerful, but localized, earthquake that is 10 feet in diameter per caster level. The shock of the quake will knock down creatures, topple plants, collapse structures, open cracks in the earth, and more. The effect lasts for one round, during which creatures in the affected area cannot move or act. The earthquake affects everything touching the ground in the affected area. The specific effect depends on the type of terrain where the spell is cast:
+
+• Cave, cavern, tunnel: Causes the roof to collapse causing 8d6 damage to everyone in the affected area (save vs. Petrify for half damage), pinning all creatures beneath the rubble. Small rooms and tunnels become completely filled.
+
+• Cliff: Causes a landslide. Any creatures in the path take 8d6 damage (save vs. Petrify for half damage), pinning all creatures beneath the rubble.
+
+• Open ground: All creatures in the area must save vs. Petrify or fall to the ground. Fissures open up and all creatures in the area have a 1 in 4 chance of falling in (save vs. Death Ray to avoid). After the end of the spell, the fissures close up, killing anything that fell in.
+
+• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring hardness. If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
+
+• River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
+
+Any creature pinned by rubble takes 1d6 points of non-lethal damage per minute until rescued or they fall unconscious. Once unconscious, they take 1d6 points of lethal damage per minute until they are rescued or die.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Fire Storm
+
+Cleric 7, Druid 7
+
+Range: 100' + 10'/level
+
+Duration: Instantaneous
+
+This spell causes an area 20’x10’x10’ per caster level to be filled with holy fire. The caster can determine the shape of the area, but the entire area must be contiguous. Any creature in the designated area takes 1d6 points of damage that bypasses any immunity or resistance to fire. Any creature that dies from the damage (or was already dead when the fire storm is cast) is completely consumed by the fire.  The fire only harms creatures and does not affect the surrounding environment.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gate
+
+Cleric 7, Magic-User 7
+
+Range: 120'
+
+Duration: Special
+
+This spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.
+
+The gate appears as a flat circle with a diameter of 5 to 20 feet (caster's choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.
+
+The gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell's duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.
+
+Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
+
+As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Holy Word
+
+Cleric 7
+
+Range: 30'
+
+Duration: Instantaneous
+
+This spell represents the single most powerful word of any cleric's purest faith. When uttered, the cleric pulses with a blinding radiance and all enemies of the cleric within a 30' radius that can hear the caster suffer 2d8 points of damage per level of the cleric. Because of the searing light emanating from him, each enemy within range that can see the cleric must make a save vs. Spells or be blinded. Creatures struck dead by this spell burst into fierce flames and burn down to a fine ash within a single round.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Resurrection
+
+Cleric 7
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell restores life to a deceased creature. The caster can raise a creature that has been dead for no longer than ten years per caster level. In addition, the subject’s soul must be free and willing to return. If the subject’s soul is not willing to return, the spell does not work.
+
+This spell operates similarly to raise dead, but is more powerful. The full body is not required; only a small portion is required, but that portion must have been part of the subject’s body at the time of death. (The dust left from a disintegrate spell counts as the required small portion.) A whole new body is created, so it will be at the peak of health, with full hit points, and all spells prepared at the time of death.
+
+This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1st level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
+
+A creature which has become undead can be resurrected as long as the undead creature has been destroyed. Constructs and elementals cannot be resurrected.
+
+The spell cannot bring back a creature that has died of old age.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ring of Greater Healing*
+
+Cleric 7
+
+Range: 15' radius
+
+Duration: Instantaneous
+
+This spell allows the caster to create an effect equivalent to the spell **Cure Serious Wounds** affecting multiple creatures within a 15' radius. This spell thus cures 3d6+3 points of damage for the caster plus one living creature per 3 caster levels. If more creatures are within the area of effect than the caster may heal, then the caster must choose which creatures receive the healing. Undead affected by this spell suffer damage rather than receiving healing; such a monster is allowed a saving throw vs. Spells to resist this damage fully.
+
+The reverse of this spell, **Ring of Greater Infliction**, allows the caster to cast **Cause Serious Wounds** on multiple creatures within a 15' radius. This form of the spell causes 3d6+3 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wind Walk
+
+Cleric 7
+
+Range: Touch
+
+Duration: 1 hour/level
+
+This spell alters the substance of the caster’s body to a cloud-like vapor (as the **Gaseous Form** spell) and the caster can move through the air, potentially at great speed. Other creatures can be touched by the caster, which causes them to be affected by the spell, too, each of whom acts independently. Up to one additional person per three caster levels my be included in the spell.
+
+While under the spell, a wind walker flies at a speed of 10 feet, able to move any direction at any time. If desired by the subject, a magical wind wafts a wind walker along at up to 600 feet per round, but maneuverability becomes very poor. Wind walkers are not invisible but rather appear misty and translucent. If fully clothed in white, they are likely to be mistaken for clouds, fog, vapors, or the like.
+
+For the duration of the spell, each participant may freely switch between its physical form and its vaporous form as desired, but each change takes five rounds. The caster can dismiss the spell at any time, either individually or for everyone at once.
+
+:::
+
+:::
 
 
 # Magic User Spells
