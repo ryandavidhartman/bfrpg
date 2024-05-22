@@ -4,8 +4,8 @@ project:
 
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
-  author: "Jack Frank"
-  date: "5/11/2024"  
+  author: "Jack Frank based on the work of Chris Gonnerman"
+  date: "5/21/2024"  
   chapters:
     - index.qmd
     - part: Introduction

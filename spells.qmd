@@ -30,9 +30,9 @@ Duration: Instantaneous
 
 With this spell the caster heals 1 hit points of damage by laying his or her hand upon the injured creature.
 
-The reverse form of this spell, **cause minor wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
+The reverse form of this spell, **Cause Minor Wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
 
-Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure minor wounds** and healed by **cause minor wounds**.
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Minor Wounds** and healed by **Cause Minor Wounds**.
 
 :::
 
@@ -314,7 +314,7 @@ Reversed, this spell becomes **Protection From Good**. It functions in all ways
 
 ## Purify Food and Water
 
-Cleric 1
+Cleric 1, Druid 1
 
 Range: 10'
 
@@ -1451,9 +1451,9 @@ Duration: Instantaneous
 
 With this spell the caster heals 1 hit points of damage by laying his or her hand upon the injured creature.
 
-The reverse form of this spell, **cause minor wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
+The reverse form of this spell, **Cause Minor Wounds**, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.
 
-Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure minor wounds** and healed by **cause minor wounds**.
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Minor Wounds** and healed by **Cause Minor Wounds**.
 
 :::
 
@@ -1481,7 +1481,7 @@ Range: 10'
 
 Duration: Instantaneous
 
-The cleric grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
+The druid grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
 
 :::
 
@@ -1545,15 +1545,15 @@ The caster may accurately predict the weather up to 24 hours in advance.
 
 ::: {.callout-note icon=false collapse=true}
 
-## Virtue
+## Summon Vermin*
 
-Cleric 0
+Magic-User 0, Cleric 0
 
-Range: 10'
+Range: 30'
 
-Duration: 1 round
+Duration: 1 turn/level
 
-A subject gains one temporary hit point for ten minutes.
+This cantrip summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
 
 :::
 
@@ -1589,21 +1589,37 @@ The cleric may turn one flask or mug of water to wine.  The reverse **Wine to Wa
 
 ::: {.callout-tip icon=false collapse=true}
 
-## Level 1, Clerical
+## Level 1, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
-## Command
+## Animal Friendship
 
-Cleric 1
+Druid 1
+
+Range: 30'
+
+Duration: Permanent
+
+Upon encountering a normal or giant-sized (but not magical) animal, the druid may begin casting this spell, which requires an hour to complete.  During this period the animal will remain nearby, and will not attack the caster or their allies for the duration of the casting (so long as they do not attack or otherwise disturb it).  At the end of the casting, if the animal rolls a successful save vs. Spells, the spell has failed.  At this point the animal acts naturally, without bearing the caster any special ill-will.
+
+If the animal fails its save, it becomes an animal friend and joins the caster for the rest of its natural life, assisting in any way it can.  Both the caster and any other animal friends are treated as treasured partners.  There is no arcane mental connection, nor any particular control, but rather a strong fraternal bond, which should go both ways.  If the animal is treated poorly, or it's love not returned over a period of time, it could attempt another save vs. Spells at the GM's discretion.
+
+A caster may only have, at most, twice their level in hit dice of animal friends.  If this spell is cast on an animal that would put the total above that number, it has no effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Create Water
+
+Cleric 4, Druid 1
 
 Range: 10'
 
-Duration: 1 round
+Duration: permanent
 
-The caster speaks a single-word command, which will be obeyed by a single creature within the given range. The command must be given in a language the recipient understands. The recipient will do its best to obey, as long as the command is a clear, imperative verb. "Suicide" isn't a verb. "Die" would cause the recipient to fake death for the duration of the spell (believing it was dead). Typical commands are back, halt, flee, run, stop, fall, fly, go, leave, surrender, sleep, rest, etc.
-
-Undead are not affected. Creatures with Intelligence of 13 or more and creatures with 6 or more hit dice may save vs. Spells to resist.
+This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
 
 :::
 
@@ -1622,24 +1638,6 @@ With this spell the caster heals 1d6+1 hit points of damage by laying his or her
 The reverse form of this spell, **cause light wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
 
 Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure light wounds** and healed by **cause light wounds**.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Detect Evil*
-
-Cleric 1, Magic-User 2
-
-Range: 60'
-
-Duration: 1 round/level
-
-This spell allows the caster to detect evil; specifically, the caster can detect creatures with evil intentions, magic items with evil enchantments, and possibly extraplanar creatures of evil nature. Normal characters, even “bad” characters, cannot be detected by this spell, as only overwhelming evil is detectable. The caster sees the “evil” creatures or objects with a definite glow around them, but the glow cannot be seen by anyone else.
-
-The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
-
-Reversed, this spell becomes **detect good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 
 :::
 
@@ -1673,19 +1671,59 @@ This spell enables the priest to determine if an object has been poisoned or is 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Disruption*
+## Detect Snares and Pits
 
-Cleric 1
+Druid 1
 
-Range: Touch
+Range: 60'
 
-Duration: 1 turn/level
+Duration: 10 turns
 
-The Disruption spell blesses one blunt melee weapon, be it a mace, hammer, staff, with divine power. When fighting undead creatures or beings of the netherworld (demons, devils, and the like) the weapon is enhanced by +1 to hit and damage. This is in addition to any existing powers for an enchanted weapon.
+By means of this spell, the caster can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials.  The spell does not detect complex traps, including trapdoor traps.
 
-Any being subject to this bonus that is struck in combat must save versus Magic or be turned, exactly like the cleric ability (see Turning in the core rules), causing the affected monster to flee the area. The character wielding the blessed weapon may opt to not cause the disruption effect, but must declare their intention before their attack roll. The caster can have only one weapon blessed in this manner at a time.
+This spell does detect certain natural hazards, for instance quicksand (detected as a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall).  However, it does not reveal other potentially dangerous conditions.  The spell does not detect magic traps (except those that operate by pit, deadfall, or snaring), nor mechanically complex ones, nor those that have been rendered safe or inactive.
 
-The reverse of this spell **Corruption** works exactly the same against creatures of goodness from various heavenly realms. Only those worshiping vile powers would have access to the reversed version of this spell.
+The amount of information revealed depends on how long the Druid studies a particular area.
+
+* 1st Round: Presence or absence of hazards.
+
+* 2nd Round: Number of hazards and the location of each.  If a hazard is outside the Druid's line of sight, then the caster discern its direction but not its exact location.
+
+* Each Additional Round: The general type and trigger for one particular hazard closely examined by the caster.
+
+Each round, the Druid can turn to detect snares and pits in a new area.  The spell can penetrate barriers, but 1 ft of stone, 1 in of common metal, a thin sheet of lead, or 3 ft of wood or dirt blocks it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Entagle
+
+Druid 1
+
+Range: 200'
+
+Duration: 3 rounds/level
+
+This spell causes existing grasses, trees, bushes, shrubs, or other plants to entwine around creatures in a 40 ft x 40 ft area. At the GM's discretion a caster underground may use roots of plants or trees if such are present. Most creatures within the area of effect move at ¼ normal speed; very large and/or very strong creatures (at least as big or strong as a giant or dragon) move at ½ normal speed.
+
+If the creature affected is running at the time the spell is cast, the creature must make a saving throw vs Spell (with Dexterity bonus applied, if any) or trip and become prone and trapped until the end of spell.  Entangled creatures may not attack nor take most actions other than movement due to the interference of the enchanted plants. This spell is only effective in a settings where plants will grow, including wilderness areas, farmland, and earthen-walled tunnels.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Faerie Fire
+
+Druid 1, Magic-User 2
+
+Range: 200’ +10'/level
+
+Duration: 1 minute/level
+
+A pale glow surrounds and outlines all objects including individuals within a 20 ft radius from a point chosen by the caster.  Outlined subjects shed light as candles.  Outlined creatures do not benefit from the concealment normally provided by darkness, and the spell effectively negates the effects of blur, displacement, invisibility, or similar effects. 
+
+The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light.  The faerie fire can be blue, green, or violet, according to your choice at the time of casting.  The faerie fire does not cause any harm to the objects or creatures thus outlined.
 
 :::
 
@@ -1711,23 +1749,15 @@ Either version of this spell may be used to blind an opponent by means of castin
 
 ::: {.callout-note icon=false collapse=true}
 
-## Protection From Evil
+## Pass Without Trace
 
-Cleric 1, Magic-User 1
+Druid 1
 
 Range: Touch
 
-Duration: 1 turn/level
+Duration: 1 hour/level
 
-This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
-
-First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual GM to decide.
-
-Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
-
-Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
-
-Reversed, this spell becomes **Protection From Good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
+This spell permits up to one creature per caster level to  move through any type of terrain, leaving neither footprints nor scent.  Tracking the subjects by non-magical means is thus rendered impossible.
 
 :::
 
@@ -1735,7 +1765,7 @@ Reversed, this spell becomes **Protection From Good**. It functions in all ways
 
 ## Purify Food and Water
 
-Cleric 1
+Cleric 1, Druid 1
 
 Range: 10'
 
@@ -1747,47 +1777,25 @@ This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Remove Fear*
+## Summon Swarm
 
-Cleric 1
+Druid 1, Magic-User 2
 
-Range: Touch (120')
+Range: 60 Yards
 
-Duration: Instantaneous (2 turns)
+Duration: Special
 
-This spell will calm the creature touched. If the target creature is currently subject to any sort of magical fear, it is allowed a new save vs. Spells to resist that fear, at a bonus of +1 per level of the caster.
+The swarm of small animals (roll on following table to determine type, or the DM can assign an appropriate creature) drawn by the summon swarm spell will viciously attack all creatures in a 10 ft by 10ft  area chosen by the caster. Creatures actively defending against the swarm to the exclusion of other activities suffer 1 point of damage for each round spent in the swarm. Those taking other actions, including leaving the swarm, receive damage equal to 1d4 points + 1 point per three levels of the caster each round. Note that spellcasting within the swarm is impossible.
 
-The reverse of this spell, **Cause Fear**, causes one target creature within 120' to become frightened; if the target fails to save vs. Spells, it flees for 2 turns. Creatures with 6 or more hit dice are immune to this effect.
+| Dice Roll | Swarm Type           |
+|-----------|----------------------|
+| 01-40     | Rats                 |
+| 41-70     | Bats                 |
+| 71-80     | Spiders              |
+| 81-90     | Centipedes/beetles   |
+| 91-100    | Flying insects       |
 
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Resist Cold
-
-Cleric 1, Druid 1
-
-Range: Touch
-
-Duration: 1 round/level
-
-This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Sanctuary
-
-Cleric 1
-
-Range: Self
-
-Duration: 2 round + 1 round/level
-
-This spell causes opponents to ignore the caster. Any opponent who might otherwise wish to attack or harm the caster must make a successful saving throw vs. Spells in order to do so; if this save fails, that opponent will behave as if the caster is not important and move on to whatever activity it would normally do if the caster were not present.
-
-This spell does not prevent area effect attacks (fireball, ice storm, etc.) from harming the caster. While under protection from the spell, the caster is unable to perform any offensive acts, but may take any other action desired.
+The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A protection from evil spell keeps the swarm at bay, and certain area-effect spells, such as gust of wind and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a gust of wind). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
 
 :::
 
@@ -2183,7 +2191,7 @@ This spell turns the bones or bodies of dead creatures into undead skeletons or 
 
 ## Create Water
 
-Cleric 4
+Cleric 4, Druid 1
 
 Range: 10'
 
