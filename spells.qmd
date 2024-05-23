@@ -687,7 +687,7 @@ Duration: 3 rounds/level
 
 This spell grants the semblance of life and intellect to a corpse, allowing it to answer several questions that the caster puts to it. The caster may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are often brief, cryptic, or repetitive.
 
-If the corpse has been subject to speak with dead within the past week, the new spell fails. The caster can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.
+If the corpse has been subject to **Speak with Dead** within the past week, the new spell fails. The caster can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.
 
 This spell does not let the caster actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge “stored” in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information. Indeed, it can’t even remember being questioned.
 
@@ -2005,37 +2005,41 @@ Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively wa
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 3, Clerical
+# Level 3, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
-## Continual Light*
+## Assume Animal Form
 
-Cleric 3, Magic-User 2
+Druid 3
 
-Range: 360'
+Range: Self
 
-Duration: 1 year/level
+Duration: 1 hour/level
 
-This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **Light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
+This spell allows the caster to change into the form of any natural animal.  The assumed animal form cannot have more hit dice than the caster's level.  If slain, the caster reverts back to their original form.
 
-As with **Light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
-
-The reversed spell, **Continual Darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
+The caster gains the physical capabilities and statistics of the new form but retains their own mental abilities.  The caster may remain transformed up to one hour per level, or end the spell earlier if the caster so desires.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Cure Blindness
+## Call Lightning
 
-Cleric 3
+Druid 3
 
-Range: Touch
+Range: 100' + 10'/level
 
-Duration: Instantaneous
+Duration: 1 round/level
 
-With this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including **Light** or **Continual Light**). Blindness caused by a curse cannot be cured by this spell.
+Immediately upon completion of the spell, and at most once per round thereafter, the caster may call down a 5 ft wide, 30 ft long vertical bolt of lightning that deals 3d6 points of electricity damage.  The bolt of lightning flashes down in a vertical stroke at whichever target point the caster chooses within the spell’s range (measured from the caster's position at the time of casting).  Any creature in the target area or in the path of the bolt is affected; a successful save vs. Spells reduces damage taken by half.
+
+The caster needs not call a bolt of lightning immediately; other actions, even spellcasting, can be performed.  However, each round after the first the caster may choose to call a bolt instead of taking some other normal action.  The caster may call a total number of bolts equal to one-third of their caster level, rounded down.
+
+If the caster is outdoors and in a stormy area – a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental) – each bolt deals 3d8 points of damage instead of 3d6.
+
+This spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the GM's discretion.
 
 :::
 
@@ -2077,74 +2081,45 @@ The spell gives no means of command or influence over the enlarged animals.
 
 ::: {.callout-note icon=false collapse=true}
 
-## Locate Object
+## Hold Animal
 
-Cleric 3, Magic-User 2
+Druid 3
 
-Range: 360'
+Range: 180'
 
-Duration: 1 round/level
+Duration: 2d8 turns
 
-This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **Clairvoyance** or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Remove Curse*
-
-Cleric 3, Druid 3, Magic-User 4
-
-Range: 30'
-
-Duration: Instantaneous
-
-Remove curse instantaneously removes all curses on an object or a creature. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
-
-The reverse of this spell, **Bestow Curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
-
---4 decrease to an ability score (minimum 1).
-
---4 penalty on attack rolls and saves.
-
-Each round of combat, the target has a 50% chance to act normally; otherwise, it takes no action.
-
-The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
+This spell functions like **Hold Person**, except that it affects only animals; specifically, this means non-magical living creatures of animal intelligence, including giant-sized animals.  A save vs. Spells is allowed to resist this spell.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Sacrifice*
+## Neutralize Poison*
 
-Cleric 3
+Cleric 4, Druid 3
 
 Range: Touch
 
 Duration: Instantaneous
 
-This spell allows the cleric to transfer any desired number of hit points from himself to the target. The reverse of this spell, **Drain Life**, allows the caster to drain 1d6+1 hp from a creature, with a successful attack roll. The hit points are transferred to the cleric through healing.
-:::
+This spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.
 
+Reversed, this spell becomes **Poison**. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster's touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).
+
+:::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Speak with Dead
+## Speak with Dead Animal
 
-Cleric 3
+Druid 3
 
 Range: 10'
 
 Duration: 3 rounds/level
 
-This spell grants the semblance of life and intellect to a corpse, allowing it to answer several questions that the caster puts to it. The caster may ask one question per two caster levels. Unasked questions are wasted if the duration expires. The corpse’s knowledge is limited to what the creature knew during life, including the languages it spoke (if any). Answers are often brief, cryptic, or repetitive.
-
-If the corpse has been subject to speak with dead within the past week, the new spell fails. The caster can cast this spell on a corpse that has been deceased for any amount of time, but the body must be mostly intact to be able to respond. A damaged corpse may be able to give partial answers or partially correct answers, but it must at least have a mouth in order to speak at all.
-
-This spell does not let the caster actually speak to the person (whose soul has departed). It instead draws on the imprinted knowledge “stored” in the corpse. The partially animated body retains the imprint of the soul that once inhabited it, and thus it can speak with all the knowledge that the creature had while alive. The corpse, however, cannot learn new information. Indeed, it can’t even remember being questioned.
-
-This spell does not affect a corpse that has been turned into an undead creature.
-
+**Talk to Jack**
 :::
 
 ::: {.callout-note icon=false collapse=true}
@@ -2275,7 +2250,7 @@ Turns a reflective surface within range into a magic mirror through which the ca
 
 ## Neutralize Poison*
 
-Cleric 4
+Cleric 4, Druid 3
 
 Range: Touch
 
