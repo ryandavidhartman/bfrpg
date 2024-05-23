@@ -1,4 +1,4 @@
-Basic Fantasy Roleplaying Game written in Quarto
+Basic Fantasy Roleplaying Rules modified For [Jack Frank's OnceWas Campaign](https://app.roll20.net/campaigns/details/13769925).
 
 Created by Ryan Hartman based on the excellent work of John Atom [jmhimara](https://github.com/jmhimara/bfrpg).
 
@@ -6,7 +6,8 @@ Work in progress.
 
 License Info: 
 
-Copyright © 2006-2023 Chris Gonnerman
+The [Basic Fantasy Roleplaying game](https://www.basicfantasy.org/)
+Copyright © 2006-2024 Chris Gonnerman
 
 CC-BY-SA 4.0 
 
