@@ -1,6 +1,6 @@
 Basic Fantasy Roleplaying Game written in Quarto
 
-Created by John Atom (jmhimara).
+Created by Ryan Hartman based on the excellent work of John Atom [jmhimara](https://github.com/jmhimara/bfrpg).
 
 Work in progress. 
 
