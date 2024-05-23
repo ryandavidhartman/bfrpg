@@ -342,20 +342,6 @@ The reverse of this spell, **Cause Fear**, causes one target creature within 12
 
 ::: {.callout-note icon=false collapse=true}
 
-## Resist Cold
-
-Cleric 1, Druid 1
-
-Range: Touch
-
-Duration: 1 round/level
-
-This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
 ## Sanctuary
 
 Cleric 1
@@ -492,6 +478,20 @@ This spell permits the caster to free the creature touched from paralysis induce
 
 :::
 
+
+::: {.callout-note icon=false collapse=true}
+
+## Resist Cold
+
+Cleric 2, Druid 2
+
+Range: Touch
+
+Duration: 1 round/level
+
+This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+
+:::
 
 ::: {.callout-note icon=false collapse=true}
 
@@ -1879,27 +1879,49 @@ This spell causes a bank of misty vapor to arise around the caster, remaining st
 
 ::: {.callout-note icon=false collapse=true}
 
-## Heat Metal
+## Produce Flame/Cold
+
+Druid 2
+
+Range: special
+
+Duration: 6 rounds/level
+
+Flames as bright as a torch appear in the caster’s open hand.  The flames don’t harm the caster or their equipment.  Alternatively, a bluish, cold aura may be produced, which also sheds light as bright as torch-light.
+
+In addition to providing illumination, the flames or cold aura can be hurled or used to touch enemies.  The caster can strike an opponent with a melee touch attack, dealing fire or cold damage respectively equal to 1d6, +1 points per caster level (maximum +5). 
+
+Alternatively, the caster can hurl the flames or cold aura up to 50 ft as a thrown weapon.  When doing so, the caster must make an attack roll (with no range penalty), and on a successful hit deals the same damage as the melee attack.  As soon as the caster hurls the flames or cold aura, a new one appears in their hand.  Each attack made reduces the remaining duration by 1 minute.  If an attack reduces the remaining duration to 0 minutes or less, the spell ends with that attack.
+
+Neither variation of this spell functions underwater.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Resist Cold
 
 Cleric 2, Druid 2
 
-Range: 25'
+Range: Touch
 
-Duration: 7 rounds
+Duration: 1 round/level
 
-This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
+This abjuration grants a creature temporary immunity to cold. Minor cold (such as exposure to winter weather in inadequate clothing) is ignored by the affected creature. Against more significant cold (such as the breath of a White Dragon), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
 
-Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+:::
 
-| Round    | Temperature | Damage |
-|----------|-------------|--------|
-| 1st      | Warm        | None   |
-| 2nd-3rd  | Hot         | 1d4    |
-| 4th-5th  | Searing     | 2d4    |
-| 6th      | Hot         | 1d4    |
-| 7th      | Warm        | None   |
+::: {.callout-note icon=false collapse=true}
 
-The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
+## Resist Fire
+
+Cleric 2, Druid 2
+
+Range: Touch
+
+Duration: 1 round/level
+
+This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a **Fireball**), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
 
 :::
 
