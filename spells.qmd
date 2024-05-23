@@ -198,9 +198,9 @@ Duration: Instantaneous
 
 With this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.
 
-The reverse form of this spell, **cause light wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
+The reverse form of this spell, **Cause Light Wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
 
-Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure light wounds** and healed by **cause light wounds**.
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Light Wounds** and healed by **Cause Light Wounds**.
 
 :::
 
@@ -218,7 +218,7 @@ This spell allows the caster to detect evil; specifically, the caster can detect
 
 The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
 
-Reversed, this spell becomes **detect good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
+Reversed, this spell becomes **Detect Good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 
 :::
 
@@ -280,11 +280,11 @@ Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **light** becomes **darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
-Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **light** or **darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
+Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **Light** or **Darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
 
 :::
 
@@ -565,11 +565,11 @@ Range: 360'
 
 Duration: 1 year/level
 
-This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
+This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **Light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
 
-As with **light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
+As with **Light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
 
-The reversed spell, **continual darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
+The reversed spell, **Continual Darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
 
 :::
 
@@ -782,7 +782,7 @@ Range: Touch
 
 Duration: Instantaneous
 
-This spell works exactly like **cure light wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **cause serious wounds**, also works exactly like **cause light wounds**, except that it inflicts 2d6 + caster level in damage.
+This spell works exactly like **Cure Light Wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **Cause Serious Wounds**, also works exactly like **Cause Light Wounds**, except that it inflicts 2d6 + caster level in damage.
 
 :::
 
@@ -798,9 +798,9 @@ Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
-If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **dispel magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
+If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **Dispel Magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
 
-Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **bestow curse** (the reverse of **remove curse**) as well as by cursed items.
+Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **Bestow Curse** (the reverse of **Remove Curse**) as well as by cursed items.
 
 :::
 
@@ -1155,7 +1155,7 @@ Heal enables the caster to wipe away injury and afflictions. It immediately ends
 
 The reversed spell, **Harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **Harm** may kill a creature).
 
-Generally, both **Heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
+Generally, both **Heal** and **Harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
 
 :::
 
@@ -1635,9 +1635,9 @@ Duration: Instantaneous
 
 With this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.
 
-The reverse form of this spell, **cause light wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
+The reverse form of this spell, **Cause Light Wounds**, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.
 
-Undead are affected by this spell and its reverse in opposite fashion; they are injured by **cure light wounds** and healed by **cause light wounds**.
+Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Light Wounds** and healed by **Cause Light Wounds**.
 
 :::
 
@@ -1739,11 +1739,11 @@ Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **light** becomes **darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
-Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **light** or **darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
+Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **Light** or **Darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
 
 :::
 
@@ -1833,7 +1833,7 @@ Duration: Level+1d4 rounds
 
 This spell allows the caster to charm one or more animals, in much the same fashion as **Charm Person**, at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
 
-This spell does not grant the caster any special means of communication with the affected animals; if combined with **speak with animals**, this spell becomes significantly more useful.
+This spell does not grant the caster any special means of communication with the affected animals; if combined with **Speak with Animals**, this spell becomes significantly more useful.
 
 :::
 
@@ -1927,46 +1927,17 @@ This abjuration grants a creature temporary immunity to fire and heat. Minor hea
 
 ::: {.callout-note icon=false collapse=true}
 
-## Hold Person
+## Shield of Thorns
 
-Cleric 2, Magic-User 3
+Druid 2
 
-Range: 180'
+Range: Self
 
-Duration: 2d8 turns
+Duration: 1 turn/level
 
-This spell will render any living (not undead) human, demi-human or humanoid creature paralyzed. Creatures larger than ogres will not be affected by this spell. Targets of the spell are aware, and breathe normally, but cannot take any actions, including speech. A successful save vs. Spells will negate the effect. The spell may be cast at a single person, who makes his or her save at -2, or at a group, in which case 1d4 of the creatures in the group may be affected.
+Thick vines and thorny protrusions grow up and around the spell caster, hardening to provide protection and discouraging attacks. The wooden vine “armor” provides a +4 bonus to armor class. In addition, those attempting to strike the caster in close combat (melee attack) must save vs. Death Ray or take 1d4 point of damage from the thorns.
 
-A winged creature which is paralyzed cannot flap its wings and falls (if in flight at the time). A paralyzed swimmer can’t swim and may drown.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Remove Paralysis
-
-Cleric 2
-
-Range: Touch
-
-Duration: Instantaneous
-
-This spell permits the caster to free the creature touched from paralysis induced either by magical means or by monster attack (e.g. venom or ghouls).
-
-:::
-
-
-::: {.callout-note icon=false collapse=true}
-
-## Resist Fire
-
-Cleric 2, Druid 2
-
-Range: Touch
-
-Duration: 1 round/level
-
-This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a **Fireball**), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
+Those attacking with weapons of length, such as spears or polearms, will not suffer such damage.
 
 :::
 
@@ -1986,6 +1957,22 @@ Upon the casting of this spell, complete silence prevails within a 15' radius ar
 
 ::: {.callout-note icon=false collapse=true}
 
+## Slow Poison
+
+Druid 2
+
+Range: Touch
+
+Duration: 1 hour/level
+
+The creature touched by the caster becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell’s duration does not affect the subject until the spell’s duration has expired. Slow poison does not cure any damage that poison may have already done, with exception of the following circumstances.
+
+If cast on a character who received lethal damage from poison the previous round, the spell will remove that round’s poison damage only, and delay it for the duration of the spell. Prior poison damage will remain unaffected, but, as noted above, no further damage is accrued until the spell lapses, and will never accrue if the poison is neutralized while this spell is in effect. This will give the poisoned victim an opportunity to seek a cure to neutralize the poison before it is fatal.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Speak with Animals
 
 Cleric 2, Druid 2
@@ -2000,15 +1987,17 @@ The caster can comprehend and communicate with any one animal (normal or giant s
 
 ::: {.callout-note icon=false collapse=true}
 
-## Spiritual Hammer
+## Warp Wood*
 
-Cleric 2
+Magic-User 2, Druid 2
 
-Range: 30'
+Range: 50'
 
-Duration: 1 round/level
+Duration: Instantaneous
 
-This spell causes a warhammer made of pure force to spring into existence, attacking any foe chosen by the Cleric within range once per round. It deals 1d6 hit points of damage per strike, +1 point per three caster levels (maximum of +5). It uses the caster's normal attack bonus, striking as a magical weapon, and thus can inflict damage upon creatures that are only hit by magic weapons. If the hammer goes beyond the spell range, the Cleric loses sight of it, or the caster ceases to direct it, the hammer disappears. The hammer cannot be attacked or harmed by physical attacks, but **Dispel Magic**, **Disintegrate**, or a **Rod of Cancellation** will dispel it.
+The caster causes non-magical wood in a 20 ft radius to bend and warp, permanently destroying its straightness, form, and strength.  A warped door springs open or becomes stuck; a boat or ship springs a leak; warped weapons (like bows and arrows) are useless.  The caster may warp wood object(s) up to 1 ft on all sides per caster level.
+
+Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively warping it back to normal), straightening wood that has been warped by this spell or by other means.  The caster can combine multiple consecutive warp wood spells to warp (or un-warp) an object that is too large to warp with a single spell.
 
 :::
 
@@ -2028,11 +2017,11 @@ Range: 360'
 
 Duration: 1 year/level
 
-This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
+This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **Light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
 
-As with **light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
+As with **Light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
 
-The reversed spell, **continual darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
+The reversed spell, **Continual Darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
 
 :::
 
@@ -2245,7 +2234,7 @@ Range: Touch
 
 Duration: Instantaneous
 
-This spell works exactly like **cure light wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **cause serious wounds**, also works exactly like **cause light wounds**, except that it inflicts 2d6 + caster level in damage.
+This spell works exactly like **Cure Light Wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **Cause Serious Wounds**, also works exactly like **Cause Light Wounds**, except that it inflicts 2d6 + caster level in damage.
 
 :::
 
@@ -2261,9 +2250,9 @@ Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
-If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **dispel magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
+If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **Dispel Magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
 
-Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **bestow curse** (the reverse of **remove curse**) as well as by cursed items.
+Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **Bestow Curse** (the reverse of **Remove Curse**) as well as by cursed items.
 
 :::
 
@@ -2618,7 +2607,7 @@ Heal enables the caster to wipe away injury and afflictions. It immediately ends
 
 The reversed spell, **Harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **Harm** may kill a creature).
 
-Generally, both **Heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
+Generally, both **Heal** and **Harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
 
 :::
 
@@ -2897,7 +2886,7 @@ For the duration of the spell, each participant may freely switch between its ph
 
 # Magic User Spells
 
-Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **read magic**. All Magic-Users begin play knowing **read magic**, and it is so ingrained that it can be prepared without a spellbook.
+Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **Read Magic**. All Magic-Users begin play knowing **Read Magic**, and it is so ingrained that it can be prepared without a spellbook.
 
 A Magic-User may only prepare spells after resting (i.e. a good night's sleep), and needs one turn per each three spell levels to do so (rounding fractions up). Spells prepared but not used on a previous day are not lost. For example, a 3^rd^ level Magic-User preparing all three of his or her available spells (two 1^st^ level and one 2^nd^ level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up).
 
@@ -2961,7 +2950,7 @@ Magic User 1
 
 Duration: 1 round/level
 
-This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A **knock** spell or a successful **dispel magic** spell can negate a hold portal spell.
+This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A **Knock** spell or a successful **Dispel Magic** spell can negate a hold portal spell.
 
 :::
 
@@ -2977,11 +2966,11 @@ Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **light** becomes **darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
-Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **light** or **darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim). 
+Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **Light** or **Darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim). 
 
 :::
 
@@ -3037,7 +3026,7 @@ Second, the barrier blocks any attempt to possess the warded creature (by a magi
 
 Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
 
-Reversed, this spell becomes **protection from good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
+Reversed, this spell becomes **Protection From Good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
 
 :::
 
@@ -3059,7 +3048,7 @@ In the second mode, the spell allows the caster to read any one book or tome; th
 
 In the third mode, the spell allows the caster to read any one non-magical scroll or other single-sheet document; this mode is permanent.
 
-This spell does not work on any sort of magical text, such as spell scrolls or spellbooks; see **read magic**, below, for the correct spell to use in such cases.
+This spell does not work on any sort of magical text, such as spell scrolls or spellbooks; see **Read Magic**, below, for the correct spell to use in such cases.
 
 The spell grants the ability to read the texts, but does not in any way hasten the reading nor grant understanding of concepts the caster doesn't otherwise have the ability to understand. Also, for this spell to function, there must be at least one living creature that can read the given language somewhere on the same plane. The knowledge is not copied from that creature's mind; rather, it is the existence of the knowledge that enables the spell to function.
 
@@ -3089,7 +3078,7 @@ Magic User 1
 
 Duration: 5 rounds+1/level
 
-Shield creates an invisible, shield-like mobile disk of force that hovers in front of the caster. It negates **magic missile** attacks directed at the caster, and improves the caster's Armor Class by +3 vs. melee attacks and +6 vs. missile weapons. The Armor Class benefits do not apply to attacks originating from behind the caster, but **magic missiles** are warded off from all directions.
+Shield creates an invisible, shield-like mobile disk of force that hovers in front of the caster. It negates **Magic Missile** attacks directed at the caster, and improves the caster's Armor Class by +3 vs. melee attacks and +6 vs. missile weapons. The Armor Class benefits do not apply to attacks originating from behind the caster, but **Magic Missiles** are warded off from all directions.
 
 :::
 
@@ -3143,11 +3132,11 @@ Cleric 3, Magic-User 2
 
 Duration: 1 year/level
 
-This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
+This spell creates a spherical region of light, as bright as full daylight up to a 30' radius, with light of lesser intensity to a radius of 60'. Continual light can be cast on an object, into the air, or at a creature, just as with the **Light** spell, up to a maximum range of 360' from the caster. The spell remains in effect for one year per level of the caster.
 
-As with **light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
+As with **Light**, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature's attack rolls if the saving throw fails.
 
-The reversed spell, **continual darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
+The reversed spell, **Continual Darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
 
 :::
 
@@ -3165,7 +3154,7 @@ This spell allows the caster to detect evil; specifically, the caster can detect
 
 The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
 
-Reversed, this spell becomes **detect good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
+Reversed, this spell becomes **Detect Good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 
 :::
 
@@ -3211,7 +3200,7 @@ Magic User 2
 
 Duration: special
 
-The knock spell opens stuck, barred, locked, **held**, or **wizard locked** doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a **wizard locked** door, the spell does not remove the **wizard lock** but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. Each spell can undo a single means of preventing access.
+The knock spell opens stuck, barred, locked, **Held**, or **Wizard Locked** doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a **Wizard Locked** door, the spell does not remove the **Wizard Lock** but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. Each spell can undo a single means of preventing access.
 
 :::
 
@@ -3241,7 +3230,7 @@ Cleric 3, Magic-User 2
 
 Duration: 1 round/level
 
-This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **clairvoyance** or a **crystal ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
+This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as **Clairvoyance** or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
 
 :::
 
@@ -3275,7 +3264,7 @@ Duration: 1 turn/level
 
 This spell creates several illusory duplicates of the caster. The images move through each other as well as the real caster more or less constantly, making it impossible for most creatures to determine which is real. A total of 1d4 images plus one image per three caster levels (maximum eight images total) are created. These figments separate from the caster and remain in a cluster around him or her. The figments mimic the caster's actions, pretending to cast spells, drink potions, levitate, and so on, just as the caster does. Figments always look exactly like the caster.
 
-Enemies attempting to attack or cast spells upon the caster will always hit a figment instead. Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed. Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a **fireball**, all figments will appear to be injured just as the caster was.
+Enemies attempting to attack or cast spells upon the caster will always hit a figment instead. Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed. Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a **Fireball**, all figments will appear to be injured just as the caster was.
 
 :::
 
@@ -3327,7 +3316,7 @@ Magic User 2
 
 Duration: permanent
 
-A **wizard lock** spell cast upon a door, chest, or portal magically locks it. The caster can freely pass his or her own wizard lock without affecting it, as can any Magic-User 3 or more levels higher than the caster of the wizard lock; otherwise, a door or object secured with this spell can be opened only by breaking in or with a successful **dispel magic** or **knock** spell.
+A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it. The caster can freely pass his or her own wizard lock without affecting it, as can any Magic-User 3 or more levels higher than the caster of the wizard lock; otherwise, a door or object secured with this spell can be opened only by breaking in or with a successful **Dispel Magic** or **Knock** spell.
 
 :::
 
@@ -3379,9 +3368,9 @@ Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
-If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **dispel magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
+If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **Dispel Magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
 
-Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **bestow curse** (the reverse of **remove curse**) as well as by cursed items.
+Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **Bestow Curse** (the reverse of **Remove Curse**) as well as by cursed items.
 
 :::
 
@@ -3431,7 +3420,7 @@ Duration: 1 round/level
 
 This spell accelerates the actions of 1 creature per caster level. The affected creatures move and act twice as quickly as normal, having double their normal movement rates and making twice the normal attacks per round, for the duration of the spell. Spellcasting is not accelerated, nor is the use of magic items such as wands, which may still be used just once per round. Multiple haste or speed effects don’t combine; only apply the most powerful or longest lasting effect.
 
-Reversed, haste becomes **slow**; affected creatures move at half speed, attacking half as often (generally, every other round) and making half a normal move each round. Naturally, target creatures may save vs. Spells to avoid the effect. Haste and slow counter and dispel each other.
+Reversed, haste becomes **Slow**; affected creatures move at half speed, attacking half as often (generally, every other round) and making half a normal move each round. Naturally, target creatures may save vs. Spells to avoid the effect. Haste and slow counter and dispel each other.
 
 :::
 
@@ -3493,9 +3482,9 @@ Range: Touch
 
 Duration: 1 turn/level
 
-This spell functions exactly as **protection from evil**, but with a 10' radius rather than a 1' radius. All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
+This spell functions exactly as **Protection From Evil**, but with a 10' radius rather than a 1' radius. All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
 
-Reversed, this spell becomes **protection from good 10' radius**, and functions exactly as the reversed form of **protection from evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
+Reversed, this spell becomes **Protection From Good 10' Radius**, and functions exactly as the reversed form of **Protection From Evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
 
 :::
 
@@ -3545,7 +3534,7 @@ Magic User 4
 
 Duration: special
 
-This spell functions like **charm person**, except that the effect is not restricted by creature type or size. Undead monsters are unaffected. This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for **charm person**.
+This spell functions like **Charm Person**, except that the effect is not restricted by creature type or size. Undead monsters are unaffected. This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for **Charm Person**.
 
 :::
 
@@ -3599,9 +3588,9 @@ Duration: permanent
 
 This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines, etc.) within range to become thick and overgrown. The dimensions of the growth are determined by the caster, but cannot exceed 1000 sq. feet (a 10'x100' area or equivalent) per 5 caster levels. The plants entwine to form a thicket or jungle that creatures must hack or force a way through. All movement within the affected area is reduced to no more than 5' per round for less than giant sized creatures; giant sized creatures are reduced to half normal movement rate. The area must have brush and/or trees in it for this spell to take effect.
 
-The reverse form, **shrink plants**, may be used to render overgrown areas passable. The area of effect is identical to the normal version.
+The reverse form, **Shrink Plants**, may be used to render overgrown areas passable. The area of effect is identical to the normal version.
 
-Growth of plants and its reverse are permanent until countered, either by the opposite form or by **dispel magic**. This spell has no effect on animated plant creatures of any sort.
+Growth of plants and its reverse are permanent until countered, either by the opposite form or by **Dispel Magic**. This spell has no effect on animated plant creatures of any sort.
 
 :::
 
@@ -3647,7 +3636,7 @@ Duration: 1 hour/level
 
 With this spell the caster causes 1d4+1 man-sized (or smaller) creatures per four caster levels to appear as if they are natural effects of the terrain (for example, trees in a forest, stalagmites in a cave, coral underwater, boulders in a cavern, etc.). All creatures to be affected must be within a 120' radius of the caster at the time the spell is cast. Only those creatures the caster wishes to hide are affected, and then only if they are willing to be concealed. The caster may include himself or herself among the affected creatures.
 
-Those affected are thus concealed from other creatures passing through the area for so long as they remain still. If an affected creature chooses to move or attack, the illusion is dispelled for that creature, but those who remain still continue to be hidden. The caster may end the spell early if he or she wishes by speaking a single word. The illusion can also be ended by **dispel magic**.
+Those affected are thus concealed from other creatures passing through the area for so long as they remain still. If an affected creature chooses to move or attack, the illusion is dispelled for that creature, but those who remain still continue to be hidden. The caster may end the spell early if he or she wishes by speaking a single word. The illusion can also be ended by **Dispel Magic**.
 
 :::
 
@@ -3661,7 +3650,7 @@ Magic User 4
 
 Duration: permanent
 
-This spell allows the caster to change one target into another form of living creature. The assumed form can’t have more hit dice than caster’s level, or be incorporeal or gaseous. Unlike **polymorph self**, the transformed target also gains the behavioral and mental traits, any physical attacks, special, supernatural or spell-like abilities of the new form, in addition to the physical capabilities and statistics of such. If the new form is substantially less intelligent, the target may not remember its former life.
+This spell allows the caster to change one target into another form of living creature. The assumed form can’t have more hit dice than caster’s level, or be incorporeal or gaseous. Unlike **Polymorph Self**, the transformed target also gains the behavioral and mental traits, any physical attacks, special, supernatural or spell-like abilities of the new form, in addition to the physical capabilities and statistics of such. If the new form is substantially less intelligent, the target may not remember its former life.
 
 The target creature will have the same number of hit points it previously had, regardless of the hit dice of the form assumed. Incorporeal or gaseous creatures are immune to this spell, as noted above. A creature with shape changing abilities such as a doppleganger can revert to its natural form in one round.
 
@@ -3697,9 +3686,9 @@ Cleric 3, Magic-User 4
 
 Duration: Instantaneous
 
-Remove curse instantaneously removes all curses on an object or a creature. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
+Remove curse instantaneously removes all curses on an object or a creature. **Remove Curse** does not remove the curse from a cursed shield, weapon, or suit of armor, although the spell typically enables the creature afflicted with any such cursed item to remove and get rid of it. Certain special curses may not be countered by this spell or may be removed only by a caster of a certain level.
 
-The reverse of this spell, **bestow curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
+The reverse of this spell, **Bestow Curse**, allows the caster to place a curse on the subject. A save vs. Spells is allowed to resist. The caster must choose one of the following three effects:
 
 --4 decrease to an ability score (minimum 1).
 
@@ -3707,7 +3696,7 @@ The reverse of this spell, **bestow curse**, allows the caster to place a curse
 
 Each round of combat, the target has a 50% chance to act normally; otherwise, it takes no action.
 
-The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **remove curse** spell.
+The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
 
 :::
 
@@ -3793,7 +3782,7 @@ Magic User 5
 
 Duration: special
 
-A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **dispel magic** or **dispel evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
+A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **Dispel Magic** or **Dispel Evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
 
 :::
 
@@ -3807,7 +3796,7 @@ Magic User 5
 
 Duration: permanent
 
-If the target creature fails a saving throw vs. Spells, its Intelligence and Charisma scores each drop to 1. The affected creature is unable to cast spells, understand language, or communicate coherently. The victim does remember who its friends are and can follow and protect them from harm. The subject remains in this state until a **heal** spell is used to cancel the effect. A target creature that can cast Magic-User spells suffers a penalty of -4 on its saving throw against this spell.
+If the target creature fails a saving throw vs. Spells, its Intelligence and Charisma scores each drop to 1. The affected creature is unable to cast spells, understand language, or communicate coherently. The victim does remember who its friends are and can follow and protect them from harm. The subject remains in this state until a **Heal** spell is used to cancel the effect. A target creature that can cast Magic-User spells suffers a penalty of -4 on its saving throw against this spell.
 
 :::
 
@@ -3815,7 +3804,7 @@ If the target creature fails a saving throw vs. Spells, its Intelligence and Cha
  
 ## Hold Monster
  
-This spell functions like **hold person**, except that it affects any living creature that fails its save vs. Spells.
+This spell functions like **Hold Person**, except that it affects any living creature that fails its save vs. Spells.
 
 :::
 
@@ -3833,15 +3822,15 @@ By casting magic jar, the caster places his or her soul in a gem or large crysta
 
 To cast the spell, the magic jar must be within spell range and the caster must know where it is, though he or she does not need to be able to see it. When the caster transfers his or her soul upon casting, the caster's body is, as near as anyone can tell, dead, but does not undergo decay as a normal dead body would.
 
-Possession of a creature by means of this spell is blocked by **protection from evil** or a similar ward. The subject is allowed a save vs. Spells to resist. Failure to take over the host leaves the caster's life force in the magic jar, and that target creature is immune to further attempts for the duration of the spell.
+Possession of a creature by means of this spell is blocked by **Protection From Evil** or a similar ward. The subject is allowed a save vs. Spells to resist. Failure to take over the host leaves the caster's life force in the magic jar, and that target creature is immune to further attempts for the duration of the spell.
 
 If the caster is successful, his or her life force occupies the host body, and the host's life force is imprisoned in the magic jar. The caster keeps his or her Intelligence, Wisdom, Charisma, level, class, attack bonus, saving throws, and mental abilities (including spellcasting ability). The body retains its Strength, Dexterity, Constitution, hit points, and natural abilities. A body with extra limbs does not allow the caster to make more attacks than normal. The caster does not have access to any extraordinary or supernatural abilities of the body.
 
-If the caster's spirit is in the magic jar, and the jar is broken (whether by **dispel magic** or physical damage): If the jar is in range of the caster's body, the caster's spirit returns to its body. Otherwise, the caster's spirit departs (the caster dies). In either case, the spell ends.
+If the caster's spirit is in the magic jar, and the jar is broken (whether by **Dispel Magic** or physical damage): If the jar is in range of the caster's body, the caster's spirit returns to its body. Otherwise, the caster's spirit departs (the caster dies). In either case, the spell ends.
 
-If the caster's spirit is driven from the host body by **dispel evil**: If the magic jar is in range of the host body, the caster's spirit returns to the jar, and the host's spirit returns to its body. The caster will not be able to possess the same host again for the remaining duration of the spell. If the magic jar is not in range of the host body, the caster's spirit departs, the host's spirit is freed from the jar (and departs), and the host's body dies.
+If the caster's spirit is driven from the host body by **Dispel Evil**: If the magic jar is in range of the host body, the caster's spirit returns to the jar, and the host's spirit returns to its body. The caster will not be able to possess the same host again for the remaining duration of the spell. If the magic jar is not in range of the host body, the caster's spirit departs, the host's spirit is freed from the jar (and departs), and the host's body dies.
 
-If the host's spirit is in the magic jar, and the jar is broken: If the jar is in range of the host's body, the caster's spirit departs, the host's spirit returns to its body, and the spell ends. Otherwise, the host's spirit departs, and the caster's spirit is stranded in the host body. Note here that the spell has not ended. **Dispel evil** can still be used to drive the caster's spirit from the body, which departs as noted, ending the spell.
+If the host's spirit is in the magic jar, and the jar is broken: If the jar is in range of the host's body, the caster's spirit departs, the host's spirit returns to its body, and the spell ends. Otherwise, the host's spirit departs, and the caster's spirit is stranded in the host body. Note here that the spell has not ended. **Dispel Evil** can still be used to drive the caster's spirit from the body, which departs as noted, ending the spell.
 
 In any case where the spell ends with the caster's body unoccupied by a spirit, that body does truly die.
 
@@ -3857,7 +3846,7 @@ Magic User 5
 
 Duration: 3 turns
 
-Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9th (20 feet at 12th, 30 feet deep at 15th, 40 feet deep at 18th). If the wall’s thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, **dispel magic**, or caster's choice), creatures within the passage are ejected out the nearest exit.
+Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9th (20 feet at 12th, 30 feet deep at 15th, 40 feet deep at 18th). If the wall’s thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, **Dispel Magic**, or caster's choice), creatures within the passage are ejected out the nearest exit.
 
 :::
 
@@ -3927,7 +3916,7 @@ This spell creates a wall of rock that merges into adjoining rock surfaces. The 
 
 The caster can create a wall of stone in almost any shape he or she desires. The wall created need not be vertical, nor rest upon any firm foundation; however, it must merge with and be solidly supported by existing stone. It can be used to bridge a chasm, for instance, or as a ramp. For this use, if the span is more than 20 feet, the wall must be arched and buttressed, reducing the spell's area by half. The wall can also be crudely shaped to create crenelations, battlements, and so forth by similarly reducing the area.
 
-Like any other stone wall, this one can be destroyed by a **disintegrate** spell or by normal means such as breaking and chipping.
+Like any other stone wall, this one can be destroyed by a **Disintegrate** spell or by normal means such as breaking and chipping.
 
 It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful saves vs. Death Ray.
 
@@ -3998,7 +3987,7 @@ Duration: permanent
 
 This spell causes the subject, along with all its carried gear, to turn into a mindless, inert statue. A saving throw vs. Petrification is allowed to resist the spell. If the statue resulting from this spell is broken or damaged, the subject (if ever returned to its original state) suffers equivalent damage or deformities. Only creatures made of flesh are affected by this spell.
 
-The reverse spell, **stone to flesh**, acts as a counterspell for **flesh to stone**, restoring the creature just as it was when it was petrified. It does nothing if applied to stone that is not the result of **flesh to stone** or similar petrification effects (such as a medusa's gaze).
+The reverse spell, **Stone to Flesh**, acts as a counterspell for **Flesh to Stone**, restoring the creature just as it was when it was petrified. It does nothing if applied to stone that is not the result of **Flesh to Stone** or similar petrification effects (such as a medusa's gaze).
 
 :::
 
@@ -4022,7 +4011,7 @@ If the instructions involve some open-ended task that the recipient cannot compl
 
 For every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a --2 penalty to each of its ability scores, up to a total of --8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.
 
-A geas (and all effects thereof) can be ended by a **remove curse** spell, or by a **wish**, or by the reverse of this spell. **Dispel magic** does not affect a geas.
+A geas (and all effects thereof) can be ended by a **Remove Curse** spell, or by a **Wish**, or by the reverse of this spell. **Dispel Magic** does not affect a geas.
 
 :::
 
@@ -4036,7 +4025,7 @@ Magic User 6
 
 Duration: special
 
-The caster summons an **invisible stalker** to do his or her bidding (see the **Monsters** section, below, for details). The spell persists until **dispel evil** is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
+The caster summons an **Invisible Stalker** to do his or her bidding (see the **Monsters** section, below, for details). The spell persists until **Dispel Evil** is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
 
 :::
 
@@ -4050,7 +4039,7 @@ Magic User 6
 
 Duration: 1 turn/level
 
-This spell causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a more or less square-shaped depression whose sides are up to 10 feet long per caster level. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a **slow** spell (the reverse of **haste**); a save vs. Spells is allowed, with success negating the effect. The spell has no effect on other creatures.
+This spell causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a more or less square-shaped depression whose sides are up to 10 feet long per caster level. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a **Slow** spell (the reverse of **Haste**); a save vs. Spells is allowed, with success negating the effect. The spell has no effect on other creatures.
 
 :::
 
@@ -4064,7 +4053,7 @@ Magic User 6
 
 Duration: 6 turns
 
-This spell creates a quasi-real, illusory version of the caster. The intangible projected image looks, sounds, and smells like the caster, in addition to mimicking gestures and actions (including speech). Any further spells cast seem to originate from the illusion, not the actual caster. A line of sight between the caster and his or her illusory self must be maintained or the spell ends. **Dimension door**, **teleport**, or any similar spell that breaks the line of sight dispels the image, as does the illusionary caster being struck in combat. Note that this spell grants no special sensory powers to the caster; for example, if the illusory self is positioned so as to be able to see something the caster can't directly see, the caster does not see it. Also, all spell ranges are still figured from the caster's actual position, not the illusory self's position.
+This spell creates a quasi-real, illusory version of the caster. The intangible projected image looks, sounds, and smells like the caster, in addition to mimicking gestures and actions (including speech). Any further spells cast seem to originate from the illusion, not the actual caster. A line of sight between the caster and his or her illusory self must be maintained or the spell ends. **Dimension Door**, **Teleport**, or any similar spell that breaks the line of sight dispels the image, as does the illusionary caster being struck in combat. Note that this spell grants no special sensory powers to the caster; for example, if the illusory self is positioned so as to be able to see something the caster can't directly see, the caster does not see it. Also, all spell ranges are still figured from the caster's actual position, not the illusory self's position.
 
 :::
 
@@ -4100,7 +4089,7 @@ Roll on the following table to determine what sort of creature the character bec
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired. The condition of the remains is not a factor. So long as some small portion of the character's body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character's body at the time of death. The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand. This process takes one hour to complete. When the body is ready, the subject is reincarnated.
 
-A reincarnated character recalls the majority of its former life and form. Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma. Strength, Dexterity, and Constitution scores should be rerolled. (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.) The subject's level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical **restoration**. Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points. If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+A reincarnated character recalls the majority of its former life and form. Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma. Strength, Dexterity, and Constitution scores should be rerolled. (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.) The subject's level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical **Restoration**. Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points. If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
 
 A character that has been turned into an undead creature or killed by a death effect can't be returned to life by this spell. Constructs, elementals, and undead creatures can't be reincarnated. The spell cannot bring back a creature who has died of old age.
 
