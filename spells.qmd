@@ -1032,7 +1032,7 @@ The reverse of this spell, **Slay Living**, will kill instantly the creature to
 
 ## Ring of Lesser Healing*
 
-Cleric 5
+Cleric 5, Druid 5
 
 Range: 15' radius
 
@@ -1049,7 +1049,7 @@ The reverse of this spell, **Ring of Lesser Infliction**, allows the caster to c
 
 ## True Seeing
 
-Cleric 5
+Cleric 5, Druid 5
 
 Range: Touch
 
@@ -1812,7 +1812,7 @@ The swarm of small animals (roll on following table to determine type, or the DM
 | 81-90     | Centipedes/beetles   |
 | 91-100    | Flying insects       |
 
-The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A protection from evil spell keeps the swarm at bay, and certain area-effect spells, such as gust of wind and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a gust of wind). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
+The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A protection from evil spell keeps the swarm at bay, and certain area-effect spells, such as **Gust of Wind** and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a **Gust of Wind**). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
 
 :::
 
@@ -2415,55 +2415,69 @@ The Druid however loses the senses of taste, smell, and touch, and may not speak
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 5, Clerical
+# Level 5, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
-## Commune
+## Commune Wtih Nature
 
-Cleric 5
+Druid 5
 
-Range: Self
+Range: See text
 
-Duration: 1 round/level
+Duration: Instantaneous
 
-This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM's discretion.
+The caster becomes one with nature, attaining knowledge of the surrounding territory.  After 10 minutes of concentration, the caster instantly gains knowledge of one fact per caster level among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, presence of settlement or structure, or even the general state of the natural setting.
+
+In outdoor settings, the spell operates in a radius of 1 mile per caster level.  In natural underground settings – caves, caverns, and the like – the radius is limited to 100 ft per caster level.  The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Create Food
+## Dig
 
-Cleric 5
+Druid 5, Magic-User 4
 
-Range: 10'
+Range: 30 yards
 
-Duration: Permanent
+Duration: 1 rd/level
 
-The food that this spell creates is simple fare of the caster's choice, highly nourishing, but rather bland. Up to 3 men or one horse per caster level can be fed for one day with this spell. Food so created decays and becomes inedible within 24 hours, although it can be kept fresh for another 24 hours by casting **Purify Food and Water** on it.
+A **Dig** spell enables the caster to excavate 125 cubic feet of earth, sand, or mud per round (i.e., a cubic hole 5 feet on a side). In later rounds the caster can expand an existing hole or start a new one. The material thrown from the excavation scatters evenly around the pit. If the wizard continues downward past 20 feet in earth, there is a 15% chance that the pit collapses. This check is made for every 5 feet dug beyond 20 feet. Sand tends to collapse after 10 feet, mud fills in and collapses after 5 feet, and quicksand fills in as rapidly as it is dug.
+
+Any creature at the edge (within 1 foot) of a pit must roll a successful Dexterity check or fall into the hole. Creatures moving rapidly toward a pit dug immediately before them must roll a saving throw vs. spell to avoid falling in. Any creature in a pit being excavated can climb out at a rate decided by the DM. A creature caught in a collapsing pit must roll a saving throw vs. death to avoid being buried; it escapes the pit if successful. Tunneling is possible with this spell as long as there is space available for the material removed. Chances for collapse are doubled and the safe tunneling distance is half of the safe excavation depth, unless such construction is most carefully braced and supported.
+
+The spell is also effective against creatures of earth and rock, particularly clay golems and those from the Elemental Plane of Earth. When cast upon such a creature, it suffers 4d6 points of damage. A successful saving throw vs. spell reduces this damage to half.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Dispel Evil
+## Flame Strike
 
-Cleric 5
+Druid 5, Magic-User 5
 
-Range: Touch
+Range: 60'
+
+Duration: Instantaneoous
+
+A **Flame Strike** produces a vertical column of divine fire roaring downward (cylinder of 10 ft radius, 30 ft high).  The spell deals 6d8 points of damage to any creatures within the area of effect; a save vs. Spells for half damage is allowed.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gust of Wind
+
+Druid 5, Magic-User 3
+
+Range: 10' x 10 yds/level
 
 Duration: 1 round/level
 
-This powerful spell aids the caster in dealing with creatures from the nether planes, hereafter called "evil creatures."
+When this spell is cast, a strong puff of air originates from the caster and moves in the direction the caster is facing. The force of this **Gust of Wind** (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames--such as those of lanterns--to dance wildly and has a 5% chance per level of experience of the spellcaster to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
 
-First, the caster gains a +4 bonus to Armor Class against attacks by evil creatures.
-
-Second, the caster can choose to drive an evil creature back to its home plane by touch (requiring a successful attack roll). The creature can negate the effects with a successful save vs. Spells. This use discharges and ends the spell, even if the saving throw succeeds.
-
-Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by **Dispel Magic** also can't be dispelled by **Dispel Evil**. Saving throws do not apply to this effect. This use also ends the spell.
-
-The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a **Gust of Wind** that travels 80 yards).
 
 :::
 
@@ -2483,63 +2497,37 @@ This spell summons one swarm of locusts per three caster levels, to a maximum of
 
 ::: {.callout-note icon=false collapse=true}
 
-## Plane Shift
+## Rock to Mud*
 
-Cleric 5
+Druid 5, Magic-User 5
 
-Range: Touch
+Range: 150'
 
-Duration: Instantaneous
+Duration: Permanent
 
- When cast, the caster or the creature touched is sent to another plane. If multiple creatures link hands in a circle, up to eight may plane shift. All participants must be willing. If any intended participant is unwilling, the spell fails with no effect. Plane shift is highly inaccurate and while the desired plane or dimension will always be reached, arrival will be 1-100 (d100) miles from the intended destination.
+This spell turns natural, uncut or un-worked rock of any sort into an equal volume of mud; up to two 10 ft cubes per caster level may be so transformed.  Magical stone is not affected by this spell.  The depth of the mud created cannot exceed 10 ft.  A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 ft and causing it to suffer a ‑2 penalty to attack rolls, saving throws, and armor class.  Creatures large enough to walk on the bottom can wade through the area at a speed of 5 ft., suffering none of the other penalties given.
 
-:::
+If rock to mud is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool to a depth of 5 ft.  The falling mud and the ensuing cave-in deal 8d6 points of damage to anyone caught directly beneath the area, or half damage to those who succeed a save vs. Death Ray.
 
-::: {.callout-note icon=false collapse=true}
+Castles and large stone buildings are generally immune to the effect of the spell, since **Rock to Mud** cannot affect worked stone and doesn’t reach deep enough to undermine such a buildings’ foundation.  However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially toppled by this spell.
 
-## Quest*
+The mud remains until a successful **Dispel Magic** or **Mud to Rock** spell restores its substance (though not necessarily its form).  Evaporation turns the mud to normal dirt over a period of days.  The exact time depends on exposure to the sun, wind, and normal drainage.
 
-Cleric 5
-
-Range: 5'/level
-
-Duration: Special
-
-Quest places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a quest cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
-
-A saving throw vs. Spells will allow an unwilling target to resist a quest when it is first cast. However, the target may choose to accept the quest, typically as part of a bargain with the caster to perform some service.
-
-The affected creature must follow the given instructions until the quest is completed, no matter how long it takes.
-
-If the instructions involve some open-ended task that the recipient cannot complete through his own actions the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions.
-
-If the subject is prevented from obeying the quest for 24 hours, it takes 3d6 points of damage each day.
-
-A quest (and all effects thereof) can be ended by a **Remove Curse** spell from a caster two or more levels higher than the caster of the quest, or by a wish, or by the reverse of this spell. **Dispel Magic** does not affect a **Quest** spell.
+When using the reverse, **Mud to Rock**, the spell converts the same volume of mud into relatively soft stone (such as limestone or sandstone) permanently.  Any creature in the mud must save vs. Death Ray to escape before the area transforms into rock (assuming it has enough movement to do so).
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Raise Dead*
+## Summon Animals II
 
-Cleric 5
+Druid 5
 
-Range: Touch
+Range: 60'/level
 
-Duration: Instantaneous
+Duration: One day
 
-This spell restores life to a deceased human, demi-human or humanoid. The caster can raise a creature that has been dead for no longer than one day per caster level. In addition, the subject's soul must be free and willing to return. If the subject's soul is not willing to return, the spell does not work.
-
-Coming back from the dead is an ordeal. The subject of the spell loses one level (or 1 hit die) when it is raised, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1^st^ level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can't be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
-
-Also note, a character who died with spells prepared has none prepared upon being raised.
-
-A raised creature has a number of hit points equal to its current hit dice. Normal poison and normal disease are cured in the process of raising the subject, but magical diseases and curses are not undone. While the spell closes mortal wounds and repairs lethal damage of most kinds, the body of the creature to be raised must be whole. Otherwise, missing parts are still missing when the creature is brought back to life. None of the dead creature's equipment or possessions are affected in any way by this spell.
-
-A creature which has become undead can't be raised by this spell. Constructs and elementals cannot be raised. The spell cannot bring back a creature that has died of old age.
-
-The reverse of this spell, **Slay Living**, will kill instantly the creature touched (which may be of any sort, not just a human, demi-human or humanoid) unless a save vs. Spells is made. If the saving throw is successful, 2d6 damage is dealt to the victim instead. An attack roll is required to apply this spell in combat.
+This spell is a more powerful version of **Summon Animals I**.  Up to 3d4 animals of 4 HD or less can be summoned, or 1d6 animals of 8 HD or less.
 
 :::
 
@@ -2547,7 +2535,7 @@ The reverse of this spell, **Slay Living**, will kill instantly the creature to
 
 ## Ring of Lesser Healing*
 
-Cleric 5
+Cleric 5, Druid 5
 
 Range: 15' radius
 
@@ -2564,7 +2552,7 @@ The reverse of this spell, **Ring of Lesser Infliction**, allows the caster to c
 
 ## True Seeing
 
-Cleric 5
+Cleric 5, Druid 5
 
 Range: Touch
 
