@@ -2111,18 +2111,41 @@ Reversed, this spell becomes **Poison**. The caster must make a successful attac
 
 ::: {.callout-note icon=false collapse=true}
 
-## Speak with Dead Animal
+## Speak with Dead Animals
 
 Druid 3
 
-Range: 10'
+Range: Self
 
-Duration: 3 rounds/level
+Duration: 1 turn
 
-**Talk to Jack**
+This spell enables a druid to commune with the spirits of deceased animals. The spirits manifest as faint, ethereal forms of the animals they once were.
+During the spell's duration, the druid can ask the spirit up to five questions. The spirits are limited by their intelligence and memories, so the responses may be fragmented or cryptic, especially if they were simple creatures in life. The spirit havs knowledge of events that occurred within their lifetime and in the vicinity where they dwelled.
+
+The types of questions that can be asked might include details about their surroundings before their demise, any dangers they encountered, or information about other creatures or individuals they interacted with.
+
+The DM determines the accuracy and completeness of the information provided by the spirit based on their individual circumstances and the nature of their passing. Additionally, the spirits may have their own personalities and biases, which could influence the clarity and truthfulness of their responses.
+Once all five questions have been asked or the spell's duration ends, the spirit returns to the afterlife, and the spell's effects cease.
+
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+
+## Speak with Monsters
+
+Cleric 6, Druid 3
+
+Range: Special
+
+Duration: 1 turn/5 levels
+
+The caster can comprehend and communicate with any one monster that is in sight of the caster and able to hear him or her. The caster may change which monster he or she is speaking with at will, once per round. Others able to understand the language spoken by the target monster (if any) will be able to understand the caster. The spell doesn’t alter the monster’s reaction or attitude towards the caster. Furthermore, more intelligent monsters are likely to be terse and evasive, while less intelligent ones make inane comments. If a monster is friendly toward the caster, it may decide to do some favor or service for him or her. Mindless monsters, plant creatures and undead are unaffected by this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 
 ## Striking
 
@@ -2138,9 +2161,9 @@ This spell bestows upon one weapon the ability to deal 1d6 points of additional 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Tongues
+## Plant Growth
 
-Cleric 3, Magic-User 2
+Druid
 
 Range: Touch
 
@@ -2626,7 +2649,7 @@ The reverse, **Energy Drain**, draws away one life energy level like a wight. Th
 
 ## Speak with Monsters
 
-Cleric 6, Druid 6
+Cleric 6, Druid 3
 
 Range: Special
 
