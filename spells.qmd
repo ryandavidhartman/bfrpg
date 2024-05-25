@@ -1196,7 +1196,7 @@ This spell also heals 3d8 points of damage. Regenerate has no effect on nonlivin
 
 ## Restoration*
 
-Cleric 6
+Cleric 6, Druid 7
 
 Range: Touch
 
@@ -1241,7 +1241,6 @@ This spell destroys 3d12 hit dice or levels of undead creatures in a 30' radius 
 :::
 
 ::: {.callout-note icon=false collapse=true}
-
 
 ## Word of Recall
 
@@ -2611,39 +2610,20 @@ It is possible, but difficult, to trap mobile opponents within or under a wall o
 
 ::: {.callout-note icon=false collapse=true}
 
-## Animate Objects
+## Animate Natural Objects
 
-Cleric 6
+Druid 6
 
 Range: 100'+10'/level
 
 Duration: 1 round/level
 
-This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12th level, 325 lbs. at 13th level, and so on).
-
-The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
+This spell functions identically to the cleric spell **Animate Objects**, but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Blade Barrier
-
-Cleric 6
-
-Range: 90'
-
-Duration: 1 round/level
-
-This spell creates a wall of whirling blades up to 20' long per caster level, or a ringed wall of whirling blades with a radius of up to 5' per two levels. Either form will be up to 20 ft. high (as allowed by available space). Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a save vs. Death Ray reducing damage to half.
-
-If the caster evokes the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful save vs. Death Ray.
-
-A blade barrier provides cover (+4 bonus to Armor Class) against attacks made through it.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
 
 ## Find the Path
 
@@ -2658,6 +2638,20 @@ The recipient of this spell can find the shortest, most direct physical route to
 The locale can be outdoors or underground. **Find the path** works with respect to locations, not objects or creatures. The location must be on the same plane as the caster at the time of casting.
 
 The spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take. For example, the spell enables the subject to detect secret doors and to know any passwords required. The spell ends when the destination is reached or the duration expires, whichever comes first.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Pass Tree
+
+Druid 6
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell allows the caster and up to two others to teleport between any two living trees on the same plane.  The caster chooses a general location or a specific tree.  The caster must have personal knowledge of the specific tree or general area of the target destination.
 
 :::
 
@@ -2681,70 +2675,98 @@ Generally, both **Heal** and **Harm** only affect living creatures. If used a
 
 ::: {.callout-note icon=false collapse=true}
 
-## Regenerate
 
-Cleric 6, Druid 7
+## Move Earth
+
+Druid 6
+
+Range: 120'
+
+Duration: Concentration (up to 2 hours)
+
+The druid may choose an area of terrain no larger than 40 feet on a side within range and reshape dirt, sand, or clay in the area in any manner for the duration. The caster can raise or lower the area's elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can't exceed half the area's largest dimension.
+
+So, if the caster affects a 40-foot square, the druid can create a pillar up to 20 feet high, raise or lower the square's elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete.
+
+At the end of every 10 minutes spent concentrating on the spell, the druid can choose a new area of terrain to affect.
+Because the terrain's transformation occurs slowly, creatures in the area can't usually be trapped or injured by the ground's movement.
+
+This spell can't manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.
+
+Similarly, this spell doesn't directly affect plant growth. The moved earth carries any plants along with it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Reincarnate
+
+Druid 6, Magic-user 6
 
 Range: Touch
-
-Duration: Permanent
-
-This spell causes the subject’s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
-
-This spell also heals 3d8 points of damage. Regenerate has no effect on nonliving creatures or constructs (including undead).
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Restoration*
-
-Cleric 6
-
-Range: Touch
-
-Duration: Permanent
-
-Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the **Encounter** section) for more details.
-
-Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
-
-Restoration does not restore levels lost due to death (as described for the spell **Raise Dead**).
-
-The reverse, **Energy Drain**, draws away one life energy level like a wight. The energy drain requires the victim to be touched.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Speak with Monsters
-
-Cleric 6, Druid 3
-
-Range: Special
-
-Duration: 1 turn/5 levels
-
-The caster can comprehend and communicate with any one monster that is in sight of the caster and able to hear him or her. The caster may change which monster he or she is speaking with at will, once per round. Others able to understand the language spoken by the target monster (if any) will be able to understand the caster. The spell doesn’t alter the monster’s reaction or attitude towards the caster. Furthermore, more intelligent monsters are likely to be terse and evasive, while less intelligent ones make inane comments. If a monster is friendly toward the caster, it may decide to do some favor or service for him or her. Mindless monsters, plant creatures and undead are unaffected by this spell.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Undeath to Death
-
-Cleric 6, Magic-user (Black) 6
-
-Range: 240'
 
 Duration: Instantaneous
 
-This spell destroys 3d12 hit dice or levels of undead creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit).  Excess levels of effectiveness are lost.  Each undead creature affected is allowed to save vs. Death Ray; those that fail the save are immediately destroyed. 
+With this spell, the caster brings back a dead character (or humanoid creature) in another body, provided that its death occurred no more than one week before the casting of the spell and the subject’s soul is free and willing to return.  If the subject’s soul is not willing to return, the spell does not work.
+
+Roll on the following table to determine what sort of creature the character becomes:
+
+
+| d%  | Incarnation            |
+|-----|------------------------|
+| 01–02  | Bugbear                |
+| 03–17  | Dwarf                  |
+| 18–28  | Elf                    |
+| 29     | Gnoll                  |
+| 30–39  | Gnome                  |
+| 40–44  | Goblin                 |
+| 45–63  | Halfling               |
+| 64–88  | Human                  |
+| 89–92  | Kobold                 |
+| 93     | Lizard Man             |
+| 94–98  | Orc                    |
+| 99     | Troglodyte             |
+| 100    | Other (GM's choice)    |
+
+Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
+
+A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1st level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+
+A character that has been turned into an undead creature or killed by a death effect can’t be returned to life by this spell.  Constructs, elementals, and undead creatures can’t be reincarnated.  The spell cannot bring back a creature who has died of old age.
+
+The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn’t automatically speak the language of the new form.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
+## Summon Animals III
+
+Druid 6
+
+Range: 80'/level
+
+Duration: One day
+
+This spell is a more powerful version of **Summon Animals II**.  Up to 4d6 animals of 4 HD or less can be summoned, or 3d4 animals of 8 HD or less, or 1d4 animals of 12 HD or less.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Weather Summoning
+
+Druid 6, Magic-User 6
+
+Range: 10 miles
+
+Duration: 5 turns/level
+
+The caster is able to summon nearby weather conditions.  The caster must be aware of the weather condition to summon it.  This spell does not grant control of the weather to the caster.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
 
 ## Word of Recall
 
@@ -2764,7 +2786,7 @@ An unwilling creature can’t be teleported by word of recall. Likewise, a creat
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 7, Clerical
+# Level 7, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
@@ -2855,6 +2877,42 @@ Range: 100' + 10'/level
 Duration: Instantaneous
 
 This spell causes an area 20’x10’x10’ per caster level to be filled with holy fire. The caster can determine the shape of the area, but the entire area must be contiguous. Any creature in the designated area takes 1d6 points of damage that bypasses any immunity or resistance to fire. Any creature that dies from the damage (or was already dead when the fire storm is cast) is completely consumed by the fire.  The fire only harms creatures and does not affect the surrounding environment.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Regenerate
+
+Cleric 6, Druid 7
+
+Range: Touch
+
+Duration: Permanent
+
+This spell causes the subject’s severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
+
+This spell also heals 3d8 points of damage. Regenerate has no effect on nonliving creatures or constructs (including undead).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Restoration*
+
+Cleric 6, Druid 7
+
+Range: Touch
+
+Duration: Permanent
+
+Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the **Encounter** section) for more details.
+
+Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
+
+Restoration does not restore levels lost due to death (as described for the spell **Raise Dead**).
+
+The reverse, **Energy Drain**, draws away one life energy level like a wight. The energy drain requires the victim to be touched.
 
 :::
 
