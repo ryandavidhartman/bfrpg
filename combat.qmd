@@ -512,7 +512,7 @@ The GM should feel free to amend this rule as he or she wishes; for instance, a 
 | **18-19** | 9 | 7 | 6 | 11 | 9 |
 | **20** | 8 | 6 | 5 | 11 | 8 |
 
-: Magic User Saving Throws {#tbl-save-mage-2}
+: Magic-User Saving Throws {#tbl-save-mage-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|

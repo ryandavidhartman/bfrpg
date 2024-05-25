@@ -54,7 +54,7 @@ seems most appropriate to the GM).
 
 Range: 10' radius
 
-Magic User 6
+Magic-User 6
 
 Duration: 1 turn/level
 
@@ -156,7 +156,7 @@ This spell does not grant the caster any special means of communication with the
 
 Range: 30'
 
-Magic User 4
+Magic-User 4
 
 Duration: special
 
@@ -171,7 +171,7 @@ mindless (such as any kind of jelly). This spell can affect 3d6 hit dice of crea
 
 Range: 30'
 
-Magic User 1
+Magic-User 1
 
 Duration: special
 
@@ -210,7 +210,7 @@ intelligence of humanoid monsters.
 
 Range: 60'
 
-Magic User 3
+Magic-User 3
 
 Duration: 12 turns
 
@@ -223,7 +223,7 @@ This spell enables the caster to see into another area through the eyes of a liv
 
 Range: 100'+10'/level
 
-Magic User 5
+Magic-User 5
 
 Duration: 6 rounds/level
 
@@ -249,7 +249,7 @@ This spell puts the caster in contact with his patron deity or an extraplanar se
 
 Range: 360'
 
-Magic User 4
+Magic-User 4
 
 Duration: 2 rounds+1/level
 
@@ -292,7 +292,7 @@ regardless of what is rolled on the table.
 
 Range: 240'
 
-Magic User 5
+Magic-User 5
 
 Duration: special
 
@@ -446,7 +446,7 @@ This spell works exactly like **cure light wounds,** save that it heals 2d6 po
 
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 hour/level
 
@@ -459,7 +459,7 @@ The subject receives [Darkvision](dungeonAdventures.qmd#darkvision) with a range
 
 Range: 240'
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -489,7 +489,7 @@ Reversed, this spell becomes **detect good**, which works just as described abo
 
 Range: 60'
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -515,7 +515,7 @@ The caster of this spell is able to detect enchanted or enspelled objects or cre
 
 Range: 10'
 
-Magic User 4
+Magic-User 4
 
 Duration: Instantaneous
 
@@ -528,7 +528,7 @@ The caster of this spell instantly transfers himself or herself, or any single t
 
 Range: 60'
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -599,7 +599,7 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
 
 Range: 180'
 
-Magic User 5
+Magic-User 5
 
 Duration: permanent
 
@@ -686,7 +686,7 @@ the destination but will no longer know the way.
 
 Range: 100'+10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: Instantaneous
 
@@ -729,7 +729,7 @@ expansion in the space beyond the destroyed barrier.
 
 Range: 30'/level
 
-Magic User 6
+Magic-User 6
 
 Duration: permanent
 
@@ -756,7 +756,7 @@ The reverse spell, **stone to flesh**, acts as a counterspell for **flesh to s
 
 Range: 0
 
-Magic User 1
+Magic-User 1
 
 Duration: 5 turns +1/level
 
@@ -792,7 +792,7 @@ remain stable.
 
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 turn/level
 
@@ -816,7 +816,7 @@ consequences.
 
 Range: 5' per level
 
-Magic User 6
+Magic-User 6
 
 Duration: special
 
@@ -881,7 +881,7 @@ The spell gives no means of command or influence over the enlarged animals.
 
 Range: 120'
 
-Magic User 4
+Magic-User 4
 
 Duration: permanent
 
@@ -917,7 +917,7 @@ either by the reverse of the spell or by **dispel magic**.
 
 ## Hallucinatory Terrain
 
-Magic User 4
+Magic-User 4
 
 Range: 400'+40'/level
 
@@ -934,7 +934,7 @@ The affected terrain looks, sounds, and smells like another sort of natural terr
 
 Range: 30'+10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 round/level
 
@@ -992,7 +992,7 @@ Generally, both **heal** and** harm** only affect living creatures. If used 
 
 Range: 180'
 
-Magic User 5
+Magic-User 5
 
 Duration: 2d8 turns
 
@@ -1031,7 +1031,7 @@ wings to fly and will thus fall.
 
 Range: 100'+10'/level
 
-Magic User 1
+Magic-User 1
 
 Duration: 1 round/level
 
@@ -1051,7 +1051,7 @@ duration of this spell allows).
 
 Range: 300'+30'/level
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 round
 
@@ -1105,7 +1105,7 @@ attack any creatures who are within their area.
 
 Range: Touch
 
-Magic User 2
+Magic-User 2
 
 Duration: special
 
@@ -1139,7 +1139,7 @@ render it detectable.
 
 ## Invisibility 10' Radius
 
-Magic User 3
+Magic-User 3
 
 Range: Touch
 
@@ -1169,7 +1169,7 @@ returning to the area does not reinstate the invisibility.
 
 Range: 0
 
-Magic User 6
+Magic-User 6
 
 Duration: special
 
@@ -1182,7 +1182,7 @@ The caster summons an **invisible stalker** to do his or her bidding (see the�
 
 Range: 30'
 
-Magic User 2
+Magic-User 2
 
 Duration: special
 
@@ -1200,7 +1200,7 @@ a second casting of knock will open such a door.
 
 Range: Touch
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -1267,7 +1267,7 @@ Either version of this spell may be used to blind an opponent by means of castin
 
 Range: 100' + 10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: Instantaneous
 
@@ -1343,7 +1343,7 @@ item will prevent it from being located.
 
 Range: 20'/level
 
-Magic User 6
+Magic-User 6
 
 Duration: 1 turn/level
 
@@ -1374,7 +1374,7 @@ other kind of creatures.
 
 Range: 60'
 
-Magic User 5
+Magic-User 5
 
 Duration: special
 
@@ -1476,7 +1476,7 @@ of course kills the host's body.
 
 Range: 100'+10'/level
 
-Magic User 1
+Magic-User 1
 
 Duration: Instantaneous
 
@@ -1491,7 +1491,7 @@ For every three caster levels beyond 1^st^, an additional missile is fired -- tw
 
 Range: 30'
 
-Magic User 1
+Magic-User 1
 
 Duration: special
 
@@ -1549,7 +1549,7 @@ will never trigger the spell.
 
 Range: 100'+10'/level
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 hour/level
 
@@ -1565,7 +1565,7 @@ Those affected are thus concealed from other creatures passing through the area 
 
 Range: 60'
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -1597,7 +1597,7 @@ creatures and constructs such as golems.
 
 Range: Self
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -1646,7 +1646,7 @@ Reversed, this spell becomes **poison**. The caster must make a successful atta
 
 Range: 30'
 
-Magic User 5
+Magic-User 5
 
 Duration: 3 turns
 
@@ -1659,7 +1659,7 @@ Passwall creates a passage through wooden, plaster, or stone walls, but not thro
 
 Range: 180'
 
-Magic User 2
+Magic-User 2
 
 Duration: concentration
 
@@ -1676,7 +1676,7 @@ Attempting to animate more creatures than the caster's level grants viewing crea
 
 Range: 30'
 
-Magic User 4
+Magic-User 4
 
 Duration: permanent
 
@@ -1702,7 +1702,7 @@ Unwilling targets that successfully save against Polymorph are not affected. The
 
 Range: Self
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 hour/level
 
@@ -1744,7 +1744,7 @@ that point if they wish.
 
 Range: 240'
 
-Magic User 6
+Magic-User 6
 
 Duration: 6 turns
 
@@ -1829,7 +1829,7 @@ Reversed, this spell becomes **protection from good 10' radius**, and functions
 
 ## Protection from Normal Missiles
 
-Magic User 3
+Magic-User 3
 
 Range: Self
 
@@ -1983,7 +1983,7 @@ apply this spell in combat.
 
 Range: 0
 
-Magic User 1
+Magic-User 1
 
 Duration: special
 
@@ -2006,7 +2006,7 @@ The spell grants the ability to read the texts, but does not in any way hasten t
 
 Range: 0
 
-Magic User 1
+Magic-User 1
 
 Duration: permanent
 
@@ -2034,7 +2034,7 @@ This spell also heals 3d8 points of damage. Regenerate has no effect on nonlivin
 
 Range: Touch
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -2249,7 +2249,7 @@ Restoration does not restore levels lost due to death (as described for the spel
 
 Range: Self
 
-Magic User 1
+Magic-User 1
 
 Duration: 5 rounds+1/level
 
@@ -2291,7 +2291,7 @@ the affected area
 
 Range: 90'
 
-Magic User 1
+Magic-User 1
 
 Duration: 5 rounds/level
 
@@ -2478,7 +2478,7 @@ This spell bestows upon one weapon the ability to deal 1d6 points of additional 
 
 Range: Self
 
-Magic User 5
+Magic-User 5
 
 Duration: 3 turns
 
@@ -2505,7 +2505,7 @@ throw.
 
 Range: Self
 
-Magic User 5
+Magic-User 5
 
 Duration: Instantaneous
 
@@ -2628,7 +2628,7 @@ True seeing, however, does not penetrate solid objects. It in no way confers X-r
 
 Range: 60'
 
-Magic User 1
+Magic-User 1
 
 Duration: 1 turn/level
 
@@ -2690,7 +2690,7 @@ of 1 round per level, at their option
 
 Range: 90'
 
-Magic User 6
+Magic-User 6
 
 Duration: permanent
 
@@ -2746,7 +2746,7 @@ iron is susceptible to rust and corrosion
 
 Range: 15' per level
 
-Magic User 5
+Magic-User 5
 
 Duration: permanent
 
@@ -2790,7 +2790,7 @@ container.
 
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 2 hours/level
 
@@ -2808,7 +2808,7 @@ breathe air.
 
 Range: 10' per level
 
-Magic User 2
+Magic-User 2
 
 Duration: 2 turns/level
 
@@ -2871,7 +2871,7 @@ web.
 
 Range: 240'
 
-Magic User 4
+Magic-User 4
 
 Duration: 6 turns
 
@@ -2884,7 +2884,7 @@ With this spell the caster creates an invisible magical "eye" through which he o
 
 Range: 20'
 
-Magic User 2
+Magic-User 2
 
 Duration: permanent
 

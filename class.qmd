@@ -1,6 +1,6 @@
 # Character Classes
 
-The allowed classes are Cleric, Druid, Fighter, Ranger, Paladin, Magic User, and Thief. To be a member of a class, the character must meet the Prime Requisite minimum and racial requirements specified for that class.
+The allowed classes are Cleric, Druid, Fighter, Ranger, Paladin, Magic-User, and Thief. To be a member of a class, the character must meet the Prime Requisite minimum and racial requirements specified for that class.
 
 ## Cleric
 
@@ -329,7 +329,7 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 | **18-19** | 9 | 7 | 6 | 11 | 9 |
 | **20** | 8 | 6 | 5 | 11 | 8 |
 
-: Magic User Saving Throws {#tbl-save-mage}
+: Magic-User Saving Throws {#tbl-save-mage}
 
 ## Thief
 

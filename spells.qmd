@@ -302,7 +302,7 @@ This spell wards a creature from attacks by evil creatures, from mental control,
 
 First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual GM to decide.
 
-Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
+Second, the barrier blocks any attempt to possess the warded creature (by a **Magic Jar** attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the **Protection From Evil** effect. If the **Protection From Evil** effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
 
 Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
 
@@ -837,7 +837,7 @@ Reversed, this spell becomes **Poison**. The caster must make a successful attac
 
 ::: {.callout-note icon=false collapse=true}
 
-## Protection from Evil 10' Radius*
+## Protection From Evil 10' Radius*
 
 Cleric 4, Magic-User 3
 
@@ -845,9 +845,9 @@ Range: Touch
 
 Duration: 1 turn/level
 
-This spell functions exactly as **Protection from Evil**, but with a 10' radius rather than a 1' radius.  All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
+This spell functions exactly as **Protection From Evil**, but with a 10' radius rather than a 1' radius.  All within the radius receive the protection; those who leave and then re-enter, or who enter after the spell is cast, receive the protection as well.
 
-Reversed, this spell becomes **Protection from Good 10' Radius**, and functions exactly as the reversed form of **Protection from Evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
+Reversed, this spell becomes **Protection From Good 10' Radius**, and functions exactly as the reversed form of **Protection From Evil**, except that it covers a 10' radius around the target rather than the normal 1' radius.
 
 :::
 
@@ -1811,7 +1811,7 @@ The swarm of small animals (roll on following table to determine type, or the DM
 | 81-90     | Centipedes/beetles   |
 | 91-100    | Flying insects       |
 
-The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A protection from evil spell keeps the swarm at bay, and certain area-effect spells, such as **Gust of Wind** and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a **Gust of Wind**). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
+The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A **Protection From Evil** spell keeps the swarm at bay, and certain area-effect spells, such as **Gust of Wind** and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a **Gust of Wind**). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
 
 :::
 
@@ -2328,7 +2328,7 @@ Range: Touch
 
 Duration: Special
 
- This spell functions exactly like **Protection from Fire**, except that that it protects against any sort of electrical or lightning damage.
+ This spell functions exactly like **Protection From Fire**, except that that it protects against any sort of electrical or lightning damage.
 
 :::
 
@@ -2970,7 +2970,7 @@ For the duration of the spell, each participant may freely switch between its ph
 :::
 
 
-# Magic User Spells
+# Magic-User Spells
 
 Magic-Users cast spells through the exercise of knowledge and will. They prepare spells by study of their spellbooks; each Magic-User has his or her own spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in a magical script that can only be read by the one who wrote it, or through the use of the spell **Read Magic**. All Magic-Users begin play knowing **Read Magic**, and it is so ingrained that it can be prepared without a spellbook.
 
@@ -2978,19 +2978,221 @@ A Magic-User may only prepare spells after resting (i.e. a good night's sleep), 
 
 Rules for the acquisition of new spells are found in the Game Master's section.
 
+
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 1, Magic User
+## Level 0, Magic-User (Cantrips)
+
+::: {.callout-note icon=false collapse=true}
+
+## Animate Tool
+
+Magic-User 0
+
+Range: 10'
+
+Duration: 1 turn/level
+
+A single, small tool (such as a quill pen, spoon, sewing needle, or small hammer) is animated by this cantrip. It will perform a single, repetitive task (such as writing dictated words, stirring a pot of soup, sewing the hem of a dress, or nailing boards into a house) for as long as a turn.
+
+The magic user must be able to perform the repeated action by hand himself. Weapons may not be animated by this cantrip, and objects animated may not be used as weapons.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Clean*
+
+Magic-User 0
+
+Range: 30'
+
+Duration: Instananeous
+
+A mage making use of this cantrip may clean, shine, dust, or polish a small object or surface of up to 1 square foot. Reversed, this becomes **Dirty**, which can make the same area dirty, tarnished, scuffed, or dusty.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Flare
+
+Magic-User 0
+
+Range: 20' + 5'/level
+
+Duration: Instananeous
+
+ A flash of light, a very small ball of fire, or a puff of colored smoke can be created by this cantrip. They will not typically last longer than a second.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Flavor*
+
+Magic-User 0
+
+Range: 20' + 5'/level
+
+Duration: Instananeous
+
+This cantrip may either make one dish taste any way the caster wants it to (which is an illusion), or add salt, spice, sweetener, or another flavoring agent (which is real). Reversed, it becomes **Putrefy**, which makes the food or drink either go bad (which is real) or taste as if it had been prepared wrongly (which is an illusion).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Inscrbe
+
+Magic-User 0
+
+Range: 10' + 5'/level
+
+Duration: Permanent
+
+This cantrip engraves up to 1 square foot of writing or drawing on almost any nonliving surface.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Irritate
+
+Magic-User 0
+
+Range: 20' + 5'/level
+
+Duration: 1 round/level
+
+This cantrip forces another person to involuntarily blink, nod, itch, giggle, or some other small body motion.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Knot*
+
+Magic-User 0
+
+Range: 30'
+
+Duration: Intantaneous
+
+This spell may tightly knot or tangle a rope, string, or similar object in any knot the caster would be able to tie. Reversed, the **Unknot** spell may undo any knot the caster could unknot himself.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Open*
+
+Magic-User 0
+
+Range: 30'
+
+Duration: Intantaneous
+
+A normal, unlocked door, window, or other portal may be opened by this cantrip.  Reversed, the **Close** spell will close a normal, open door, window, or other portal.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Read Magic
+
+Magic-User 0
+
+Range: 0'
+
+Duration: Permanent
+
+All Magic-Users are able to read magic.
+
+When cast upon any magical text, such as a spellbook or magic-user spell scroll, this spell enables the caster to read that text.  Casting this spell on a cursed text will generally trigger the curse.  All Magic-Users begin play knowing this spell, and it can be prepared even if the Magic-User loses access to their spellbook.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Summon Vermin*
+
+Magic-user 0, Druid 0
+
+Range: 30'
+
+Duration: 1 turn/level
+
+This cantrip/orison summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Zagig's Canned Laughter
+
+Magic-User 0
+
+Range: Self
+
+Duration: 1 round/level
+
+The spell just makes a laugh track play any time the caster jokes, for one round per level.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+
+# Level 1, Magic-User
+
+::: {.callout-note icon=false collapse=true}
+
+## Alarm
+
+Magic-User 1
+
+Range: 20' + 10'/level
+
+Duration: 2 hours/level
+
+Alarm sounds a mental or audible alarm each time any creature larger than a rat enters the warded area or touches it. A creature that speaks the password (determined by the caster at the time of casting) does not set off the alarm. The caster decides at the time of casting whether the alarm will be mental or audible.
+
+Mental Alarm: A mental alarm alerts the caster (and only the caster) so long as the caster remains within 1 mile of the warded area. The caster will hear a single mental “ping” sufficient to awaken the caster from normal sleep, but which does not otherwise disturb concentration. A **Silence** spell has no effect on a mental alarm.
+
+Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone within 60 ft of the warded area can hear it clearly. Interposing doors or walls may reduce the distance by 10 ft or 20 ft. The sound lasts for 1 round. Creatures within a **Silence** spell cannot hear the ringing.
+
+Incorporeal creatures do not trigger the alarm.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Burning Hands
+
+Magic-User 1
+
+Range: Special
+
+Duration: 1 round
+
+When the wizard casts this spell, a jet of searing flame shoots from their fingertips. Their hands must be held so as to send forth a fanlike sheet of flames: The wizard's thumbs must touch each other and the fingers must be spread. The burning hands send out flame jets 5 feet long in a horizontal arc of about 120 degrees in front of the wizard.
+
+Any creature in the area of the flames suffers 1d3 points of damage, plus 2 points for each level of experience of the spellcaster, to a maximum of 1d3+20 points of fire damage. Those successfully saving vs. spell receive half damage. Flammable materials touched by the fire burn (for example, cloth, paper, parchment, thin wood, etc.). Such materials can be extinguished in the next round if no other action is taken.
+
+:::
 
 ::: {.callout-note icon=false collapse=true}
 
 ## Charm Person
 
+Magic-User 1
+
 Range: 30'
 
-Magic User 1
-
-Duration: special
+Duration: Special
 
 This spell makes a humanoid creature of 4 hit dice or less regard the caster as its trusted friend and ally. Humans and demi-humans may be affected, regardless of level of ability. A save vs. Spells will negate the effect. If the creature is currently being threatened or attacked by the caster or his or her allies, it receives a +5 bonus on its saving throw. The spell does not enable the caster to control the charmed person as if it were an automaton; rather, it perceives his or her words and actions in the most favorable way. The caster can try to give the subject orders, but it will not do anything it wouldn’t ordinarily do, and further may receive an additional saving throw to overcome the magic (at the GM's discretion). The caster must speak the target's language to communicate any commands, or else be good at pantomiming; of course, if the caster is attacked, the charmed creature will act to protect its “friend” (though that could mean attacking the caster's enemies, or attempting to carry off the caster to a “safe” place). The target receives a new saving throw each day if it has an Intelligence of 13 or greater, every week if its Intelligence is 9-12, or every month if its Intelligence is 8 or less.
 
@@ -2998,11 +3200,74 @@ This spell makes a humanoid creature of 4 hit dice or less regard the caster as 
 
 ::: {.callout-note icon=false collapse=true}
 
+## Chill
+
+Black Magic-User 1
+
+Range: 10'
+
+Duration: 2 rounds
+
+This spell does 1d4 points of damage to one creature within range.  Furthermore, the creature must save vs. Paralysis or suffer -1 to melee hit and damage rolls for 1d6 rounds.  A large heat source nearby gives a +2 to save.  The caster may use this spell on one target up to 2 rounds after casting.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Command Undead
+
+Black Magic-User 1
+
+Range: 30'
+
+Duration: Special
+
+This spell allows the caster to influence an undead creature.  If the undead creature is intelligent, this spell operates as charm person, except that the caster can influence 2 HD per caster level, instead of just a flat 4 HD.  It otherwise operates the same, including duration.
+
+If the undead creature is unintelligent, the caster immediately gains complete control, the creature gets no saving throw, and the duration is permanent.  Any unintelligent undead controlled using this spell count against the total control limit from re-animation.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Corpse Servant
+
+Black Magic-User 1
+
+Range: Touch
+
+Duration: 1 hour/level
+
+This spell allows the caster to temporarily animate skeletons or zombies.  A number of hit dice equal to the caster's level may be animated for up to one hour per caster level.  These non-permanent undead do not count towards the **Re-animation** spell limitations, but they otherwise conform to the permanent undead created by that spell.  Only one instance of this spell may be active at a time for any particular caster.
+
+Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased.  Zombies have one more hit die than the creature had in life.  An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse.  The caster must touch the remains to be animated.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Decay Flash
+
+Black Magic-User 1
+
+Range: Touch
+
+Duration: Instantaneous
+
+This is a version of the **Cause Light Wounds** spell dealing 1d6+1 points of damage to the creature affected by it.  The caster must make a successful attack to inflict the damage.  A missed attack roll does not dispel the effect, as it can be active until used or until a number of rounds equal to the caster's level have passed.
+
+Unlike the Clerical spell mentioned, this spell may not be reversed.  However, this spell does work upon undead creatures in the opposite fashion; they are healed 1d6+1 hit points instead.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Detect Magic
 
-Range: 60'
+Cleric 1, Druid 1, Magic-User 1
 
-Cleric 1, Magic-User 1
+Range: 60'
 
 Duration: 2 turns
 
@@ -3012,11 +3277,81 @@ The caster of this spell is able to detect enchanted or enspelled objects or cre
 
 ::: {.callout-note icon=false collapse=true}
 
+
+## Enlarge*
+
+Magic-User 1
+
+Range: 5 yards/level
+
+Duration: 5 rounds/level
+
+This spell causes instant growth of a creature or object, increasing both size and weight. It can be cast only upon a single creature (or a symbiotic or community entity) or upon a single object that does not exceed 10 cubic feet in volume per caster level. The object or creature must be seen to be affected. It grows by up to 10% per level of experience of the magic-user, increasing this amount in height, width, and weight will increase cubicly.
+
+All equipment worn or carried by a creature is enlarged by the spell. Unwilling victims are entitled to a saving throw vs. spell. A successful saving throw means the spell fails. If insufficient room is available for the desired growth, the creature or object attains the maximum possible size, bursting weak enclosures in the process, but it is constrained without harm by stronger materials--the spell cannot be used to crush a creature by growth.
+
+Magical properties are not increased by this spell--a huge sword +1 is still only +1, a staff-sized wand is still only capable of its normal functions, a giant-sized potion merely requires a greater fluid intake to make its magical effects operate, etc. Weight, mass, and strength are affected, though. Thus, a table blocking a door would be heavier and more effective, a hurled stone would have more mass (and cause more damage), chains would be more massive, doors thicker, a thin line turned to a sizeable, longer rope, and so on. A creature's hit points, Armor Class, and attack rolls do not change, but damage rolls increase proportionately with size.
+
+For example, a fighter at 160% normal size hits with their long sword and rolls a 6 for damage. The adjusted damage roll is 10 (that is, 6 x 1.6 = 9.6, rounded up). Bonuses due to Strength, class, and magic are not altered.
+
+The reverse spell, **Reduce**, negates the enlarge spell or makes creatures or objects smaller. The creature or object loses 10% of its original size for every level of the caster, to a minimum of 10% of the original size. Thereafter, the size shrinks by 1-foot increments to less than 1 foot, by 1-inch increments to 1 inch, and by 1/10-inch increments to a minimum of 1/10 of an inch--the recipient cannot dwindle away to nothingness.
+
+For example, a 16-foot-tall giant reduced by a 15th-level magic-user (15 steps) would be reduced to 1.6 feet (in nine steps), then to 6/10 of a foot or 7.2 inches (in one step), and finally to 2.2 inches (in the last five steps). A shrinking object may damage weaker materials affixed to it, but an object will shrink only as long as the object itself is not damaged. Unwilling creatures are allowed a saving throw vs. spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Familiar
+
+Magic-User 1
+
+Range: Touch
+
+Duration: Special
+
+With this spell, the caster binds a single animal into their service as a familiar. The spell requires 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier. The creature must be present, and the caster must touch it to cast the spell.
+
+Only normal (non-magical) creatures of 1-1 hit die may be made into familiars. Further, each spellcaster may have only one familiar at a time. If a familiar dies, the caster will not be able to successfully cast this spell again for 2d6 months (the period to be rolled by the GM and not revealed to the player). A saving throw vs. Spells is allowed to resist, and if this roll succeeds, the animal chosen is not compatible with the caster and cannot become their familiar.
+
+The familiar will behave as if permanently charmed by its master and will perform any task assigned to it to the best of its ability. The creature's morale is increased by 2 points (to a maximum of 11), and it receives improved intelligence equal to 3+1d4 points. Familiars also age at half the normal rate for their kind, so a cat familiar (for instance) might easily live forty years.
+
+The familiar's hit points are added to the Magic User 's. If a familiar is slain, the Magic User loses double the familiar's hit points, permanently.
+
+In combat, it shares initiative and acts at the end of the Magic User’s turn.
+
+Within 200 feet, the Magic User can see through the familiar's eyes and hear what it hears, returning to the Magic User’s senses at will. During this time, the Magic User is deaf and blind regarding their own senses.
+
+Additionally, while the familiar is within 100 feet of the Magic User, they can communicate telepathically. This communication is in simple telepathic concepts, such as "3 angry people. One is short" or "path forks, 3 ways ahead, smells like food". Not enough detail for a map.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Feather Fall
+
+Magic-User 1
+
+Range: 10 yards/level
+
+Duration: 1 round/level
+
+When this spell is cast, the creature(s) or object(s) affected immediately assumes the mass of a piece of down. The rate of falling is instantly changed to a mere 2 feet per second (120 feet per round), and no damage is incurred upon landing while the spell is in effect. However, when the spell duration ceases, a normal rate of fall occurs. The spell can be cast upon the wizard or some other creature or object up to the maximum range and lasts for one round for each level of the wizard.
+
+The feather fall affects one or more objects or creatures in a 10-foot cube, as long as the maximum weight of the creatures or objects does not exceed a combined total of 200 pounds plus 200 pounds per level of the spellcaster.
+
+For example, a 2nd-level wizard has a range of 20 yards, a duration of two rounds, and a weight limit of 600 pounds when casting this spell. The spell works only upon free-falling, flying, or propelled objects (such as missiles). It does not affect a sword blow or a charging creature. Note that the spell can be effectively combined with **Gust of Wind** and similar spells.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Floating Disk
 
-Range: 0
+Magic-User 1
 
-Magic User 1
+Range: 0
 
 Duration: 5 turns +1/level
 
@@ -3028,11 +3363,45 @@ The disc floats level to the ground, at about the height of the caster's waist. 
 
 ::: {.callout-note icon=false collapse=true}
 
+## Grease
+
+Magic-User 1
+
+Range: 10 yards
+
+Duration: 1 turns +1/level
+
+A grease spell covers a 10 x 10 ft material surface with a slippery layer of a fatty, greasy nature. Any creature entering the area or caught in it when the spell is cast must save vs. spell or slip, skid, and fall. Those who successfully save can reach the nearest nongreased surface by the end of the round. Those who remain in the area are allowed a saving throw each round until they escape the area. The DM should adjust saving throws by circumstance; for example, a creature charging down an incline that is suddenly greased has little chance to avoid the effect, but its ability to exit the affected area is almost assured!
+
+The spell can also be used to create a greasy coating on an item--a rope, ladder rungs, weapon handle, etc. Material objects not in use are always affected by this spell, while creatures wielding or employing items receive a saving throw vs. spell to avoid the effect. If the initial saving throw is failed, the creature immediately drops the item. A saving throw must be made each round the creature attempts to use the greased item. The caster can end the effect with a single utterance; otherwise, it lasts for 1 turn plus one turn per level.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Hannelore’s Rope Trick
+
+Magic-User 1
+
+Range: Touch
+
+Duration: 4 turns/level
+
+When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular, as if affixed at the upper end. The upper end is, in fact, fastened to an extradimensional space. The spellcaster and up to seven others can climb up the rope and disappear into this place of safety where no creature can find them.
+
+The rope can be taken into the extradimensional space if fewer than eight persons have climbed it; otherwise, it simply stays hanging in the air (extremely strong creatures might be able to remove it, at the DM's option). Spells cannot be cast across the interdimensional interface, nor can area effects cross it. Those in the extradimensional space can see out of it as if there were a 3-foot x 5-foot window centered on the rope. The persons in the extradimensional space must climb down prior to the end of the spell, or they are dropped from the height at which they entered the extradimensional space.
+
+The rope can be climbed by only one person at a time. Note that the rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extradimensional space. Also note that creating or taking extradimensional spaces into an existing extradimensional space is hazardous.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Hold Portal
 
-Range: 100'+10'/level
+Magic-User 1
 
-Magic User 1
+Range: 100'+10'/level
 
 Duration: 1 round/level
 
@@ -3042,11 +3411,25 @@ This spell magically holds shut a door, gate, window, or shutter of wood, metal,
 
 ::: {.callout-note icon=false collapse=true}
 
+## Jump
+
+Magic-User 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The individual touched when this spell is cast is empowered to leap once per round for the duration of the spell. Leaps can be up to 30 feet forward or straight upward or 10 feet backward. Horizontal leaps forward or backward have only a slight arc--about 2 feet per 10 feet of distance traveled. The jump spell does not ensure safety in landing or grasping at the end of the leap.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Light*
 
-Range: 120'
-
 Cleric 1, Magic-User 1
+
+Range: 120'
 
 Duration: 6 turns + 1/level
 
@@ -3062,11 +3445,56 @@ Either version of this spell may be used to blind an opponent by means of castin
 
 ::: {.callout-note icon=false collapse=true}
 
+## Locate Corpse
+
+Black Magic-User 1
+
+Range: 360'
+
+Duration: 1 round/level
+
+This spell allows the caster to sense the direction of the closest corpse or remains of a type usable for spells such as **Re-animation** or other similar spells.  Throughout the duration, the caster need simply concentrate on the general type of corpse (animal, humanoid, large size, etc) and of applicable state (intact, fresh, skeletal, etc).  The nearest remains fitting the criteria is located if more than one is within range.  Upon arrival at the location of the nearest corpse, the caster can again concentrate to locate another corpse, as long as the spell duration lasts. 
+
+Specific remains belonging to a particular individual can be located with this spell, so long as the caster knew the individual personally during life.  This spell is blocked by even a thin sheet of lead or gold.  Creatures, whether living or in states of undeath, cannot be found by this spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mage Armor
+
+Magic-User 1
+
+Range: Self
+
+Duration: 1 turn
+
+This spell creates a magical armor which protects the caster. The caster's skin becomes hard and stone-like, giving the caster a +2 bonus to armor class vs. melee attacks and hand-thrown missiles such as daggers or spears, and a +4 bonus to armor class vs. normal sized projectiles such as arrows, bolts, sling stones, and sling bullets.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mage Hand
+
+Magic-User 1
+
+Range: 40'
+
+Duration: 10 rounds
+
+A spectral hand is conjured, which may either move one pound of materials at a speed of 10 feet per round for ten rounds (at a maximum range of 40 feet), or give an object a powerful push about equal to the caster's strength at a range of 10 feet.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Magic Missile
 
-Range: 100'+10'/level
+Magic-User 1
 
-Magic User 1
+Range: 100'+10'/level
 
 Duration: Instantaneous
 
@@ -3080,9 +3508,9 @@ For every three caster levels beyond 1st, an additional missile is fired – two
 
 ## Magic Mouth
 
-Range: 30'
+Magic-User 1
 
-Magic User 1
+Range: 30'
 
 Duration: special
 
@@ -3096,7 +3524,22 @@ The range limit of a trigger is 10 feet per caster level, so a 6th-level caster 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Protection from Evil*
+## Mount
+
+Magic-User 1
+
+Range: 30'
+
+Duration: 2 hours/level
+
+This spell summons a riding horse or pony (caster’s choice) to serve as a mount. The mount comes with bit, bridle, and saddle.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
+## Protection From Evil*
 
 Cleric 1, Magic-User 1
 
@@ -3108,7 +3551,7 @@ This spell wards a creature from attacks by evil creatures, from mental control,
 
 First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual GM to decide.
 
-Second, the barrier blocks any attempt to possess the warded creature (by a magic jar attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the protection from evil effect. If the protection from evil effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
+Second, the barrier blocks any attempt to possess the warded creature (by a **Magic Jar** attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the **Protection From Evil** effect. If the **Protection From Evil** effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
 
 Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are "evil" or not). This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature. The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
 
@@ -3118,13 +3561,36 @@ Reversed, this spell becomes **Protection From Good**. It functions in all ways
 
 ::: {.callout-note icon=false collapse=true}
 
+
+## Protection From Undead*
+
+Black Magic-User 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell works almost identically to the **Protection From Evil** spell by warding a creature from attacks by undead creatures, from mental control, and from summoned creatures regardless of any moral or ethical leanings.  It creates a magical barrier around the subject at a distance of 1 foot.  The barrier moves with the subject and has three major effects:
+
+First, the subject gains a +2 bonus to AC and on saves.  Both of these bonuses apply against attacks made or effects created by undead creatures or beings that the GM decides have a strong connection with death or undead.
+
+Second, the barrier blocks any attempt to possess the warded creature (by a **Magic Jar** attack, for example) or to exercise mental control over the creature (including charm spells or effects).  The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the **Protection from Undead** spell.  If the **Protection From Undead** effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature.  Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
+
+Third, the spell prevents bodily contact by summoned creatures (regardless of whether they are undead or not).  This causes the natural weapon attacks of such creatures to fail and the creatures to recoil if such attacks require touching the warded creature.  The protection against contact by summoned creatures ends if the warded creature makes an attack against or tries to force the barrier against the blocked creature.
+
+Reversed, this spell becomes quite potent as **Protection From Living**.  It functions in all ways as described above, save that “living” creatures are kept away, rather than dead or “undead” creatures.  Black Magic-Users often use both versions of the spell to protect themselves from threats by both the living population as well as powerful undead that may try to command the Black Magic-User such as ghosts or vampires.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Read Languages
+
+Magic-User 1
 
 Range: 0
 
-Magic User 1
-
-Duration: special
+Duration: Special
 
 This spell grants the caster the ability to read almost any written language. It may be cast in one of three modes:
 
@@ -3146,7 +3612,7 @@ The spell grants the ability to read the texts, but does not in any way hasten t
  
 Range: 0
 
-Magic User 1
+Magic-User 1
 
 Duration: permanent
 
@@ -3158,9 +3624,9 @@ When cast upon any magical text, such as a spellbook or magic-user spell scroll,
 
 ## Shield
 
-Range: Self
+Magic-User 1
 
-Magic User 1
+Range: Self
 
 Duration: 5 rounds+1/level
 
@@ -3172,9 +3638,9 @@ Shield creates an invisible, shield-like mobile disk of force that hovers in fro
  
 ## Sleep
  
-Range: 90'
+Magic-User 1
 
-Magic User 1
+Range: 90'
 
 Duration: 5 rounds/level
 
@@ -3187,12 +3653,57 @@ When the duration elapses, the sleeping creatures normally wake up immediately; 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Staff
+ 
+Magic-User 1
+
+Range: Touch
+
+Duration: 3 rounds/level
+
+ This spell enables the caster to change their own staff into a magical weapon that gains a +1 bonus to its attack roll and inflicts 2d4 +1 points of damage.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Stench
+ 
+Black Magic-User 1
+
+Range: Self
+
+Duration: 1 turn/level
+
+This spell creates a sickly stinking smell of rot and decay that emanates from the caster's body.  The stench duplicates the sickening effect of ghasts ([see its entry in the Basic Fantasy Field Guide 1](monstersAll.html#ghoul-and-ghast)).  The smell of death and corruption surrounding the caster is so overwhelming that living creatures within 10 feet must succeed a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls). 
+
+For every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3rd the save is at -1, at 6th level at -2, at 9th level at -3, etc).  A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours.  A **Neutralize Poison Spell** removes the effect from a sickened creature.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Unseen Servant
+ 
+Magic-User 1
+
+Range: 50'
+
+Duration: 1 hour/level
+
+An unseen servant is an invisible servant that is shapeless and mindless. It can be used to fetch things, return things, open doors, hold chairs, clean things, and mend things. It is not strong, having an effective strength of 3. It can only open normal doors, chests, lids, containers, and such subject to its minimal strength. The servant cannot fight, nor can it be destroyed, but it can always be dismissed at any time prior to the spell’s end.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
  
 ## Ventriloquism
  
 Range: 60'
 
-Magic User 1
+Magic-User 1
 
 Duration: 1 turn/level
 
@@ -3206,7 +3717,7 @@ This spell allows the caster to cause his or her voice to sound from someplace e
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 2, Magic User
+# Level 2, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
  
@@ -3250,7 +3761,7 @@ Reversed, this spell becomes **Detect Good**, which works just as described abov
  
 Range: 60'
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -3264,7 +3775,7 @@ By means of this spell the caster is able to see invisible characters, creatures
  
 Range: Touch
 
-Magic User 2
+Magic-User 2
 
 Duration: special
 
@@ -3282,7 +3793,7 @@ The spell ends if the subject attacks any creature or casts any spell. Actions (
  
 Range: 30'
 
-Magic User 2
+Magic-User 2
 
 Duration: special
 
@@ -3296,7 +3807,7 @@ The knock spell opens stuck, barred, locked, **Held**, or **Wizard Locked** d
  
 Range: Touch
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -3326,7 +3837,7 @@ This spell allows the caster to sense the direction of a well-known or clearly v
  
 Range: 60'
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -3344,7 +3855,7 @@ Rock more than 2 inches thick or a thin coating of lead or gold will block the s
  
 Range: Self
 
-Magic User 2
+Magic-User 2
 
 Duration: 1 turn/level
 
@@ -3360,7 +3871,7 @@ Enemies attempting to attack or cast spells upon the caster will always hit a fi
  
 Range: 180'
 
-Magic User 2
+Magic-User 2
 
 Duration: concentration
 
@@ -3378,7 +3889,7 @@ Attempting to animate more creatures than the caster's level grants viewing crea
  
 Range: 10' per level
 
-Magic User 2
+Magic-User 2
 
 Duration: 2 turns/level
 
@@ -3398,7 +3909,7 @@ The strands of a web spell are flammable. Any fire can set the webs alight and b
  
 Range: 20'
 
-Magic User 2
+Magic-User 2
 
 Duration: permanent
 
@@ -3412,7 +3923,7 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 3, Magic User
+# Level 3, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
  
@@ -3420,7 +3931,7 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
  
 Range: 60'
 
-Magic User 3
+Magic-User 3
 
 Duration: 12 turns
 
@@ -3434,7 +3945,7 @@ This spell enables the caster to see into another area through the eyes of a liv
  
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 hour/level
 
@@ -3466,7 +3977,7 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
  
 Range: 100'+10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: Instantaneous
 
@@ -3484,7 +3995,7 @@ The fireball sets fire to combustibles and damages objects in the area. It can m
  
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 turn/level
 
@@ -3500,7 +4011,7 @@ Should the spell duration expire while the subject is still aloft, the magic fai
  
 Range: 30'+10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: 1 round/level
 
@@ -3530,7 +4041,7 @@ A winged creature which is paralyzed cannot flap its wings and falls (if in flig
  
 ## Invisibility 10' radius
  
-Magic User 3
+Magic-User 3
 
 Range: Touch
 
@@ -3548,7 +4059,7 @@ Those affected by this spell can see each other and themselves as if unaffected 
  
 Range: 50'+10'/level
 
-Magic User 3
+Magic-User 3
 
 Duration: Instantaneous
 
@@ -3578,7 +4089,7 @@ Reversed, this spell becomes **Protection From Good 10' Radius**, and functions
  
 ## Protection from Normal Missiles
  
-Magic User 3
+Magic-User 3
 
 Range: Self
 
@@ -3594,7 +4105,7 @@ The caster is completely protected from small sized, non-magical missile attacks
  
 Range: Touch
 
-Magic User 3
+Magic-User 3
 
 Duration: 2 hours/level
 
@@ -3608,7 +4119,7 @@ The affected creatures can breathe water freely. Divide the duration evenly amon
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 4, Magic User
+# Level 4, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
  
@@ -3616,7 +4127,7 @@ The affected creatures can breathe water freely. Divide the duration evenly amon
  
 Range: 30'
 
-Magic User 4
+Magic-User 4
 
 Duration: special
 
@@ -3630,7 +4141,7 @@ This spell functions like **Charm Person**, except that the effect is not restr
  
 Range: 360'
 
-Magic User 4
+Magic-User 4
 
 Duration: 2 rounds+1/level
 
@@ -3654,7 +4165,7 @@ A confused character who can't carry out the indicated action does nothing but b
  
 Range: 10'
 
-Magic User 4
+Magic-User 4
 
 Duration: Instantaneous
 
@@ -3668,7 +4179,7 @@ The caster of this spell instantly transfers himself or herself, or any single t
  
 Range: 120'
 
-Magic User 4
+Magic-User 4
 
 Duration: permanent
 
@@ -3684,7 +4195,7 @@ Growth of plants and its reverse are permanent until countered, either by the op
  
 ## Hallucinatory Terrain
  
-Magic User 4
+Magic-User 4
 
 Range: 400'+40'/level
 
@@ -3702,7 +4213,7 @@ The affected terrain looks, sounds, and smells like another sort of natural terr
  
 Range: 300'+30'/level
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 round
 
@@ -3716,7 +4227,7 @@ This spell causes great magical hailstones to pound down for 1 full round, deali
  
 Range: 100'+10'/level
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 hour/level
 
@@ -3732,7 +4243,7 @@ Those affected are thus concealed from other creatures passing through the area 
  
 Range: 30'
 
-Magic User 4
+Magic-User 4
 
 Duration: permanent
 
@@ -3750,7 +4261,7 @@ Unwilling targets that successfully save against Polymorph are not affected. The
  
 Range: Self
 
-Magic User 4
+Magic-User 4
 
 Duration: 1 hour/level
 
@@ -3814,7 +4325,7 @@ The caster may choose to maintain the spell indefinitely (within reasonable limi
  
 Range: 240'
 
-Magic User 4
+Magic-User 4
 
 Duration: 6 turns
 
@@ -3828,7 +4339,7 @@ With this spell the caster creates an invisible magical “eye” through which 
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 5, Magic User
+# Level 5, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
  
@@ -3850,7 +4361,7 @@ This spell turns the bones or bodies of dead creatures into undead skeletons or 
  
 Range: 100'+10'/level
 
-Magic User 5
+Magic-User 5
 
 Duration: 6 rounds/level
 
@@ -3864,7 +4375,7 @@ This spell creates a 20'x20'x20' cloud of poison gas which moves at a rate of 10
  
 Range: 240'
 
-Magic User 5
+Magic-User 5
 
 Duration: special
 
@@ -3878,7 +4389,7 @@ A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened,
  
 Range: 180'
 
-Magic User 5
+Magic-User 5
 
 Duration: permanent
 
@@ -3900,11 +4411,11 @@ This spell functions like **Hold Person**, except that it affects any living cre
  
 Range: 60'
 
-Magic User 5
+Magic-User 5
 
 Duration: special
 
-By casting magic jar, the caster places his or her soul in a gem or large crystal within spell range (known as the magic jar), leaving the body lifeless. The caster may then attempt to take control of a nearby living creature within spell range, forcing its soul into the magic jar. The caster may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body. The spell ends when the caster's soul returns to his or her own body, leaving the receptacle empty.
+By casting **Magic Jar**, the caster places his or her soul in a gem or large crystal within spell range (known as the magic jar), leaving the body lifeless. The caster may then attempt to take control of a nearby living creature within spell range, forcing its soul into the magic jar. The caster may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body. The spell ends when the caster's soul returns to his or her own body, leaving the receptacle empty.
 
 To cast the spell, the magic jar must be within spell range and the caster must know where it is, though he or she does not need to be able to see it. When the caster transfers his or her soul upon casting, the caster's body is, as near as anyone can tell, dead, but does not undergo decay as a normal dead body would.
 
@@ -3928,7 +4439,7 @@ In any case where the spell ends with the caster's body unoccupied by a spirit, 
  
 Range: 30'
 
-Magic User 5
+Magic-User 5
 
 Duration: 3 turns
 
@@ -3942,7 +4453,7 @@ Passwall creates a passage through wooden, plaster, or stone walls, but not thro
  
 Range: Self
 
-Magic User 5
+Magic-User 5
 
 Duration: 3 turns
 
@@ -3956,7 +4467,7 @@ This spell permits the caster to move objects or creatures by concentration alon
  
 Range: Self
 
-Magic User 5
+Magic-User 5
 
 Duration: Instantaneous
 
@@ -3994,7 +4505,7 @@ Mishap: The caster and anyone else teleporting with the caster have gotten "scra
  
 Range: 15' per level
 
-Magic User 5
+Magic-User 5
 
 Duration: permanent
 
@@ -4014,7 +4525,7 @@ It is possible, but difficult, to trap mobile opponents within or under a wall o
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 6, Magic User
+# Level 6, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
  
@@ -4023,7 +4534,7 @@ It is possible, but difficult, to trap mobile opponents within or under a wall o
 Anti-Magic Shell
 Range: 10' radius
 
-Magic User 6
+Magic-User 6
 
 Duration: 1 turn/level
 
@@ -4037,7 +4548,7 @@ Within a 10' radius around the caster, all magic is negated for the full duratio
  
 Range: 240'
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -4051,7 +4562,7 @@ This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere
  
 Range: 60'
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -4067,7 +4578,7 @@ A creature that makes a successful save vs. Spells is unaffected. The ray can ta
  
 Range: 30'/level
 
-Magic User 6
+Magic-User 6
 
 Duration: permanent
 
@@ -4083,7 +4594,7 @@ The reverse spell, **Stone to Flesh**, acts as a counterspell for **Flesh to S
  
 Range: 5' per level
 
-Magic User 6
+Magic-User 6
 
 Duration: special
 
@@ -4107,7 +4618,7 @@ A geas (and all effects thereof) can be ended by a **Remove Curse** spell, or 
  
 Range: 0
 
-Magic User 6
+Magic-User 6
 
 Duration: special
 
@@ -4121,7 +4632,7 @@ The caster summons an **Invisible Stalker** to do his or her bidding (see the�
  
 Range: 360'
 
-Magic User 6
+Magic-User 6
 
 Duration: 1 turn/level
 
@@ -4135,7 +4646,7 @@ This spell causes water or similar liquid to reduce its depth by as much as 2 fe
  
 Range: 240'
 
-Magic User 6
+Magic-User 6
 
 Duration: 6 turns
 
@@ -4149,7 +4660,7 @@ This spell creates a quasi-real, illusory version of the caster. The intangible 
  
 Range: Touch
 
-Magic User 6
+Magic-User 6
 
 Duration: Instantaneous
 
@@ -4189,7 +4700,7 @@ The reincarnated creature gains all abilities associated with its new form, incl
  
 Range: 90'
 
-Magic User 6
+Magic-User 6
 
 Duration: permanent
 
