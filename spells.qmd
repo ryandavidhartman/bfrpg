@@ -2147,29 +2147,33 @@ The caster can comprehend and communicate with any one monster that is in sight 
 ::: {.callout-note icon=false collapse=true}
 
 
-## Striking
+## Plant Growth
 
-Cleric 3
+Druid 3
 
-Range: Touch
+Range: Special
 
-Duration: 1 round/level
+Duration: Permanent
 
-This spell bestows upon one weapon the ability to deal 1d6 points of additional damage. This extra damage is applied on each successful attack for the duration of the spell. It provides no attack bonus, but if cast on a normal weapon, the spell allows monsters only hit by magical weapons to be affected; only the 1d6 points of magical damage applies to such a monster, however.
+This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines) within 400 ft. + 40 ft./caster level to become thick and overgrown.  The plants entwine to form a thicket or jungle that creatures must hack or force a way through.  Movement rate is reduced to a maximum of 5 ft./round, or 10 ft for Large creatures.  The area must have brush and trees in it for this spell to take effect.  An area up to 100 ft radius may thus be altered.  Also, the caster may specify an area (a path, a clearing, etc.) within the given area of effect, which is not so affected.
+
+This spell has no effect on plant creatures, that is, any self-willed and/or animated plant.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
 
-## Plant Growth
+## Protection From Fire
 
-Druid
+Druid 3
 
 Range: Touch
 
-Duration: 1 turn/level
+Duration: Special
 
-This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
+If the caster touches himself or herself, this spell grants temporary immunity to fire (normal and magic).  When the spell absorbs 12 points per caster level of magical fire damage, it is discharged.  Otherwise the spell lasts for 1 turn per caster level.
+
+If the spell is cast upon another creature than the caster, **Protection From Fire** grants temporary immunity against normal fire.  The spell also offers a +4 bonus to saving throws against magical fire and if the save is successful, the creature suffers no damage (and only 25% if the save fails).  This version of the spell lasts for 1 turn per caster level.
 
 :::
 
@@ -2187,24 +2191,35 @@ The affected creatures can breathe water freely. Divide the duration evenly amon
 
 :::
 
-
 :::
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 4, Clerical
+# Level 4, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
-## Animate Dead
+## Call Woodland Beings
 
-Cleric 4, Magic-User 5
+Druid 4
 
-Range: Touch
+Range: 120'
 
-Duration: special
+Duration: 1 round/level
 
-This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
+This spell summons woodland creatures.  They appear where the caster designates and act immediately, on their turn (they cannot be summoned into an environment that cannot support them).  They attack the caster opponents to the best of their ability.  If the caster can communicate with the creatures, the caster can direct them not to attack, to attack particular enemies or to perform other actions.
+
+The caster may conjure one type of creature from this list, at their option:
+
+- 4 Centaurs,
+
+- 16 Pixies,
+
+- 2 Treants, or
+
+- 4 Unicorns
+
+This spell only works outdoors in a natural location and will not function within the boundaries of any village, town, or city.
 
 :::
 
