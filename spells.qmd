@@ -3214,22 +3214,6 @@ This spell does 1d4 points of damage to one creature within range.  Furthermore,
 
 ::: {.callout-note icon=false collapse=true}
 
-## Command Undead
-
-Black Magic-User 1
-
-Range: 30'
-
-Duration: Special
-
-This spell allows the caster to influence an undead creature.  If the undead creature is intelligent, this spell operates as charm person, except that the caster can influence 2 HD per caster level, instead of just a flat 4 HD.  It otherwise operates the same, including duration.
-
-If the undead creature is unintelligent, the caster immediately gains complete control, the creature gets no saving throw, and the duration is permanent.  Any unintelligent undead controlled using this spell count against the total control limit from re-animation.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
 ## Corpse Servant
 
 Black Magic-User 1
@@ -3654,6 +3638,22 @@ When the duration elapses, the sleeping creatures normally wake up immediately; 
 
 ::: {.callout-note icon=false collapse=true}
 
+## Spider Climb
+ 
+Magic-User 1
+
+Range: 10'
+
+Duration: 1 turn/level
+
+A **Spider Climb** spell enables the recipient to climb and travel upon vertical surfaces as well as a giant spider, or even hang upside down from ceilings. Unwilling victims must be touched and are then allowed a saving throw vs. spell to negate the effect. The affected creature must have bare hands and feet in order to climb in this manner, at a their usual walking movement rate.
+
+During the course of the spell, the recipient cannot handle objects that weigh less than a dagger (one pound), for such objects stick to their hands and feet. Thus, a wizard will find it virtually impossible to cast spells if under a spider climb spell. Sufficient force can pull the recipient free; the DM can assign a saving throw based on circumstances, the strength of the force, and so on. For example, a creature with a Strength of 12 might pull the subject free if the subject fails a saving throw vs. paralyzation (a moderately difficult saving throw). The caster can end the spell effect with a word
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Staff
  
 Magic-User 1
@@ -3676,7 +3676,7 @@ Range: Self
 
 Duration: 1 turn/level
 
-This spell creates a sickly stinking smell of rot and decay that emanates from the caster's body.  The stench duplicates the sickening effect of ghasts ([see its entry in the Basic Fantasy Field Guide 1](monstersAll.html#ghoul-and-ghast)).  The smell of death and corruption surrounding the caster is so overwhelming that living creatures within 10 feet must succeed a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls). 
+This spell creates a sickly stinking smell of rot and decay that emanates from the caster's body.  The stench duplicates the sickening effect of ghasts ([see its entry in the Monster section](monstersAll.html#ghoul-and-ghast)).  The smell of death and corruption surrounding the caster is so overwhelming that living creatures within 10 feet must succeed a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls). 
 
 For every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3rd the save is at -1, at 6th level at -2, at 9th level at -3, etc).  A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours.  A **Neutralize Poison Spell** removes the effect from a sickened creature.
 
@@ -3720,12 +3720,28 @@ This spell allows the caster to cause his or her voice to sound from someplace e
 # Level 2, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
+
+## Command Undead
+
+Black Magic-User 2
+
+Range: 30'
+
+Duration: Special
+
+This spell allows the caster to influence an undead creature.  If the undead creature is intelligent, this spell operates as charm person, except that the caster can influence 2 HD per caster level, instead of just a flat 4 HD.  It otherwise operates the same, including duration.
+
+If the undead creature is unintelligent, the caster immediately gains complete control, the creature gets no saving throw, and the duration is permanent.  Any unintelligent undead controlled using this spell count against the total control limit from re-animation.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Continual Light*
  
-Range: 360'
-
 Cleric 3, Magic-User 2
+
+Range: 360'
 
 Duration: 1 year/level
 
