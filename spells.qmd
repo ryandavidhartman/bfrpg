@@ -1416,7 +1416,7 @@ The spell cannot bring back a creature that has died of old age.
 
 ## Ring of Greater Healing*
 
-Cleric 7
+Cleric 7, Druid 7
 
 Range: 15' radius
 
@@ -1431,7 +1431,7 @@ The reverse of this spell, **Ring of Greater Infliction**, allows the caster to 
 
 ## Wind Walk
 
-Cleric 7
+Cleric 7, Druid 7
 
 Range: Touch
 
@@ -2606,7 +2606,7 @@ It is possible, but difficult, to trap mobile opponents within or under a wall o
 
 ::: {.callout-tip icon=false collapse=true}
 
-# Level 6, Clerical
+# Level 6, Druid
 
 ::: {.callout-note icon=false collapse=true}
 
@@ -2804,26 +2804,6 @@ Within a 10' radius around the caster, all magic is negated for the full duratio
 
 ::: {.callout-note icon=false collapse=true}
 
-## Astral Projection
-
-Cleric 7, Magic-user 7
-
-Range: Self
-
-Duration: Special
-
-This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.
-
-The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.
-
-This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
-
-Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
 ## Control Weather
 
 Cleric 7, Druid 7
@@ -2863,6 +2843,30 @@ When cast, this spell causes a powerful, but localized, earthquake that is 10 fe
 • River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
 
 Any creature pinned by rubble takes 1d6 points of non-lethal damage per minute until rescued or they fall unconscious. Once unconscious, they take 1d6 points of lethal damage per minute until they are rescued or die.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Faerie Ring
+
+Druid 7
+
+Range: 10'
+
+Duration: 1 hour/level
+
+When the caster creates a Faerie Ring, a small circle of distinct mushrooms or toadstools grow quickly. Those that walk into the circle (about 5 foot diameter) are transported into a region that borders the FeyWild (another plane of existence). This region can be utilized as a safe place to rest and recuperate (at double normal rate for purpose of healing and restoration of spells). From this border region, one may pass back into the familiar prime world or they might travel to the actual FeyWild.
+
+The Feywild is the Plane of Faeries and it intersects with the OnceWas. The FeyWild is an echo of the real world but suffused with potent magic and unrestrained emotions. As an echo of OnceWas, its geography is similar although not entirely identical. The landscape is markedly more dramatic and beautiful with more trees and flowers.  The mountains stand straighter and sharper. The rivers flow clearer and faster, the flowers bloom brighter and more fragrantly, and the weather manifests in supernatural ways.
+
+Time does not flow the same in the Feywild as it does in the OnceWas. While any visitor would experience time flowing as normal, it is often the case that more time was passing in the real world, sometimes on the order of weeks, months, or years longer than expected.
+
+More concerning, leaving the Feywild can have dire consequences. Lost time could suddenly "catch up" to a mortal, sending them into fits of exhaustion or hunger, or even killing them instantly if many years had passed. Often, memories of time spent in the Feywild become hazy and dreamlike, if not vanishing altogether.
+
+It is said to be the place from where the first elves originated.
+
+Ki, goddess of life and nature and Queen of faeries, is known to spend time in the FeyWild when not in Elysium or in the OnceWas.
 
 :::
 
@@ -2918,59 +2922,15 @@ The reverse, **Energy Drain**, draws away one life energy level like a wight. Th
 
 ::: {.callout-note icon=false collapse=true}
 
-## Gate
+## Reverse Gravity
 
-Cleric 7, Magic-User 7
+Druid 7, Magic-User 7
 
-Range: 120'
+Range: 5 yds/level
 
-Duration: Special
+Duration: 1 round/level
 
-This spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.
-
-The gate appears as a flat circle with a diameter of 5 to 20 feet (caster's choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.
-
-The gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell's duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.
-
-Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
-
-As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Holy Word
-
-Cleric 7
-
-Range: 30'
-
-Duration: Instantaneous
-
-This spell represents the single most powerful word of any cleric's purest faith. When uttered, the cleric pulses with a blinding radiance and all enemies of the cleric within a 30' radius that can hear the caster suffer 2d8 points of damage per level of the cleric. Because of the searing light emanating from him, each enemy within range that can see the cleric must make a save vs. Spells or be blinded. Creatures struck dead by this spell burst into fierce flames and burn down to a fine ash within a single round.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Resurrection
-
-Cleric 7
-
-Range: Touch
-
-Duration: Instantaneous
-
-This spell restores life to a deceased creature. The caster can raise a creature that has been dead for no longer than ten years per caster level. In addition, the subject’s soul must be free and willing to return. If the subject’s soul is not willing to return, the spell does not work.
-
-This spell operates similarly to raise dead, but is more powerful. The full body is not required; only a small portion is required, but that portion must have been part of the subject’s body at the time of death. (The dust left from a disintegrate spell counts as the required small portion.) A whole new body is created, so it will be at the peak of health, with full hit points, and all spells prepared at the time of death.
-
-This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1st level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
-
-A creature which has become undead can be resurrected as long as the undead creature has been destroyed. Constructs and elementals cannot be resurrected.
-
-The spell cannot bring back a creature that has died of old age.
+This spell reverses gravity in a 30’ x 30’ area of effect, causing all unattached objects and creatures within it to “fall” upward. The reverse gravity lasts as long as the caster desires or until the spell expires. If some solid object is encountered in this “fall,” the object strikes it in the same manner as it would during a normal downward fall. At the end of the spell duration, the affected objects and creatures fall downward. As the spell affects an area, objects tens, hundreds, or even thousands of feet in the air above the area can be affected.
 
 :::
 
@@ -2978,7 +2938,7 @@ The spell cannot bring back a creature that has died of old age.
 
 ## Ring of Greater Healing*
 
-Cleric 7
+Cleric 7, Druid 7
 
 Range: 15' radius
 
@@ -2993,7 +2953,7 @@ The reverse of this spell, **Ring of Greater Infliction**, allows the caster to 
 
 ## Wind Walk
 
-Cleric 7
+Cleric 7, Druid 7
 
 Range: Touch
 
