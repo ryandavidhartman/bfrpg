@@ -4260,6 +4260,36 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
 # Level 3, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
+
+## Barkskin
+
+Magic-User 3, Druid 2
+
+Range: Touch
+
+Duration: 4 rounds + 1 round/level
+
+When the **Barkskin** spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4th level, Armor Class 19 at 6th, Armor Class 20 at 8th and so on.
+
+This spell does not function in combination with normal armor or any magical protection. In addition, saving throw rolls vs. all attack forms except magic gain a +1 bonus. This spell can be placed on the caster or on any other creature the caster touches.
+
+:::
+ 
+::: {.callout-note icon=false collapse=true}
+
+## Clairaudience
+ 
+Range: 60'
+
+Magic-User 3
+
+Duration: 12 turns
+
+This spell enables the caster to hear sounds in another area through the ears of a living creature in that area. The caster must specify the direction and approximate distance, up to a maximum of 60' away. If there is no appropriate creature in that area, the spell fails. No saving throw is allowed, and the target creature is unaware that it is being so used. The caster may choose another subject creature after at least a turn has passed, enabling multiple locations to be viewed. If the subject creature moves out of range, contact is lost, though the caster may be able to choose another target in this case.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Clairvoyance
  
@@ -4277,13 +4307,13 @@ This spell enables the caster to see into another area through the eyes of a liv
  
 ## Darkvision
  
-Range: Touch
-
 Magic-User 3
+
+Range: Touch
 
 Duration: 1 hour/level
 
-The subject receives Darkvision with a range of 60' for the duration of the spell. (See page 37 for details.)
+The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](dungeonAdventures.html#darkvision) for a description of Darkvision.
 
 :::
 
@@ -4291,13 +4321,13 @@ The subject receives Darkvision with a range of 60' for the duration of the spel
  
 ## Dispel Magic
  
-Range: 120'
-
 Cleric 4, Magic-User 3
+
+Range: 120'
 
 Duration: Instantaneous
 
-The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
+The caster can use **Dispel Magic** to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
 If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **Dispel Magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
 
@@ -4306,12 +4336,46 @@ Some spells cannot be ended by dispel magic; this specifically includes any curs
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Drainblade
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell imbues an edged weapon with the ability to drain blood with each successful strike made against a living creature.  When a living creature is hit by a drainbladed weapon, the target suffers 1 additional point of damage.  If the wielder of the weapon is injured, the extra point of damage is transferred to them as healing energy.  In no way can this healing energy grant more hit points than the wielder's normal maximum.
+
+Against nonliving creatures, such as undead, golems, living statues, etc, this spell has no effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ethereal
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell causes the recipient to enter the ethereal plane. They become semi-transparent and immaterial.  While in this state, magical weapons or weapons with certain special properties are necessary to strike the recipient.  Any stealth checks such as Move Silently or Hide are made at +4, and the character may move through materials up to 1 inch thick per level of the caster.  Some materials may prevent passage such as lead, gold, or other materials with special properties. While able to move through materials and effectively weightless, the ethereal being does not gain any other special movement modes like flying or levitation; walking upon materials such as water is possible though.
+
+The ethereal character may not make physical attacks but may cast spells that do not require physical contact.  While the spell is active, the individual may choose to revert back and forth between corporeal and incorporeal forms on their turn, remaining in the chosen state until their next turn. 
+
+There is a 10% chance (DC 2) that each turn that a creature is ethereal that they will draw the attention of a wraith (1) or ghost (2) that will immediately attack.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Fireball
  
-Range: 100'+10'/level
-
 Magic-User 3
+
+Range: 100'+10'/level
 
 Duration: Instantaneous
 
@@ -4324,18 +4388,128 @@ The fireball sets fire to combustibles and damages objects in the area. It can m
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Fire Gate
+ 
+Magic-User 3
+
+Range: Self and 50 yard/level
+
+Duration: Instantaneous
+
+In order for this spell to work, there need to be at least two large fires (a minimum of 2 to 4 ft in diameter) within range of each other. The maximum range was 50 yd/per level of the caster. If more than one such fire exists within range, then the caster can choose the destination. If no suitable destination is available, the spell fizzles and the caster is left standing in the fire.
+
+Fire gate only transports the caster and what the caster is carrying and only provides temporary (1 round) of protection from the flames.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Flaming Skull
+ 
+Magic-User 3
+
+Range: 100' + 10'/level
+
+Duration: Instantaneous
+
+The Magic-User can throw a skull that ignites and detonates with a low roar and deals 6d6 points of fire damage within a spherical volume with a 20' radius.  A save vs. Spells for half damage is allowed.  The explosion creates almost no pressure. The flaming skull sets fire to combustibles and damages objects in the area. 
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Fly
  
-Range: Touch
-
 Magic-User 3
+
+Range: Touch
 
 Duration: 1 turn/level
 
 The subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.
 
 Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 120' per round for 1d10 rounds. If the subject reaches the ground in that amount of time, he or she lands safely. If not, the subject falls the rest of the distance, taking normal falling damage. Since dispelling a spell effectively ends it, the subject also descends in this way if the fly spell is dispelled.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Fossilize
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: Permanent
+
+This spell permanently hardens the bones of one skeletal undead creature, making the bones denser and stronger.  The fossilized skeleton permanently gets +2 on damage rolls, +4 on its AC, and its damage resistance is enhanced.  A fossilized skeleton takes only quarter-damage from edged weapons, and half-damage from any other weapons.  The fossilized skeleton becomes immune to normal arrows, bolts, and bullets.  Magical missile weapons do only their 'plus' in damage.
+
+While this spell is permanent, there is a drawback.  The  newly fossilized skeleton may not be repaired or otherwise 'healed', as the organic materials that made up the bones has been completely replaced by minerals.  Intelligent skeletal undead would not normally want this spell applied to themselves, but the spell would affect them nevertheless.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gaseous Form
+ 
+Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The subject of this spell and all of their gear become insubstantial, misty, and translucent. The caster becomes immune to non-magical weapons, and has an Armor Class of 22 vs. magical weapons. The subject can’t attack or cast spells while in gaseous form. The subject also loses supernatural abilities while in gaseous form.
+
+A gaseous creature can fly at a speed of 10', and can pass through small holes or narrow openings, even mere cracks, as long as the spell persists. The gaseous creature is subject to the effects of wind, and can’t enter water or other liquid. Objects cannot be manipulated in this form, even those brought along when the spell was cast. The subject can resume material form at will, but that will end the spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Grave Sanctuary
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+Similar to the Druid spell **Tree Sanctuary**, this spell enables the caster to create an invisible entry into a grave, mausoleum, sarcophagus, large tombstone, or similar item associated with the repose of the dead.  The entry is visible to undead and other Black Magic-Users, but this does not grant any special access to the doorway.  Once the spell is complete, the Black Magic-User may enter the space, effectively disappearing from sight.  Only one grave may be effected by grave sanctuary at a time.
+
+The Black Magic-User is completely aware of their surroundings while in the grave, gaining the bonus of 360-degree vision and hearing, as well as being able to detect changes in the immediate temperature surrounding the site.  Another benefit of this spell is that each turn the Black Magic-User rests inside the grave counts as a full hour of sleep, so the Black Magic-User may meditate to memorize spells while within the magical sanctuary.  Also, if the grave site is on unhallowed ground or an area otherwise associated with hauntings and the like, then the Black Magic-User heals 1d4 HP per turn spent inside the grave.
+
+While inside the grave, the Black Magic-User does lose any sense of taste, smell, or touch, and may not speak or otherwise cast spells while inside the grave's protection.  If the grave itself is unearthed or broken into in some way, then the Black Magic-User takes 2d10 points of damage and is cast out into the nearest available space.  This kind of undertaking should be roughly equivalent to actually digging a grave up, and not simply an attack against the earth.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gust of Wind
+
+Druid 5, Magic-User 3
+
+Range: 10' x 10 yds/level
+
+Duration: 1 round/level
+
+When this spell is cast, a strong puff of air originates from the caster and moves in the direction the caster is facing. The force of this **Gust of Wind** (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames--such as those of lanterns--to dance wildly and has a 5% chance per level of experience of the spellcaster to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
+
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a **Gust of Wind** that travels 80 yards).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Halt Undead
+
+Druid 5, Magic-User 3
+
+Range: 200'
+
+Duration: 1 round/level
+
+This spell will render up to three undead creatures immobile for the duration of the spell (similar to **Hold person, but only affecting undead and potentially affecting more than one target).  Intelligent undead get a save vs. Spells to avoid; unintelligent undead get no saving throw.
 
 :::
 
@@ -4359,9 +4533,9 @@ Reversed, haste becomes **Slow**; affected creatures move at half speed, attacki
  
 ## Hold Person
  
-Range: 180'
-
 Cleric 2, Magic-User 3
+
+Range: 180'
 
 Duration: 2d8 turns
 
@@ -4388,12 +4562,42 @@ Those affected by this spell can see each other and themselves as if unaffected 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Immunity to Normal Weapons
+ 
+Magic-User 3
+
+Range: Touch
+
+Duration: 5 rounds + 1 round/level
+
+This spell temporarily makes the target immune to non-magical weapons. Anyone affected by this spell is treated as an enchanted creature for the purpose of magic, which specifically affects them (for instance, a sword +1, +3 vs. enchanted creatures applies its special bonus to a creature protected by this magic).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Invisibility 10' Radius
+ 
+Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell functions like **Invisibility**, except that this spell confers invisibility upon all creatures within 10 feet of the recipient.  The center of the effect is mobile with the recipient.
+
+Those affected by this spell can see each other and themselves as if unaffected by the spell.  Affected creatures (other than the recipient) who attack negate the invisibility only for themselves, but if the spell recipient attacks, the invisibility ends for all affected creatures.  Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible (including any previously affected creatures who have become visible as described above).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Lightning Bolt
  
-Range: 50'+10'/level
-
 Magic-User 3
+
+Range: 50'+10'/level
 
 Duration: Instantaneous
 
@@ -4404,7 +4608,43 @@ The lightning bolt sets fire to combustibles and damages objects in its path. It
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Melf’s Minute Meteors
  
+Magic-User 3
+
+Range: 70 yds. + 10 yds./level
+
+Duration: Special
+
+This spell enables the wizard to cast small globes of fire (one for each experience level the caster has attained), each of which bursts into a 1-foot-diameter sphere upon impact, inflicting 1d4 points of damage to the creature struck. These can ignite combustible materials. The meteors are treated as missiles hurled by the wizard with a +2 bonus to the attack rolls and with no penalty for range. Misses are treated as grenade like missiles that inflict 1 point of damage to creatures within 3 feet.
+
+The spell can be cast in either of two ways:
+
+1) The wizard discharges all meteors in one round.
+
+2) The wizard discharges only one meteor per round. In addition to releasing the missile, the caster can also perform other actions in the round, including spell casting, melee, or device use. Additional spells requiring concentration force the wizard to forgo the rest of the missiles.
+
+The spell ends when the caster has fired off as many meteors as the caster has experience levels, when the caster forgoes casting any still remaining, or when a successful dispel magic spell is thrown upon the caster.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Misty Step
+ 
+Magic-User 3
+
+Range: Self
+
+Duration: Instantaneous
+
+The Magic User becomes surrounded by shimmering, silvery mist through which they can teleport up to 30 feet to an unoccupied space that they can see.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Protection from Evil 10' Radius*
  
 Cleric 4, Magic-User 3
@@ -4434,16 +4674,76 @@ The caster is completely protected from small sized, non-magical missile attacks
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Ray of Exhaustion
  
-## Water Breathing
+Black Magic-User 3
+
+Range: 50'
+
+Duration: 6 rounds/level
+
+The caster points a finger at their intended target and rolls a ranged attack roll against the target that ignores armor (but not any dexterity bonus).  If the narrow black ray hits, the target must save vs. Spells or suffer a -6 adjustment to its Strength and Dexterity for the duration of the spell.  If the save is made, the reduction is only -2.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Spirit Wrack
  
+Black Magic-User 3
+
+Range: Special
+
+Duration: Instantaneous
+
+This spell deals 1d8 points of damage per caster level to any one particular incorporeal undead being such as wraiths, spectres, ghosts, or similar entities within sight of the caster.  Alternatively, the caster may choose to cause a burst of 1d4 points of damage per level to any such beings within 20 feet of the caster, whether visible or not. 
+
+Minor spiritual beings such as poltergeists haunting an area are usually destroyed outright by this spell.  Any affected being is allowed a save for half damage.  Some persistent types of undead may reform after the passage of some time (typically days later), and may require certain rituals or other requirements be fulfilled before being permanently destroyed.  This spell only affects true incorporeal undead and does nothing against other types of beings, even if they happen to be insubstantial at the time; vampires that happen to be in gaseous form are immune to this spell's effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Summon Spirit
+ 
+Black Magic-User 3
+
+Range: 10'/level
+
+Duration: 1 turn/level
+
+Upon casting this spell, a malevolent spirit in the form of a wraith is called to serve the caster for 1 turn per level.  If the caster is 10th level the caster may choose between 1d4 wraiths or one spectre.  At 15th level the caster may opt to summon 2d4 wraiths, 1d3 spectres, or one ghost.  The summoned spirits will serve according to its ability, usually by combating the caster's foes, and generally disappearing at the end of the spell's duration.
+
+Occasionally the spirit does not depart at the end of the spell duration, but simply becomes free of the compulsion to serve and will usually attack the caster.  The chance is 5% for any particular wraith, 10% for spectres, and 20% for a ghost.  When this occurs, the spirit will remain in the area for a number of rounds equal to the caster's level before departing.  A spirit with less than half its hit points will not stay regardless.  The caster would be wise to have protections or other contingencies against the rogue spirits.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Vampiric Touch
+ 
+Black Magic-User 3
+
 Range: Touch
 
-Magic-User 3
+Duration: 1 round/level
+
+The caster must make an attack roll.  If successful, the caster deals 1d6 points of damage per two caster levels.  The caster gains temporary hit points equal to the damage dealt.  If the attack kills the target, the caster only gains as many temporary hit points as it took to kill the target, not the full number rolled.  The temporary hit points will last for 1 hour.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+## Water Breathing
+
+Cleric 3, Druid 3, Magic-User 2
+
+Range: Touch
 
 Duration: 2 hours/level
 
-The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches. The spell does not make creatures unable to breathe air.
+The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
 
 :::
 
