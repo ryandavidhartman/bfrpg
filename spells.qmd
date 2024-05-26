@@ -3701,9 +3701,9 @@ An unseen servant is an invisible servant that is shapeless and mindless. It can
  
 ## Ventriloquism
  
-Range: 60'
-
 Magic-User 1
+
+Range: 60'
 
 Duration: 1 turn/level
 
@@ -3718,6 +3718,54 @@ This spell allows the caster to cause his or her voice to sound from someplace e
 ::: {.callout-tip icon=false collapse=true}
 
 # Level 2, Magic-User
+
+::: {.callout-note icon=false collapse=true}
+
+## Alter Self
+
+Magic-User 2
+
+Range: Self
+
+Duration: 2 hours/level
+
+When this spell is cast, the wizard can alter their appearance and form--including clothing and equipment--to appear taller or shorter; thin, fat, or in between; human, humanoid, or any other generally man-shaped bipedal creature. The caster's body can undergo a limited physical alteration and their size can be changed up to 50%.
+
+The caster's Hit Points, attack rolls, Armor Class, and saving throws do not change. The spell does not confer special abilities, attack forms, or defenses. Once the new form is chosen, it remains for the duration of the spell. The caster can change back into their own form at will; this ends the spell immediately. A caster who is slain automatically returns to their normal form.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Analyze Magic
+
+Magic-User 2
+
+Range: 5'
+
+Duration: 1 hour/level
+
+This spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.
+
+Each turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.
+
+The item or area to be studied must be within 5' of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Boneskin
+
+Black Magic-User 2
+
+Range: Self
+
+Duration: 1 turn/level
+
+ The caster manifests a chitinous bone-like armor, giving a +4 bonus to AC. The boney bulk that is added doesn’t affect other spell casting.
+
+:::
 
 ::: {.callout-note icon=false collapse=true}
 
@@ -3754,6 +3802,20 @@ The reversed spell, **Continual Darkness**, causes complete absence of light in
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Dark Flame
+
+Black Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The caster produces a magical “dark flame” upon an object that does not produce heat or use oxygen. However, the magical dark flames allow all within 30 feet radius to see via Darkvision within the spell area, much like a normal lit torchwould allow for normal vision. The darkvision does not extend beyond the spell radius, and neither does the effect extend to any who might leave the area of effect. The spell does not provide any stealth bonus within the effect, as all (including foes) receive the darkvision.     However, because there is no light produced it may augment stealthy movement in general against those outside the spell range.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Detect Evil*
  
@@ -3775,9 +3837,9 @@ Reversed, this spell becomes **Detect Good**, which works just as described abov
  
 ## Detect Invisible
  
-Range: 60'
-
 Magic-User 2
+
+Range: 60'
 
 Duration: 1 turn/level
 
@@ -3786,14 +3848,176 @@ By means of this spell the caster is able to see invisible characters, creatures
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## ESP
  
-## Invisibility
+Magic-User 2
+
+Range: 60'
+
+Duration: 1 turn/level
+
+This spell permits the caster to detect the surface thoughts of one or more targets within range.  The caster must designate a direction, and then concentrate for a turn in order to “hear” the thoughts.  Each turn the caster may choose to “listen” in a different direction.  The caster may stop listening, then resume again later, so long as the duration has not expired.  The target creature is not normally aware of being spied upon in this way.
+
+Rock more than 2 inches thick or a thin coating of lead or gold will block the spell.  All undead creatures are immune to this effect, as are mindless creatures such as golems.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ether Bolt
  
+Magic-User 2
+
+Range: 30' + 5'/level
+
+Duration: Instantaneous
+
+This spell fires off a missile or beam-like effect that only strikes foes that are insubstantial, ethereal, phase-shifted, or otherwise not fully materially present. This primarily includes various types of undead, but may include other beings that have similar qualities such as shadows. Much like a magic missile, the bolt strikes unerringly if the target is in sight, causing 1d4 points of force-like impact damage per level of the caster, striking as if the target was a completely solid being.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Faerie Fire
+
+Druid 1, Magic-User 2
+
+Range: 200’ +10'/level
+
+Duration: 1 minute/level
+
+A pale glow surrounds and outlines all objects including individuals within a 20 ft radius from a point chosen by the caster.  Outlined subjects shed light as candles.  Outlined creatures do not benefit from the concealment normally provided by darkness, and the spell effectively negates the effects of blur, displacement, invisibility, or similar effects. 
+
+The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light.  The faerie fire can be blue, green, or violet, according to your choice at the time of casting.  The faerie fire does not cause any harm to the objects or creatures thus outlined.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Fireskull Familiar
+
+Black Magic-User 2
+
 Range: Touch
+
+Duration: 1 hour/level
+
+This spell animates a single skull to serve the Black Magic-User.  Wrapped in cold magical flames and gifted with a form of levitation-based flight, the flaming skull can fetch small items, convey messages, or other similar tasks for the Black Magic-User.  When not tasked with a specific duty, the fireskull familiar generally hovers near its master, providing light equal to torchlight.  A Black Magic-User may have only one instance of this spell active at a time.  Subsequent castings have no effect unless the first instance of the spell is dismissed or destroyed.
+
+The fireskull familiar is not designed for combat, having hit points equal to 25% of the Black Magic-User's total hit points.  The skull has an Armor Class of 13 and only a single attack for 1d2 points of damage, attacking with the same basic chance to hit as the Black Magic-User.  The skull can be charged with spells that must be delivered by touch, with the spell effect being available to the skull on the following round.  While a fireskull familiar is within 5 feet, the caster's chance of being surprised is reduced by 1.
+
+Of interesting note, although each skull does not remember any details of its former life, it does retain many personality traits, making each skull distinct from the next.  Practitioners of this spell often have favorite skulls that they use regularly, and skulls that they are loathe to animate.  Any particular skull that is destroyed through damage may never again be used.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Fist of Stone
 
 Magic-User 2
 
-Duration: special
+Range: Self
+
+Duration: Permanent
+
+Upon completion of this spell, one of the caster's hands (their choice) turns to stone. It is flexible and can be used to punch, smash, or crush objects and opponents as if the wizard had Strength of 18/00. Combat bonuses for Strength do not apply if the caster uses any weapon other than their fist.
+
+While the spell is in effect, the wizard cannot cast spells requiring somatic components.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Forget
+
+Magic-User 2
+
+Range: 30'
+
+Duration: Permanent
+
+By means of this spell, the spellcaster causes creatures within a 20ft cube area of effect to forget the events of the previous six rounds (the one minute of time previous to the utterance of the spell). For every three levels of experience of the spellcaster, another minute of past time is forgotten. This does not negate charm, suggestion, geas, quest, or similar spells, but it is possible that the being who placed such magic upon the recipient could be forgotten.
+
+From one to four creatures can be affected, at the discretion of the caster. If only one is to be affected, the recipient saves vs. spell with a -2 penalty; if two, they save with -1 penalties; if three or four are to be affected, they save normally. All saving throws are adjusted by Wisdom. A priest's heal or restoration spell, if specially cast for this purpose, will restore the lost memories, as will a limited wish or wish, but no other means will do so.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Forget
+
+Magic-User 2
+
+Range: 30'
+
+Duration: Permanent
+
+By means of this spell, the spellcaster causes creatures within a 20ft cube area of effect to forget the events of the previous six rounds (the one minute of time previous to the utterance of the spell). For every three levels of experience of the spellcaster, another minute of past time is forgotten. This does not negate charm, suggestion, geas, quest, or similar spells, but it is possible that the being who placed such magic upon the recipient could be forgotten.
+
+From one to four creatures can be affected, at the discretion of the caster. If only one is to be affected, the recipient saves vs. spell with a -2 penalty; if two, they save with -1 penalties; if three or four are to be affected, they save normally. All saving throws are adjusted by Wisdom. A priest's heal or restoration spell, if specially cast for this purpose, will restore the lost memories, as will a limited wish or wish, but no other means will do so.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Forked Lightning
+
+Magic-User 2
+
+Range: 25' + 5'/level
+
+Duration: Instantaneous
+
+Two arcs of electricity spring from the casters fingers to strike two separate adjacent targets within 10 foot of each other. For each bolt the caster must roll to hit their chosen target ignoring any worn armor and metal armored targets get +4 bonus to hit (any magical bonuses still apply). Inanimate objects cannot be damaged by this spell.
+
+Each bolt deals 1d6 points of electricity damage +1 point of damage per 2 caster levels (round down). For every two levels past 3rd (5th, 7th, 9th, etc) the caster gains an additional bolt of forked lightning. Subsequent targets (after first two) must be within 10 feet of the previously targeted foe, and a new attack roll must be made for each bolt. If there are fewer than the maximum allowed targets then the extra bolts do not appear and are wasted; a single bolt can only strike a single creature.
+
+There is no save to resist the spell once struck by a bolt, but creatures with any sort of resistance to electrical attacks will suffer no damage whatsoever.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Ghoulish Hands
+
+Black Magic-User 2
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell causes the hands of one living creature to become like the horrible claws of ghouls.  The bearer of these ghoulish hands may make two claw attacks that cause 1d4 points of damage each.  If the recipient of this spell already had better claw attacks, then the caster gains a +2 damage bonus to their damage rolls while this spell is in effect.  In addition to the damage, those struck by the hands must save vs. Paralysis or be paralyzed for 2d8 turns (Elves are immune), exactly like the attacks of a ghoul.
+
+Recipients of this spell must be true living creatures; other creatures such as undead, constructs, elementals, and the like are immune.  There is a 1% non-cumulative chance that on any particular casting of this spell that the recipient is actually infected with Ghoul Fever (per the monster description), which if proper curative steps are not taken, may ultimately result in the recipient's death and rising as an actual ghoul.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Iggwilv’s Mirror Image
+
+Magic-User 2
+
+Range: Self
+
+Duration: 1 turn/level
+
+This spell creates several illusory duplicates of the caster.  The images move through each other as well as the real caster more or less constantly, making it impossible for most creatures to determine which is real.  A total of 1d4 images plus one image per three caster levels (maximum eight images total) are created.  These figments separate from the caster and remain in a cluster around them.  The figments mimic the caster's actions, pretending to cast spells, drink potions, levitate, and so on, just as the caster does.  Figments always look exactly like the caster.
+
+Enemies attempting to attack or cast spells upon the caster will always hit a figment instead.  Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed.  Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a fireball, all figments will appear to be injured just as the caster was.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+## Invisibility
+ 
+Magic-User 2
+
+Range: Touch
+
+Duration: Special
 
 The creature or object touched becomes invisible, vanishing from sight, including Darkvision. If the recipient is a creature carrying gear, that vanishes, too. If the spell is cast on someone else, neither the caster nor his or her allies can see the subject, unless they can normally see invisible things or employ magic to do so.
 
@@ -3806,10 +4030,10 @@ The spell ends if the subject attacks any creature or casts any spell. Actions (
 ::: {.callout-note icon=false collapse=true}
  
 ## Knock
- 
-Range: 30'
 
-Magic-User 2
+Magic-User 2 
+
+Range: 30'
 
 Duration: special
 
@@ -3837,9 +4061,9 @@ A levitating creature that attacks with a weapon finds itself increasingly unsta
  
 ## Locate Object
  
-Range: 360'
-
 Cleric 3, Magic-User 2
+
+Range: 360'
 
 Duration: 1 round/level
 
@@ -3848,48 +4072,74 @@ This spell allows the caster to sense the direction of a well-known or clearly v
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Maggot Spray
  
-## Mind Reading
- 
-Range: 60'
+Black Magic-User 2
 
-Magic-User 2
+Range: 10'
 
-Duration: 1 turn/level
+Duration: 1 round/level
 
-This spell, sometimes incorrectly called ESP, permits the caster to hear (and possibly see, if the target
-visualizes anything) the surface thoughts of one or more living creatures within range. The caster must designate a direction or select a visible target, and then concentrate for a turn in order to "hear" the thoughts. Each turn the caster may choose to "listen" in a different direction. The caster may stop listening, then resume again later, so long as the duration has not expired. The target creature is not normally aware of being spied upon in this way, though any creature already under the effect of this spell or any similar form of telepathy will instantly know and be able to sense the direction of the caster.
-
-Rock more than 2 inches thick or a thin coating of lead or gold will block the spell. All undead creatures are immune to this effect, as are mindless creatures such as golems.
+From the caster’s mouth sprays a stream of filth containing live flesh-eating maggots, affecting all within a 10-foot section immediately adjacent to and chosen by the caster. Those struck by the spray must save or be sickened for 2d6 rounds (like the **Stench** spell, causing a penalty of -2 to their attacks).       Additionally, the maggots eat into the flesh, causing 1d4 points of damage immediately and on subsequent rounds an additional 1d4 points of damage per round for a number of rounds equal to the caster's level.  Individuals may stop the damage by using an entire round to brush off the maggots (no movement, attacks, and loss of any dexterity or shield bonuses during this round).  Those taking the time to brush off the maggots take normal damage that round.  Removing the maggots does not remove the sickening effect of those who failed their save.
 
 :::
 
-
 ::: {.callout-note icon=false collapse=true}
+
+## Message
  
-## Mirror Image
- 
+Magic-User 2
+
 Range: Self
 
-Magic-User 2
-
 Duration: 1 turn/level
 
-This spell creates several illusory duplicates of the caster. The images move through each other as well as the real caster more or less constantly, making it impossible for most creatures to determine which is real. A total of 1d4 images plus one image per three caster levels (maximum eight images total) are created. These figments separate from the caster and remain in a cluster around him or her. The figments mimic the caster's actions, pretending to cast spells, drink potions, levitate, and so on, just as the caster does. Figments always look exactly like the caster.
+When this spell is cast, the caster can whisper messages and receive replies with little chance of being overheard. When the spell is cast, the caster chooses each creature to be included in the spell effect (up to one creature per level). When the caster whispers, the whispered message travels in a straight line and is audible to all of the involved creatures within 30 feet, plus 10 feet per level of the caster. The creatures that receive the message can whisper a reply that is heard by the spell caster. Note that there must be an unobstructed path between the caster and the recipients.
 
-Enemies attempting to attack or cast spells upon the caster will always hit a figment instead. Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed. Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a **Fireball**, all figments will appear to be injured just as the caster was.
+The message must be in a language the caster speaks; this spell does not by itself confer understanding upon the recipients. This spell is most often used to conduct quick and private conferences when the caster does not wish to be overheard.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
  
+ ## Minor Warding
+ 
+Black Magic-User 2
+
+Range: Touch
+
+Duration: Special
+
+This spell cloaks an object of less than 10 cubic feet with an invisible aura of harmful energy.  Thereafter, the first living creature touching the object sets off the ward, receiving 3d6 points of damage; no saving throw is allowed to avoid the damage.  The object is unaffected by the discharge of the minor ward.
+
+Non-living creatures such as undead or golems will not set off a minor ward.  The caster is free to handle the object at will.  The maximum duration of the spell is 1 hour per level of the caster.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Obscuring Mist
+
+Magic-User 2, Druid 2
+
+Range: 20'
+
+Duration: 1 turn/level
+
+This spell causes a bank of misty vapor to arise around the caster, remaining stationary once created.  The vapor obscures all sight, including darkvision, beyond 2d4 ft.  A strong wind can disperse the spell in one-quarter the usual duration.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Phantasmal Force
  
-Range: 180'
-
 Magic-User 2
 
-Duration: concentration
+Range: 180'
+
+Duration: Concentration
 
 This spell creates the visual illusion of an object, creature (or small group of creatures), or other effect, as visualized by the caster up to a maximum size of 20'x20'x20'. The illusion does not create sound, smell, texture, or temperature. The caster can animate the image within the limits of the area of effect. The image persists so long as the caster concentrates upon it.
 
@@ -3900,6 +4150,78 @@ Attempting to animate more creatures than the caster's level grants viewing crea
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Shadow Staff
+ 
+Magic-User 2
+
+Range: Self
+
+Duration: 1 turn/level
+
+The caster's staff is transformed into the substance of shadow. When used in combat the staff is treated as a magical weapon (initially +1 to hit and damage) and each hit will drain 1 point of strength from the target (save vs. Spells to avoid). For each point drained, the staff's magical bonus is increased by one (up to a maximum bonus of +5), lasting until the end of the spell. The shadow staff can only be wielded by the caster. The draining effect does combine with any inherent magical qualities of the caster's staff, if such exist. Use best magical bonus, either the magical staff's inherent bonus or the magic from the spell's draining ability, whichever is better on any particular round (as the bonus from the spell can potentially increase over time to become better than the inherent magical ability of the staff in question).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Summon Swarm
+
+Druid 1, Magic-User 2
+
+Range: 60 Yards
+
+Duration: Special
+
+The swarm of small animals (roll on following table to determine type, or the DM can assign an appropriate creature) drawn by the summon swarm spell will viciously attack all creatures in a 10 ft by 10ft  area chosen by the caster. Creatures actively defending against the swarm to the exclusion of other activities suffer 1 point of damage for each round spent in the swarm. Those taking other actions, including leaving the swarm, receive damage equal to 1d4 points + 1 point per three levels of the caster each round. Note that spellcasting within the swarm is impossible.
+
+| Dice Roll | Swarm Type           |
+|-----------|----------------------|
+| 01-40     | Rats                 |
+| 41-70     | Bats                 |
+| 71-80     | Spiders              |
+| 81-90     | Centipedes/beetles   |
+| 91-100    | Flying insects       |
+
+The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A **Protection From Evil** spell keeps the swarm at bay, and certain area-effect spells, such as **Gust of Wind** and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a **Gust of Wind**). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
+
+## Tongues
+
+Cleric 3, Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Warp Wood*
+
+Magic-User 2, Druid 2
+
+Range: 50'
+
+Duration: Instantaneous
+
+The caster causes non-magical wood in a 20 ft radius to bend and warp, permanently destroying its straightness, form, and strength.  A warped door springs open or becomes stuck; a boat or ship springs a leak; warped weapons (like bows and arrows) are useless.  The caster may warp wood object(s) up to 1 ft on all sides per caster level.
+
+Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively warping it back to normal), straightening wood that has been warped by this spell or by other means.  The caster can combine multiple consecutive warp wood spells to warp (or un-warp) an object that is too large to warp with a single spell.
+
+:::
+
+:::
+
+::: {.callout-tip icon=false collapse=true}
  
 ## Web
  
@@ -3923,11 +4245,11 @@ The strands of a web spell are flammable. Any fire can set the webs alight and b
  
 ## Wizard Lock
  
-Range: 20'
-
 Magic-User 2
 
-Duration: permanent
+Range: 20'
+
+Duration: Permanent
 
 A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it. The caster can freely pass his or her own wizard lock without affecting it, as can any Magic-User 3 or more levels higher than the caster of the wizard lock; otherwise, a door or object secured with this spell can be opened only by breaking in or with a successful **Dispel Magic** or **Knock** spell.
 
