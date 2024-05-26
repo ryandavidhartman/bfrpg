@@ -1166,6 +1166,20 @@ A blade barrier provides cover (+4 bonus to Armor Class) against attacks made th
 
 ::: {.callout-note icon=false collapse=true}
 
+## Control Undead
+
+Cleric 6, Black Magic-User 6
+
+Range: 60'
+
+Duration: 6 round/level
+
+This spell allows for complete control of up to 3 HD/caster level of undead for a short period of time. Verbal control is required, but they will understand regardless of the language used. If communication is not possible, they will still not attack. Intelligent undead creatures may save vs. Spells to resist and will remember if they are controlled. Unintelligent undead do not get a saving throw and the control is permanent. Any unintelligent undead controlled using this spell count against the caster’s total control limit **Re-animation**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Find the Path
 
 Cleric 6, Druid 6
@@ -1290,7 +1304,7 @@ An unwilling creature can’t be teleported by word of recall. Likewise, a creat
 
 ## Anti-Magic Shell
 
-Cleric 6, Druid 7, Magic-user 6
+Cleric 7, Druid 7, Magic-user 6
 
 Range: 10' Radius
 
@@ -2333,7 +2347,7 @@ For every three caster levels, the caster can increase or decrease wind conditio
 
 ## Growth of Plants*
 
-Druid 4, Magic-User 4
+Druid 4, Magic-User 6
 
 Range: 120'
 
@@ -2870,7 +2884,7 @@ An unwilling creature can’t be teleported by word of recall. Likewise, a creat
 
 ## Anti-Magic Shell
 
-Cleric 6, Druid 7, Magic-user 6
+Cleric 7, Druid 7, Magic-user 6
 
 Range: 10' Radius
 
@@ -3092,6 +3106,23 @@ A mage making use of this cantrip may clean, shine, dust, or polish a small obje
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Dancing Lights
+
+Magic-User 0
+
+Range: 100' + 10'/level
+
+Duration: Instananeous
+
+Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
+
+Dancing lights can be made permanent with a **Permanency** spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 
 ## Flare
 
@@ -5746,15 +5777,44 @@ This spell sends an invisible wave of harmful energy out forward of the caster t
 ::: {.callout-note icon=false collapse=true}
  
 ## Anti-Magic Shell
- 
-Anti-Magic Shell
-Range: 10' radius
 
-Magic-User 6
+Cleric 7, Druid 7, Magic-user 6
+
+Range: 10' Radius
 
 Duration: 1 turn/level
 
-Within a 10' radius around the caster, all magic is negated for the full duration of the spell. Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
+Within a 10' radius around the caster, all magic is negated for the full duration of the spell.  Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Bigby’s Forceful Hand
+
+Magic-user 6
+
+Range: 10 yards/level
+
+Duration: 1 round/level
+
+**Bigby's Forceful Hand** is a more powerful version of **Bigby's Interposing Hand**. It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that places itself between the spellcaster and a chosen opponent. This disembodied hand then moves to remain between the two, regardless of what the spellcaster does or how the opponent tries to get around it. However, the forceful hand also pushes on the opponent. This force can push away a creature weighing 500 pounds or less, slow movement to 10 feet per round if the creature weighs between 500 and 2,000 pounds, or slow movement by 50% if the creature weighs more than 2,000 pounds.
+
+A creature pushed away is pushed to the range limit, or until pressed against an unyielding surface. The hand itself inflicts no damage. The forceful hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can cause it to retreat (to release a trapped opponent, for example) or dismiss it on command.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Control Undead
+
+Cleric 6, Black Magic-User 6
+
+Range: 60'
+
+Duration: 6 round/level
+
+This spell allows for complete control of up to 3 HD/caster level of undead for a short period of time. Verbal control is required, but they will understand regardless of the language used. If communication is not possible, they will still not attack. Intelligent undead creatures may save vs. Spells to resist and will remember if they are controlled. Unintelligent undead do not get a saving throw and the control is permanent. Any unintelligent undead controlled using this spell count against the caster’s total control limit **Re-animation**.
 
 :::
 
@@ -5762,9 +5822,9 @@ Within a 10' radius around the caster, all magic is negated for the full duratio
  
 ## Death Spell
  
-Range: 240'
-
 Magic-User 6
+
+Range: 240'
 
 Duration: Instantaneous
 
@@ -5773,12 +5833,28 @@ This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Dimension Door
+ 
+Magic-User 6
+
+Range: 10'
+
+Duration: Instantaneous
+
+The caster of this spell instantly transfers himself or herself, or any single target creature within range, to any spot within 200' plus 20' per caster level.  The caster or target creature always arrives at exactly the spot desired, whether the caster visualizes the area or states direction and distance. 
+
+An unwilling target may save vs. Spells to avoid being transported.  Anything worn or carried by the caster or target creature will be transported also, including another character or creature if the transportee can lift it.  If the target area is within a solid object, the spell fails automatically.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Disintegrate
  
-Range: 60'
-
 Magic-User 6
+
+Range: 60'
 
 Duration: Instantaneous
 
@@ -5789,12 +5865,34 @@ A creature that makes a successful save vs. Spells is unaffected. The ray can ta
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Eyebit
+ 
+Black Magic-User 6
+
+Range: 60'
+
+Duration: 1 round/3 levels
+
+Each round the caster may target a single living creature for the duration of the spell.  The affected creature suffers effects depending on its total hit dice.  If the target has 10 HD or more, it is sickened.  If the target has 5 HD through 9 HD, it is panicked and sickened.  If the target has 4 HD or fewer, it is comatose, panicked, and sickened.  The effects are cumulative and concurrent.  Targeting each additional creature after the first requires an action, and only one may be targeted in a given round.
+
+The target must save vs. Death Ray to avoid the worst effect of the spell.  If the target is affected by more than one effect, the remaining effects are still present.
+
+If a creature is sickened, it suffers from a -2 modifier for attack rolls, damage rolls, and saving throws.  This effect lasts for 1 turn per caster level.
+
+If a creature is panicked, it will flee for 1d4 rounds.  After that, the victim will flee again for 1d4 rounds if it can still see the caster.  Even after the fleeing ends, the creature is still affected by the sickening as described above.
+
+If a creature is comatose, it falls into a coma for 1 turn per caster level.  During this time, the victim cannot be awakened by any means short of dispelling the effect.  Even if the coma is dispelled, the creature is still subject to fleeing if the caster is visible, and is still sickened.  This is not a sleep effect.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Flesh to Stone*
  
-Range: 30'/level
-
 Magic-User 6
+
+Range: 30'/level
 
 Duration: Permanent
 
@@ -5806,15 +5904,15 @@ The reverse spell, **Stone to Flesh**, acts as a counterspell for **Flesh to S
 
 ::: {.callout-note icon=false collapse=true}
  
-## Geas*
+## Gishigan’s Geas*
  
-Range: 5' per level
-
 Magic-User 6
+
+Range: 5' per level
 
 Duration: Special
 
-Geas places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
+**Gishigan’s Geas** places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
 
 A saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster to perform some service.
 
@@ -5829,12 +5927,30 @@ A geas (and all effects thereof) can be ended by a **Remove Curse** spell, or 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Growth of Plants*
+
+Druid 4, Magic-User 6
+
+Range: 120'
+
+Duration: Permanent
+
+This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines, etc.) within range to become thick and overgrown.  The dimensions of the growth are determined by the caster, but cannot exceed 1000 sq. feet (a 10'x100' area or equivalent) per 5 caster levels.  The plants entwine to form a thicket or jungle that creatures must hack or force a way through.  All movement within the affected area is reduced to no more than 5’ per round for less than giant sized creatures; giant sized creatures are reduced to half normal movement rate.  The area must have brush and/or trees in it for this spell to take effect.
+
+The reverse form, **Shrink Plants**, may be used to render overgrown areas passable.  The area of effect is identical to the normal version.
+
+Growth of plants and its reverse are permanent until countered, either by the opposite form or by **Dispel Magic**.  This spell has no effect on animated plant creatures of any sort.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Invisible Stalker
  
-Range: 0
-
 Magic-User 6
+
+Range: 0
 
 Duration: Special
 
@@ -5846,7 +5962,7 @@ The caster summons an **Invisible Stalker** to do his or her bidding (see the�
  
 ## Lower Water
  
-Magic-User 6
+Druid 4, Magic-User 6
 
 Range: 360'
 
@@ -5875,12 +5991,36 @@ Mummification is generally in the realm of the Black Magic-User, but occasionall
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Permanency
  
-## Projected Image
- 
-Range: 240'
+Range: 10'
 
 Magic-User 6
+
+Duration: Permanent
+
+This spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.
+
+A permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the [Constitution Point Losses rules](combat.html#constitution-point-losses).
+
+No more than two spells can be made permanent on a single person, item or place. If a third **Permanency** spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.
+
+A **Permanency** spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.
+
+Spells that are commonly made permanent on a creature: **Detect Magic**, **Protection from Evil**, **Read Languages**, **Read Magic**, **Tongues**, **Detect Invisible**, and **Fly**.
+
+Spells commonly made permanent on items or locations include: **Alarm**, **Animate Object**, **Confusion**, **Dancing Lights**, guards and wards, **Invisibility**, **Phantasmal Force**, **Private Sanctum**, **Magic Mouth**, **Symbol of Pain**, **Wall of Fire**, and **Web**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+ ## Projected Image
+ 
+Magic-User 6
+
+Range: 240'
 
 Duration: 6 turns
 
@@ -5891,45 +6031,94 @@ This spell creates a quasi-real, illusory version of the caster. The intangible 
 ::: {.callout-note icon=false collapse=true}
  
 ## Reincarnate
- 
-Range: Touch
 
-Magic-User 6
+Druid 6, Magic-user 6
+
+Range: Touch
 
 Duration: Instantaneous
 
-With this spell, the caster brings back a dead character (or humanoid creature) in another body, provided that its death occurred no more than one week before the casting of the spell and the subject's soul is free and willing to return. If the subject's soul is not willing to return, the spell does not work.
+With this spell, the caster brings back a dead character (or humanoid creature) in another body, provided that its death occurred no more than one week before the casting of the spell and the subject’s soul is free and willing to return.  If the subject’s soul is not willing to return, the spell does not work.
 
 Roll on the following table to determine what sort of creature the character becomes:
 
-| d% | Incarnation |
-|-----|------|
-| 01--02 | Bugbear |
-| 03--17 | Dwarf |
-| 18--28 | Elf |
-| 29 | Gnoll |
-| 30--39 | Gnome |
-| 40--44 | Goblin |
-| 45--63 | Halfling |
-| 64--88 | Human |
-| 89--92 | Kobold |
-| 93 | Lizard Man |
-| 94--98 | Orc |
-| 99 | Troglodyte |
-| 100 | Other (GM's choice) |
 
-Since the dead character is returning in a new body, all physical ills and afflictions are repaired. The condition of the remains is not a factor. So long as some small portion of the character's body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character's body at the time of death. The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand. This process takes one hour to complete. When the body is ready, the subject is reincarnated.
+| d%  | Incarnation            |
+|-----|------------------------|
+| 01–02  | Bugbear                |
+| 03–17  | Dwarf                  |
+| 18–28  | Elf                    |
+| 29     | Gnoll                  |
+| 30–39  | Gnome                  |
+| 40–44  | Goblin                 |
+| 45–63  | Halfling               |
+| 64–88  | Human                  |
+| 89–92  | Kobold                 |
+| 93     | Lizard Man             |
+| 94–98  | Orc                    |
+| 99     | Troglodyte             |
+| 100    | Other (GM's choice)    |
 
-A reincarnated character recalls the majority of its former life and form. Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma. Strength, Dexterity, and Constitution scores should be rerolled. (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.) The subject's level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical **Restoration**. Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points. If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 
-A character that has been turned into an undead creature or killed by a death effect can't be returned to life by this spell. Constructs, elementals, and undead creatures can't be reincarnated. The spell cannot bring back a creature who has died of old age.
+A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1st level, instead of a hit point reduction, its new Constitution score is reduced by 2.
 
-The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn't automatically speak the language of the new form.
+A character that has been turned into an undead creature or killed by a death effect can’t be returned to life by this spell.  Constructs, elementals, and undead creatures can’t be reincarnated.  The spell cannot bring back a creature who has died of old age.
+
+The reincarnated creature gains all abilities associated with its new form, including forms of movement and speeds, natural armor, natural attacks, extraordinary abilities, and the like, but it doesn’t automatically speak the language of the new form.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Reveal Magic
  
+Magic-User 6
+
+Range: 5'
+
+Duration: 1 minute
+
+This spell reveals all spell and magical properties of an object, creature, or permanently enchanted area examined with this spell. The caster must examine the object, creature, or location for an entire minute. In the case of a magic item, the caster will learn all of its functions, how to activate it (if required), and any charges left (if it has charges). If it is an object or creature with spells cast on it, or an enchanted area, the caster will learn what spells, their effects, and the caster level of those spells.
+
+Any object or magic item that is held by someone who does not want the object or magic item examine may negate the spell with a successful saving throw vs. Spells. Likewise a creature that does not want to be examined may also negate the spell with a successful saving throw vs. Spells
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Shadow Walk
+ 
+Magic-User 6
+
+Range: Touch (see text)
+
+Duration: 1 hour/level
+
+Shadow Walk can only be cast in an area of heavy shadows. The caster and up to one willing creature per level are transported to the ethereal plane. In this region of shadow, the caster (and all the creatures that accompany them) moves at an effective rate of 50 miles per hour.
+
+Because of the blurring of reality, the caster can’t make out details of the terrain or areas the caster passes over during transit, nor can the caster predict perfectly where the travel will end. When the spell effect ends, the caster and any creatures accompanying them arrives 1d10 × 100 feet in a random horizontal direction from the desired endpoint.
+
+The caster and their companions always arrive at ground level, except if the landing area is in a body of water (in which case they arrive at the water level) or underground. If arriving underground, the altitude of arrival should be as close as possible to the same altitude as the intended endpoint location.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Symbol of Fear
+ 
+Black Magic-User 6
+
+Range: Special
+
+Duration: Special
+
+This spell functions like **Symbol of Pain**, except that all creatures within 60 feet of the **Symbol of Fear** become panicked for 1 round per caster level.  A panicked creature will drop whatever it is holding and flee using any means necessary.  If cornered, the creature will cower in fear.  The victim will also suffer a -2 to all saving throws.  The creature will do this for the duration of the spell.  If a save is made, the victim is still shaken and suffers -2 to attack rolls and saving throws for 1 round.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Wall of Iron
  
 Range: 90'
@@ -5946,4 +6135,358 @@ Like any iron wall, this wall is subject to rust, perforation, and other natural
 
 :::
 
+::: {.callout-note icon=false collapse=true}
+
+## Weather Summoning
+ 
+Druid 6, Magic-User 6
+
+Range: 10 miles
+
+Duration: 2 turn/level
+
+The caster is able to summon nearby weather conditions.  The caster must be aware of the weather condition to summon it.  This spell does not grant control of the weather to the caster.
+
 :::
+
+:::
+
+<!-- ------------------------------------ -->
+
+::: {.callout-tip icon=false collapse=true}
+
+# Level 7, Magic-User
+
+::: {.callout-note icon=false collapse=true}
+
+## Astral Projection
+
+Cleric 7, Magic-user 7
+
+Range: Self
+
+Duration: Special
+
+This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.
+
+The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.
+
+This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
+
+Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Bigby’s Grasping Hand
+
+Magic-user 7
+
+Range: 10 yards/level
+
+Duration: 1 round/level
+
+**Bigby's Grasping Hand** is a superior version of the 6th-level spell **Bigby's Forceful Hand**. It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that appears and grasps a creature designated by the caster, regardless of what the spellcaster does or how the opponent tries to escape it. The grasping hand can hold motionless a creature or object of up to 1,000 pounds weight, slow movement to 10 feet per round if the creature weighs between 1,000 and 4,000 pounds, or slow movement by 50% if the creature weighs up to 16,000 pounds.
+
+The hand itself inflicts no damage. The grasping hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can order it to release a trapped opponent or can dismiss it on command.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Delayed Blast Fireball
+
+Magic-user 7
+
+Range: 100' + 10'/level
+
+Duration: Special
+
+This spell creates a small glowing bead at any location chosen by the caster, up to the listed range. This bead will explode in an improved form of fireball at a time chosen by the caster; when it explodes, it will do 1d6+1 points of damage per caster level to all within a spherical volume with a 20' radius, just as with the standard fireball spell. The bead may explode immediately if the caster so desires, or may be delayed up to 10 rounds; the caster chooses the time when the spell is cast, and cannot subsequently be changed.
+
+If a delay is chosen, the glowing bead lies at its destination until it detonates. A creature can pick up and hurl the bead (with the same range as a dagger); if the bead is handled within 1 round of its scheduled detonation, there is a 25% chance that the bead detonates instantly, i.e. before it can be thrown.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Drawmij’s Instant Summons
+
+Magic-user 7
+
+Range: Infinite + special
+
+Duration: Instantaneous
+
+When this spell is cast, the magic-user teleports some desired item from virtually any location directly to their hand. The single object can be no longer in any dimension than a sword, can have no more weight than a shield (about eight pounds), and must be nonliving. The desired item is then transported instantly into the Magic-User's hand. The item must have been previously touched and specifically named; only that particular item is summoned by the spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Finger of Death
+
+Black Magic-user 7
+
+Range: 25' + 5'/2 levels
+
+Duration: Instantaneous
+
+The **Finger of Death** spell snuffs out the victim's life force. If successful, the victim can be neither raised nor resurrected. In addition, in human subjects the spell initiates changes to the body such that after three days the caster can, by means of a special ceremony costing not less than 1,000 gp plus 500 gp per body, animate the corpse as a juju zombie under the control of the caster. The changes can be reversed before animation by a **Limited Wish** or similar spell cast directly upon the body, and a full **Wish** restores the subject to life.
+
+The caster utters the **Finger of Death** spell incantation, points their index finger at the creature to be slain, and unless the victim succeeds in a saving throw vs. spell, death occurs. A creature successfully saving still receives 2d8+1 points of damage. If the subject dies of damage, no internal changes occur and the victim can then be revived normally.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Gate
+
+Cleric 7, Magic-User 7
+
+Range: 120'
+
+Duration: Special
+
+This spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.
+
+The gate appears as a flat circle with a diameter of 5 to 20 feet (caster's choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.
+
+The gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell's duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.
+
+Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
+
+As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Greater Teleport
+
+Magic-User 7
+
+Range: Self
+
+Duration: Instanteous
+
+This spell functions in a similar fashion to the normal **Teleport** spell, except that there is no limit to the range that can be spanned, nor is there any chance of arriving off target. In addition, the caster need not have seen the destination, if the caster has at least a reliable description of it. If the caster attempts to teleport with insufficient information (or with misleading information), the caster disappears and then reappears in the original location. This spell cannot transport the caster to another plane of existence.
+
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mass Invisibility
+
+Magic-User 7
+
+Range: 240'
+
+Duration: Special
+
+ This spell bestows the effect of an **Invisibility** spell on all creatures within a 30' by 30' area, exactly as if each such creature had received its own spell; thus, each subject will remain invisible until the caster attacks or casts a spell, and will remain invisible after leaving the area of effect. As with the normal invisibility spell, this spell lasts at most 24 hours.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Meteor Storm
+
+Magic-User 7
+
+Range: 1 mile
+
+Duration: Instananeous
+
+Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a saving throw vs. Spells. The sphere spreads around corners. Any affected creature takes 15d6 fire and bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
+
+The spell damages objects in the area and ignites flammable objects that aren't being worn or carrier.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mordenkainen’s Sword
+
+Magic-User 7
+
+Range: 30'
+
+Duration: 1 round/level
+
+This spell brings into being a shimmering, sword-like plane of force.  The sword strikes at any opponent within its range, as the caster desires, beginning in the round that the spell is cast.  The sword attacks its designated target once each round on the caster's normal initiative turn.  The sword attacks as a fighter of the same level as the caster, and the attack roll is modified by the caster's Intelligence bonus.    The sword inflicts 3d4 points of damage on a successful hit, and can hit even creatures immune to non-magical weapons.  On a natural roll of 19 or 20, it will automatically hit its target, no matter its armor class.  The sword can only be destroyed by a successful application of **Dispel Magic**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Phase Door
+
+Magic-User 7
+
+Range: Touch
+
+Duration: 1 usage/2 levels
+
+This spell creates a magical passage through a wall, the floor, the ceiling, or even through a section of ground. The phase door is invisible and inaccessible to all creatures except the caster, who is the only one that can use the passage. The passage is 10 feet deep plus another 5 feet for every three caster levels.
+
+The caster disappears when entering the phase door and appears when the caster exits. If desired, the caster can take one other creature through the door. This counts as two uses of the door. The door does not allow light, sound, or spell effects through it, nor it is possible to see through it without using it.
+
+A phase door is subject to **Dispel Magic**, but only from someone who is of higher level than the caster. If anyone is within the passage when it is dispelled, the caster is harmlessly ejected (determine randomly in which direction).
+
+It is possible to allow other creatures to use the phase door by setting a triggering condition for the door. This condition can be as simple or elaborate as desired. It can be based on a creature’s name or identity, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, Hit Dice, and hit points don't qualify.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Power Word Stun
+
+Magic-User 7
+
+Range: 120'
+
+Duration: Variable
+
+The caster utters a single word of power that instantly causes one creature of their choice to become stunned, whether the creature can hear the word or not. The duration of the spell depends on the target’s current hit point total. Any creature that currently has 71 or more hit points is unaffected by power word stun. If the target has between 36 and 70 hit points, the duration is 1d6 rounds. If the target has 35 hit points or less, the duration is 2d6 turns.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Reverse Gravity
+
+Druid 7, Magic-User 7
+
+Range: 5 yds/level
+
+Duration: 1 round/level
+
+This spell reverses gravity in a 30’ x 30’ area of effect, causing all unattached objects and creatures within it to “fall” upward. The reverse gravity lasts as long as the caster desires or until the spell expires. If some solid object is encountered in this “fall,” the object strikes it in the same manner as it would during a normal downward fall. At the end of the spell duration, the affected objects and creatures fall downward. As the spell affects an area, objects tens, hundreds, or even thousands of feet in the air above the area can be affected.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Sympathy*
+
+Magic-User 7
+
+Range: One location (up to a 10-ft. cube/level) or one object
+
+Duration: 2 hours/level
+
+The **Sympathy** spell causes an object or location to emanate magical vibrations that attract either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you. The particular kind of creature to be affected must be named specifically. A creature subtype is not specific enough. Likewise, the specific alignment must be named.
+
+Creatures of the specified kind or alignment feel elated and pleased to be in the area or desire to touch or possess the object. The compulsion to stay in the area or touch the object is overpowering. If the save is successful, the creature is released from the enchantment, but a subsequent save must be made 1d6 x 10 minutes later. If this save fails, the affected creature attempts to return to the area or object.
+
+The reverse spell **Anitpathy** causes an object or location to emanate magical vibrations that repel either a specific kind of intelligent creature or creatures of a particular alignment, as defined by you. The kind of creature to be affected must be named specifically. A creature subtype is not specific enough. Likewise, the specific alignment to be repelled must be named.
+
+Creatures of the designated kind or alignment feel an urge to leave the area or to avoid the affected item.
+
+A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so. This distracting discomfort reduces the creature’s Dexterity score by 4 points.
+
+ **Sympathy** counters and dispels **Antipathy** and vice versa.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+Sympathy counters and dispels **Antipathy**.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Trap the Soul
+
+Magic-User 7
+
+Range: 10 yards
+
+Duration: Permanent until broken
+
+This spell forces the creature's life force (and its material body) into a special prison gem enchanted by the spellcaster. The creature must be seen by the caster when the final word is uttered.
+
+The spell can be triggered in one of two ways. First, the final word of the spell can be spoken when the creature is within spell range. This allows magic resistance (if any) and a saving throw vs. spell to avoid the effect. If the creature's real name is spoken as well, any magic resistance is ignored and the saving throw vs. spell suffers a penalty of -2. If the saving throw is successful, the prison gem shatters.
+
+The second method is far more insidious, for it tricks the victim into accepting a trigger object inscribed with the final spell word, automatically placing the creature's soul in the trap. To use this method, both the creature's true name and the trigger word must be inscribed on the trigger item when the gem is enchanted. A **Sympathy** spell can also be placed on the trigger item. As soon as the subject creature picks up or accepts the trigger item, its life force is automatically transferred to the gem, without the benefit of magic resistance or saving throw.
+
+The gem prison will hold the trapped entity indefinitely, or until the gem is broken and the life force is released, allowing the material body to reform. If the trapped creature is a powerful creature from another plane (which could mean a character trapped by an inhabitant of another plane when the character is not on the Prime Material Plane), it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.
+
+Before the actual casting of the trap the soul spell, the wizard must prepare the prison, a gem of at least 1,000 gp value for every Hit Die or level of experience possessed by the creature to be trapped (for example, it requires a gem of 10,000 gp value to trap a 10 Hit Die or 10th-level creature). If the gem is not valuable enough, it shatters when the entrapment is attempted. (Note that while characters have no concept of level as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as characters advance.) Creating the prison gem requires an enchant an item spell and the placement of a maze spell into the gem, thereby forming the prison to contain the life force.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Vanish
+
+Magic-User 7
+
+Range: Touch
+
+Duration: Special
+
+When the wizard employs this spell, the caster causes an object to vanish (i.e., to be teleported as if by a **Teleport** spell) if it weighs no more than 50 pounds per caster level. Thus, a 14th-level caster can vanish, and cause to reappear at a desired location, an object up to 700 pounds in weight. The maximum volume of material that can be affected is 3 cubic feet per level of experience. Thus, both weight and volume limit the spell. An object that exceeds either limitation is unaffected and the spell fails.
+
+If desired, a vanished object can be placed deep within the Ethereal Plane. In this case, the point from which the object vanished remains faintly magical until the item is retrieved. A successful **Dispel Magic** spell cast on the point will bring the vanished item back from the Ethereal Plane. Note that creatures and magical forces cannot be made to vanish.
+
+There is a 1% chance that a vanished item will be disintegrated instead. There is also a 1% chance that a creature from the Ethereal Plane is able to gain access to the Prime Material Plane through the vanished item's connection.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wall of Force
+
+Magic-User 7
+
+Range: 180'
+
+Duration: 1 round/level (or special)
+
+This spell creates an invisible wall of force up to 100 feet square. The wall must be continuous and unbroken when formed. If any object or creature breaks the surface, the spell fails. The wall cannot move, it is immune to damage of all kinds, and it is unaffected by most spells, including **Dispel Magic**. **Dimension Door**, **Misty Step** and **Teleport** can bypass the barrier. It blocks ethereal creatures as well as material ones (though ethereal creatures can usually get around the wall by floating under or over it through material floors and ceilings). Gaze attacks can operate through a wall of force.
+
+The caster may choose to maintain the spell indefinitely (within reasonable limits of endurance) by concentration, or may cast it with the standard duration of 1 round per level, at their option.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wychlamp Aura
+ 
+Magic-User 7
+
+Range: Self
+
+Duration: 1 turn/level
+
+The caster of this spell will be sheathed in a pale, glowing aura which confers the effect of an **Anti-magic Shell** (as the spell). In addition, any magic cast upon or including the caster in its area of effect is affected as follows:
+
+Spells directly targeting the caster (like **Magic Missile**) will be deflected. Roll 1d6; on 1-2, the magic is reflected back at the offending caster. Otherwise, it is deflected at a random target.
+
+ 
+
+Area effect magic is altered as follows (roll 1d10):
+
+ 
+| Roll | Effect |
+|------|--------|
+|1-2   | Area of effect is doubled and damage is halved (if applicable). |
+|3-4   | Target point of the spell may be redetermined by the protected magic-user. |
+|5     | Complete nullification of the incoming spell. |
+|6     | The incoming spell is unaffected. |
+|7-8   | Spell is randomly targeted as a grenade-like missile using the target point as the center. |
+|9-10  | Area of effect is halved and damage is doubled (if applicable). |
+
+ Magical attacks delivered by touch are always reflected back on the attacker.
+
+
+:::
+
+:::
+
+<!-- ------------------------------------ -->
