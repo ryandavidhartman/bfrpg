@@ -4734,7 +4734,7 @@ The caster must make an attack roll.  If successful, the caster deals 1d6 points
 :::
 
 ::: {.callout-note icon=false collapse=true}
- 
+
 ## Water Breathing
 
 Cleric 3, Druid 3, Magic-User 2
@@ -4744,6 +4744,21 @@ Range: Touch
 Duration: 2 hours/level
 
 The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+## Wraithfrom
+
+Magic-User 2
+
+Range: Self
+
+Duration: 3 rounds/level
+
+When this spell is cast, the wizard and all of their gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. Undead of most sorts will ignore an individual in wraithform, believing him to be a wraith or spectre, though a lich or special undead may save vs. spell with a -4 penalty to recognize the spell.
+
+The wizard can pass through small holes or narrow openings, even mere cracks, with all the caster wears or holds in their hands, as long as the spell persists. Note, however, that the caster cannot fly without additional magic. No form of attack is possible when in wraithform, except against creatures that exist on the Ethereal Plane, where all attacks (both ways) are normal. A successful **Dispel Magic** spell forces the wizard in wraithform back to normal form. The spellcaster can end the spell with a single word.
 
 :::
 
