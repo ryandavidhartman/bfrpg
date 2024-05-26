@@ -5411,7 +5411,7 @@ This spell turns the bones or bodies of dead creatures into undead skeletons or 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Bight
+## Blight
  
 Black Magic-User 5
 
