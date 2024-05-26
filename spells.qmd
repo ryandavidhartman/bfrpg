@@ -4187,9 +4187,7 @@ The swarm cannot be fought effectively with weapons, but fire and area effects c
 
 :::
 
-:::
-
-::: {.callout-tip icon=false collapse=true}
+::: {.callout-note icon=false collapse=true}
 
 ## Tongues
 
@@ -4219,9 +4217,7 @@ Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively wa
 
 :::
 
-:::
-
-::: {.callout-tip icon=false collapse=true}
+::: {.callout-note icon=false collapse=true}
  
 ## Web
  
