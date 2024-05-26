@@ -752,7 +752,7 @@ Cleric 4, Magic-User 5
 
 Range: Touch
 
-Duration: special
+Duration: Special
 
 This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
 
@@ -766,7 +766,7 @@ Cleric 4
 
 Range: 10'
 
-Duration: permanent
+Duration: Permanent
 
 This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
 
@@ -1356,7 +1356,7 @@ When cast, this spell causes a powerful, but localized, earthquake that is 10 fe
 
 • Open ground: All creatures in the area must save vs. Petrify or fall to the ground. Fissures open up and all creatures in the area have a 1 in 4 chance of falling in (save vs. Death Ray to avoid). After the end of the spell, the fissures close up, killing anything that fell in.
 
-• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring hardness. If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
+• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring [hardness](combat.html#attacking-a-vehicle). If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
 
 • River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
 
@@ -1657,7 +1657,7 @@ Cleric 4, Druid 1
 
 Range: 10'
 
-Duration: permanent
+Duration: Permanent
 
 This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
 
@@ -2313,6 +2313,24 @@ This spell works exactly like **Cure Light Wounds,** save that it heals 2d6 po
 
 ::: {.callout-note icon=false collapse=true}
 
+## Designor’s Wind Mastery
+ 
+Druid 4, Magic-User 5
+
+Range: 0'
+
+Duration: 1 turn/level
+
+The caster alters wind force around them (40 ft per caster level radius cylinder 40 ft high).  The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength.  The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration.  The caster may create an “eye” of calm air up to 40 ft radius around them and may choose to limit the area of effect to any cylindrical area less than their full limit.
+
+The caster may choose wind patterns over the spell’s area.  The caster can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.
+
+For every three caster levels, the caster can increase or decrease wind condition by one level.
+        
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Growth of Plants*
 
 Druid 4, Magic-User 4
@@ -2477,6 +2495,22 @@ In outdoor settings, the spell operates in a radius of 1 mile per caster level. 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Conjure Elemental
+ 
+Druid, Magic-User 5
+
+Range: 240'
+
+Duration: Special
+
+A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **Dispel Magic** or **Dispel Evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+
 
 ## Dig
 
@@ -2882,7 +2916,7 @@ When cast, this spell causes a powerful, but localized, earthquake that is 10 fe
 
 • Open ground: All creatures in the area must save vs. Petrify or fall to the ground. Fissures open up and all creatures in the area have a 1 in 4 chance of falling in (save vs. Death Ray to avoid). After the end of the spell, the fissures close up, killing anything that fell in.
 
-• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring hardness. If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
+• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring [hardness](combat.html#attacking-a-vehicle). If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
 
 • River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
 
@@ -3522,7 +3556,7 @@ Magic-User 1
 
 Range: 30'
 
-Duration: special
+Duration: Special
 
 This spell imbues the chosen non-living object with an enchanted mouth that suddenly appears and speaks its message the next time a specified event occurs. The message, which may be up to three words per caster level long, can be in any language known by the caster and can be delivered over a period of 10 minutes, at any volume from a whisper to a yell. The voice will resemble the caster's, but will not be identical. The mouth cannot use command words or activate magical effects. It does, however, move according to the words articulated; if it were placed upon a statue, the mouth of the statue would move and appear to speak. Of course, magic mouth can be placed upon a tree, rock, or any other object.
 
@@ -3624,7 +3658,7 @@ Range: 0
 
 Magic-User 1
 
-Duration: permanent
+Duration: Permanent
 
 When cast upon any magical text, such as a spellbook or magic-user spell scroll, this spell enables the caster to read that text. Casting this spell on a cursed text will generally trigger the curse. All Magic-Users begin play knowing this spell, and it can be prepared even if the Magic-User loses access to his or her spellbook.
 
@@ -4061,7 +4095,7 @@ Magic-User 2
 
 Range: 30'
 
-Duration: special
+Duration: Special
 
 The knock spell opens stuck, barred, locked, **Held**, or **Wizard Locked** doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a **Wizard Locked** door, the spell does not remove the **Wizard Lock** but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. Each spell can undo a single means of preventing access.
 
@@ -4862,7 +4896,7 @@ Magic-User 4
 
 Range: 30'
 
-Duration: special
+Duration: Special
 
 This spell functions like **Charm Person**, except that the effect is not restricted by creature type or size. Undead monsters are unaffected. This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for **Charm Person**.
 
@@ -5365,13 +5399,29 @@ With this spell the caster creates an invisible magical “eye” through which 
  
 ## Animate Dead
  
-Range: Touch
-
 Cleric 4, Magic-User 5
 
-Duration: special
+Range: Touch
+
+Duration: Special
 
 This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Bight
+ 
+Black Magic-User 5
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell withers a single plant of any size.  It causes 1d6 points of damage per level of the caster to the touched plant creature.  The creature is allowed a save vs. Spells for half damage.  If the plant is not a creature, it immediately withers and dies with no saving throw.
+
+Only the touched plant is affected; the spell has no effect on anything else in the area.
 
 :::
 
@@ -5379,9 +5429,9 @@ This spell turns the bones or bodies of dead creatures into undead skeletons or 
  
 ## Cloudkill
  
-Range: 100'+10'/level
-
 Magic-User 5
+
+Range: 100'+10'/level
 
 Duration: 6 rounds/level
 
@@ -5393,25 +5443,57 @@ This spell creates a 20'x20'x20' cloud of poison gas which moves at a rate of 10
  
 ## Conjure Elemental
  
+Druid 5, Magic-User 5
+
 Range: 240'
 
-Magic-User 5
-
-Duration: special
+Duration: Special
 
 A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **Dispel Magic** or **Dispel Evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Designor’s Wind Mastery
  
+Druid 4, Magic-User 5
+
+Range: 0'
+
+Duration: 1 turn/level
+
+The caster alters wind force around them (40 ft per caster level radius cylinder 40 ft high).  The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength.  The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration.  The caster may create an “eye” of calm air up to 40 ft radius around them and may choose to limit the area of effect to any cylindrical area less than their full limit.
+
+The caster may choose wind patterns over the spell’s area.  The caster can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.
+
+For every three caster levels, the caster can increase or decrease wind condition by one level.
+        
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Flame Strike
+
+Druid 5, Magic-User 5
+
+Range: 60'
+
+Duration: Instantaneoous
+
+A **Flame Strike** produces a vertical column of divine fire roaring downward (cylinder of 10 ft radius, 30 ft high).  The spell deals 6d8 points of damage to any creatures within the area of effect; a save vs. Spells for half damage is allowed.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Feeblemind
  
-Range: 180'
-
 Magic-User 5
 
-Duration: permanent
+Range: 180'
+
+Duration: Permanent
 
 If the target creature fails a saving throw vs. Spells, its Intelligence and Charisma scores each drop to 1. The affected creature is unable to cast spells, understand language, or communicate coherently. The victim does remember who its friends are and can follow and protect them from harm. The subject remains in this state until a **Heal** spell is used to cancel the effect. A target creature that can cast Magic-User spells suffers a penalty of -4 on its saving throw against this spell.
 
@@ -5420,6 +5502,12 @@ If the target creature fails a saving throw vs. Spells, its Intelligence and Cha
 ::: {.callout-note icon=false collapse=true}
  
 ## Hold Monster
+
+Magic-User 5
+
+Range: 180'
+
+Duration: 2d8 turns
  
 This spell functions like **Hold Person**, except that it affects any living creature that fails its save vs. Spells.
 
@@ -5429,11 +5517,11 @@ This spell functions like **Hold Person**, except that it affects any living cre
  
 ## Magic Jar
  
-Range: 60'
-
 Magic-User 5
 
-Duration: special
+Range: 60'
+
+Duration: Special
 
 By casting **Magic Jar**, the caster places his or her soul in a gem or large crystal within spell range (known as the magic jar), leaving the body lifeless. The caster may then attempt to take control of a nearby living creature within spell range, forcing its soul into the magic jar. The caster may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body. The spell ends when the caster's soul returns to his or her own body, leaving the receptacle empty.
 
@@ -5454,12 +5542,28 @@ In any case where the spell ends with the caster's body unoccupied by a spirit, 
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Mask of Life
+ 
+Black Magic-User 5
+
+Range: Touch
+
+Duration: 1 hour/level
+
+This spell makes a single undead creature appear to be alive.  The caster can decide which race and style of clothes is worn by the undead creature.  The spell will also make the target’s movements appear life-like.  The illusion will create appropriate ambient effects (smells, sounds, clothing textures, and such) that would be expected for the life-like appearance. 
+
+If the appearance is that of a living version of the target, anyone interacting with the target takes a -5 penalty to any saving throw to disbelieve the illusion.  If the target attacks or does anything that only the undead creature could do, the penalty is removed.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Passwall
  
-Range: 30'
-
 Magic-User 5
+
+Range: 30'
 
 Duration: 3 turns
 
@@ -5468,12 +5572,90 @@ Passwall creates a passage through wooden, plaster, or stone walls, but not thro
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Private Sanctum
+ 
+Magic-User 5
+
+Range: 30'
+
+Duration: 24 hours
+
+This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. [Darkvision](dungeonAdventures.html#darkvision) cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to **ESP** spells.
+
+Divination spells like **Magic mirror**, **Clairvoyance**, and **Clairaudiance** cannot perceive anything within the area.
+
+No speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.
+
+Private sanctum does not stop creatures from moving into and out of the area.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Rock to Mud*
+
+Druid 5, Magic-User 5
+
+Range: 150'
+
+Duration: Permanent
+
+This spell turns natural, uncut or un-worked rock of any sort into an equal volume of mud; up to two 10 ft cubes per caster level may be so transformed.  Magical stone is not affected by this spell.  The depth of the mud created cannot exceed 10 ft.  A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 ft and causing it to suffer a ‑2 penalty to attack rolls, saving throws, and armor class.  Creatures large enough to walk on the bottom can wade through the area at a speed of 5 ft., suffering none of the other penalties given.
+
+If rock to mud is cast upon the ceiling of a cavern or tunnel, the mud falls to the floor and spreads out in a pool to a depth of 5 ft.  The falling mud and the ensuing cave-in deal 8d6 points of damage to anyone caught directly beneath the area, or half damage to those who succeed a save vs. Death Ray.
+
+Castles and large stone buildings are generally immune to the effect of the spell, since **Rock to Mud** cannot affect worked stone and doesn’t reach deep enough to undermine such a buildings’ foundation.  However, small buildings or structures often rest upon foundations shallow enough to be damaged or even partially toppled by this spell.
+
+The mud remains until a successful **Dispel Magic** or **Mud to Rock** spell restores its substance (though not necessarily its form).  Evaporation turns the mud to normal dirt over a period of days.  The exact time depends on exposure to the sun, wind, and normal drainage.
+
+When using the reverse, **Mud to Rock**, the spell converts the same volume of mud into relatively soft stone (such as limestone or sandstone) permanently.  Any creature in the mud must save vs. Death Ray to escape before the area transforms into rock (assuming it has enough movement to do so).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Stoneskin
+
+Magic-User 5
+
+Range: Touch
+
+Duration: 1 turn/level
+
+Protects the caster. The caster's skin becomes hard and stone-like, protecting the caster by absorbing the first 10 points/level of damage from all attacks. (This operates like [hardness](combat.html#attacking-a-vehicle).) Once the spell has absorbed 10 points of damage per caster level, the spell is discharged.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Symbol of Pain
+
+Black Magic-User 5
+
+Range: Special
+
+Duration: Special
+
+With this spell, the caster writes a potent rune on a surface.  When triggered each creature within 60 feet of the **Symbol of Pain** are wracked with pain.  This pain imposes a -4 to all attack rolls, damage rolls, and saving throws.  These effects last for as long as the creature stays within range of the symbol, and for 1 hour after leaving the area.
+
+Once triggered, the symbol will remain active for 1 turn per caster level.  After that the symbol is discharged.  A symbol is permanent until discharged; it may be removed by **Dispel Magic that targets the rune specifically.
+
+The symbol is triggered by one or more of the following, as determined by the caster: a victim looks at the rune, reads the rune, touches the rune, or passes near the rune.  Regardless of the triggering methods, it cannot be triggered by a creature more than 60 feet away.  Once the spell is cast, the trigger methods cannot be changed.
+
+Triggering methods can be further modified by qualifiers, type of creature, race of creature, number of creatures, skip some number of triggers (so it is the third creature to touch it, not the first or second), or any other qualifier that is based on observable actions or details.
+
+The symbol may also be assigned a password that will temporarily disable the symbol when the password is said as a creature enters the range of the symbol.  Each time the range is entered, the password must be said again or the symbol will go off.  This is set at the time of casting and cannot be changed.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Telekinesis
  
-Range: Self
-
 Magic-User 5
+
+Range: Self
 
 Duration: 3 turns
 
@@ -5485,9 +5667,9 @@ This spell permits the caster to move objects or creatures by concentration alon
  
 ## Teleport
  
-Range: Self
-
 Magic-User 5
+
+Range: Self
 
 Duration: Instantaneous
 
@@ -5520,14 +5702,14 @@ Mishap: The caster and anyone else teleporting with the caster have gotten "scra
 :::
 
 ::: {.callout-note icon=false collapse=true}
- 
+
 ## Wall of Stone
  
+Cleric 5, Druid 5, Magic-User 5
+
 Range: 15' per level
 
-Magic-User 5
-
-Duration: permanent
+Duration: Permanent
 
 This spell creates a wall of rock that merges into adjoining rock surfaces. The wall is composed of up to one 10'x10' square section, 1' thick, per caster level. The caster can double the wall's area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object.
 
@@ -5536,6 +5718,20 @@ The caster can create a wall of stone in almost any shape he or she desires. The
 Like any other stone wall, this one can be destroyed by a **Disintegrate** spell or by normal means such as breaking and chipping.
 
 It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures. Creatures can avoid entrapment with successful saves vs. Death Ray.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+ 
+## Waves of Fatigue
+ 
+Black Magic-User 5
+
+Range: 30'
+
+Duration: 1 turn/level
+
+This spell sends an invisible wave of harmful energy out forward of the caster to a range of 30 feet.  All living creatures in the area suffer a -2 adjustment to their Strength and Dexterity for the duration of the spell.
 
 :::
 
@@ -5600,7 +5796,7 @@ Range: 30'/level
 
 Magic-User 6
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes the subject, along with all its carried gear, to turn into a mindless, inert statue. A saving throw vs. Petrification is allowed to resist the spell. If the statue resulting from this spell is broken or damaged, the subject (if ever returned to its original state) suffers equivalent damage or deformities. Only creatures made of flesh are affected by this spell.
 
@@ -5616,7 +5812,7 @@ Range: 5' per level
 
 Magic-User 6
 
-Duration: special
+Duration: Special
 
 Geas places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
 
@@ -5640,7 +5836,7 @@ Range: 0
 
 Magic-User 6
 
-Duration: special
+Duration: Special
 
 The caster summons an **Invisible Stalker** to do his or her bidding (see the **Monsters** section, below, for details). The spell persists until **Dispel Evil** is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
 
@@ -5650,13 +5846,31 @@ The caster summons an **Invisible Stalker** to do his or her bidding (see the�
  
 ## Lower Water
  
-Range: 360'
-
 Magic-User 6
+
+Range: 360'
 
 Duration: 1 turn/level
 
 This spell causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a more or less square-shaped depression whose sides are up to 10 feet long per caster level. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell. When cast on water elementals and other water-based creatures, this spell acts as a **Slow** spell (the reverse of **Haste**); a save vs. Spells is allowed, with success negating the effect. The spell has no effect on other creatures.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Mummify
+ 
+Black Magic-User 6
+
+Range: 360'
+
+Duration: 1 turn/level
+
+After careful ceremonial preparations lasting five days, and the application of many rare and expensive unguents, the caster is able to call back the spirit of the dead to reanimate its corpse as a mummy.  Mummies so created are of the standard sort (see its [monster entry](monstersAll.html#mummy)).  Mummies do not count against the normal limits of controllable undead (per **Re-animation** spell), but the caster can maintain control over as many Hit Dice of mummies as their own level.
+
+Mummies do not travel well, being slow and quickly wear down, taking damage on long journeys.  They make better guardians for the animator's lair.  A separate casting of the spell is necessary for each mummy created.  It might be possible to create a mummy from a large humanoid such as a giant, however the difficulty will be greater (the GM determines how much more difficult).  More powerful mummies, such as those with intact class-based powers, are generally created through the use of the undeath spell.
+
+Mummification is generally in the realm of the Black Magic-User, but occasionally Clerics of certain cults might have access as well.
 
 :::
 
@@ -5722,7 +5936,7 @@ Range: 90'
 
 Magic-User 6
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes a flat, vertical iron wall to spring into being. The wall is composed of up to one 10'x10' square section, one inch thick, per caster level. If the caster so desires, the wall can bond itself into any surrounding nonliving material if its area is sufficient to do so. The wall cannot be conjured so that it occupies the same space as a creature or another object. The wall must always be a flat plane, though the edges can be shaped to fit the available space, and it must always be conjured in contact with the ground.
 

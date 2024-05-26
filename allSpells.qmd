@@ -10,7 +10,7 @@ Range: 30'
 
 Cleric 4, Magic-User 5
 
-Duration: special
+Duration: Special
 
 The casting of this spell causes the mortal remains of one or more deceased creatures to arise as animated
 skeletons or zombies. Such undead monsters persist until slain, and obey the verbal commands of the caster.
@@ -158,7 +158,7 @@ Range: 30'
 
 Magic-User 4
 
-Duration: special
+Duration: Special
 
 This spell functions like **charm person**, except that the effect is not restricted by creature type or size. Undead monsters are unaffected, as are constructs such
 as golems and any creature which is functionally
@@ -173,7 +173,7 @@ Range: 30'
 
 Magic-User 1
 
-Duration: special
+Duration: Special
 
 This spell causes a humanoid (including all character
 races as well as creatures such as orcs, goblins, gnolls,
@@ -294,7 +294,7 @@ Range: 240'
 
 Magic-User 5
 
-Duration: special
+Duration: Special
 
 A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. Review the [Elemental](monstersAll.qmd#elemental) entry in the
 Monsters section for further details regarding the types available and their statistics. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only **dispel magic** or **dispel evil** will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
@@ -325,7 +325,7 @@ Range: 10'
 
 Cleric 5
 
-Duration: permanent
+Duration: Permanent
 
 This spell creates food sufficient to feed up to 3 men or
 one horse per caster level for one day. This food
@@ -344,7 +344,7 @@ Range: 10'
 
 Cleric 4
 
-Duration: permanent
+Duration: Permanent
 
 This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
 
@@ -601,7 +601,7 @@ Range: 180'
 
 Magic-User 5
 
-Duration: permanent
+Duration: Permanent
 
 This spell allows the caster to inflict a terrible curse on a
 living creature, reducing both Intelligence and Charisma
@@ -731,7 +731,7 @@ Range: 30'/level
 
 Magic-User 6
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes a living creature, along with all gear it
 wears or carries, to be petrified. This is the same effect
@@ -818,7 +818,7 @@ Range: 5' per level
 
 Magic-User 6
 
-Duration: special
+Duration: Special
 
 By means of this spell the caster compels a living
 creature to perform some specific action or services, or
@@ -883,7 +883,7 @@ Range: 120'
 
 Magic-User 4
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes normal vegetation of any sort within
 range to become thick and overgrown. The area of
@@ -968,7 +968,7 @@ Range: Touch
 
 Cleric 6
 
-Duration: permanent
+Duration: Permanent
 
 This spell enables the caster to almost totally cure
 wounds, diseases, and other afflictions of a single living
@@ -1107,7 +1107,7 @@ Range: Touch
 
 Magic-User 2
 
-Duration: special
+Duration: Special
 
 This spell causes the creature touched (who may be the
 caster) to become invisible, undetectable by normal
@@ -1171,7 +1171,7 @@ Range: 0
 
 Magic-User 6
 
-Duration: special
+Duration: Special
 
 The caster summons an **invisible stalker** to do his or her bidding (see the [Monsters](monstersAll.qmd#invisible-stalker) section, below, for details). The spell persists until **dispel evil** is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
 
@@ -1184,7 +1184,7 @@ Range: 30'
 
 Magic-User 2
 
-Duration: special
+Duration: Special
 
 The knock spell opens stuck, barred, locked, **held**, or **wizard locked** doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a **wizard locked** door, the spell does not remove the **wizard lock** but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. 
 
@@ -1376,7 +1376,7 @@ Range: 60'
 
 Magic-User 5
 
-Duration: special
+Duration: Special
 
 This spell allows the caster to attempt to possess the
 body of another living creature. The caster begins by
@@ -1493,7 +1493,7 @@ Range: 30'
 
 Magic-User 1
 
-Duration: special
+Duration: Special
 
 This spell places a simple form of programmed illusion
 on a non-living object within range. When triggered,
@@ -1678,7 +1678,7 @@ Range: 30'
 
 Magic-User 4
 
-Duration: permanent
+Duration: Permanent
 
 This spell allows the caster to change one target into another form of living creature. The assumed form can't have more hit dice than caster's level, or be incorporeal or gaseous. Unlike **polymorph self**, the transformed target also gains the behavioral and mental traits, any physical attacks, special, supernatural or spell-like abilities of the new form, in addition to the physical capabilities and statistics of such. If the new form is substantially less intelligent, the target may not remember its former life.
 
@@ -1868,7 +1868,7 @@ Range: 5'/level
 
 Cleric 5
 
-Duration: special
+Duration: Special
 
 By means of this spell the caster compels a living
 creature to perform some specific action or services, or
@@ -1985,7 +1985,7 @@ Range: 0
 
 Magic-User 1
 
-Duration: special
+Duration: Special
 
 This spell grants the caster the ability to read almost any written language. It may be cast in one of three modes:
 
@@ -2008,7 +2008,7 @@ Range: 0
 
 Magic-User 1
 
-Duration: permanent
+Duration: Permanent
 
 When cast upon any magical text, such as a spellbook or magic-user spell scroll, this spell enables the caster to read that text. Casting this spell on a cursed text will generally trigger the curse. All Magic-Users begin play knowing this spell, and it can be prepared even if the Magic-User loses access to his or her spellbook.
 
@@ -2021,7 +2021,7 @@ Range: Touch
 
 Cleric 6
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes the subject's severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of multiheaded creatures), broken bones, and ruined organs to grow back. After the spell is cast, the physical regeneration is complete in 1 round if the severed members are present and touching the creature. Otherwise, a full turn is required for the regeneration to complete.
 
@@ -2234,7 +2234,7 @@ Range: Touch
 
 Cleric 6
 
-Duration: permanent
+Duration: Permanent
 
 Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.qmd#energy-drain) section) for more details.
 
@@ -2692,7 +2692,7 @@ Range: 90'
 
 Magic-User 6
 
-Duration: permanent
+Duration: Permanent
 
 Using this spell the caster creates an iron wall. The wall
 stands upright, and consists of up to one 10'x10' square
@@ -2748,7 +2748,7 @@ Range: 15' per level
 
 Magic-User 5
 
-Duration: permanent
+Duration: Permanent
 
 Using this spell the caster creates a stone wall. The wall
 is composed of up to one 10'x10' square section, one
@@ -2886,7 +2886,7 @@ Range: 20'
 
 Magic-User 2
 
-Duration: permanent
+Duration: Permanent
 
 This spell magically holds shut a door, gate, window, or
 shutter of wood, metal, or stone. The magic affects the

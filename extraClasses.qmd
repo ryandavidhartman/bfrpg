@@ -295,7 +295,7 @@ Range: 30'
 
 Druid 1 
 
-Duration: permanent
+Duration: Permanent
 
 Upon encountering a normal or giant-sized (but not magical) animal, the caster may begin casting this spell, which requires an hour to complete. During this period the animal will remain nearby, and will not attack the caster or his or her allies for the duration of the casting (so long as they do not attack or otherwise disturb it). At the end of the casting, if the animal rolls a successful save vs. Spells, the spell has failed. At this point the animal acts naturally, without bearing the caster any special ill-will.
 
@@ -533,7 +533,7 @@ Range: special
 
 Druid 3 
 
-Duration: permanent
+Duration: Permanent
 
 This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines) within 400 ft. + 40 ft./caster level to become thick and overgrown. The plants entwine to form a thicket or jungle that creatures must hack or force a way through. Movement rate is reduced to a maximum of 5 ft./round, or 10 ft for Large creatures. The area must have brush and trees in it for this spell to take effect. An area up to 100 ft radius may thus be altered. Also, the caster may specify an area (a path, a clearing, etc.) within the given area of effect which is not so affected.
 
@@ -559,7 +559,7 @@ Druid 3
 
 Range: Touch
 
-Duration: special
+Duration: Special
 
 If the caster touches himself or herself, this spell grants temporary immunity to fire (normal and magic). When the spell absorbs 12 points per caster level of magical fire damage, it is discharged. Otherwise the spell lasts for 1 turn per caster level.
 
@@ -571,7 +571,7 @@ Druid 4
 
 Range: Touch
 
-Duration: special
+Duration: Special
 
 This spell functions exactly like **protection from fire**, except that that it protects against any sort of electrical or lightning damage.
 
@@ -581,7 +581,7 @@ Range: 150'
 
 Druid 5
 
-Duration: permanent
+Duration: Permanent
 
 This spell turns natural, uncut or un-worked rock of any sort into an equal volume of mud; up to two 10 ft cubes per caster level may be so transformed. Magical stone is not affected by this spell. The depth of the mud created cannot exceed 10 ft. A creature unable to levitate, fly, or otherwise free itself from the mud sinks until hip- or chest-deep, reducing its speed to 5 ft and causing it to suffer a ‑2 penalty to attack rolls, saving throws, and armor class. Creatures large enough to walk on the bottom can wade through the area at a speed of 5 ft., suffering none of the other penalties given.
 
@@ -1076,7 +1076,7 @@ Range: see text
 
 Illusionist 5 
 
-Duration: special
+Duration: Special
 
 This spell allows the caster, or a messenger touched by the caster, to send a recipient a message through the recipient's dreams. When the spell is cast, the caster must identify the recipient in an unambiguous way. The messenger (whether the caster or someone else) then appears in the recipient's dream and then delivers the message. The message is purely one-way, and there is no opportunity for questions or interaction. When the recipient wakes up, they will remember the message perfectly.
 
@@ -1122,7 +1122,7 @@ Range: touch
 
 Illusionist 3 
 
-Duration: permanent
+Duration: Permanent
 
 This spell allows the caster to write whatever they want on whatever they want. The caster specifies who they want to read it. (This can be an individual, class of individuals, a group, etc.) For anyone else this appears to be an unintelligible magical writing of some kind, though an Illusionist will recognize it as an Illusory Script.
 
@@ -1134,7 +1134,7 @@ Range: 60'
 
 Illusionist 3 
 
-Duration: permanent
+Duration: Permanent
 
 This spell creates the illusion of a wall, floor, ceiling, or similar surface, covering up to a 10-foot square area, up to 1 foot thick. The section of wall created appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search may reveal the true nature of the surface; the GM may either allow a save vs. Spells to detect the illusion, or if the probing attempt is well devised the GM may allow it to automatically succeed. In either case, such measures do not cause the illusion to disappear.
 
@@ -1154,7 +1154,7 @@ Range: 240'
 
 Illusionist 6 
 
-Duration: special
+Duration: Special
 
 Magic-User 7
 
@@ -1200,7 +1200,7 @@ Range: 100'
 
 Illusionist 5 
 
-Duration: special
+Duration: Special
 
 The caster becomes invisible (as if by means of **improved invisibility**) and at the same time an illusory double of him or her appears (as if by means of **spectral force**). The caster is then free to go elsewhere while his or her double moves away. The double appears within the given range, but thereafter moves as the caster directs it (which requires concentration). The double may be controlled at any distance from the caster, so long as the caster remains able to see it.
 
@@ -1240,7 +1240,7 @@ Range: 180'
 
 Illusionist 6 
 
-Duration: permanent
+Duration: Permanent
 
 This spell functions much like **advanced illusion** except that the spell is permanent. The "script" for this spell simply repeats endlessly.
 
@@ -1272,7 +1272,7 @@ Range: special
 
 Illusionist 3 
 
-Duration: special
+Duration: Special
 
 When this spell is cast, it creates a quasi-real, birdlike creature. It may appear as a small hawk/falcon or as a large dove, and may be any shade of gray from nearly white to nearly black. It does not fight, but all normal animals shun it and only monstrous ones will attack. The messenger has an Armor Class of 18 and 2 hit points, plus 1 per level of the caster. If it loses all of its hit points, the messenger disappears.
 
@@ -1314,7 +1314,7 @@ Range: touch
 
 Illusionist 2 
 
-Duration: permanent
+Duration: Permanent
 
 The spell makes a lock or other small mechanism appear to be trapped. Anyone that can detect traps, or any spell that can detect traps will show the item to be trapped, and the person checking will be convinced that the trap is present. Nothing happens if the trap is sprung, as there is no trap. The purpose is to dissuade thieves or make the thieves waste time.
 
@@ -1338,7 +1338,7 @@ Range: 180'
 
 Illusionist 5 
 
-Duration: special
+Duration: Special
 
 This spell functions like **advanced illusion**, except that this spell activates when a specific condition occurs. The caster sets the triggering condition when casting the spell. The event that triggers the illusion can be as general or as specific and detailed as desired, but must be based on an audible, tactile, olfactory, or visual trigger. The trigger cannot be based on some quality not normally obvious to the senses, such as religious belief or magical ability. For example, the spell could be set to trigger when a character wearing robes and a pointed hat enters an area, but not when a Magic-User enters the area.
 
@@ -1424,7 +1424,7 @@ Range: 180'
 
 Illusionist 3 
 
-Duration: special
+Duration: Special
 
 This spell functions like **phantasmal force**, except for the following: sound, smell, and thermal effects are included; creatures created do not necessarily disappear when touched, assuming the caster causes the illusion to react appropriately. For instance the caster displays illusory wounds when the image is attacked. The spell will last for 3 rounds after concentration ceases.
 
