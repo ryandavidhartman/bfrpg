@@ -575,7 +575,7 @@ The reversed spell, **Continual Darkness**, causes complete absence of light in
 
 ::: {.callout-note icon=false collapse=true}
 
-## Cure Blindness
+## Cure Blindness*
 
 Cleric 3
 
@@ -584,6 +584,26 @@ Range: Touch
 Duration: Instantaneous
 
 With this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including [Light](allSpells.html#light) or [Continual Light](allSpells.html#continual-light)). Blindness caused by a curse cannot be cured by this spell.
+
+Reversed, this spell becomes **Cause Blindness**, which causes a living creature touched to become blind. A successful melee attack roll is required to touch the
+victim, and no Saving Throw is allowed. Blinded creatures suffer the penalties described in [Deafness and Blindness](combat.qmd#deafness-and-blindness).
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Cure Deafness*
+
+Cleric 3
+
+Range: Touch
+
+Duration: Instantaneous
+
+With this spell the caster can cure a creature suffering deafneass (whether caused by injury or by magic, including **Cause Deafness**). Blindness caused by a curse cannot be cured by this spell.
+
+Reversed, this spell becomes **Cause Deafness**, which causes a living creature touched to become deaf. A successful melee attack roll is required to touch the
+victim, and no Saving Throw is allowed. Deafened creatures suffer the penalties described in [Deafness and Blindness](combat.qmd#deafness-and-blindness).
 
 :::
 
@@ -601,7 +621,7 @@ Cure disease cures all diseases that the subject is suffering from. The spell al
 
 Note: This spell does not prevent reinfection after a new exposure to the same disease.
 
-The reverse spell **Cause Diseas** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
+The reverse spell **Cause Disease** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
 
 :::
 
@@ -1863,7 +1883,7 @@ The swarm cannot be fought effectively with weapons, but fire and area effects c
 
 ## Barkskin
 
-Magic-User 3, Druid 2
+Druid 2, Magic-User 3
 
 Range: Touch
 
@@ -1887,7 +1907,7 @@ Duration: Level+1d4 rounds
 
 This spell allows the caster to charm one or more animals, in much the same fashion as [Charm Person](allSpells.html#charm-person), at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
 
-This spell does not grant the caster any special means of communication with the affected animals; if combined with [Speak with Animals](allSpells.html#speak-with-animals), this spell becomes significantly more useful.
+This spell does not grant the caster any special means of communication with the affected animals; if combined with [Speak With Animals](allSpells.html#speak-with-animals), this spell becomes significantly more useful.
 
 :::
 
@@ -2512,7 +2532,7 @@ In outdoor settings, the spell operates in a radius of 1 mile per caster level. 
 
 ## Conjure Elemental
  
-Druid, Magic-User 5
+Druid 5, Magic-User 5
 
 Range: 240'
 
@@ -2524,8 +2544,6 @@ A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened,
 
 ::: {.callout-note icon=false collapse=true}
  
-
-
 ## Dig
 
 Druid 5, Magic-User 4
@@ -4368,7 +4386,7 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
 
 ## Barkskin
 
-Magic-User 3, Druid 2
+Druid 2, Magic-User 3
 
 Range: Touch
 
@@ -5817,7 +5835,7 @@ Within a 10' radius around the caster, all magic is negated for the full duratio
 
 ::: {.callout-note icon=false collapse=true}
 
-## Bigby’s Forceful Hand
+## Bigby's Forceful Hand
 
 Magic-user 6
 
@@ -6206,7 +6224,7 @@ Unlike [Gate](allSpells.html#gate), the destination cannot be the same plane as 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Bigby’s Grasping Hand
+## Bigby's Grasping Hand
 
 Magic-user 7
 

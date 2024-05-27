@@ -538,11 +538,66 @@
     ]
   },
   {
+    "objectID": "allSpells.html#barkskin",
+    "href": "allSpells.html#barkskin",
+    "title": "9  Spells, Alphabetical",
+    "section": "Barkskin",
+    "text": "Barkskin\nDruid 2, Magic-User 3\nRange: Touch\nDuration: 4 rounds + 1 round/level\nWhen the Barkskin spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4th level, Armor Class 19 at 6th, Armor Class 20 at 8th and so on.\nThis spell does not function in combination with normal armor or any magical protection. In addition, saving throw rolls vs. all attack forms except magic gain a +1 bonus. This spell can be placed on the caster or on any other creature the caster touches.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#bigbys-forceful-hand",
+    "href": "allSpells.html#bigbys-forceful-hand",
+    "title": "9  Spells, Alphabetical",
+    "section": "Bigby’s Forceful Hand",
+    "text": "Bigby’s Forceful Hand\nMagic-user 6\nRange: 10 yards/level\nDuration: 1 round/level\nBigby’s Forceful Hand is a more powerful version of Bigby’s Interposing Hand. It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that places itself between the spellcaster and a chosen opponent. This disembodied hand then moves to remain between the two, regardless of what the spellcaster does or how the opponent tries to get around it. However, the forceful hand also pushes on the opponent. This force can push away a creature weighing 500 pounds or less, slow movement to 10 feet per round if the creature weighs between 500 and 2,000 pounds, or slow movement by 50% if the creature weighs more than 2,000 pounds.\nA creature pushed away is pushed to the range limit, or until pressed against an unyielding surface. The hand itself inflicts no damage. The forceful hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can cause it to retreat (to release a trapped opponent, for example) or dismiss it on command.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#bigbys-grasping-hand",
+    "href": "allSpells.html#bigbys-grasping-hand",
+    "title": "9  Spells, Alphabetical",
+    "section": "Bigby’s Grasping Hand",
+    "text": "Bigby’s Grasping Hand\nMagic-user 7\nRange: 10 yards/level\nDuration: 1 round/level\nBigby’s Grasping Hand is a superior version of the 6th-level spell Bigby’s Forceful Hand. It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that appears and grasps a creature designated by the caster, regardless of what the spellcaster does or how the opponent tries to escape it. The grasping hand can hold motionless a creature or object of up to 1,000 pounds weight, slow movement to 10 feet per round if the creature weighs between 1,000 and 4,000 pounds, or slow movement by 50% if the creature weighs up to 16,000 pounds.\nThe hand itself inflicts no damage. The grasping hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can order it to release a trapped opponent or can dismiss it on command.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#bigbys-interposing-hand",
+    "href": "allSpells.html#bigbys-interposing-hand",
+    "title": "9  Spells, Alphabetical",
+    "section": "Bigby’s Interposing Hand",
+    "text": "Bigby’s Interposing Hand\nMagic-User 4\nRange: 10 yards/level\nDuration: 1 round/level\nThe Bigby’s Interposing Hand spell creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that appears between the spellcaster and their chosen opponent. This disembodied hand then moves to remain between the two, regardless of what the spellcaster does or how the opponent tries to get around it. Neither invisibility nor polymorph fools the hand once a creature has been chosen. The hand does not pursue an opponent.\nIt provides cover for the caster against the selected opponent, with all the attendant combat adjustments. It has as many hit points as the caster in full health and has an Armor Class of 15.\nAny creature weighing less than 2,000 pounds trying to push past the hand is slowed to half its normal movement. If the original opponent is slain, the caster can designate a new opponent for the hand. The caster can command the hand out of existence at any time.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#black-tentacles",
+    "href": "allSpells.html#black-tentacles",
+    "title": "9  Spells, Alphabetical",
+    "section": "Black Tentacles",
+    "text": "Black Tentacles\nBlack Magic-User 4\nRange: 100’ + 10’/level\nDuration: 1 round/level\nA field of 10-foot-long rubbery tentacles will spring from the ground. The area is up to 30 feet by 30 feet, and they will appear from whatever surface is present, including water.\nThe tentacles will attack any creature in the area with the intent to wrestle/grapple them. They attack with the caster’s attack bonus and are considered to have a Strength of 18. There are more than enough tentacles to individually attack as many targets as can be present. If the attack succeeds, the target is held immobile and takes 1d6 points of damage each round it is held.\nAny creature that is not held by a tentacle may still only move through the affected area at half speed.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#blade-barrier",
     "href": "allSpells.html#blade-barrier",
     "title": "9  Spells, Alphabetical",
     "section": "Blade Barrier",
-    "text": "Blade Barrier\nRange: 90’\nCleric 6\nDuration: 1 round/level\nThis spell creates a barrier of flying, spinning, flashing blades. The caster may choose a barrier up to 20’ high which extends up to 20’ long per level of caster, or a ring-shaped barrier up to 20’ high with a radius of up to 5’ per each two full caster levels (so 30’ at level 12 or 13, 35’ at level 14 or 15, and so on).\nShould any creature pass through the wall, it suffers 1d6 points of damage per caster level, with a maximum damage of 15d6. A successful save vs. Death Ray reduces damage by half.\nThe caster may choose to conjure the wall in an area where creatures are already located; if this is done, all such creatures are harmed as if they passed through the wall, but a successful save vs. Death Ray in this case indicates that the creature has avoided all damage by jumping to one side or the other of the wall as chosen by the creature.\nAny ranged attacks passing through a blade barrier suffer a penalty of -4 on the attack roll.",
+    "text": "Blade Barrier\nCleric 6\nRange: 90’\nDuration: 1 round/level\nThis spell creates a wall of whirling blades up to 20’ long per caster level, or a ringed wall of whirling blades with a radius of up to 5’ per two levels. Either form will be up to 20 ft. high (as allowed by available space). Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a save vs. Death Ray reducing damage to half.\nIf the caster evokes the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful save vs. Death Ray.\nA blade barrier provides cover (+4 bonus to Armor Class) against attacks made through it.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -553,7 +608,73 @@
     "href": "allSpells.html#bless",
     "title": "9  Spells, Alphabetical",
     "section": "Bless*",
-    "text": "Bless*\nRange: 50’ radius\nCleric 2\nDuration: 1 minute/level\nThis spell gives the caster and their allies within a 50’ radius a bonus of +1 on all attack rolls, morale checks (for monsters or NPCs allied with the caster), and saving throws vs. any kind of magical fear. Casters of the 7th or higher level grant a bonus of +2 to attacks and saves vs. fear, but the morale bonus remains +1.\nThe reverse of bless is called bane. The caster’s enemies within a 50’ radius become fearful and uncertain, causing them to suffer a penalty of -1 on attack rolls, morale checks, and saving throws vs. any kind of magical fear. Casters of the 7th or higher level apply a penalty of -2 to attacks and saves vs. fear, but the morale penalty remains -1.",
+    "text": "Bless*\nCleric 2\nRange: 50’ radius\nDuration: 1 minute/level\nThis spell gives the caster and his or her allies (within a 50’ radius of the caster) a bonus of +1 on attack rolls, morale checks (for monsters or NPCs allied with the caster), and saving throws against magical Fear.\nThe reverse of Bless is called Bane. It fills the caster’s enemies (within a 50’ radius) with fear and doubt, causing each affected creature to suffer a -1 penalty on attack rolls, morale checks, and saving throws against magical Fear.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#blight",
+    "href": "allSpells.html#blight",
+    "title": "9  Spells, Alphabetical",
+    "section": "Blight",
+    "text": "Blight\nBlack Magic-User 5\nRange: Touch\nDuration: Instantaneous\nThis spell withers a single plant of any size. It causes 1d6 points of damage per level of the caster to the touched plant creature. The creature is allowed a save vs. Spells for half damage. If the plant is not a creature, it immediately withers and dies with no saving throw.\nOnly the touched plant is affected; the spell has no effect on anything else in the area.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#blink",
+    "href": "allSpells.html#blink",
+    "title": "9  Spells, Alphabetical",
+    "section": "Blink",
+    "text": "Blink\nMagic-User 4\nRange: Self\nDuration: 1 round/level\nBy means of this spell, the wizard causes their material form to “blink” directly from one point to another at a random time and in a random direction. This means that melee attacks against the wizard automatically miss if initiative indicates they fall after the caster has blinked.\nEach round the spell is in effect, the wizard rolls 2d8 to determine the timing of the blink–the result of the dice roll is used as the wizard’s initiative for that round. The wizard disappears and instantaneously reappears 10 feet distant from their previous position. (Direction is determined by a roll of 1d8: 1 = right ahead, 2 = right, 3 = right behind, 4 = behind, 5 = left behind, 6 = left, 7 = left ahead, 8 = ahead.) The caster cannot blink into a solid object; if such is indicated, reroll the direction. If blinking is impossible except into a fixed, solid object, the caster is then trapped on the Ethereal Plane.\nDuring each round that the caster blinks, they can be attacked only by opponents who win initiative or by those who are able to strike both locations at once (for example, with a breath weapon, fireball, or similar wide-area attack forms). Opponents with multiple attacks, or those operating under haste or similar effects, can often strike early enough to have at least one attack against the caster.\nIf the spellcaster holds off their attack (if any) until after the blink, the 2d8 delay until the blink is added to their normal 1d10 initiative roll (thus, the caster probably attacks last in the round). The spellcaster can also try to get their attack in before the caster blinks (the caster must announce their intent before rolling the 2d8 for blink timing and the 1d10 for initiative).\nIn this case, the caster compares the two dice rolls, hoping that their initiative roll is lower than their blink roll (the two rolls are not added if the caster is trying to attack before the caster blinks). If so, the caster attacks according to their initiative roll, then blinks according to the blink roll. If their blink roll is lower than their initiative roll, however, the caster blinks first and then attacks in whatever direction the caster’s facing (the caster must go through with their attack, even if the caster is facing in the wrong direction to affect anyone).",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#boneskin",
+    "href": "allSpells.html#boneskin",
+    "title": "9  Spells, Alphabetical",
+    "section": "Boneskin",
+    "text": "Boneskin\nBlack Magic-User 2\nRange: Self\nDuration: 1 turn/level\nThe caster manifests a chitinous bone-like armor, giving a +4 bonus to AC. The boney bulk that is added doesn’t affect other spell casting.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#burning-hands",
+    "href": "allSpells.html#burning-hands",
+    "title": "9  Spells, Alphabetical",
+    "section": "Burning Hands",
+    "text": "Burning Hands\nMagic-User 1\nRange: Special\nDuration: 1 round\nWhen the wizard casts this spell, a jet of searing flame shoots from their fingertips. Their hands must be held so as to send forth a fanlike sheet of flames: The wizard’s thumbs must touch each other and the fingers must be spread. The burning hands send out flame jets 5 feet long in a horizontal arc of about 120 degrees in front of the wizard.\nAny creature in the area of the flames suffers 1d3 points of damage, plus 2 points for each level of experience of the spellcaster, to a maximum of 1d3+20 points of fire damage. Those successfully saving vs. spell receive half damage. Flammable materials touched by the fire burn (for example, cloth, paper, parchment, thin wood, etc.). Such materials can be extinguished in the next round if no other action is taken.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#call-lightning",
+    "href": "allSpells.html#call-lightning",
+    "title": "9  Spells, Alphabetical",
+    "section": "Call Lightning",
+    "text": "Call Lightning\nDruid 3\nRange: 100’ + 10’/level\nDuration: 1 round/level\nImmediately upon completion of the spell, and at most once per round thereafter, the caster may call down a 5 ft wide, 30 ft long vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whichever target point the caster chooses within the spell’s range (measured from the caster’s position at the time of casting). Any creature in the target area or in the path of the bolt is affected; a successful save vs. Spells reduces damage taken by half.\nThe caster needs not call a bolt of lightning immediately; other actions, even spellcasting, can be performed. However, each round after the first the caster may choose to call a bolt instead of taking some other normal action. The caster may call a total number of bolts equal to one-third of their caster level, rounded down.\nIf the caster is outdoors and in a stormy area – a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental) – each bolt deals 3d8 points of damage instead of 3d6.\nThis spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the GM’s discretion.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#call-woodland-beings",
+    "href": "allSpells.html#call-woodland-beings",
+    "title": "9  Spells, Alphabetical",
+    "section": "Call Woodland Beings",
+    "text": "Call Woodland Beings\nDruid 4\nRange: 120’\nDuration: 1 round/level\nThis spell summons woodland creatures. They appear where the caster designates and act immediately, on their turn (they cannot be summoned into an environment that cannot support them). They attack the caster opponents to the best of their ability. If the caster can communicate with the creatures, the caster can direct them not to attack, to attack particular enemies or to perform other actions.\nThe caster may conjure one type of creature from this list, at their option:\n\n4 Centaurs,\n16 Pixies,\n2 Treants, or\n4 Unicorns\n\nThis spell only works outdoors in a natural location and will not function within the boundaries of any village, town, or city.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -564,7 +685,7 @@
     "href": "allSpells.html#charm-animal",
     "title": "9  Spells, Alphabetical",
     "section": "Charm Animal",
-    "text": "Charm Animal\nRange: 60’\nCleric 2\nDuration: level+1d4 rounds\n\nimport {rolld4} from \"./custom.js\"\n\nviewof click = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll 1d4&lt;/button&gt;`, {value: 0, reduce: () =&gt; rolld4()})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1d4 = \nThis spell allows the caster to charm one or more animals, in much the same fashion as charm person, at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.\nThis spell does not grant the caster any special means of communication with the affected animals; if combined with speak with animals, this spell becomes significantly more useful.",
+    "text": "Charm Animal\nCleric 2, Druid 2\nRange: 60’\nDuration: Level+1d4 rounds\nThis spell allows the caster to charm one or more animals, in much the same fashion as Charm Person, at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.\nThis spell does not grant the caster any special means of communication with the affected animals; if combined with Speak With Animals, this spell becomes significantly more useful.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -575,7 +696,7 @@
     "href": "allSpells.html#charm-monster",
     "title": "9  Spells, Alphabetical",
     "section": "Charm Monster",
-    "text": "Charm Monster\nRange: 30’\nMagic-User 4\nDuration: Special\nThis spell functions like charm person, except that the effect is not restricted by creature type or size. Undead monsters are unaffected, as are constructs such as golems and any creature which is functionally mindless (such as any kind of jelly). This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for charm person.",
+    "text": "Charm Monster\nMagic-User 4\nRange: 30’\nDuration: Special\nThis spell functions like Charm Person, except that the effect is not restricted by creature type or size. Undead monsters are unaffected. This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for Charm Person.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -586,7 +707,29 @@
     "href": "allSpells.html#charm-person",
     "title": "9  Spells, Alphabetical",
     "section": "Charm Person",
-    "text": "Charm Person\nRange: 30’\nMagic-User 1\nDuration: Special\nThis spell causes a humanoid (including all character races as well as creatures such as orcs, goblins, gnolls, and so on) of 4 hit dice or less to perceive the caster as a close friend, love interest, or at the very least as its trusted ally. Normal characters (PC or NPC) may be affected regardless of level of ability.\nA save vs. Spells will negate the effect. If hostilities have already commenced or the target otherwise feels threatened by the caster, it receives a bonus of +5 on its saving throw.\nThe caster does not directly control the target; rather, orders must be given verbally, in writing, or by means of gestures. Obviously, verbal orders will only work if the target and caster share a spoken language, and the same limitation applies to written orders. Also note that the exact perception of the caster by the affected individual is not under the control of the caster; the GM should decide how the subject of this spell perceives its relationship to the caster.\nThe target receives a new saving throw each day if it has an Intelligence of 13 or greater, every week if its Intelligence is 9-12, or every month if its Intelligence is 8 or less; the GM must rule on the equivalent intelligence of humanoid monsters.",
+    "text": "Charm Person\nMagic-User 1\nRange: 30’\nDuration: Special\nThis spell makes a humanoid creature of 4 hit dice or less regard the caster as its trusted friend and ally. Humans and demi-humans may be affected, regardless of level of ability. A save vs. Spells will negate the effect. If the creature is currently being threatened or attacked by the caster or his or her allies, it receives a +5 bonus on its saving throw. The spell does not enable the caster to control the charmed person as if it were an automaton; rather, it perceives his or her words and actions in the most favorable way. The caster can try to give the subject orders, but it will not do anything it wouldn’t ordinarily do, and further may receive an additional saving throw to overcome the magic (at the GM’s discretion). The caster must speak the target’s language to communicate any commands, or else be good at pantomiming; of course, if the caster is attacked, the charmed creature will act to protect its “friend” (though that could mean attacking the caster’s enemies, or attempting to carry off the caster to a “safe” place). The target receives a new saving throw each day if it has an Intelligence of 13 or greater, every week if its Intelligence is 9-12, or every month if its Intelligence is 8 or less.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#chill",
+    "href": "allSpells.html#chill",
+    "title": "9  Spells, Alphabetical",
+    "section": "Chill",
+    "text": "Chill\nBlack Magic-User 1\nRange: 10’\nDuration: 2 rounds\nThis spell does 1d4 points of damage to one creature within range. Furthermore, the creature must save vs. Paralysis or suffer -1 to melee hit and damage rolls for 1d6 rounds. A large heat source nearby gives a +2 to save. The caster may use this spell on one target up to 2 rounds after casting.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#clairaudience",
+    "href": "allSpells.html#clairaudience",
+    "title": "9  Spells, Alphabetical",
+    "section": "Clairaudience",
+    "text": "Clairaudience\nRange: 60’\nMagic-User 3\nDuration: 12 turns\nThis spell enables the caster to hear sounds in another area through the ears of a living creature in that area. The caster must specify the direction and approximate distance, up to a maximum of 60’ away. If there is no appropriate creature in that area, the spell fails. No saving throw is allowed, and the target creature is unaware that it is being so used. The caster may choose another subject creature after at least a turn has passed, enabling multiple locations to be viewed. If the subject creature moves out of range, contact is lost, though the caster may be able to choose another target in this case.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -604,11 +747,44 @@
     ]
   },
   {
+    "objectID": "allSpells.html#clean",
+    "href": "allSpells.html#clean",
+    "title": "9  Spells, Alphabetical",
+    "section": "Clean*",
+    "text": "Clean*\nMagic-User 0\nRange: 30’\nDuration: Instananeous\nA mage making use of this cantrip may clean, shine, dust, or polish a small object or surface of up to 1 square foot. Reversed, this becomes Dirty, which can make the same area dirty, tarnished, scuffed, or dusty.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#cloudkill",
     "href": "allSpells.html#cloudkill",
     "title": "9  Spells, Alphabetical",
     "section": "Cloudkill",
-    "text": "Cloudkill\nRange: 100’+10’/level\nMagic-User 5\nDuration: 6 rounds/level\nThis spell creates a 20’x20’x20’ cloud of poison gas which moves at a rate of 10’ per round under the control of the caster (so long as he or she concentrates on it). The gas kills outright any creatures of 3 or fewer hit dice or levels it comes in contact with; creatures having 4 or more hit dice or levels must save vs. Poison or die. The cloud persists for the entire duration even if the caster ceases to concentrate upon it.",
+    "text": "Cloudkill\nMagic-User 5\nRange: 100’+10’/level\nDuration: 6 rounds/level\nThis spell creates a 20’x20’x20’ cloud of poison gas which moves at a rate of 10’ per round under the control of the caster (so long as he or she concentrates on it). The gas kills outright any creatures of 3 or fewer hit dice or levels it comes in contact with; creatures having 4 or more hit dice or levels must save vs. Poison or die. The cloud persists for the entire duration even if the caster ceases to concentrate upon it.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#command",
+    "href": "allSpells.html#command",
+    "title": "9  Spells, Alphabetical",
+    "section": "Command",
+    "text": "Command\nCleric 1\nRange: 10’\nDuration: 1 round\nThe caster speaks a single-word command, which will be obeyed by a single creature within the given range. The command must be given in a language the recipient understands. The recipient will do its best to obey, as long as the command is a clear, imperative verb. “Suicide” isn’t a verb. “Die” would cause the recipient to fake death for the duration of the spell (believing it was dead). Typical commands are back, halt, flee, run, stop, fall, fly, go, leave, surrender, sleep, rest, etc.\nUndead are not affected. Creatures with Intelligence of 13 or more and creatures with 6 or more hit dice may save vs. Spells to resist.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#command-undead",
+    "href": "allSpells.html#command-undead",
+    "title": "9  Spells, Alphabetical",
+    "section": "Command Undead",
+    "text": "Command Undead\nBlack Magic-User 2\nRange: 30’\nDuration: Special\nThis spell allows the caster to influence an undead creature. If the undead creature is intelligent, this spell operates as charm person, except that the caster can influence 2 HD per caster level, instead of just a flat 4 HD. It otherwise operates the same, including duration.\nIf the undead creature is unintelligent, the caster immediately gains complete control, the creature gets no saving throw, and the duration is permanent. Any unintelligent undead controlled using this spell count against the total control limit from re-animation.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -619,7 +795,18 @@
     "href": "allSpells.html#commune",
     "title": "9  Spells, Alphabetical",
     "section": "Commune",
-    "text": "Commune\nRange: Self\nCleric 5\nDuration: 1 round/level\nThis spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM’s discretion.",
+    "text": "Commune\nCleric 5\nRange: Self\nDuration: 1 round/level\nThis spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM’s discretion.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#commune-wtih-nature",
+    "href": "allSpells.html#commune-wtih-nature",
+    "title": "9  Spells, Alphabetical",
+    "section": "Commune Wtih Nature",
+    "text": "Commune Wtih Nature\nDruid 5\nRange: See text\nDuration: Instantaneous\nThe caster becomes one with nature, attaining knowledge of the surrounding territory. After 10 minutes of concentration, the caster instantly gains knowledge of one fact per caster level among the following subjects: the ground or terrain, plants, minerals, bodies of water, people, general animal population, presence of woodland creatures, presence of powerful unnatural creatures, presence of settlement or structure, or even the general state of the natural setting.\nIn outdoor settings, the spell operates in a radius of 1 mile per caster level. In natural underground settings – caves, caverns, and the like – the radius is limited to 100 ft per caster level. The spell does not function where nature has been replaced by construction or settlement, such as in dungeons and towns.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -641,7 +828,7 @@
     "href": "allSpells.html#conjure-elemental",
     "title": "9  Spells, Alphabetical",
     "section": "Conjure Elemental",
-    "text": "Conjure Elemental\nRange: 240’\nMagic-User 5\nDuration: Special\nA portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. Review the Elemental entry in the Monsters section for further details regarding the types available and their statistics. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only dispel magic or dispel evil will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.",
+    "text": "Conjure Elemental\nDruid, Magic-User 5\nRange: 240’\nDuration: Special\nA portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only Dispel Magic or Dispel Evil will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -652,18 +839,62 @@
     "href": "allSpells.html#continual-light",
     "title": "9  Spells, Alphabetical",
     "section": "Continual Light*",
-    "text": "Continual Light*\nRange: 360’\nCleric 3, Magic-User 2\nDuration: 1 year/level\nThis spell creates a spherical region of light, as bright as full daylight up to a 30’ radius, with light of lesser intensity to a radius of 60’. Continual light can be cast on an object, into the air, or at a creature, just as with the light spell, up to a maximum range of 360’ from the caster. The spell remains in effect for one year per level of the caster.\nAs with light, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature’s attack rolls if the saving throw fails.\nThe reversed spell, continual darkness, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.",
+    "text": "Continual Light*\nCleric 3, Magic-User 2\nRange: 360’\nDuration: 1 year/level\nThis spell creates a spherical region of light, as bright as full daylight up to a 30’ radius, with light of lesser intensity to a radius of 60’. Continual light can be cast on an object, into the air, or at a creature, just as with the Light spell, up to a maximum range of 360’ from the caster. The spell remains in effect for one year per level of the caster.\nAs with Light, this spell can be used to blind a creature if cast on its visual organs. Creatures targeted by this spell are allowed a save vs. Death Ray; if the save is made, the spell is cast into the air just behind the target creature. A penalty of -4 is applied to the blinded creature’s attack rolls if the saving throw fails.\nThe reversed spell, Continual Darkness, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
     ]
   },
   {
-    "objectID": "allSpells.html#create-food",
-    "href": "allSpells.html#create-food",
+    "objectID": "allSpells.html#control-temperature-10-radius",
+    "href": "allSpells.html#control-temperature-10-radius",
     "title": "9  Spells, Alphabetical",
-    "section": "Create Food",
-    "text": "Create Food\nRange: 10’\nCleric 5\nDuration: Permanent\nThis spell creates food sufficient to feed up to 3 men or one horse per caster level for one day. This food remains edible for just a day, but this can be extended by a day by casting purify food and water on it (and this can be done repeatedly, keeping the food good indefinitely). Food created by this spell is nourishing and satisfying, but is rather bland.",
+    "section": "Control Temperature, 10’ Radius",
+    "text": "Control Temperature, 10’ Radius\nDruid 4\nRange: 0’\nDuration: 1 hour/level\nThe caster can change automatically the surrounding temperature (10 ft radius sphere) by up to 10 degrees Fahrenheit per caster level. The change can be upward or downward (caster’s choice)",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#control-undead",
+    "href": "allSpells.html#control-undead",
+    "title": "9  Spells, Alphabetical",
+    "section": "Control Undead",
+    "text": "Control Undead\nCleric 6, Black Magic-User 6\nRange: 60’\nDuration: 6 round/level\nThis spell allows for complete control of up to 3 HD/caster level of undead for a short period of time. Verbal control is required, but they will understand regardless of the language used. If communication is not possible, they will still not attack. Intelligent undead creatures may save vs. Spells to resist and will remember if they are controlled. Unintelligent undead do not get a saving throw and the control is permanent. Any unintelligent undead controlled using this spell count against the caster’s total control limit Re-animation.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#control-weather",
+    "href": "allSpells.html#control-weather",
+    "title": "9  Spells, Alphabetical",
+    "section": "Control Weather",
+    "text": "Control Weather\nCleric 7, Druid 7\nRange: 2 miles\nDuration: 4d12 hours\nThe caster can change the weather in the local area. Any kind of weather appropriate to the climate and season of the area may be invoked. It takes 10 minutes for the weather to change to the desired conditions. For the duration of the spell, the caster may again change the conditions, but any such change will take another 10 minutes for the new conditions to arrive.\nThe caster has control over the general conditions of the weather, such as the direction and force of the winds, whether lightning is occurring, whether there is a tornado, and other directives. But, there is no specific control, so lightning cannot be forced to hit a particular spot and the path of a tornado cannot be dictated.\nThe spell allows the caster to remove conditions as well as bring them. (For example, an existing tornado can be replaced with calm weather.) At the end of the spell, the current conditions will continue, the caster just won’t be able to control them anymore.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#corpse-feast",
+    "href": "allSpells.html#corpse-feast",
+    "title": "9  Spells, Alphabetical",
+    "section": "Corpse Feast",
+    "text": "Corpse Feast\nBlack Magic-User 4\nRange: 5’/level\nDuration: Instantaneous\nThis spell heals the caster and nearby active undead beings by draining the last energies from any fresh corpses (no more than an hour old) within the spell range. The corpse must have been a living sentient being (i.e. not animal, undead, construct, elemental, etc).\nAny corpse drained using this spell provides vigor to the caster and their active undead allies within range, healing 1d4 hit points per corpse, up to their maximum. Slain or destroyed undead do not heal or rise anew. Any corpses consumed by this spell cannot be raised or resurrected.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#corpse-servant",
+    "href": "allSpells.html#corpse-servant",
+    "title": "9  Spells, Alphabetical",
+    "section": "Corpse Servant",
+    "text": "Corpse Servant\nBlack Magic-User 1\nRange: Touch\nDuration: 1 hour/level\nThis spell allows the caster to temporarily animate skeletons or zombies. A number of hit dice equal to the caster’s level may be animated for up to one hour per caster level. These non-permanent undead do not count towards the Re-animation spell limitations, but they otherwise conform to the permanent undead created by that spell. Only one instance of this spell may be active at a time for any particular caster.\nAnimated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -674,7 +905,7 @@
     "href": "allSpells.html#create-water",
     "title": "9  Spells, Alphabetical",
     "section": "Create Water",
-    "text": "Create Water\nRange: 10’\nCleric 4\nDuration: Permanent\nThis spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.",
+    "text": "Create Water\nCleric 4\nRange: 10’\nDuration: Permanent\nThis spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -685,7 +916,18 @@
     "href": "allSpells.html#cure-blindness",
     "title": "9  Spells, Alphabetical",
     "section": "Cure Blindness*",
-    "text": "Cure Blindness*\nRange: Touch\nCleric 3\nDuration: Instantaneous\nWith this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including light or continual light). Blindness caused by a curse cannot be cured by this spell.\nReversed, this spell becomes cause blindness, which causes a living creature touched to become blind. A successful melee attack roll is required to touch the victim, and no Saving Throw is allowed. Blinded creatures suffer the penalties described in Deafness and Blindness.",
+    "text": "Cure Blindness*\nCleric 3\nRange: Touch\nDuration: Instantaneous\nWith this spell the caster can cure a creature suffering blindness (whether caused by injury or by magic, including Light or Continual Light). Blindness caused by a curse cannot be cured by this spell.\nReversed, this spell becomes Cause Blindness, which causes a living creature touched to become blind. A successful melee attack roll is required to touch the victim, and no Saving Throw is allowed. Blinded creatures suffer the penalties described in Deafness and Blindness.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#cure-deafness",
+    "href": "allSpells.html#cure-deafness",
+    "title": "9  Spells, Alphabetical",
+    "section": "Cure Deafness*",
+    "text": "Cure Deafness*\nCleric 3\nRange: Touch\nDuration: Instantaneous\nWith this spell the caster can cure a creature suffering deafneass (whether caused by injury or by magic, including Cause Deafness). Blindness caused by a curse cannot be cured by this spell.\nReversed, this spell becomes Cause Deafness, which causes a living creature touched to become deaf. A successful melee attack roll is required to touch the victim, and no Saving Throw is allowed. Deafened creatures suffer the penalties described in Deafness and Blindness.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -696,7 +938,7 @@
     "href": "allSpells.html#cure-disease",
     "title": "9  Spells, Alphabetical",
     "section": "Cure Disease*",
-    "text": "Cure Disease*\nRange: Touch\nCleric 3\nDuration: Instantaneous\nCure disease cures all diseases and kills all parasites afflicting the target creature. A magical or otherwise special disease (as defined by the GM) may be unaffected by this spell, or may require a caster of a certain minimum level to cure it. Also note, just because a disease or parasite is removed does not mean that the victim cannot be infected anew should that affliction be encountered again.\nThe reverse form of this spell, cause disease, causes a living creature touched by the caster to suffer from a debilitating and potentially deadly disease for the next 1d10 days. A successful melee attack roll is required to touch the victim, and no Saving Throw is allowed. The target suffers a -2 penalty to attack rolls, Armor Class and Saving Throws. While the victim is sick they cannot benefit from natural healing of damage or Constitution point losses, nor prepare spells or move at running speed. At the end of each day in which an infected character performed any form of exertion (for example by fighting, traveling, working, or doing magical research), the character must roll a saving throw vs. Spells or suffer 1d6 points of damage. Once the spell duration has elapsed the affected character, if still alive, is free of the illness and can start healing damage and recovering lost Constitution points, and can again prepare spells.",
+    "text": "Cure Disease*\nCleric 3, Druid 3\nRange: Touch\nDuration: Instantaneous\nCure disease cures all diseases that the subject is suffering from. The spell also kills parasites afflicting the target creature. Certain special diseases may not be countered by this spell or may be countered only by a caster of a certain level or higher.\nNote: This spell does not prevent reinfection after a new exposure to the same disease.\nThe reverse spell Cause Disease infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease’s effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster’s level and the discretion of the Game Master.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -707,7 +949,18 @@
     "href": "allSpells.html#cure-light-wounds",
     "title": "9  Spells, Alphabetical",
     "section": "Cure Light Wounds*",
-    "text": "Cure Light Wounds*\nCleric 1\nRange: Touch\nDuration: Instantaneous\nWith this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.\nThe reverse form of this spell, cause light wounds, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case, and the spell is wasted if the attack roll fails.\nUndead are affected by this spell and its reverse in opposite fashion; they are injured by cure light wounds and healed by cause light wounds.",
+    "text": "Cure Light Wounds*\nCleric 1, Druid 1\nRange: Touch\nDuration: Instantaneous\nWith this spell the caster heals 1d6+1 hit points of damage by laying his or her hand upon the injured creature.\nThe reverse form of this spell, Cause Light Wounds, causes 1d6+1 damage to the creature affected by it. A successful attack roll is required in this case.\nUndead are affected by this spell and its reverse in opposite fashion; they are injured by Cure Light Wounds and healed by Cause Light Wounds.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#cure-minor-wounds",
+    "href": "allSpells.html#cure-minor-wounds",
+    "title": "9  Spells, Alphabetical",
+    "section": "Cure Minor Wounds*",
+    "text": "Cure Minor Wounds*\nCleric 0, Druid 0\nRange: Touch\nDuration: Instantaneous\nWith this spell the caster heals 1 hit points of damage by laying his or her hand upon the injured creature.\nThe reverse form of this spell, Cause Minor Wounds, causes 1 damage to the creature affected by it. A successful attack roll is required in this case.\nUndead are affected by this spell and its reverse in opposite fashion; they are injured by Cure Minor Wounds and healed by Cause Minor Wounds.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -718,7 +971,7 @@
     "href": "allSpells.html#cure-serious-wounds",
     "title": "9  Spells, Alphabetical",
     "section": "Cure Serious Wounds*",
-    "text": "Cure Serious Wounds*\nCleric 4\nRange: Touch\nDuration: Instantaneous\nThis spell works exactly like cure light wounds, save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, cause serious wounds, also works exactly like cause light wounds, except that it inflicts 2d6 + 2 points per caster level.",
+    "text": "Cure Serious Wounds*\nCleric 4, Druid 4\nRange: Touch\nDuration: Instantaneous\nThis spell works exactly like Cure Light Wounds, save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, Cause Serious Wounds, also works exactly like Cause Light Wounds, except that it inflicts 2d6 + caster level in damage.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -752,6 +1005,17 @@
     "title": "9  Spells, Alphabetical",
     "section": "Death Spell",
     "text": "Death Spell\nRange: 240’\nMagic-User 6\nDuration: Instantaneous\nThis spell will kill 3d12 hit dice or levels of creatures in a 30’ radius sphere centered wherever the caster wishes (within the range limit). Excess levels of effectiveness are lost. Each creature affected is allowed to save vs. Death Ray; those that fail the save die immediately. Creatures of 8 or more hit dice or levels are immune to the spell, as are undead monsters, golems, and any other “creature” that is not truly alive.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#designors-wind-mastery",
+    "href": "allSpells.html#designors-wind-mastery",
+    "title": "9  Spells, Alphabetical",
+    "section": "Designor’s Wind Mastery",
+    "text": "Designor’s Wind Mastery\nDruid 4, Magic-User 5\nRange: 0’\nDuration: 1 turn/level\nThe caster alters wind force around them (40 ft per caster level radius cylinder 40 ft high). The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength. The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration. The caster may create an “eye” of calm air up to 40 ft radius around them and may choose to limit the area of effect to any cylindrical area less than their full limit.\nThe caster may choose wind patterns over the spell’s area. The caster can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.\nFor every three caster levels, the caster can increase or decrease wind condition by one level.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
