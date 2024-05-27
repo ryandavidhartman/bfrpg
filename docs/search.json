@@ -428,6 +428,17 @@
     ]
   },
   {
+    "objectID": "allSpells.html#analyze-magic",
+    "href": "allSpells.html#analyze-magic",
+    "title": "9  Spells, Alphabetical",
+    "section": "Analyze Magic",
+    "text": "Analyze Magic\nMagic-User 2\nRange: 5’\nDuration: 1 hour/level\nThis spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.\nEach turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.\nThe item or area to be studied must be within 5’ of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#animal-friendship",
     "href": "allSpells.html#animal-friendship",
     "title": "9  Spells, Alphabetical",
@@ -714,6 +725,17 @@
     ]
   },
   {
+    "objectID": "allSpells.html#dancing-lights",
+    "href": "allSpells.html#dancing-lights",
+    "title": "9  Spells, Alphabetical",
+    "section": "Dancing Lights",
+    "text": "Dancing Lights\nMagic-User 0\nRange: 100’ + 10’/level\nDuration: Instananeous\nDepending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\nDancing lights can be made permanent with a Permanency spell.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#darkvision",
     "href": "allSpells.html#darkvision",
     "title": "9  Spells, Alphabetical",
@@ -890,11 +912,22 @@
     ]
   },
   {
-    "objectID": "allSpells.html#geas",
-    "href": "allSpells.html#geas",
+    "objectID": "allSpells.html#gate",
+    "href": "allSpells.html#gate",
     "title": "9  Spells, Alphabetical",
-    "section": "Geas*",
-    "text": "Geas*\nRange: 5’ per level\nMagic-User 6\nDuration: Special\nBy means of this spell the caster compels a living creature to perform some specific action or services, or alternately to avoid performing some action. The target creature must be able to hear and understand the caster, or it cannot be affected. This spell will automatically fail if used to compel a creature to engage in some obviously self-destructive action.\nA saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster for some service. Once subjected to this spell the subject must obey the instructions given by the caster indefinitely, though if the geas is to perform some action the spell effectively ends when that action has been completed.\nFor every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a penalty of -2 to each of its ability scores, up to a maximum penalty of -8. No ability score can be reduced to less than 3 by this effect. If the subject resumes obeying the geas, all such penalties are removed after 24 hours.\nIf the task assigned to the subject of this spell is open- ended or otherwise unable to be completed, the subject is still compelled to try to perform the task, but the spell will end in no more than one day per caster level. Very clever creatures may be able to subvert the instructions given; the GM must decide on the results of any such attempts\nThis spell can be ended by remove curse cast by a character of higher level than the caster of the geas, but is never affected by dispel magic.",
+    "section": "Gate",
+    "text": "Gate\nCleric 7, Magic-User 7\nRange: 120’\nDuration: Special\nThis spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.\nThe gate appears as a flat circle with a diameter of 5 to 20 feet (caster’s choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.\nThe gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell’s duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.\nNote that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.\nAs long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#gishigans-geas",
+    "href": "allSpells.html#gishigans-geas",
+    "title": "9  Spells, Alphabetical",
+    "section": "Gishigan’s Geas*",
+    "text": "Gishigan’s Geas*\nMagic-User 6\nRange: 5’ per level\nDuration: Special\nGishigan’s Geas places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.\nA saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster to perform some service.\nThe geased creature must follow the given instructions until the geas is completed, no matter how long it takes.\nIf the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the GM’s discretion.\nFor every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a –2 penalty to each of its ability scores, up to a total of –8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.\nA geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.html#remove-curse) spell, or by a Wish, or by the reverse of this spell. Dispel Magic does not affect a geas.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -1198,6 +1231,17 @@
     ]
   },
   {
+    "objectID": "allSpells.html#permanency",
+    "href": "allSpells.html#permanency",
+    "title": "9  Spells, Alphabetical",
+    "section": "Permanency",
+    "text": "Permanency\nRange: 10’\nMagic-User 6\nDuration: Permanent\nThis spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.\nA permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the Constitution Point Losses rules.\nNo more than two spells can be made permanent on a single person, item or place. If a third Permanency spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.\nA Permanency spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.\nSpells that are commonly made permanent on a creature: Detect Magic, Protection From Evil, Read Languages, Read Magic, Tongues, Detect Invisible, and Fly.\nSpells commonly made permanent on items or locations include: Alarm, Animate Objects, Confusion, Dancing Lights, guards and wards, Invisibility, Phantasmal Force, Private Sanctum, Magic Mouth, Symbol of Pain,Wall of Fire, and Web.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#phantasmal-force",
     "href": "allSpells.html#phantasmal-force",
     "title": "9  Spells, Alphabetical",
@@ -1225,6 +1269,17 @@
     "title": "9  Spells, Alphabetical",
     "section": "Polymorph Self",
     "text": "Polymorph Self\nRange: Self\nMagic-User 4\nDuration: 1 hour/level\nThis spell allows the caster to change into a different form of living creature. The form assumed may not have more hit dice than the caster has levels, nor be incorporeal or gaseous.\nThe caster assumes the physical nature of the assumed form while retaining their mental and spiritual characteristics. They gain the Armor Class and all physical attacks possessed by the form but does not gain any special, supernatural or spell-like abilities. Dragon breath is a special ability, for instance, so were the caster to assume the form of a dragon they could use the dragon’s normal claw, bite, and tail swipe attacks, but not the dragon’s breath.\nIf the form assumed is capable of speaking and making appropriate gestures (as determined by the GM) the caster may use their own spells in the assumed form.\nEquipment worn or carried will be dropped if the new form is unable to wear or carry the items. If any such item would be constricting or physically harmful to the new form, the transformation slows and alters such that the item is dropped without damage to the items nor harm to the target creature. If the GM decides that any such item cannot be removed in this way, the spell fails.\nThe caster can remain transformed up to one hour per level of ability, or may choose to end the spell before that point if they wish.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#private-sanctum",
+    "href": "allSpells.html#private-sanctum",
+    "title": "9  Spells, Alphabetical",
+    "section": "Private Sanctum",
+    "text": "Private Sanctum\nMagic-User 5\nRange: 30’\nDuration: 24 hours\nThis spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. Darkvision cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to ESP spells.\nDivination spells like Magic Mirror, Clairvoyance, and Clairaudience cannot perceive anything within the area.\nNo speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.\nPrivate sanctum does not stop creatures from moving into and out of the area.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -1533,6 +1588,17 @@
     "title": "9  Spells, Alphabetical",
     "section": "Teleport",
     "text": "Teleport\nRange: Self\nMagic-User 5\nDuration: Instantaneous\nThe caster of this spell is instantly transported to another location up to 100 miles away per level of ability. The spell transports the caster only within their current plane of existence. Other creatures (passengers) and inanimate objects (cargo) may be transported along with the caster, up to a maximum of 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster). Unwilling creatures are allowed a saving throw vs. Spells to resist the spell, and the caster may need to make an attack roll to make contact with such a creature. Likewise, a successful save vs. Spells will prevent items in a creature’s possession from being teleported.\nThe spell is directed by the mind of the caster, who must visualize the destination area; failure to visualize it properly can cause the spell to fail in a variety of ways, and destinations heavily saturated with magical energy (as defined by the Game Master) will cause the spell to fail automatically.\nTo determine the results of this spell, roll d% and consult the table below. Below the table is an explanation of the terms used.\n\n\n\nKnows Well\nKnows Somewhat\nSaw Once\nSpell Result\n\n\n\n\n01\n01–02\n01-03\nDisaster\n\n\n02\n03–07\n04–13\nWrong Place\n\n\n03\n08–13\n14–25\nFell Short\n\n\n04–100\n14–00\n26–100\nSuccess!\n\n\n\nKnows Well applies when the caster has visited the destination frequently and/or spent a substantial amount of time there; generally, the caster should have spent at least 7 days (not necessarily in a row) at the destination within the last year to qualify for this category. Any place where the caster lived for more than a month in the last ten years, or more than a year in their life, also qualifies.\nKnows Somewhat applies when the caster has spent substantial time in the destination area, but not enough to qualify for Knows Well. Alternately, the caster may have made an in-depth study of the area, looking at accurate drawings, maps, and floorplans or spending hours listening to descriptions from one or more people who Know Well the destination.\nSaw Once applies when the caster has visited a place for as much as a day, but no more, or when the caster has attempted the study required for the second definition of Knows Somewhat but has failed to acquire enough information (in the GM’s opinion).\nIf the caster attempts to travel to a location that does not exist, or perhaps once existed but has been destroyed or otherwise changed so much that the caster would not recognize it, roll 2d20 instead d% for the result of the casting. In this case, if Success! is rolled the spell simply fails and no one is transported anywhere.\nSuccess! means exactly what it says. The caster, passengers, and cargo arrive safely exactly where the caster intended\nFell Short indicates that the caster, passengers, and cargo arrive safely 1d8x10% of the way to the intended destination. Note that arriving “safely” does not mean that the destination is safe, but only the trip\nWrong Place means that the caster, passengers, and cargo arrive at some place that resembles the intended destination. This means that the caster appears in the closest similar place within range, as decided by the GM. If no such area exists within the spell’s range, the spell simply fails instead.\nDisaster indicates that the caster, passengers, and cargo have encountered dimensional turbulence and have crashed, becoming separated (if passengers and/or cargo accompanied the caster) and being injured in the process. Each creature including the caster suffers 1d12 points of damage, and then rolls again on the same column using 2d20 instead of d%. If another Disaster is rolled for any creature, apply another 1d12 points of damage and roll once more. Cargo objects are not normally damaged but the result must be rolled for each such item to determine where it has appeared; in this case, if Disaster is rolled the cargo item disappears forever.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#tongues",
+    "href": "allSpells.html#tongues",
+    "title": "9  Spells, Alphabetical",
+    "section": "Tongues",
+    "text": "Tongues\nCleric 3, Magic-User 2\nRange: Touch\nDuration: 1 turn/level\nThis spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -4242,94 +4308,6 @@
     "crumbs": [
       "Extra",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Aditional and Alternate Rules</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#dancing-lights",
-    "href": "allSpells.html#dancing-lights",
-    "title": "9  Spells, Alphabetical",
-    "section": "Dancing Lights",
-    "text": "Dancing Lights\nMagic-User 0\nRange: 100’ + 10’/level\nDuration: Instananeous\nDepending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\nDancing lights can be made permanent with a Permanency spell.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#permanency",
-    "href": "allSpells.html#permanency",
-    "title": "9  Spells, Alphabetical",
-    "section": "Permanency",
-    "text": "Permanency\nRange: 10’\nMagic-User 6\nDuration: Permanent\nThis spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.\nA permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the Constitution Point Losses rules.\nNo more than two spells can be made permanent on a single person, item or place. If a third Permanency spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.\nA Permanency spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.\nSpells that are commonly made permanent on a creature: Detect Magic, Protection From Evil, Read Languages, Read Magic, Tongues, Detect Invisible, and Fly.\nSpells commonly made permanent on items or locations include: Alarm, Animate Objects, Confusion, Dancing Lights, guards and wards, Invisibility, Phantasmal Force, Private Sanctum, Magic Mouth, Symbol of Pain,Wall of Fire, and Web.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#tongues",
-    "href": "allSpells.html#tongues",
-    "title": "9  Spells, Alphabetical",
-    "section": "Tongues",
-    "text": "Tongues\nCleric 3, Magic-User 2\nRange: Touch\nDuration: 1 turn/level\nThis spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "spells.html#confusion",
-    "href": "spells.html#confusion",
-    "title": "8  Spells",
-    "section": "Confusion",
-    "text": "Confusion\nMagic-User 4\nRange: 360’\nDuration: 2 rounds+1/level\nThis spell causes up to 3d6 living creatures within a 30’ radius circle around the target point to become confused,making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject’s Initiative number each round to see what the subject does.\n\n\n\n\n\n\n\n\nd20\nBehavior\n\n\n\n\n1–2\nAttack caster with melee or ranged weapons (or close with caster if attack is not possible).\n\n\n3–4\nAct normally.\n\n\n5–10\nDo nothing but babble incoherently.\n\n\n11–14\nFlee away from caster at top possible speed.\n\n\n15–20\nAttack nearest creature.\n\n\n\n\n\n\nimport {confusionTable, highlightTableRow} from \"./custom.js\"\n\nviewof gemJewel3 = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll on Table&lt;/button&gt;`, {value: 0, reduce: () =&gt; highlightTableRow(\"#confusion-table\", confusionTable())})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA confused character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Spells</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#private-sanctum",
-    "href": "allSpells.html#private-sanctum",
-    "title": "9  Spells, Alphabetical",
-    "section": "Private Sanctum",
-    "text": "Private Sanctum\nMagic-User 5\nRange: 30’\nDuration: 24 hours\nThis spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. Darkvision cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to ESP spells.\nDivination spells like Magic Mirror, Clairvoyance, and Clairaudience cannot perceive anything within the area.\nNo speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.\nPrivate sanctum does not stop creatures from moving into and out of the area.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#analyze-magic",
-    "href": "allSpells.html#analyze-magic",
-    "title": "9  Spells, Alphabetical",
-    "section": "Analyze Magic",
-    "text": "Analyze Magic\nMagic-User 2\nRange: 5’\nDuration: 1 hour/level\nThis spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.\nEach turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.\nThe item or area to be studied must be within 5’ of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#gate",
-    "href": "allSpells.html#gate",
-    "title": "9  Spells, Alphabetical",
-    "section": "Gate",
-    "text": "Gate\nCleric 7, Magic-User 7\nRange: 120’\nDuration: Special\nThis spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.\nThe gate appears as a flat circle with a diameter of 5 to 20 feet (caster’s choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.\nThe gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell’s duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.\nNote that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.\nAs long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
-    "objectID": "allSpells.html#gishigans-geas",
-    "href": "allSpells.html#gishigans-geas",
-    "title": "9  Spells, Alphabetical",
-    "section": "Gishigan’s Geas*",
-    "text": "Gishigan’s Geas*\nMagic-User 6\nRange: 5’ per level\nDuration: Special\nGishigan’s Geas places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.\nA saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster to perform some service.\nThe geased creature must follow the given instructions until the geas is completed, no matter how long it takes.\nIf the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the GM’s discretion.\nFor every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a –2 penalty to each of its ability scores, up to a total of –8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.\nA geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.html#remove-curse) spell, or by a Wish, or by the reverse of this spell. Dispel Magic does not affect a geas.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
     ]
   }
 ]
