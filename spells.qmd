@@ -1330,7 +1330,7 @@ The participants’ spirits are immediately transported to the destination plane
 
 This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
 
-Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
+Unlike [Gate](allSpells.html#gate), the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
 
 :::
 
@@ -2710,7 +2710,7 @@ Range: 100'+10'/level
 
 Duration: 1 round/level
 
-This spell functions identically to the cleric spell [Animate Objects][Decay Flesh](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
+This spell functions identically to the cleric spell [Animate Objects](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
 
 :::
 
@@ -4534,7 +4534,7 @@ Duration: 1 turn/level
 
 The subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.
 
-Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 120' per round for 1d10 rounds. If the subject reaches the ground in that amount of time, he or she lands safely. If not, the subject falls the rest of the distance, taking normal falling damage. Since dispelling a spell effectively ends it, the subject also descends in this way if the fly spell is dispelled.
+If the spell duration expires while the subject is still airborne, the magic fails slowly such that the subject descends at a rate of 120 feet per round for 1d10 rounds. If the subject reaches the ground in that time they land safely; if not, the subject falls the rest of the distance and suffers normal falling damage. However, if this spell is ended by [Dispel Magic](allSpells.html#dispel-magic) or similar outside forces, the subject falls immediately. For any such fall, see [Falling Damage](combat.qmd#falling-damage) for details of the consequences.
 
 :::
 
@@ -4948,9 +4948,9 @@ This spell functions like [Charm Person](allSpells.html#charm-person), except t
 :::
 
 ::: {.callout-note icon=false collapse=true}
- 
+
 ## Confusion
- 
+
 Magic-User 4
 
 Range: 360'
@@ -4959,6 +4959,8 @@ Duration: 2 rounds+1/level
 
 This spell causes up to 3d6 living creatures within a 30' radius circle around the target point to become confused*,*making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject's Initiative number each round to see what the subject does.
 
+::: {#confusion-table}
+
 | d20 | Behavior |
 |-----|------------|
 | 1--2 | Attack caster with melee or ranged weapons (or close with caster if attack is not possible). |
@@ -4966,6 +4968,17 @@ This spell causes up to 3d6 living creatures within a 30' radius circle around t
 | 5--10 | Do nothing but babble incoherently. |
 | 11--14 | Flee away from caster at top possible speed. |
 | 15--20 | Attack nearest creature. |
+:::
+
+<div style="display: flex; justify-content: center;">
+```{ojs}
+
+import {confusionTable, highlightTableRow} from "./custom.js"
+
+viewof gemJewel3 = Inputs.button(html`<button style="color: back; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
+
+```
+</div>
 
 A confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.
 
@@ -5628,7 +5641,7 @@ Duration: 24 hours
 
 This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. [Darkvision](dungeonAdventures.html#darkvision) cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to [ESP](allSpells.html#esp) spells.
 
-Divination spells like *[Magic Mirror](allSpells.html#magic-mirror), [Clairvoyance](allSpells.html#clairvoyance), and [Clairaudience](allSpells.html#clairvaudiance) cannot perceive anything within the area.
+Divination spells like [Magic Mirror](allSpells.html#magic-mirror), [Clairvoyance](allSpells.html#clairvoyance), and [Clairaudience](allSpells.html#clairvaudiance) cannot perceive anything within the area.
 
 No speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.
 
@@ -6022,9 +6035,9 @@ No more than two spells can be made permanent on a single person, item or place.
 
 A **Permanency** spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.
 
-Spells that are commonly made permanent on a creature: [Detect Magic](allSpells.html#detect-magic), [Protection From Evil](allSpells.html#protection-from-evil), [Read Languages](allSpells.html#read-languages), [Read Magic](allSpells.html#read-magic), [Tongues](allSpells.html#tongues), [Detect Invisible](allSpells.html#detect-invisbible), and [Fly](allSpells.html#fly).
+Spells that are commonly made permanent on a creature: [Detect Magic](allSpells.html#detect-magic), [Protection From Evil](allSpells.html#protection-from-evil), [Read Languages](allSpells.html#read-languages), [Read Magic](allSpells.html#read-magic), [Tongues](allSpells.html#tongues), [Detect Invisible](allSpells.html#detect-invisible), and [Fly](allSpells.html#fly).
 
-Spells commonly made permanent on items or locations include: [Alarm](allSpells.html#alarm), [Animate Object](allSpells.html#animate-object), [Confusion](allSpells.html#confusion), [Dancing Lights](allSpells.html#dancing-lights), guards and wards, [Invisibility](allSpells.html#invisibility), [Phantasmal Force](allSpells.html#phantasmal-force), [Private Sanctum](allSpells.html#private-santum), [Magic Mouth](allSpells.html#magic-mouth), [Symbol of Pain](allSpells.html#symbol-of-pain),[Wall of Fire](allSpells.html#wall-of-fire), and [Web](allSpells.html#web).
+Spells commonly made permanent on items or locations include: [Alarm](allSpells.html#alarm), [Animate Objects](allSpells.html#animate-objects), [Confusion](allSpells.html#confusion), [Dancing Lights](allSpells.html#dancing-lights), guards and wards, [Invisibility](allSpells.html#invisibility), [Phantasmal Force](allSpells.html#phantasmal-force), [Private Sanctum](allSpells.html#private-sanctum), [Magic Mouth](allSpells.html#magic-mouth), [Symbol of Pain](allSpells.html#symbol-of-pain),[Wall of Fire](allSpells.html#wall-of-fire), and [Web](allSpells.html#web).
 
 :::
 

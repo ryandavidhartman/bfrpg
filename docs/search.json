@@ -619,7 +619,7 @@
     "href": "allSpells.html#confusion",
     "title": "9  Spells, Alphabetical",
     "section": "Confusion",
-    "text": "Confusion\nRange: 360’\nMagic-User 4\nDuration: 2 rounds+1/level\nThis spell causes up to 3d6 living creatures within a 30’ radius circle around the target point to become confused,making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject’s Initiative number each round to see what the subject does.\n\nimport {confusionTable, highlightTableRow} from \"./custom.js\"\n\nviewof gemJewel3 = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll on Table&lt;/button&gt;`, {value: 0, reduce: () =&gt; highlightTableRow(\"#confusion-table\", confusionTable())})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nd10\nBehavior\n\n\n\n\n1\nAct Normally\n\n\n2\nMove toward the caster, and attack if possible\n\n\n3–5\nTake no action except possibly to babble\n\n\n6–7\nMove swiftly away from the caster\n\n\n8–10\nAttack the nearest creature, regardless of whether it is a friend or foe\n\n\n\n\nIf the target cannot perform the action indicated, the GM should move down the table (going back to the top if the table runs out) until an action is found that the target can perform. If a confused creature is attacked, it returns the attack on its next initiative number (later in this round or in the next round if it has already acted) regardless of what is rolled on the table.",
+    "text": "Confusion\nMagic-User 4\nRange: 360’\nDuration: 2 rounds+1/level\nThis spell causes up to 3d6 living creatures within a 30’ radius circle around the target point to become confused,making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject’s Initiative number each round to see what the subject does.\n\n\n\n\n\n\n\n\nd20\nBehavior\n\n\n\n\n1–2\nAttack caster with melee or ranged weapons (or close with caster if attack is not possible).\n\n\n3–4\nAct normally.\n\n\n5–10\nDo nothing but babble incoherently.\n\n\n11–14\nFlee away from caster at top possible speed.\n\n\n15–20\nAttack nearest creature.\n\n\n\n\n\n\nimport {confusionTable, highlightTableRow} from \"./custom.js\"\n\nviewof gemJewel3 = Inputs.button(html`&lt;button style=\"color: back; background-color: lightgray;\"&gt;Roll on Table&lt;/button&gt;`, {value: 0, reduce: () =&gt; highlightTableRow(\"#confusion-table\", confusionTable())})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA confused character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -883,7 +883,7 @@
     "href": "allSpells.html#fly",
     "title": "9  Spells, Alphabetical",
     "section": "Fly",
-    "text": "Fly\nRange: Touch\nMagic-User 3\nDuration: 1 turn/level\nThe subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.\nIf the spell duration expires while the subject is still airborne, the magic fails slowly such that the subject descends at a rate of 120 feet per round for 1d10 rounds. If the subject reaches the ground in that time they land safely; if not, the subject falls the rest of the distance and suffers normal falling damage. However, if this spell is ended by dispel magic or similar outside forces, the subject falls immediately. For any such fall, see Falling Damage for details of the consequences.",
+    "text": "Fly\nRange: Touch\nMagic-User 3\nDuration: 1 turn/level\nThe subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.\nIf the spell duration expires while the subject is still airborne, the magic fails slowly such that the subject descends at a rate of 120 feet per round for 1d10 rounds. If the subject reaches the ground in that time they land safely; if not, the subject falls the rest of the distance and suffers normal falling damage. However, if this spell is ended by Dispel Magic or similar outside forces, the subject falls immediately. For any such fall, see Falling Damage for details of the consequences.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -4242,6 +4242,94 @@
     "crumbs": [
       "Extra",
       "<span class='chapter-number'>28</span>  <span class='chapter-title'>Aditional and Alternate Rules</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#dancing-lights",
+    "href": "allSpells.html#dancing-lights",
+    "title": "9  Spells, Alphabetical",
+    "section": "Dancing Lights",
+    "text": "Dancing Lights\nMagic-User 0\nRange: 100’ + 10’/level\nDuration: Instananeous\nDepending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.\nDancing lights can be made permanent with a Permanency spell.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#permanency",
+    "href": "allSpells.html#permanency",
+    "title": "9  Spells, Alphabetical",
+    "section": "Permanency",
+    "text": "Permanency\nRange: 10’\nMagic-User 6\nDuration: Permanent\nThis spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.\nA permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the Constitution Point Losses rules.\nNo more than two spells can be made permanent on a single person, item or place. If a third Permanency spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.\nA Permanency spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.\nSpells that are commonly made permanent on a creature: Detect Magic, Protection From Evil, Read Languages, Read Magic, Tongues, Detect Invisible, and Fly.\nSpells commonly made permanent on items or locations include: Alarm, Animate Objects, Confusion, Dancing Lights, guards and wards, Invisibility, Phantasmal Force, Private Sanctum, Magic Mouth, Symbol of Pain,Wall of Fire, and Web.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#tongues",
+    "href": "allSpells.html#tongues",
+    "title": "9  Spells, Alphabetical",
+    "section": "Tongues",
+    "text": "Tongues\nCleric 3, Magic-User 2\nRange: Touch\nDuration: 1 turn/level\nThis spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "spells.html#confusion",
+    "href": "spells.html#confusion",
+    "title": "8  Spells",
+    "section": "Confusion",
+    "text": "Confusion\nMagic-User 4\nRange: 360’\nDuration: 2 rounds+1/level\nThis spell causes up to 3d6 living creatures within a 30’ radius circle around the target point to become confused,making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject’s Initiative number each round to see what the subject does.\n\n\n\n\n\n\n\n\nd20\nBehavior\n\n\n\n\n1–2\nAttack caster with melee or ranged weapons (or close with caster if attack is not possible).\n\n\n3–4\nAct normally.\n\n\n5–10\nDo nothing but babble incoherently.\n\n\n11–14\nFlee away from caster at top possible speed.\n\n\n15–20\nAttack nearest creature.\n\n\n\n\n\n\nimport {confusionTable, highlightTableRow} from \"./custom.js\"\n\nviewof gemJewel3 = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll on Table&lt;/button&gt;`, {value: 0, reduce: () =&gt; highlightTableRow(\"#confusion-table\", confusionTable())})\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA confused character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Spells</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#private-sanctum",
+    "href": "allSpells.html#private-sanctum",
+    "title": "9  Spells, Alphabetical",
+    "section": "Private Sanctum",
+    "text": "Private Sanctum\nMagic-User 5\nRange: 30’\nDuration: 24 hours\nThis spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. Darkvision cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to ESP spells.\nDivination spells like Magic Mirror, Clairvoyance, and Clairaudience cannot perceive anything within the area.\nNo speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.\nPrivate sanctum does not stop creatures from moving into and out of the area.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#analyze-magic",
+    "href": "allSpells.html#analyze-magic",
+    "title": "9  Spells, Alphabetical",
+    "section": "Analyze Magic",
+    "text": "Analyze Magic\nMagic-User 2\nRange: 5’\nDuration: 1 hour/level\nThis spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.\nEach turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.\nThe item or area to be studied must be within 5’ of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#gate",
+    "href": "allSpells.html#gate",
+    "title": "9  Spells, Alphabetical",
+    "section": "Gate",
+    "text": "Gate\nCleric 7, Magic-User 7\nRange: 120’\nDuration: Special\nThis spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.\nThe gate appears as a flat circle with a diameter of 5 to 20 feet (caster’s choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.\nThe gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell’s duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.\nNote that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.\nAs long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#gishigans-geas",
+    "href": "allSpells.html#gishigans-geas",
+    "title": "9  Spells, Alphabetical",
+    "section": "Gishigan’s Geas*",
+    "text": "Gishigan’s Geas*\nMagic-User 6\nRange: 5’ per level\nDuration: Special\nGishigan’s Geas places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.\nA saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster to perform some service.\nThe geased creature must follow the given instructions until the geas is completed, no matter how long it takes.\nIf the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the GM’s discretion.\nFor every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a –2 penalty to each of its ability scores, up to a total of –8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.\nA geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.html#remove-curse) spell, or by a Wish, or by the reverse of this spell. Dispel Magic does not affect a geas.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
     ]
   }
 ]

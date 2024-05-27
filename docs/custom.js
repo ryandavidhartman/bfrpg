@@ -326,17 +326,18 @@ export function treasureGeMTable2() {
 }
 
 export function confusionTable() {
-  const roll = generalDice(1,10,0)
-  if (roll === 1 ){
+  const roll = generalDice(1,20,0)
+  if (roll >= 1 && roll <= 2){
     return 1
-  } else if (roll === 2 ){
+  }
+  else if (roll >=3 && roll <=4 ){
     return 2
-  } else if (roll >=3 && roll <=5 ){
-    return 3
-  } else if (roll >= 6 && roll <= 7 ){
-    return 4 
-  } else if (roll >= 8 && roll <= 10 ){
-    return 5 }
+  } else if (roll >= 5 && roll <= 10 ){
+    return 3 
+  } else if (roll >= 11 && roll <= 14 ){
+    return 4 }
+    else if (roll >= 15 && roll <= 20 ){
+      return 5 }
 }
 
 export function generalTableSelect(dice, values) {

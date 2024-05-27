@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +104,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -2195,7 +2231,7 @@ Astral Projection
 <p>This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.</p>
 <p>The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.</p>
 <p>This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster’s new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.</p>
-<p>Unlike ::Gate::, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.</p>
+<p>Unlike <a href="allSpells.html#gate">Gate</a>, the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.</p>
 </div>
 </div>
 </div>
@@ -3979,7 +4015,7 @@ Animate Natural Objects
 <p>Druid 6</p>
 <p>Range: 100’+10’/level</p>
 <p>Duration: 1 round/level</p>
-<p>This spell functions identically to the cleric spell <a href="#decay-flesh">Animate Objects</a>(allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice. At the GM’s option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.</p>
+<p>This spell functions identically to the cleric spell <a href="allSpells.html#animate-objects">Animate Objects</a>, but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice. At the GM’s option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.</p>
 </div>
 </div>
 </div>
@@ -6312,7 +6348,7 @@ Fly
 <p>Range: Touch</p>
 <p>Duration: 1 turn/level</p>
 <p>The subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.</p>
-<p>Should the spell duration expire while the subject is still aloft, the magic fails slowly. The subject floats downward 120’ per round for 1d10 rounds. If the subject reaches the ground in that amount of time, he or she lands safely. If not, the subject falls the rest of the distance, taking normal falling damage. Since dispelling a spell effectively ends it, the subject also descends in this way if the fly spell is dispelled.</p>
+<p>If the spell duration expires while the subject is still airborne, the magic fails slowly such that the subject descends at a rate of 120 feet per round for 1d10 rounds. If the subject reaches the ground in that time they land safely; if not, the subject falls the rest of the distance and suffers normal falling damage. However, if this spell is ended by <a href="allSpells.html#dispel-magic">Dispel Magic</a> or similar outside forces, the subject falls immediately. For any such fall, see <a href="./combat.html#falling-damage">Falling Damage</a> for details of the consequences.</p>
 </div>
 </div>
 </div>
@@ -6851,6 +6887,7 @@ Confusion
 <p>Range: 360’</p>
 <p>Duration: 2 rounds+1/level</p>
 <p>This spell causes up to 3d6 living creatures within a 30’ radius circle around the target point to become confused<em>,</em>making them unable to independently determine what they will do. A saving throw vs.&nbsp;Spells is allowed to resist the effect. Roll on the following table on each subject’s Initiative number each round to see what the subject does.</p>
+<div id="confusion-table">
 <table class="table">
 <colgroup>
 <col style="width: 29%">
@@ -6885,6 +6922,28 @@ Confusion
 </tr>
 </tbody>
 </table>
+</div>
+<div style="display: flex; justify-content: center;">
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="4976" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 4975;"><span id="cb1-4976"><a href="#cb1-4976" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {confusionTable<span class="op">,</span> highlightTableRow} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-4977"><a href="#cb1-4977" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4978"><a href="#cb1-4978" aria-hidden="true" tabindex="-1"></a>viewof gemJewel3 <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: back; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#confusion-table"</span><span class="op">,</span> <span class="fu">confusionTable</span>())})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+</div>
 <p>A confused character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.</p>
 </div>
 </div>
@@ -7751,7 +7810,7 @@ Private Sanctum
 <p>Range: 30’</p>
 <p>Duration: 24 hours</p>
 <p>This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. <a href="dungeonAdventures.html#darkvision">Darkvision</a> cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to <a href="allSpells.html#esp">ESP</a> spells.</p>
-<p>Divination spells like *<a href="allSpells.html#magic-mirror">Magic Mirror</a>, <a href="allSpells.html#clairvoyance">Clairvoyance</a>, and <a href="allSpells.html#clairvaudiance">Clairaudience</a> cannot perceive anything within the area.</p>
+<p>Divination spells like <a href="allSpells.html#magic-mirror">Magic Mirror</a>, <a href="allSpells.html#clairvoyance">Clairvoyance</a>, and <a href="allSpells.html#clairvaudiance">Clairaudience</a> cannot perceive anything within the area.</p>
 <p>No speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.</p>
 <p>Private sanctum does not stop creatures from moving into and out of the area.</p>
 </div>
@@ -8256,8 +8315,8 @@ Permanency
 <p>A permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the <a href="combat.html#constitution-point-losses">Constitution Point Losses rules</a>.</p>
 <p>No more than two spells can be made permanent on a single person, item or place. If a third <strong>Permanency</strong> spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.</p>
 <p>A <strong>Permanency</strong> spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.</p>
-<p>Spells that are commonly made permanent on a creature: <a href="allSpells.html#detect-magic">Detect Magic</a>, <a href="allSpells.html#protection-from-evil">Protection From Evil</a>, <a href="allSpells.html#read-languages">Read Languages</a>, <a href="allSpells.html#read-magic">Read Magic</a>, <a href="allSpells.html#tongues">Tongues</a>, <a href="allSpells.html#detect-invisbible">Detect Invisible</a>, and <a href="allSpells.html#fly">Fly</a>.</p>
-<p>Spells commonly made permanent on items or locations include: <a href="allSpells.html#alarm">Alarm</a>, <a href="allSpells.html#animate-object">Animate Object</a>, <a href="allSpells.html#confusion">Confusion</a>, <a href="allSpells.html#dancing-lights">Dancing Lights</a>, guards and wards, <a href="allSpells.html#invisibility">Invisibility</a>, <a href="allSpells.html#phantasmal-force">Phantasmal Force</a>, <a href="allSpells.html#private-santum">Private Sanctum</a>, <a href="allSpells.html#magic-mouth">Magic Mouth</a>, <a href="allSpells.html#symbol-of-pain">Symbol of Pain</a>,<a href="allSpells.html#wall-of-fire">Wall of Fire</a>, and <a href="allSpells.html#web">Web</a>.</p>
+<p>Spells that are commonly made permanent on a creature: <a href="allSpells.html#detect-magic">Detect Magic</a>, <a href="allSpells.html#protection-from-evil">Protection From Evil</a>, <a href="allSpells.html#read-languages">Read Languages</a>, <a href="allSpells.html#read-magic">Read Magic</a>, <a href="allSpells.html#tongues">Tongues</a>, <a href="allSpells.html#detect-invisible">Detect Invisible</a>, and <a href="allSpells.html#fly">Fly</a>.</p>
+<p>Spells commonly made permanent on items or locations include: <a href="allSpells.html#alarm">Alarm</a>, <a href="allSpells.html#animate-objects">Animate Objects</a>, <a href="allSpells.html#confusion">Confusion</a>, <a href="allSpells.html#dancing-lights">Dancing Lights</a>, guards and wards, <a href="allSpells.html#invisibility">Invisibility</a>, <a href="allSpells.html#phantasmal-force">Phantasmal Force</a>, <a href="allSpells.html#private-sanctum">Private Sanctum</a>, <a href="allSpells.html#magic-mouth">Magic Mouth</a>, <a href="allSpells.html#symbol-of-pain">Symbol of Pain</a>,<a href="allSpells.html#wall-of-fire">Wall of Fire</a>, and <a href="allSpells.html#web">Web</a>.</p>
 </div>
 </div>
 </div>
@@ -8917,6 +8976,17 @@ Wychlamp Aura
 </section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2NvbmZ1c2lvblRhYmxlLCBoaWdobGlnaHRUYWJsZVJvd30gZnJvbSBcIi4vY3VzdG9tLmpzXCJcclxuXHJcbnZpZXdvZiBnZW1KZXdlbDMgPSBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBiYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNjb25mdXNpb24tdGFibGVcIiwgY29uZnVzaW9uVGFibGUoKSl9KVxyXG5cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdnZW1KZXdlbDMnKSJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

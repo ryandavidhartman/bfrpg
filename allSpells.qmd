@@ -38,6 +38,9 @@ The caster's Hit Points, attack rolls, Armor Class, and saving throws do not cha
 
 
 <div class="spell" data-tag="Analyze Magic" id="Analyze Magic">
+
+## Analyze Magic
+
 Magic-User 2
 
 Range: 5'
@@ -372,49 +375,44 @@ Duration: 1 round/level
 This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM's discretion.
 
 </div>
+
 <div class="spell" data-tag="Confusion" id="Confusion">
 
 ## Confusion
 
-Range: 360'
-
 Magic-User 4
+
+Range: 360'
 
 Duration: 2 rounds+1/level
 
 This spell causes up to 3d6 living creatures within a 30' radius circle around the target point to become confused*,*making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject's Initiative number each round to see what the subject does.
 
+::: {#confusion-table}
+
+| d20 | Behavior |
+|-----|------------|
+| 1--2 | Attack caster with melee or ranged weapons (or close with caster if attack is not possible). |
+| 3--4 | Act normally. |
+| 5--10 | Do nothing but babble incoherently. |
+| 11--14 | Flee away from caster at top possible speed. |
+| 15--20 | Attack nearest creature. |
+:::
+
+<div style="display: flex; justify-content: center;">
 ```{ojs}
 
 import {confusionTable, highlightTableRow} from "./custom.js"
 
-viewof gemJewel3 = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
+viewof gemJewel3 = Inputs.button(html`<button style="color: back; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
 
 ```
+</div>
 
-<br>
-
-::: {#confusion-table}
-
-| d10 | Behavior |
-|-----|-----|
-| 1 | Act Normally |
-| 2 | Move toward the caster, and attack if possible |
-| 3--5 | Take no action except possibly to babble |
-| 6--7 | Move swiftly away from the caster |
-| 8--10 | Attack the nearest creature, regardless of whether it is a friend or foe |
-
-:::
-
-If the target cannot perform the action indicated, the
-GM should move down the table (going back to the top
-if the table runs out) until an action is found that the
-target can perform. If a confused creature is attacked, it
-returns the attack on its next initiative number (later in
-this round or in the next round if it has already acted)
-regardless of what is rolled on the table.
+A confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.
 
 </div>
+
 <div class="spell" data-tag="Conjure Elemental" id="Conjure Elemental">
 
 ## Conjure Elemental
@@ -569,6 +567,24 @@ Duration: Instantaneous
 This spell works exactly like **cure light wounds,** save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **cause serious wounds**, also works exactly like **cause light wounds**, except that it inflicts 2d6 + 2 points per caster level.
 
 </div>
+
+<div class="spell" data-tag="Dancing Lights" id="Dancing Light">
+
+## Dancing Lights
+
+Magic-User 0
+
+Range: 100' + 10'/level
+
+Duration: Instananeous
+
+Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
+
+Dancing lights can be made permanent with a [Permanency](allSpells.html#permanency) spell.
+
+</div>
+
+
 <div class="spell" data-tag="Darkvision" id="Darkvision">
 
 ## Darkvision
@@ -927,68 +943,53 @@ Duration: 1 turn/level
 
 The subject of this spell can fly at a speed equal to his or her normal ground movement rate (as adjusted by encumbrance). The subject can ascend at half speed and descend at double speed, with the same maneuverability as the subject has when moving on the ground. Flying under the effect of this spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can neither charge nor run, nor carry aloft more weight than his or her maximum load.
 
-If the spell duration expires while the subject is still
-airborne, the magic fails slowly such that the subject
-descends at a rate of 120 feet per round for 1d10
-rounds. If the subject reaches the ground in that time
-they land safely; if not, the subject falls the rest of the
-distance and suffers normal falling damage. However,
-if this spell is ended by **dispel magic** or similar outside
-forces, the subject falls immediately. For any such fall,
-see [Falling Damage](combat.qmd#falling-damage) for details of the
-consequences.
+If the spell duration expires while the subject is still airborne, the magic fails slowly such that the subject descends at a rate of 120 feet per round for 1d10 rounds. If the subject reaches the ground in that time they land safely; if not, the subject falls the rest of the distance and suffers normal falling damage. However, if this spell is ended by [Dispel Magic](allSpells.html#dispel-magic) or similar outside forces, the subject falls immediately. For any such fall, see [Falling Damage](combat.qmd#falling-damage) for details of the consequences.
 
 </div>
-<div class="spell" data-tag="Geas*" id="Geas*">
 
-## Geas*
+<div class="spell" data-tag="Gate" id="Gate">
+## Gate
 
-Range: 5' per level
+Cleric 7, Magic-User 7
 
-Magic-User 6
+Range: 120'
 
 Duration: Special
 
-By means of this spell the caster compels a living
-creature to perform some specific action or services, or
-alternately to avoid performing some action. The target
-creature must be able to hear and understand the
-caster, or it cannot be affected. This spell will
-automatically fail if used to compel a creature to engage
-in some obviously self-destructive action.
+This spell creates an inter-dimensional connection between the caster’s location and another plane. This allows for travel between the two locations in either direction. The gate stays open as long as the caster concentrates on it, up to 1 round/caster level plus one additional round.
 
-A saving throw vs. Spells will allow an unwilling target
-to resist a geas when it is first cast. However, the target
-may choose to accept the geas, typically as part of a
-bargain with the caster for some service. Once
-subjected to this spell the subject must obey the
-instructions given by the caster indefinitely, though if
-the geas is to perform some action the spell effectively
-ends when that action has been completed.
+The gate appears as a flat circle with a diameter of 5 to 20 feet (caster's choice). It can be situated at any angle, but will usually be vertical. The back (the side facing away from the caster) is filled with an insubstantial opaque haze and passing through does nothing. The front shows where the gate is connected. This is full opening between locations with complete visibility (subject to the conditions on the other side; from a place in the air to a place in the water will get expected results) and accessibility.
 
-For every 24 hours that the subject chooses not to obey
-the geas (or is prevented from obeying it), it suffers a
-penalty of -2 to each of its ability scores, up to a
-maximum penalty of -8. No ability score can be
-reduced to less than 3 by this effect. If the subject
-resumes obeying the geas, all such penalties are
-removed after 24 hours.
+The gate is full two-way, and anyone on either side can pass back and forth either way, including going one way and back the other as long as the gate stays open. Any number of people or things can use the gate, subject to the spell's duration and normal physical constraints. When the spell expires (or if the caster ends or loses concentration) it goes away, but can always be recreated by casting the spell again.
 
-If the task assigned to the subject of this spell is open-
-ended or otherwise unable to be completed, the subject
-is still compelled to try to perform the task, but the spell
-will end in no more than one day per caster level.
-Very clever creatures may be able to subvert the
-instructions given; the GM must decide on the results of
-any such attempts
+Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
 
-This spell can be ended by **remove curse** cast by a
-character of higher level than the caster of the geas, but
-is never affected by **dispel magic**. 
-
+As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
 </div>
-<div class="spell" data-tag="Growth of Animals" id="Growth of Animals">
 
+<div class="spell" data-tag="Gishigan's Geas*" id="Geas*">
+## Gishigan’s Geas*
+ 
+Magic-User 6
+
+Range: 5' per level
+
+Duration: Special
+
+**Gishigan’s Geas** places a magical command on a creature to carry out some service or to refrain from some action or course of activity, as desired by the caster. The target creature must be able to understand the caster for this spell to take effect. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
+
+A saving throw vs. Spells will allow an unwilling target to resist a geas when it is first cast. However, the target may choose to accept the geas, typically as part of a bargain with the caster to perform some service.
+
+The geased creature must follow the given instructions until the geas is completed, no matter how long it takes.
+
+If the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the GM's discretion.
+
+For every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a --2 penalty to each of its ability scores, up to a total of --8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.
+
+A geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.html#remove-curse) spell, or by a **Wish**, or by the reverse of this spell. [Dispel Magic](allSpells.html#dispel-magic) does not affect a geas.
+</div>
+
+<div class="spell" data-tag="Growth of Animals" id="Growth of Animals">
 ## Growth of Animals
 
 Cleric 3
@@ -1782,6 +1783,29 @@ Duration: 3 turns
 Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9^th^ (20 feet at 12^th^, 30 feet deep at 15^th^, 40 feet deep at 18^th^). If the wall's thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, **dispel magic**, or caster's choice), creatures within the passage are ejected out the nearest exit.
 
 </div>
+
+<div class="spell" data-tag="Permanency" id="Permanency">
+## Permanency
+ 
+Range: 10'
+
+Magic-User 6
+
+Duration: Permanent
+
+This spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.
+
+A permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the [Constitution Point Losses rules](combat.html#constitution-point-losses).
+
+No more than two spells can be made permanent on a single person, item or place. If a third **Permanency** spell is cast it automatically fails, and there is a 50% that each of the two other permanency spells fails too.
+
+A **Permanency** spell is not necessary to make any magical item; using permanency to bind a spell to an object, person, or place is not the same as crafting a magic item.
+
+Spells that are commonly made permanent on a creature: [Detect Magic](allSpells.html#detect-magic), [Protection From Evil](allSpells.html#protection-from-evil), [Read Languages](allSpells.html#read-languages), [Read Magic](allSpells.html#read-magic), [Tongues](allSpells.html#tongues), [Detect Invisible](allSpells.html#detect-invisible), and [Fly](allSpells.html#fly).
+
+Spells commonly made permanent on items or locations include: [Alarm](allSpells.html#alarm), [Animate Objects](allSpells.html#animate-objects), [Confusion](allSpells.html#confusion), [Dancing Lights](allSpells.html#dancing-lights), guards and wards, [Invisibility](allSpells.html#invisibility), [Phantasmal Force](allSpells.html#phantasmal-force), [Private Sanctum](allSpells.html#private-sanctum), [Magic Mouth](allSpells.html#magic-mouth), [Symbol of Pain](allSpells.html#symbol-of-pain),[Wall of Fire](allSpells.html#wall-of-fire), and [Web](allSpells.html#web).
+</div>
+
 <div class="spell" data-tag="Phantasmal Force" id="Phantasmal Force">
 
 ## Phantasmal Force
@@ -1867,6 +1891,27 @@ level of ability, or may choose to end the spell before
 that point if they wish.
 
 </div>
+
+
+<div class="spell" data-tag="Private Sanctum" id="Private Sanctum">
+## Private Sanctum
+ 
+Magic-User 5
+
+Range: 30'
+
+Duration: 24 hours
+
+This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. [Darkvision](dungeonAdventures.html#darkvision) cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to [ESP](allSpells.html#esp) spells.
+
+Divination spells like [Magic Mirror](allSpells.html#magic-mirror), [Clairvoyance](allSpells.html#clairvoyance), and [Clairaudience](allSpells.html#clairvaudiance) cannot perceive anything within the area.
+
+No speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.
+
+Private sanctum does not stop creatures from moving into and out of the area.
+</div>
+
+
 <div class="spell" data-tag="Projected Image" id="Projected Image">
 
 ## Projected Image
@@ -2736,6 +2781,19 @@ in this case, if Disaster is rolled the cargo item
 disappears forever.
 
 </div>
+
+<div class="spell" data-tag="Tongues" id="Tongues">
+## Tongues
+
+Cleric 3, Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
+</div>
+
 <div class="spell" data-tag="True Seeing" id="True Seeing">
 
 ## True Seeing
