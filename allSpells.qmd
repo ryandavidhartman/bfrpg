@@ -781,7 +781,6 @@ This spell works exactly like [Cure Light Wounds](allSpells.html#cure-light-wou
 </div>
 
 <div class="spell" data-tag="Dancing Lights" id="Dancing Light">
-
 ## Dancing Lights
 
 Magic-User 0
@@ -793,34 +792,71 @@ Duration: Instananeous
 Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
 
 Dancing lights can be made permanent with a [Permanency](allSpells.html#permanency) spell.
+</div>
 
+<div class="spell" data-tag="Dark Flame" id="Dark Flame">
+## Dark Flame
+
+Black Magic-User 2
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The caster produces a magical “dark flame” upon an object that does not produce heat or use oxygen. However, the magical dark flames allow all within 30 feet radius to see via Darkvision within the spell area, much like a normal lit torchwould allow for normal vision. The darkvision does not extend beyond the spell radius, and neither does the effect extend to any who might leave the area of effect. The spell does not provide any stealth bonus within the effect, as all (including foes) receive the darkvision.     However, because there is no light produced it may augment stealthy movement in general against those outside the spell range.
 </div>
 
 
 <div class="spell" data-tag="Darkvision" id="Darkvision">
-
 ## Darkvision
-
-Range: Touch
 
 Magic-User 3
 
+Range: Touch
+
 Duration: 1 hour/level
 
-The subject receives [Darkvision](dungeonAdventures.qmd#darkvision) with a range of 60' for the duration of the spell. 
-
+The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](dungeonAdventures.html#darkvision) for a description of Darkvision.
 </div>
-<div class="spell" data-tag="Death Spell" id="Death Spell">
 
+<div class="spell" data-tag="Death Spell" id="Death Spell">
 ## Death Spell
+ 
+Magic-User 6
 
 Range: 240'
 
-Magic-User 6
+Duration: Instantaneous
+
+This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit). Excess levels of effectiveness are lost. Each creature affected is allowed to save vs. Death Ray; those that fail the save die immediately. Creatures of 8 or more hit dice or levels are immune to the spell, as are undead monsters, golems, and any other “creature” that is not truly alive.
+</div>
+
+<div class="spell" data-tag="Decay Flesh" id="Decay Flesh">
+## Decay Flesh
+
+Black Magic-User 1
+
+Range: Touch
 
 Duration: Instantaneous
 
-This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit). Excess levels of effectiveness are lost. Each creature affected is allowed to save vs. Death Ray; those that fail the save die immediately. Creatures of 8 or more hit dice or levels are immune to the spell, as are undead monsters, golems, and any other "creature" that is not truly alive.
+This is a version of the [Cause Light Wounds](allSpells.html#cure-light-wounds) spell dealing 1d6+1 points of damage to the creature affected by it.  The caster must make a successful attack to inflict the damage.  A missed attack roll does not dispel the effect, as it can be active until used or until a number of rounds equal to the caster's level have passed.
+
+Unlike the Clerical spell mentioned, this spell may not be reversed.  However, this spell does work upon undead creatures in the opposite fashion; they are healed 1d6+1 hit points instead.
+</div>
+
+<div class="spell" data-tag="Delayed Blast Fireball" id="Delayed Blase Fireball">
+## Delayed Blast Fireball
+
+Magic-user 7
+
+Range: 100' + 10'/level
+
+Duration: Special
+
+This spell creates a small glowing bead at any location chosen by the caster, up to the listed range. This bead will explode in an improved form of fireball at a time chosen by the caster; when it explodes, it will do 1d6+1 points of damage per caster level to all within a spherical volume with a 20' radius, just as with the standard fireball spell. The bead may explode immediately if the caster so desires, or may be delayed up to 10 rounds; the caster chooses the time when the spell is cast, and cannot subsequently be changed.
+
+If a delay is chosen, the glowing bead lies at its destination until it detonates. A creature can pick up and hurl the bead (with the same range as a dagger); if the bead is handled within 1 round of its scheduled detonation, there is a 25% chance that the bead detonates instantly, i.e. before it can be thrown.
 </div>
 
 <div class="spell" data-tag="Designor’s Wind Mastery" id="Designor’s Wind Mastery">
@@ -842,128 +878,235 @@ For every three caster levels, the caster can increase or decrease wind conditio
 <div class="spell" data-tag="Detect Evil*" id="Detect Evil*">
 ## Detect Evil*
 
-Range: 60'
-
 Cleric 1, Magic-User 2
+
+Range: 60'
 
 Duration: 1 round/level
 
-This spell allows the caster to detect evil; specifically, the caster can detect creatures with evil intentions, magic items with evil enchantments, and possibly extraplanar creatures of evil nature. Normal characters, even "bad" characters, cannot be detected by this spell, as only overwhelming evil is detectable. The caster sees the "evil" creatures or objects with a definite glow around them, but the glow cannot be seen by anyone else.
+This spell allows the caster to detect evil; specifically, the caster can detect creatures with evil intentions, magic items with evil enchantments, and possibly extraplanar creatures of evil nature. Normal characters, even “bad” characters, cannot be detected by this spell, as only overwhelming evil is detectable. The caster sees the “evil” creatures or objects with a definite glow around them, but the glow cannot be seen by anyone else.
 
-The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not "evil," and thus not detectable by this spell.
+The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
 
-Reversed, this spell becomes **detect good**, which works just as described above with respect to detecting "good" enchantments, angelic creatures, and so on.
-
+Reversed, this spell becomes **Detect Good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 </div>
-<div class="spell" data-tag="Detect Invisible" id="Detect Invisible">
 
+<div class="spell" data-tag="Detect Invisible" id="Detect Invisible">
 ## Detect Invisible
+ 
+Magic-User 2
 
 Range: 60'
-
-Magic-User 2
 
 Duration: 1 turn/level
 
 By means of this spell the caster is able to see invisible characters, creatures or objects within the given range, seeing them as translucent shapes.
-
 </div>
-<div class="spell" data-tag="Detect Magic" id="Detect Magic">
 
+<div class="spell" data-tag="Detect Magic" id="Detect Magic">
 ## Detect Magic
 
-Range: 60'
+Cleric 1, Druid 1, Magic-User 1
 
-Cleric 1, Magic-User 1
+Range: 60'
 
 Duration: 2 turns
 
 The caster of this spell is able to detect enchanted or enspelled objects or creatures within the given range by sight, seeing them surrounded by a pale glowing light. Only the caster sees the glow. Invisible creatures or objects are not detected by this spell, but the emanations of the invisibility magic will be seen as an amorphous glowing fog, possibly allowing the caster (only) to attack the invisible creature at an attack penalty of only -2.
 
 </div>
-<div class="spell" data-tag="Dimension Door" id="Dimension Door">
 
+<div class="spell" data-tag="Detect Poison" id="Detect Poison">
+## Detect Poison
+
+Cleric 1, Druid 1
+
+Range: 1'
+
+Duration: 1 turn + 1 round/level
+
+This spell enables the priest to determine if an object has been poisoned or is poisonous. One object, or one 5-foot cubic mass, can be checked per round. The priest has a 5% chance per level of determining the exact type of poison.
+</div>
+
+<div class="spell" data-tag="Detect Scrying" id="Detect Scrying">
+## Detect Scrying
+ 
+Magic-User 4
+
+Range: Self
+
+Duration: 1d6 turns + 1 turn/leve1
+
+By means of this spell, the wizard immediately becomes aware of any attempt to observe them by means of [Clairvoyance](allSpells.html#clairvoyance), [Clairaudience](allSpells.html#clairaudience), or [Magic Mirror](allSpells.html#magic-mirror). This also reveals the use of **Crystal Balls** or other magical scrying devices, provided the attempt is within the area of effect of the spell. Since the spell is centered on the spellcaster, it moves with him, enabling him to “sweep” areas for the duration of the spell.
+
+When a scrying attempt is detected, the scryer must immediately roll a saving throw. If this is failed, the wizard who cast this spell immediately knows the identity and general location of the scryer. The general location is a direction and significant landmark close to the scryer. Thus, the caster might learn, “The wizard Sniggel spies on us from east, under the stairs,” or, “You are watched by Asquil in the city of Samarquol.”
+</div>
+
+<div class="spell" data-tag="Detect Snares and Pits" id="Detect Snares and Pits">
+## Detect Snares and Pits
+
+Druid 1
+
+Range: 60'
+
+Duration: 10 turns
+
+By means of this spell, the caster can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural materials.  The spell does not detect complex traps, including trapdoor traps.
+
+This spell does detect certain natural hazards, for instance quicksand (detected as a snare), a sinkhole (a pit), or unsafe walls of natural rock (a deadfall).  However, it does not reveal other potentially dangerous conditions.  The spell does not detect magic traps (except those that operate by pit, deadfall, or snaring), nor mechanically complex ones, nor those that have been rendered safe or inactive.
+
+The amount of information revealed depends on how long the Druid studies a particular area.
+
+* 1st Round: Presence or absence of hazards.
+
+* 2nd Round: Number of hazards and the location of each.  If a hazard is outside the Druid's line of sight, then the caster discern its direction but not its exact location.
+
+* Each Additional Round: The general type and trigger for one particular hazard closely examined by the caster.
+
+Each round, the Druid can turn to detect snares and pits in a new area.  The spell can penetrate barriers, but 1 ft of stone, 1 in of common metal, a thin sheet of lead, or 3 ft of wood or dirt blocks it.
+</div>
+
+<div class="spell" data-tag="Dig" id="Dig">
+## Dig
+
+Druid 5, Magic-User 4
+
+Range: 30 yards
+
+Duration: 1 rd/level
+
+A **Dig** spell enables the caster to excavate 125 cubic feet of earth, sand, or mud per round (i.e., a cubic hole 5 feet on a side). In later rounds the caster can expand an existing hole or start a new one. The material thrown from the excavation scatters evenly around the pit. If the wizard continues downward past 20 feet in earth, there is a 15% chance that the pit collapses. This check is made for every 5 feet dug beyond 20 feet. Sand tends to collapse after 10 feet, mud fills in and collapses after 5 feet, and quicksand fills in as rapidly as it is dug.
+
+Any creature at the edge (within 1 foot) of a pit must roll a successful Dexterity check or fall into the hole. Creatures moving rapidly toward a pit dug immediately before them must roll a saving throw vs. spell to avoid falling in. Any creature in a pit being excavated can climb out at a rate decided by the DM. A creature caught in a collapsing pit must roll a saving throw vs. death to avoid being buried; it escapes the pit if successful. Tunneling is possible with this spell as long as there is space available for the material removed. Chances for collapse are doubled and the safe tunneling distance is half of the safe excavation depth, unless such construction is most carefully braced and supported.
+
+The spell is also effective against creatures of earth and rock, particularly clay golems and those from the Elemental Plane of Earth. When cast upon such a creature, it suffers 4d6 points of damage. A successful saving throw vs. spell reduces this damage to half.
+</div>
+
+<div class="spell" data-tag="Dimension Door" id="Dimension Door">
 ## Dimension Door
 
-Range: 10'
+Magic-User 4 
 
-Magic-User 4
+Range: 10'
 
 Duration: Instantaneous
 
 The caster of this spell instantly transfers himself or herself, or any single target creature within range, to any spot within 200' plus 20' per caster level. The caster or target creature always arrives at exactly the spot desired, whether the caster visualizes the area or states direction and distance. An unwilling target may save vs. Spells to avoid being transported. Anything worn or carried by the caster or target creature will be transported also, including another character or creature if the transportee can lift it. If the target area is within a solid object, the spell fails automatically.
-
 </div>
-<div class="spell" data-tag="Disintegrate" id="Disintegrate">
 
+<div class="spell" data-tag="Disintegrate" id="Disintegrate">
 ## Disintegrate
+ 
+Magic-User 6
 
 Range: 60'
 
-Magic-User 6
-
 Duration: Instantaneous
 
-This spell causes a green laser-like beam of light to
-spring from the caster's pointing finger. Any single
-creature or object (up to a 10x10x10 foot cube of
-material) will be completely disintegrated. The target is
-allowed a save vs. Spells to resist. This spell can target
-just one creature per casting, so if the target makes its
-save the spell is wasted.
+This spell causes a thin, green ray to spring from the caster's pointing finger. Any single creature or object (up to a 10x10x10 foot cube of material) is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature’s equipment is unaffected.
 
-Equipment worn or carried by a disintegrated creature
-is not affected, and will naturally fall to the floor as if
-dropped.
-
+A creature that makes a successful save vs. Spells is unaffected. The ray can target only one creature per casting, if that target saves, the spell is wasted.
 </div>
+
 <div class="spell" data-tag="Dispel Evil" id="Dispel Evil">
-
 ## Dispel Evil
-
-Range: Touch
 
 Cleric 5
 
+Range: Touch
+
 Duration: 1 round/level
 
-This powerful spell aids the caster in dealing with
-creatures from the nether planes, hereafter called "evil
-creatures."
+This powerful spell aids the caster in dealing with creatures from the nether planes, hereafter called "evil creatures."
 
-First, the caster's Armor Class is improved by 4 points
-when attacked by evil creatures; this effect lasts until the
-spell ends, whether by expiration of the duration or
-through the employment of one of the following effects.
+First, the caster gains a +4 bonus to Armor Class against attacks by evil creatures.
 
-With a successful attack roll the caster can drive an evil
-creature back to the nether planes; the caster must of
-course be engaged with the creature (i.e. in melee
-range). The creature may make a save vs. Spells to
-resist. Any successful attack roll by the caster for this
-purpose ends the spells effects, whether or not the
-creature saves.
+Second, the caster can choose to drive an evil creature back to its home plane by touch (requiring a successful attack roll). The creature can negate the effects with a successful save vs. Spells. This use discharges and ends the spell, even if the saving throw succeeds.
 
-Alternately, by touching the affected creature, item, or area, the caster can immediately dispel any one spell or similar magical effect cast by the evil creature. There is no roll for this effect, except if the target is an unwilling creature in which case an attack roll is needed to actually touch it. The only spells which cannot be ended this way are those which are immune to **dispel magic**. Successfully performing the touch ends the spell, regardless of whether or not any evil magic is actually ended.
+Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by [Dispel Magic](allSpells.html#dispel-magic) also can't be dispelled by **Dispel Evil**. Saving throws do not apply to this effect. This use also ends the spell.
 
+The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
 </div>
-<div class="spell" data-tag="Dispel Magic" id="Dispel Magic">
 
+<div class="spell" data-tag="Dispel Magic" id="Dispel Magic">
 ## Dispel Magic
 
-Range: 120'
-
 Cleric 4, Magic-User 3
+
+Range: 120'
 
 Duration: Instantaneous
 
 The caster can use dispel magic to end ongoing spells that have been cast on a creature or object, or to end ongoing spells (or at least their effects) within a cubic area 20' on a side. The caster must choose whether to dispel magic on a creature or object, or to affect an area.
 
-If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **dispel magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
+If dispel magic is targeted at a creature, all spell effects (including ongoing potion effects) may be canceled. If cast upon an area, all such effects within the area may be canceled. Any spell or effect having a caster level equal to or less than the **Dispel Magic** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance the dispel magic will fail for each level the spell effect exceeds the caster level. For example, a 10^th^ level caster dispelling magic created by a 14^th^ level caster has a 20% chance of failure.
 
-Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by **bestow curse** (the reverse of **remove curse**) as well as by cursed items.
-
+Some spells cannot be ended by dispel magic; this specifically includes any curse, including those created by [Bestow Curse](allSpells.html#remove-curse) (the reverse of **Remove Curse**) as well as by cursed items.
 </div>
+
+<div class="spell" data-tag="Disruption" id="Disruption">
+## Disruption*
+
+Cleric 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The Disruption spell blesses one blunt melee weapon, be it a mace, hammer, staff, with divine power. When fighting undead creatures or beings of the netherworld (demons, devils, and the like) the weapon is enhanced by +1 to hit and damage. This is in addition to any existing powers for an enchanted weapon.
+
+Any being subject to this bonus that is struck in combat must save versus Magic or be turned, exactly like the cleric ability (see Turning in the core rules), causing the affected monster to flee the area. The character wielding the blessed weapon may opt to not cause the disruption effect, but must declare their intention before their attack roll. The caster can have only one weapon blessed in this manner at a time.
+
+The reverse of this spell **Corruption** works exactly the same against creatures of goodness from various heavenly realms. Only those worshiping vile powers would have access to the reversed version of this spell.
+</div>
+
+<div class="spell" data-tag="Divination" id="Divination">
+## Divination
+
+Cleric 4, Magic-User 4
+
+Range: Self
+
+Duration: Instantaneous
+
+This magic and an offering (such as tea leaves) puts the caster in contact with the pattern of the universe. This pattern can be deciphered to interpret dreams, predict the future, Identify a Magic Item, or to find hidden things.            
+
+The caster may ask a single question. The DM roles on the chart below and gives tan appropriate reply based on that role. The reply might be a short phrase, a cryptic rhyme, or an omen.
+
+|   (1d20)    |   Description            |
+|-------------|--------------------------|
+| 1-3 (15%)   | Total Failure; no answer |
+| 4-6 (15%)   | Partial Failure; Misleading answer |
+| 7-13 (35%)  | Partial Success; Cryptic answer |
+| 14-17 (20%) | Success; Clear but Succinct answer |
+| 18-20 (15%) | Complete Success; Clear and Detailed answer |
+</div>
+
+
+<div class="spell" data-tag="Dowse" id="Dowse">
+## Dowse
+
+Cleric 0, Druid 0
+
+Range: Self
+
+Duration: Contcentration
+
+This minor magical effect allows the caster to sense the presence of potable water using a forked stick (any will do, but some have favorites). While outdoors the dowsing rod will twist to point in the direction of such fresh water up to 1000 feet +100' per level of the caster. Water that is underground, in containers, or within structures can be located within 25 feet +5' per level. The effect lasts as long as the caster maintains concentration.
+</div>
+
+<div class="spell" data-tag="Drawmij’s Instant Summons" id="Drawmij’s Instant Summons">
+## Drawmij’s Instant Summons
+
+Magic-user 7
+
+Range: Infinite + special
+
+Duration: Instantaneous
+
+When this spell is cast, the magic-user teleports some desired item from virtually any location directly to their hand. The single object can be no longer in any dimension than a sword, can have no more weight than a shield (about eight pounds), and must be nonliving. The desired item is then transported instantly into the Magic-User's hand. The item must have been previously touched and specifically named; only that particular item is summoned by the spell.
+</div>
+
 
 <div class="spell" data-tag="Feeblemind*" id="Feeblemind*">
 
