@@ -2,65 +2,194 @@
 
 <input type="text" id="input" placeholder="Filter Spell">
 
-<div class="spell" data-tag="Animate Dead" id="Animate Dead">
+<div class="spell" data-tag="Alarm" id="Alarm">
 
-## Animate Dead
+## Alarm
+
+Magic-User 1
+
+Range: 20' + 10'/level
+
+Duration: 2 hours/level
+
+Alarm sounds a mental or audible alarm each time any creature larger than a rat enters the warded area or touches it. A creature that speaks the password (determined by the caster at the time of casting) does not set off the alarm. The caster decides at the time of casting whether the alarm will be mental or audible.
+
+Mental Alarm: A mental alarm alerts the caster (and only the caster) so long as the caster remains within 1 mile of the warded area. The caster will hear a single mental “ping” sufficient to awaken the caster from normal sleep, but which does not otherwise disturb concentration. A [Silence](allSpells.html#silence-15-radius) spell has no effect on a mental alarm.
+
+Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone within 60 ft of the warded area can hear it clearly. Interposing doors or walls may reduce the distance by 10 ft or 20 ft. The sound lasts for 1 round. Creatures within a [Silence](allSpells.html#silence-15-radius) spell cannot hear the ringing.
+
+Incorporeal creatures do not trigger the alarm.
+</div>
+
+<div class="spell" data-tag="Alter Self" id="Alarm">
+
+## Alter Self
+
+Magic-User 2
+
+Range: Self
+
+Duration: 2 hours/level
+
+When this spell is cast, the wizard can alter their appearance and form--including clothing and equipment--to appear taller or shorter; thin, fat, or in between; human, humanoid, or any other generally man-shaped bipedal creature. The caster's body can undergo a limited physical alteration and their size can be changed up to 50%.
+
+The caster's Hit Points, attack rolls, Armor Class, and saving throws do not change. The spell does not confer special abilities, attack forms, or defenses. Once the new form is chosen, it remains for the duration of the spell. The caster can change back into their own form at will; this ends the spell immediately. A caster who is slain automatically returns to their normal form.
+</div>
+
+
+<div class="spell" data-tag="Analyze Magic" id="Analyze Magic">
+Magic-User 2
+
+Range: 5'
+
+Duration: 1 hour/level
+
+This spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.
+
+Each turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.
+
+The item or area to be studied must be within 5' of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.
+</div>
+
+<div class="spell" data-tag="Animal Friendship" id="Animal Friendship">
+## Animal Friendship
+
+Druid 1
 
 Range: 30'
 
+Duration: Permanent
+
+Upon encountering a normal or giant-sized (but not magical) animal, the druid may begin casting this spell, which requires an hour to complete.  During this period the animal will remain nearby, and will not attack the caster or their allies for the duration of the casting (so long as they do not attack or otherwise disturb it).  At the end of the casting, if the animal rolls a successful save vs. Spells, the spell has failed.  At this point the animal acts naturally, without bearing the caster any special ill-will.
+
+If the animal fails its save, it becomes an animal friend and joins the caster for the rest of its natural life, assisting in any way it can.  Both the caster and any other animal friends are treated as treasured partners.  There is no arcane mental connection, nor any particular control, but rather a strong fraternal bond, which should go both ways.  If the animal is treated poorly, or it's love not returned over a period of time, it could attempt another save vs. Spells at the GM's discretion.
+
+A caster may only have, at most, twice their level in hit dice of animal friends.  If this spell is cast on an animal that would put the total above that number, it has no effect.
+</div>
+
+<div class="spell" data-tag="Animate Dead" id="Animate Dead">
+
+## Animate Dead
+ 
 Cleric 4, Magic-User 5
+
+Range: Touch
 
 Duration: Special
 
-The casting of this spell causes the mortal remains of one or more deceased creatures to arise as animated
-skeletons or zombies. Such undead monsters persist until slain, and obey the verbal commands of the caster.
-A single casting of this spell may animate a number of hit dice of undead equal to twice the caster's level of ability, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of members of player character races, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life.
-
-The sort of monsters created depend on the condition of the remains. A reasonably intact corpse may only
-arise as a zombie, while similarly intact skeletal remains may only be animated as a skeleton. The caster
-chooses which remains are animated when casting the spell, in any case where there are more bodies than the
-caster can animate.
-
-No character may normally control more hit dice of undead than 4 times their level, regardless of how
-many times this spell is cast. 
+This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
 
 </div>
+
+<div class="spell" data-tag="Animate Natural Objects" id="Animate Natural Objects">
+
+## Animate Natural Objects
+
+Druid 6
+
+Range: 100'+10'/level
+
+Duration: 1 round/level
+
+This spell functions identically to the cleric spell [Animate Objects](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
+
+</div>
+
 <div class="spell" data-tag="Animate Objects" id="Animate Objects">
 
 ## Animate Objects
 
-Range: 100'+10'/level
-
 Cleric 6
+
+Range: 100'+10'/level
 
 Duration: 1 round/level
 
-This spell allows the caster to animate objects that are
-normally inanimate, such that they may move and even
-appear to be alive. Objects to be animated may not be
-in the possession (worn or carried) of any creature, and
-must be non-magical in nature. The caster can animate
-one object per level, up to a maximum of 25 lbs. per
-caster level (i.e. 300 lbs. at 12th level, 325 lbs. at 13th
-level, and so on).
+This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12th level, 325 lbs. at 13th level, and so on).
 
-Such objects are normally used to attack the enemies of the caster, and the GM must rule on their effectiveness in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however
-seems most appropriate to the GM).
+The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
+
 
 </div>
+
+<div class="spell" data-tag="Animate Tool" id="Animate Tool">
+## Animate Tool
+
+Magic-User 0
+
+Range: 10'
+
+Duration: 1 turn/level
+
+A single, small tool (such as a quill pen, spoon, sewing needle, or small hammer) is animated by this cantrip. It will perform a single, repetitive task (such as writing dictated words, stirring a pot of soup, sewing the hem of a dress, or nailing boards into a house) for as long as a turn.
+
+The magic user must be able to perform the repeated action by hand himself. Weapons may not be animated by this cantrip, and objects animated may not be used as weapons.
+</div>
+
 <div class="spell" data-tag="Anti-Magic Shell" id="Anti-Magic Shell">
 
 ## Anti-Magic Shell
 
-Range: 10' radius
+Cleric 7, Druid 7, Magic-user 6
 
-Magic-User 6
+Range: 10' Radius
 
 Duration: 1 turn/level
 
-Within a 10' radius around the caster, all magic is negated for the full duration of the spell. Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
+Within a 10' radius around the caster, all magic is negated for the full duration of the spell.  Magical attacks will not affect the caster, magic items and spells within the radius are suppressed, and the caster cannot perform further magic until the spell has expired.
 
 </div>
+
+<div class="spell" data-tag="Arcane Bolt" id="Arcane Bolt">
+
+## Arcane Bolt
+
+Magic-user 0
+
+Range: 30'
+
+Duration: Instantaneous
+
+This inherent magic is a bolt of raw arcane power. The Magic-User doesn't roll anything, but the target gets a save vs. magic to avoid all damage. The bolt has a range of 30 feet and does 1d4 damage. Since it is pure magic, it will affect creatures, which are only affected by magical weapons, but do not affect inanimate objects.
+
+The **Feat Arcane Bolt, Greater** (Magic User only) improves **Arcane Bolt**. The Target gets a save vs. magic for half damage. The bolt has a range of 40 feet and does 1d6 damage. Since it is pure magic, it will affect creatures, which are only affected by magical weapons. The spell does not affect inanimate objects.
+
+
+</div>
+
+<div class="spell" data-tag="Assume Animal Form" id="Assume Animal Form">
+## Assume Animal Form
+
+Druid 3
+
+Range: Self
+
+Duration: 1 hour/level
+
+This spell allows the caster to change into the form of any natural animal.  The assumed animal form cannot have more hit dice than the caster's level.  If slain, the caster reverts back to their original form.
+
+The caster gains the physical capabilities and statistics of the new form but retains their own mental abilities.  The caster may remain transformed up to one hour per level, or end the spell earlier if the caster so desires.
+
+</div>
+
+<div class="spell" data-tag="Astral Form" id="Astral Form">
+## Astral Projection
+
+Cleric 7, Magic-user 7
+
+Range: Self
+
+Duration: Special
+
+This spell frees the caster’s spirit (or soul) from their body, allowing it to travel to another plane. The caster may bring along up to one other creature per two caster levels as long as all participants are linked in a circle when the spell is cast.
+
+The participants’ spirits are immediately transported to the destination plane where they form a new body. This new body will appear to be exactly the same as their original body, but will be acclimated to survive on this new plane. They will also have clothing and equipment identical to they were wearing when the spell was cast, though only exceptional magic items will be duplicated; most magic items will be replaced with normal items. This spell leaves the participants’ original bodies in suspended animation.
+
+This spell will last indefinitely. It will end when the caster chooses to end the spell or the caster's new body dies. In either case, all of the new bodies pop out of existence, and the participants’ spirits return to their original bodies. If a participant other than the caster wills it, or their new body dies, they return on their own, leaving the others behind. If the original body of anyone who is still under the effects of the spell is killed, the character is killed and their new body pops out of existence.
+
+Unlike [Gate](allSpells.html#gate), the destination cannot be the same plane as the plane of origin. Also, astral projection cannot be cast while still in the new body. To go to a different plane, the caster must end the spell, bringing everyone back to their original bodies and cast a new spell from their original bodies.
+</div>
+
 <div class="spell" data-tag="Blade Barrier" id="Blade Barrier">
 
 ## Blade Barrier
