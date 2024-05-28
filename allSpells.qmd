@@ -1409,6 +1409,7 @@ This spell permits the caster to detect a variety of traps, both mechanical and 
 </div>
 
 <div class="spell" data-tag="Find the Path" id="Find the Path">
+## Find the Path
 
 Cleric 6, Druid 6
 

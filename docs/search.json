@@ -1407,6 +1407,17 @@
     ]
   },
   {
+    "objectID": "allSpells.html#find-the-path",
+    "href": "allSpells.html#find-the-path",
+    "title": "9  Spells, Alphabetical",
+    "section": "Find the Path",
+    "text": "Find the Path\nCleric 6, Druid 6\nRange: Touch\nDuration: 1 turn/level\nThe recipient of this spell can find the shortest, most direct physical route to a specified destination. The caster must have some knowledge about the location; any location the caster has ever visited can be so located, as well as locations described to the caster. Even knowing the name of a location (if it has a name) is enough for this spell to function.\nThe locale can be outdoors or underground. Find the path works with respect to locations, not objects or creatures. The location must be on the same plane as the caster at the time of casting.\nThe spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take. For example, the spell enables the subject to detect secret doors and to know any passwords required. The spell ends when the destination is reached or the duration expires, whichever comes first.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#fireball",
     "href": "allSpells.html#fireball",
     "title": "9  Spells, Alphabetical",
