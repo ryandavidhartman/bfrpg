@@ -627,22 +627,6 @@ The reverse spell **Cause Disease** infects the target creature with a debilitat
 
 ::: {.callout-note icon=false collapse=true}
 
-## Entangling Thorns
-
-Druid 3
-
-Range: 100'+10'/level
-
-Duration: 1 round/level
-
-The druid chooses one target creature (or object) within range, beneath which great thorny tendrils quickly grow up and around. If the subject fails its save vs. Spells, it is held immobile, suffering a -2 penalty to hit and a -4 penalty to its armor class. In addition, the thorny growths cause 1d4 points of damage to the target each round. An individual so entangled may only cast spells if a DC 15 is achieved, modified by their primary spell casting ability score bonus.
-
-The process of breaking free takes the entire round, during which damage is still incurred. Additionally, the thorny growths can be directly attacked (against AC 11) with small bladed weapons such as daggers or hand axes. The vines have 22 hp and destroying them ends the spell. Immediately. Using other larger weapons or spells will damage the entangled creature as much as the thorns, splitting the damage between them equally.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
 ## Growth of Animals
 
 Cleric 3, Druid 3
@@ -2153,6 +2137,23 @@ The reverse spell **Cause Diseas** infects the target creature with a debilitati
 
 ::: {.callout-note icon=false collapse=true}
 
+## Entangling Thorns
+
+Druid 3
+
+Range: 100'+10'/level
+
+Duration: 1 round/level
+
+The druid chooses one target creature (or object) within range, beneath which great thorny tendrils quickly grow up and around. If the subject fails its save vs. Spells, it is held immobile, suffering a -2 penalty to hit and a -4 penalty to its armor class. In addition, the thorny growths cause 1d4 points of damage to the target each round. An individual so entangled may only cast spells if a DC 15 is achieved, modified by their primary spell casting ability score bonus.
+
+The process of breaking free takes the entire round, during which damage is still incurred. Additionally, the thorny growths can be directly attacked (against AC 11) with small bladed weapons such as daggers or hand axes. The vines have 22 hp and destroying them ends the spell. Immediately. Using other larger weapons or spells will damage the entangled creature as much as the thorns, splitting the damage between them equally.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Growth of Animals
 
 Cleric 3, Druid 3
@@ -2288,6 +2289,10 @@ The reverse of this spell, **Bestow Curse**, allows the caster to place a curse
 Each round of combat, the target has a 50% chance to act normally; otherwise, it takes no action.
 
 The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
 
 ## Water Breathing
 
@@ -4357,6 +4362,19 @@ Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively wa
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Water Breathing
+
+Cleric 3, Druid 3, Magic-User 2
+
+Range: Touch
+
+Duration: 2 hours/level
+
+The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Web
  
@@ -4390,9 +4408,25 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
 
 :::
 
+::: {.callout-note icon=false collapse=true}
+
+## Wraithfrom
+
+Magic-User 2
+
+Range: Self
+
+Duration: 3 rounds/level
+
+When this spell is cast, the wizard and all of their gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. Undead of most sorts will ignore an individual in wraithform, believing him to be a wraith or spectre, though a lich or special undead may save vs. spell with a -4 penalty to recognize the spell.
+
+The wizard can pass through small holes or narrow openings, even mere cracks, with all the caster wears or holds in their hands, as long as the spell persists. Note, however, that the caster cannot fly without additional magic. No form of attack is possible when in wraithform, except against creatures that exist on the Ethereal Plane, where all attacks (both ways) are normal. A successful [Dispel Magic](allSpells.html#dispel-magic) spell forces the wizard in wraithform back to normal form. The spellcaster can end the spell with a single word.
+
 :::
 
-<!-- ------------------------------------------- -->
+:::
+
+<!-- ----------------------------------------------- -->
 
 ::: {.callout-tip icon=false collapse=true}
 
@@ -4869,35 +4903,6 @@ Range: Touch
 Duration: 1 round/level
 
 The caster must make an attack roll.  If successful, the caster deals 1d6 points of damage per two caster levels.  The caster gains temporary hit points equal to the damage dealt.  If the attack kills the target, the caster only gains as many temporary hit points as it took to kill the target, not the full number rolled.  The temporary hit points will last for 1 hour.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-## Water Breathing
-
-Cleric 3, Druid 3, Magic-User 2
-
-Range: Touch
-
-Duration: 2 hours/level
-
-The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
-:::
-
-::: {.callout-note icon=false collapse=true}
- 
-## Wraithfrom
-
-Magic-User 2
-
-Range: Self
-
-Duration: 3 rounds/level
-
-When this spell is cast, the wizard and all of their gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons. Undead of most sorts will ignore an individual in wraithform, believing him to be a wraith or spectre, though a lich or special undead may save vs. spell with a -4 penalty to recognize the spell.
-
-The wizard can pass through small holes or narrow openings, even mere cracks, with all the caster wears or holds in their hands, as long as the spell persists. Note, however, that the caster cannot fly without additional magic. No form of attack is possible when in wraithform, except against creatures that exist on the Ethereal Plane, where all attacks (both ways) are normal. A successful [Dispel Magic](allSpells.html#dispel-magic) spell forces the wizard in wraithform back to normal form. The spellcaster can end the spell with a single word.
 
 :::
 
@@ -5579,16 +5584,22 @@ A **Flame Strike** produces a vertical column of divine fire roaring downward (c
 
 ::: {.callout-note icon=false collapse=true}
 
-## Feeblemind
+## Feeblemind*
  
-Magic-User 5
-
 Range: 180'
+
+Magic-User 5
 
 Duration: Permanent
 
-If the target creature fails a saving throw vs. Spells, its Intelligence and Charisma scores each drop to 1. The affected creature is unable to cast spells, understand language, or communicate coherently. The victim does remember who its friends are and can follow and protect them from harm. The subject remains in this state until a [Heal](allSpells.html#heal) spell is used to cancel the effect. A target creature that can cast Magic-User spells suffers a penalty of -4 on its saving throw against this spell.
+This spell allows the caster to inflict a terrible curse on a living creature, reducing both Intelligence and Charisma to just 1 point each. A saving throw vs. Spells is
+allowed to resist this effect, but if the target creature is a spellcaster a penalty of -4 is applied to the saving throw.
 
+Once feebleminded, the victim of this spell can no longer cast spells, speak or understand any language, or indeed communicate at all as their mind can no longer
+understand even such simple things as pointing or beckoning. The victim still knows their friends and allies and will follow them and try to help or protect
+them.
+
+This effect can be removed with a [Heal](allSpells.html#heal) spell, or with the reversed form of this spell **Restoremind**.
 :::
 
 ::: {.callout-note icon=false collapse=true}
@@ -5927,7 +5938,7 @@ A creature that makes a successful save vs. Spells is unaffected. The ray can ta
 
 ::: {.callout-note icon=false collapse=true}
 
-## Eyebit
+## Eyebite
  
 Black Magic-User 6
 
