@@ -1095,6 +1095,20 @@ Duration: Contcentration
 This minor magical effect allows the caster to sense the presence of potable water using a forked stick (any will do, but some have favorites). While outdoors the dowsing rod will twist to point in the direction of such fresh water up to 1000 feet +100' per level of the caster. Water that is underground, in containers, or within structures can be located within 25 feet +5' per level. The effect lasts as long as the caster maintains concentration.
 </div>
 
+<div class="spell" data-tag="Drainblade" id="Drainblade">
+## Drainblade
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell imbues an edged weapon with the ability to drain blood with each successful strike made against a living creature.  When a living creature is hit by a drainbladed weapon, the target suffers 1 additional point of damage.  If the wielder of the weapon is injured, the extra point of damage is transferred to them as healing energy.  In no way can this healing energy grant more hit points than the wielder's normal maximum.
+
+Against nonliving creatures, such as undead, golems, living statues, etc, this spell has no effect.
+</div>
+
 <div class="spell" data-tag="Drawmij’s Instant Summons" id="Drawmij’s Instant Summons">
 ## Drawmij’s Instant Summons
 
@@ -1107,9 +1121,161 @@ Duration: Instantaneous
 When this spell is cast, the magic-user teleports some desired item from virtually any location directly to their hand. The single object can be no longer in any dimension than a sword, can have no more weight than a shield (about eight pounds), and must be nonliving. The desired item is then transported instantly into the Magic-User's hand. The item must have been previously touched and specifically named; only that particular item is summoned by the spell.
 </div>
 
+<div class="spell" data-tag="Earthquake" id="Earthquake">
+## Earthquake
+
+Cleric 7, Druid 7
+
+Range: 400' + 40'/level
+
+Duration: 1 round
+
+When cast, this spell causes a powerful, but localized, earthquake that is 10 feet in diameter per caster level. The shock of the quake will knock down creatures, topple plants, collapse structures, open cracks in the earth, and more. The effect lasts for one round, during which creatures in the affected area cannot move or act. The earthquake affects everything touching the ground in the affected area. The specific effect depends on the type of terrain where the spell is cast:
+
+• Cave, cavern, tunnel: Causes the roof to collapse causing 8d6 damage to everyone in the affected area (save vs. Petrify for half damage), pinning all creatures beneath the rubble. Small rooms and tunnels become completely filled.
+
+• Cliff: Causes a landslide. Any creatures in the path take 8d6 damage (save vs. Petrify for half damage), pinning all creatures beneath the rubble.
+
+• Open ground: All creatures in the area must save vs. Petrify or fall to the ground. Fissures open up and all creatures in the area have a 1 in 4 chance of falling in (save vs. Death Ray to avoid). After the end of the spell, the fissures close up, killing anything that fell in.
+
+• Structures: Any structures directly touching the affected ground take 100 points of damage, ignoring [hardness](combat.html#attacking-a-vehicle). If this causes the structure to collapse, anyone trapped inside takes 8d6 damage (save vs. Petrify for half damage) and is pinned beneath the rubble.
+
+• River, lake, marsh: Fissures in the bottom drain the water away, resulting in a muddy quicksand-like surface to remain. All creatures in the affected area must save vs. Death Ray or be stuck. After the end of the spell, the surrounding water rushes back in, potentially drowning any creatures stuck in the mud.
+
+Any creature pinned by rubble takes 1d6 points of non-lethal damage per minute until rescued or they fall unconscious. Once unconscious, they take 1d6 points of lethal damage per minute until they are rescued or die.
+</div>
+
+<div class="spell" data-tag="Ethereal" id="Ethereal">
+## Ethereal
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+This spell causes the recipient to enter the ethereal plane. They become semi-transparent and immaterial.  While in this state, magical weapons or weapons with certain special properties are necessary to strike the recipient.  Any stealth checks such as Move Silently or Hide are made at +4, and the character may move through materials up to 1 inch thick per level of the caster.  Some materials may prevent passage such as lead, gold, or other materials with special properties. While able to move through materials and effectively weightless, the ethereal being does not gain any other special movement modes like flying or levitation; walking upon materials such as water is possible though.
+
+The ethereal character may not make physical attacks but may cast spells that do not require physical contact.  While the spell is active, the individual may choose to revert back and forth between corporeal and incorporeal forms on their turn, remaining in the chosen state until their next turn. 
+
+There is a 10% chance (DC 2) that each turn that a creature is ethereal that they will draw the attention of a wraith (1) or ghost (2) that will immediately attack.
+</div>
+
+<div class="spell" data-tag="Enervation" id="Enervation">
+## Enervation
+
+Black Magic-User 4
+
+Range: 50'
+
+Duration: Instantaneous
+
+The caster points a finger at their intended target and rolls a ranged attack roll against the target that ignores armor (but not any Dexterity bonus).  If the narrow ray of crackling black energy hits, the target suffers 1d4 negative levels and all of the effects described in [Energy Drain](combat.html#energy-drain). There is no saving throw, only the attack roll.
+
+If the target survives, it will lose the negative levels (i.e. regain their levels) after a number of hours equal to the caster’s level.
+
+An undead creature struck by the ray gains 5d4 temporary hit points for one hour.
+</div>
+
+<div class="spell" data-tag="Enlarge" id="Enlarge">
+## Enlarge*
+
+Magic-User 1
+
+Range: 5 yards/level
+
+Duration: 5 rounds/level
+
+This spell causes instant growth of a creature or object, increasing both size and weight. It can be cast only upon a single creature (or a symbiotic or community entity) or upon a single object that does not exceed 10 cubic feet in volume per caster level. The object or creature must be seen to be affected. It grows by up to 10% per level of experience of the magic-user, increasing this amount in height, width, and weight will increase cubicly.
+
+All equipment worn or carried by a creature is enlarged by the spell. Unwilling victims are entitled to a saving throw vs. spell. A successful saving throw means the spell fails. If insufficient room is available for the desired growth, the creature or object attains the maximum possible size, bursting weak enclosures in the process, but it is constrained without harm by stronger materials--the spell cannot be used to crush a creature by growth.
+
+Magical properties are not increased by this spell--a huge sword +1 is still only +1, a staff-sized wand is still only capable of its normal functions, a giant-sized potion merely requires a greater fluid intake to make its magical effects operate, etc. Weight, mass, and strength are affected, though. Thus, a table blocking a door would be heavier and more effective, a hurled stone would have more mass (and cause more damage), chains would be more massive, doors thicker, a thin line turned to a sizeable, longer rope, and so on. A creature's hit points, Armor Class, and attack rolls do not change, but damage rolls increase proportionately with size.
+
+For example, a fighter at 160% normal size hits with their long sword and rolls a 6 for damage. The adjusted damage roll is 10 (that is, 6 x 1.6 = 9.6, rounded up). Bonuses due to Strength, class, and magic are not altered.
+
+The reverse spell, **Reduce**, negates the enlarge spell or makes creatures or objects smaller. The creature or object loses 10% of its original size for every level of the caster, to a minimum of 10% of the original size. Thereafter, the size shrinks by 1-foot increments to less than 1 foot, by 1-inch increments to 1 inch, and by 1/10-inch increments to a minimum of 1/10 of an inch--the recipient cannot dwindle away to nothingness.
+
+For example, a 16-foot-tall giant reduced by a 15th-level magic-user (15 steps) would be reduced to 1.6 feet (in nine steps), then to 6/10 of a foot or 7.2 inches (in one step), and finally to 2.2 inches (in the last five steps). A shrinking object may damage weaker materials affixed to it, but an object will shrink only as long as the object itself is not damaged. Unwilling creatures are allowed a saving throw vs. spell.
+</div>
+
+
+<div class="spell" data-tag="Entagle" id="Entagle">
+## Entagle
+
+Druid 1
+
+Range: 200'
+
+Duration: 3 rounds/level
+
+This spell causes existing grasses, trees, bushes, shrubs, or other plants to entwine around creatures in a 40 ft x 40 ft area. At the GM's discretion a caster underground may use roots of plants or trees if such are present. Most creatures within the area of effect move at ¼ normal speed; very large and/or very strong creatures (at least as big or strong as a giant or dragon) move at ½ normal speed.
+
+If the creature affected is running at the time the spell is cast, the creature must make a saving throw vs Spell (with Dexterity bonus applied, if any) or trip and become prone and trapped until the end of spell.  Entangled creatures may not attack nor take most actions other than movement due to the interference of the enchanted plants. This spell is only effective in a settings where plants will grow, including wilderness areas, farmland, and earthen-walled tunnels.
+</div>
+
+<div class="spell" data-tag="ESP" id="ESP">
+## ESP
+ 
+Magic-User 2
+
+Range: 60'
+
+Duration: 1 turn/level
+
+This spell permits the caster to detect the surface thoughts of one or more targets within range.  The caster must designate a direction, and then concentrate for a turn in order to “hear” the thoughts.  Each turn the caster may choose to “listen” in a different direction.  The caster may stop listening, then resume again later, so long as the duration has not expired.  The target creature is not normally aware of being spied upon in this way.
+
+Rock more than 2 inches thick or a thin coating of lead or gold will block the spell.  All undead creatures are immune to this effect, as are mindless creatures such as golems.
+</div>
+
+<div class="spell" data-tag="Ether Bold" id="Ether Bolt">
+## Ether Bolt
+ 
+Magic-User 2
+
+Range: 30' + 5'/level
+
+Duration: Instantaneous
+
+This spell fires off a missile or beam-like effect that only strikes foes that are insubstantial, ethereal, phase-shifted, or otherwise not fully materially present. This primarily includes various types of undead, but may include other beings that have similar qualities such as shadows. Much like a magic missile, the bolt strikes unerringly if the target is in sight, causing 1d4 points of force-like impact damage per level of the caster, striking as if the target was a completely solid being.
+</div>
+
+<div class="spell" data-tag="Extension" id="Extension">
+## Extension
+
+Magic-User 4
+
+Range: Special
+
+Duration: Special
+
+By use of an extension spell, the wizard doubles the duration of a previously cast 1st-, 2nd-, or 3rd-level spell. Naturally, the spell affects only spells that have durations.
+
+This spell must be cast immediately after the spell to be extended, either by the original caster or another wizard. If a complete round or more elapses, the extension fails and is wasted.
+</div>
+
+<div class="spell" data-tag="Eyebitt" id="Eyebit">
+## Eyebit
+ 
+Black Magic-User 6
+
+Range: 60'
+
+Duration: 1 round/3 levels
+
+Each round the caster may target a single living creature for the duration of the spell.  The affected creature suffers effects depending on its total hit dice.  If the target has 10 HD or more, it is sickened.  If the target has 5 HD through 9 HD, it is panicked and sickened.  If the target has 4 HD or fewer, it is comatose, panicked, and sickened.  The effects are cumulative and concurrent.  Targeting each additional creature after the first requires an action, and only one may be targeted in a given round.
+
+The target must save vs. Death Ray to avoid the worst effect of the spell.  If the target is affected by more than one effect, the remaining effects are still present.
+
+If a creature is sickened, it suffers from a -2 modifier for attack rolls, damage rolls, and saving throws.  This effect lasts for 1 turn per caster level.
+
+If a creature is panicked, it will flee for 1d4 rounds.  After that, the victim will flee again for 1d4 rounds if it can still see the caster.  Even after the fleeing ends, the creature is still affected by the sickening as described above.
+
+If a creature is comatose, it falls into a coma for 1 turn per caster level.  During this time, the victim cannot be awakened by any means short of dispelling the effect.  Even if the comma is dispelled, the creature is still subject to fleeing if the caster is visible, and is still sickened.  This is not a sleep effect.
+</div>
+
 
 <div class="spell" data-tag="Feeblemind*" id="Feeblemind*">
-
 ## Feeblemind*
 
 Range: 180'
