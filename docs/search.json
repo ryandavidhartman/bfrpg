@@ -1286,6 +1286,17 @@
     ]
   },
   {
+    "objectID": "allSpells.html#entangling-thorns",
+    "href": "allSpells.html#entangling-thorns",
+    "title": "9  Spells, Alphabetical",
+    "section": "Entangling Thorns",
+    "text": "Entangling Thorns\nDruid 3\nRange: 100’+10’/level\nDuration: 1 round/level\nThe druid chooses one target creature (or object) within range, beneath which great thorny tendrils quickly grow up and around. If the subject fails its save vs. Spells, it is held immobile, suffering a -2 penalty to hit and a -4 penalty to its armor class. In addition, the thorny growths cause 1d4 points of damage to the target each round. An individual so entangled may only cast spells if a DC 15 is achieved, modified by their primary spell casting ability score bonus.\nThe process of breaking free takes the entire round, during which damage is still incurred. Additionally, the thorny growths can be directly attacked (against AC 11) with small bladed weapons such as daggers or hand axes. The vines have 22 hp and destroying them ends the spell. Immediately. Using other larger weapons or spells will damage the entangled creature as much as the thorns, splitting the damage between them equally.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#esp",
     "href": "allSpells.html#esp",
     "title": "9  Spells, Alphabetical",

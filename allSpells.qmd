@@ -1214,6 +1214,21 @@ This spell causes existing grasses, trees, bushes, shrubs, or other plants to en
 If the creature affected is running at the time the spell is cast, the creature must make a saving throw vs Spell (with Dexterity bonus applied, if any) or trip and become prone and trapped until the end of spell.  Entangled creatures may not attack nor take most actions other than movement due to the interference of the enchanted plants. This spell is only effective in a settings where plants will grow, including wilderness areas, farmland, and earthen-walled tunnels.
 </div>
 
+
+<div class="spell" data-tag="Entangling Thorns" id="Entangling Thorns">
+## Entangling Thorns
+
+Druid 3
+
+Range: 100'+10'/level
+
+Duration: 1 round/level
+
+The druid chooses one target creature (or object) within range, beneath which great thorny tendrils quickly grow up and around. If the subject fails its save vs. Spells, it is held immobile, suffering a -2 penalty to hit and a -4 penalty to its armor class. In addition, the thorny growths cause 1d4 points of damage to the target each round. An individual so entangled may only cast spells if a DC 15 is achieved, modified by their primary spell casting ability score bonus.
+
+The process of breaking free takes the entire round, during which damage is still incurred. Additionally, the thorny growths can be directly attacked (against AC 11) with small bladed weapons such as daggers or hand axes. The vines have 22 hp and destroying them ends the spell. Immediately. Using other larger weapons or spells will damage the entangled creature as much as the thorns, splitting the damage between them equally.
+</div>
+
 <div class="spell" data-tag="ESP" id="ESP">
 ## ESP
  
