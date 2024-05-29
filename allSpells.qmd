@@ -1622,6 +1622,20 @@ This spell permanently hardens the bones of one skeletal undead creature, making
 While this spell is permanent, there is a drawback.  The  newly fossilized skeleton may not be repaired or otherwise 'healed', as the organic materials that made up the bones has been completely replaced by minerals.  Intelligent skeletal undead would not normally want this spell applied to themselves, but the spell would affect them nevertheless.
 </div>
 
+<div class="spell" data-tag="Gaseous Form" id="Gaseous Form">
+## Gaseous Form
+ 
+Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The subject of this spell and all of their gear become insubstantial, misty, and translucent. The caster becomes immune to non-magical weapons, and has an Armor Class of 22 vs. magical weapons. The subject can’t attack or cast spells while in gaseous form. The subject also loses supernatural abilities while in gaseous form.
+
+A gaseous creature can fly at a speed of 10', and can pass through small holes or narrow openings, even mere cracks, as long as the spell persists. The gaseous creature is subject to the effects of wind, and can’t enter water or other liquid. Objects cannot be manipulated in this form, even those brought along when the spell was cast. The subject can resume material form at will, but that will end the spell.
+</div>
+
 <div class="spell" data-tag="Gate" id="Gate">
 ## Gate
 
@@ -1640,6 +1654,32 @@ The gate is full two-way, and anyone on either side can pass back and forth eith
 Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
 
 As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
+</div>
+
+<div class="spell" data-tag="Gentle Repose" id="Gentle Repose">
+## Gentle Repose
+
+Cleric 2
+
+Range: Touch
+
+Duration: 3 months/level
+
+This spell preserves the remains of a dead creature (including a zombie, if so desired). This prevents any decay of the remains for the duration of the spell. This extends the time limit imposed by raise dead, allowing for a longer time to cast the spells.
+</div>
+
+<div class="spell" data-tag="Ghoulish Hands" id="Ghoulish Hands">
+## Ghoulish Hands
+
+Black Magic-User 2
+
+Range: Touch
+
+Duration: 1 round/level
+
+This spell causes the hands of one living creature to become like the horrible claws of ghouls.  The bearer of these ghoulish hands may make two claw attacks that cause 1d4 points of damage each.  If the recipient of this spell already had better claw attacks, then the caster gains a +2 damage bonus to their damage rolls while this spell is in effect.  In addition to the damage, those struck by the hands must save vs. Paralysis or be paralyzed for 2d8 turns (Elves are immune), exactly like the attacks of a ghoul.
+
+Recipients of this spell must be true living creatures; other creatures such as undead, constructs, elementals, and the like are immune.  There is a 1% non-cumulative chance that on any particular casting of this spell that the recipient is actually infected with Ghoul Fever (per the monster description), which if proper curative steps are not taken, may ultimately result in the recipient's death and rising as an actual ghoul.
 </div>
 
 <div class="spell" data-tag="Gishigan's Geas*" id="Geas*">
@@ -1664,10 +1704,66 @@ For every 24 hours that the subject chooses not to obey the geas (or is prevente
 A geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.html#remove-curse) spell, or by a **Wish**, or by the reverse of this spell. [Dispel Magic](allSpells.html#dispel-magic) does not affect a geas.
 </div>
 
+
+<div class="spell" data-tag="Grave Sanctuary" id="Grave Sanctuary">
+## Grave Sanctuary
+ 
+Black Magic-User 3
+
+Range: Touch
+
+Duration: 1 turn/level
+
+Similar to the Druid spell [Tree Sanctuary](allSpells.html#tree-sanctuary), this spell enables the caster to create an invisible entry into a grave, mausoleum, sarcophagus, large tombstone, or similar item associated with the repose of the dead.  The entry is visible to undead and other Black Magic-Users, but this does not grant any special access to the doorway.  Once the spell is complete, the Black Magic-User may enter the space, effectively disappearing from sight.  Only one grave may be effected by grave sanctuary at a time.
+
+The Black Magic-User is completely aware of their surroundings while in the grave, gaining the bonus of 360-degree vision and hearing, as well as being able to detect changes in the immediate temperature surrounding the site.  Another benefit of this spell is that each turn the Black Magic-User rests inside the grave counts as a full hour of sleep, so the Black Magic-User may meditate to memorize spells while within the magical sanctuary.  Also, if the grave site is on unhallowed ground or an area otherwise associated with hauntings and the like, then the Black Magic-User heals 1d4 HP per turn spent inside the grave.
+
+While inside the grave, the Black Magic-User does lose any sense of taste, smell, or touch, and may not speak or otherwise cast spells while inside the grave's protection.  If the grave itself is unearthed or broken into in some way, then the Black Magic-User takes 2d10 points of damage and is cast out into the nearest available space.  This kind of undertaking should be roughly equivalent to actually digging a grave up, and not simply an attack against the earth.
+</div>
+
+<div class="spell" data-tag="Greater Fear" id="Greater Fear">
+## Greater Fear
+
+Black Magic-User 4
+
+Range: 30'
+
+Duration: 1 round/level
+
+This spell sends an invisible wave of fear out forward of the caster to a range of 30 feet.  Anyone in the area must save vs. Spells or be panicked.  A panicked creature will drop whatever it is holding and flee using any means necessary.  If cornered, the creature will cower in fear.  The victim will also suffer a -2 to all saving throws.  The creature will do this for the duration of the spell.  If a save is made, the victim is still shaken and suffers -2 to attack rolls and saving throws for 1 round.
+</div>
+
+<div class="spell" data-tag="Grease" id="Grease">
+## Grease
+
+Magic-User 1
+
+Range: 10 yards
+
+Duration: 1 turns +1/level
+
+A grease spell covers a 10 x 10 ft material surface with a slippery layer of a fatty, greasy nature. Any creature entering the area or caught in it when the spell is cast must save vs. spell or slip, skid, and fall. Those who successfully save can reach the nearest nongreased surface by the end of the round. Those who remain in the area are allowed a saving throw each round until they escape the area. The DM should adjust saving throws by circumstance; for example, a creature charging down an incline that is suddenly greased has little chance to avoid the effect, but its ability to exit the affected area is almost assured!
+
+The spell can also be used to create a greasy coating on an item--a rope, ladder rungs, weapon handle, etc. Material objects not in use are always affected by this spell, while creatures wielding or employing items receive a saving throw vs. spell to avoid the effect. If the initial saving throw is failed, the creature immediately drops the item. A saving throw must be made each round the creature attempts to use the greased item. The caster can end the effect with a single utterance; otherwise, it lasts for 1 turn plus one turn per level.
+</div>
+
+
+<div class="spell" data-tag="Greater Teleport" id="Greater Teleport">
+## Greater Teleport
+
+Magic-User 7
+
+Range: Self
+
+Duration: Instanteous
+
+This spell functions in a similar fashion to the normal [Teleport](allSpells.html#teleport) spell, except that there is no limit to the range that can be spanned, nor is there any chance of arriving off target. In addition, the caster need not have seen the destination, if the caster has at least a reliable description of it. If the caster attempts to teleport with insufficient information (or with misleading information), the caster disappears and then reappears in the original location. This spell cannot transport the caster to another plane of existence.
+</div>
+
 <div class="spell" data-tag="Growth of Animals" id="Growth of Animals">
 ## Growth of Animals
 
-Cleric 3
+Cleric 3, Druid 3
 
 Range: 60'+10'/level
 
@@ -1675,181 +1771,200 @@ Duration: 1 turn/level
 
 This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion).
 
-All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature's possession instantly returns to its normal size.
+All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.
 
 The spell gives no means of command or influence over the enlarged animals.
-
 </div>
-<div class="spell" data-tag="Growth of Plants*" id="Growth of Plants*">
 
+<div class="spell" data-tag="Growth of Plants*" id="Growth of Plants*">
 ## Growth of Plants*
+
+Druid 4, Magic-User 6
 
 Range: 120'
 
-Magic-User 4
-
 Duration: Permanent
 
-This spell causes normal vegetation of any sort within
-range to become thick and overgrown. The area of
-effect is determined by the caster, but cannot exceed
-1,000 square feet (a 10'x100' area or equivalent) per 5
-caster levels. The plants become densely entangled,
-and characters or creatures wishing to move through
-must hack or force their way through it. All movement
-within the affected area is reduced to no more than 5’
-per round for less than giant sized creatures; giant sized
-creatures are reduced to half normal movement rate.
+This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles, trees, vines, etc.) within range to become thick and overgrown.  The dimensions of the growth are determined by the caster, but cannot exceed 1000 sq. feet (a 10'x100' area or equivalent) per 5 caster levels.  The plants entwine to form a thicket or jungle that creatures must hack or force a way through.  All movement within the affected area is reduced to no more than 5’ per round for less than giant sized creatures; giant sized creatures are reduced to half normal movement rate.  The area must have brush and/or trees in it for this spell to take effect.
 
-This spell cannot take effect in an area that does not
-already have some plants present. Any sort of
-animated plant creature affected by this spell is allowed
-a saving throw vs. Spells to resist, but if this save fails it
-is affected as with **growth of animals** above.
+The reverse form, **Shrink Plants**, may be used to render overgrown areas passable.  The area of effect is identical to the normal version.
 
-The reverse form, **shrink plants**, may be used to
-render overgrown areas passable. The area of effect is
-identical to the normal version. Animated plant
-creatures are normally unaffected by this spell, but if
-such creatures have already been enlarged by **growth of plants** this spell will reverse the effect. In the latter
-case, a saving throw vs. Spells is allowed to resist.
-
-Both forms of this spell are permanent until countered,
-either by the reverse of the spell or by **dispel magic**.
-
+Growth of plants and its reverse are permanent until countered, either by the opposite form or by [Dispel Magic](allSpells.html#dispel-magic).  This spell has no effect on animated plant creatures of any sort.
 </div>
+
+<div class="spell" data-tag="Guidance*" id="Guidance*">
+## Guidance*
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: Instantaneous
+
+The cleric grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
+</div>
+
+<div class="spell" data-tag="Guest of Wind" id="Gust of Wind">
+## Gust of Wind
+
+Druid 5, Magic-User 3
+
+Range: 10' x 10 yds/level
+
+Duration: 1 round/level
+
+When this spell is cast, a strong puff of air originates from the caster and moves in the direction the caster is facing. The force of this [Gust of Wind](allSpells.html#gust-of-wind) (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames--such as those of lanterns--to dance wildly and has a 5% chance per level of experience of the spellcaster to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
+
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
+</div>
+
+<div class="spell" data-tag="Hallow*" id="Hallow*">
+## Hallow*
+
+Cleric 0, Druid
+
+Range: Self
+
+Duration: Instantaneous
+
+By chanting holy phrases, the caster makes the 0 foot radius area around him 'hallowed', granting +1 bonus on Healing spells and Turning attempts. The effect continues as long as the caster maintains the chant, but any action other than moving and defending oneself ends the effect. However, the effect lasts one additional round after the chant ends, giving the caster the option to cast or turn once and enjoy the effect himself.
+
+The reverse, **Unhallow**, works in the same manner by granting +1 damage on Inflict spells (reversed healing) makes undead (or vile netherworld inhabitants) harder to Turn by one point (or optionally easier to Command by one point). It likewise lasts one round longer than the chant is maintained.
+</div>
+
 <div class="spell" data-tag="Hallucinatory Terrain" id="Hallucinatory Terrain">
 
 ## Hallucinatory Terrain
+Druid 4, Magic-User 4
+
+Range: 400' + 40'/level
+
+Duration: 2 turns/level
+
+This spell makes one 10 yard cube per level of outdoor terrain appear like a different type (i.e. field into forest, grassland into desert, or the like).  This spell requires a full turn to cast.
+
+The affected terrain looks, sounds, and smells like another sort of natural terrain.  Structures, equipment, and creatures within the area are not hidden or changed in appearance.  A save vs. Spells is allowed to see through the illusion, but only if the creatures or characters affected actively attempt to do so.
+</div>
+
+<div class="spell" data-tag="Hannelore’s Rope Trick" id="Hannelore’s Rope Trick">
+## Hannelore’s Rope Trick
 
 Magic-User 4
 
-Range: 400'+40'/level
+Range: Touch
 
-Duration: 12 turns/level
+Duration: 4 turns/level
 
-This spell makes one 10 yard cube per level of outdoor terrain appear like a different type (i.e. field into forest, grassland into desert, or the like). This spell requires a full turn to cast.
+When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular, as if affixed at the upper end. The upper end is, in fact, fastened to an extradimensional space. The spellcaster and up to seven others can climb up the rope and disappear into this place of safety where no creature can find them.
 
-The affected terrain looks, sounds, and smells like another sort of natural terrain. Structures, equipment, and creatures within the area are not hidden or changed in appearance. A save vs. Spells is allowed to see through the illusion, but only if the creatures or characters affected actively attempt to do so.
+The rope can be taken into the extradimensional space if fewer than eight persons have climbed it; otherwise, it simply stays hanging in the air (extremely strong creatures might be able to remove it, at the DM's option). Spells cannot be cast across the interdimensional interface, nor can area effects cross it. Those in the extradimensional space can see out of it as if there were a 3-foot x 5-foot window centered on the rope. The persons in the extradimensional space must climb down prior to the end of the spell, or they are dropped from the height at which they entered the extradimensional space.
 
+The rope can be climbed by only one person at a time. Note that the rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extradimensional space. Also note that creating or taking extradimensional spaces into an existing extradimensional space is hazardous.
 </div>
-<div class="spell" data-tag="Haste*" id="Haste*">
 
-## Haste*
+<div class="spell" data-tag="Haste*" id="Haste*">
+Magic-User 3
 
 Range: 30'+10'/level
 
-Magic-User 3
-
 Duration: 1 round/level
 
-This spell accelerates the actions of 1 creature per caster
-level. The affected creatures move and act twice as fast
-as normal, having double their normal movement rates
-and making twice the normal attacks per round, for the
-duration of the spell. Spellcasting is not accelerated,
-nor is the use of magic items such as wands, which may
-still be used just once per round. Multiple haste or
-speed effects don’t combine; only apply the most
-powerful or longest lasting effect.
+This spell accelerates the actions of 1 creature per caster level. The affected creatures move and act twice as quickly as normal, having double their normal movement rates and making twice the normal attacks per round, for the duration of the spell. Spellcasting is not accelerated, nor is the use of magic items such as wands, which may still be used just once per round. Multiple haste or speed effects don’t combine; only apply the most powerful or longest lasting effect.
 
-In combat, the subject of this spell performs a full round
-of actions (movement followed by attacking) on their
-normal Initiative; after all combatants have acted, the
-subject may perform another round of actions as
-before. If two or more combatants are under the effect
-of this spell, use the same Initiative numbers to
-determine the order of their actions in each of their
-"extra" rounds.
-
-Reversed, haste becomes **slow**; affected creatures move at half speed, attacking half as often (generally, every other round) and making half a normal move each round. Naturally, target creatures may save vs. Spells to avoid the effect. Haste and slow counter and dispel each other.
-
+Reversed, haste becomes **Slow**; affected creatures move at half speed, attacking half as often (generally, every other round) and making half a normal move each round. Naturally, target creatures may save vs. Spells to avoid the effect. Haste and slow counter and dispel each other.
 </div>
-<div class="spell" data-tag="Heal*" id="Heal*">
 
+<div class="spell" data-tag="Heal*" id="Heal*">
 ## Heal*
+
+Cleric 6, Druid 6
 
 Range: Touch
 
-Cleric 6
-
 Duration: Permanent
 
-This spell enables the caster to almost totally cure
-wounds, diseases, and other afflictions of a single living
-creature. With a touch the caster cures blindness,
-deafness, **confusion**, disease, **feeblemind**, choking,
-nausea, and poison. All but 1d4 hit points are restored
-to the subject, if it has any injuries. Ability points losses
-are fully restored, if and only if those losses would be
-recoverable without this spell; permanent losses to
-ability scores are not recovered. Energy drain is also
-not affected by this spell.
+Heal enables the caster to wipe away injury and afflictions. It immediately ends any and all of the following adverse conditions affecting the target: ability damage, blindness, confusion, deafness, disease, exhaustion or fatigue, [Feeblemind](allSpells.html#feeblement), insanity, nausea, and poison. It also restores all but 1d4 of the target's hit points. Heal does not remove negative levels or restore permanently drained ability score points.
 
-The reversed spell, **harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **harm** may kill a creature).
+The reversed spell, **Harm**, injures the creature touched so horribly that it is left with only 1d4 hit points. The caster must succeed at a normal attack roll in this case; failure means the spell is wasted. Note that, if the victim has fewer hit points remaining than the number rolled, he or she will take at least one point of damage (and this is the only case in which **Harm** may kill a creature).
 
-Generally, both **heal** and** harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
-
+Generally, both **Heal** and **Harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
 </div>
-<div class="spell" data-tag="Hold Monster" id="Hold Monster">
 
-## Hold Monster
+<div class="spell" data-tag="Heat Metal*" id="Heat Metal*">
+## Heat Metal*
+
+Cleric 2, Druid 2
+
+Range: 25'
+
+Duration: 7 rounds
+
+This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
+
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+
+| Round    | Temperature | Damage |
+|----------|-------------|--------|
+| 1st      | Warm        | None   |
+| 2nd-3rd  | Hot         | 1d4    |
+| 4th-5th  | Searing     | 2d4    |
+| 6th      | Hot         | 1d4    |
+| 7th      | Warm        | None   |
+
+The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
+</div>
+
+<div class="spell" data-tag="Hold Animal" id="Hold Animal">
+## Hold Animal
+
+Druid 3
 
 Range: 180'
+
+Duration: 2d8 turns
+
+This spell functions like [Hold Person](allSpells.html#hold-person), except that it affects only animals; specifically, this means non-magical living creatures of animal intelligence, including giant-sized animals.  A save vs. Spells is allowed to resist this spell.
+</div>
+
+<div class="spell" data-tag="Hold Monster" id="Hold Monster">
+## Hold Monster
 
 Magic-User 5
 
-Duration: 2d8 turns
-
-This spell functions like **hold person**, except that it affects any living creature that fails its save vs. Spells.
-
-</div>
-<div class="spell" data-tag="Hold Person" id="Hold Person">
-
-## Hold Person
-
 Range: 180'
+
+Duration: 2d8 turns
+ 
+This spell functions like [Hold Person](allSpells.html#hold-person), except that it affects any living creature that fails its save vs. Spells.
+</div>
+
+<div class="spell" data-tag="Hold Person" id="Hold Person">
+## Hold Person
 
 Cleric 2, Magic-User 3
 
+Range: 180'
+
 Duration: 2d8 turns
 
-This spell will render any living (not undead) humanoid
-creature (as defined in **charm person**) paralyzed.
-Creatures larger than ogres will not be affected by this
-spell. Targets of the spell are conscious and able to
-breathe, but cannot move, act, or speak in any way. A
-successful save vs. Spells is allowed to resist the effect.
-The spell may be cast at a single person, who makes
-their save at -2, or at a group, in which case 1d4 of the
-creatures in the group may be affected.
+This spell will render any living (not undead) human, demi-human or humanoid creature paralyzed. Creatures larger than ogres will not be affected by this spell. Targets of the spell are aware, and breathe normally, but cannot take any actions, including speech. A successful save vs. Spells will negate the effect. The spell may be cast at a single person, who makes his or her save at -2, or at a group, in which case 1d4 of the creatures in the group may be affected.
 
-A paralyzed swimmer can’t swim and may drown. A
-character who has somehow gained wings and is then
-paralyzed while airborne will not be able to move its
-wings to fly and will thus fall.
-
+A winged creature which is paralyzed cannot flap its wings and falls (if in flight at the time). A paralyzed swimmer can’t swim and may drown.
 </div>
+
+
 <div class="spell" data-tag="Hold Portal" id="Hold Portal">
-
 ## Hold Portal
-
-Range: 100'+10'/level
 
 Magic-User 1
 
+Range: 100'+10'/level
+
 Duration: 1 round/level
 
-This spell secures a portal such as a door, gate,
-window, or shutter made of normal non-magical
-building materials; the portal behaves as if securely
-locked for the duration of the spell. The door may be
-opened early only by means of **knock** or a successful
-casting of **dispel magic**, or by literally destroying the
-door (which may well require more time than the
-duration of this spell allows).
-
+This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A [Knock](allSpells.html#knock) spell or a successful [Dispel Magic](allSpells.html#dispel-magic) spell can negate a hold portal spell.
 </div>
+
 <div class="spell" data-tag="Ice Storm" id="Ice Storm">
 
 ## Ice Storm

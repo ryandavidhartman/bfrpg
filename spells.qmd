@@ -424,7 +424,7 @@ This spell preserves the remains of a dead creature (including a zombie, if so d
 
 ::: {.callout-note icon=false collapse=true}
 
-## Heat Metal
+## Heat Metal*
 
 Cleric 2, Druid 2
 
@@ -4690,9 +4690,9 @@ This spell will render up to three undead creatures immobile for the duration of
  
 ## Haste*
  
-Range: 30'+10'/level
-
 Magic-User 3
+
+Range: 30'+10'/level
 
 Duration: 1 round/level
 
