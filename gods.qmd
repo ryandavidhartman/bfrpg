@@ -1,6 +1,6 @@
 # Gods of OnceWas
 
-![](./images/Gods.jpg)
+![](./images/Gods.png)
 
 # Anu
 *God of the Sun and Sky, King of Elysium*

@@ -1966,297 +1966,239 @@ This spell magically holds shut a door, gate, window, or shutter of wood, metal,
 </div>
 
 <div class="spell" data-tag="Ice Storm" id="Ice Storm">
-
 ## Ice Storm
+ 
+Magic-User 4
 
 Range: 300'+30'/level
-
-Magic-User 4
 
 Duration: 1 round
 
-This spell causes a powerful storm of sleet and hail to
-fall in a 20' radius around the target spot for a full
-round. This effect causes 5d6 points of damage to
-every creature within the area, with a save vs. Spells
-allowed to reduce damage by half. The ice storm fills a
-vertical volume of 40', so creatures higher than that
-distance above the target spot are unaffected. Any
-creature naturally resistant to cold takes half damage (or
-one-quarter damage if it makes its save).
-
-Visibility within the storm is very poor, such that most
-creatures will attack with a penalty of -2 on the attack
-roll. Walking movement is reduced to half speed, and
-running is not possible within the storm; anyone who
-tries will fall down and be forced to remain on the
-ground until the spell ends. Flying is likewise
-impossible, and any flying creature within the area will
-be driven to the ground. A penalty of -20% is applied
-to any Listen rolls made by those in the storm's area.
-
-When the spell ends, the hail and ice deposited by the
-storm disappears as if it had never existed.
-
+This spell causes great magical hailstones to pound down for 1 full round, dealing 5d6 points of damage to every creature in a 20' radius around the target spot; a successful save vs. Spells will reduce damage by half. The ice storm fills a vertical volume of 40', so creatures higher than that distance above the target spot are unaffected. A –20% penalty applies to each Listen roll made within the ice storm’s effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt). Any creature naturally resistant to cold takes half damage (or one-quarter damage if it makes its save).
 </div>
-<div class="spell" data-tag="Insect Plague" id="Insect Plague">
 
-## Insect Plague
-
-Range: 300'+30'/level
-
-Cleric 5
-
-Duration: 1 round/level
-
-This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18^th^ level. See [Insect Swarm](monstersAll.qmd#insect-swarm) in the **Monsters** section for the effects of a swarm. As explained there, a normal swarm of insects occupies a contiguous area equal to three 10 foot cubes; all swarms summoned by this spell must be contiguous with each other such that they effectively form a single huge swarm, though the caster may stretch them out in a line, form them into a block, or indeed arrange them in some serpentine form if desired.
-
-The summoned swarms persist for the duration above,
-or until they are slain, whichever comes first. The
-caster may summon them in areas where creatures are
-already located. Once summoned, the swarms are
-stationary until they disappear or are slain, and they
-attack any creatures who are within their area.
-
-</div>
-<div class="spell" data-tag="Invisibility" id="Invisibility">
-
-## Invisibility
-
-Range: Touch
+<div class="spell" data-tag="Iggwilv’s Mirror Image" id="Iggwilv’s Mirror Image">
+## Iggwilv’s Mirror Image
 
 Magic-User 2
 
+Range: Self
+
+Duration: 1 turn/level
+
+This spell creates several illusory duplicates of the caster.  The images move through each other as well as the real caster more or less constantly, making it impossible for most creatures to determine which is real.  A total of 1d4 images plus one image per three caster levels (maximum eight images total) are created.  These figments separate from the caster and remain in a cluster around them.  The figments mimic the caster's actions, pretending to cast spells, drink potions, levitate, and so on, just as the caster does.  Figments always look exactly like the caster.
+
+Enemies attempting to attack or cast spells upon the caster will always hit a figment instead.  Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed.  Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a fireball, all figments will appear to be injured just as the caster was.
+</div>
+
+<div class="spell" data-tag="Illusionary Wall" id="Illusionary Wall">
+## Illusionary Wall
+ 
+Magic-User 4
+
+Range: 30 yards
+
+Duration: Permanent
+
+This spell creates the illusion of a wall, floor, ceiling, or similar surface, which is permanent until dispelled. The area of effect is 1 x 10 x 10 ft. It appears absolutely real when viewed (even magically, as with the priest spell [True Seeing](allSpells.html#true-seeing) or its equivalent), but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, normal demihuman and magical detection abilities work normally, and touch or probing searches reveal the true nature of the surface, though they do not cause the illusion to disappear.
+</div>
+
+<div class="spell" data-tag="Immunity to Normal Weapons" id="Immunity to Normal Weapons">
+## Immunity to Normal Weapons
+ 
+Magic-User 3
+
+Range: Touch
+
+Duration: 5 rounds + 1 round/level
+
+This spell temporarily makes the target immune to non-magical weapons. Anyone affected by this spell is treated as an enchanted creature for the purpose of magic, which specifically affects them (for instance, a sword +1, +3 vs. enchanted creatures applies its special bonus to a creature protected by this magic).
+</div>
+
+<div class="spell" data-tag="Improved Invisibility" id="Improved Invisibility">
+## Improved Invisibility
+ 
+Magic-User 4
+
+Range: Touch
+
+Duration: 1 round + 1 round/level
+
+ This spell works exactly like [Invisibility](allSpells.html#invisibility), except that it does not end if the subject attacks or casts a spell.
+</div>
+
+<div class="spell" data-tag="Insect Plague" id="Insect Plague">
+## Insect Plague
+
+Cleric 5, Druid 5
+
+Range: 300'+30'/level
+
+Duration: 1 round/level
+
+This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18th level. See Insect Swarm in the [Monsters](monstersAll.html#insect-swarm) section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
+</div>
+
+<div class="spell" data-tag="Inscribe" id="Inscribe">
+## Inscrbe
+
+Magic-User 0
+
+Range: 10' + 5'/level
+
+Duration: Permanent
+
+This cantrip engraves up to 1 square foot of writing or drawing on almost any nonliving surface.
+</div>
+
+<div class="spell" data-tag="Irritate" id="Irritate">
+## Irritate
+
+Magic-User 0
+
+Range: 20' + 5'/level
+
+Duration: 1 round/level
+
+This cantrip forces another person to involuntarily blink, nod, itch, giggle, or some other small body motion.
+</div>
+
+<div class="spell" data-tag="Invisibility" id="Invisibility">
+## Invisibility
+ 
+Magic-User 2
+
+Range: Touch
+
 Duration: Special
 
-This spell causes the creature touched (who may be the
-caster) to become invisible, undetectable by normal
-vision or Darkvision. Invisible creatures may be
-detected by those with non-visual sensory abilities.
+The creature or object touched becomes invisible, vanishing from sight, including Darkvision. If the recipient is a creature carrying gear, that vanishes, too. If the spell is cast on someone else, neither the caster nor his or her allies can see the subject, unless they can normally see invisible things or employ magic to do so.
 
-All items worn or carried by the target when the spell is
-cast become invisible as well. If the target lays down an invisible item, it instantly becomes visible again; on the  other hand, items picked up do not automatically  become invisible. If the target places a visible item entirely inside its invisible clothing, backpack, pouch, or other container so that if the target were visible the item could not be seen, it will become invisible just as if it
-were held when the spell was cast.
+Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source). Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible. Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as stepping in a puddle).
 
-Note that casting this spell upon another makes the
-target invisible to the caster as well as everyone else. A
-party of invisible characters will likely experience
-problems with running into or tripping over each other.
-The spell lasts at most 24 hours if not ended sooner. It
-ends instantly if the target attacks an opponent or casts
-any spell. Other actions do not normally end the spell.
-The target may end the spell at will.
-
-Objects that shed light may be made invisible but the
-light itself will remain visible, and the source of that light
-(and the character carrying it) can thus be discovered.
-Rain, dust, paint, and any other visible substance
-thrown or applied to an invisible creature will also
-render it detectable.
-
+The spell ends if the subject attacks any creature or casts any spell. Actions (other than spellcasting) directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. The spell lasts at most 24 hours.
 </div>
+
 <div class="spell" data-tag="Invisibility 10' Radius" id="Invisibility 10' Radius">
 
 ## Invisibility 10' Radius
-
 Magic-User 3
 
 Range: Touch
 
 Duration: 1 turn/level
 
-The target of this spell becomes invisible just as with
-**invisibility**, but in addition all other creatures within 10
-feet of the target at the time of casting (referred to as
-members of the group) also become invisible. Unlike
-with normal invisibility, all members can see each other
-and themselves normally.
+This spell functions like invisibility, except that this spell confers invisibility upon all creatures within 10 feet of the recipient. The center of the effect is mobile with the recipient.
 
-If any member negates the effect by attacking or casting
-a spell, it becomes visible but all other members remain
-invisible. However, if the original subject takes an
-action that negates the invisibility, it ends for the entire
-group. If a member negates its own invisibility, that
-member will no longer be able to see the still-invisible
-group members. Moving further than 10 feet from the
-target also causes a group member to become visible;
-returning to the area does not reinstate the invisibility.
-
+Those affected by this spell can see each other and themselves as if unaffected by the spell. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves, but if the spell recipient attacks, the invisibility ends for all affected creatures. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible (including any previously affected creatures who have become visible as described above).
 </div>
-<div class="spell" data-tag="Invisible Stalker" id="Invisible Stalker">
 
+<div class="spell" data-tag="Invisible Stalker" id="Invisible Stalker">
 ## Invisible Stalker
+ 
+Magic-User 6
 
 Range: 0
 
-Magic-User 6
-
 Duration: Special
 
-The caster summons an **invisible stalker** to do his or her bidding (see the [Monsters](monstersAll.qmd#invisible-stalker) section, below, for details). The spell persists until **dispel evil** is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
-
+The caster summons an **Invisible Stalker** to do his or her bidding (see the [Monsters](monstersAll.html#invisible-stalker) section, below, for details). The spell persists until [Dispel Evil](allSpells.html#dispel-evil) is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
 </div>
-<div class="spell" data-tag="Knock" id="Knock">
 
+<div class="spell" data-tag="Jump" id="Jump">
+## Jump
+
+Magic-User 1
+
+Range: Touch
+
+Duration: 1 turn/level
+
+The individual touched when this spell is cast is empowered to leap once per round for the duration of the spell. Leaps can be up to 30 feet forward or straight upward or 10 feet backward. Horizontal leaps forward or backward have only a slight arc--about 2 feet per 10 feet of distance traveled. The jump spell does not ensure safety in landing or grasping at the end of the leap.
+</div>
+
+<div class="spell" data-tag="Knock" id="Knock">
 ## Knock
+
+Magic-User 2 
 
 Range: 30'
 
-Magic-User 2
-
 Duration: Special
 
-The knock spell opens stuck, barred, locked, **held**, or **wizard locked** doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a **wizard locked** door, the spell does not remove the **wizard lock** but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. 
-
-Each casting undoes a single method of securing the
-door or item, so that for example a door which is both
-locked and stuck can be unlocked but will still be stuck;
-a second casting of knock will open such a door.
-
+The knock spell opens stuck, barred, locked, [Held](allSpells.html#hold-portal), or [Wizard Locked](allSpells.html#wizard-lock) doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a [Wizard Locked](allSpells.html#wizard-lock) door, the spell does not remove the [Wizard Locked](allSpells.html#wizard-lock) but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. Each spell can undo a single means of preventing access.
 </div>
+
+<div class="spell" data-tag="Knot*" id="Knot*">
+## Knot*
+
+Magic-User 0
+
+Range: 30'
+
+Duration: Intantaneous
+
+This spell may tightly knot or tangle a rope, string, or similar object in any knot the caster would be able to tie. Reversed, the **Unknot** spell may undo any knot the caster could unknot himself.
+</div>
+
 <div class="spell" data-tag="Levitate" id="Levitate">
-
 ## Levitate
-
+ 
 Range: Touch
 
 Magic-User 2
 
 Duration: 1 turn/level
 
-When this spell is cast, the caster or any one creature or
-object they touch begins to levitate. Levitation allows
-the caster to cause the subject to rise or fall at a rate of
-as much as 20 feet per round.
+Levitate allows the caster to move himself or herself, another creature, or an object up and down as desired. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. The caster can mentally direct the recipient to move up or down as much as 20 feet each round, by concentration. The caster cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half its normal land speed).
 
-If a target creature is unwilling, the caster must roll a
-successful attack roll in order to touch the target, and
-even if this roll succeeds the target is allowed a save vs.
-Spells to resist the magic. Likewise, if the target is an
-object being held by an unwilling creature, a similar
-attack roll and saving throw will be required.
-Unattended objects are automatically affected when
-touched.
-
-The caster controls the levitating subject mentally. If
-the caster ceases to control the subject, it remains at its
-current altitude until the spell ends, at which point it
-falls.
-
-Levitation does not provide any means of horizontal
-movement, but neither is the levitated subject fixed in
-place. It can be moved by pushing or by towing with a
-rope, for example. A creature being levitated can pull
-itself along a cliff face or across a ceiling, or pull itself
-with a rope fixed to a solid object. Movement of this
-sort is usually at half normal walking speed. The
-subject cannot, however, change its own altitude.
-
-If a levitating creature attempts to attack with most
-weapons it will find that it is unstable. The first such
-attack is made at a penalty of -1 on the attack roll, and
-this penalty worsens by an additional -1 each round to
-a maximum penalty of -5. Should the creature refrain
-from making an attack for a full round, it is reduced to
-the -1 penalty level on the next round. This does not
-usually affect spellcasting while levitated, however.
-
+A levitating creature that attacks with a weapon finds itself increasingly unstable; the first attack has a –1 attack penalty, the second –2, and so on, to a maximum penalty of –5. A full round spent stabilizing allows the creature to begin again at –1.
 </div>
-<div class="spell" data-tag="Light*" id="Light*">
 
+<div class="spell" data-tag="Light*" id="Light*">
 ## Light*
 
-Range: 120'
+Cleric 1, Druid 1, Magic-User 1
 
-Cleric 1, Magic-User 1
+Range: 120'
 
 Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **light** becomes **darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
-Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **light** or **darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
-
+Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **Light** or **Darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
 </div>
+
 <div class="spell" data-tag="Lightning Bolt" id="Lightning Bolt">
-
 ## Lightning Bolt
-
-Range: 100' + 10'/level
-
+ 
 Magic-User 3
+
+Range: 50'+10'/level
 
 Duration: Instantaneous
 
-Casting this spell causes a bright thin spark about the
-thickness of a string to fly forth from the caster's
-pointing finger, which indicates the direction. The spark
-stretches as fast as an arrow's flight until it reaches the
-caster's chosen distance (but not more than the range
-given above) or strikes a solid or liquid surface, at which
-point it explodes into a full-fledged bolt of lightning
-extending another 60 feet further. The lightning bolt
-passes through an area 5 feet wide, arcing and jumping,
-so that while it is not actually 5 feet wide, for game
-purposes it is treated as if it were.
+This spell releases a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level to each creature within its area. A save vs. Spells for half damage is allowed. The bolt begins at the caster's fingertips and extends to the range given. The caster may choose to limit the range of the spell, but the minimum range is 60 feet. The lightning bolt passes through an area 5' wide, arcing and jumping, so that, while it is not actually 5' wide, for game purposes treat it as if it is so.
 
-Those within the area of the lightning bolt suffer 1d6
-points of damage per caster level, with a saving throw
-vs. Spells allowed for half damage.
-
-If a lightning bolt is targeted at a body of water it
-explodes at the point of impact, as described above, but
-within the water volume struck it expands like a fireball
-to a maximum radius of 20 feet instead of performing
-as it does in the air. If a lightning bolt is cast
-underwater it explodes in the same way, but at the tip
-of the caster's outstretched finger.
-
-The lightning bolt sets fire to combustibles and damages
-objects in its path. It can damage metals with a low
-melting point; metals such as gold, silver, lead, copper,
-or bronze may be softened briefly and thus deformed,
-but the lightning does not persist long enough to
-actually melt the metal items unless they are very small
-(such as a thin gold neck chain for example).
-
-If the damage caused to an interposing barrier shatters
-or breaks through it, the bolt may continue beyond the
-barrier if the spell’s range permits; otherwise, it may
-reflect from the barrier back toward the caster, or in a
-random direction at the GM's option. Creatures already
-affected by the lightning bolt do not take additional
-damage if struck by the reflection of the same bolt.
-
+The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it may reflect from the barrier back toward the caster, or in a random direction at the GM's option. Creatures already affected by the lightning bolt do not take additional damage if struck by the reflection of the same bolt.
 </div>
+
 <div class="spell" data-tag="Locate Object" id="Locate Object">
-
 ## Locate Object
-
-Range: 360'
 
 Cleric 3, Magic-User 2
 
+Range: 360'
+
 Duration: 1 round/level
 
-This spell grants the caster knowledge of the location of
-an object. The caster must know the object well or be
-able to clearly imagine it. (Viewing an accurate drawing
-or painting will suffice for the latter option.) A general
-item can be located; if more than one such item is in
-range, the spell will lead the caster to the nearest one.
-
-Unique or unusual items can only be located if the
-caster has first-hand knowledge (not merely through
-divination such as **clairvoyance** or a **crystal ball**). The
-spell cannot be used to locate creatures of any sort. A
-layer of lead or gold no thicker than foil surrounding the
-item will prevent it from being located.
-
+This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as [Clairvoyance](allSpells.html#clairvoyance) or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
 </div>
+
 <div class="spell" data-tag="Lower Water" id="Lower Water">
 
 ## Lower Water
@@ -3207,6 +3149,19 @@ Alternately, this spell can be used to restore drained ability score points. If 
 Restoration does not restore levels lost due to death (as described for the spell **raise dead**).
 
 </div>
+
+<div class="spell" data-tag="Shrink Item" id="Shrink Item">
+## Shrink Item
+ 
+Magic-User 4
+
+Range: Touch
+
+Duration: Permanent
+
+By means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an **Shrink Item** spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.
+</div>
+
 <div class="spell" data-tag="Shield" id="Shield">
 
 ## Shield
