@@ -5314,7 +5314,7 @@ In rare cases, adventurers have been known to disappear, summoned by powerful sp
 
 ::: {.callout-note icon=false collapse=true}
 
-## Mordenkainen’s Faithful Hound
+## Mordenkainen's Faithful Hound
 
 Magic-User 4
 
@@ -6380,7 +6380,7 @@ The spell damages objects in the area and ignites flammable objects that aren't 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Mordenkainen’s Sword
+## Mordenkainen's Sword
 
 Magic-User 7
 

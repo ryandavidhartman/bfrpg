@@ -2012,11 +2012,55 @@
     ]
   },
   {
+    "objectID": "allSpells.html#locate-corpse",
+    "href": "allSpells.html#locate-corpse",
+    "title": "9  Spells, Alphabetical",
+    "section": "Locate Corpse",
+    "text": "Locate Corpse\nBlack Magic-User 1\nRange: 360’\nDuration: 1 round/level\nThis spell allows the caster to sense the direction of the closest corpse or remains of a type usable for spells such as Re-animation or other similar spells. Throughout the duration, the caster need simply concentrate on the general type of corpse (animal, humanoid, large size, etc) and of applicable state (intact, fresh, skeletal, etc). The nearest remains fitting the criteria is located if more than one is within range. Upon arrival at the location of the nearest corpse, the caster can again concentrate to locate another corpse, as long as the spell duration lasts.\nSpecific remains belonging to a particular individual can be located with this spell, so long as the caster knew the individual personally during life. This spell is blocked by even a thin sheet of lead or gold. Creatures, whether living or in states of undeath, cannot be found by this spell.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#lower-water",
     "href": "allSpells.html#lower-water",
     "title": "9  Spells, Alphabetical",
     "section": "Lower Water",
-    "text": "Lower Water\nRange: 20’/level\nMagic-User 6\nDuration: 1 turn/level\nUsing this spell the caster lowers the level of the water in a river, a lake, or even the sea by up to 2 feet per caster level for the given duration, but to no less than 1 inch deep. The spell affects an area with radius of at most 10 feet per level centered on the caster’s chosen location (within the range given).\nThere will be a steep slope up to the surface of any area of un-lowered water that falls outside the spell’s radius. Ships which were already in the area of effect as well as any that dare to enter it will be unable to climb the slope and thus unable to leave the area (if not outright beached by the spell in the first place).\nThis spell has the effect of slow (the reverse of haste) when cast upon water elementals and other creatures formed from water; a save vs. Spells is allowed, with success negating the effect. It cannot be cast upon any other kind of creatures.",
+    "text": "Lower Water\nDruid 4, Magic-User 6\nRange: 360’\nDuration: 1 turn/level\nThis spell causes water or similar liquid to reduce its depth by as much as 2 feet per caster level (to a minimum depth of 1 inch). The water is lowered within a more or less square-shaped depression whose sides are up to 10 feet long per caster level. In extremely large and deep bodies of water, such as a deep ocean, the spell creates a whirlpool that sweeps ships and similar craft downward, putting them at risk and rendering them unable to leave by normal movement for the duration of the spell.\nWhen cast on water elementals and other water-based creatures, this spell acts as a Slow spell (the reverse of Haste); a save vs. Spells is allowed, with success negating the effect. The spell has no effect on other creatures.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mage-armor",
+    "href": "allSpells.html#mage-armor",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mage Armor",
+    "text": "Mage Armor\nMagic-User 1\nRange: Self\nDuration: 1 turn\nThis spell creates a magical armor which protects the caster. The caster’s skin becomes hard and stone-like, giving the caster a +2 bonus to armor class vs. melee attacks and hand-thrown missiles such as daggers or spears, and a +4 bonus to armor class vs. normal sized projectiles such as arrows, bolts, sling stones, and sling bullets.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mage-hand",
+    "href": "allSpells.html#mage-hand",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mage Hand",
+    "text": "Mage Hand\nMagic-User 1\nRange: 40’\nDuration: 10 rounds\nA spectral hand is conjured, which may either move one pound of materials at a speed of 10 feet per round for ten rounds (at a maximum range of 40 feet), or give an object a powerful push about equal to the caster’s strength at a range of 10 feet.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#magic-mirror",
+    "href": "allSpells.html#magic-mirror",
+    "title": "9  Spells, Alphabetical",
+    "section": "Magic Mirror",
+    "text": "Magic Mirror\nCleric 4, Magic-User 4\nRange: 10’\nDuration: 1 round/level\nTurns a reflective surface within range into a magic mirror through which the caster can view other creatures. The caster must know and name the creature. The caster and any other creatures viewing the mirror will be able to see the images, but only the caster will hear sound from the viewing. Detection and vision spells can be cast into it with a 3% chance per caster level of success. If successful, this allows the caster to cast detect magic, see invisible, etc. through the mirror.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -2027,7 +2071,7 @@
     "href": "allSpells.html#magic-jar",
     "title": "9  Spells, Alphabetical",
     "section": "Magic Jar",
-    "text": "Magic Jar\nRange: 60’\nMagic-User 5\nDuration: Special\nThis spell allows the caster to attempt to possess the body of another living creature. The caster begins by placing their spirit into a gem, jewel, or large crystal of some sort within the spell range, called the magic jar. The caster needs to know where the magic jar is located, but does not have to be able to see it. While the caster’s spirit is outside their body, that body appears to all intents and purposes to be dead, but does not undergo decay as a normal dead body would.\nEach round after entering the magic jar the caster’s spirit can attempt to take control of the body of a living creature within the spell range; the target is allowed a save vs. Spells to resist. If the saving throw fails, the spirit of the target (now called the host) is trapped in the magic jar and the caster’s spirit takes possession of the host’s body. Possession of a creature by means of this spell is blocked by protection from evil or a similar ward.\nIf the attempt to possess a victim fails, the caster’s spirit remains in the magic jar, and that target creature is immune to further attempts for the duration of the spell. The caster may make an attempt to possess another target on the following round, if desired.\nIf on the other hand the possession attempt is successful, the caster may remain in control of the host’s body for as long as desired. The caster’s spirit may return to the magic jar at any time when it is within spell range, restoring the host’s spirit to its own body. The caster may not return to the same host’s body again for the remainder of the duration of this spell, but may attempt to possess it again on a subsequent casting.\nWhenever the caster’s spirit is in the magic jar, it may choose to return to its own body if it is within spell range. If the body is not in range, the caster’s spirit may become trapped if no vulnerable creatures are in range.\nWhenever the caster’s spirit returns to their own body, the spell ends. There is a 50% chance that the magic jar will shatter when the spell ends (if the spell did not end because it was broken), becoming worthless and unusable.\nWhen the caster’s spirit possesses a host, the caster has access to the physical abilities of the host’s body, including Strength, Dexterity, and Constitution, while still retaining their own Intelligence, Wisdom, and Charisma. The caster has access only to their own knowledge, class and level, attack bonus, saving throws, spell casting ability, and any other purely mental capabilities.\nThe caster does not gain access to supernatural or otherwise extraordinary powers of the host, and may not be able to perform physical actions that the caster has never done before (such as flying, if a winged body has been possessed). The caster does have access to the host’s sensory capabilities, such as Darkvision, the enhanced sense of smell of a dog, and so on\nIf the caster’s spirit is in the magic jar, and the jar is broken (whether by dispel magic or physical damage), the caster’s spirit will return to its own body if it is in spell range; if not, the caster’s spirit departs (i.e. the caster dies). In either case, the spell ends.\nIf the caster’s spirit is driven from the host body by dispel evil, and the magic jar is in range of the host body, the caster’s spirit returns to the jar and the host’s spirit returns to its body. The caster will not be able to possess the same host again for the remaining duration of the spell. If the magic jar is not in range of the host body, the caster’s spirit departs, the host’s spirit is freed from the jar and also departs, and the host’s body dies.\nIf the host’s spirit is in the magic jar, and the jar is broken while in spell range of the host body, the caster’s spirit departs, the host’s spirit returns to its body, and the spell ends. If the jar is broken while out of range of the host’s body, the host’s spirit departs, the caster’s spirit is stranded in the host body. Note here that the spell has not ended. Dispel evil can still be used to drive the caster’s spirit from the body, which departs as noted, ending the spell. A stranded caster may use another casting of this spell (with another magic jar, of course) to return to their own body, which of course kills the host’s body.",
+    "text": "Magic Jar\nMagic-User 5\nRange: 60’\nDuration: Special\nBy casting Magic Jar, the caster places his or her soul in a gem or large crystal within spell range (known as the magic jar), leaving the body lifeless. The caster may then attempt to take control of a nearby living creature within spell range, forcing its soul into the magic jar. The caster may move back to the jar (thereby returning the trapped soul to its body) and attempt to possess another body. The spell ends when the caster’s soul returns to his or her own body, leaving the receptacle empty.\nTo cast the spell, the magic jar must be within spell range and the caster must know where it is, though he or she does not need to be able to see it. When the caster transfers his or her soul upon casting, the caster’s body is, as near as anyone can tell, dead, but does not undergo decay as a normal dead body would.\nPossession of a creature by means of this spell is blocked by Protection From Evil or a similar ward. The subject is allowed a save vs. Spells to resist. Failure to take over the host leaves the caster’s life force in the magic jar, and that target creature is immune to further attempts for the duration of the spell.\nIf the caster is successful, his or her life force occupies the host body, and the host’s life force is imprisoned in the magic jar. The caster keeps his or her Intelligence, Wisdom, Charisma, level, class, attack bonus, saving throws, and mental abilities (including spellcasting ability). The body retains its Strength, Dexterity, Constitution, hit points, and natural abilities. A body with extra limbs does not allow the caster to make more attacks than normal. The caster does not have access to any extraordinary or supernatural abilities of the body.\nIf the caster’s spirit is in the magic jar, and the jar is broken (whether by Dispel Magic or physical damage): If the jar is in range of the caster’s body, the caster’s spirit returns to its body. Otherwise, the caster’s spirit departs (the caster dies). In either case, the spell ends.\nIf the caster’s spirit is driven from the host body by Dispel Evil: If the magic jar is in range of the host body, the caster’s spirit returns to the jar, and the host’s spirit returns to its body. The caster will not be able to possess the same host again for the remaining duration of the spell. If the magic jar is not in range of the host body, the caster’s spirit departs, the host’s spirit is freed from the jar (and departs), and the host’s body dies.\nIf the host’s spirit is in the magic jar, and the jar is broken: If the jar is in range of the host’s body, the caster’s spirit departs, the host’s spirit returns to its body, and the spell ends. Otherwise, the host’s spirit departs, and the caster’s spirit is stranded in the host body. Note here that the spell has not ended. Dispel Evil can still be used to drive the caster’s spirit from the body, which departs as noted, ending the spell.\nIn any case where the spell ends with the caster’s body unoccupied by a spirit, that body does truly die.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -2038,7 +2082,7 @@
     "href": "allSpells.html#magic-missile",
     "title": "9  Spells, Alphabetical",
     "section": "Magic Missile",
-    "text": "Magic Missile\nRange: 100’+10’/level\nMagic-User 1\nDuration: Instantaneous\nThis spell causes a missile of magical energy to dart forth from the caster’s fingertip and strike its target, which must be at least partially visible to the caster, dealing 1d6+1 points of damage. The missile strikes unerringly. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.\nFor every three caster levels beyond 1st, an additional missile is fired – two at 4th level, three at 7th, four at 10th, and the maximum of five missiles at 13th level or higher. If the caster fires multiple missiles, he or she can target a single creature or several creatures. A single missile can strike only one creature. Targets must be designated before damage is rolled.",
+    "text": "Magic Missile\nMagic-User 1\nRange: 100’+10’/level\nDuration: Instantaneous\nThis spell causes a missile of magical energy to dart forth from the caster’s fingertip and strike its target, which must be at least partially visible to the caster, dealing 1d6+1 points of damage. The missile strikes unerringly. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.\nFor every three caster levels beyond 1st, an additional missile is fired – two at 4th level, three at 7th, four at 10th, and the maximum of five missiles at 13th level or higher. If the caster fires multiple missiles, he or she can target a single creature or several creatures. A single missile can strike only one creature. Targets must be designated before damage is rolled.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -2049,7 +2093,40 @@
     "href": "allSpells.html#magic-mouth",
     "title": "9  Spells, Alphabetical",
     "section": "Magic Mouth",
-    "text": "Magic Mouth\nRange: 30’\nMagic-User 1\nDuration: Special\nThis spell places a simple form of programmed illusion on a non-living object within range. When triggered, the spell causes the illusion of a mouth to appear on the object and a message to be said aloud. The enchantment can remain in place indefinitely, but is expended when triggered (i.e. the message is normally delivered only once).\nThe message recounted may be up to three words per caster level in length. The caster may insert pauses in the message, but the entire message must be delivered in a time period of no more than a turn. The voice of the spell can be made to speak at any volume attainable by a normal human. It will sound enough like the caster’s own voice to be recognized by a close associate of the caster, but not identical.\nThe illusionary mouth moves as if actually speaking the message being delivered, and remains visible during pauses. If placed on an artistic depiction of a creature with a mouth (such as a painting or statue), the spell can be made to appear to animate the mouth of the object.\nThis spell cannot be used to activate magic items which have command words, nor to activate any other magical effects.\nThe caster must choose the conditions under which this spell is triggered. The conditions may be as complicated or simple as desired, but must depend only on sight and hearing; the spell has no other sensory capabilities. The spell also has no particular intelligence, and can be fooled by disguises or illusions. The spell does have the capability to effectively see in normal darkness, but not in any sort of magical darkness, and it cannot detect invisible creatures nor see through doors, walls, or even opaque curtains. Likewise, stealth or magical silence are effective in preventing audible triggers. Finally, the spell cannot detect a character’s class, level, ability scores, or any other feature not obvious to a normal NPC.\nTriggers have an effective sensory range of 10 feet per caster level; sounds, sights, or actions outside that range will never trigger the spell.",
+    "text": "Magic Mouth\nMagic-User 1\nRange: 30’\nDuration: Special\nThis spell imbues the chosen non-living object with an enchanted mouth that suddenly appears and speaks its message the next time a specified event occurs. The message, which may be up to three words per caster level long, can be in any language known by the caster and can be delivered over a period of 10 minutes, at any volume from a whisper to a yell. The voice will resemble the caster’s, but will not be identical. The mouth cannot use command words or activate magical effects. It does, however, move according to the words articulated; if it were placed upon a statue, the mouth of the statue would move and appear to speak. Of course, magic mouth can be placed upon a tree, rock, or any other object.\nThe spell functions when specific conditions are fulfilled according to the caster’s command as set in the spell. Commands can be as general or as detailed as desired, although only visual and audible triggers can be used. Triggers react to what appears to be the case. Disguises and illusions can fool them. Normal darkness does not defeat a visual trigger, but magical darkness or invisibility does. Silent movement or magical silence defeats audible triggers. Audible triggers can be keyed to general types of noises or to a specific noise or spoken word. Actions can serve as triggers if they are visible or audible. A magic mouth cannot distinguish level, hit dice, or class except by external garb.\nThe range limit of a trigger is 10 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 60 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#maggot-spray",
+    "href": "allSpells.html#maggot-spray",
+    "title": "9  Spells, Alphabetical",
+    "section": "Maggot Spray",
+    "text": "Maggot Spray\nBlack Magic-User 2\nRange: 10’\nDuration: 1 round/level\nFrom the caster’s mouth sprays a stream of filth containing live flesh-eating maggots, affecting all within a 10-foot section immediately adjacent to and chosen by the caster. Those struck by the spray must save or be sickened for 2d6 rounds (like the Stench spell, causing a penalty of -2 to their attacks). Additionally, the maggots eat into the flesh, causing 1d4 points of damage immediately and on subsequent rounds an additional 1d4 points of damage per round for a number of rounds equal to the caster’s level. Individuals may stop the damage by using an entire round to brush off the maggots (no movement, attacks, and loss of any dexterity or shield bonuses during this round). Those taking the time to brush off the maggots take normal damage that round. Removing the maggots does not remove the sickening effect of those who failed their save.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mask-of-life",
+    "href": "allSpells.html#mask-of-life",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mask of Life",
+    "text": "Mask of Life\nBlack Magic-User 5\nRange: Touch\nDuration: 1 hour/level\nThis spell makes a single undead creature appear to be alive. The caster can decide which race and style of clothes is worn by the undead creature. The spell will also make the target’s movements appear life-like. The illusion will create appropriate ambient effects (smells, sounds, clothing textures, and such) that would be expected for the life-like appearance.\nIf the appearance is that of a living version of the target, anyone interacting with the target takes a -5 penalty to any saving throw to disbelieve the illusion. If the target attacks or does anything that only the undead creature could do, the penalty is removed.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mass-invisibility",
+    "href": "allSpells.html#mass-invisibility",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mass Invisibility",
+    "text": "Mass Invisibility\nMagic-User 7\nRange: 240’\nDuration: Special\nThis spell bestows the effect of an Invisibility spell on all creatures within a 30’ by 30’ area, exactly as if each such creature had received its own spell; thus, each subject will remain invisible until the caster attacks or casts a spell, and will remain invisible after leaving the area of effect. As with the normal invisibility spell, this spell lasts at most 24 hours.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -2060,29 +2137,139 @@
     "href": "allSpells.html#massmorph",
     "title": "9  Spells, Alphabetical",
     "section": "Massmorph",
-    "text": "Massmorph\nRange: 100’+10’/level\nMagic-User 4\nDuration: 1 hour/level\nWith this spell the caster causes 1d4+1 man-sized (or smaller) creatures per four caster levels to appear as if they are natural effects of the terrain (for example, trees in a forest, stalagmites in a cave, coral underwater, boulders in a cavern, etc.). All creatures to be affected must be within a 120’ radius of the caster at the time the spell is cast. Only those creatures the caster wishes to hide are affected, and then only if they are willing to be concealed. The caster may include himself or herself among the affected creatures.\nThose affected are thus concealed from other creatures passing through the area for so long as they remain still. If an affected creature chooses to move or attack, the illusion is dispelled for that creature, but those who remain still continue to be hidden. The caster may end the spell early if he or she wishes by speaking a single word. The illusion can also be ended by dispel magic.",
+    "text": "Massmorph\nMagic-User 4\nRange: 100’+10’/level\nDuration: 1 hour/level\nWith this spell the caster causes 1d4+1 man-sized (or smaller) creatures per four caster levels to appear as if they are natural effects of the terrain (for example, trees in a forest, stalagmites in a cave, coral underwater, boulders in a cavern, etc.). All creatures to be affected must be within a 120’ radius of the caster at the time the spell is cast. Only those creatures the caster wishes to hide are affected, and then only if they are willing to be concealed. The caster may include himself or herself among the affected creatures.\nThose affected are thus concealed from other creatures passing through the area for so long as they remain still. If an affected creature chooses to move or attack, the illusion is dispelled for that creature, but those who remain still continue to be hidden. The caster may end the spell early if he or she wishes by speaking a single word. The illusion can also be ended by Dispel Magic.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
     ]
   },
   {
-    "objectID": "allSpells.html#mind-reading",
-    "href": "allSpells.html#mind-reading",
+    "objectID": "allSpells.html#meal-blessing",
+    "href": "allSpells.html#meal-blessing",
     "title": "9  Spells, Alphabetical",
-    "section": "Mind Reading",
-    "text": "Mind Reading\nRange: 60’\nMagic-User 2\nDuration: 1 turn/level\nThis spell, sometimes incorrectly called ESP, permits the caster to hear (and possibly see, if the target visualizes anything) the surface thoughts of one or more living creatures within range. The caster must designate a direction or select a visible target, and then concentrate for a turn in order to “hear” the thoughts. Each turn the caster may choose to “listen” in a different direction. The caster may stop listening, then resume again later, so long as the duration has not expired. The target creature is not normally aware of being spied upon in this way, though any creature already under the effect of this spell or any similar form of telepathy will instantly know and be able to sense the direction of the caster.\nRock more than 2 inches thick or even a very thin covering of lead or gold will block the spell. All undead creatures are immune to this effect, as are mindless creatures and constructs such as golems.",
+    "section": "Meal Blessing",
+    "text": "Meal Blessing\nCleric 0, Druid 0\nRange: 10’\nDuration: Instaneous\nThe cleric says this short prayer before a meal to give the diners a blessing. Anyone who eats the meal within twenty minutes heals 1 hit point. The meal must be normally prepared and obtained in a way that the deity permits.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
     ]
   },
   {
-    "objectID": "allSpells.html#mirror-image",
-    "href": "allSpells.html#mirror-image",
+    "objectID": "allSpells.html#melfs-minute-meteors",
+    "href": "allSpells.html#melfs-minute-meteors",
     "title": "9  Spells, Alphabetical",
-    "section": "Mirror Image",
-    "text": "Mirror Image\nRange: Self\nMagic-User 2\nDuration: 1 turn/level\nThis spell allows the caster to create multiple illusory duplicates (called figments) which seem to swirl and move around and through each other as well as the caster more or less constantly, making it impossible for most creatures to determine which is the real one. A total of 1d4 images plus one image per three caster levels (maximum eight images total) are created.\nThe figments mimic the caster’s actions, going through the motions of casting spells, drinking potions, levitating, and so on, just as the caster does. Figments always look exactly like the caster.\nAny opponent who attacks or casts spells directly on the caster will always hit a figment instead. Attacking a figment destroys it, whether or not the attack roll is successful, as does any attack spell directed at one. Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a fireball, all figments will appear to be injured just as the caster was",
+    "section": "Melf’s Minute Meteors",
+    "text": "Melf’s Minute Meteors\nMagic-User 3\nRange: 70 yds. + 10 yds./level\nDuration: Special\nThis spell enables the wizard to cast small globes of fire (one for each experience level the caster has attained), each of which bursts into a 1-foot-diameter sphere upon impact, inflicting 1d4 points of damage to the creature struck. These can ignite combustible materials. The meteors are treated as missiles hurled by the wizard with a +2 bonus to the attack rolls and with no penalty for range. Misses are treated as grenade like missiles that inflict 1 point of damage to creatures within 3 feet.\nThe spell can be cast in either of two ways:\n\nThe wizard discharges all meteors in one round.\nThe wizard discharges only one meteor per round. In addition to releasing the missile, the caster can also perform other actions in the round, including spell casting, melee, or device use. Additional spells requiring concentration force the wizard to forgo the rest of the missiles.\n\nThe spell ends when the caster has fired off as many meteors as the caster has experience levels, when the caster forgoes casting any still remaining, or when a successful dispel magic spell is thrown upon the caster.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mend",
+    "href": "allSpells.html#mend",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mend",
+    "text": "Mend\nCleric 0, Druid 0\nRange: 10’\nDuration: Instantaneous\nMends breaks, dents, and holes in small objects.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#message",
+    "href": "allSpells.html#message",
+    "title": "9  Spells, Alphabetical",
+    "section": "Message",
+    "text": "Message\nMagic-User 2\nRange: Self\nDuration: 1 turn/level\nWhen this spell is cast, the caster can whisper messages and receive replies with little chance of being overheard. When the spell is cast, the caster chooses each creature to be included in the spell effect (up to one creature per level). When the caster whispers, the whispered message travels in a straight line and is audible to all of the involved creatures within 30 feet, plus 10 feet per level of the caster. The creatures that receive the message can whisper a reply that is heard by the spell caster. Note that there must be an unobstructed path between the caster and the recipients.\nThe message must be in a language the caster speaks; this spell does not by itself confer understanding upon the recipients. This spell is most often used to conduct quick and private conferences when the caster does not wish to be overheard.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#meteor-storm",
+    "href": "allSpells.html#meteor-storm",
+    "title": "9  Spells, Alphabetical",
+    "section": "Meteor Storm",
+    "text": "Meteor Storm\nMagic-User 7\nRange: 1 mile\nDuration: Instananeous\nBlazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a saving throw vs. Spells. The sphere spreads around corners. Any affected creature takes 15d6 fire and bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.\nThe spell damages objects in the area and ignites flammable objects that aren’t being worn or carrier.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#misty-step",
+    "href": "allSpells.html#misty-step",
+    "title": "9  Spells, Alphabetical",
+    "section": "Misty Step",
+    "text": "Misty Step\nMagic-User 3\nRange: Self\nDuration: Instantaneous\nThe Magic User becomes surrounded by shimmering, silvery mist through which they can teleport up to 30 feet to an unoccupied space that they can see.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#monster-summoning",
+    "href": "allSpells.html#monster-summoning",
+    "title": "9  Spells, Alphabetical",
+    "section": "Monster Summoning",
+    "text": "Monster Summoning\nMagic-User 4\nRange: Special\nDuration: 2 rounds + 1 round/level\nWithin one round of casting this spell, the wizard magically conjures monsters (see list below).\nThe monsters appear anywhere within the spell’s area of effect, as desired by the wizard. They attack the spell user’s opponents to the best of their ability until either the caster commands that the attacks cease, the spell duration expires, or the monsters are slain.\nThese creatures do not check morale, but they vanish when slain. Note that if no opponent exists to fight, summoned monsters can, if the wizard can communicate with them and if they are physically able, perform other services for the summoning wizard.\nIn rare cases, adventurers have been known to disappear, summoned by powerful spellcasters using this spell. Those summoned recall all the details of their trip.\n\n\n\nRoll\nMonster\n\n\n\n\n1\n1 Hell Hound\n\n\n2\n1d2 Giant Scorpions\n\n\n3\n2d4 Giant Centipedes\n\n\n4\n2d6 Hobgoblin Warriors\n\n\n5\n2d8 Skeletons\n\n\n6\n2d10 Goblins",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mordenkainens-faithful-hound",
+    "href": "allSpells.html#mordenkainens-faithful-hound",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mordenkainen’s Faithful Hound",
+    "text": "Mordenkainen’s Faithful Hound\nMagic-User 4\nRange: 10 yards/level\nDuration: Special\nBy means of this spell, the wizard summons up a phantom watchdog that only the caster can see. The caster may then command it to perform as guardian of a passage, room, door, or similar space or portal. The phantom watchdog immediately commences a loud barking if any creature larger than a cat approaches the place it guards. As the faithful hound is able to detect invisible creatures and ward against the approach of ethereal creatures, it is an excellent guardian. It does not react to illusions that are not at least quasi-real.\nIf the intruding creature exposes its back to the watchdog, the dog delivers a vicious attack as if it were a 10-Hit Dice monster, striking for 3d6 points of damage. It is able to hit opponents of all types, even those normally subject only to magical weapons of +3 or greater. Creatures without backs (for example, ochre jellies) are not attacked. The faithful hound cannot be attacked, but it can be dispelled. The spell lasts for a maximum of one hour plus half an hour per caster level, but once it is activated by an intruder, it lasts only one round per caster level. If the spellcaster is ever more than 30 yards distant from the area that the watchdog guards, the spell ends.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mordenkainens-sword",
+    "href": "allSpells.html#mordenkainens-sword",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mordenkainen’s Sword",
+    "text": "Mordenkainen’s Sword\nMagic-User 7\nRange: 30’\nDuration: 1 round/level\nThis spell brings into being a shimmering, sword-like plane of force. The sword strikes at any opponent within its range, as the caster desires, beginning in the round that the spell is cast. The sword attacks its designated target once each round on the caster’s normal initiative turn. The sword attacks as a fighter of the same level as the caster, and the attack roll is modified by the caster’s Intelligence bonus. The sword inflicts 3d4 points of damage on a successful hit, and can hit even creatures immune to non-magical weapons. On a natural roll of 19 or 20, it will automatically hit its target, no matter its armor class. The sword can only be destroyed by a successful application of Dispel Magic.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mount",
+    "href": "allSpells.html#mount",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mount",
+    "text": "Mount\nMagic-User 1\nRange: 30’\nDuration: 2 hours/level\nThis spell summons a riding horse or pony (caster’s choice) to serve as a mount. The mount comes with bit, bridle, and saddle.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#move-earth",
+    "href": "allSpells.html#move-earth",
+    "title": "9  Spells, Alphabetical",
+    "section": "Move Earth",
+    "text": "Move Earth\nDruid 6\nRange: 120’\nDuration: Concentration (up to 2 hours)\nThe druid may choose an area of terrain no larger than 40 feet on a side within range and reshape dirt, sand, or clay in the area in any manner for the duration. The caster can raise or lower the area’s elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can’t exceed half the area’s largest dimension.\nSo, if the caster affects a 40-foot square, the druid can create a pillar up to 20 feet high, raise or lower the square’s elevation by up to 20 feet, dig a trench up to 20 feet deep, and so on. It takes 10 minutes for these changes to complete.\nAt the end of every 10 minutes spent concentrating on the spell, the druid can choose a new area of terrain to affect. Because the terrain’s transformation occurs slowly, creatures in the area can’t usually be trapped or injured by the ground’s movement.\nThis spell can’t manipulate natural stone or stone construction. Rocks and structures shift to accommodate the new terrain. If the way you shape the terrain would make a structure unstable, it might collapse.\nSimilarly, this spell doesn’t directly affect plant growth. The moved earth carries any plants along with it.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#mummify",
+    "href": "allSpells.html#mummify",
+    "title": "9  Spells, Alphabetical",
+    "section": "Mummify",
+    "text": "Mummify\nBlack Magic-User 6\nRange: 360’\nDuration: 1 turn/level\nAfter careful ceremonial preparations lasting five days, and the application of many rare and expensive unguents, the caster is able to call back the spirit of the dead to reanimate its corpse as a mummy. Mummies so created are of the standard sort (see its monster entry). Mummies do not count against the normal limits of controllable undead (per Re-animation spell), but the caster can maintain control over as many Hit Dice of mummies as their own level.\nMummies do not travel well, being slow and quickly wear down, taking damage on long journeys. They make better guardians for the animator’s lair. A separate casting of the spell is necessary for each mummy created. It might be possible to create a mummy from a large humanoid such as a giant, however the difficulty will be greater (the GM determines how much more difficult). More powerful mummies, such as those with intact class-based powers, are generally created through the use of the undeath spell.\nMummification is generally in the realm of the Black Magic-User, but occasionally Clerics of certain cults might have access as well.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
@@ -2093,7 +2280,40 @@
     "href": "allSpells.html#neutralize-poison",
     "title": "9  Spells, Alphabetical",
     "section": "Neutralize Poison*",
-    "text": "Neutralize Poison*\nRange: Touch\nCleric 4\nDuration: Instantaneous\nThis spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.\nReversed, this spell becomes poison. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster’s touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).",
+    "text": "Neutralize Poison*\nCleric 4\nRange: Touch\nDuration: Instantaneous\nThis spell detoxifies any sort of venom in the creature or object touched. A poisoned creature suffers no additional effects from the poison; if cast upon a creature slain by poison in the last 10 rounds, the creature is revived with 1 hit point. If cast upon a poisonous object (weapon, trap, etc.) the poison is rendered permanently ineffective.\nReversed, this spell becomes Poison. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster’s touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#obscuring-mist",
+    "href": "allSpells.html#obscuring-mist",
+    "title": "9  Spells, Alphabetical",
+    "section": "Obscuring Mist",
+    "text": "Obscuring Mist\nMagic-User 2, Druid 2\nRange: 20’\nDuration: 1 turn/level\nThis spell causes a bank of misty vapor to arise around the caster, remaining stationary once created. The vapor obscures all sight, including darkvision, beyond 2d4 ft. A strong wind can disperse the spell in one-quarter the usual duration.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#open",
+    "href": "allSpells.html#open",
+    "title": "9  Spells, Alphabetical",
+    "section": "Open*",
+    "text": "Open*\nMagic-User 0\nRange: 30’\nDuration: Intantaneous\nA normal, unlocked door, window, or other portal may be opened by this cantrip. Reversed, the Close spell will close a normal, open door, window, or other portal.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#obscuring-mist-1",
+    "href": "allSpells.html#obscuring-mist-1",
+    "title": "9  Spells, Alphabetical",
+    "section": "Obscuring Mist",
+    "text": "Obscuring Mist\nMagic-User 2, Druid 2\nRange: 20’\nDuration: 1 turn/level\nThis spell causes a bank of misty vapor to arise around the caster, remaining stationary once created. The vapor obscures all sight, including darkvision, beyond 2d4 ft. A strong wind can disperse the spell in one-quarter the usual duration.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
