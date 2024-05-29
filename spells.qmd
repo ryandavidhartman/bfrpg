@@ -2368,24 +2368,6 @@ This spell works exactly like [Cure Light Wounds](allSpells.html#cure-light-wou
 
 ::: {.callout-note icon=false collapse=true}
 
-## Designor’s Wind Mastery
- 
-Druid 4, Magic-User 5
-
-Range: 0'
-
-Duration: 1 turn/level
-
-The caster alters wind force around them (40 ft per caster level radius cylinder 40 ft high).  The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength.  The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration.  The caster may create an “eye” of calm air up to 40 ft radius around them and may choose to limit the area of effect to any cylindrical area less than their full limit.
-
-The caster may choose wind patterns over the spell’s area.  The caster can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.
-
-For every three caster levels, the caster can increase or decrease wind condition by one level.
-        
-:::
-
-::: {.callout-note icon=false collapse=true}
-
 ## Growth of Plants*
 
 Druid 4, Magic-User 6
@@ -2564,7 +2546,25 @@ A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened,
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Designor’s Wind Mastery
  
+Druid 5, Magic-User 5
+
+Range: 0'
+
+Duration: 1 turn/level
+
+The caster alters wind force around them (40 ft per caster level radius cylinder 40 ft high).  The caster can make the wind blow in a certain direction or manner, increase its strength, or decrease its strength.  The new wind direction and strength persist until the spell ends or until the caster chooses to alter it, which requires concentration.  The caster may create an “eye” of calm air up to 40 ft radius around them and may choose to limit the area of effect to any cylindrical area less than their full limit.
+
+The caster may choose wind patterns over the spell’s area.  The caster can choose a downdraft blows from the center outward, an updraft blows from the outer edges in toward the center, a rotation that causes the winds to circle the center or a blast that simply causes the winds to blow in one direction across the entire area from one side to the other.
+
+For every three caster levels, the caster can increase or decrease wind condition by one level.
+        
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Dig
 
 Druid 5, Magic-User 4
@@ -5554,7 +5554,7 @@ A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened,
 
 ## Designor’s Wind Mastery
  
-Druid 4, Magic-User 5
+Druid 5, Magic-User 5
 
 Range: 0'
 
