@@ -2611,30 +2611,6 @@ Duration: Intantaneous
 A normal, unlocked door, window, or other portal may be opened by this cantrip.  Reversed, the **Close** spell will close a normal, open door, window, or other portal.
 </div>
 
-<div class="spell" data-tag="Obscuring Mist" id="Obscuring Mist">
-## Obscuring Mist
-
-Magic-User 2, Druid 2
-
-Range: 20'
-
-Duration: 1 turn/level
-
-This spell causes a bank of misty vapor to arise around the caster, remaining stationary once created.  The vapor obscures all sight, including darkvision, beyond 2d4 ft.  A strong wind can disperse the spell in one-quarter the usual duration.
-</div>
-
-<div class="spell" data-tag="Open*" id="Open*">
-## Open*
-
-Magic-User 0
-
-Range: 30'
-
-Duration: Intantaneous
-
-A normal, unlocked door, window, or other portal may be opened by this cantrip.  Reversed, the **Close** spell will close a normal, open door, window, or other portal.
-</div>
-
 <div class="spell" data-tag="Part Water" id="Part Water">
 ## Part Water
 
