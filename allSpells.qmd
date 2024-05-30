@@ -2416,7 +2416,7 @@ Duration: 1 turn/level
 When this spell is cast, the caster can whisper messages and receive replies with little chance of being overheard. When the spell is cast, the caster chooses each creature to be included in the spell effect (up to one creature per level). When the caster whispers, the whispered message travels in a straight line and is audible to all of the involved creatures within 30 feet, plus 10 feet per level of the caster. The creatures that receive the message can whisper a reply that is heard by the spell caster. Note that there must be an unobstructed path between the caster and the recipients.
 
 The message must be in a language the caster speaks; this spell does not by itself confer understanding upon the recipients. This spell is most often used to conduct quick and private conferences when the caster does not wish to be overheard.
-<div>
+</div>
 
 <div class="spell" data-tag="Meteor Storm" id="Meteor-Storm">
 ## Meteor Storm
