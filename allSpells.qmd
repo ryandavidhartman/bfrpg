@@ -2027,7 +2027,7 @@ This spell summons one swarm of locusts per three caster levels, to a maximum of
 </div>
 
 <div class="spell" data-tag="Inscribe" id="Inscribe">
-## Inscrbe
+## Inscribe
 
 Magic-User 0
 
@@ -2433,7 +2433,7 @@ The spell damages objects in the area and ignites flammable objects that aren't 
 </div>
 
 <div class="spell" data-tag="Minor Warding" id="Minor-Warding">
- ## Minor Warding
+## Minor Warding
  
 Black Magic-User 2
 

@@ -3265,7 +3265,7 @@ This cantrip may either make one dish taste any way the caster wants it to (whic
 
 ::: {.callout-note icon=false collapse=true}
 
-## Inscrbe
+## Inscribe
 
 Magic-User 0
 
@@ -4306,7 +4306,7 @@ The message must be in a language the caster speaks; this spell does not by itse
 
 ::: {.callout-note icon=false collapse=true}
  
- ## Minor Warding
+## Minor Warding
  
 Black Magic-User 2
 
