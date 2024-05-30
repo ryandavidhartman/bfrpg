@@ -3212,7 +3212,7 @@ Magic-User 0
 
 Range: 30'
 
-Duration: Instananeous
+Duration: Instantaneous
 
 A mage making use of this cantrip may clean, shine, dust, or polish a small object or surface of up to 1 square foot. Reversed, this becomes **Dirty**, which can make the same area dirty, tarnished, scuffed, or dusty.
 
@@ -3226,7 +3226,7 @@ Magic-User 0
 
 Range: 100' + 10'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
 Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
 
@@ -3243,7 +3243,7 @@ Magic-User 0
 
 Range: 20' + 5'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
  A flash of light, a very small ball of fire, or a puff of colored smoke can be created by this cantrip. They will not typically last longer than a second.
 
@@ -3257,7 +3257,7 @@ Magic-User 0
 
 Range: 20' + 5'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
 This cantrip may either make one dish taste any way the caster wants it to (which is an illusion), or add salt, spice, sweetener, or another flavoring agent (which is real). Reversed, it becomes **Putrefy**, which makes the food or drink either go bad (which is real) or taste as if it had been prepared wrongly (which is an illusion).
 
@@ -6429,11 +6429,11 @@ Magic-User 7
 
 Range: 1 mile
 
-Duration: Instananeous
+Duration: Instantaneous
 
 Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a saving throw vs. Spells. The sphere spreads around corners. Any affected creature takes 15d6 fire and bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 
-The spell damages objects in the area and ignites flammable objects that aren't being worn or carrier.
+The spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
 
 :::
 

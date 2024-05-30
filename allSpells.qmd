@@ -20,7 +20,7 @@ Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone wi
 Incorporeal creatures do not trigger the alarm.
 </div>
 
-<div class="spell" data-tag="Alter Self" id="Alarm">
+<div class="spell" data-tag="Alter Self" id="Aleter-Self">
 ## Alter Self
 
 Magic-User 2
@@ -35,7 +35,7 @@ The caster's Hit Points, attack rolls, Armor Class, and saving throws do not cha
 </div>
 
 
-<div class="spell" data-tag="Analyze Magic" id="Analyze Magic">
+<div class="spell" data-tag="Analyze Magic" id="Analyze-Magic">
 ## Analyze Magic
 
 Magic-User 2
@@ -51,7 +51,7 @@ Each turn of study requires the caster to make a d20 roll, adding their Intellig
 The item or area to be studied must be within 5' of the caster for the full duration of scrutiny, and the caster must maintain moderate concentration.
 </div>
 
-<div class="spell" data-tag="Animal Friendship" id="Animal Friendship">
+<div class="spell" data-tag="Animal Friendship" id="Animal-Friendship">
 ## Animal Friendship
 
 Druid 1
@@ -67,7 +67,7 @@ If the animal fails its save, it becomes an animal friend and joins the caster f
 A caster may only have, at most, twice their level in hit dice of animal friends.  If this spell is cast on an animal that would put the total above that number, it has no effect.
 </div>
 
-<div class="spell" data-tag="Animate Dead" id="Animate Dead">
+<div class="spell" data-tag="Animate Dead" id="Animate-Dead">
 ## Animate Dead
  
 Cleric 4, Magic-User 5
@@ -79,7 +79,7 @@ Duration: Special
 This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
 </div>
 
-<div class="spell" data-tag="Animate Natural Objects" id="Animate Natural Objects">
+<div class="spell" data-tag="Animate Natural Objects" id="Animate-Natural-Objects">
 ## Animate Natural Objects
 
 Druid 6
@@ -91,7 +91,7 @@ Duration: 1 round/level
 This spell functions identically to the cleric spell [Animate Objects](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
 </div>
 
-<div class="spell" data-tag="Animate Objects" id="Animate Objects">
+<div class="spell" data-tag="Animate Objects" id="Animate-Objects">
 ## Animate Objects
 
 Cleric 6
@@ -105,7 +105,7 @@ This spell imbues inanimate objects with mobility and a semblance of life. The a
 The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
 </div>
 
-<div class="spell" data-tag="Animate Tool" id="Animate Tool">
+<div class="spell" data-tag="Animate Tool" id="Animate-Tool">
 ## Animate Tool
 
 Magic-User 0
@@ -119,7 +119,7 @@ A single, small tool (such as a quill pen, spoon, sewing needle, or small hammer
 The magic user must be able to perform the repeated action by hand himself. Weapons may not be animated by this cantrip, and objects animated may not be used as weapons.
 </div>
 
-<div class="spell" data-tag="Anti-Magic Shell" id="Anti-Magic Shell">
+<div class="spell" data-tag="Anti-Magic Shell" id="Anti-Magic-Shell">
 ## Anti-Magic Shell
 
 Cleric 7, Druid 7, Magic-user 6
@@ -132,7 +132,7 @@ Within a 10' radius around the caster, all magic is negated for the full duratio
 
 </div>
 
-<div class="spell" data-tag="Arcane Bolt" id="Arcane Bolt">
+<div class="spell" data-tag="Arcane Bolt" id="Arcane-Bolt">
 ## Arcane Bolt
 
 Magic-user 0
@@ -146,7 +146,7 @@ This inherent magic is a bolt of raw arcane power. The Magic-User doesn't roll a
 The **Feat Arcane Bolt, Greater** (Magic User only) improves **Arcane Bolt**. The Target gets a save vs. magic for half damage. The bolt has a range of 40 feet and does 1d6 damage. Since it is pure magic, it will affect creatures, which are only affected by magical weapons. The spell does not affect inanimate objects.
 </div>
 
-<div class="spell" data-tag="Assume Animal Form" id="Assume Animal Form">
+<div class="spell" data-tag="Assume Animal Form" id="Assume-Animal-Form">
 ## Assume Animal Form
 
 Druid 3
@@ -160,7 +160,7 @@ This spell allows the caster to change into the form of any natural animal.  The
 The caster gains the physical capabilities and statistics of the new form but retains their own mental abilities.  The caster may remain transformed up to one hour per level, or end the spell earlier if the caster so desires.
 </div>
 
-<div class="spell" data-tag="Astral Form" id="Astral Form">
+<div class="spell" data-tag="Astral Form" id="Astral-Form">
 ## Astral Projection
 
 Cleric 7, Magic-user 7
@@ -192,7 +192,7 @@ When the **Barkskin** spell is cast upon a creature, its skin becomes as tough a
 This spell does not function in combination with normal armor or any magical protection. In addition, saving throw rolls vs. all attack forms except magic gain a +1 bonus. This spell can be placed on the caster or on any other creature the caster touches.
 </div>
 
-<div class="spell" data-tag="Bigby's Forceful Hand" id="Bigby's Forceful Hand">
+<div class="spell" data-tag="Bigby's Forceful Hand" id="Bigbys-Forceful-Hand">
 ## Bigby's Forceful Hand
 
 Magic-user 6
@@ -206,7 +206,7 @@ Duration: 1 round/level
 A creature pushed away is pushed to the range limit, or until pressed against an unyielding surface. The hand itself inflicts no damage. The forceful hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can cause it to retreat (to release a trapped opponent, for example) or dismiss it on command.
 </div>
 
-<div class="spell" data-tag="Bigby's Grasping Hand" id="Bigby's Grasping Hand">
+<div class="spell" data-tag="Bigby's Grasping Hand" id="Bigbys-Grasping-Hand">
 ## Bigby's Grasping Hand
 
 Magic-user 7
@@ -221,7 +221,7 @@ The hand itself inflicts no damage. The grasping hand has an Armor Class of 18, 
 </div>
 
 
-<div class="spell" data-tag="Bigby's Interposing Hand" id="Bigby's Interposing Hand">
+<div class="spell" data-tag="Bigby's Interposing Hand" id="Bigbys-Interposing-Hand">
 ## Bigby's Interposing Hand
  
 Magic-User 4
@@ -237,7 +237,7 @@ It provides cover for the caster against the selected opponent, with all the att
 Any creature weighing less than 2,000 pounds trying to push past the hand is slowed to half its normal movement. If the original opponent is slain, the caster can designate a new opponent for the hand. The caster can command the hand out of existence at any time.
 </div>
 
-<div class="spell" data-tag="Black Tentacles" id="Black Tentacles">
+<div class="spell" data-tag="Black Tentacles" id="Black-Tentacles">
 ## Black Tentacles
  
 Black Magic-User 4
@@ -253,7 +253,7 @@ The tentacles will attack any creature in the area with the intent to wrestle/gr
 Any creature that is not held by a tentacle may still only move through the affected area at half speed.
 </div>
 
-<div class="spell" data-tag="Blade Barrier" id="Blade Barrier">
+<div class="spell" data-tag="Blade Barrier" id="Blade-Barrier">
 ## Blade Barrier
 
 Cleric 6
@@ -269,7 +269,7 @@ If the caster evokes the barrier so that it appears where creatures are, each cr
 A blade barrier provides cover (+4 bonus to Armor Class) against attacks made through it.
 </div>
 
-<div class="spell" data-tag="Bless*" id="Bless*">
+<div class="spell" data-tag="Bless*" id="Bless">
 ## Bless*
 
 Cleric 2
@@ -329,7 +329,7 @@ Duration: 1 turn/level
  The caster manifests a chitinous bone-like armor, giving a +4 bonus to AC. The boney bulk that is added doesn’t affect other spell casting.
  </div>
 
-<div class="spell" data-tag="Burning Hands" id="Burning Hands">
+<div class="spell" data-tag="Burning Hands" id="Burning-Hands">
 ## Burning Hands
 
 Magic-User 1
@@ -343,7 +343,7 @@ When the wizard casts this spell, a jet of searing flame shoots from their finge
 Any creature in the area of the flames suffers 1d3 points of damage, plus 2 points for each level of experience of the spellcaster, to a maximum of 1d3+20 points of fire damage. Those successfully saving vs. spell receive half damage. Flammable materials touched by the fire burn (for example, cloth, paper, parchment, thin wood, etc.). Such materials can be extinguished in the next round if no other action is taken.
 </div>
 
-<div class="spell" data-tag="Call Lightning" id="Call Lightning">
+<div class="spell" data-tag="Call Lightning" id="Call-Lightning">
 ## Call Lightning
 
 Druid 3
@@ -361,7 +361,7 @@ If the caster is outdoors and in a stormy area – a rain shower, clouds and win
 This spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the GM's discretion.
 </div>
 
-<div class="spell" data-tag="Call Woodland Beings" id="Call Woodland Beings">
+<div class="spell" data-tag="Call Woodland Beings" id="Call-Woodland-Beings">
 ## Call Woodland Beings
 
 Druid 4
@@ -385,7 +385,7 @@ The caster may conjure one type of creature from this list, at their option:
 This spell only works outdoors in a natural location and will not function within the boundaries of any village, town, or city.
 </div>
 
-<div class="spell" data-tag="Charm Animal" id="Charm Animal">
+<div class="spell" data-tag="Charm Animal" id="Charm-Animal">
 ## Charm Animal
 
 Cleric 2, Druid 2
@@ -399,7 +399,7 @@ This spell allows the caster to charm one or more animals, in much the same fash
 This spell does not grant the caster any special means of communication with the affected animals; if combined with [Speak With Animals](allSpells.html#speak-with-animals), this spell becomes significantly more useful.
 </div>
 
-<div class="spell" data-tag="Charm Monster" id="Charm Monster">
+<div class="spell" data-tag="Charm Monster" id="Charm-Monster">
 ## Charm Monster
 
 Magic-User 4 
@@ -411,7 +411,7 @@ Duration: Special
 This spell functions like [Charm Person](allSpells.html#charm-person), except that the effect is not restricted by creature type or size. Undead monsters are unaffected. This spell can affect 3d6 hit dice of creatures of 3 or fewer hit dice, or one creature of more than 3 hit dice. Saving throws are made just as for [Charm Person](allSpells.html#charm-person).
 </div>
 
-<div class="spell" data-tag="Charm Person" id="Charm Person">
+<div class="spell" data-tag="Charm Person" id="Charm-Person">
 ## Charm Person
 
 Magic-User 1
@@ -466,7 +466,7 @@ Magic-User 0
 
 Range: 30'
 
-Duration: Instananeous
+Duration: Instantaneous
 
 A mage making use of this cantrip may clean, shine, dust, or polish a small object or surface of up to 1 square foot. Reversed, this becomes **Dirty**, which can make the same area dirty, tarnished, scuffed, or dusty.
 </div>
@@ -497,7 +497,7 @@ The caster speaks a single-word command, which will be obeyed by a single creatu
 Undead are not affected. Creatures with Intelligence of 13 or more and creatures with 6 or more hit dice may save vs. Spells to resist.
 </div>
 
-<div class="spell" data-tag="Command Undead" id="Command Undead">
+<div class="spell" data-tag="Command Undead" id="Command-Undead">
 ## Command Undead
 
 Black Magic-User 2
@@ -523,7 +523,7 @@ Duration: 1 round/level
 This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM's discretion.
 </div>
 
-<div class="spell" data-tag="Commune With Nature" id="Commune With Nature">
+<div class="spell" data-tag="Commune With Nature" id="Commune-With-Nature">
 ## Commune Wtih Nature
 
 Druid 5
@@ -548,8 +548,6 @@ Duration: 2 rounds+1/level
 
 This spell causes up to 3d6 living creatures within a 30' radius circle around the target point to become confused*,*making them unable to independently determine what they will do. A saving throw vs. Spells is allowed to resist the effect. Roll on the following table on each subject's Initiative number each round to see what the subject does.
 
-::: {#confusion-table}
-
 | d20 | Behavior |
 |-----|------------|
 | 1--2 | Attack caster with melee or ranged weapons (or close with caster if attack is not possible). |
@@ -557,22 +555,11 @@ This spell causes up to 3d6 living creatures within a 30' radius circle around t
 | 5--10 | Do nothing but babble incoherently. |
 | 11--14 | Flee away from caster at top possible speed. |
 | 15--20 | Attack nearest creature. |
-:::
-
-<div style="display: flex; justify-content: center;">
-```{ojs}
-
-import {confusionTable, highlightTableRow} from "./custom.js"
-
-viewof gemJewel3 = Inputs.button(html`<button style="color: back; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRow("#confusion-table", confusionTable())})
-
-```
-</div>
 
 A confused character who can't carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a confused character. Any confused character who is attacked automatically retaliates on its next turn, as long as it is still confused when its turn comes.
 </div>
 
-<div class="spell" data-tag="Conjure Elemental" id="Conjure Elemental">
+<div class="spell" data-tag="Conjure Elemental" id="Conjure-Elemental">
 ## Conjure Elemental
  
 Druid, Magic-User 5
@@ -584,7 +571,7 @@ Duration: Special
 A portal to one of the Elemental Planes of Air, Earth, Fire, or Water is opened, allowing the Magic-User to summon an elemental from that plane. At most one elemental of each type may be summoned by the caster in a given day. Once the elemental appears, it serves the conjurer indefinitely, provided the caster concentrates on nothing but controlling the creature; spell casting, combat, or movement over half the normal rate results in loss of concentration. The conjurer, while in control of an elemental, can dismiss it to its native plane at will (doing so on his or her Initiative if in combat). If the Magic-User loses concentration, control of the summoned Elemental is lost and cannot be regained. The creature then seeks to attack the conjurer and all others in its path. Only [Dispel Magic](allSpells.html#dispel-magic) or [Dispel Evil](allSpells.html#dispel-evil) will banish the elemental once control has been lost. An elemental may, of course, choose to return to its home plane on its own; such creatures will not choose to remain on the material plane for long.
 </div>
 
-<div class="spell" data-tag="Continual Light*" id="Continual Light*">
+<div class="spell" data-tag="Continual Light*" id="Continual-Light">
 ## Continual Light*
 
 Cleric 3, Magic-User 2
@@ -600,7 +587,7 @@ As with [Light](allSpells.html#light), this spell can be used to blind a creatu
 The reversed spell, **Continual Darkness**, causes complete absence of light in the area of effect, overpowering normal light sources. Continual darkness may be used to blind in the same way as continual light.
 </div>
 
-<div class="spell" data-tag="Control Temperature, 10' Radius" id="Control Temperature, 10' Radius">
+<div class="spell" data-tag="Control Temperature, 10' Radius" id="Control-Temperature-10-Radius">
 ## Control Temperature, 10' Radius
 
 Druid 4
@@ -612,7 +599,7 @@ Duration: 1 hour/level
 The caster can change automatically the surrounding temperature (10 ft radius sphere) by up to 10 degrees Fahrenheit per caster level.  The change can be upward or downward (caster’s choice)
 </div>
 
-<div class="spell" data-tag="Control Undead" id="Control Undead">
+<div class="spell" data-tag="Control Undead" id="Control-Undead">
 ## Control Undead
 
 Cleric 6, Black Magic-User 6
@@ -624,7 +611,7 @@ Duration: 6 round/level
 This spell allows for complete control of up to 3 HD/caster level of undead for a short period of time. Verbal control is required, but they will understand regardless of the language used. If communication is not possible, they will still not attack. Intelligent undead creatures may save vs. Spells to resist and will remember if they are controlled. Unintelligent undead do not get a saving throw and the control is permanent. Any unintelligent undead controlled using this spell count against the caster’s total control limit [Re-animation](allSpells.html#re-animation).
 </div>
 
-<div class="spell" data-tag="Control Weather" id="Control Weather">
+<div class="spell" data-tag="Control Weather" id="Control-Weather">
 ## Control Weather
 
 Cleric 7, Druid 7
@@ -640,7 +627,7 @@ The caster has control over the general conditions of the weather, such as the d
 The spell allows the caster to remove conditions as well as bring them. (For example, an existing tornado can be replaced with calm weather.) At the end of the spell, the current conditions will continue, the caster just won’t be able to control them anymore.
 </div>
 
-<div class="spell" data-tag="Corpse Feast" id="Corpse Feast">
+<div class="spell" data-tag="Corpse Feast" id="Corpse-Feast">
 ## Corpse Feast
  
 Black Magic-User 4
@@ -654,7 +641,7 @@ This spell heals the caster and nearby active undead beings by draining the last
 Any corpse drained using this spell provides vigor to the caster and their active undead allies within range, healing 1d4 hit points per corpse, up to their maximum.  Slain or destroyed undead do not heal or rise anew.  Any corpses consumed by this spell cannot be raised or resurrected.
 </div>
 
-<div class="spell" data-tag="Corpse Servant" id="Corpse Servant">
+<div class="spell" data-tag="Corpse Servant" id="Corpse-Servant">
 ## Corpse Servant
 
 Black Magic-User 1
@@ -668,7 +655,7 @@ This spell allows the caster to temporarily animate skeletons or zombies.  A num
 Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased.  Zombies have one more hit die than the creature had in life.  An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse.  The caster must touch the remains to be animated.
 </div>
 
-<div class="spell" data-tag="Create Food" id="Create Food">
+<div class="spell" data-tag="Create Food" id="Create-Food">
 ## Create Food
 
 Cleric 5
@@ -681,7 +668,7 @@ The food that this spell creates is simple fare of the caster's choice, highly n
 </div>
 
 
-<div class="spell" data-tag="Create Water" id="Create Water">
+<div class="spell" data-tag="Create Water" id="Create-Water">
 ## Create Water
 
 Cleric 4
@@ -693,7 +680,7 @@ Duration: Permanent
 This spell creates one gallon of water per caster level. Note that one or more vessels to contain the water must be available at the time of casting. The water created by this spell is just like clean rain water. Note: Water weighs about 8 pounds per gallon, and one cubic foot of water is roughly 8 gallons.
 </div>
 
-<div class="spell" data-tag="Cure Blindness*" id="Cure Blindness*">
+<div class="spell" data-tag="Cure Blindness*" id="Cure-Blindness">
 ## Cure Blindness*
 
 Cleric 3
@@ -708,7 +695,7 @@ Reversed, this spell becomes **Cause Blindness**, which causes a living creature
 victim, and no Saving Throw is allowed. Blinded creatures suffer the penalties described in [Deafness and Blindness](combat.qmd#deafness-and-blindness).
 </div>
 
-<div class="spell" data-tag="Cure Deafness*" id="Cure Deafness*">
+<div class="spell" data-tag="Cure Deafness*" id="Cure-Deafness">
 ## Cure Deafness*
 
 Cleric 3
@@ -723,7 +710,7 @@ Reversed, this spell becomes **Cause Deafness**, which causes a living creature 
 victim, and no Saving Throw is allowed. Deafened creatures suffer the penalties described in [Deafness and Blindness](combat.qmd#deafness-and-blindness).
 </div>
 
-<div class="spell" data-tag="Cure Disease*" id="Cure Disease*">
+<div class="spell" data-tag="Cure Disease*" id="Cure-Disease">
 ## Cure Disease*
 
 Cleric 3, Druid 3
@@ -739,7 +726,7 @@ Note: This spell does not prevent reinfection after a new exposure to the same d
 The reverse spell **Cause Disease** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
 </div>
 
-<div class="spell" data-tag="Cure Light Wounds*" id="Cure Light Wounds*">
+<div class="spell" data-tag="Cure Light Wounds*" id="Cure-Light-Wounds">
 ## Cure Light Wounds*
 
 Cleric 1, Druid 1
@@ -755,7 +742,7 @@ The reverse form of this spell, **Cause Light Wounds**, causes 1d6+1 damage to 
 Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Light Wounds** and healed by **Cause Light Wounds**.
 </div>
 
-<div class="spell" data-tag="Cure Minor Wounds*" id="Cure Minor Wounds*">
+<div class="spell" data-tag="Cure Minor Wounds*" id="Cure-Minor-Wounds">
 ## Cure Minor Wounds*
 
 Cleric 0, Druid 0
@@ -771,7 +758,7 @@ The reverse form of this spell, **Cause Minor Wounds**, causes 1 damage to the 
 Undead are affected by this spell and its reverse in opposite fashion; they are injured by **Cure Minor Wounds** and healed by **Cause Minor Wounds**.
 </div>
 
-<div class="spell" data-tag="Cure Serious Wounds*" id="Cure Serious Wounds*">
+<div class="spell" data-tag="Cure Serious Wounds*" id="Cure-Serious-Wounds">
 ## Cure Serious Wounds*
 Cleric 4, Druid 4
 
@@ -782,21 +769,21 @@ Duration: Instantaneous
 This spell works exactly like [Cure Light Wounds](allSpells.html#cure-light-wounds), save that it heals 2d6 points of damage, plus 1 point per caster level. The reverse, **Cause Serious Wounds**, also works exactly like [Cause Light Wounds](allSpells.html#cure-light-wounds), except that it inflicts 2d6 + caster level in damage.
 </div>
 
-<div class="spell" data-tag="Dancing Lights" id="Dancing Light">
+<div class="spell" data-tag="Dancing Lights" id="Dancing-Lights">
 ## Dancing Lights
 
 Magic-User 0
 
 Range: 100' + 10'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
 Depending on the version selected, you create up to four lights that resemble lanterns or torches (and cast that amount of light), or up to four glowing spheres of light (which look like will-o’-wisps), or one faintly glowing, vaguely humanoid shape. The dancing lights must stay within a 10-foot-radius area in relation to each other but otherwise move as you desire (no concentration required): forward or back, up or down, straight or turning corners, or the like. The lights can move up to 100 feet per round. A light winks out if the distance between you and it exceeds the spell’s range.
 
 Dancing lights can be made permanent with a [Permanency](allSpells.html#permanency) spell.
 </div>
 
-<div class="spell" data-tag="Dark Flame" id="Dark Flame">
+<div class="spell" data-tag="Dark Flame" id="Dark-Flame">
 ## Dark Flame
 
 Black Magic-User 2
@@ -821,7 +808,7 @@ Duration: 1 hour/level
 The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](dungeonAdventures.html#darkvision) for a description of Darkvision.
 </div>
 
-<div class="spell" data-tag="Death Spell" id="Death Spell">
+<div class="spell" data-tag="Death Spell" id="Death-Spell">
 ## Death Spell
  
 Magic-User 6
@@ -833,7 +820,7 @@ Duration: Instantaneous
 This spell will kill 3d12 hit dice or levels of creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit). Excess levels of effectiveness are lost. Each creature affected is allowed to save vs. Death Ray; those that fail the save die immediately. Creatures of 8 or more hit dice or levels are immune to the spell, as are undead monsters, golems, and any other “creature” that is not truly alive.
 </div>
 
-<div class="spell" data-tag="Decay Flesh" id="Decay Flesh">
+<div class="spell" data-tag="Decay Flesh" id="Decay-Flesh">
 ## Decay Flesh
 
 Black Magic-User 1
@@ -847,7 +834,7 @@ This is a version of the [Cause Light Wounds](allSpells.html#cure-light-wounds) 
 Unlike the Clerical spell mentioned, this spell may not be reversed.  However, this spell does work upon undead creatures in the opposite fashion; they are healed 1d6+1 hit points instead.
 </div>
 
-<div class="spell" data-tag="Delayed Blast Fireball" id="Delayed Blase Fireball">
+<div class="spell" data-tag="Delayed Blast Fireball" id="Delayed-Blase-Fireball">
 ## Delayed Blast Fireball
 
 Magic-user 7
@@ -861,7 +848,7 @@ This spell creates a small glowing bead at any location chosen by the caster, up
 If a delay is chosen, the glowing bead lies at its destination until it detonates. A creature can pick up and hurl the bead (with the same range as a dagger); if the bead is handled within 1 round of its scheduled detonation, there is a 25% chance that the bead detonates instantly, i.e. before it can be thrown.
 </div>
 
-<div class="spell" data-tag="Designor’s Wind Mastery" id="Designor’s Wind Mastery">
+<div class="spell" data-tag="Designor’s Wind Mastery" id="Designor-Wind-Mastery">
 ## Designor’s Wind Mastery
  
 Druid 5, Magic-User 5
@@ -877,7 +864,7 @@ The caster may choose wind patterns over the spell’s area.  The caster can cho
 For every three caster levels, the caster can increase or decrease wind condition by one level.
 </div>
 
-<div class="spell" data-tag="Detect Evil*" id="Detect Evil*">
+<div class="spell" data-tag="Detect Evil*" id="Detect-Evil*">
 ## Detect Evil*
 
 Cleric 1, Magic-User 2
@@ -893,7 +880,7 @@ The exact definition of evil is left for the GM to decide. Note that items such 
 Reversed, this spell becomes **Detect Good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 </div>
 
-<div class="spell" data-tag="Detect Invisible" id="Detect Invisible">
+<div class="spell" data-tag="Detect Invisible" id="Detect-Invisible">
 ## Detect Invisible
  
 Magic-User 2
@@ -905,7 +892,7 @@ Duration: 1 turn/level
 By means of this spell the caster is able to see invisible characters, creatures or objects within the given range, seeing them as translucent shapes.
 </div>
 
-<div class="spell" data-tag="Detect Magic" id="Detect Magic">
+<div class="spell" data-tag="Detect Magic" id="Detect-Magic">
 ## Detect Magic
 
 Cleric 1, Druid 1, Magic-User 1
@@ -918,7 +905,7 @@ The caster of this spell is able to detect enchanted or enspelled objects or cre
 
 </div>
 
-<div class="spell" data-tag="Detect Poison" id="Detect Poison">
+<div class="spell" data-tag="Detect Poison" id="Detect-Poison">
 ## Detect Poison
 
 Cleric 1, Druid 1
@@ -930,7 +917,7 @@ Duration: 1 turn + 1 round/level
 This spell enables the priest to determine if an object has been poisoned or is poisonous. One object, or one 5-foot cubic mass, can be checked per round. The priest has a 5% chance per level of determining the exact type of poison.
 </div>
 
-<div class="spell" data-tag="Detect Scrying" id="Detect Scrying">
+<div class="spell" data-tag="Detect Scrying" id="Detect-Scrying">
 ## Detect Scrying
  
 Magic-User 4
@@ -944,7 +931,7 @@ By means of this spell, the wizard immediately becomes aware of any attempt to o
 When a scrying attempt is detected, the scryer must immediately roll a saving throw. If this is failed, the wizard who cast this spell immediately knows the identity and general location of the scryer. The general location is a direction and significant landmark close to the scryer. Thus, the caster might learn, “The wizard Sniggel spies on us from east, under the stairs,” or, “You are watched by Asquil in the city of Samarquol.”
 </div>
 
-<div class="spell" data-tag="Detect Snares and Pits" id="Detect Snares and Pits">
+<div class="spell" data-tag="Detect Snares and Pits" id="Detect-Snares-and-Pits">
 ## Detect Snares and Pits
 
 Druid 1
@@ -984,7 +971,7 @@ Any creature at the edge (within 1 foot) of a pit must roll a successful Dexteri
 The spell is also effective against creatures of earth and rock, particularly clay golems and those from the Elemental Plane of Earth. When cast upon such a creature, it suffers 4d6 points of damage. A successful saving throw vs. spell reduces this damage to half.
 </div>
 
-<div class="spell" data-tag="Dimension Door" id="Dimension Door">
+<div class="spell" data-tag="Dimension Door" id="Dimension-Door">
 ## Dimension Door
 
 Magic-User 4 
@@ -1010,7 +997,7 @@ This spell causes a thin, green ray to spring from the caster's pointing finger.
 A creature that makes a successful save vs. Spells is unaffected. The ray can target only one creature per casting, if that target saves, the spell is wasted.
 </div>
 
-<div class="spell" data-tag="Dispel Evil" id="Dispel Evil">
+<div class="spell" data-tag="Dispel Evil" id="Dispel-Evil">
 ## Dispel Evil
 
 Cleric 5
@@ -1030,7 +1017,7 @@ Third, with a touch the caster can automatically dispel any one spell cast by an
 The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
 </div>
 
-<div class="spell" data-tag="Dispel Magic" id="Dispel Magic">
+<div class="spell" data-tag="Dispel Magic" id="Dispel-Magic">
 ## Dispel Magic
 
 Cleric 4, Magic-User 3
@@ -1111,7 +1098,7 @@ This spell imbues an edged weapon with the ability to drain blood with each succ
 Against nonliving creatures, such as undead, golems, living statues, etc, this spell has no effect.
 </div>
 
-<div class="spell" data-tag="Drawmij’s Instant Summons" id="Drawmij’s Instant Summons">
+<div class="spell" data-tag="Drawmij’s Instant Summons" id="Drawmijs-Instant-Summons">
 ## Drawmij’s Instant Summons
 
 Magic-user 7
@@ -1217,7 +1204,7 @@ If the creature affected is running at the time the spell is cast, the creature 
 </div>
 
 
-<div class="spell" data-tag="Entangling Thorns" id="Entangling Thorns">
+<div class="spell" data-tag="Entangling Thorns" id="Entangling-Thorns">
 ## Entangling Thorns
 
 Druid 3
@@ -1245,7 +1232,7 @@ This spell permits the caster to detect the surface thoughts of one or more targ
 Rock more than 2 inches thick or a thin coating of lead or gold will block the spell.  All undead creatures are immune to this effect, as are mindless creatures such as golems.
 </div>
 
-<div class="spell" data-tag="Ether Bold" id="Ether Bolt">
+<div class="spell" data-tag="Ether Bold" id="Ether-Bolt">
 ## Ether Bolt
  
 Magic-User 2
@@ -1291,7 +1278,7 @@ If a creature is panicked, it will flee for 1d4 rounds.  After that, the victim 
 If a creature is comatose, it falls into a coma for 1 turn per caster level.  During this time, the victim cannot be awakened by any means short of dispelling the effect.  Even if the comma is dispelled, the creature is still subject to fleeing if the caster is visible, and is still sickened.  This is not a sleep effect.
 </div>
 
-<div class="spell" data-tag="Faerie Fire" id="Faerie Fire">
+<div class="spell" data-tag="Faerie Fire" id="Faerie-Fire">
 ## Faerie Fire
 
 Druid 1, Magic-User 2
@@ -1305,7 +1292,7 @@ A pale glow surrounds and outlines all objects including individuals within a 20
 The light is too dim to have any special effect on undead or dark-dwelling creatures vulnerable to light.  The faerie fire can be blue, green, or violet, according to your choice at the time of casting.  The faerie fire does not cause any harm to the objects or creatures thus outlined.
 </div>
 
-<div class="spell" data-tag="Faerie Ring" id="Faerie Ring">
+<div class="spell" data-tag="Faerie Ring" id="Faerie-Ring">
 ## Faerie Ring
 
 Druid 7
@@ -1351,7 +1338,7 @@ Within 200 feet, the Magic User can see through the familiar's eyes and hear wha
 Additionally, while the familiar is within 100 feet of the Magic User, they can communicate telepathically. This communication is in simple telepathic concepts, such as "3 angry people. One is short" or "path forks, 3 ways ahead, smells like food". Not enough detail for a map.
 </div>
 
-<div class="spell" data-tag="Flame Strike" id="Flame Strike">
+<div class="spell" data-tag="Flame Strike" id="Flame-Strike">
 ## Flame Strike
 
 Druid 5, Magic-User 5
@@ -1363,7 +1350,7 @@ Duration: Instantaneoous
 A **Flame Strike** produces a vertical column of divine fire roaring downward (cylinder of 10 ft radius, 30 ft high).  The spell deals 6d8 points of damage to any creatures within the area of effect; a save vs. Spells for half damage is allowed.
 </div>
 
-<div class="spell" data-tag="Feather Fall" id="Feather Fall">
+<div class="spell" data-tag="Feather Fall" id="Feather-Fall">
 ## Feather Fall
 
 Magic-User 1
@@ -1398,7 +1385,7 @@ them.
 This effect can be removed with a [Heal](allSpells.html#heal) spell, or with the reversed form of this spell **Restoremind**.
 </div>
 
-<div class="spell" data-tag="Find Traps" id="Find Traps">
+<div class="spell" data-tag="Find Traps" id="Find-Traps">
 ## Find Traps
 
 Cleric 2
@@ -1410,7 +1397,7 @@ Duration: 3 turns
 This spell permits the caster to detect a variety of traps, both mechanical and magical. When the caster moves within 30’ of a trap, he or she will see it glow with a faint greenish-blue aura. The caster is not, however, able to detect certain natural hazards such as quicksand, a sinkhole, or unsafe walls of natural rock. The spell also does not bestow the caster with the knowledge needed to disarm the trap, nor any details about its type or nature.
 </div>
 
-<div class="spell" data-tag="Find the Path" id="Find the Path">
+<div class="spell" data-tag="Find the Path" id="Find-the-Path">
 ## Find the Path
 
 Cleric 6, Druid 6
@@ -1426,7 +1413,7 @@ The locale can be outdoors or underground. **Find the path** works with respect 
 The spell enables the subject to sense the correct direction that will eventually lead it to its destination, indicating at appropriate times the exact path to follow or physical actions to take. For example, the spell enables the subject to detect secret doors and to know any passwords required. The spell ends when the destination is reached or the duration expires, whichever comes first.
 </div>
 
-<div class="spell" data-tag="Fingeer of Death" id="Finger of Death">
+<div class="spell" data-tag="Finger of Death" id="Finger-of-Death">
 ## Finger of Death
 
 Black Magic-user 7
@@ -1457,7 +1444,7 @@ The fireball sets fire to combustibles and damages objects in the area. It can m
 </div>
 
 
-<div class="spell" data-tag="Fireskull Familiar" id="Fireskull Familiar">
+<div class="spell" data-tag="Fireskull Familiar" id="Fireskull-Familiar">
 ## Fireskull Familiar
 
 Black Magic-User 2
@@ -1473,7 +1460,7 @@ The fireskull familiar is not designed for combat, having hit points equal to 25
 Of interesting note, although each skull does not remember any details of its former life, it does retain many personality traits, making each skull distinct from the next.  Practitioners of this spell often have favorite skulls that they use regularly, and skulls that they are loathe to animate.  Any particular skull that is destroyed through damage may never again be used.
 </div>
 
-<div class="spell" data-tag="Fire Gate" id="Fire Gate">
+<div class="spell" data-tag="Fire Gate" id="Fire-Gate">
 ## Fire Gate
  
 Magic-User 3
@@ -1487,7 +1474,7 @@ In order for this spell to work, there need to be at least two large fires (a mi
 Fire gate only transports the caster and what the caster is carrying and only provides temporary (1 round) of protection from the flames.
 </div>
 
-<div class="spell" data-tag="Fire Storm" id="Fire Storm">
+<div class="spell" data-tag="Fire Storm" id="Fire-Storm">
 ## Fire Storm
 
 Cleric 7, Druid 7
@@ -1499,7 +1486,7 @@ Duration: Instantaneous
 This spell causes an area 20’x10’x10’ per caster level to be filled with holy fire. The caster can determine the shape of the area, but the entire area must be contiguous. Any creature in the designated area takes 1d6 points of damage that bypasses any immunity or resistance to fire. Any creature that dies from the damage (or was already dead when the fire storm is cast) is completely consumed by the fire.  The fire only harms creatures and does not affect the surrounding environment.
 </div>
 
-<div class="spell" data-tag="Flame Strike" id="Flame Strike">
+<div class="spell" data-tag="Flame Strike" id="Flame-Strike">
 ## Flame Strike
 
 Druid 5, Magic-User 5
@@ -1518,7 +1505,7 @@ Magic-User 0
 
 Range: 20' + 5'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
  A flash of light, a very small ball of fire, or a puff of colored smoke can be created by this cantrip. They will not typically last longer than a second.
  </div>
@@ -1530,13 +1517,13 @@ Magic-User 0
 
 Range: 20' + 5'/level
 
-Duration: Instananeous
+Duration: Instantaneous
 
 This cantrip may either make one dish taste any way the caster wants it to (which is an illusion), or add salt, spice, sweetener, or another flavoring agent (which is real). Reversed, it becomes **Putrefy**, which makes the food or drink either go bad (which is real) or taste as if it had been prepared wrongly (which is an illusion).
 </div>
 
 
-<div class="spell" data-tag="Flesh to Stone*" id="Flesh to Stone*">
+<div class="spell" data-tag="Flesh to Stone*" id="Flesh-to-Stone*">
 ## Flesh to Stone*
  
 Magic-User 6
@@ -1550,7 +1537,7 @@ This spell causes the subject, along with all its carried gear, to turn into a m
 The reverse spell, **Stone to Flesh**, acts as a counterspell for **Flesh to Stone**, restoring the creature just as it was when it was petrified. It does nothing if applied to stone that is not the result of **Flesh to Stone** or similar petrification effects (such as a medusa's gaze).
 </div>
 
-<div class="spell" data-tag="Floating Disc" id="Floating Disc">
+<div class="spell" data-tag="Floating Disc" id="Floating-Disc">
 ## Floating Disc
 
 Magic-User 1
@@ -1592,7 +1579,7 @@ By means of this spell, the spellcaster causes creatures within a 20ft cube area
 From one to four creatures can be affected, at the discretion of the caster. If only one is to be affected, the recipient saves vs. spell with a -2 penalty; if two, they save with -1 penalties; if three or four are to be affected, they save normally. All saving throws are adjusted by Wisdom. A priest's heal or restoration spell, if specially cast for this purpose, will restore the lost memories, as will a limited wish or wish, but no other means will do so.
 </div>
 
-<div class="spell" data-tag="Forget Lightning" id="Forked Lightning">
+<div class="spell" data-tag="Forget Lightning" id="Forked-Lightning">
 ## Forked Lightning
 
 Magic-User 2
@@ -1622,7 +1609,7 @@ This spell permanently hardens the bones of one skeletal undead creature, making
 While this spell is permanent, there is a drawback.  The  newly fossilized skeleton may not be repaired or otherwise 'healed', as the organic materials that made up the bones has been completely replaced by minerals.  Intelligent skeletal undead would not normally want this spell applied to themselves, but the spell would affect them nevertheless.
 </div>
 
-<div class="spell" data-tag="Gaseous Form" id="Gaseous Form">
+<div class="spell" data-tag="Gaseous Form" id="Gaseous-Form">
 ## Gaseous Form
  
 Magic-User 3
@@ -1656,7 +1643,7 @@ Note that the spell will allow both sides to be on the same plane if so desired,
 As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
 </div>
 
-<div class="spell" data-tag="Gentle Repose" id="Gentle Repose">
+<div class="spell" data-tag="Gentle Repose" id="Gentle-Repose">
 ## Gentle Repose
 
 Cleric 2
@@ -1668,7 +1655,7 @@ Duration: 3 months/level
 This spell preserves the remains of a dead creature (including a zombie, if so desired). This prevents any decay of the remains for the duration of the spell. This extends the time limit imposed by raise dead, allowing for a longer time to cast the spells.
 </div>
 
-<div class="spell" data-tag="Ghoulish Hands" id="Ghoulish Hands">
+<div class="spell" data-tag="Ghoulish Hands" id="Ghoulish-Hands">
 ## Ghoulish Hands
 
 Black Magic-User 2
@@ -1682,7 +1669,7 @@ This spell causes the hands of one living creature to become like the horrible c
 Recipients of this spell must be true living creatures; other creatures such as undead, constructs, elementals, and the like are immune.  There is a 1% non-cumulative chance that on any particular casting of this spell that the recipient is actually infected with Ghoul Fever (per the monster description), which if proper curative steps are not taken, may ultimately result in the recipient's death and rising as an actual ghoul.
 </div>
 
-<div class="spell" data-tag="Gishigan's Geas*" id="Geas*">
+<div class="spell" data-tag="Gishigan's Geas*" id="Geas">
 ## Gishigan’s Geas*
  
 Magic-User 6
@@ -1705,7 +1692,7 @@ A geas (and all effects thereof) can be ended by a [Remove] Curse(allSpells.htm
 </div>
 
 
-<div class="spell" data-tag="Grave Sanctuary" id="Grave Sanctuary">
+<div class="spell" data-tag="Grave Sanctuary" id="Grave-Sanctuary">
 ## Grave Sanctuary
  
 Black Magic-User 3
@@ -1721,7 +1708,7 @@ The Black Magic-User is completely aware of their surroundings while in the grav
 While inside the grave, the Black Magic-User does lose any sense of taste, smell, or touch, and may not speak or otherwise cast spells while inside the grave's protection.  If the grave itself is unearthed or broken into in some way, then the Black Magic-User takes 2d10 points of damage and is cast out into the nearest available space.  This kind of undertaking should be roughly equivalent to actually digging a grave up, and not simply an attack against the earth.
 </div>
 
-<div class="spell" data-tag="Greater Fear" id="Greater Fear">
+<div class="spell" data-tag="Greater Fear" id="Greater-Fear">
 ## Greater Fear
 
 Black Magic-User 4
@@ -1748,7 +1735,7 @@ The spell can also be used to create a greasy coating on an item--a rope, ladder
 </div>
 
 
-<div class="spell" data-tag="Greater Teleport" id="Greater Teleport">
+<div class="spell" data-tag="Greater Teleport" id="Greater-Teleport">
 ## Greater Teleport
 
 Magic-User 7
@@ -1760,7 +1747,7 @@ Duration: Instanteous
 This spell functions in a similar fashion to the normal [Teleport](allSpells.html#teleport) spell, except that there is no limit to the range that can be spanned, nor is there any chance of arriving off target. In addition, the caster need not have seen the destination, if the caster has at least a reliable description of it. If the caster attempts to teleport with insufficient information (or with misleading information), the caster disappears and then reappears in the original location. This spell cannot transport the caster to another plane of existence.
 </div>
 
-<div class="spell" data-tag="Growth of Animals" id="Growth of Animals">
+<div class="spell" data-tag="Growth of Animals" id="Growth-of-Animals">
 ## Growth of Animals
 
 Cleric 3, Druid 3
@@ -1776,7 +1763,7 @@ All equipment worn or carried by an animal is similarly enlarged by the spell, t
 The spell gives no means of command or influence over the enlarged animals.
 </div>
 
-<div class="spell" data-tag="Growth of Plants*" id="Growth of Plants*">
+<div class="spell" data-tag="Growth of Plants*" id="Growth-of-Plants*">
 ## Growth of Plants*
 
 Druid 4, Magic-User 6
@@ -1792,7 +1779,7 @@ The reverse form, **Shrink Plants**, may be used to render overgrown areas passa
 Growth of plants and its reverse are permanent until countered, either by the opposite form or by [Dispel Magic](allSpells.html#dispel-magic).  This spell has no effect on animated plant creatures of any sort.
 </div>
 
-<div class="spell" data-tag="Guidance*" id="Guidance*">
+<div class="spell" data-tag="Guidance*" id="Guidance">
 ## Guidance*
 
 Cleric 0, Druid 0
@@ -1804,7 +1791,7 @@ Duration: Instantaneous
 The cleric grants +1 to any subject’s next attack roll. Reversed, this becomes **Misguide**, which gives the subject -1 to their next attack roll.
 </div>
 
-<div class="spell" data-tag="Guest of Wind" id="Gust of Wind">
+<div class="spell" data-tag="Guest of Wind" id="Gust-of-Wind">
 ## Gust of Wind
 
 Druid 5, Magic-User 3
@@ -1818,7 +1805,7 @@ When this spell is cast, a strong puff of air originates from the caster and mov
 Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
 </div>
 
-<div class="spell" data-tag="Hallow*" id="Hallow*">
+<div class="spell" data-tag="Hallow*" id="Hallow">
 ## Hallow*
 
 Cleric 0, Druid
@@ -1832,7 +1819,7 @@ By chanting holy phrases, the caster makes the 0 foot radius area around him 'ha
 The reverse, **Unhallow**, works in the same manner by granting +1 damage on Inflict spells (reversed healing) makes undead (or vile netherworld inhabitants) harder to Turn by one point (or optionally easier to Command by one point). It likewise lasts one round longer than the chant is maintained.
 </div>
 
-<div class="spell" data-tag="Hallucinatory Terrain" id="Hallucinatory Terrain">
+<div class="spell" data-tag="Hallucinatory Terrain" id="Hallucinatory-Terrain">
 
 ## Hallucinatory Terrain
 Druid 4, Magic-User 4
@@ -1846,7 +1833,7 @@ This spell makes one 10 yard cube per level of outdoor terrain appear like a dif
 The affected terrain looks, sounds, and smells like another sort of natural terrain.  Structures, equipment, and creatures within the area are not hidden or changed in appearance.  A save vs. Spells is allowed to see through the illusion, but only if the creatures or characters affected actively attempt to do so.
 </div>
 
-<div class="spell" data-tag="Hannelore’s Rope Trick" id="Hannelore’s Rope Trick">
+<div class="spell" data-tag="Hannelore’s Rope Trick" id="Hannelores-Rope-Trick">
 ## Hannelore’s Rope Trick
 
 Magic-User 4
@@ -1862,7 +1849,7 @@ The rope can be taken into the extradimensional space if fewer than eight person
 The rope can be climbed by only one person at a time. Note that the rope trick spell enables climbers to reach a normal place if they do not climb all the way to the extradimensional space. Also note that creating or taking extradimensional spaces into an existing extradimensional space is hazardous.
 </div>
 
-<div class="spell" data-tag="Haste*" id="Haste*">
+<div class="spell" data-tag="Haste*" id="Haste">
 Magic-User 3
 
 Range: 30'+10'/level
@@ -1874,7 +1861,7 @@ This spell accelerates the actions of 1 creature per caster level. The affected 
 Reversed, haste becomes **Slow**; affected creatures move at half speed, attacking half as often (generally, every other round) and making half a normal move each round. Naturally, target creatures may save vs. Spells to avoid the effect. Haste and slow counter and dispel each other.
 </div>
 
-<div class="spell" data-tag="Heal*" id="Heal*">
+<div class="spell" data-tag="Heal*" id="Heal">
 ## Heal*
 
 Cleric 6, Druid 6
@@ -1890,7 +1877,7 @@ The reversed spell, **Harm**, injures the creature touched so horribly that it 
 Generally, both **Heal** and **Harm** only affect living creatures. If used against an undead creature, heal instead acts like harm; likewise, harm affects undead like heal. Constructs such as golems are unaffected by either spell.
 </div>
 
-<div class="spell" data-tag="Heat Metal*" id="Heat Metal*">
+<div class="spell" data-tag="Heat Metal*" id="Heat-Metal">
 ## Heat Metal*
 
 Cleric 2, Druid 2
@@ -1914,7 +1901,7 @@ Note that this spell can damage items harmed by heat, such as potions for exampl
 The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
 </div>
 
-<div class="spell" data-tag="Hold Animal" id="Hold Animal">
+<div class="spell" data-tag="Hold Animal" id="Hold-Animal">
 ## Hold Animal
 
 Druid 3
@@ -1926,7 +1913,7 @@ Duration: 2d8 turns
 This spell functions like [Hold Person](allSpells.html#hold-person), except that it affects only animals; specifically, this means non-magical living creatures of animal intelligence, including giant-sized animals.  A save vs. Spells is allowed to resist this spell.
 </div>
 
-<div class="spell" data-tag="Hold Monster" id="Hold Monster">
+<div class="spell" data-tag="Hold Monster" id="Hold-Monster">
 ## Hold Monster
 
 Magic-User 5
@@ -1938,7 +1925,7 @@ Duration: 2d8 turns
 This spell functions like [Hold Person](allSpells.html#hold-person), except that it affects any living creature that fails its save vs. Spells.
 </div>
 
-<div class="spell" data-tag="Hold Person" id="Hold Person">
+<div class="spell" data-tag="Hold Person" id="Hold-Person">
 ## Hold Person
 
 Cleric 2, Magic-User 3
@@ -1953,7 +1940,7 @@ A winged creature which is paralyzed cannot flap its wings and falls (if in flig
 </div>
 
 
-<div class="spell" data-tag="Hold Portal" id="Hold Portal">
+<div class="spell" data-tag="Hold Portal" id="Hold-Portal">
 ## Hold Portal
 
 Magic-User 1
@@ -1965,7 +1952,7 @@ Duration: 1 round/level
 This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A [Knock](allSpells.html#knock) spell or a successful [Dispel Magic](allSpells.html#dispel-magic) spell can negate a hold portal spell.
 </div>
 
-<div class="spell" data-tag="Ice Storm" id="Ice Storm">
+<div class="spell" data-tag="Ice Storm" id="Ice-Storm">
 ## Ice Storm
  
 Magic-User 4
@@ -1977,7 +1964,7 @@ Duration: 1 round
 This spell causes great magical hailstones to pound down for 1 full round, dealing 5d6 points of damage to every creature in a 20' radius around the target spot; a successful save vs. Spells will reduce damage by half. The ice storm fills a vertical volume of 40', so creatures higher than that distance above the target spot are unaffected. A –20% penalty applies to each Listen roll made within the ice storm’s effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt). Any creature naturally resistant to cold takes half damage (or one-quarter damage if it makes its save).
 </div>
 
-<div class="spell" data-tag="Iggwilv’s Mirror Image" id="Iggwilv’s Mirror Image">
+<div class="spell" data-tag="Iggwilv’s Mirror Image" id="Iggwilvs-Mirror-Image">
 ## Iggwilv’s Mirror Image
 
 Magic-User 2
@@ -1991,7 +1978,7 @@ This spell creates several illusory duplicates of the caster.  The images move t
 Enemies attempting to attack or cast spells upon the caster will always hit a figment instead.  Any attack against an image destroys it, whether the attack roll is successful or not; likewise, attack spells cast directly upon a figment will destroy it, with no saving throw allowed.  Area-effect spells are not cast directly on the caster, and thus appear to affect all figments exactly as they affect the caster; for instance, if the caster is subjected to a fireball, all figments will appear to be injured just as the caster was.
 </div>
 
-<div class="spell" data-tag="Illusionary Wall" id="Illusionary Wall">
+<div class="spell" data-tag="Illusionary Wall" id="Illusionary-Wall">
 ## Illusionary Wall
  
 Magic-User 4
@@ -2003,7 +1990,7 @@ Duration: Permanent
 This spell creates the illusion of a wall, floor, ceiling, or similar surface, which is permanent until dispelled. The area of effect is 1 x 10 x 10 ft. It appears absolutely real when viewed (even magically, as with the priest spell [True Seeing](allSpells.html#true-seeing) or its equivalent), but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, normal demihuman and magical detection abilities work normally, and touch or probing searches reveal the true nature of the surface, though they do not cause the illusion to disappear.
 </div>
 
-<div class="spell" data-tag="Immunity to Normal Weapons" id="Immunity to Normal Weapons">
+<div class="spell" data-tag="Immunity to Normal Weapons" id="Immunity-to-Normal-Weapons">
 ## Immunity to Normal Weapons
  
 Magic-User 3
@@ -2015,7 +2002,7 @@ Duration: 5 rounds + 1 round/level
 This spell temporarily makes the target immune to non-magical weapons. Anyone affected by this spell is treated as an enchanted creature for the purpose of magic, which specifically affects them (for instance, a sword +1, +3 vs. enchanted creatures applies its special bonus to a creature protected by this magic).
 </div>
 
-<div class="spell" data-tag="Improved Invisibility" id="Improved Invisibility">
+<div class="spell" data-tag="Improved Invisibility" id="Improved-Invisibility">
 ## Improved Invisibility
  
 Magic-User 4
@@ -2027,7 +2014,7 @@ Duration: 1 round + 1 round/level
  This spell works exactly like [Invisibility](allSpells.html#invisibility), except that it does not end if the subject attacks or casts a spell.
 </div>
 
-<div class="spell" data-tag="Insect Plague" id="Insect Plague">
+<div class="spell" data-tag="Insect Plague" id="Insect-Plague">
 ## Insect Plague
 
 Cleric 5, Druid 5
@@ -2079,7 +2066,7 @@ Items dropped or put down by an invisible creature become visible; items picked 
 The spell ends if the subject attacks any creature or casts any spell. Actions (other than spellcasting) directed at unattended objects do not break the spell. Causing harm indirectly is not an attack. The spell lasts at most 24 hours.
 </div>
 
-<div class="spell" data-tag="Invisibility 10' Radius" id="Invisibility 10' Radius">
+<div class="spell" data-tag="Invisibility 10' Radius" id="Invisibility-10-Radius">
 
 ## Invisibility 10' Radius
 Magic-User 3
@@ -2093,7 +2080,7 @@ This spell functions like invisibility, except that this spell confers invisibil
 Those affected by this spell can see each other and themselves as if unaffected by the spell. Affected creatures (other than the recipient) who attack negate the invisibility only for themselves, but if the spell recipient attacks, the invisibility ends for all affected creatures. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible (including any previously affected creatures who have become visible as described above).
 </div>
 
-<div class="spell" data-tag="Invisible Stalker" id="Invisible Stalker">
+<div class="spell" data-tag="Invisible Stalker" id="Invisible-Stalker">
 ## Invisible Stalker
  
 Magic-User 6
@@ -2129,7 +2116,7 @@ Duration: Special
 The knock spell opens stuck, barred, locked, [Held](allSpells.html#hold-portal), or [Wizard Locked](allSpells.html#wizard-lock) doors. It opens secret doors, as well as locked or trick-opening boxes or chests. It also loosens welds, shackles, or chains (provided they serve to hold shut something which can be opened). If used to open a [Wizard Locked](allSpells.html#wizard-lock) door, the spell does not remove the [Wizard Locked](allSpells.html#wizard-lock) but simply suspends its functioning for one turn. In all other cases, the door does not relock itself or become stuck again on its own. Knock will not raise a portcullis or operate any other similar mechanism, nor will it affect ropes, vines, and the like. Each spell can undo a single means of preventing access.
 </div>
 
-<div class="spell" data-tag="Knot*" id="Knot*">
+<div class="spell" data-tag="Knot*" id="Knot">
 ## Knot*
 
 Magic-User 0
@@ -2155,7 +2142,7 @@ Levitate allows the caster to move himself or herself, another creature, or an o
 A levitating creature that attacks with a weapon finds itself increasingly unstable; the first attack has a –1 attack penalty, the second –2, and so on, to a maximum penalty of –5. A full round spent stabilizing allows the creature to begin again at –1.
 </div>
 
-<div class="spell" data-tag="Light*" id="Light*">
+<div class="spell" data-tag="Light*" id="Light">
 ## Light*
 
 Cleric 1, Druid 1, Magic-User 1
@@ -2173,7 +2160,7 @@ A light spell may be cast to counter and dispel the darkness spell of an equal o
 Either version of this spell may be used to blind an opponent by means of casting it on the target's ocular organs. The target is allowed a saving throw vs. Death Ray to avoid the effect, and if the save is made, the spell does not take effect at all. A **Light** or **Darkness** spell cast to blind does not have the given area of effect (that is, no light or darkness is shed around the victim).
 </div>
 
-<div class="spell" data-tag="Lightning Bolt" id="Lightning Bolt">
+<div class="spell" data-tag="Lightning Bolt" id="Lightning-Bolt">
 ## Lightning Bolt
  
 Magic-User 3
@@ -2187,7 +2174,7 @@ This spell releases a powerful stroke of electrical energy that deals 1d6 points
 The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it may reflect from the barrier back toward the caster, or in a random direction at the GM's option. Creatures already affected by the lightning bolt do not take additional damage if struck by the reflection of the same bolt.
 </div>
 
-<div class="spell" data-tag="Locate Object" id="Locate Object">
+<div class="spell" data-tag="Locate Object" id="Locate-Object">
 ## Locate Object
 
 Cleric 3, Magic-User 2
@@ -2199,7 +2186,7 @@ Duration: 1 round/level
 This spell allows the caster to sense the direction of a well-known or clearly visualized object. He or she can search for general items, in which case the nearest one of its kind is located if more than one is within range. The caster cannot specify a unique item unless he or she has observed that particular item firsthand (not merely through divination such as [Clairvoyance](allSpells.html#clairvoyance) or a **Crystal Ball**). The spell is blocked by even a thin sheet of lead or gold. Creatures cannot be found by this spell.
 </div>
 
-<div class="spell" data-tag="Locate Corpse" id="Locate Corpse">
+<div class="spell" data-tag="Locate Corpse" id="Locate-Corpse">
 ## Locate Corpse
 
 Black Magic-User 1
@@ -2213,7 +2200,7 @@ This spell allows the caster to sense the direction of the closest corpse or rem
 Specific remains belonging to a particular individual can be located with this spell, so long as the caster knew the individual personally during life.  This spell is blocked by even a thin sheet of lead or gold.  Creatures, whether living or in states of undeath, cannot be found by this spell.
 </div>
 
-<div class="spell" data-tag="Lower Water" id="Lower Water">
+<div class="spell" data-tag="Lower Water" id="Lower-Water">
 ## Lower Water
 
 Druid 4, Magic-User 6
@@ -2228,7 +2215,7 @@ When cast on water elementals and other water-based creatures, this spell acts a
 </div>
 
 
-<div class="spell" data-tag="Magic Armor" id="Magic Armor">
+<div class="spell" data-tag="Magic Armor" id="Magic-Armor">
 ## Mage Armor
 
 Magic-User 1
@@ -2240,7 +2227,7 @@ Duration: 1 turn
 This spell creates a magical armor which protects the caster. The caster's skin becomes hard and stone-like, giving the caster a +2 bonus to armor class vs. melee attacks and hand-thrown missiles such as daggers or spears, and a +4 bonus to armor class vs. normal sized projectiles such as arrows, bolts, sling stones, and sling bullets.
 </div>
 
-<div class="spell" data-tag="Magic Hand" id="Magic Hand">
+<div class="spell" data-tag="Mage Hand" id="Mage-Hand">
 ## Mage Hand
 
 Magic-User 1
@@ -2252,7 +2239,7 @@ Duration: 10 rounds
 A spectral hand is conjured, which may either move one pound of materials at a speed of 10 feet per round for ten rounds (at a maximum range of 40 feet), or give an object a powerful push about equal to the caster's strength at a range of 10 feet.
 </div>
 
-<div class="spell" data-tag="Magic Mirror" id="Magic Mirror">
+<div class="spell" data-tag="Magic Mirror" id="Magic-Mirror">
 ## Magic Mirror
 
 Cleric 4, Magic-User 4
@@ -2265,7 +2252,7 @@ Turns a reflective surface within range into a magic mirror through which the ca
 </div>
 
 
-<div class="spell" data-tag="Magic Jar" id="Magic Jar">
+<div class="spell" data-tag="Magic Jar" id="Magic-Jar">
 ## Magic Jar
  
 Magic-User 5
@@ -2291,7 +2278,7 @@ If the host's spirit is in the magic jar, and the jar is broken: If the jar is i
 In any case where the spell ends with the caster's body unoccupied by a spirit, that body does truly die.
 </div>
 
-<div class="spell" data-tag="Magic Missile" id="Magic Missile">
+<div class="spell" data-tag="Magic Missile" id="Magic-Missile">
 ## Magic Missile
 
 Magic-User 1
@@ -2305,7 +2292,7 @@ This spell causes a missile of magical energy to dart forth from the caster's fi
 For every three caster levels beyond 1st, an additional missile is fired – two at 4th level, three at 7th, four at 10th, and the maximum of five missiles at 13th level or higher. If the caster fires multiple missiles, he or she can target a single creature or several creatures. A single missile can strike only one creature. Targets must be designated before damage is rolled.
 </div>
 
-<div class="spell" data-tag="Magic Mouth" id="Magic Mouth">
+<div class="spell" data-tag="Magic Mouth" id="Magic-Mouth">
 ## Magic Mouth
 
 Magic-User 1
@@ -2321,7 +2308,7 @@ The spell functions when specific conditions are fulfilled according to the cast
 The range limit of a trigger is 10 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 60 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.
 </div>
 
-<div class="spell" data-tag="Maggot Spray" id="Maggot Spray">
+<div class="spell" data-tag="Maggot Spray" id="Maggot-Spray">
 ## Maggot Spray
  
 Black Magic-User 2
@@ -2333,7 +2320,7 @@ Duration: 1 round/level
 From the caster’s mouth sprays a stream of filth containing live flesh-eating maggots, affecting all within a 10-foot section immediately adjacent to and chosen by the caster. Those struck by the spray must save or be sickened for 2d6 rounds (like the [Stench](allSpells.html#stench) spell, causing a penalty of -2 to their attacks).       Additionally, the maggots eat into the flesh, causing 1d4 points of damage immediately and on subsequent rounds an additional 1d4 points of damage per round for a number of rounds equal to the caster's level.  Individuals may stop the damage by using an entire round to brush off the maggots (no movement, attacks, and loss of any dexterity or shield bonuses during this round).  Those taking the time to brush off the maggots take normal damage that round.  Removing the maggots does not remove the sickening effect of those who failed their save.
 </div>
 
-<div class="spell" data-tag="Mask of Life" id="Mask of Life">
+<div class="spell" data-tag="Mask of Life" id="Mask-of-Life">
 ## Mask of Life
  
 Black Magic-User 5
@@ -2347,7 +2334,7 @@ This spell makes a single undead creature appear to be alive.  The caster can de
 If the appearance is that of a living version of the target, anyone interacting with the target takes a -5 penalty to any saving throw to disbelieve the illusion.  If the target attacks or does anything that only the undead creature could do, the penalty is removed.
 </div>
 
-<div class="spell" data-tag="Mass Invisibility" id="Mass Invisibility">
+<div class="spell" data-tag="Mass Invisibility" id="Mass-Invisibility">
 ## Mass Invisibility
 
 Magic-User 7
@@ -2373,7 +2360,7 @@ With this spell the caster causes 1d4+1 man-sized (or smaller) creatures per fou
 Those affected are thus concealed from other creatures passing through the area for so long as they remain still. If an affected creature chooses to move or attack, the illusion is dispelled for that creature, but those who remain still continue to be hidden. The caster may end the spell early if he or she wishes by speaking a single word. The illusion can also be ended by [Dispel Magic](allSpells.html#dispel-magic).
 </div>
 
-<div class="spell" data-tag="Meal Blessing" id="Meal Blessing">
+<div class="spell" data-tag="Meal Blessing" id="Meal-Blessing">
 ## Meal Blessing
 
 Cleric 0, Druid 0
@@ -2385,7 +2372,7 @@ Duration: Instaneous
 The cleric says this short prayer before a meal to give the diners a blessing. Anyone who eats the meal within twenty minutes heals 1 hit point. The meal must be normally prepared and obtained in a way that the deity permits.
 </div>
 
-<div class="spell" data-tag="Melf’s Minute Meteors" id="Melf’s Minute Meteors">
+<div class="spell" data-tag="Melf’s Minute Meteors" id="Melfs-Minute-Meteors">
 ## Melf’s Minute Meteors
  
 Magic-User 3
@@ -2431,21 +2418,21 @@ When this spell is cast, the caster can whisper messages and receive replies wit
 The message must be in a language the caster speaks; this spell does not by itself confer understanding upon the recipients. This spell is most often used to conduct quick and private conferences when the caster does not wish to be overheard.
 <div>
 
-<div class="spell" data-tag="Meteor Storm" id="Meteor Storm">
+<div class="spell" data-tag="Meteor Storm" id="Meteor-Storm">
 ## Meteor Storm
 
 Magic-User 7
 
 Range: 1 mile
 
-Duration: Instananeous
+Duration: Instantaneous
 
 Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a saving throw vs. Spells. The sphere spreads around corners. Any affected creature takes 15d6 fire and bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 
-The spell damages objects in the area and ignites flammable objects that aren't being worn or carrier.
+The spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
 </div>
 
-<div class="spell" data-tag="Minor Warding" id="Minor Warding">
+<div class="spell" data-tag="Minor Warding" id="Minor-Warding">
  ## Minor Warding
  
 Black Magic-User 2
@@ -2459,7 +2446,7 @@ This spell cloaks an object of less than 10 cubic feet with an invisible aura of
 Non-living creatures such as undead or golems will not set off a minor ward.  The caster is free to handle the object at will.  The maximum duration of the spell is 1 hour per level of the caster.
 </div>
 
-<div class="spell" data-tag="Misty Step" id="Misty Step">
+<div class="spell" data-tag="Misty Step" id="Misty-Step">
 ## Misty Step
  
 Magic-User 3
@@ -2471,7 +2458,7 @@ Duration: Instantaneous
 The Magic User becomes surrounded by shimmering, silvery mist through which they can teleport up to 30 feet to an unoccupied space that they can see.
 </div>
 
-<div class="spell" data-tag="Monster Summoning" id="Monster Summoning">
+<div class="spell" data-tag="Monster Summoning" id="Monster-Summoning">
 ## Monster Summoning
  
 Magic-User 4
@@ -2498,7 +2485,7 @@ In rare cases, adventurers have been known to disappear, summoned by powerful sp
 | 6     | 2d10 Goblins |
 </div>
 
-<div class="spell" data-tag="Mordenkainen's Faithful Hound" id="Mordenkainen's Faithful Hound">
+<div class="spell" data-tag="Mordenkainen's Faithful Hound" id="Mordenkainens-Faithful-Hound">
 ## Mordenkainen's Faithful Hound
 
 Magic-User 4
@@ -2512,7 +2499,7 @@ By means of this spell, the wizard summons up a phantom watchdog that only the c
 If the intruding creature exposes its back to the watchdog, the dog delivers a vicious attack as if it were a 10-Hit Dice monster, striking for 3d6 points of damage. It is able to hit opponents of all types, even those normally subject only to magical weapons of +3 or greater. Creatures without backs (for example, ochre jellies) are not attacked. The faithful hound cannot be attacked, but it can be dispelled. The spell lasts for a maximum of one hour plus half an hour per caster level, but once it is activated by an intruder, it lasts only one round per caster level. If the spellcaster is ever more than 30 yards distant from the area that the watchdog guards, the spell ends.
 </div>
 
-<div class="spell" data-tag="Mordenkainen's Sword" id="Mordenkainen's Sword">
+<div class="spell" data-tag="Mordenkainen's Sword" id="Mordenkainens-Sword">
 ## Mordenkainen's Sword
 
 Magic-User 7
@@ -2536,7 +2523,7 @@ Duration: 2 hours/level
 This spell summons a riding horse or pony (caster’s choice) to serve as a mount. The mount comes with bit, bridle, and saddle.
 </div>
 
-<div class="spell" data-tag="Move Earth" id="Move Earth">
+<div class="spell" data-tag="Move Earth" id="Move-Earth">
 ## Move Earth
 
 Druid 6
@@ -2573,7 +2560,7 @@ Mummies do not travel well, being slow and quickly wear down, taking damage on l
 Mummification is generally in the realm of the Black Magic-User, but occasionally Clerics of certain cults might have access as well.
 </div>
 
-<div class="spell" data-tag="Neutralize Poison*" id="Neutralize Poison*">
+<div class="spell" data-tag="Neutralize Poison*" id="Neutralize-Poison">
 ## Neutralize Poison*
 
 Cleric 4
@@ -2587,7 +2574,7 @@ This spell detoxifies any sort of venom in the creature or object touched. A poi
 Reversed, this spell becomes **Poison**. The caster must make a successful attack roll; if the attack is a success, the target must save vs. Poison or die. The caster's touch remains poisonous for 1 round per level of ability, or until discharged (i.e. only one creature can be affected by the reversed spell).
 </div>
 
-<div class="spell" data-tag="Obscuring Mist" id="Obscuring Mist">
+<div class="spell" data-tag="Obscuring Mist" id="Obscuring-Mist">
 ## Obscuring Mist
 
 Magic-User 2, Druid 2
@@ -2611,7 +2598,7 @@ Duration: Intantaneous
 A normal, unlocked door, window, or other portal may be opened by this cantrip.  Reversed, the **Close** spell will close a normal, open door, window, or other portal.
 </div>
 
-<div class="spell" data-tag="Part Water" id="Part Water">
+<div class="spell" data-tag="Part Water" id="Part-Water">
 ## Part Water
 
 Druid 6
@@ -2623,7 +2610,7 @@ Duration: 1 turn/level
 This spell, when cast on a body of water, causes it to part.  This exposes a path that can be traversed as if it where dry land.  Note that this spell does not change the topography of the bottom of the body of water, so the terrain my still be difficult to cross.  The caster is able to affect a body of water up to 5 ft./caster level.  The caster may dismiss this spell at any time
 </div>
 
-<div class="spell" data-tag="Pass Tree" id="Pass Tree">
+<div class="spell" data-tag="Pass Tree" id="Pass-Tree">
 ## Pass Tree
 
 Druid 6
@@ -2647,7 +2634,7 @@ Duration: 3 turns
 Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9th (20 feet at 12th, 30 feet deep at 15th, 40 feet deep at 18th). If the wall’s thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, [Dispel Magic](allSpells.html#dispel-magic), or caster's choice), creatures within the passage are ejected out the nearest exit.
 </div>
 
-<div class="spell" data-tag="Pass Without Trace" id="Pass Without Trace">
+<div class="spell" data-tag="Pass Without Trace" id="Pass-Without-Trace">
 ## Pass Without Trace
 
 Druid 1
@@ -2682,7 +2669,7 @@ Spells that are commonly made permanent on a creature: [Detect Magic](allSpells.
 Spells commonly made permanent on items or locations include: [Alarm](allSpells.html#alarm), [Animate Objects](allSpells.html#animate-objects), [Confusion](allSpells.html#confusion), [Dancing Lights](allSpells.html#dancing-lights), guards and wards, [Invisibility](allSpells.html#invisibility), [Phantasmal Force](allSpells.html#phantasmal-force), [Private Sanctum](allSpells.html#private-sanctum), [Magic Mouth](allSpells.html#magic-mouth), [Symbol of Pain](allSpells.html#symbol-of-pain),[Wall of Fire](allSpells.html#wall-of-fire), and [Web](allSpells.html#web).
 </div>
 
-<div class="spell" data-tag="Phantasmal Force" id="Phantasmal Force">
+<div class="spell" data-tag="Phantasmal Force" id="Phantasmal-Force">
 ## Phantasmal Force
  
 Magic-User 2
@@ -2698,7 +2685,7 @@ If used to create the illusion of one or more creatures, they will have an Armor
 Attempting to animate more creatures than the caster's level grants viewing creatures with at least average Intelligence an immediate save vs. Spells to recognize the creatures as illusions; those making the save will be unaffected by any actions taken by the illusions from that point on. A similar save may be granted by the GM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
 </div>
 
-<div class="spell" data-tag="Phase Door" id="Phase Door">
+<div class="spell" data-tag="Phase Door" id="Phase-Door">
 ## Phase Door
 
 Magic-User 7
@@ -2716,7 +2703,7 @@ A phase door is subject to [Dispel Magic](allSpells.html#dispel-magic), but only
 It is possible to allow other creatures to use the phase door by setting a triggering condition for the door. This condition can be as simple or elaborate as desired. It can be based on a creature’s name or identity, but otherwise must be based on observable actions or qualities. Intangibles such as level, class, Hit Dice, and hit points don't qualify.
 </div>
 
-<div class="spell" data-tag="Plane Shift" id="Plane Shift">
+<div class="spell" data-tag="Plane Shift" id="Plane-Shift">
 ## Plane Shift
 
 Cleric 5
@@ -2728,7 +2715,7 @@ Duration: Instantaneous
  When cast, the caster or the creature touched is sent to another plane. If multiple creatures link hands in a circle, up to eight may plane shift. All participants must be willing. If any intended participant is unwilling, the spell fails with no effect. Plane shift is highly inaccurate and while the desired plane or dimension will always be reached, arrival will be 1-100 (d100) miles from the intended destination.
  </div>
 
- <div class="spell" data-tag="Plant Growth" id="Plant Growth">
+ <div class="spell" data-tag="Plant Growth" id="Plant-Growth">
  ## Plant Growth
 
 Druid 3
@@ -2742,7 +2729,7 @@ This spell causes normal vegetation (grasses, briars, bushes, creepers, thistles
 This spell has no effect on plant creatures, that is, any self-willed and/or animated plant.
 </div>
 
-<div class="spell" data-tag="Polymorph Other" id="Polymorph Other">
+<div class="spell" data-tag="Polymorph Other" id="Polymorph-Other">
 ## Polymorph Other
  
 Magic-User 4
@@ -2758,7 +2745,7 @@ The target creature will have the same number of hit points it previously had, r
 Unwilling targets that successfully save against Polymorph are not affected. The spell is permanent until dispelled or the creature is slain, at which time the target reverts to his or her original form.
 </div>
 
-<div class="spell" data-tag="Polymorph Self" id="Polymorph Self">
+<div class="spell" data-tag="Polymorph Self" id="Polymorph-Self">
 ## Polymorph Self
  
 Magic-User 4
@@ -2774,7 +2761,7 @@ The caster gains the physical capabilities and statistics of the new form but re
 The caster can remain transformed up to one hour per level of ability, or may choose to end the spell whenever he or she desires (up to one hour per level, of course).
 </div>
 
-<div class="spell" data-tag="Power Word Stun" id="Power Word Stun">
+<div class="spell" data-tag="Power Word Stun" id="Power-Word-Stun">
 ## Power Word Stun
 
 Magic-User 7
@@ -2786,7 +2773,7 @@ Duration: Variable
 The caster utters a single word of power that instantly causes one creature of their choice to become stunned, whether the creature can hear the word or not. The duration of the spell depends on the target’s current hit point total. Any creature that currently has 71 or more hit points is unaffected by power word stun. If the target has between 36 and 70 hit points, the duration is 1d6 rounds. If the target has 35 hit points or less, the duration is 2d6 turns.
 </div>
 
-<div class="spell" data-tag="Predict Weather" id="Predict Weather">
+<div class="spell" data-tag="Predict Weather" id="Predict-Weather">
 ## Predict Weather
 
 Cleric 0, Druid 0
@@ -2798,7 +2785,7 @@ Duration: Instantaneous
 The caster may accurately predict the weather up to 24 hours in advance.
 </div>
 
-<div class="spell" data-tag="Private Sanctum" id="Private Sanctum">
+<div class="spell" data-tag="Private Sanctum" id="Private-Sanctum">
 ## Private Sanctum
  
 Magic-User 5
@@ -2816,7 +2803,7 @@ No speech is possible between those inside and those outside the sanctum. The sp
 Private sanctum does not stop creatures from moving into and out of the area.
 </div>
 
-<div class="spell" data-tag="Produce Flame/Cold" id="Produce Flame/Cold">
+<div class="spell" data-tag="Produce Flame/Cold" id="Produce-Flame-Cold">
 ## Produce Flame/Cold
 
 Druid 2
@@ -2835,7 +2822,7 @@ Neither variation of this spell functions underwater.
 </div>
 
 
-<div class="spell" data-tag="Projected Image" id="Projected Image">
+<div class="spell" data-tag="Projected Image" id="Projected-Image">
  ## Projected Image
  
 Magic-User 6
@@ -2847,7 +2834,7 @@ Duration: 6 turns
 This spell creates a quasi-real, illusory version of the caster. The intangible projected image looks, sounds, and smells like the caster, in addition to mimicking gestures and actions (including speech). Any further spells cast seem to originate from the illusion, not the actual caster. A line of sight between the caster and his or her illusory self must be maintained or the spell ends. [Dimension Door](allSpells.html#dimension-door), [Teleport](allSpells.html#teleport), or any similar spell that breaks the line of sight dispels the image, as does the illusionary caster being struck in combat. Note that this spell grants no special sensory powers to the caster; for example, if the illusory self is positioned so as to be able to see something the caster can't directly see, the caster does not see it. Also, all spell ranges are still figured from the caster's actual position, not the illusory self's position.
 </div>
 
-<div class="spell" data-tag="Protection from Evil*" id="Protection from Evil*">
+<div class="spell" data-tag="Protection from Evil*" id="Protection-from-Evil">
 ## Protection From Evil*
 
 Cleric 1, Magic-User 1
@@ -2867,7 +2854,7 @@ Third, the spell prevents bodily contact by summoned creatures (regardless of wh
 Reversed, this spell becomes **Protection From Good**. It functions in all ways as described above, save that "good" creatures are kept away, rather than "evil" creatures.
 </div>
 
-<div class="spell" data-tag="Protection from Evil 10' Radius*" id="Protection from Evil 10' Radius*">
+<div class="spell" data-tag="Protection from Evil 10' Radius*" id="Protection-from-Evil-10-Radius">
 ## Protection From Evil 10' Radius*
 
 Cleric 4, Magic-User 3
@@ -2881,7 +2868,7 @@ This spell functions exactly as [Protection From Evil](allSpells.html#protection
 Reversed, this spell becomes **Protection From Good 10' Radius**, and functions exactly as the reversed form of [Protection From Evil](allSpells.html#protection-from-evil), except that it covers a 10' radius around the target rather than the normal 1' radius.
 </div>
 
-<div class="spell" data-tag="Protection from Fire" id="Protection from Fire">
+<div class="spell" data-tag="Protection from Fire" id="Protection-from-Fire">
 ## Protection From Fire
 
 Druid 3
@@ -2895,7 +2882,7 @@ If the caster touches himself or herself, this spell grants temporary immunity t
 If the spell is cast upon another creature than the caster, **Protection From Fire** grants temporary immunity against normal fire.  The spell also offers a +4 bonus to saving throws against magical fire and if the save is successful, the creature suffers no damage (and only 25% if the save fails).  This version of the spell lasts for 1 turn per caster level.
 </div>
 
-<div class="spell" data-tag="Protection from Lightning" id="Protection from Lightning">
+<div class="spell" data-tag="Protection from Lightning" id="Protection-from-Lightning">
 ## Protection From Lightning
 
 Druid 4
@@ -2907,7 +2894,7 @@ Duration: Special
  This spell functions exactly like [Protection From Fire](allSpells.html#protection-from-fire), except that that it protects against any sort of electrical or lightning damage.
  </div>
 
-<div class="spell" data-tag="Protection from Normal Missiles" id="Protection from Normal Missiles">
+<div class="spell" data-tag="Protection from Normal Missiles" id="Protection-from-Normal-Missiles">
 ## Protection from Normal Missiles
 
  
@@ -2920,7 +2907,7 @@ Duration: 1 turn/level
 The caster is completely protected from small sized, non-magical missile attacks. Therefore, magic arrows, hurled boulders, or other such are not blocked, but any number of normal arrows, sling bullets, crossbow bolts, thrown daggers, etc. will be fended off. Note that normal missiles projected by magic bows count as magical missiles for the purposes of this spell.
 </div>
 
-<div class="spell" data-tag="Protection From Undead*" id="Protection From Undead*">
+<div class="spell" data-tag="Protection From Undead*" id="Protection-From-Undead">
 ## Protection From Undead*
 
 Black Magic-User 1
@@ -2940,7 +2927,7 @@ Third, the spell prevents bodily contact by summoned creatures (regardless of wh
 Reversed, this spell becomes quite potent as **Protection From Living**.  It functions in all ways as described above, save that “living” creatures are kept away, rather than dead or “undead” creatures.  Black Magic-Users often use both versions of the spell to protect themselves from threats by both the living population as well as powerful undead that may try to command the Black Magic-User such as ghosts or vampires.
 </div>
 
-<div class="spell" data-tag="Purify Food and Water" id="Purify Food and Water">
+<div class="spell" data-tag="Purify Food and Water" id="Purify-Food-and-Water">
 ## Purify Food and Water
 
 Cleric 1, Druid 1
@@ -2952,7 +2939,7 @@ Duration: Instantaneous
 This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions.
 </div>
 
-<div class="spell" data-tag="Quest*" id="Quest*">
+<div class="spell" data-tag="Quest*" id="Quest">
 ## Quest*
 
 Cleric 5
@@ -2974,7 +2961,7 @@ If the subject is prevented from obeying the quest for 24 hours, it takes 3d6 po
 A quest (and all effects thereof) can be ended by a [Remove Curse](allSpells.html#remove-curse) spell from a caster two or more levels higher than the caster of the quest, or by a wish, or by the reverse of this spell. [Dispel Magic](allSpells.html#dispel-magic) does not affect a [Quest](allSpells.html#quest) spell.
 </div>
 
-<div class="spell" data-tag="Raise Dead*" id="Raise Dead*">
+<div class="spell" data-tag="Raise Dead*" id="Raise-Dead">
 ## Raise Dead*
 
 Cleric 5
@@ -2996,7 +2983,7 @@ A creature which has become undead can't be raised by this spell. Constructs and
 The reverse of this spell, **Slay Living**, will kill instantly the creature touched (which may be of any sort, not just a human, demi-human or humanoid) unless a save vs. Spells is made. If the saving throw is successful, 2d6 damage is dealt to the victim instead. An attack roll is required to apply this spell in combat.
 </div>
 
-<<div class="spell" data-tag="Ray of Exhaustion" id="Ray of Exhaustion">
+<<div class="spell" data-tag="Ray of Exhaustion" id="Ray-of-Exhaustion">
 ## Ray of Exhaustion
  
 Black Magic-User 3
@@ -3008,7 +2995,7 @@ Duration: 6 rounds/level
 The caster points a finger at their intended target and rolls a ranged attack roll against the target that ignores armor (but not any dexterity bonus).  If the narrow black ray hits, the target must save vs. Spells or suffer a -6 adjustment to its Strength and Dexterity for the duration of the spell.  If the save is made, the reduction is only -2.
 </div>
 
-<div class="spell" data-tag="Read Languages" id="Read Languages">
+<div class="spell" data-tag="Read Languages" id="Read-Languages">
 ## Read Languages
 
 Magic-User 1
@@ -3030,7 +3017,7 @@ This spell does not work on any sort of magical text, such as spell scrolls or s
 The spell grants the ability to read the texts, but does not in any way hasten the reading nor grant understanding of concepts the caster doesn't otherwise have the ability to understand. Also, for this spell to function, there must be at least one living creature that can read the given language somewhere on the same plane. The knowledge is not copied from that creature's mind; rather, it is the existence of the knowledge that enables the spell to function.
 </div>
 
-<div class="spell" data-tag="Read Magic" id="Read Magic">
+<div class="spell" data-tag="Read Magic" id="Read-Magic">
 ## Read Magic
 
 Magic-User 0
@@ -3112,7 +3099,7 @@ The reincarnated creature gains all abilities associated with its new form, incl
 
 </div>
 
-<div class="spell" data-tag="Remove Curse*" id="Remove Curse*">
+<div class="spell" data-tag="Remove Curse*" id="Remove-Curse*">
 ## Remove Curse*
 
 Cleric 3, Druid 3, Magic-User 4
@@ -3134,7 +3121,7 @@ Each round of combat, the target has a 50% chance to act normally; otherwise, it
 The caster may also invent his or her own curse, but it should be no more powerful than those described above. The curse thus bestowed cannot be dispelled, but it can be removed with a **Remove Curse** spell.
 </div>
 
-<div class="spell" data-tag="Remove Fear*" id="Remove Fear*">
+<div class="spell" data-tag="Remove Fear*" id="Remove-Fear">
 ## Remove Fear*
 
 Cleric 1
@@ -3148,7 +3135,7 @@ This spell will calm the creature touched. If the target creature is currently s
 The reverse of this spell, **Cause Fear**, causes one target creature within 120' to become frightened; if the target fails to save vs. Spells, it flees for 2 turns. Creatures with 6 or more hit dice are immune to this effect.
 </div>
 
-<div class="spell" data-tag="Remove Paralysis" id="Remove Paralysis">
+<div class="spell" data-tag="Remove Paralysis" id="Remove-Paralysis">
 ## Remove Paralysis
 
 Cleric 2
@@ -3160,7 +3147,7 @@ Duration: Instantaneous
 This spell permits the caster to free the creature touched from paralysis induced either by magical means or by monster attack (e.g. venom or ghouls)
 </div>
 
-<div class="spell" data-tag="Resist Cold" id="Resist Cold">
+<div class="spell" data-tag="Resist Cold" id="Resist-Cold">
 ## Resist Cold
 
 Cleric 2, Druid 2
@@ -3173,7 +3160,7 @@ This abjuration grants a creature temporary immunity to cold. Minor cold (such a
 
 </div>
 
-<div class="spell" data-tag="Resist Fire" id="Resist Fire">
+<div class="spell" data-tag="Resist Fire" id="Resist-Fire">
 ## Resist Fire
 
 Cleric 2, Druid 2
@@ -3185,7 +3172,7 @@ Duration: 1 round/level
 This abjuration grants a creature temporary immunity to fire and heat. Minor heat or fire (such as exposure to normal flames) is ignored by the affected creature. Against more significant heat or fire (such as a [Fireball](allSpells.html#fireball)), the affected creature gains a bonus of +3 on saving throws, and all damage from such attacks is reduced by half (round up).
 </div>
 
-<div class="spell" data-tag="Restore Health" id="Restore Health">
+<div class="spell" data-tag="Restore Health" id="Restore-Health">
 ## Restore Health
 
 Cleric 2
@@ -3197,7 +3184,7 @@ Duration: Instantaneous
 This spell removes unnatural weakness, mental or physical debilitation or exhaustion from the touched individual. This spell is useful for restoring temporary ability score draining, such as the strength-draining touch of a shadow. The caster chooses which ability score the spell will restore when casting. It has no effect on permanent ability score loss or energy drain.
 </div>
 
-<div class="spell" data-tag="Restoration*" id="Restoration*">
+<div class="spell" data-tag="Restoration*" id="Restoration">
 ## Restoration*
 
 Cleric 6, Druid 7
@@ -3235,7 +3222,7 @@ A creature which has become undead can be resurrected as long as the undead crea
 The spell cannot bring back a creature that has died of old age.
 </div>
 
-<div class="spell" data-tag="Reveal Magic" id="Reveal Magic">
+<div class="spell" data-tag="Reveal Magic" id="Reveal-Magic">
 ## Reveal Magic
  
 Magic-User 6
@@ -3249,7 +3236,7 @@ This spell reveals all spell and magical properties of an object, creature, or p
 Any object or magic item that is held by someone who does not want the object or magic item examine may negate the spell with a successful saving throw vs. Spells. Likewise a creature that does not want to be examined may also negate the spell with a successful saving throw vs. Spells
 </div>
 
-<div class="spell" data-tag="Reverse Gravity" id="Reverse Gravity">
+<div class="spell" data-tag="Reverse Gravity" id="Reverse-Gravity">
 ## Reverse Gravity
 
 Druid 7, Magic-User 7
@@ -3261,7 +3248,7 @@ Duration: 1 round/level
 This spell reverses gravity in a 30’ x 30’ area of effect, causing all unattached objects and creatures within it to “fall” upward. The reverse gravity lasts as long as the caster desires or until the spell expires. If some solid object is encountered in this “fall,” the object strikes it in the same manner as it would during a normal downward fall. At the end of the spell duration, the affected objects and creatures fall downward. As the spell affects an area, objects tens, hundreds, or even thousands of feet in the air above the area can be affected.
 </div>
 
-<div class="spell" data-tag="Shrink Item" id="Shrink Item">
+<div class="spell" data-tag="Shrink Item" id="Shrink-Item">
 ## Shrink Item
  
 Magic-User 4
@@ -3273,7 +3260,7 @@ Duration: Permanent
 By means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an **Shrink Item** spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.
 </div>
 
-<div class="spell" data-tag="Ring of Greater Healing*" id="Ring of Greater Healing*">
+<div class="spell" data-tag="Ring of Greater Healing*" id="Ring-of-Greater-Healing">
 ## Ring of Greater Healing*
 
 Cleric 7, Druid 7
@@ -3287,7 +3274,7 @@ This spell allows the caster to create an effect equivalent to the spell [Cure S
 The reverse of this spell, **Ring of Greater Infliction**, allows the caster to cast [Cause Serious Wounds](allSpells.html#cure-serious-wounds) on multiple creatures within a 15' radius. This form of the spell causes 3d6+3 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
 </div>
 
-<div class="spell" data-tag="Ring of Lesser Healing*" id="Ring of Lesser Healing*">
+<div class="spell" data-tag="Ring of Lesser Healing*" id="Ring-of-Lesser-Healing">
 ## Ring of Lesser Healing*
 
 Cleric 5, Druid 5
@@ -3302,7 +3289,7 @@ The reverse of this spell, **Ring of Lesser Infliction**, allows the caster to c
 </div>
 
 
-<div class="spell" data-tag="Rock to Mud*" id="Rock to Mud*">
+<div class="spell" data-tag="Rock to Mud*" id="Rock-to-Mud">
 ## Rock to Mud*
 
 Druid 5, Magic-User 5
@@ -3322,7 +3309,7 @@ The mud remains until a successful [Dispel Magic](allSpells.html#dispel-magic) o
 When using the reverse, **Mud to Rock**, the spell converts the same volume of mud into relatively soft stone (such as limestone or sandstone) permanently.  Any creature in the mud must save vs. Death Ray to escape before the area transforms into rock (assuming it has enough movement to do so).
 </div>
 
-<div class="spell" data-tag="Rot Flesh" id="Rot Flesh">
+<div class="spell" data-tag="Rot Flesh" id="Rot-Flesh">
 ## Rot Flesh
 
 Black Magic-User 4
@@ -3336,7 +3323,7 @@ This spell works exactly like the [Decay Flesh](allSpells.html#decay-flesh) spel
 Just like the lower level [Decay Flesh](allSpells.html#decay-flesh) spell, this spell may not be reversed, and similarly, this spell works upon undead creatures in the opposite fashion; they are healed for 2d6 points plus 1 point per caster level worth of damage instead.
 </div>
 
-<div class="spell" data-tag="Sacrifice*" id="Sacrifice*">
+<div class="spell" data-tag="Sacrifice*" id="Sacrifice">
 ## Sacrifice*
 
 Cleric 3
@@ -3362,7 +3349,7 @@ This spell causes opponents to ignore the caster. Any opponent who might otherwi
 This spell does not prevent area effect attacks (fireball, ice storm, etc.) from harming the caster. While under protection from the spell, the caster is unable to perform any offensive acts, but may take any other action desired.
 </div>
 
-<div class="spell" data-tag="Shadow Staff" id="Shadow Staff">
+<div class="spell" data-tag="Shadow Staff" id="Shadow-Staff">
 ## Shadow Staff
  
 Magic-User 2
@@ -3374,7 +3361,7 @@ Duration: 1 turn/level
 The caster's staff is transformed into the substance of shadow. When used in combat the staff is treated as a magical weapon (initially +1 to hit and damage) and each hit will drain 1 point of strength from the target (save vs. Spells to avoid). For each point drained, the staff's magical bonus is increased by one (up to a maximum bonus of +5), lasting until the end of the spell. The shadow staff can only be wielded by the caster. The draining effect does combine with any inherent magical qualities of the caster's staff, if such exist. Use best magical bonus, either the magical staff's inherent bonus or the magic from the spell's draining ability, whichever is better on any particular round (as the bonus from the spell can potentially increase over time to become better than the inherent magical ability of the staff in question).
 </div>
 
-<div class="spell" data-tag="Shadow Walk" id="Shadow Walk">
+<div class="spell" data-tag="Shadow Walk" id="Shadow-Walk">
 ## Shadow Walk
  
 Magic-User 6
@@ -3402,7 +3389,7 @@ Duration: 5 rounds+1/level
 Shield creates an invisible, shield-like mobile disk of force that hovers in front of the caster. It negates [Magic Missile](allSpells.html#magic-missile) attacks directed at the caster, and improves the caster's Armor Class by +3 vs. melee attacks and +6 vs. missile weapons. The Armor Class benefits do not apply to attacks originating from behind the caster, but  [Magic Missile](allSpells.html#magic-missile) are warded off from all directions.
 </div>
 
-<div class="spell" data-tag="Shield of Thorns" id="Shield of Thorns">
+<div class="spell" data-tag="Shield of Thorns" id="Shield-of-Thorns">
 ## Shield of Thorns
 
 Druid 2
@@ -3417,7 +3404,7 @@ Those attacking with weapons of length, such as spears or polearms, will not suf
 </div>
 
 
-<div class="spell" data-tag="Silence 15' Radius" id="Silence 15' Radius">
+<div class="spell" data-tag="Silence 15' Radius" id="Silence-15-Radius">
 ## Silence 15' Radius
 
 Cleric 2, Druid 2
@@ -3445,7 +3432,7 @@ Sleeping creatures are helpless. Slapping or wounding awakens an affected creatu
 When the duration elapses, the sleeping creatures normally wake up immediately; however, if they are made very comfortable and the surroundings are quiet, the affected creatures may continue sleeping normally, at the GM's option.
 </div>
 
-<div class="spell" data-tag="Speak with Animals" id="Speak with Animals">
+<div class="spell" data-tag="Speak with Animals" id="Speak-with-Animals">
 ## Speak with Animals
 
 Cleric 2, Druid 2
@@ -3457,7 +3444,7 @@ Duration: 1 turn/4 levels
 The caster can comprehend and communicate with any one animal (normal or giant sized, but not magical or monstrous) that is in sight of the caster and able to hear him or her. The caster may change which animal he or she is speaking with at will, once per round. The spell doesn’t alter the animal’s reaction or attitude towards the caster; a standard reaction roll should be made to determine this. Furthermore, more intelligent animals are likely to be terse and evasive, while less intelligent ones make inane comments. However, if an animal is friendly toward the caster, it may be willing to grant some favor or service.
 </div>
 
-<div class="spell" data-tag="Speak with Monsters" id="Speak with Monsters">
+<div class="spell" data-tag="Speak with Monsters" id="Speak-with-Monsters">
 ## Speak with Monsters
 
 Cleric 6, Druid 6
@@ -3469,7 +3456,7 @@ Duration: 1 turn/5 levels
 The caster can comprehend and communicate with any one monster that is in sight of the caster and able to hear him or her. The caster may change which monster he or she is speaking with at will, once per round. Others able to understand the language spoken by the target monster (if any) will be able to understand the caster. The spell doesn’t alter the monster’s reaction or attitude towards the caster. Furthermore, more intelligent monsters are likely to be terse and evasive, while less intelligent ones make inane comments. If a monster is friendly toward the caster, it may decide to do some favor or service for him or her. Mindless monsters, plant creatures and undead are unaffected by this spell.
 </div>
 
-<div class="spell" data-tag="Speak with Plants" id="Speak with Plants">
+<div class="spell" data-tag="Speak with Plants" id="Speak-with-Plants">
 ## Speak with Plants
 
 Cleric 4, Druid 4
@@ -3481,7 +3468,7 @@ Duration: 1 turn
 The caster can comprehend and communicate with both normal plants and plant creatures. A normal plant’s sense of its surroundings is limited, so it won’t be able to give (or recognize) detailed descriptions of creatures or answer questions about events outside its immediate vicinity. The spell doesn’t alter the plant’s reaction or attitude towards the caster; however, normal plants will generally communicate freely with the caster, as they have nothing else of importance to do. Intelligent plant creatures are more likely to be terse and evasive, behaving in much the same fashion as any other monster. If a plant creature is friendly toward the caster, it may decide to do some favor or service for him or her. Normal plants are usually not animate, and thus cannot generally perform “services” other than to answer questions.
 </div>
 
-<div class="spell" data-tag="Speak with Dead" id="Speak with Dead">
+<div class="spell" data-tag="Speak with Dead" id="Speak-with-Dead">
 ## Speak with Dead
 
 Cleric 3
@@ -3499,7 +3486,7 @@ This spell does not let the caster actually speak to the person (whose soul has 
 This spell does not affect a corpse that has been turned into an undead creature.
 </div>
 
-<div class="spell" data-tag="Spell Turning" id="Spell Turning">
+<div class="spell" data-tag="Spell Turning" id="Spell-Turning">
 ## Spell Turning
 
 Magic-User 7
@@ -3516,7 +3503,7 @@ Spell turning can't affect spells that aren't targeted (such as area spells).
 If spell turning reflects a spell back at a caster who is also under the effect of spell turning, their spell turning can attempt to reflect their own spell back at you again; if they do so, their counteract attempt automatically succeeds
 </div>
 
-<div class="spell" data-tag="Spider Climb" id="Spider Climb">
+<div class="spell" data-tag="Spider Climb" id="Spider-Climb">
 ## Spider Climb
  
 Magic-User 1
@@ -3530,7 +3517,7 @@ A **Spider Climb** spell enables the recipient to climb and travel upon vertical
 During the course of the spell, the recipient cannot handle objects that weigh less than a dagger (one pound), for such objects stick to their hands and feet. Thus, a wizard will find it virtually impossible to cast spells if under a spider climb spell. Sufficient force can pull the recipient free; the DM can assign a saving throw based on circumstances, the strength of the force, and so on. For example, a creature with a Strength of 12 might pull the subject free if the subject fails a saving throw vs. paralyzation (a moderately difficult saving throw). The caster can end the spell effect with a word
 </div>
 
-<div class="spell" data-tag="Spirit Wrack" id="Spirit Wrack">
+<div class="spell" data-tag="Spirit Wrack" id="Spirit-Wrack">
 ## Spirit Wrack
  
 Black Magic-User 3
@@ -3544,7 +3531,7 @@ This spell deals 1d8 points of damage per caster level to any one particular inc
 Minor spiritual beings such as poltergeists haunting an area are usually destroyed outright by this spell.  Any affected being is allowed a save for half damage.  Some persistent types of undead may reform after the passage of some time (typically days later), and may require certain rituals or other requirements be fulfilled before being permanently destroyed.  This spell only affects true incorporeal undead and does nothing against other types of beings, even if they happen to be insubstantial at the time; vampires that happen to be in gaseous form are immune to this spell's effect.
 </div>
 
-<div class="spell" data-tag="Spiritual Hammer" id="Spiritual Hammer">
+<div class="spell" data-tag="Spiritual Hammer" id="Spiritual-Hammer">
 ## Spiritual Hammer
 
 Cleric 2
@@ -3582,7 +3569,7 @@ This spell creates a sickly stinking smell of rot and decay that emanates from t
 For every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3rd the save is at -1, at 6th level at -2, at 9th level at -3, etc).  A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours.  A [Neutralize Poison Spell](allSpells.html#neutralize-poison-spell) removes the effect from a sickened creature.
 </div>
 
-<div class="spell" data-tag="Sticks to Snakes" id="Sticks to Snakes">
+<div class="spell" data-tag="Sticks to Snakes" id="Sticks-to-Snakes">
 ## Sticks to Snakes
 
 Cleric 4, Druid 4
@@ -3594,7 +3581,7 @@ Duration: 6 turns
 This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. (See the [Monsters](monstersAll.html#snake-giant-rattlesnake) section for details on types of snakes.) The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.
 </div>
 
-<div class="spell" data-tag="Stone Shape" id="Stone Shape">
+<div class="spell" data-tag="Stone Shape" id="Stone-Shape">
 ## Stone Shape
 
 Cleric 4, Druid 4
@@ -3632,7 +3619,7 @@ Duration: 1 round/level
 This spell bestows upon one weapon the ability to deal 1d6 points of additional damage. This extra damage is applied on each successful attack for the duration of the spell. It provides no attack bonus, but if cast on a normal weapon, the spell allows monsters only hit by magical weapons to be affected; only the 1d6 points of magical damage applies to such a monster, however.
 </div>
 
-<div class="spell" data-tag="Summon Animals I" id="Summon Animals I">
+<div class="spell" data-tag="Summon Animals I" id="Summon-Animals-I">
 ## Summon Animals I
 
 Druid 4
@@ -3644,7 +3631,7 @@ Duration: One hour
 This spell summons 1d8 ordinary animals (including giant ones) of no more than 4 HD each if they are within range.  The Druid must name the type of animal summoned, and can have up to three choices.  If none of the three species are found within range, the spell fails.  The animals will be friendly when summoned and aid the Druid's current task, including combat, in whatever way they can (to the best of their understanding).  The Druid may dismiss any animals called by this spell at any time.
 </div>
 
-<div class="spell" data-tag="Summon Animals II" id="Summon Animals II">
+<div class="spell" data-tag="Summon Animals II" id="Summon-Animals-II">
 ## Summon Animals II
 
 Druid 5
@@ -3656,7 +3643,7 @@ Duration: One day
 This spell is a more powerful version of [Summon Animals I](allSpells.html#summon-animals-i).  Up to 3d4 animals of 4 HD or less can be summoned, or 1d6 animals of 8 HD or less.
 </div>
 
-<div class="spell" data-tag="Summon Animals III" id="Summon Animals III">
+<div class="spell" data-tag="Summon Animals III" id="Summon-Animals-III">
 ## Summon Animals III
 
 Druid 6
@@ -3668,7 +3655,7 @@ Duration: One day
 This spell is a more powerful version of [Summon Animals II](allSpells.html#summon-animals-ii).  Up to 4d6 animals of 4 HD or less can be summoned, or 3d4 animals of 8 HD or less, or 1d4 animals of 12 HD or less.
 </div>
 
-<div class="spell" data-tag="Summon Spirit" id="Summon Spirit">
+<div class="spell" data-tag="Summon Spirit" id="Summon-Spirit">
 ## Summon Spirit
  
 Black Magic-User 3
@@ -3682,7 +3669,7 @@ Upon casting this spell, a malevolent spirit in the form of a wraith is called t
 Occasionally the spirit does not depart at the end of the spell duration, but simply becomes free of the compulsion to serve and will usually attack the caster.  The chance is 5% for any particular wraith, 10% for spectres, and 20% for a ghost.  When this occurs, the spirit will remain in the area for a number of rounds equal to the caster's level before departing.  A spirit with less than half its hit points will not stay regardless.  The caster would be wise to have protections or other contingencies against the rogue spirits.
 </div>
 
-<div class="spell" data-tag="Summon Swarm" id="Summon Swarm">
+<div class="spell" data-tag="Summon Swarm" id="Summon-Swarm">
 ## Summon Swarm
 
 Druid 1, Magic-User 2
@@ -3704,7 +3691,7 @@ The swarm of small animals (roll on following table to determine type, or the DM
 The swarm cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 2 hit points per caster level from these attacks. A [Protection From Evil](allSpells.html#protection-from-evil) spell keeps the swarm at bay, and certain area-effect spells, such as [Gust of Wind](allSpells.html#gust-of-wind) and stinking cloud, disperse a swarm immediately, if appropriate to the swarm summoned (for example, only flyers are affected by a [Gust of Wind](allSpells.html#gust-of-wind)). The caster must remain stationary and undisturbed to control the swarm; if their concentration lapses or is broken, the swarm disperses in two rounds. The swarm is stationary once conjured.
 </div>
 
-<div class="spell" data-tag="Summon Vermin*" id="Summon Vermin*">
+<div class="spell" data-tag="Summon Vermin*" id="Summon-Vermin">
 ## Summon Vermin*
 
 Magic-user 0, Druid 0
@@ -3716,7 +3703,7 @@ Duration: 1 turn/level
 This cantrip/orison summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
 </div>
 
-<div class="spell" data-tag="Symbol of Fear" id="Symbol of Fear">
+<div class="spell" data-tag="Symbol of Fear" id="Symbol-of-Fear">
 ## Symbol of Fear
  
 Black Magic-User 6
@@ -3728,7 +3715,7 @@ Duration: Special
 This spell functions like [Symbol of Pain](allSpells.html#symbol-of-pain), except that all creatures within 60 feet of the **Symbol of Fear** become panicked for 1 round per caster level.  A panicked creature will drop whatever it is holding and flee using any means necessary.  If cornered, the creature will cower in fear.  The victim will also suffer a -2 to all saving throws.  The creature will do this for the duration of the spell.  If a save is made, the victim is still shaken and suffers -2 to attack rolls and saving throws for 1 round.
 </div>
 
-<div class="spell" data-tag="Symbol of Pain" id="Symbol of Pain">
+<div class="spell" data-tag="Symbol of Pain" id="Symbol-of-Pain">
 ## Symbol of Pain
 
 Black Magic-User 5
@@ -3808,7 +3795,7 @@ Duration: 1 turn/level
 This spell allows the creature touched to speak and understand any language or dialect. Only one language can be spoken at a time, but any number can be understood. This spell does not alter other creatures’ dispositions and does not allow the affected creature to speak to creatures that cannot understand language.
 </div>
 
-<div class="spell" data-tag="Trap the Soul" id="Trap the Soul">
+<div class="spell" data-tag="Trap the Soul" id="Trap-the-Soul">
 ## Trap the Soul
 
 Magic-User 7
@@ -3828,7 +3815,7 @@ The gem prison will hold the trapped entity indefinitely, or until the gem is br
 Before the actual casting of the trap the soul spell, the wizard must prepare the prison, a gem of at least 1,000 gp value for every Hit Die or level of experience possessed by the creature to be trapped (for example, it requires a gem of 10,000 gp value to trap a 10 Hit Die or 10th-level creature). If the gem is not valuable enough, it shatters when the entrapment is attempted. (Note that while characters have no concept of level as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as characters advance.) Creating the prison gem requires an enchant an item spell and the placement of a maze spell into the gem, thereby forming the prison to contain the life force.
 </div>
 
-<div class="spell" data-tag="Tree Santuary" id="Tree Santuary">
+<div class="spell" data-tag="Tree Santuary" id="Tree-Santuary">
 ## Tree Sanctuary
 
 Druid 4
@@ -3844,7 +3831,7 @@ The Druid is completely aware of their surroundings while in the tree, gaining t
 The Druid however loses the senses of taste, smell, and touch, and may not speak or cast spells while inside the tree.  The Druid takes half of any damage the tree suffers, and if the tree is destroyed or cut down, the Druid is cast out into the nearest available space.
 </div>
 
-<div class="spell" data-tag="True Seeing" id="True Seeing">
+<div class="spell" data-tag="True Seeing" id="True-Seeing">
 ## True Seeing
 
 Cleric 5, Druid 5
@@ -3858,7 +3845,7 @@ This spell confers on the target the ability to see all things as they actually 
 **True seeing**, however, does not penetrate solid objects. It in no way confers X-ray vision or its equivalent. It does not negate concealment, including that caused by fog and the like. In addition, the spell effects cannot be further enhanced with known magic, so one cannot use true seeing through a **Crystal ball** or in conjunction with [Clairvoyance](allSpells.html#clairvoyance).
 </div>
 
-<div class="spell" data-tag="Undeath to Death" id="Undeath to Death">
+<div class="spell" data-tag="Undeath to Death" id="Undeath-to-Death">
 ## Undeath to Death
 
 Cleric 6, Magic-user (Black) 6
@@ -3870,7 +3857,7 @@ Duration: Instantaneous
 This spell destroys 3d12 hit dice or levels of undead creatures in a 30' radius sphere centered wherever the caster wishes (within the range limit).  Excess levels of effectiveness are lost.  Each undead creature affected is allowed to save vs. Death Ray; those that fail the save are immediately destroyed. 
 </div>
 
-<div class="spell" data-tag="Unseen Servant " id="Unseen Servant ">
+<div class="spell" data-tag="Unseen Servant" id="Unseen-Servant">
 ## Unseen Servant
  
 Magic-User 1
@@ -3899,7 +3886,7 @@ There is a 1% chance that a vanished item will be disintegrated instead. There i
 
 </div>
 
-<div class="spell" data-tag="Vampiric Touch" id="Vampiric Touch">
+<div class="spell" data-tag="Vampiric Touch" id="Vampiric-Touch">
 ## Vampiric Touch
  
 Black Magic-User 3
@@ -3935,7 +3922,7 @@ Duration: 1 round
  A subject gains one temporary hit point for ten minutes.
 </div>
 
-<div class="spell" data-tag="Wall of Bones" id="Wall of Bones">
+<div class="spell" data-tag="Wall of Bones" id="Wall-of-Bones">
 ## Wall of Bones
  
 Black Magic-User 4
@@ -3949,7 +3936,7 @@ An immobile wall of writhing interlocking bone and bone fragments rises from the
 The spell also differs from the [Wall of Stone](allSpells.html#wall-of-stone) spell in that  the semi-animated wall attacks those within close proximity to its structure (10 feet) for 2d4 piercing and slashing damage from the bones.  The structure is not completely solid, so high-strength individuals may attempt to break through with a Strength check, but they take an additional 2d6+1/level points of damage while making the attempt for each 1 foot of thickness that they attempt to move through.  A separate Strength check is necessary for each 1 foot of thickness of the wall section in order to break through.  The bone wall does not attack the caster or any undead creatures.  The **Wall of Bones** may be fashioned into simple structures such as ramps or bridges to span a rift, but these uses reduce the size by half so that supporting arches or buttresses can be included.
 </div>
 
-<div class="spell" data-tag="Wall of Fire" id="Wall of Fire">
+<div class="spell" data-tag="Wall of Fire" id="Wall-of-Fire">
 ## Wall of Fire
 
 Cleric 5, Druid 5, Magic-User 4
@@ -3967,7 +3954,7 @@ If the caster evokes the wall so that it appears where creatures are, each creat
 The caster may choose to maintain the spell indefinitely (within reasonable limits of endurance) by concentration, or may cast it with the standard duration of 1 round per level, at his or her option.
 </div>
 
-<div class="spell" data-tag="Wall of Force" id="Wall of Force">
+<div class="spell" data-tag="Wall of Force" id="Wall-of-Force">
 ## Wall of Force
 
 Magic-User 7
@@ -3981,7 +3968,7 @@ This spell creates an invisible wall of force up to 100 feet square. The wall mu
 The caster may choose to maintain the spell indefinitely (within reasonable limits of endurance) by concentration, or may cast it with the standard duration of 1 round per level, at their option.
 </div>
 
-<div class="spell" data-tag="Wall of Iron" id="Wall of Iron">
+<div class="spell" data-tag="Wall of Iron" id="Wall-of-Iron">
 ## Wall of Iron
  
 Range: 90'
@@ -3997,7 +3984,7 @@ The caster can increase the thickness of the wall with a proportionate reduction
 Like any iron wall, this wall is subject to rust, perforation, and other natural phenomena.
 </div>
 
-<div class="spell" data-tag="Wall of Stone" id="Wall of Stone">
+<div class="spell" data-tag="Wall of Stone" id="Wall-of-Stone">
 ## Wall of Stone
 
 Cleric 5, Druid 5, Magic-User 5
@@ -4015,7 +4002,7 @@ Like any other stone wall, this one can be destroyed by a disintegrate spell or 
 It is possible, but difficult, to trap mobile opponents within or under a wall of stone, provided the wall is shaped so it can hold the creatures.  Creatures can avoid entrapment with successful saves vs. Death Ray.
 </div>
 
-<div class="spell" data-tag="Wall of Thorns" id="Wall of Thorns">
+<div class="spell" data-tag="Wall of Thorns" id="Wall-of-Thorns">
 ## Wall of Thorns
 
 Druid 7
@@ -4030,7 +4017,7 @@ When the wall appears, each creature within its area must make a Dexterity savin
 A creature can move through the wall ay 5’ per round suffering 1d8 points of damage.
 </div>
 
-<div class="spell" data-tag="Ward*" id="Ward*">
+<div class="spell" data-tag="Ward*" id="Ward">
 Cleric 0, Druid 0
 
 Range: 10'
@@ -4040,7 +4027,7 @@ Duration: Instantaneous
 Grants +1 to the subject’s next saving throw. Reversed, this becomes **Curse**, which gives the opposite effect.
 </div>
 
-<div class="spell" data-tag="Warp Wood**" id="Warp Wood*">
+<div class="spell" data-tag="Warp Wood**" id="Warp-Wood">
 ## Warp Wood*
 
 Magic-User 2, Druid 2
@@ -4054,7 +4041,7 @@ The caster causes non-magical wood in a 20 ft radius to bend and warp, permanent
 Alternatively, the caster can **“Un-Warp”** non-magical wood (effectively warping it back to normal), straightening wood that has been warped by this spell or by other means.  The caster can combine multiple consecutive warp wood spells to warp (or un-warp) an object that is too large to warp with a single spell.
 </div>
 
-<div class="spell" data-tag="Water Breathing" id="Water Breathing">
+<div class="spell" data-tag="Water Breathing" id="Water-Breathing">
 ## Water Breathing
 
 Cleric 3, Druid 3, Magic-User 2
@@ -4066,7 +4053,7 @@ Duration: 2 hours/level
 The affected creatures can breathe water freely. Divide the duration evenly among all the creatures the caster touches.  The spell does not make creatures unable to breathe air.
 </div>
 
-<div class="spell" data-tag="Water to Wine" id="Water to Wine">
+<div class="spell" data-tag="Water to Wine" id="Water-to-Wine">
 ## Water to Wine*
 
 Cleric 0, Druid 0
@@ -4078,7 +4065,7 @@ Duration: Instantaneous
 The cleric may turn one flask or mug of water to wine.  The reverse **Wine to Water** turns a flask of wine to pure water.
 </div>
 
-<div class="spell" data-tag="Waves of Fatigue" id="Waves of Fatigue">
+<div class="spell" data-tag="Waves of Fatigue" id="Waves-of-Fatigue">
 ## Waves of Fatigue
  
 Black Magic-User 5
@@ -4090,7 +4077,7 @@ Duration: 1 turn/level
 This spell sends an invisible wave of harmful energy out forward of the caster to a range of 30 feet.  All living creatures in the area suffer a -2 adjustment to their Strength and Dexterity for the duration of the spell.
 </div>
 
-<div class="spell" data-tag="Weather Summoning" id="Weather Summoning">
+<div class="spell" data-tag="Weather Summoning" id="Weather-Summoning">
 ## Weather Summoning
 
 Druid 6, Magic-User 6
@@ -4120,7 +4107,7 @@ If the save fails, the creature is entangled and can’t move or perform any oth
 The strands of a web spell are flammable. Any fire can set the webs alight and burn away a 10' cube in 1 round; the fire will spread to adjacent 10' cubes each round until all the webbing is consumed (or the fire is put out by some means). All creatures within flaming webs take 2d4 points of fire damage from the flames, but if they survive they are completely free afterwards.
 </div>
 
-<div class="spell" data-tag="Wind Walk" id="Wind Walk">
+<div class="spell" data-tag="Wind Walk" id="Wind-Walk">
 ## Wind Walk
 
 Cleric 7, Druid 7
@@ -4136,7 +4123,7 @@ While under the spell, a wind walker flies at a speed of 10 feet, able to move a
 For the duration of the spell, each participant may freely switch between its physical form and its vaporous form as desired, but each change takes five rounds. The caster can dismiss the spell at any time, either individually or for everyone at once.
 </div>
 
-<div class="spell" data-tag="Wizard Eye" id="Wizard Eye">
+<div class="spell" data-tag="Wizard Eye" id="Wizard-Eye">
 ## Wizard Eye
  
 Magic-User 4
@@ -4148,7 +4135,7 @@ Duration: 6 turns
 With this spell the caster creates an invisible magical “eye” through which he or she can see. The eye has [Darkvision](dungeonAdventures.html#darkvision), but otherwise sees exactly as the caster would. It can be created in any place the caster can see, up to a range of 240' away, and thereafter can move at a rate of 40' per round as directed by the caster. The eye will not move more than 240' feet away from the caster under any circumstances. The eye cannot pass through solid objects, but as it is exactly the size of a normal human's eye, it can pass through holes as small as 1 inch in diameter. The caster must concentrate to use the eye.
 </div>
 
-<div class="spell" data-tag="Wizard Lock" id="Wizard Lock">
+<div class="spell" data-tag="Wizard Lock" id="Wizard-Lock">
 ## Wizard Lock
  
 Magic-User 2
@@ -4160,7 +4147,7 @@ Duration: Permanent
 A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it. The caster can freely pass his or her own wizard lock without affecting it, as can any Magic-User 3 or more levels higher than the caster of the wizard lock; otherwise, a door or object secured with this spell can be opened only by breaking in or with a successful [Dispel Magic](allSpells.html#dispel-magic) or [Knock](allSpells.html#knock) spell.
 </div>
 
-<div class="spell" data-tag="Word of Recall" id="Word of Recall">
+<div class="spell" data-tag="Word of Recall" id="Word-of-Recall">
 ## Word of Recall
 
 Cleric 6, Druid 6
@@ -4189,7 +4176,7 @@ The wizard can pass through small holes or narrow openings, even mere cracks, wi
 </div>
 
 
-<div class="spell" data-tag="Wychlamp Aura" id="Wychlamp Aura">
+<div class="spell" data-tag="Wychlamp Aura" id="Wychlamp-Aura">
 ## Wychlamp Aura
  
 Magic-User 7
@@ -4219,7 +4206,7 @@ Area effect magic is altered as follows (roll 1d10):
  Magical attacks delivered by touch are always reflected back on the attacker.
 </div>
 
-<div class="spell" data-tag="Zagig's Canned Laughter" id="Zagig's Canned Laughter">
+<div class="spell" data-tag="Zagig's Canned Laughter" id="Zagigs-Canned-Laughter">
 ## Zagig's Canned Laughter
 
 Magic-User 0
@@ -4235,13 +4222,13 @@ The spell just makes a laugh track play any time the caster jokes, for one round
 
 <script>
 let input = document.getElementById('input');
-let animalDivs = document.querySelectorAll('.spell');
+let spellDivs = document.querySelectorAll('.spell');
 
 input.addEventListener('input', function(e) {
   const term = this.value.toLowerCase();
-  animalDivs.forEach(function(div) {
-    const animal = div.dataset.tag.toLocaleLowerCase();
-    div.hidden = !animal.includes(term)
+  spellDivs.forEach(function(div) {
+    const spell = div.dataset.tag.toLocaleLowerCase();
+    div.hidden = !spell.includes(term)
   });
 });
 </script>
