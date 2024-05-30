@@ -124,15 +124,15 @@ The caster may accurately predict the weather up to 24 hours in advance.
 
 ::: {.callout-note icon=false collapse=true}
 
-## Summon Vermin*
+## Virtue
 
-Magic-user 0, Druid 0
+Cleric 0, Druid 0
 
-Range: 30'
+Range: 10'
 
-Duration: 1 turn/level
+Duration: 1 round
 
-This cantrip/orison summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
+ A subject gains one temporary hit point for ten minutes.
 
 :::
 
@@ -509,6 +509,20 @@ This abjuration grants a creature temporary immunity to fire and heat. Minor hea
 
 ::: {.callout-note icon=false collapse=true}
 
+## Restore Health
+
+Cleric 2
+
+Range: Touch
+
+Duration: Instantaneous
+
+This spell removes unnatural weakness, mental or physical debilitation or exhaustion from the touched individual. This spell is useful for restoring temporary ability score draining, such as the strength-draining touch of a shadow. The caster chooses which ability score the spell will restore when casting. It has no effect on permanent ability score loss or energy drain.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Silence 15' Radius
 
 Cleric 2, Druid 2
@@ -692,8 +706,8 @@ Range: Touch
 Duration: Instantaneous
 
 This spell allows the cleric to transfer any desired number of hit points from himself to the target. The reverse of this spell, **Drain Life**, allows the caster to drain 1d6+1 hp from a creature, with a successful attack roll. The hit points are transferred to the cleric through healing.
-:::
 
+:::
 
 ::: {.callout-note icon=false collapse=true}
 
@@ -1628,6 +1642,20 @@ Range: 30'
 Duration: 1 turn/level
 
 This cantrip summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell may be able to disrupt spellcasting, but will never deal any actual damage (including poison) to the target. Reversed, this cantrip becomes **Exterminate**, which may kill any one creature of similar size as the ones described in the spell.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Virtue
+
+Cleric 0, Druid 0
+
+Range: 10'
+
+Duration: 1 round
+
+ A subject gains one temporary hit point for ten minutes.
 
 :::
 
@@ -2774,6 +2802,20 @@ The spell enables the subject to sense the correct direction that will eventuall
 
 ::: {.callout-note icon=false collapse=true}
 
+## Part Water
+
+Druid 6
+
+Range: 60'
+
+Duration: 1 turn/level
+
+This spell, when cast on a body of water, causes it to part.  This exposes a path that can be traversed as if it where dry land.  Note that this spell does not change the topography of the bottom of the body of water, so the terrain my still be difficult to cross.  The caster is able to affect a body of water up to 5 ft./caster level.  The caster may dismiss this spell at any time
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
 ## Pass Tree
 
 Druid 6
@@ -3078,6 +3120,23 @@ Duration: Instantaneous
 This spell allows the caster to create an effect equivalent to the spell [Cure Serious Wounds](allSpells.html#cure-serious-wounds) affecting multiple creatures within a 15' radius. This spell thus cures 3d6+3 points of damage for the caster plus one living creature per 3 caster levels. If more creatures are within the area of effect than the caster may heal, then the caster must choose which creatures receive the healing. Undead affected by this spell suffer damage rather than receiving healing; such a monster is allowed a saving throw vs. Spells to resist this damage fully.
 
 The reverse of this spell, **Ring of Greater Infliction**, allows the caster to cast [Cause Serious Wounds](allSpells.html#cure-serious-wounds) on multiple creatures within a 15' radius. This form of the spell causes 3d6+3 points of damage to one living creature per 3 levels of the caster. If more creatures are within the area of effect than the caster may damage, then the caster must choose which creatures are affected. Those targeted are allowed a saving throw vs. Spells to resist this damage fully. Undead creatures affected by this spell receive healing rather than suffering damage.
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Wall of Thorns
+
+Druid 7
+
+Range: 15'/level
+
+Duration: Permanent
+
+This spell creates a wall of tough, tangled brambles bristling with needle-sharp thorns. The wall is up to 60 feet long, 10 feet high, and 5 feet thick or a circle that has a 20-foot diameter and is up to 20 feet high and 5 feet thick. The wall blocks line of sight.
+When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 8d8 piercing damage, or half as much damage on a successful save. If the subject fails its save vs. Spells it is Entangled and held immobile, suffering a -2 penalty to hit and a -4 penalty to its armor class. In addition, the thorny growths cause 1d8 points of damage to the target each round. An individual so entangled may only cast spells if a DC 15 is achieved, modified by their primary spell casting ability score bonus.
+
+A creature can move through the wall ay 5’ per round suffering 1d8 points of damage.
+
 :::
 
 ::: {.callout-note icon=false collapse=true}
@@ -4410,7 +4469,7 @@ A **Wizard Lock** spell cast upon a door, chest, or portal magically locks it.
 
 ::: {.callout-note icon=false collapse=true}
 
-## Wraithfrom
+## Wraithform
 
 Magic-User 2
 
@@ -6442,6 +6501,26 @@ This spell reverses gravity in a 30’ x 30’ area of effect, causing all unatt
 
 ::: {.callout-note icon=false collapse=true}
 
+## Spell Turning
+
+Magic-User 7
+
+Range: 0'
+
+Duration: 6 turns
+
+This abjuration reflects 3rd Level or lower spells back at the caster.
+
+If it is Casting a Spell of 4th Level or higher, the Magic-User makes a DC check. The DC equals 10 + the spell's level – Int bonus. On a success, the spell is reflected.
+
+Spell turning can't affect spells that aren't targeted (such as area spells).
+If spell turning reflects a spell back at a caster who is also under the effect of spell turning, their spell turning can attempt to reflect their own spell back at you again; if they do so, their counteract attempt automatically succeeds
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Sympathy*
 
 Magic-User 7
@@ -6536,7 +6615,7 @@ Range: Self
 
 Duration: 1 turn/level
 
-The caster of this spell will be sheathed in a pale, glowing aura which confers the effect of an [Anti-magic Shell](allSpells.html#anti-magic-shell-missile) (as the spell). In addition, any magic cast upon or including the caster in its area of effect is affected as follows:
+The caster of this spell will be sheathed in a pale, glowing aura which confers the effect of an [Anti-Magic Shell](allSpells.html#anti-magic-shell) (as the spell). In addition, any magic cast upon or including the caster in its area of effect is affected as follows:
 
 Spells directly targeting the caster (like [Magic Missile](allSpells.html#magic-missile)) will be deflected. Roll 1d6; on 1-2, the magic is reflected back at the offending caster. Otherwise, it is deflected at a random target.
 
