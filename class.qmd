@@ -2,6 +2,19 @@
 
 The available classes are Cleric, Druid, Fighter, Ranger, Paladin, Magic-User, and Thief. To be a member of a class, a character must meet the specified Prime Requisite minimum and racial requirements for that class.
 
+
+| Class | Prime Requisite | Minimum Score |
+|------------- |------------------------- | -------------------- |
+| Cleric | Wisdom | 9 |
+| Druid  | Wisdom | 9 |
+| Figher | Strength | 9 |
+| Magic-User | Intelligence | 9 |
+| Thief | Dexterity | 9 |
+| Fighter/Magic-User | Strength/Intelligence | 9/9 |
+| Magic-User/Thief | Intelligence/Dexterity | 9/9  |
+
+: Class Prime Requisites {#tbl-prime-requisites}
+
 ## Cleric
 
 Clerics have devoted themselves to the service of a [deity](gods.qmd). Additionally, there are twelve demigods and twelve Demon Lords. Clerics of demigods and Demon Lords cannot advance beyond 6th level.
@@ -274,33 +287,6 @@ However, it will not fight to the death or sacrifice itself indiscriminately. Wh
 | 20              | B          | B       | B       | B       | B       | B       | C       | C       | 3       | 7       | 11 |
 
 ::: 
-
-
-
-#### NEW MAGIC ITEMS
-
-The items listed below are magic items made by and for Druids. Unless otherwise noted in the item description, these items may be used by any class.
-
-**Ring of t****he Green**: This ring made of what appears to be a tight collection of tiny green vines. When worn, the vines will writhe and (painless) grow into the wearer's finger. It takes a full week for the ring to fully bond with the wearer. Once bonded, the ring provides two benefits. The first is that as long as the wearer is outdoors for a full hour of sunlight (or two full hours of overcast weather), the wearer doesn't need to eat or drink anything for the day. The second is that each hour of complete rest in the outdoors is the equivalent of four hours of sleep.
-
-**Ring of the Dryad**: This ring is made of highly polished wood. When worn the user is able to manifest the effects of a **tree** **sanctuary** spell once per day. The duration is for up to an hour, though the wearer can exist at any time.
-
-**Slippers of the Dryad**: When wearing these light slippers (or sandals; their appearance can vary), the wearer is under the continual effects of the **pass** **without** **trace** spell, and is able to pass through any naturally overgrown area unimpeded.
-
-**Staff of the Woodlands**: This staff operates as a +2 staff and provides its user with the continual effects of **pass without trace** spell. These abilities require no charges and continue to work even if the staff is exhausted of all charges. In addition it has several other abilities that do cost charges. The following powers cost one charge per use: **charm animal**, **speak with animals**, and**hold animal**. The following powers cost two charges per use: **summon animals II**, **animate natural object**. This item may only be used by Druids.
-
-
-**Sword of the Sylvan**: This slightly curved single-edged sword (counts as a longsword/scimitar) is a +1 magic weapon under normal circumstance, but when used outdoors in a temperate climate it becomes a +3 magic weapon.
-
-**Torc of Protection**: This ornamental neck ring functions as a **ring of protection**, but its power is passively activated by the wearer. If the wearer is level 1 through 8, the protection is +1; if the wearer is level 9 through 14, the protection is +2; if the wearer is level 15 or above, the protection is +3. As the protection is drawn from the wearer, this may only be used by Druids.
-
-**Vestment of the Druid**: This is a light covering that can be worn over other clothing or armor. It is typically green (though sometimes brown) in color with natural scenes embroidered across the front and back panels. The wearer may manifest the effects of the **animal** **shape** spell once a day. The duration is for up to one hour, though the wearer may end the effect early. This item may only be used by Druids.
-
-#### Making Magic Items
-
-Druids follow the rules for cleric for making spell scrolls; they cannot make non-spell (i.e. protection) scrolls.
-
-Druids of 7^th^ level and higher make potions as a Cleric, and Druids of 9^th^ level and higher may make the magic items listed here (plus any others that the GM feels are appropriate) as a Cleric.
 
 ## Fighter
 
