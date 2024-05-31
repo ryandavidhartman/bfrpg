@@ -336,9 +336,7 @@ If a mixed group of undead is to be Turned, the result is checked against the we
 
 If a Cleric succeeds at Turning the undead, but not all undead monsters present are affected, they may try again in the next round to turn any remaining undead. If any roll to Turn the Undead fails, that Cleric may not attempt to Turn Undead again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose. Turned Undead monsters flee from the Cleric at maximum movement. If the party pursue and corner the Turned undead, they may resume attacking the party; but if left alone, the monsters will not return or attempt to attack the Cleric or those near them for at least 2d4 turns.
 
-Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of the Cleric (roll once and apply the same damage to all undead monsters affected); those reduced to zero hit points are utterly destroyed, being blasted into little more than dust. Those surviving this damage are still Turned as above.
-
-Undead monsters that are destroyed will burst into fiery embers and ash.
+Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of the Cleric (roll once and apply the same damage to all undead monsters affected); those reduced to zero hit points are utterly destroyed, being blasted into little fiery embers and ash. Those surviving this damage are still Turned as above.
 
 Note: Evil clerics can choose to command Undead rather than turn them.
 

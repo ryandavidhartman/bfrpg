@@ -2,7 +2,8 @@
 
 ## Ability Scores
 
-Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 in order for the character to become a member of that class; also, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
+Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
+
 
 <table style="border-collapse: collapse; width: 50%; margin-left: auto; margin-right: auto;">
   <thead>
@@ -48,20 +49,19 @@ Each character will have a score ranging from 6 to 18 in each of the following a
     <td style="border: 1px solid black;">+5</td>
   </tr>
 </table>
+<br />
+**Strength:** This ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand-to-hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](combat.qmd#damage) section for details).
 
+**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character can learn to read and write. Characters with an Intelligence penalty may struggle with learning languages, being limited to understanding only their native language.
 
+**Wisdom:** Wisdom is a combination of intuition, willpower, and common sense. It is the Prime Requisite for [Clerics](class.qmd#cleric), who receive a Spell Bonus and a bonus to Turn Undead based on their Wisdom score. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
 
-**Strength:** As the name implies, this ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand to hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](combat.qmd#damage) section for details).
+**Dexterity:** This ability measures the character's quickness, balance, and aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty applies to all [attack rolls](combat.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](combat.qmd#initiative) die roll.
 
-**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character is able to learn to read and write. If the character has an Intelligence penalty, they may struggle with learning languages, being limited to understanding only their native language.
+**Constitution:** Constitution is a combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
 
-**Wisdom:** A combination of intuition, willpower and common sense. Wisdom is the Prime Requisite for [Clerics](class.qmd#cleric), and they receive a Spell Bonus and bonus to Turn Undead based on their Wisdom score.  The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
+**Charisma:** This ability represents the character's ability to influence or lead people. Those with high Charisma are well-liked or highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of [retainers](hirelings.qmd#retainers) a character can hire and the loyalty of those retainers are affected by Charisma.
 
-**Dexterity:** This ability measures the character's quickness and balance as well as aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty is applied to all [attack rolls](combat.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](combat.qmd#initiative) die roll.
-
-**Constitution:** A combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
-
-**Charisma:** This is the ability to influence or even lead people; those with high Charisma are well-liked, or at least highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of [retainers](hirelings.qmd#retainers) a character may hire, and the loyalty of those retainers, is affected by Charisma.
 
 #### Stat Roller
 
@@ -113,11 +113,12 @@ import { calculateModifier } from "./custom.js"
 
 ## Hit Points and Hit Dice
 
-When a character is injured, he or she loses hit points from his or her current total. Note that this does not change the figure rolled, but rather reduces the current total; healing will restore hit points, up to but not exceeding the rolled figure.
+When a character is injured, they lose hit points from their current total. Note that this does not change the figure rolled, but rather reduces the current total; healing will restore hit points, up to but not exceeding the rolled figure.
 
-When his or her hit point total reaches 0, your character may be dead. This may not be the end for the character; don't tear up the character sheet.
+If a character's hit point total reaches 0, they may be considered dead. However, this may not be the end for the character; do not tear up the character sheet.
 
-First level characters begin play with a single hit die of the given type, plus the Constitution bonus or penalty, with a **minimum** of 1 hit point. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that, after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](class.qmd#character-classes), and no longer add the Constitution bonus or penalty.
+First-level characters begin play with maximum HP based on the hit die for their class, plus the Constitution bonus or penalty. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](class.qmd#character-classes), and no longer add the Constitution bonus or penalty.
+
 
 ## Languages
 

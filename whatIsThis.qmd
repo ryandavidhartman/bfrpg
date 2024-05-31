@@ -2,13 +2,13 @@
 
 ![](./images/OnceWas.jpg)
 
-_There once was a Great Kingdom. It was ruled by Acererak, known as the OverKing, who had conquered all the land from the Far Away Sea to the Eastern Ocean. During his reign, there were advancements in architecture, agriculture, and trade, and the Great Kingdom flourished for over a hundred years._
+_There once was a Great Kingdom ruled by Acererak, known as the OverKing, who had conquered all the land from the Far Away Sea to the Eastern Ocean. During his reign, advancements in architecture, agriculture, and trade allowed the Great Kingdom to flourish for over a hundred years._
 
 _As time passed, the OverKing became corrupt and evil. Perhaps he was manipulated by his advisor Iuz, or driven mad by arcane longevity. The OverKing became withdrawn from the world, and Iuz ruled as his regent._
 
-_Iuz’s rule was chaotic and cruel, seen as a parasite over the Great Kingdom. The human fiefs rose up against him. The houses of Dun, Isig, Nyr, Keo, and Glant rebelled against the necromancer, marking the beginning of the Great War._
+_Iuz’s rule was chaotic and cruel, a parasite over the Great Kingdom. The human fiefs rose up against him. The houses of Dun, Isig, Nyr, Keo, and Glant rebelled against the necromancer, marking the beginning of the Great War._
 
-_The Great Kingdom fell quickly. Iuz created an empire in the North. The House of Dun raised the banner of Dunador. Glantry, Keoland, and Isigir rose as individual Kingdoms._
+_The Great Kingdom fell quickly. Iuz created an empire in the North. The House of Dun raised the banner of Dunador, while Glantry, Keoland, and Isigir rose as individual kingdoms._
 
 _Iuz’s necromancy continued to grow in strength, using dark rituals to steal power and life force. Once beautiful, Iuz now appeared gnarled and old, considered the enemy of every sane and free person in OnceWas. His tyranny ended when an alliance of wizards used a powerful magic device to imprison him in the Far Realm._
 
@@ -17,15 +17,15 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 # What Is This?
 
-The **Basic Fantasy Role-Playing Game** is a rules-light game system inspired by early role-playing game systems. It is intended for fans of "old-school" game mechanics, simple enough for children in perhaps second or third grade to play, yet still offering enough depth for adults.
+The **Basic Fantasy Role-Playing Game** is a rules-light game system inspired by early role-playing game systems. It is intended for fans of "old-school" game mechanics, simple enough for children in second or third grade to play, yet offering enough depth for adults.
 
 # What Is a Role-Playing Game?
 
 In the almost 50 years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played. Still, some have not tried RPGs; if you are one of those people, this part is for you.
 
-Role-playing games are played by a number of players, commonly two to eight, and a Game Master (GM), responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (NPCs), monsters, treasure, and all other things that aid or challenge the players. Dice are often used to determine the success or failure of most actions in the game; Basic Fantasy RPG uses polyhedral dice for this purpose.
+Role-playing games are played by a number of players, commonly two to eight, and a Game Master (GM), who is responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (NPCs), monsters, treasure, and all other elements that aid or challenge the players. Dice are often used to determine the success or failure of actions in the game; Basic Fantasy RPG uses polyhedral dice for this purpose.
 
-In essence, role-playing games are grown-up games of pretend. Role-playing games have rules to determine outcomes, ranging from very free-form and simple to very complex and detailed.
+In essence, role-playing games are grown-up games of pretend, with rules to determine outcomes. These rules range from very free-form and simple to very complex and detailed.
 
 This game attempts to balance simplicity and complexity, being neither too detailed nor too free-form.
 
@@ -37,4 +37,5 @@ As the Game Master, you need the same materials. For new GMs or those with limit
 
 # Using the Dice
 
-The 20-sided die (d20) is used to resolve attack rolls and saving throws. The 10-sided die (d10) generates numbers from 1 to 10, and pairs are used together to generate numbers from 1 to 100 (percentile roll). The 4-sided die (d4) is flipped rather than rolled. Other commonly used dice include the 6-sided die (d6), 8-sided die (d8), and 12-sided die (d12).
+The 20-sided die (d20) is used to resolve attack rolls and saving throws. The 10-sided die (d10) generates numbers from 1 to 10, and pairs are used together to generate numbers from 1 to 100 (percentile rolls). The 4-sided die (d4) is flipped rather than rolled. Other commonly used dice include the 6-sided die (d6), 8-sided die (d8), and 12-sided die (d12).
+
