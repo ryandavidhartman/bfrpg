@@ -10,6 +10,7 @@ Also known as Odin (Northern), Helios, Caelus (Dwarven), Pelor and Coelus (Elven
 **Holy Symbol:** The Sun<br>
 **Month:** June<br>
 **Color:** Yellow<br>
+**Demigod: **Uta<br>
 
 Anu is considered the ruler of the gods and King of Elysium. Anu’s directives are to alleviate suffering wherever it is found, to bring light into places of darkness, and to show kindness, mercy, and compassion.
 Anu is the deity most commonly worshiped in Keoland. Paladins and rangers are found among his worshipers. Clerics of Anu wear yellow robes and gold jewelry to honor the sun.
@@ -33,6 +34,7 @@ Also known as Vesta, Hestia, Sol, and Ney-An (Elven)
 **Holy Symbol:** The Flame<br>
 **Month:** August<br>
 **Color:** Orange<br>
+**Demigoddess**: Demeter, demigoddess of the harvest and rebirth<br>
 
 The fire goddess Brigit at times appears as bathed in divine flames. To the people of Nyrond, she represents the fire used to light the way, warm the home and cook meals. Brigit is also a fierce warrior and the protector of the family and the community. Bards have found particular interest in this goddess and Brigit is known to show favor to any who compose a beautiful poem or song in her name.
 The clerics and followers of Brigit adorn themselves with bronze jewelry.
@@ -47,6 +49,7 @@ Also known as Rán (Elven), Khnum (Dwarven), Njǫrd (Northern), Oceanu
 **Holy Symbol:** The Trident<br>
 **Month:** July<br>
 **Color:** Teal<br>
+**Demigoddess:** Uinen, demigoddess of merchants<br>
 
 Enki is the deity of waters and worshiped by sea-faring people of Isigir, often looking kindly on these people. However, like the sea, Enki can be a fickle god. This deity is very volatile, temperamental, and prone to rage. He is known to express his displeasure through extreme acts, such as flattening coastal cities with earthquakes or flooding them.
 The clerics of Enki wear blue and teal tunics.
@@ -61,6 +64,7 @@ Also known as Tyr (Northern), Montu, Kratos (Dwarven)
 **Holy Symbol:** The Axe<br>
 **Month:** February<br>
 **Color:** Red<br>
+**Demigoddess:** Lovitar, demi goddess of love and pain<br>
 
 Enlil most often appears as a burly man in a horned helm. He wields a viscous axe and holds a massive battle horn. Enlil is a being of chaos, distributing his favor randomly. Such is the nature of war that he might side with one army one day and turn against them the next. He is not heartless, however, but exuberant, and said to live only for excess, whether it be love for food, drink, hunting, or his greatest passion, battle. His priests often have a quick temper and never forget a slight.
 The barbarian clerics of Enlil paint their faces green and paint their battle armor red.
@@ -74,6 +78,7 @@ Also known as Ponos, Hephaestus (Northern), Vulcan, Moradin (Dwarven)
 
 **Month:** September<br>
 **Color:** Grey<br>
+**Demigod:** Hanseath, demigod of war and beer<br>
 
 Goibhnie is a quiet and resolute being, who resists change more so than other divine powers of OnceWas. He bears the weight of secret knowledge and protects the great riches that are found within the earth. Goibhnie often dwells within the Great Mountain in the Elemental Plane of Earth.
 The Hammers of Moradin are an elite military order dominated by crusaders and fighting clerics with a chapter of the Dwarven stronghold. The Hammers serve the dwarven army and act as an elite strike force skilled in dealing with anything from large groups of orcs to great dragons to malevolent fiends from the Abyss.
@@ -88,6 +93,7 @@ Also known as Nidhogg (Northern), Echidna, Angrboda, Kaal
 
 **Month:** March<br>
 **Color:** Dark Green<br>
+**Demigoddess:** Lolth, demon queen of spiders<br>
 
 The mother of monsters is cruel, raging, angry, and predatory. She is withdrawn from the other gods and has a great hatred for them. Since the death of Tiamatt, Grund-Wyren rarely appears in OnceWas or in Elysium, preferring to spend her time in the Abyss.
 The clerics of Grund-Wyren dress in red robes with dark green ornamentation.
@@ -101,6 +107,7 @@ Also known as Yggdrasil (Northern), Joro, Gaia, Sehanine (Elven)
 
 **Month:** May<br>
 **Color:** Light Green<br>
+**Demigod**: The Green Man, demigod of woods, nature and giants<br>
 
 The goddess Ki is a radiant being revered by the fey. Elves, druids, and rangers also follow Ki’s teachings. She is protector of the forest, flowers, and wild animals, and they obey her commands. Ki travels freely to the Feywild. She also spends time in both the OnceWas and Elysium. Ki is calm, soothing and graceful, but is also capable of vicious savagery. The clerics of Ki adorn themselves with silver jewelry. The High Priestess of the Temple of Ki is Her Grace Lady Yaereene Lightbringer of Imladris. Ki’s avatar is the Green man, demi-god of woods, nature, and giants.
 
@@ -112,6 +119,7 @@ Also known as Thor (Northern), Bel, Muamman Duathal (Dwarven), and Bahamut (Elve
 **Holy Symbol:** 5 headed dragon<br>
 **Month:** April<br>
 **Color:** Blue<br>
+**Demigod:** Gilgamesh, demigod of strength<br>
 
 Marduk is best known for battling Tiamat and bringing an end to the Age of Dragons. He fatally wounded her on Lonely Hill and she later died in the Veronian Mountains. The site of her death is a sacred shrine to the faithful of Marduk.
 The Clerics of Marduk adorn themselves with platinum jewelry.
@@ -126,6 +134,7 @@ Also known as Luna, Selenaia (Elven), Máni (Dwarven), Freya (Northern)
 **Holy Symbol:** The Moon<br>
 **Month:** October<br>
 **Color:** Pale Blue<br>
+**Demigoddess:** Bebhionn<br>
 
 Nanna-Sin spends much of her time in the Ethereal Plane. She is worshiped by witches and served by ghosts. She is the patron goddess of the people of Sunndi, who believe that Anu has forsaken them.
 Like the cycles of the moon, Nanna-Sin has many changing moods and natures. Her faithful, coming from many walks of life, view her in countless different ways, and she reflects this. Sometimes she is enthusiastic, vivacious, joyous, and majestic, given to action and dance. At other times, she is subdued, motherly, and almost poetic or tranquil and embracing. Then she is remote and weighed down by sadness at defeats and tragedies, even those that happened long, long ago. Finally, she can be quite insane, aggressive, and fierce, with little mercy for her enemies.
@@ -141,6 +150,7 @@ Worshiped in the Empire of Iuz.
 **Holy Symbol:** The Sickle<br>
 **Month:** January<br>
 **Color:** Black<br>
+**Demigod:** Iuz, demigod of evil<br>
 
 Nergal is the patron deity of those who seek the greatest evil for their own enjoyment or gain. Most common folk do not worship or propitiate him, although they fear him greatly. It is believed that any form of appeasement will merely draw his attention, something that is at all costs to be avoided by the sensible. Nergal seems, in fact, to draw power from the very avoidance of his name. Some of the peasants of OnceWas do propitiate Nergal with minor rites, begging safe passage for the souls of the dead. Among the Barbarians of StoneHold, Nergal is considered to also be the god of winter.
 Nergal's clerics are feared throughout the lands as cold, calculating murderers. They are secretive and often solitary. When not in disguise, they dress in all black. Those who would become priests of Nergal must undergo an arduous initiation that climaxes in being buried alive for a time.
@@ -155,6 +165,7 @@ Also known as Grianeach, Cermait, Ogmios, Mímir (Northern)
 
 **Month:** December<br>
 **Color:** Brass<br>
+**Demigod:** Cuthbert, demigod of wisdom, dedication and Zeal<br>
 
 Oghma appears as a tall man with a flowing white beard and wearing a brass crown. He has read every book ever written. He knows all spells. Oghma is well known for wrestling giants in the frozen north. Bards, sages and magic users follow him.
 The clerics of Oghma adorn themselves with brass jewelry.
@@ -168,8 +179,12 @@ Also known as Ninkasi, Maenad (Northern), Mainades, Aegiri
 
 **Month:** Novemeber<br>
 **Color:** Purple<br>
+**Demigoddess**: Morrigan, demi goddess of luck and thieves<br>
 
 Siduri is the deity of festhalls, hedonism, and revelry. She is a chaotic being, passionate and willful and spends much of her time in Oncewas in disguise.
 The clerics of Siduri wear copper headpieces and wear festive purple clothes.
 The ArchPriestess of the Sanctuary of Siduri is Caiaphas of the city of High Port in the Pomarj.
 Siduri’s avatar is Morrigan, demi-goddess of luck and thieves and the Raven Queen.
+
+
+Additional to the twelve gods and tweleve demigods, there are twelve Demon Lords.

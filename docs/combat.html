@@ -543,12 +543,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="monster-reactions" class="level3">
 <h3 class="anchored" data-anchor-id="monster-reactions">Monster Reactions</h3>
 <p>When a group of player characters meet one or more monsters, it’s important to know how the monsters will react to the party. In many cases, the reaction of the monster or monsters is obvious… zombies guarding a tomb will virtually always attack intruders, for example.</p>
-<p>In cases where the reaction of the monsters to the party is not obvious, a&nbsp;<strong>reaction roll</strong>&nbsp;may be made. The Game Master rolls 2d6, adding the Charisma bonus of the “lead” character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:</p>
+<p>In cases where the reaction of the monsters to the party is not obvious, a&nbsp;<strong>reaction roll</strong>&nbsp;may be made. The Game Master rolls d20, adding the Charisma bonus of the “lead” character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:</p>
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="37" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 36;"><span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>viewof mreaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#monster-reaction"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">7</span>]<span class="op">,</span>[<span class="dv">8</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">12</span>]]))})</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`2d6: </span><span class="sc">${</span>mreaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>viewof mreaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#monster-reaction"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span>[<span class="dv">2</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">9</span>]<span class="op">,</span>[<span class="dv">10</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span>[<span class="dv">16</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span><span class="dv">20</span>]]))})</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`d20: </span><span class="sc">${</span>mreaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -581,34 +581,49 @@ Table&nbsp;14.1: Monster Reaction Roll Table
 <table class="table">
 <thead>
 <tr class="header">
-<th><strong>Adjusted Die Roll</strong></th>
-<th><strong>Result</strong></th>
+<th>Adjusted Roll</th>
+<th>Reaction</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>2 or less</td>
-<td>Immediate Attack</td>
+<td>1 or less (5%)</td>
+<td>Violently hostile, immediate Attack</td>
 </tr>
 <tr class="even">
-<td>3-7</td>
-<td>Unfavorable</td>
+<td>2-5 (20%)</td>
+<td>Hostile, immediate Attack</td>
 </tr>
 <tr class="odd">
-<td>8-11</td>
-<td>Favorable</td>
+<td>6-9 (20%)</td>
+<td>Uncertain but prone to negative</td>
 </tr>
 <tr class="even">
-<td>12 or more</td>
-<td>Very Favorable</td>
+<td>10-11 (10%)</td>
+<td>Neutral, uninterested, uncertain</td>
+</tr>
+<tr class="odd">
+<td>12-15 (20%)</td>
+<td>Uncertain but prone to positive</td>
+</tr>
+<tr class="even">
+<td>16-19 (20%)</td>
+<td>Friendly, immediate action</td>
+</tr>
+<tr class="odd">
+<td>20 or higher (5)</td>
+<td>Enthusiastically friendly, immediate acceptance</td>
 </tr>
 </tbody>
 </table>
 </div>
 </figure>
 </div>
+<p><code>The adjusted Roll will typically be:  DC + CHA MOD + Leadership  or Diplomacy Skill Bonus +/- any DM determined adjustments</code></p>
 </div>
-<p>A result of 2 or less means that the player characters have so offended the monsters that they attack immediately. An Unfavorable result means that the monsters do not like the player characters, and will attack if they may reasonably do so. A Favorable result simply means that the monsters will consider letting the player characters live if they choose to parley; it does not necessarily mean that the monsters like the player characters. A Very Favorable result means that the monsters (or perhaps only the monster leader) do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.</p>
+<p>Results of 5 or less indicates that the monsters are hostile to violenlty and will normally attack immediately. If the roll is 6-9, the monsters are uncertain but lean towards a negative reaction and may attack if provoked. A roll of 10-11 means the monsters are neutral, uninterested, and uncertain, showing no strong inclination towards aggression or friendliness.</p>
+<p>A result of 12-15 signifies that the monsters are uncertain but tend towards a positive reaction, potentially open to parley or negotiation. When the roll is 16-19, the monsters are friendly and take immediate positive action, showing willingness to cooperate or assist the player characters. A result of 20 or higher indicates that the monsters (or their leader) are enthusiastically friendly and immediately accept the player characters, potentially offering substantial help or cooperation.</p>
+<p>A favorable result means that the monsters do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.</p>
 <p>As always, interpreting the results of this roll is left to the GM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.</p>
 </section>
 <section id="initiative" class="level3">
@@ -1217,9 +1232,9 @@ Figure&nbsp;14.1: Grenade AOT
 </div>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="376" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 375;"><span id="cb2-376"><a href="#cb2-376" aria-hidden="true" tabindex="-1"></a>viewof level <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Cleric Level"</span>})</span>
-<span id="cb2-377"><a href="#cb2-377" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-378"><a href="#cb2-378" aria-hidden="true" tabindex="-1"></a>viewof r <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Roll"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="385" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 384;"><span id="cb2-385"><a href="#cb2-385" aria-hidden="true" tabindex="-1"></a>viewof level <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Cleric Level"</span>})</span>
+<span id="cb2-386"><a href="#cb2-386" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-387"><a href="#cb2-387" aria-hidden="true" tabindex="-1"></a>viewof r <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Roll"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -1236,9 +1251,9 @@ Figure&nbsp;14.1: Grenade AOT
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="382" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 381;"><span id="cb3-382"><a href="#cb3-382" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {turnUndead} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb3-383"><a href="#cb3-383" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-384"><a href="#cb3-384" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> <span class="fu">turnUndead</span>(level<span class="op">,</span>r)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="391" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 390;"><span id="cb3-391"><a href="#cb3-391" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {turnUndead} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb3-392"><a href="#cb3-392" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-393"><a href="#cb3-393" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> <span class="fu">turnUndead</span>(level<span class="op">,</span>r)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-3-1" data-nodetype="declaration">
@@ -1865,7 +1880,7 @@ eyJjb250ZW50cyI6WyAgeyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiaW5saW5lIjoidHJ1ZSIsInNv
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIG1yZWFjdGlvbiA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvd1JldChcIiNtb25zdGVyLXJlYWN0aW9uXCIsIGdlbmVyYWxUYWJsZVNlbGVjdDIoWzIsNiwwXSxbWzIsMl0sWzMsN10sWzgsMTFdLFsxMiwxMl1dKSl9KVxyXG5tZGAyZDY6ICR7bXJlYWN0aW9ufWBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGxldmVsID0gSW5wdXRzLnNlbGVjdChbMSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjBdLCB7dmFsdWU6MSwgbGFiZWw6IFwiQ2xlcmljIExldmVsXCJ9KVxyXG5cclxudmlld29mIHIgPSBJbnB1dHMuc2VsZWN0KFsxLDIsMyw0LDUsNiw3LDgsOSwxMCwxMSwxMiwxMywxNCwxNSwxNiwxNywxOCwxOSwyMF0sIHt2YWx1ZToxLCBsYWJlbDogXCJSb2xsXCJ9KVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJpbXBvcnQge3R1cm5VbmRlYWR9IGZyb20gXCIuL2N1c3RvbS5qc1wiXHJcblxyXG5yZXMgPSB0dXJuVW5kZWFkKGxldmVsLHIpXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbXJlYWN0aW9uJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2xldmVsJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3InKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIG1yZWFjdGlvbiA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvd1JldChcIiNtb25zdGVyLXJlYWN0aW9uXCIsIGdlbmVyYWxUYWJsZVNlbGVjdDIoWzEsMjAsMF0sW1sxLDFdLFsyLDVdLFs2LDldLFsxMCwxMV0sWzEyLDE1XSxbMTYsMTldLFsyMCwyMF1dKSl9KVxyXG5tZGBkMjA6ICR7bXJlYWN0aW9ufWBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoidmlld29mIGxldmVsID0gSW5wdXRzLnNlbGVjdChbMSwyLDMsNCw1LDYsNyw4LDksMTAsMTEsMTIsMTMsMTQsMTUsMTYsMTcsMTgsMTksMjBdLCB7dmFsdWU6MSwgbGFiZWw6IFwiQ2xlcmljIExldmVsXCJ9KVxyXG5cclxudmlld29mIHIgPSBJbnB1dHMuc2VsZWN0KFsxLDIsMyw0LDUsNiw3LDgsOSwxMCwxMSwxMiwxMywxNCwxNSwxNiwxNywxOCwxOSwyMF0sIHt2YWx1ZToxLCBsYWJlbDogXCJSb2xsXCJ9KVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJpbXBvcnQge3R1cm5VbmRlYWR9IGZyb20gXCIuL2N1c3RvbS5qc1wiXHJcblxyXG5yZXMgPSB0dXJuVW5kZWFkKGxldmVsLHIpXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnbXJlYWN0aW9uJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2xldmVsJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3InKSJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

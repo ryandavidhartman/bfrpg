@@ -30,30 +30,39 @@ Surprised characters or creatures stand flat-footed for one round. They still de
 
 When a group of player characters meet one or more monsters, it's important to know how the monsters will react to the party. In many cases, the reaction of the monster or monsters is obvious... zombies guarding a tomb will virtually always attack intruders, for example.
 
-In cases where the reaction of the monsters to the party is not obvious, a **reaction roll** may be made. The Game Master rolls 2d6, adding the Charisma bonus of the "lead" character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:
+In cases where the reaction of the monsters to the party is not obvious, a **reaction roll** may be made. The Game Master rolls d20, adding the Charisma bonus of the "lead" character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:
 
 ```{ojs}
 
 import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
 
-viewof mreaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#monster-reaction", generalTableSelect2([2,6,0],[[2,2],[3,7],[8,11],[12,12]]))})
-md`2d6: ${mreaction}`
+viewof mreaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#monster-reaction", generalTableSelect2([1,20,0],[[1,1],[2,5],[6,9],[10,11],[12,15],[16,19],[20,20]]))})
+md`d20: ${mreaction}`
 ```
 
 ::: {#monster-reaction}
 
-| **Adjusted Die Roll** | **Result** |
+| Adjusted Roll | Reaction |
 |--------------|--------------|
-| 2 or less | Immediate Attack |
-| 3-7 | Unfavorable |
-| 8-11 | Favorable |
-| 12 or more | Very Favorable |
+| 1 or less (5%) | Violently hostile, immediate Attack |
+| 2-5 (20%) | Hostile, immediate Attack |
+| 6-9 (20%) | Uncertain but prone to negative |
+| 10-11 (10%) | Neutral, uninterested, uncertain |
+| 12-15 (20%) | Uncertain but prone to positive |
+| 16-19 (20%) | Friendly, immediate action |
+| 20 or higher (5) | Enthusiastically friendly, immediate acceptance |
 
 : Monster Reaction Roll Table {#tbl-monsterReactions} 
 
+`The adjusted Roll will typically be:  DC + CHA MOD + Leadership  or Diplomacy Skill Bonus +/- any DM determined adjustments`
+
 ::::
 
-A result of 2 or less means that the player characters have so offended the monsters that they attack immediately. An Unfavorable result means that the monsters do not like the player characters, and will attack if they may reasonably do so. A Favorable result simply means that the monsters will consider letting the player characters live if they choose to parley; it does not necessarily mean that the monsters like the player characters. A Very Favorable result means that the monsters (or perhaps only the monster leader) do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.
+Results of 5 or less indicates that the monsters are hostile to violenlty and will normally attack immediately. If the roll is 6-9, the monsters are uncertain but lean towards a negative reaction and may attack if provoked. A roll of 10-11 means the monsters are neutral, uninterested, and uncertain, showing no strong inclination towards aggression or friendliness.
+
+A result of 12-15 signifies that the monsters are uncertain but tend towards a positive reaction, potentially open to parley or negotiation. When the roll is 16-19, the monsters are friendly and take immediate positive action, showing willingness to cooperate or assist the player characters. A result of 20 or higher indicates that the monsters (or their leader) are enthusiastically friendly and immediately accept the player characters, potentially offering substantial help or cooperation.
+
+A favorable result means that the monsters do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.
 
 As always, interpreting the results of this roll is left to the GM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.
 
