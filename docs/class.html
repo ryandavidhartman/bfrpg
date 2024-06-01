@@ -424,15 +424,15 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#druids" id="toc-druids" class="nav-link" data-scroll-target="#druids">Druids</a>
   <ul>
-  <li><a href="#animal-affinity" id="toc-animal-affinity" class="nav-link" data-scroll-target="#animal-affinity">Animal Affinity</a>
-  <ul class="collapse">
-  <li><a href="#druid-animal-affinity-table" id="toc-druid-animal-affinity-table" class="nav-link" data-scroll-target="#druid-animal-affinity-table">Druid Animal Affinity Table</a></li>
+  <li><a href="#animal-affinity" id="toc-animal-affinity" class="nav-link" data-scroll-target="#animal-affinity">Animal Affinity</a></li>
   </ul></li>
+  <li><a href="#fighter" id="toc-fighter" class="nav-link" data-scroll-target="#fighter">Fighter</a>
+  <ul>
+  <li><a href="#weapon-specialization" id="toc-weapon-specialization" class="nav-link" data-scroll-target="#weapon-specialization">Weapon Specialization</a></li>
   </ul></li>
-  <li><a href="#fighter" id="toc-fighter" class="nav-link" data-scroll-target="#fighter">Fighter</a></li>
-  <li><a href="#ranger" id="toc-ranger" class="nav-link" data-scroll-target="#ranger">Ranger</a></li>
   <li><a href="#paladin" id="toc-paladin" class="nav-link" data-scroll-target="#paladin">Paladin</a></li>
-  <li><a href="#magic-users" id="toc-magic-users" class="nav-link" data-scroll-target="#magic-users">Magic Users</a></li>
+  <li><a href="#ranger" id="toc-ranger" class="nav-link" data-scroll-target="#ranger">Ranger</a></li>
+  <li><a href="#magic-user" id="toc-magic-user" class="nav-link" data-scroll-target="#magic-user">Magic User</a></li>
   <li><a href="#thief" id="toc-thief" class="nav-link" data-scroll-target="#thief">Thief</a>
   <ul>
   <li><a href="#thief-abilities" id="toc-thief-abilities" class="nav-link" data-scroll-target="#thief-abilities">Thief Abilities</a></li>
@@ -442,7 +442,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./char-creation.html">Player Characters</a></li><li class="breadcrumb-item"><a href="./class.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Character Classes</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -463,7 +463,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The available classes are Cleric, Druid, Fighter, Ranger, Paladin, Magic-User, and Thief. To be a member of a class, a character must meet the specified Prime Requisite minimum and racial requirements for that class.</p>
+<p>The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, and Thief. To be a member of a class, a character must meet the specified Prime Requisite minimum and racial requirements for that class.</p>
 <div id="tbl-prime-requisites" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-prime-requisites-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -474,45 +474,41 @@ Table&nbsp;5.1: Class Prime Requisites
 <thead>
 <tr class="header">
 <th>Class</th>
-<th>Prime Requisite</th>
-<th>Minimum Score</th>
+<th>Minimum Scores</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Cleric</td>
-<td>Wisdom</td>
-<td>9</td>
+<td>Cleric or Druid</td>
+<td>WIS 9</td>
 </tr>
 <tr class="even">
-<td>Druid</td>
-<td>Wisdom</td>
-<td>9</td>
+<td>Figther</td>
+<td>STR 9</td>
 </tr>
 <tr class="odd">
-<td>Figher</td>
-<td>Strength</td>
-<td>9</td>
+<td>Ranger</td>
+<td>STR 9, WIS 11, DEX 11</td>
 </tr>
 <tr class="even">
+<td>Paladin</td>
+<td>STR 9, WIS 11, CHA 11</td>
+</tr>
+<tr class="odd">
 <td>Magic-User</td>
-<td>Intelligence</td>
-<td>9</td>
-</tr>
-<tr class="odd">
-<td>Thief</td>
-<td>Dexterity</td>
-<td>9</td>
+<td>INT 9</td>
 </tr>
 <tr class="even">
-<td>Fighter/Magic-User</td>
-<td>Strength/Intelligence</td>
-<td>9/9</td>
+<td>Thief</td>
+<td>DEX 9</td>
 </tr>
 <tr class="odd">
+<td>Fighter/Magic-User</td>
+<td>STR 9, INT 9</td>
+</tr>
+<tr class="even">
 <td>Magic-User/Thief</td>
-<td>Intelligence/Dexterity</td>
-<td>9/9</td>
+<td>INT 9, DEX 9</td>
 </tr>
 </tbody>
 </table>
@@ -1450,7 +1446,7 @@ Table&nbsp;5.6: Turn Undead Table DC + Wisdom Bonus
 </div>
 </section>
 </section>
-<section id="druids" class="level2 page-columns page-full">
+<section id="druids" class="level2">
 <h2 class="anchored" data-anchor-id="druids">Druids</h2>
 <p>Druids are nature priests, revering the gods of the natural world. Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities. Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas. However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.</p>
 <p>Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables. Druids can cast <a href="./spells.html#druid-spells">spells of divine nature</a> starting at 2nd level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead. They can identify any natural animal or plant, and can identify clean water.</p>
@@ -2078,15 +2074,21 @@ Table&nbsp;5.10: Druid Saving Throws
 </div>
 </figure>
 </div>
-<section id="animal-affinity" class="level3 page-columns page-full">
+<section id="animal-affinity" class="level3">
 <h3 class="anchored" data-anchor-id="animal-affinity">Animal Affinity</h3>
-<p>Druids can calm or befriend animals. The Druid rolls a d20 and adds Wisdom Bonus. Cross-reference the Druid’s level with the animal’s hit dice on the Druids Animal Affinity Table. The number shown is the minimum needed to Calm that sort of animal.&nbsp; Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice, reflecting their relatively easy manageability. Monstrous animals such as griffins, owlbears, pegasi, or other such “near-natural” creatures are treated as they are 1 HD more than listed to reflect their unique natures.&nbsp; If the table indicates “No” then it is not possible for the Druid to affect that type of animal. If the table says “C” for that combination, that type of animal is automatically calmed. If the result shown is a “B” for that combination, that type of animal is automatically befriended. If the roll is a success, 2d6 HD of animals is affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success.&nbsp; If a mixed group of animals is to be affected, the druid rolls just once. The result is checked against the weakest sort first and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal. If a Druid succeeds at Calming or Befriending some of the animals, but not all are affected, they may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Druid may not attempt to use their Animal Affinity ability again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose. Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the GM should roll a reaction roll with any result below favorable meaning the animals flee. If the result on the table results in automatically befriending the animals, the GM should treat the animals as if a “Very Favorable” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The GM may check morale as necessary when the situation seems appropriate. &nbsp;</p>
-<section id="druid-animal-affinity-table" class="level4 page-columns page-full">
-<h4 class="anchored" data-anchor-id="druid-animal-affinity-table">Druid Animal Affinity Table</h4>
-<div class="column-page-right">
+<p>Druids can calm or befriend animals. The Druid rolls a d20 and adds their Wisdom Bonus. Cross-reference the Druid’s level with the animal’s hit dice on the Druids Animal Affinity Table. The number shown is the minimum needed to Calm that sort of animal.&nbsp; Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice, reflecting their relatively easy manageability. Monstrous animals such as griffins, owlbears, pegasi, or other such “near-natural” creatures are treated as they are 1 HD more than listed to reflect their unique natures.&nbsp;</p>
+<p>If the table indicates “No” then it is not possible for the Druid to affect that type of animal. If the table says “C” for that combination, that type of animal is automatically calmed. If the result shown is a “B” for that combination, that type of animal is automatically befriended. If the roll is a success, 2d6 HD of animals is affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success.&nbsp; If a mixed group of animals is to be affected, the druid rolls just once. The result is checked against the weakest sort first and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal.</p>
+<p>If a Druid succeeds at Calming or Befriending some of the animals, but not all are affected, they may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Druid may not attempt to use their Animal Affinity ability again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose.</p>
+<p>Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the GM should roll a reaction roll with any result below favorable meaning the animals flee. If the result on the table results in automatically befriending the animals, the GM should treat the animals as if a “Very Favorable” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The GM may check morale as necessary when the situation seems appropriate.</p>
+<div id="tbl-animal-druids" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-animal-druids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.11: Druid Animal Affinity
+</figcaption>
+<div aria-describedby="tbl-animal-druids-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
 <colgroup>
-<col style="width: 14%">
+<col style="width: 13%">
 <col style="width: 10%">
 <col style="width: 7%">
 <col style="width: 7%">
@@ -2097,24 +2099,26 @@ Table&nbsp;5.10: Druid Saving Throws
 <col style="width: 7%">
 <col style="width: 7%">
 <col style="width: 7%">
-<col style="width: 3%">
+<col style="width: 8%">
 </colgroup>
+<thead>
+<tr class="header">
+<th>Druid Lvl</th>
+<th>&lt; 1 HD</th>
+<th>1 HD</th>
+<th>2 HD</th>
+<th>3 HD</th>
+<th>4 HD</th>
+<th>5 HD</th>
+<th>6 HD</th>
+<th>7 HD</th>
+<th>8 HD</th>
+<th>9 HD</th>
+<th>10 HD</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Druid Level</strong></td>
-<td><strong>&lt; 1 HD</strong></td>
-<td><strong>1HD</strong></td>
-<td><strong>2HD</strong></td>
-<td><strong>3HD</strong></td>
-<td><strong>4HD</strong></td>
-<td><strong>5HD</strong></td>
-<td><strong>6HD</strong></td>
-<td><strong>7HD</strong></td>
-<td><strong>8HD</strong></td>
-<td><strong>9HD</strong></td>
-<td><strong>10HD</strong></td>
-</tr>
-<tr class="even">
 <td>1</td>
 <td>9</td>
 <td>13</td>
@@ -2128,7 +2132,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>2</td>
 <td>7</td>
 <td>11</td>
@@ -2142,7 +2146,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>3</td>
 <td>5</td>
 <td>9</td>
@@ -2156,7 +2160,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>4</td>
 <td>3</td>
 <td>7</td>
@@ -2170,7 +2174,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>5</td>
 <td>2</td>
 <td>5</td>
@@ -2184,7 +2188,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>6</td>
 <td>C</td>
 <td>3</td>
@@ -2198,7 +2202,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>7</td>
 <td>C</td>
 <td>2</td>
@@ -2212,7 +2216,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>8</td>
 <td>C</td>
 <td>C</td>
@@ -2226,7 +2230,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>9</td>
 <td>B</td>
 <td>C</td>
@@ -2240,7 +2244,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>10</td>
 <td>B</td>
 <td>C</td>
@@ -2254,7 +2258,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>11</td>
 <td>B</td>
 <td>B</td>
@@ -2268,7 +2272,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>No</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>12</td>
 <td>B</td>
 <td>B</td>
@@ -2282,7 +2286,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>20</td>
 <td>No</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>13</td>
 <td>B</td>
 <td>B</td>
@@ -2296,7 +2300,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>19</td>
 <td>No</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>14</td>
 <td>B</td>
 <td>B</td>
@@ -2310,7 +2314,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>18</td>
 <td>20</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>15</td>
 <td>B</td>
 <td>B</td>
@@ -2324,7 +2328,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>17</td>
 <td>19</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>16</td>
 <td>B</td>
 <td>B</td>
@@ -2338,7 +2342,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>15</td>
 <td>18</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>17</td>
 <td>B</td>
 <td>B</td>
@@ -2352,7 +2356,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>13</td>
 <td>17</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>18</td>
 <td>B</td>
 <td>B</td>
@@ -2366,7 +2370,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>11</td>
 <td>15</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>19</td>
 <td>B</td>
 <td>B</td>
@@ -2380,7 +2384,7 @@ Table&nbsp;5.10: Druid Saving Throws
 <td>9</td>
 <td>13</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>20</td>
 <td>B</td>
 <td>B</td>
@@ -2397,150 +2401,310 @@ Table&nbsp;5.10: Druid Saving Throws
 </tbody>
 </table>
 </div>
-</section>
+</figure>
+</div>
 </section>
 </section>
 <section id="fighter" class="level2">
 <h2 class="anchored" data-anchor-id="fighter">Fighter</h2>
+<p>Fighters include soldiers, town guardsmen, barbarian warriors, and anyone else for whom fighting is a way of life. They train in combat, and they generally approach problems head on, weapon drawn. Not surprisingly, Fighters are the best at fighting of all the classes. They are also the hardiest, able to take more punishment than any other class.</p>
+<p>The Prime Requisite for Fighters is Strength; a character must have a Strength score of 9 or higher to become a Fighter. Members of this class may wear any armor and use any weapon.</p>
+<div id="tbl-xp-fighters" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-xp-fighters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.12: Fighter XP Progression
+</figcaption>
+<div aria-describedby="tbl-xp-fighters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 5%">
+<col style="width: 15%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Level</th>
 <th>Exp. Points</th>
 <th>Hit Dice</th>
-<th>AB</th>
+<th>Attack Bonus</th>
+<th>Attacks/<br>Round</th>
+<th>Weapon Specialization</th>
+<th>Skill points</th>
+<th>Feats</th>
+<th>Weapon Proficiency</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>1</td>
 <td>0</td>
-<td>1d8</td>
+<td>1d10</td>
 <td>+1</td>
+<td>1/1</td>
+<td>+1/+0</td>
+<td>3</td>
+<td></td>
+<td>4</td>
 </tr>
 <tr class="even">
 <td>2</td>
 <td>2,000</td>
-<td>2d8</td>
+<td>2d10</td>
 <td>+2</td>
+<td>1/1</td>
+<td>+1/+0</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>4,000</td>
-<td>3d8</td>
+<td>3d10</td>
 <td>+2</td>
+<td>1/1</td>
+<td>+1/+0</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>8,000</td>
-<td>4d8</td>
+<td>4d10</td>
 <td>+3</td>
+<td>1/1</td>
+<td>+1/+1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>5</td>
 <td>16,000</td>
-<td>5d8</td>
+<td>5d10</td>
 <td>+4</td>
+<td>1/1</td>
+<td>+1/+1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>32,000</td>
-<td>6d8</td>
+<td>6d10</td>
 <td>+4</td>
+<td>1/1</td>
+<td>+1/+1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>64,000</td>
-<td>7d8</td>
+<td>7d10</td>
 <td>+5</td>
+<td>3/2</td>
+<td>+2/+1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>8</td>
 <td>120,000</td>
-<td>8d8</td>
+<td>8d10</td>
 <td>+6</td>
+<td>3/2</td>
+<td>+2/+2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>9</td>
 <td>240,000</td>
-<td>9d8</td>
+<td>9d10</td>
 <td>+6</td>
+<td>3/2</td>
+<td>+2/+2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>10</td>
 <td>360,000</td>
-<td>9d8+2</td>
+<td>9d10+2</td>
 <td>+6</td>
+<td>3/2</td>
+<td>+2/+2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>11</td>
 <td>480,000</td>
-<td>9d8+4</td>
+<td>9d10+4</td>
 <td>+7</td>
+<td>3/2</td>
+<td>+2/+2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>12</td>
 <td>600,000</td>
-<td>9d8+6</td>
+<td>9d10+6</td>
 <td>+7</td>
+<td>3/2</td>
+<td>+2/+2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>13</td>
 <td>720,000</td>
-<td>9d8+8</td>
+<td>9d10+8</td>
 <td>+8</td>
+<td>2/1</td>
+<td>+3/+2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>14</td>
 <td>840,000</td>
-<td>9d8+10</td>
+<td>9d10+10</td>
 <td>+8</td>
+<td>2/1</td>
+<td>+3/+2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>15</td>
 <td>960,000</td>
-<td>9d8+12</td>
+<td>9d10+12</td>
 <td>+8</td>
+<td>2/1</td>
+<td>+3/+2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>16</td>
 <td>1,080,000</td>
-<td>9d8+14</td>
+<td>9d10+14</td>
 <td>+9</td>
+<td>2/1</td>
+<td>+3/+3</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>17</td>
 <td>1,200,000</td>
-<td>9d8+16</td>
+<td>9d10+16</td>
 <td>+9</td>
+<td>2/1</td>
+<td>+3/+3</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>18</td>
 <td>1,320,000</td>
-<td>9d8+18</td>
+<td>9d10+18</td>
 <td>+10</td>
+<td>3/1</td>
+<td>+3/+3</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>19</td>
 <td>1,440,000</td>
-<td>9d8+20</td>
+<td>9d10+20</td>
 <td>+10</td>
+<td>3/1</td>
+<td>+3/+3</td>
+<td>1</td>
+<td></td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td>20</td>
 <td>1,560,000</td>
-<td>9d8+22</td>
+<td>9d10+22</td>
 <td>+10</td>
+<td>3/1</td>
+<td>+3/+3</td>
+<td>1</td>
+<td>1</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Fighters include soldiers, guardsmen, barbarian warriors, and anyone else for whom fighting is a way of life. They train in combat, and they generally approach problems head on, weapon drawn.</p>
-<p>Not surprisingly, Fighters are best at fighting of all the classes. They are also the hardiest, able to take more punishment than any other class. Although they are not skilled in the ways of magic, Fighters can nonetheless use many magic items, including but not limited to magical weapons and armor.</p>
-<p>The Prime Requisite for Fighters is Strength; a character must have a Strength score of 9 or higher to become a Fighter. Members of this class may wear any armor and use any weapon.</p>
+</div>
+</figure>
+</div>
+<div id="tbl-bonus-fighters" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-bonus-fighters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.13: Fighter Attack Bonus
+</figcaption>
+<div aria-describedby="tbl-bonus-fighters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<thead>
+<tr class="header">
+<th>Strength</th>
+<th>Fighting Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>9-12</td>
+<td>+0 to hit, +0 damage</td>
+</tr>
+<tr class="even">
+<td>13-15</td>
+<td>+1 to hit, +1 damage</td>
+</tr>
+<tr class="odd">
+<td>16-17</td>
+<td>+2 to hit, +2 damage</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>+3 to hit, +3 damage</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 <div id="tbl-save-fighter" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-save-fighter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;5.11: Fighter Saving Throws
+Table&nbsp;5.14: Fighter Saving Throws
 </figcaption>
 <div aria-describedby="tbl-save-fighter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
@@ -2678,17 +2842,258 @@ Table&nbsp;5.11: Fighter Saving Throws
 </div>
 </figure>
 </div>
+<section id="weapon-specialization" class="level3">
+<h3 class="anchored" data-anchor-id="weapon-specialization">Weapon Specialization</h3>
+<p>A Fighter chooses one weapon in which the character is especially skilled. This choice must be specific; for instance, a specialization in the longsword will give no bonuses when using a shortsword. The weapon specialization confers additional to hit and damage bonuses as the fighter progresses in rank.</p>
+<p>Paladins and Rangers cannot specialize.</p>
 </section>
-<section id="ranger" class="level2">
-<h2 class="anchored" data-anchor-id="ranger">Ranger</h2>
-<p>Coming soon!</p>
 </section>
 <section id="paladin" class="level2">
 <h2 class="anchored" data-anchor-id="paladin">Paladin</h2>
 <p>Coming soon!</p>
 </section>
-<section id="magic-users" class="level2">
-<h2 class="anchored" data-anchor-id="magic-users">Magic Users</h2>
+<section id="ranger" class="level2">
+<h2 class="anchored" data-anchor-id="ranger">Ranger</h2>
+<p>Rangers roam the borderlands, where their mission is to keep the beasts and monsters of the untamed lands at bay. They generally operate alone or in small groups and rely on stealth and surprise to meet their objectives.</p>
+<p>Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger, a character must have a Strength score of 9 or higher, Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may use any weapon and may wear any armor, but some of the Ranger’s special talents and abilities are unavailable when wearing armor heavier than leather armor.</p>
+<div id="tbl-xp-rangers" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-xp-rangers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5.15: Ranger XP Progression
+</figcaption>
+<div aria-describedby="tbl-xp-rangers-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 22%">
+<col style="width: 17%">
+<col style="width: 24%">
+<col style="width: 8%">
+<col style="width: 5%">
+<col style="width: 5%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Level</th>
+<th>Exp. Points</th>
+<th>Hit Dice</th>
+<th>Attack Bonus</th>
+<th>Arrows<br>Fired/Rd</th>
+<th>Skill<br>Points</th>
+<th>Feats</th>
+<th>Weapon<br>Proficiency</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>0</td>
+<td>1d10</td>
+<td>+1 (+3 bow)</td>
+<td>1/1</td>
+<td>3</td>
+<td></td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>2,200</td>
+<td>2d10</td>
+<td>+2 (+4 bow)</td>
+<td>1/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>4,400</td>
+<td>3 d10</td>
+<td>+2 (+5 bow)</td>
+<td>1/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>8,800</td>
+<td>4d10</td>
+<td>+3 (+6 bow)</td>
+<td>1/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>17,600</td>
+<td>5d10</td>
+<td>+4 (+7 bow)</td>
+<td>3/2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>35,200</td>
+<td>6d10</td>
+<td>+4 (+7 bow)</td>
+<td>3/2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>70,400</td>
+<td>7d10</td>
+<td>+5 (+8 bow)</td>
+<td>3/2</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>132,000</td>
+<td>8d10</td>
+<td>+6 (+9 bow)</td>
+<td>3/2</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>264,000</td>
+<td>9d10</td>
+<td>+6 (+9 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>396,000</td>
+<td>9d10+2</td>
+<td>+6 (+9 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>528,000</td>
+<td>9d10+4</td>
+<td>+7 (+10 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>660,000</td>
+<td>9d10+6</td>
+<td>+7 (+10 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>792,000</td>
+<td>9d10+8</td>
+<td>+8 (+11 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>924,000</td>
+<td>9d10+10</td>
+<td>+8 (+11 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>1,056,000</td>
+<td>9d10+12</td>
+<td>+8 (+11 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>1,188,000</td>
+<td>9d10+14</td>
+<td>+9 (+12 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>1,320,000</td>
+<td>9d10+16</td>
+<td>+9 (+12 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>1,452,000</td>
+<td>9d10+18</td>
+<td>+10 (+13 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>1,584,000</td>
+<td>9d10+20</td>
+<td>+10 (+13 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>1,716,000</td>
+<td>9d10+22</td>
+<td>+10(+13 bow)</td>
+<td>2/1</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="magic-user" class="level2">
+<h2 class="anchored" data-anchor-id="magic-user">Magic User</h2>
 <p><img src="images/magic_user.jpg" class="img-fluid"></p>
 <table class="table">
 <colgroup>
@@ -2977,7 +3382,7 @@ Table&nbsp;5.11: Fighter Saving Throws
 <div id="tbl-save-mage" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-save-mage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;5.12: Magic-User Saving Throws
+Table&nbsp;5.16: Magic-User Saving Throws
 </figcaption>
 <div aria-describedby="tbl-save-mage-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
@@ -3249,7 +3654,7 @@ Table&nbsp;5.12: Magic-User Saving Throws
 <div id="tbl-save-thief" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-save-thief-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;5.13: Thief Saving Throws
+Table&nbsp;5.17: Thief Saving Throws
 </figcaption>
 <div aria-describedby="tbl-save-thief-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
