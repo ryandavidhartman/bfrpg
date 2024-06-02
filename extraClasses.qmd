@@ -155,7 +155,7 @@ The Barbarian may prematurely end his or her rage with a successful save vs. Spe
 
 At the end of the rage, the Barbarian loses the rage modifiers and becomes fatigued, suffering a penalty of -2 to attack rolls, damage, armor class, and saving throws. While fatigued, the Barbarian may not charge nor move at a running rate.  This state of fatigue lasts for an hour. 
 
-A Barbarian may use this ability up to two times per day at 6th level and three times per day at 12th level.
+A Barbarian may use this ability up to two times per day at 6^th^ level and three times per day at 12^th^ level.
 
 ## Druids
 
@@ -200,7 +200,7 @@ Distributed under the terms of the Open Game License version 1.0a
 
 Druids are nature priests, revering the gods of the natural world.  Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities.  Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas.  However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.
 
-Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast spells of divine nature starting at 2nd level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
+Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast spells of divine nature starting at 2^nd^ level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
 
 The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid.  Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields.  Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
 
@@ -414,9 +414,9 @@ This spell does detect certain natural hazards, for instance quicksand (detected
 
 The amount of information revealed depends on how long the caster studies a particular area.
 
--   1st Round: Presence or absence of hazards.
+-   1^st^ Round: Presence or absence of hazards.
 
--   2nd Round: Number of hazards and the location of each. If a hazard is outside the caster's line of sight, then the caster discern its direction but not its exact location.
+-   2^nd^ Round: Number of hazards and the location of each. If a hazard is outside the caster's line of sight, then the caster discern its direction but not its exact location.
 
 -   Each Additional Round: The general type and trigger for one particular hazard closely examined by the caster.
 
@@ -466,11 +466,11 @@ This spell causes a single item made of ferrous (iron-based) metal to become hot
 
 | **Round** | **Temperature** | **Damage** |
 |-----------|-----------------|------------|
-| 1st       | Warm            | None       |
-| 2nd-3rd   | Hot             | 1d4 points |
-| 4th-5th   | Searing         | 2d4 points |
-| 6th       | Hot             | 1d4 points |
-| 7th       | Warm            | None       |
+| 1^st^       | Warm            | None       |
+| 2^nd^-3^rd^   | Hot             | 1d4 points |
+| 4^th^-5^th^   | Searing         | 2d4 points |
+| 6^th^       | Hot             | 1d4 points |
+| 7^th^       | Warm            | None       |
 
 Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst. Generally this will happen on the 4^th^ or 5^th^ round, when the effect is at its most powerful.
 
@@ -1052,7 +1052,7 @@ Duration: instantaneous
 
 The caster can use this spell to end all ongoing "illusion spells" within a 20-foot cubic area. **Dispel illusion** affects spells such as **audible glamer**, **phantasmal image**, **phantasmal force**, **spectral force**, **advanced illusion**, and so on. If there is any question as to whether or not a spell is an illusion, the GM's discretion will apply.
 
-Any illusion spell cast by a character of a level equal to or less than the **dispel illusion** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance of failure for each level the illusion's caster level exceeds the **dispel illusion** caster level. For example, a 10th-level caster dispelling an illusion created by a 14th level caster has a 20% chance of failure.
+Any illusion spell cast by a character of a level equal to or less than the **dispel illusion** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance of failure for each level the illusion's caster level exceeds the **dispel illusion** caster level. For example, a 10^th^-level caster dispelling an illusion created by a 14^th^ level caster has a 20% chance of failure.
 
 When an Illusionist attempts to dispel an illusion cast by a non-Illusionist, the Illusionist is treated as if he or she were two levels higher; if it is not obvious whether the illusion was created by an Illusionist or not, the GM should assume it was.
 
@@ -1298,13 +1298,13 @@ The mount has an AC of 18 and 12 hit points. If it loses all its hit points, the
 
 These mounts gain additional powers according to the caster's level:
 
-8th level: Ability to ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed.
+8^th^ level: Ability to ride over sandy, muddy, or even swampy ground without difficulty or decrease in speed.
 
-10th level: Ability to pass over water as if it were firm, dry ground.
+10^th^ level: Ability to pass over water as if it were firm, dry ground.
 
-12th level: Ability to travel in the air as if it were firm land instead, so chasms and the like can be crossed without benefit of a bridge. Note, however, that the mount can not casually take off and fly.
+12^th^ level: Ability to travel in the air as if it were firm land instead, so chasms and the like can be crossed without benefit of a bridge. Note, however, that the mount can not casually take off and fly.
 
-14th level: Ability to fly as if it were a pegasus.
+14^th^ level: Ability to fly as if it were a pegasus.
 
 A phantom steed's abilities include those of mounts of lower caster levels; for example, one created by a 13^th^ level caster can pass over water, sand, or mud as well as crossing chasms.
 

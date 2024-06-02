@@ -211,9 +211,9 @@ When allowed by the GM, certain optional subclasses might be allowed as a compon
 
 **Saving Throws:** A bugbear gains no special bonus to its saving throw rolls.
 
-**Initial Levels:** A bugbear character begins play at negative 3,000 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any stealth bonus (not learned yet). When it achieves -1,500 experience points it gets another 1d8 hit points and another point of attack bonus (+2 total). While in this immature state it can only utilize leather armor and saves as a 1st-level Fighter. Upon achieving zero experience points, it must choose its career path (class) as a 1st-level character and begins to abide by various class-based restrictions. It rolls using its new class-based hit die but retain previous hit points and attack bonuses (+2 bonus is added to attack bonus). At this point it has learned to be stealthy as well. When subjected to spells or effects where level or hit dice is a consideration, add two to its effective level.
+**Initial Levels:** A bugbear character begins play at negative 3,000 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any stealth bonus (not learned yet). When it achieves -1,500 experience points it gets another 1d8 hit points and another point of attack bonus (+2 total). While in this immature state it can only utilize leather armor and saves as a 1^st^-level Fighter. Upon achieving zero experience points, it must choose its career path (class) as a 1^st^-level character and begins to abide by various class-based restrictions. It rolls using its new class-based hit die but retain previous hit points and attack bonuses (+2 bonus is added to attack bonus). At this point it has learned to be stealthy as well. When subjected to spells or effects where level or hit dice is a consideration, add two to its effective level.
 
-Thus, a bugbear with its first class level has 2d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 3rd-level character.
+Thus, a bugbear with its first class level has 2d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 3^rd^-level character.
 
 ### Caveman
 
@@ -227,9 +227,9 @@ Thus, a bugbear with its first class level has 2d8 hit points and +2 attack bonu
 
 **Saving Throws:** Cavemen gain no special bonuses to saving throw rolls.
 
-**Initial Levels:** A Caveman begins play at negative 1,500 experience points with 1d8 for hit points and an attack bonus of +1. While in this immature state it can only utilize leather armor and makes saves as a 1st-level Fighter. Upon achieving zero experience points it must choose a career path (class) as a 1st-level character and begins to abide by various class-based restrictions. It rolls using this new class-based hit die but retain previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+**Initial Levels:** A Caveman begins play at negative 1,500 experience points with 1d8 for hit points and an attack bonus of +1. While in this immature state it can only utilize leather armor and makes saves as a 1^st^-level Fighter. Upon achieving zero experience points it must choose a career path (class) as a 1^st^-level character and begins to abide by various class-based restrictions. It rolls using this new class-based hit die but retain previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
 
-Thus, a caveman at first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+Thus, a caveman at first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2^nd^-level character.
 
 ### Centaur 
 
@@ -245,9 +245,9 @@ A centaur's base movement rate is 60' when lightly encumbered and 40' under heav
 
 **Saving Throws:** A centaur gains no special bonuses to its saving throw roll. However, because of racial hit dice a centaur has a +1 bonus to all saves.
 
-**Initial Levels:** A centaur begins play at negative 4,500 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any hoof attack. When it reaches negative 3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and may make one hoof strike per round (in addition to any weapon). When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1 (from hit dice), but it does not get another attack bonus at this time. While in this immature state, it may not wear armor, rolls saves as a 1st-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1st-level character and begins to abide by various class-based restrictions. At this point it has full attack routines (2 hooves + weapon). When subjected to spells or effects where level or hit dice is a consideration, add three to its effective level.
+**Initial Levels:** A centaur begins play at negative 4,500 experience points with 1d8 for hit points and an attack bonus of +1, but it does not have any hoof attack. When it reaches negative 3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and may make one hoof strike per round (in addition to any weapon). When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1 (from hit dice), but it does not get another attack bonus at this time. While in this immature state, it may not wear armor, rolls saves as a 1^st^-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1^st^-level character and begins to abide by various class-based restrictions. At this point it has full attack routines (2 hooves + weapon). When subjected to spells or effects where level or hit dice is a consideration, add three to its effective level.
 
-Thus, a centaur with its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4th-level character.
+Thus, a centaur with its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4^th^-level character.
 
 ### Gnoll
 
@@ -261,9 +261,9 @@ Thus, a centaur with its first class level has 3d8 hit points and +2 attack bonu
 
 **Saving Throws:** As a scavenger and carrion eater, a gnoll is especially hearty against many deadly effects. A gnoll character has saving throw bonuses of +4 vs. Death Ray, Poison, Paralysis, or Petrification.
 
-**Initial Levels:** A gnoll begins play at negative 1,500 experience points, 1d8 for hit points, and an attack bonus of +1. While in this immature state it can only utilize leather armor and saves as a 1st-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1st-Level character and begin to abide by various class-based restrictions. It rolls using its new class-based hit die but retains previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+**Initial Levels:** A gnoll begins play at negative 1,500 experience points, 1d8 for hit points, and an attack bonus of +1. While in this immature state it can only utilize leather armor and saves as a 1^st^-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1^st^-Level character and begin to abide by various class-based restrictions. It rolls using its new class-based hit die but retains previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
 
-Thus, a gnoll with its first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+Thus, a gnoll with its first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2^nd^-level character.
 
 ### Goblin
 
@@ -331,9 +331,9 @@ A lizard man can bite for 1d4 points of damage, but it must forgo any weapon att
 
 **Saving Throws:** A lizard man gains no special bonuses to its saving throw rolls.
 
-**Initial Levels:** A lizard man begins play at negative 1,500 experience points, uses 1d8 for hit points, and has a +1 attack bonus. While in this immature state it can only utilize leather armor (if available) and saves as a 1st-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1st-Level character and must abide by any class-based restrictions. It rolls using its new class-based hit die but retainsits previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+**Initial Levels:** A lizard man begins play at negative 1,500 experience points, uses 1d8 for hit points, and has a +1 attack bonus. While in this immature state it can only utilize leather armor (if available) and saves as a 1^st^-level Fighter. Upon achieving 0 experience points, it must choose its career path (class) as a 1^st^-Level character and must abide by any class-based restrictions. It rolls using its new class-based hit die but retainsits previous hit points and attack bonuses (+1 bonus is added to attack bonus). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
 
-Thus, a lizard man in its first class level has 1d8 hit points and +1 attack bonus in addition to those granted by the chosen class. It is equivalent to a 2nd-level character.
+Thus, a lizard man in its first class level has 1d8 hit points and +1 attack bonus in addition to those granted by the chosen class. It is equivalent to a 2^nd^-level character.
 **Thief Ability Adjustments:** Kobolds are considered to be masters at trap-works; a roguish kobold has a +15% bonus to Finding/Removing Traps. In addition, it has +5% bonuses to Open Locks, Move Silently, and Hiding.
 
 **Saving Throws:** A kobold saves at +4 against poison effects, a result of extensive exposure to various poisons in its environment while growing up.
@@ -350,9 +350,9 @@ Thus, a lizard man in its first class level has 1d8 hit points and +1 attack bon
 
 **Saving Throws:** An ogre gains no special bonuses to its saving throw roll. However, because of the racial hit dice it has a +1 bonus to all saves.
 
-**Initial Levels:** An ogre begins play at negative 4,500 experience points, uses 1d8 for hit points, and has an attack bonus of +1, but its fist attack deals only 1d4 subduing points of damage. When it reaches -3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and its fist attacks deal 1d6 subduing points of damage. When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1, but the ogre does not get another attack bonus at this time. While in this immature state, it may only wear leather armor (if available), and rolls saves as a 1st-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1st-level character and begin to abide by various class based restrictions. At this point it has full attack potential. When subjected to spells or effects where level or hit dice is a consideration, add three to the ogre's effective level.
+**Initial Levels:** An ogre begins play at negative 4,500 experience points, uses 1d8 for hit points, and has an attack bonus of +1, but its fist attack deals only 1d4 subduing points of damage. When it reaches -3,000 experience points it gets another 1d8 hit points, another +1 attack bonus, and its fist attacks deal 1d6 subduing points of damage. When it reaches -1,500 experience points it gets a third 1d8 in hit points and its racial save bonus of +1, but the ogre does not get another attack bonus at this time. While in this immature state, it may only wear leather armor (if available), and rolls saves as a 1^st^-level Fighter (note the previously mentioned bonus). Upon achieving 0 experience points, it must choose its career path (class) as a 1^st^-level character and begin to abide by various class based restrictions. At this point it has full attack potential. When subjected to spells or effects where level or hit dice is a consideration, add three to the ogre's effective level.
 
-Thus, an ogre at  its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4th-level character.
+Thus, an ogre at  its first class level has 3d8 hit points and +2 attack bonus in addition to that granted by its chosen class. It is equivalent to a 4^th^-level character.
 
 ### Orc
 
@@ -384,9 +384,9 @@ A troglodyte can attack with its two front claws doing 1d4 points of damage each
 
 **Saving Throws:** A troglodyte character gains no special bonuses to its saving throw rolls.
 
-**Initial Levels:** A troglodyte begins play at negative 1,500 experience points, uses 1d8 for hit points, has an attack bonus of +1, and its natural attacks do 1d3 points of damage. While in this immature state it can only utilize leather armor (if available) and saves as a 1st-level Fighter. Upon achieving 0 experience points it must choose its career path (class) as a 1st-level character and begins to abide by any class-based restrictions. It rolls using its new class-based hit die but retains any previous hit points and attack bonuses (+1 bonus is added to its attack bonus). At this point, its natural attacks do full damage (1d4). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
+**Initial Levels:** A troglodyte begins play at negative 1,500 experience points, uses 1d8 for hit points, has an attack bonus of +1, and its natural attacks do 1d3 points of damage. While in this immature state it can only utilize leather armor (if available) and saves as a 1^st^-level Fighter. Upon achieving 0 experience points it must choose its career path (class) as a 1^st^-level character and begins to abide by any class-based restrictions. It rolls using its new class-based hit die but retains any previous hit points and attack bonuses (+1 bonus is added to its attack bonus). At this point, its natural attacks do full damage (1d4). When subjected to spells or effects where level or hit dice is a consideration, add one to its effective level.
 
-Thus, a troglodyte atits first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2nd-level character.
+Thus, a troglodyte atits first class level has 1d8 hit points and +1 attack bonus in addition to that granted by its chosen class. It is equivalent to a 2^nd^-level character.
 
 
 

@@ -11496,7 +11496,7 @@ var dist = {exports: {}};
 	      continue;
 
 	    const defineName = `define${++j}`;
-	    // TODO get cell specififiers here and pass in as 2nd param to resolveImportPath
+	    // TODO get cell specififiers here and pass in as 2^nd^ param to resolveImportPath
 	    // need to use same logic as tree-shake name()s
 	    const specifiers = body.specifiers.map(d => {
 	      const prefix = d.view ? "viewof " : d.mutable ? "mutable " : "";

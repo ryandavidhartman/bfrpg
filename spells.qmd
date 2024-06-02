@@ -434,15 +434,15 @@ Duration: 7 rounds
 
 This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
 
-Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4^th^ or 5^th^ round, when the effect is at its most powerful.
 
 | Round    | Temperature | Damage |
 |----------|-------------|--------|
-| 1st      | Warm        | None   |
-| 2nd-3rd  | Hot         | 1d4    |
-| 4th-5th  | Searing     | 2d4    |
-| 6th      | Hot         | 1d4    |
-| 7th      | Warm        | None   |
+| 1^st^      | Warm        | None   |
+| 2^nd^-3^rd^  | Hot         | 1d4    |
+| 4^th^-5^th^  | Searing     | 2d4    |
+| 6^th^      | Hot         | 1d4    |
+| 7^th^      | Warm        | None   |
 
 The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
 
@@ -1020,7 +1020,7 @@ Range: 300'+30'/level
 
 Duration: 1 round/level
 
-This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18th level. See Insect Swarm in the [Monsters](monstersAll.html#insect-swarm) section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
+This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18^th^ level. See Insect Swarm in the [Monsters](monstersAll.html#insect-swarm) section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
 
 :::
 
@@ -1174,7 +1174,7 @@ Range: 100'+10'/level
 
 Duration: 1 round/level
 
-This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12th level, 325 lbs. at 13th level, and so on).
+This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12^th^ level, 325 lbs. at 13^th^ level, and so on).
 
 The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
 
@@ -1274,7 +1274,7 @@ Range: Touch
 
 Duration: Permanent
 
-Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.html#energy-drain) section) for more details.
+Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16^th^ level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.html#energy-drain) section) for more details.
 
 Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
 
@@ -1322,7 +1322,7 @@ Range: Self (special)
 
 Duration: Instantaneous
 
-Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
+Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10^th^. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
 
 An unwilling creature can’t be teleported by word of recall. Likewise, a creature’s save vs. Spells prevents items in its possession from being teleported.
 
@@ -1476,7 +1476,7 @@ This spell restores life to a deceased creature. The caster can raise a creature
 
 This spell operates similarly to raise dead, but is more powerful. The full body is not required; only a small portion is required, but that portion must have been part of the subject’s body at the time of death. (The dust left from a disintegrate spell counts as the required small portion.) A whole new body is created, so it will be at the peak of health, with full hit points, and all spells prepared at the time of death.
 
-This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1st level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
+This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1^st^ level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
 
 A creature which has become undead can be resurrected as long as the undead creature has been destroyed. Constructs and elementals cannot be resurrected.
 
@@ -1787,9 +1787,9 @@ This spell does detect certain natural hazards, for instance quicksand (detected
 
 The amount of information revealed depends on how long the Druid studies a particular area.
 
-* 1st Round: Presence or absence of hazards.
+* 1^st^ Round: Presence or absence of hazards.
 
-* 2nd Round: Number of hazards and the location of each.  If a hazard is outside the Druid's line of sight, then the caster discern its direction but not its exact location.
+* 2^nd^ Round: Number of hazards and the location of each.  If a hazard is outside the Druid's line of sight, then the caster discern its direction but not its exact location.
 
 * Each Additional Round: The general type and trigger for one particular hazard closely examined by the caster.
 
@@ -1917,7 +1917,7 @@ Range: Touch
 
 Duration: 4 rounds + 1 round/level
 
-When the **Barkskin** spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4th level, Armor Class 19 at 6th, Armor Class 20 at 8th and so on.
+When the **Barkskin** spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4^th^ level, Armor Class 19 at 6^th^, Armor Class 20 at 8^th^ and so on.
 
 This spell does not function in combination with normal armor or any magical protection. In addition, saving throw rolls vs. all attack forms except magic gain a +1 bonus. This spell can be placed on the caster or on any other creature the caster touches.
 
@@ -1951,15 +1951,15 @@ Duration: 7 rounds
 
 This spell causes a single item made of ferrous (iron-based) metal to become hot for a brief period of time.  The affected item is warm to the touch immediately, and then becomes progressively hotter each round as indicated on the table below.  The damage roll indicated is applied to any creature holding or wearing the affected item; a brief touch does no damage.
 
-Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4th or 5th round, when the effect is at its most powerful.
+Note that this spell can damage items harmed by heat, such as potions for example, and might boil water, wine, or oil stored in vessels within affected metal item, possibly causing an affected vessel to burst.  Generally this will happen on the 4^th^ or 5^th^ round, when the effect is at its most powerful.
 
 | Round    | Temperature | Damage |
 |----------|-------------|--------|
-| 1st      | Warm        | None   |
-| 2nd-3rd  | Hot         | 1d4    |
-| 4th-5th  | Searing     | 2d4    |
-| 6th      | Hot         | 1d4    |
-| 7th      | Warm        | None   |
+| 1^st^      | Warm        | None   |
+| 2^nd^-3^rd^  | Hot         | 1d4    |
+| 4^th^-5^th^  | Searing     | 2d4    |
+| 6^th^      | Hot         | 1d4    |
+| 7^th^      | Warm        | None   |
 
 The reverse of this spell is **Chill Metal**.  It inflicts damage as outlined in the table above, but the damage is caused by cold instead of heat.  Note that this can freeze water, congeal oil, and so on.  Frozen water might burst its vessel.
 
@@ -2635,7 +2635,7 @@ Duration: 1 round/level
 
 When this spell is cast, a strong puff of air originates from the caster and moves in the direction the caster is facing. The force of this [Gust of Wind](allSpells.html#gust-of-wind) (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames--such as those of lanterns--to dance wildly and has a 5% chance per level of experience of the spellcaster to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
 
-Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8^th^-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
 
 :::
 
@@ -2649,7 +2649,7 @@ Range: 300'+30'/level
 
 Duration: 1 round/level
 
-This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18th level. See [Insect Swarm](monstersAll.html#insect-swarm) in the **Monsters** section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
+This spell summons one swarm of locusts per three caster levels, to a maximum of six swarms at 18^th^ level. See [Insect Swarm](monstersAll.html#insect-swarm) in the **Monsters** section for the effects of a swarm. The swarms must be summoned so that each one is adjacent to at least one other swarm (that is, the swarms must fill one contiguous area). The caster may summon the locust swarms so that they share the area of other creatures. Each swarm attacks any creatures occupying its area. The swarms are stationary after being summoned.
 
 :::
 
@@ -2903,7 +2903,7 @@ Roll on the following table to determine what sort of creature the character bec
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 
-A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1st level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
 
 A character that has been turned into an undead creature or killed by a death effect can’t be returned to life by this spell.  Constructs, elementals, and undead creatures can’t be reincarnated.  The spell cannot bring back a creature who has died of old age.
 
@@ -2949,7 +2949,7 @@ Range: Self (special)
 
 Duration: Instantaneous
 
-Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
+Word of recall teleports the caster instantly back to his or her sanctuary when a single word is uttered. The caster must designate the sanctuary when he or she prepares the spell, and it must be a very familiar place. The actual point of arrival is a designated area no larger than 10 feet by 10 feet. The caster can be transported any distance within a plane but cannot travel between planes. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10^th^. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster).
 
 An unwilling creature can’t be teleported by word of recall. Likewise, a creature’s save vs. Spells prevents items in its possession from being teleported.
 
@@ -3083,7 +3083,7 @@ Range: Touch
 
 Duration: Permanent
 
-Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16th level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.html#energy-drain) section) for more details.
+Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16^th^ level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.html#energy-drain) section) for more details.
 
 Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
 
@@ -3502,7 +3502,7 @@ For example, a fighter at 160% normal size hits with their long sword and rolls 
 
 The reverse spell, **Reduce**, negates the enlarge spell or makes creatures or objects smaller. The creature or object loses 10% of its original size for every level of the caster, to a minimum of 10% of the original size. Thereafter, the size shrinks by 1-foot increments to less than 1 foot, by 1-inch increments to 1 inch, and by 1/10-inch increments to a minimum of 1/10 of an inch--the recipient cannot dwindle away to nothingness.
 
-For example, a 16-foot-tall giant reduced by a 15th-level magic-user (15 steps) would be reduced to 1.6 feet (in nine steps), then to 6/10 of a foot or 7.2 inches (in one step), and finally to 2.2 inches (in the last five steps). A shrinking object may damage weaker materials affixed to it, but an object will shrink only as long as the object itself is not damaged. Unwilling creatures are allowed a saving throw vs. spell.
+For example, a 16-foot-tall giant reduced by a 15^th^-level magic-user (15 steps) would be reduced to 1.6 feet (in nine steps), then to 6/10 of a foot or 7.2 inches (in one step), and finally to 2.2 inches (in the last five steps). A shrinking object may damage weaker materials affixed to it, but an object will shrink only as long as the object itself is not damaged. Unwilling creatures are allowed a saving throw vs. spell.
 
 :::
 
@@ -3546,7 +3546,7 @@ When this spell is cast, the creature(s) or object(s) affected immediately assum
 
 The feather fall affects one or more objects or creatures in a 10-foot cube, as long as the maximum weight of the creatures or objects does not exceed a combined total of 200 pounds plus 200 pounds per level of the spellcaster.
 
-For example, a 2nd-level wizard has a range of 20 yards, a duration of two rounds, and a weight limit of 600 pounds when casting this spell. The spell works only upon free-falling, flying, or propelled objects (such as missiles). It does not affect a sword blow or a charging creature. Note that the spell can be effectively combined with [Gust of Wind](allSpells.html#gust-of-wind) and similar spells.
+For example, a 2^nd^-level wizard has a range of 20 yards, a duration of two rounds, and a weight limit of 600 pounds when casting this spell. The spell works only upon free-falling, flying, or propelled objects (such as missiles). It does not affect a sword blow or a charging creature. Note that the spell can be effectively combined with [Gust of Wind](allSpells.html#gust-of-wind) and similar spells.
 
 :::
 
@@ -3688,7 +3688,7 @@ Duration: Instantaneous
 
 This spell causes a missile of magical energy to dart forth from the caster's fingertip and strike its target, which must be at least partially visible to the caster, dealing 1d6+1 points of damage. The missile strikes unerringly. Specific parts of a creature can’t be singled out. Inanimate objects are not damaged by the spell.
 
-For every three caster levels beyond 1st, an additional missile is fired – two at 4th level, three at 7th, four at 10th, and the maximum of five missiles at 13th level or higher. If the caster fires multiple missiles, he or she can target a single creature or several creatures. A single missile can strike only one creature. Targets must be designated before damage is rolled.
+For every three caster levels beyond 1^st^, an additional missile is fired – two at 4^th^ level, three at 7^th^, four at 10^th^, and the maximum of five missiles at 13^th^ level or higher. If the caster fires multiple missiles, he or she can target a single creature or several creatures. A single missile can strike only one creature. Targets must be designated before damage is rolled.
 
 :::
 
@@ -3706,7 +3706,7 @@ This spell imbues the chosen non-living object with an enchanted mouth that sudd
 
 The spell functions when specific conditions are fulfilled according to the caster's command as set in the spell. Commands can be as general or as detailed as desired, although only visual and audible triggers can be used. Triggers react to what appears to be the case. Disguises and illusions can fool them. Normal darkness does not defeat a visual trigger, but magical darkness or invisibility does. Silent movement or magical silence defeats audible triggers. Audible triggers can be keyed to general types of noises or to a specific noise or spoken word. Actions can serve as triggers if they are visible or audible. A magic mouth cannot distinguish level, hit dice, or class except by external garb.
 
-The range limit of a trigger is 10 feet per caster level, so a 6th-level caster can command a magic mouth to respond to triggers as far as 60 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.
+The range limit of a trigger is 10 feet per caster level, so a 6^th^-level caster can command a magic mouth to respond to triggers as far as 60 feet away. Regardless of range, the mouth can respond only to visible or audible triggers and actions in line of sight or within hearing distance.
 
 :::
 
@@ -3881,7 +3881,7 @@ Duration: 1 turn/level
 
 This spell creates a sickly stinking smell of rot and decay that emanates from the caster's body.  The stench duplicates the sickening effect of ghasts ([see its entry in the Monster section](monstersAll.html#ghoul-and-ghast)).  The smell of death and corruption surrounding the caster is so overwhelming that living creatures within 10 feet must succeed a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls). 
 
-For every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3rd the save is at -1, at 6th level at -2, at 9th level at -3, etc).  A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours.  A [Neutralize Poison Spell](allSpells.html#neutralize-poison-spell) removes the effect from a sickened creature.
+For every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3^rd^ the save is at -1, at 6^th^ level at -2, at 9^th^ level at -3, etc).  A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours.  A [Neutralize Poison Spell](allSpells.html#neutralize-poison-spell) removes the effect from a sickened creature.
 
 :::
 
@@ -4174,7 +4174,7 @@ Duration: Instantaneous
 
 Two arcs of electricity spring from the casters fingers to strike two separate adjacent targets within 10 foot of each other. For each bolt the caster must roll to hit their chosen target ignoring any worn armor and metal armored targets get +4 bonus to hit (any magical bonuses still apply). Inanimate objects cannot be damaged by this spell.
 
-Each bolt deals 1d6 points of electricity damage +1 point of damage per 2 caster levels (round down). For every two levels past 3rd (5th, 7th, 9th, etc) the caster gains an additional bolt of forked lightning. Subsequent targets (after first two) must be within 10 feet of the previously targeted foe, and a new attack roll must be made for each bolt. If there are fewer than the maximum allowed targets then the extra bolts do not appear and are wasted; a single bolt can only strike a single creature.
+Each bolt deals 1d6 points of electricity damage +1 point of damage per 2 caster levels (round down). For every two levels past 3^rd^ (5^th^, 7^th^, 9^th^, etc) the caster gains an additional bolt of forked lightning. Subsequent targets (after first two) must be within 10 feet of the previously targeted foe, and a new attack roll must be made for each bolt. If there are fewer than the maximum allowed targets then the extra bolts do not appear and are wasted; a single bolt can only strike a single creature.
 
 There is no save to resist the spell once struck by a bolt, but creatures with any sort of resistance to electrical attacks will suffer no damage whatsoever.
 
@@ -4501,7 +4501,7 @@ Range: Touch
 
 Duration: 4 rounds + 1 round/level
 
-When the **Barkskin** spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4th level, Armor Class 19 at 6th, Armor Class 20 at 8th and so on.
+When the **Barkskin** spell is cast upon a creature, its skin becomes as tough as bark, increasing its base Armor Class to AC 17, plus 1 AC for every two levels. Armor Class 18 at 4^th^ level, Armor Class 19 at 6^th^, Armor Class 20 at 8^th^ and so on.
 
 This spell does not function in combination with normal armor or any magical protection. In addition, saving throw rolls vs. all attack forms except magic gain a +1 bonus. This spell can be placed on the caster or on any other creature the caster touches.
 
@@ -4727,7 +4727,7 @@ Duration: 1 round/level
 
 When this spell is cast, a strong puff of air originates from the caster and moves in the direction the caster is facing. The force of this [Gust of Wind](allSpells.html#gust-of-wind) (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames--such as those of lanterns--to dance wildly and has a 5% chance per level of experience of the spellcaster to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
 
-Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8^th^-level wizard causes a [Gust of Wind](allSpells.html#gust-of-wind) that travels 80 yards).
 
 :::
 
@@ -4945,7 +4945,7 @@ Range: 10'/level
 
 Duration: 1 turn/level
 
-Upon casting this spell, a malevolent spirit in the form of a wraith is called to serve the caster for 1 turn per level.  If the caster is 10th level the caster may choose between 1d4 wraiths or one spectre.  At 15th level the caster may opt to summon 2d4 wraiths, 1d3 spectres, or one ghost.  The summoned spirits will serve according to its ability, usually by combating the caster's foes, and generally disappearing at the end of the spell's duration.
+Upon casting this spell, a malevolent spirit in the form of a wraith is called to serve the caster for 1 turn per level.  If the caster is 10^th^ level the caster may choose between 1d4 wraiths or one spectre.  At 15^th^ level the caster may opt to summon 2d4 wraiths, 1d3 spectres, or one ghost.  The summoned spirits will serve according to its ability, usually by combating the caster's foes, and generally disappearing at the end of the spell's duration.
 
 Occasionally the spirit does not depart at the end of the spell duration, but simply becomes free of the compulsion to serve and will usually attack the caster.  The chance is 5% for any particular wraith, 10% for spectres, and 20% for a ghost.  When this occurs, the spirit will remain in the area for a number of rounds equal to the caster's level before departing.  A spirit with less than half its hit points will not stay regardless.  The caster would be wise to have protections or other contingencies against the rogue spirits.
 
@@ -5198,7 +5198,7 @@ Range: Special
 
 Duration: Special
 
-By use of an extension spell, the wizard doubles the duration of a previously cast 1st-, 2nd-, or 3rd-level spell. Naturally, the spell affects only spells that have durations.
+By use of an extension spell, the wizard doubles the duration of a previously cast 1^st^-, 2^nd^-, or 3^rd^-level spell. Naturally, the spell affects only spells that have durations.
 
 This spell must be cast immediately after the spell to be extended, either by the original caster or another wizard. If a complete round or more elapses, the extension fails and is wasted.
 
@@ -5503,7 +5503,7 @@ Range: 10'/level
 
 Duration: 1 round/level
 
-An immobile wall of writhing interlocking bone and bone fragments rises from the earth.  The wall is composed of up to one 10-foot x 10-foot square section, 1 foot thick, per caster level.  Unlike the similar spell, [Wall of Stone](allSpells.html#wall-of-stone), the caster may not double the wall’s area by halving its thickness, as the structure is already very porous and would lose its structural integrity, but of course the wall can be made thicker.  For instance, a 10th-level caster could conjure a section to fill in a 10-foot cube (10 feet x 10 feet x 1 foot, 10 sections thick).  The wall cannot be conjured so that it occupies the same space as a creature or another object.  The wall does not require concentration to maintain, but falls to pieces at the end of the spell duration.
+An immobile wall of writhing interlocking bone and bone fragments rises from the earth.  The wall is composed of up to one 10-foot x 10-foot square section, 1 foot thick, per caster level.  Unlike the similar spell, [Wall of Stone](allSpells.html#wall-of-stone), the caster may not double the wall’s area by halving its thickness, as the structure is already very porous and would lose its structural integrity, but of course the wall can be made thicker.  For instance, a 10^th^-level caster could conjure a section to fill in a 10-foot cube (10 feet x 10 feet x 1 foot, 10 sections thick).  The wall cannot be conjured so that it occupies the same space as a creature or another object.  The wall does not require concentration to maintain, but falls to pieces at the end of the spell duration.
 
 The spell also differs from the [Wall of Stone](allSpells.html#wall-of-stone) spell in that  the semi-animated wall attacks those within close proximity to its structure (10 feet) for 2d4 piercing and slashing damage from the bones.  The structure is not completely solid, so high-strength individuals may attempt to break through with a Strength check, but they take an additional 2d6+1/level points of damage while making the attempt for each 1 foot of thickness that they attempt to move through.  A separate Strength check is necessary for each 1 foot of thickness of the wall section in order to break through.  The bone wall does not attack the caster or any undead creatures.  The **Wall of Bones** may be fashioned into simple structures such as ramps or bridges to span a rift, but these uses reduce the size by half so that supporting arches or buttresses can be included.
 
@@ -5729,7 +5729,7 @@ Range: 30'
 
 Duration: 3 turns
 
-Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9th (20 feet at 12th, 30 feet deep at 15th, 40 feet deep at 18th). If the wall’s thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, [Dispel Magic](allSpells.html#dispel-magic), or caster's choice), creatures within the passage are ejected out the nearest exit.
+Passwall creates a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is up to 10 feet deep plus an additional 10 feet deep per three caster levels above 9^th^ (20 feet at 12^th^, 30 feet deep at 15^th^, 40 feet deep at 18^th^). If the wall’s thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick walls. When passwall ends (due to duration, [Dispel Magic](allSpells.html#dispel-magic), or caster's choice), creatures within the passage are ejected out the nearest exit.
 
 :::
 
@@ -5835,7 +5835,7 @@ Range: Self
 
 Duration: Instantaneous
 
-This spell instantly transports the caster to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10th. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster). Unwilling creatures are allowed a saving throw vs. Spells to resist the spell, and the caster may need to make an attack roll to make contact with such a creature. Likewise, a successful save vs. Spells will prevent items in a creature's possession from being teleported.
+This spell instantly transports the caster to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. The caster can bring along objects or creatures, not to exceed 300 pounds plus 100 pounds per level above 10^th^. The caster must be in contact with all objects and/or creatures to be transported (although creatures to be transported may be in contact with one another, with at least one of those creatures in contact with the caster). Unwilling creatures are allowed a saving throw vs. Spells to resist the spell, and the caster may need to make an attack roll to make contact with such a creature. Likewise, a successful save vs. Spells will prevent items in a creature's possession from being teleported.
 
 The caster must have some clear idea of the location and layout of the destination. The clearer the mental image, the more likely it is that the teleportation will work. Areas of strong magical energy may make teleportation more hazardous or even impossible.
 
@@ -6131,7 +6131,7 @@ Magic-User 6
 
 Duration: Permanent
 
-This spell is used to make another spell of 6th or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.
+This spell is used to make another spell of 6^th^ or lower level permanent. Only arcane magic can be affected: Clerical, Druidic, and other spells of divine nature can not be made permanent. No spell with a permanent or instantaneous duration can be made permanent.
 
 A permanency spell lasts until dispelled. When it is dispelled, the other spell effect vanishes immediately. Casting a permanency spell causes the loss of 1 point of Constitution. Lost Constitution is recovered using the [Constitution Point Losses rules](combat.html#constitution-point-losses).
 
@@ -6192,7 +6192,7 @@ Roll on the following table to determine what sort of creature the character bec
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 
-A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1st level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
 
 A character that has been turned into an undead creature or killed by a death effect can’t be returned to life by this spell.  Constructs, elementals, and undead creatures can’t be reincarnated.  The spell cannot bring back a creature who has died of old age.
 
@@ -6318,7 +6318,7 @@ Range: 10 yards/level
 
 Duration: 1 round/level
 
-**Bigby's Grasping Hand** is a superior version of the 6th-level spell [Bigby's Forceful Hand](allSpells.html#bigbys-forceful-hand). It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that appears and grasps a creature designated by the caster, regardless of what the spellcaster does or how the opponent tries to escape it. The grasping hand can hold motionless a creature or object of up to 1,000 pounds weight, slow movement to 10 feet per round if the creature weighs between 1,000 and 4,000 pounds, or slow movement by 50% if the creature weighs up to 16,000 pounds.
+**Bigby's Grasping Hand** is a superior version of the 6^th^-level spell [Bigby's Forceful Hand](allSpells.html#bigbys-forceful-hand). It creates a man-sized (5 feet) to gargantuan-sized (21 feet) hand that appears and grasps a creature designated by the caster, regardless of what the spellcaster does or how the opponent tries to escape it. The grasping hand can hold motionless a creature or object of up to 1,000 pounds weight, slow movement to 10 feet per round if the creature weighs between 1,000 and 4,000 pounds, or slow movement by 50% if the creature weighs up to 16,000 pounds.
 
 The hand itself inflicts no damage. The grasping hand has an Armor Class of 18, has as many hit points as its caster in full health, and vanishes when destroyed. The caster can order it to release a trapped opponent or can dismiss it on command.
 
@@ -6509,9 +6509,9 @@ Range: 0'
 
 Duration: 6 turns
 
-This abjuration reflects 3rd Level or lower spells back at the caster.
+This abjuration reflects 3^rd^ Level or lower spells back at the caster.
 
-If it is Casting a Spell of 4th Level or higher, the Magic-User makes a DC check. The DC equals 10 + the spell's level – Int bonus. On a success, the spell is reflected.
+If it is Casting a Spell of 4^th^ Level or higher, the Magic-User makes a DC check. The DC equals 10 + the spell's level – Int bonus. On a success, the spell is reflected.
 
 Spell turning can't affect spells that aren't targeted (such as area spells).
 If spell turning reflects a spell back at a caster who is also under the effect of spell turning, their spell turning can attempt to reflect their own spell back at you again; if they do so, their counteract attempt automatically succeeds
@@ -6567,7 +6567,7 @@ The second method is far more insidious, for it tricks the victim into accepting
 
 The gem prison will hold the trapped entity indefinitely, or until the gem is broken and the life force is released, allowing the material body to reform. If the trapped creature is a powerful creature from another plane (which could mean a character trapped by an inhabitant of another plane when the character is not on the Prime Material Plane), it can be required to perform a service immediately upon being freed. Otherwise, the creature can go free once the gem imprisoning it is broken.
 
-Before the actual casting of the trap the soul spell, the wizard must prepare the prison, a gem of at least 1,000 gp value for every Hit Die or level of experience possessed by the creature to be trapped (for example, it requires a gem of 10,000 gp value to trap a 10 Hit Die or 10th-level creature). If the gem is not valuable enough, it shatters when the entrapment is attempted. (Note that while characters have no concept of level as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as characters advance.) Creating the prison gem requires an enchant an item spell and the placement of a maze spell into the gem, thereby forming the prison to contain the life force.
+Before the actual casting of the trap the soul spell, the wizard must prepare the prison, a gem of at least 1,000 gp value for every Hit Die or level of experience possessed by the creature to be trapped (for example, it requires a gem of 10,000 gp value to trap a 10 Hit Die or 10^th^-level creature). If the gem is not valuable enough, it shatters when the entrapment is attempted. (Note that while characters have no concept of level as such, the value of the gem needed to trap an individual can be researched. Remember that this value can change over time as characters advance.) Creating the prison gem requires an enchant an item spell and the placement of a maze spell into the gem, thereby forming the prison to contain the life force.
 
 :::
 
@@ -6581,7 +6581,7 @@ Range: Touch
 
 Duration: Special
 
-When the wizard employs this spell, the caster causes an object to vanish (i.e., to be teleported as if by a [Teleport](allSpells.html#teleport) spell) if it weighs no more than 50 pounds per caster level. Thus, a 14th-level caster can vanish, and cause to reappear at a desired location, an object up to 700 pounds in weight. The maximum volume of material that can be affected is 3 cubic feet per level of experience. Thus, both weight and volume limit the spell. An object that exceeds either limitation is unaffected and the spell fails.
+When the wizard employs this spell, the caster causes an object to vanish (i.e., to be teleported as if by a [Teleport](allSpells.html#teleport) spell) if it weighs no more than 50 pounds per caster level. Thus, a 14^th^-level caster can vanish, and cause to reappear at a desired location, an object up to 700 pounds in weight. The maximum volume of material that can be affected is 3 cubic feet per level of experience. Thus, both weight and volume limit the spell. An object that exceeds either limitation is unaffected and the spell fails.
 
 If desired, a vanished object can be placed deep within the Ethereal Plane. In this case, the point from which the object vanished remains faintly magical until the item is retrieved. A successful [Dispel Magic](allSpells.html#dispel-magic) spell cast on the point will bring the vanished item back from the Ethereal Plane. Note that creatures and magical forces cannot be made to vanish.
 

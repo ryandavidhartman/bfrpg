@@ -634,12 +634,12 @@ Clerical scrolls are written in a normal language (being just specially enchante
 
 | **d%** | **Level of Spell** |
 |---|----|
-| 01-30 | 1st |
-| 31-55 | 2nd |
-| 56-75 | 3rd |
-| 76-88 | 4th |
-| 89-97 | 5th |
-| 98-00 | 6th |
+| 01-30 | 1^st^ |
+| 31-55 | 2^nd^ |
+| 56-75 | 3^rd^ |
+| 76-88 | 4^th^ |
+| 89-97 | 5^th^ |
+| 98-00 | 6^th^ |
 
 A **Cursed Scroll** inflicts some curse upon whoever reads it. It need not be read completely; in fact, merely glancing at the text is enough to inflict the curse. A saving throw may or may not be allowed, as determined by the GM (though a save vs. Spells should usually be allowed). The GM is encouraged to be creative when creating curses; the spell **bestow curse** (the reverse of **remove curse**) can be used for inspiration, but cursed scrolls can contain more powerful or inventive curses at the GM's discretion.
 
@@ -675,12 +675,12 @@ A ring is a circular metal band worn on the finger (no more than one ring per ha
 
 | **d%** | **# of Spells**   | **d%** | **Level of Spell** |
 |----|----|----|----|
-| 01-24 | 1   | 01-30 | 1st |
-| 25-48 | 2   | 31-55 | 2nd |
-| 49-67 | 3  | 56-75 | 3rd |
-| 68-81 | 4   | 76-85 | 4th |
-| 82-91 | 5   | 86-97 | 5th |
-| 92-96 | 6   | 98-00 | 6th |
+| 01-24 | 1   | 01-30 | 1^st^ |
+| 25-48 | 2   | 31-55 | 2^nd^ |
+| 49-67 | 3  | 56-75 | 3^rd^ |
+| 68-81 | 4   | 76-85 | 4^th^ |
+| 82-91 | 5   | 86-97 | 5^th^ |
+| 92-96 | 6   | 98-00 | 6^th^ |
 | 97-00 | 7   |  |  |
 
 **Spell Turning:** This ring reflects spells cast directly at the wearer, but not area effect spells, back at the caster; so a **hold person** spell would be reflected, but not a **fireball**. It will reflect up to 2d6 spells before its power is exhausted.
@@ -984,7 +984,7 @@ day.
 contain a number of spells which can be cast by the
 wearer. Most of them contain Magic-User spells, but 1
 in 10 contains Clerical spells instead. *No device may contain spells of both types*! Each spell stored in the device is cast as if by the lowest-level character who
-could normally cast the spell, but not less than 6th level
+could normally cast the spell, but not less than 6^th^ level
 in any case.
 
 Any class may wear and use this device, but it can only
@@ -1009,12 +1009,12 @@ at the GM's option.
 
 | d%    | no of Spells | d%    | Level of Spell |
 |-------|--------------|-------|----------------|
-| 01-24 | 1            | 01-30 | 1st            |
-| 25-48 | 2            | 31-55 | 2nd            |
-| 49-67 | 3            | 56-75 | 3rd            |
-| 68-81 | 4            | 76-85 | 4th            |
-| 82-91 | 5            | 86-97 | 5th            |
-| 92-96 | 6            | 98-00 | 6th            |
+| 01-24 | 1            | 01-30 | 1^st^            |
+| 25-48 | 2            | 31-55 | 2^nd^            |
+| 49-67 | 3            | 56-75 | 3^rd^            |
+| 68-81 | 4            | 76-85 | 4^th^            |
+| 82-91 | 5            | 86-97 | 5^th^            |
+| 92-96 | 6            | 98-00 | 6^th^            |
 | 97-00 | 7            |       |                |
 
 **Spell Turning**: This device reflects spells cast directly
@@ -1029,7 +1029,7 @@ success when moving silently (as the Thief ability of the
 same name).
 
 **Telekinesis**: The wearer of this device can use the
-power of the spell [telekinesis](allSpells.qmd#telekinesis), as if cast by a 12th level
+power of the spell [telekinesis](allSpells.qmd#telekinesis), as if cast by a 12^th^ level
 Magic-User. The effect may be used as many times per
 day as the wearer wishes, but lasts only as long as the
 wearer concentrates on it.
@@ -1045,7 +1045,7 @@ communication.
 
 **Teleportation**: Upon command the wearer of this item
 may cast the spell [teleportation](allSpells.qmd#teleport) as if by a wizard of the
-12th level of ability. This power can be used up to 3
+12^th^ level of ability. This power can be used up to 3
 times per day.
 
 **True Seeing**: Three times per day this device can grant

@@ -1795,7 +1795,7 @@ Each type of elemental may be summoned to the
 material plane by means of one of three different
 methods:
 
-Conjured by the 5th level Magic-User spell [conjure elemental](allSpells.qmd#conjure-elemental); or,
+Conjured by the 5^th^ level Magic-User spell [conjure elemental](allSpells.qmd#conjure-elemental); or,
 
 Summoned by means of a magical **staff**; or,
 
@@ -2346,7 +2346,7 @@ Lost Constitution can be regained at a rate of one point per casting of **resto
 
 Once per turn, a ghost can use **telekinesis** (as the spell) as if it were a 10^th^ level Magic-User.
 
-Instead of attacking, a ghost may attempt to possess a living creature. This ability is similar to a **magic jar** spell (as if cast by a 10th level Magic-User), except that it does not require a receptacle. To use this ability, the ghost must be able to move into the target (so it is possible to outrun it). The target can resist the attack with a successful save vs. Spells. A creature that successfully saves is immune to being possessed by that ghost for 24 hours. If the save fails, the ghost enters the target's body and controls it; control may be maintained until the ghost chooses to leave the victim's body, or until it is driven out by means of a **remove curse** spell. While it is possessing a living creature, a ghost may not use any of its special abilities.
+Instead of attacking, a ghost may attempt to possess a living creature. This ability is similar to a **magic jar** spell (as if cast by a 10^th^ level Magic-User), except that it does not require a receptacle. To use this ability, the ghost must be able to move into the target (so it is possible to outrun it). The target can resist the attack with a successful save vs. Spells. A creature that successfully saves is immune to being possessed by that ghost for 24 hours. If the save fails, the ghost enters the target's body and controls it; control may be maintained until the ghost chooses to leave the victim's body, or until it is driven out by means of a **remove curse** spell. While it is possessing a living creature, a ghost may not use any of its special abilities.
 
 </div>
 <div class="monster" data-tag="Ghoul" data-tag2="Ghast" >
@@ -2828,7 +2828,7 @@ are less resistant to various effects due to the fact that
 they are not living creatures; in general, golems save as
 if they were Fighters of ½ their hit dice in levels. For
 example, a Bone Golem has 8 hit dice, but saves as a
-Fighter of 4th level.
+Fighter of 4^th^ level.
 
 </div>
 <div class="monster" data-tag="Golem, Amber*" >
@@ -6553,7 +6553,7 @@ An insane zombraire fights to the death in hopes of
 being slain, thus ending its tortured existence.
 
 The given statistics are for a zombraire formed from a
-2nd-level Magic-user; the HD and saving throws of a
+2^nd^-level Magic-user; the HD and saving throws of a
 zombraire are based on the level it had in life. A
 zombraire can cast spells as it did when living, but
 cannot learn new spells.
@@ -6567,7 +6567,7 @@ sleep, charm, and hold spells. A skeletaire never fails
 morale, and thus always fights until destroyed.
 
 The statistics above are for a skeletaire formed from a
-2nd-level Magic-user. A skeletaire will have HD equal
+2^nd^-level Magic-user. A skeletaire will have HD equal
 to the character's level minus 1, and will save as a
 Magic-user of the level equal to its HD. The skeletaire
 cannot speak, but still retains the ability to prepare and

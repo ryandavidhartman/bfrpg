@@ -18,7 +18,7 @@ The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, a
 
 ## Cleric
 
-Clerics have devoted themselves to the service of a [deity](gods.qmd). Additionally, there are twelve demigods and twelve Demon Lords. Clerics of demigods and Demon Lords cannot advance beyond 6th level.
+Clerics have devoted themselves to the service of a [deity](gods.qmd). Additionally, there are twelve demigods and twelve Demon Lords. Clerics of demigods and Demon Lords cannot advance beyond 6^th^ level.
 
 Most Clerics spend their time in mundane forms of service, such as preaching and ministering at a temple. A select few are called to travel away from the temple and serve their deity more directly, smiting undead monsters and aiding in the battle against evil and chaos. Player Clerics are assumed to be among this group.
 
@@ -83,9 +83,9 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 |--------- |---------------------------------------------|
 | 9-11     | No bonus spells                             |
 | 12       | +1 Orison                                   |
-| 13-15    | +1 Orison, +1 1st level spell               |
-| 16-17    | +2 Orisons, +2 1st level spells             |
-| 18       | +3 Orisons, +3 1st level, +1 2nd level spells|
+| 13-15    | +1 Orison, +1 1^st^ level spell               |
+| 16-17    | +2 Orisons, +2 1^st^ level spells             |
+| 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
 
 : Cleric Wisdom Bonus {#tbl-wisdom-clerics}
 
@@ -158,7 +158,7 @@ Note: Evil clerics can choose to command Undead rather than turn them.
 
 Druids are nature priests, revering the gods of the natural world.  Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities.  Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas.  However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.
 
-Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast [spells of divine nature](spells.qmd#druid-spells)  starting at 2nd level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
+Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast [spells of divine nature](spells.qmd#druid-spells)  starting at 2^nd^ level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
 
 The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid.  Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields.  Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
 
@@ -216,9 +216,9 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 |--------- |---------------------------------------------|
 | 9-11     | No bonus spells                             |
 | 12       | +1 Orison                                   |
-| 13-15    | +1 Orison, +1 1st level spell               |
-| 16-17    | +2 Orisons, +2 1st level spells             |
-| 18       | +3 Orisons, +3 1st level, +1 2nd level spells|
+| 13-15    | +1 Orison, +1 1^st^ level spell               |
+| 16-17    | +2 Orisons, +2 1^st^ level spells             |
+| 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
 : Druid Wisdom Bonus {#tbl-wisdom-druids}
 
 | Druid Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
@@ -441,7 +441,7 @@ Once per day, per level, a Paladin can make their non-magical melee weapon or at
 
 #### Lay Hands
 
-Once per day, the paladin can Lay on Hands to any wounded character and heal 2 points of damage; add the Paladin's Charisma bonus to this figure. On each odd-numbered level (3rd, 5th, etc.) the Paladin may do this one additional time per day (so, twice per day at 3rd level, three times per day at 5th level, etc.) Starting at 7th level, the Paladin may choose to cure disease (as the spell) instead of providing healing as above. At 11th level, the Paladin may also [neutralize poison](allSpells.qmd#neutralize-poison).
+Once per day, the paladin can Lay on Hands to any wounded character and heal 2 points of damage; add the Paladin's Charisma bonus to this figure. On each odd-numbered level (3^rd^, 5^th^, etc.) the Paladin may do this one additional time per day (so, twice per day at 3^rd^ level, three times per day at 5^th^ level, etc.) Starting at 7^th^ level, the Paladin may choose to cure disease (as the spell) instead of providing healing as above. At 11^th^ level, the Paladin may also [neutralize poison](allSpells.qmd#neutralize-poison).
 
 #### Divine Magic
 
@@ -449,7 +449,7 @@ Starting at fifth level Paladins gain the ability to case [Cleric Spells](spells
 
 #### Turn Undead
 
-Starting ad 2nd level Paladins may [Turn Undead](combat.qmd#turning-the-undead).
+Starting ad 2^nd^ level Paladins may [Turn Undead](combat.qmd#turning-the-undead).
 
 | Paladin Lvl  | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
 |--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
@@ -549,7 +549,7 @@ A Ranger must declare a chosen enemy. Against this chosen enemy, the Ranger gets
 
 #### Expert Bowmen
 
-Rangers are expert bowmen. When using any regular bow (shortbow or longbow, but not crossbow), a Ranger adds +2 to their Attack Bonus. At 5th level, a Ranger may fire three arrows every two rounds (a 3/2 rate of fire). This means one attack on every odd round and two attacks on every even round. At 9th level, the Ranger may fire two arrows every round, with the second attack coming at the end of the round.
+Rangers are expert bowmen. When using any regular bow (shortbow or longbow, but not crossbow), a Ranger adds +2 to their Attack Bonus. At 5^th^ level, a Ranger may fire three arrows every two rounds (a 3/2 rate of fire). This means one attack on every odd round and two attacks on every even round. At 9^th^ level, the Ranger may fire two arrows every round, with the second attack coming at the end of the round.
 
 #### Wilderness Expertise
 
@@ -659,31 +659,34 @@ Thieves fight better than Magic-Users but not as well as Fighters. Avoidance of 
 
 The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity score of 9 or higher to become a Thief. They may use any weapon, but may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however.
 
-Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the GM may amend this as he or she sees fit. The GM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the GM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the GM might apply a penalty of 20% for the slimy wall.
+| Level | Exp. Points | Hit Dice | Attack<BR>Bonus | Skill<BR>Points | Feats | Weapon<BR>Proficiency |
+|-------|-------------|----------|--------------|--------------|-------|--------------------|
+| 1     | 0           | 1d6      | +1           | 3            |       | 3                  |
+| 2     | 1,250       | 2d6      | +1           | 1            | 1     |                    |
+| 3     | 2,500       | 3d6      | +2           | 1            |       |                    |
+| 4     | 5,000       | 4d6      | +2           | 1            | 1     | 1                  |
+| 5     | 10,000      | 5d6      | +3           | 1            |       |                    |
+| 6     | 20,000      | 6d6      | +3           | 1            | 1     |                    |
+| 7     | 40,000      | 7d6      | +4           | 1            |       | 1                  |
+| 8     | 75,000      | 8d6      | +4           | 1            | 1     |                    |
+| 9     | 150,000     | 9d6      | +5           | 1            |       |                    |
+| 10    | 225,000     | 9d6+2    | +5           | 1            | 1     | 1                  |
+| 11    | 300,000     | 9d6+4    | +5           | 1            |       |                    |
+| 12    | 375,000     | 9d6+6    | +6           | 1            | 1     |                    |
+| 13    | 450,000     | 9d6+8    | +6           | 1            |       | 1                  |
+| 14    | 525,000     | 9d6+10   | +6           | 1            | 1     |                    |
+| 15    | 600,000     | 9d6+12   | +7           | 1            |       |                    |
+| 16    | 675,000     | 9d6+14   | +7           | 1            | 1     | 1                  |
+| 17    | 750,000     | 9d6+16   | +7           | 1            |       |                    |
+| 18    | 825,000     | 9d6+18   | +8           | 1            | 1     |                    |
+| 19    | 900,000     | 9d6+20   | +8           | 1            |       | 1                  |
+| 20    | 975,000     | 9d6+22   | +8           | 1            | 1     |                    |
+: Thief XP Progression {#tbl-xp-thieves}
 
-| Level | Exp. Points | Hit Dice |AB       |
-|--|-----|--|---------|
-| 1 | 0 | 1d4 |+1       |
-| 2 | 1,250 | 2d4 |+1       |
-| 3 | 2,500 | 3d4 |+2       |
-| 4 | 5,000 | 4d4 |+2       |
-| 5 | 10,000 | 5d4 |+3       |
-| 6 | 20,000 | 6d4 |+3       |
-| 7 | 40,000 | 7d4 |+4       |
-| 8 | 75,000 | 8d4 |+4       |
-| 9 | 150,000 | 9d4 |+5       |
-| 10 | 225,000 | 9d4+2 |+5       |
-| 11 | 300,000 | 9d4+4 |+5       |
-| 12 | 375,000 | 9d4+6 |+6       |
-| 13 | 450,000 | 9d4+8 |+6       |
-| 14 | 525,000 | 9d4+10 |+6       |
-| 15 | 600,000 | 9d4+12 |+7       |
-| 16 | 675,000 | 9d4+14 |+7       |
-| 17 | 750,000 | 9d4+16 |+7       |
-| 18 | 825,000 | 9d4+18 |+8      |
-| 19 | 900,000 | 9d4+20 |+8      |
-| 20 | 975,000 | 9d4+22 |+8      |
-
+| Theif Level   | 1 | 2 | 4 | 6 | 8 | 10 | 14 |
+|---------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
+| Rank/Title    | Footpad<br>Initiate  | Rogue | Journeyman<BR>Thief | Burglar | Magsman | Veteran<BR>Thief | Master<BR>Thief |
+: Thief Titles {#tbl-titles-thieves}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|
@@ -698,51 +701,106 @@ Thieves have a number of special abilities, described below. One Turn must gener
 | **16-17** | 7 | 9 | 9 | 8 | 9 |
 | **18-19** | 7 | 9 | 8 | 7 | 9 |
 | **20** | 6 | 8 | 8 | 6 | 8 |
-
 : Thief Saving Throws {#tbl-save-thief}
 
 ### Thief Abilities
 
-| Thief Level | Open Locks | Remove Traps | Pick Pockets | Move Silently | Climb Walls | Hide | Listen |
-|---|----|----|----|----|----|----|----|
-| 1 | 25 | 20 | 30 | 25 | 80 | 10 | 30 |
-| 2 | 30 | 25 | 35 | 30 | 81 | 15 | 34 |
-| 3 | 35 | 30 | 40 | 35 | 82 | 20 | 38 |
-| 4 | 40 | 35 | 45 | 40 | 83 | 25 | 42 |
-| 5 | 45 | 40 | 50 | 45 | 84 | 30 | 46 |
-| 6 | 50 | 45 | 55 | 50 | 85 | 35 | 50 |
-| 7 | 55 | 50 | 60 | 55 | 86 | 40 | 54 |
-| 8 | 60 | 55 | 65 | 60 | 87 | 45 | 58 |
-| 9 | 65 | 60 | 70 | 65 | 88 | 50 | 62 |
-| 10 | 68 | 63 | 74 | 68 | 89 | 53 | 65 |
-| 11 | 71 | 66 | 78 | 71 | 90 | 56 | 68 |
-| 12 | 74 | 69 | 82 | 74 | 91 | 59 | 71 |
-| 13 | 77 | 72 | 86 | 77 | 92 | 62 | 74 |
-| 14 | 80 | 75 | 90 | 80 | 93 | 65 | 77 |
-| 15 | 83 | 78 | 94 | 83 | 94 | 68 | 80 |
-| 16 | 84 | 79 | 95 | 85 | 95 | 69 | 83 |
-| 17 | 85 | 80 | 96 | 87 | 96 | 70 | 86 |
-| 18 | 86 | 81 | 97 | 89 | 97 | 71 | 89 |
-| 19 | 87 | 82 | 98 | 91 | 98 | 72 | 92 |
-| 20 | 88 | 83 | 99 | 93 | 99 | 73 | 95 |
+Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the GM may amend this as he or she sees fit. The GM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the GM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the GM might apply a penalty of -1 for the slimy wall.
 
-**Open Locks** allows the Thief to unlock a lock without a proper key. It may only be tried once per lock. If the attempt fails, the Thief must wait until he or she has gained another level of experience before trying again.
+| Thief Level | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear  Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
+|----|----|----|----|----|----|----|----|----|----|
+| 1  | 16 | 17 | 15 | 16 | 5 | 18 | 15 | 19 | No |
+| 2  | 15 | 16 | 14 | 15 | 5 | 17 | 14 | 7  | No |
+| 3  | 14 | 15 | 13 | 14 | 5 | 16 | 13 | 6  | No |
+| 4  | 13 | 14 | 12 | 13 | 4 | 15 | 13 | 6  | 10 |
+| 5  | 12 | 13 | 11 | 12 | 4 | 14 | 12 | 6  | 9  |
+| 6  | 11 | 12 | 10 | 11 | 4 | 13 | 11 | 6  | 8  |
+| 7  | 10 | 11 | 9  | 10 | 4 | 12 | 10 | 6  | 7  |
+| 8  | 9  | 10 | 8  | 9  | 4 | 11 | 9  | 6  | 6  |
+| 9  | 8  | 9  | 7  | 8  | 3 | 10 | 9  | 5  | 5  |
+| 10 | 8  | 8  | 6  | 8  | 3 | 8  | 8  | 5  | 4  |
+| 11 | 7  | 7  | 6  | 7  | 3 | 7  | 8  | 5  | 4  |
+| 12 | 7  | 7  | 5  | 6  | 3 | 6  | 7  | 5  | 4  |
+| 13 | 6  | 7  | 4  | 5  | 3 | 5  | 6  | 4  | 4  |
+| 14 | 5  | 6  | 3  | 5  | 3 | 5  | 6  | 4  | 4  |
+| 15 | 4  | 5  | 3  | 4  | 3 | 5  | 5  | 4  | 4  |
+| 16 | 4  | 5  | 2  | 4  | 2 | 4  | 5  | 4  | 4  |
+| 17 | 4  | 5  | 2  | 3  | 2 | 4  | 4  | 4  | 3  |
+| 18 | 3  | 5  | 2  | 3  | 2 | 4  | 3  | 4  | 3  |
+| 19 | 3  | 5  | 2  | 2  | 1 | 3  | 3  | 4  | 2  |
+| 20 | 3  | 4  | 2  | 2  | 1 | 3  | 2  | 4  | 2  |
+: Thief Abilities {#tbl-abilities-thief}
 
-**Remove Traps** is generally rolled twice: first to detect the trap, and second to disarm it. The GM will make these rolls as the player won't know for sure if the character is successful or not until someone actually tests the trapped (or suspected) area.
+**Ability Bonus or Penalty Adjustments**
 
-**Pick Pockets** allows the Thief to lift the wallet, cut the purse, etc. of a victim without the victim noticing. Obviously, if the roll is failed, the Thief didn't get what he or she wanted; but further, the intended victim (or an onlooker, at the GM's option) will notice the attempt if the die roll is more than two times the target number (or if the die roll is 00).
+Each Thief ability is governed by an ability score and affected by the ability score modifier. Abilities are further adjusted by race and armor.
 
-**Move Silently**, like Remove Traps, is always rolled by the GM. The Thief will usually believe he or she is moving silently regardless of the die roll, but those he or she is trying to avoid will hear the Thief if the roll is failed.
+**Effects of Race**
 
-**Climb Walls** permits the Thief to climb sheer surfaces with few or no visible handholds. This ability should normally be rolled by the player. If the roll fails, the Thief falls from about halfway up the wall or other vertical surface. The GM may require multiple rolls if the distance climbed is more than 100 feet. See [Falling Damage](combat.qmd#falling-damage).
+| Race | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear  Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
+|----|----|----|----|----|----|----|----|----|----|
+| Human    | –  | –  | –  | –  | –  | –  | –  | –  | –  |
+| Dwarf    | +1 | +1 | –  | –  | -2 | –  | +1 | –  | -2 |
+| Elf      | -1 | -1 | –  | +1 | –  | +1 | +1 | +1 | +1 |
+| Half-Elf | –  | –  | –  | +1 | –  | –  | +1 | –  | –  |
+| Halfling | –  | –  | +1 | +1 | -3 | +1 | –  | –  | –  |
+: Thief Abilities Race Modifier {#tbl-abilities-race-thief}
 
-**Hide** permits the Thief to hide in any shadowed area large enough to contain his or her body. Like Move Silently, the Thief always believes he or she is being successful, so the GM makes the roll. A Thief hiding in shadows must remain still for this ability to work.
+**Effects of Armor**
 
-**Listen** is generally used to listen at a door, or to try to listen for distant sounds in a dungeon. The GM must decide what noises the Thief might hear; a successful roll means only that a noise *could* have been heard. The GM should always make this roll for the player. Note that the Thief and his or her party must try to be quiet in order for the Thief to use this ability.
+| Armor    | Penality |
+|----------|----------|
+| Plate    | -8       |
+| Chain    | -4       |
+| Shield   | -2       |
+| No Armor | +2 bonus |
+: Thief Abilities Armor Modifier {#tbl-abilities-armor-thief}
 
-Finally, Thieves can perform a **Sneak Attack** any time they are behind an opponent in melee and it is reasonably likely the opponent doesn't know the Thief is there. The GM may require a Move Silently or Hide roll to determine this. The Sneak Attack is made with a +4 attack bonus and does double damage if it is successful. A Thief usually can't make a Sneak Attack on the same opponent twice in any given combat.
+#### Open Locks
+
+Open Locks allows the Thief to unlock a lock without a proper key. It may only be tried once per lock. If the attempt fails, the Thief must wait until he or she has gained another level of experience before trying again.
+
+#### Find/Remove Traps
+
+Remove Traps is generally rolled twice: first to detect the trap, and second to disarm it. The GM will make these rolls as the player won't know for sure if the character is successful or not until someone actually tests the trapped (or suspected) area.
+
+#### Pick Pockets
+
+Pick Pockets allows the Thief to lift the wallet, cut the purse, etc. of a victim without the victim noticing. Obviously, if the roll is failed, the Thief didn't get what he or she wanted; but further, the intended victim (or an onlooker, at the GM's option) will notice the attempt if the die roll is more than two times the target number (or if the die roll is 00).
+
+#### Move Silently
+
+Move Silently, like Remove Traps, is always rolled by the GM. The Thief will usually believe he or she is moving silently regardless of the die roll, but those he or she is trying to avoid will hear the Thief if the roll is failed.
+
+#### Climb Walls
+
+Climb Walls permits the Thief to climb sheer surfaces with few or no visible handholds. This ability should normally be rolled by the player. If the roll fails, the Thief falls from about halfway up the wall or other vertical surface. The GM may require multiple rolls if the distance climbed is more than 100 feet. See [Falling Damage](combat.qmd#falling-damage).
+
+#### Hide in Shadows
+
+Hide permits the Thief to hide in any shadowed area large enough to contain his or her body. Like Move Silently, the Thief always believes he or she is being successful, so the GM makes the roll. A Thief hiding in shadows must remain still for this ability to work.
+
+#### Listen
+
+Listen is generally used to listen at a door, or to try to listen for distant sounds in a dungeon. The GM must decide what noises the Thief might hear; a successful roll means only that a noise *could* have been heard. The GM should always make this roll for the player. Note that the Thief and his or her party must try to be quiet in order for the Thief to use this ability.
+
+#### Read Language
+
+Starting at 2^nd^ level, thieves have the special ability to decipher written text in a language that they do not speak. They can decipher writing in an unfamiliar language, or a message written in an incomplete or archaic form. This includes intricate, exotic, or very old writing.
+
+If the check succeeds, the character understands the general content of a piece of writing about one page long (or the equivalent). If the check fails, another check should be made to see if the character avoids drawing a false conclusion about the text (success means that the character does not draw a false conclusion; failure means that the character does).
+
+#### Use Arcane Scroll
+
+Starting at 4^th^ level, thieves have a chance to decipher magical writings and utilize arcane scrolls.
+
+#### Sneak Attack
+
+Finally, Thieves can perform a Sneak Attack any time they are behind an opponent in melee and it is reasonably likely the opponent doesn't know the Thief is there. The GM may require a Move Silently or Hide roll to determine this. The Sneak Attack is made with a **+4 attack bonus** and does **double damage** if it is successful. A Thief usually can't make a Sneak Attack on the same opponent twice in any given combat.
 
 The Sneak Attack can be performed with any melee (but not missile) weapon, or may be performed bare-handed (in which case [subduing damage](combat.qmd#subduing-damage) is done). Also, the Sneak Attack can be performed with the "flat of the blade;" the bonuses and penalties cancel out, so the attack has a +0 attack bonus and does normal damage; the damage done in this case is subduing damage.
+
+At 7^th^ level, Thieves get **triple** Sneak Attack damage.
 
 ## Combination Classes
 

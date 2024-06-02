@@ -198,7 +198,7 @@ On the table following, the alignments of the various creatures are abbreviated.
 
 ### Basic Fantasy Monster Alignments
 
-Note: This is not up to date with the 4th edition. 
+Note: This is not up to date with the 4^th^ edition. 
 
 <div style="max-height:400px; overflow-y:auto;column-count:3">
 
@@ -838,7 +838,7 @@ Any additional skills from a character's background are considered secondary ski
 
 ### The Skill Check Mechanic
 
-All of the character's skills start at level 1 and use the target number on the ability roll chart. When the player performs a skill action he or she rolls the d20, modified by the ability score of the skill. The roll must be greater than or equal to the target number on the Ability Rolls chart in the Optional Rules section of the **Basic Fantasy RPG Core Rules**. Every level after 1st, the character gets 3 skill level points that he or she can apply to any skill or skills as sees fit, so long as the skill level does not exceed his or her character level.
+All of the character's skills start at level 1 and use the target number on the ability roll chart. When the player performs a skill action he or she rolls the d20, modified by the ability score of the skill. The roll must be greater than or equal to the target number on the Ability Rolls chart in the Optional Rules section of the **Basic Fantasy RPG Core Rules**. Every level after 1^st^, the character gets 3 skill level points that he or she can apply to any skill or skills as sees fit, so long as the skill level does not exceed his or her character level.
 
 If the character has a background or additional knowledge in a skill (like the son or daughter of a blacksmith), then that character receives a +1 bonus on skills that deal with the additional knowledge. The player and the GM should consider this option together.
 
@@ -1020,7 +1020,7 @@ The character is knowledgeable of events in their home town or city. An evening'
 You can land softly when you fall. You can also tumble to entertain an audience (as though using the Perform skill). Treat a fall as if it were 10 feet shorter than it really is when determining damage upon a successful skill check.
 
 ### Optional Skill Rules
-A character may take a skill not normally allowed to his or her class; however, the cost of the skill is three skill points. For example, a 1st level fighter takes the Escape Artist skill. It costs 3 skill level points and the character may not select another skill until he or she reaches second level. The target number is still 17 for these skills.
+A character may take a skill not normally allowed to his or her class; however, the cost of the skill is three skill points. For example, a 1^st^ level fighter takes the Escape Artist skill. It costs 3 skill level points and the character may not select another skill until he or she reaches second level. The target number is still 17 for these skills.
 
 Skill points per level are equal to the character's Charisma bonus with a minimum of one point per level.
 
