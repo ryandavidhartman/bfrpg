@@ -736,6 +736,50 @@
     ]
   },
   {
+    "objectID": "feats.html",
+    "href": "feats.html",
+    "title": "7  Feats",
+    "section": "",
+    "text": "Attack Feats",
+    "crumbs": [
+      "Player Characters",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Feats</span>"
+    ]
+  },
+  {
+    "objectID": "feats.html#attack-feats",
+    "href": "feats.html#attack-feats",
+    "title": "7  Feats",
+    "section": "",
+    "text": "Arcane Bolt, Greater (Magic User only)\nThis improves the Magic-User Arcane Bolt. Target gets a save vs. magic for half damage. The bolt has a range of 40 feet and does 1d6 damage. Since it is pure magic, it will affect creatures that are only affected by magical weapons. The spell does not affect inanimate objects.\n\n\nArmed Caster (Magic-User only)\nThe Magic-User can learn a single additional weapon proficiency. Must be 5th level or higher to take this feat.\n\n\nBattle Cry (Minimum Cha 12)\nOnce during an encounter, the character can inspire all members within a 20-foot radius to gain a +1 to both their next attack and a +1 to damage.\n\n\nBlind Fighting\nThe character can fight while blind or in total darkness with a -2 penalty to its attack rolls, a -2 penalty to its Armor Class, and a -1 penalty to its Initiative rolls.\n\n\nBlind Fighting, Improved (Blind Fighting required)\nThe character can fight while blind or in total darkness with a -1 penalty to its attack rolls, a -1 penalty to its Armor Class, and no penalty to its Initiative rolls.\n\n\nCombat Casting (Magic-User or Cleric Only)\nIf damaged while casting a spell, the character is allowed a saving throw vs. spells +1 to avoid having the spell disrupted and lost.\n\n\nCleave (Fighter only)\nUpon successfully dispatching an enemy with a melee attack, the character gets an immediate attack against another adversary within reach.\n\n\nBrawling, Improved\nCharacters that are skilled in Hand-to-Hand can use either Dex or Str bonuses. The character does +1 to hit, 1d4 +1 (+Str or Dex) of subduing damage with a punch, 1d6 with a kick; kicks are rolled at a -1 attack penalty. On a successful critical hit, the opponent must save versus Death or be knocked out.\n\n\nFocused Attack (Fighter only)\nThe character can take a penalty of -1 to damage inflicted in exchange for a bonus of +2 to hit.\n\n\nGrenadier\nThe character has a knack for hurled items such as flaming flasks of oil, acid, holy water, etc., and gains +1 to hit and damage with such items, as well as twice the normal throwing range.\n\n\nImproved Critical\nAfter the character scores a critical hit on a natural roll of 20, the subsequent d20 roll to determine a special is at an additional +2.\n\n\nImproved Initiative\nThe character receives a bonus of +1 to individual initiative checks.\n\n\nLast Hurrah\nOnce per battle, if the character is brought to zero or less hit points, the character can still do one action before falling unconscious or dying at +4 chance to hit and damage. This includes spells or attacks within reach.\n\n\nMounted Combat\nRequires riding skill. The character receives a +1 bonus to melee attacks made while mounted.\n\n\nMounted Archery\nRequires riding skill. The character receives no penalty to ranged attacks made while mounted.\n\n\nPoint Blank Shot\nThe character receives an additional bonus of +1 to attacks and damage against targets within thirty feet range.\n\n\nPower Attack (Fighter only)\nThe character can take a penalty of -1 to melee attacks in exchange for a bonus of +2 to damage.\n\n\nPrecise Shot\nThe character can fire into melee combat without risk of hitting an ally.\n\n\nQuick Draw\nThe character can pull a weapon or change weapons before initiative is rolled without penalty.\n\n\nRapid Reload\nThe character can reload crossbows and other mechanical ranged weapons at twice the normal rate.\n\n\nShield Bash\nThe character, if equipped with a shield, can elect to forgo the armor class benefit (must state the intention to do so before initiative is checked) in exchange for gaining a second attack at +1 to hit for 1d4 points of damage (plus any strength bonus).\n\n\nTwo-weapon style (Dex 13)\n-1 to attack with the primary weapon and -3 to attack with the secondary weapon\n\n\nTwo-weapon style, Improved (Dex 13, Two-weapon style prerequisite)\n-0 to attack with the primary weapon and -1 to attack with the secondary weapon\n\n\nUndead Bane (Cleric and Paladins only)\n+1 to Turn Undead and receive a +1 to the 2D6 affected roll.\n\n\nWeapon Finesse\nA character may use the Dex bonus, rather than Str bonus, when fighting with light melee weapons.",
+    "crumbs": [
+      "Player Characters",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Feats</span>"
+    ]
+  },
+  {
+    "objectID": "feats.html#defense-feats",
+    "href": "feats.html#defense-feats",
+    "title": "7  Feats",
+    "section": "Defense Feats",
+    "text": "Defense Feats\n\nAlcohol Resistance (Minimum Con 15)\nThe character possesses an almost supernatural ability drink large amounts of alcohol before succumbing to its effects. This feat gives a +2 inherent bonus on saves against drunkenness.\n\n\nArmored Caster (Magic-User only)\nThe Magic-User can wear studded leather armor and cast spells. Must be 5th level or higher to take this feat.\n\n\nCombat Expertise\nWhile in melee combat, the character is allowed to take a penalty of -1 to melee attacks in exchange for a bonus of +1 to armor class.\n\n\nCombat Expertise, Improved\nMust have Combat Expertise to take this feat and can increase the armor class bonus to +2 (while still suffering only a penalty of -1 to attacks).\n\n\nParry and Dodge, Improved\nImproved Parry and Dodge is a Defensive action instead of an attack that gives a +3 bonus to AC.\n\n\nEndurance\nThe character is unusually hardy, and can heal 2 hit points per day, as well as being able to subsist on just half the daily food and water of a normal person for as long as a month.\n\n\nGreat Fortitude\nThe character receives a bonus of +1 to saves against poisons and diseases.\n\n\nIron Will\nThe character receives a bonus of +1 to saving throws against charms and compulsions.\n\n\nTwo-weapon Defense\nA character with the Two-weapon Defense feat receives a bonus of +1 to armor class when wielding two weapons.\n\n\nZen\nThe character is a master of control and receives a +1 to any saves that deal with the character’s mind. EX: charm, confusion, deceptions, seduction, or pain.",
+    "crumbs": [
+      "Player Characters",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Feats</span>"
+    ]
+  },
+  {
+    "objectID": "feats.html#roleplaying-feats",
+    "href": "feats.html#roleplaying-feats",
+    "title": "7  Feats",
+    "section": "Roleplaying Feats",
+    "text": "Roleplaying Feats\n\nAccomplished (minimum Cha 15)\nThis feat adds two extra ranks to the Perform",
+    "crumbs": [
+      "Player Characters",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Feats</span>"
+    ]
+  },
+  {
     "objectID": "equipment.html",
     "href": "equipment.html",
     "title": "8  Equipment",
