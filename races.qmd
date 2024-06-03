@@ -4,13 +4,13 @@
 
 The allowed PC character races in OnceWas are Human, Dwarf, Elf, Half-Elf, or Halfling. Human is preferred for this campaign. In the world of OnceWas, 80% of the humanoid population is human, 5% are dwarves, 1.5% are halflings, 1% are elves, 0.5% are half-elves, and 12% are other races such as Orcs, Goblins, etc.  It's important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.
 
-| Race | Min Score | Max Score | Classes |
-|--------- |------ | ------ | ------------------------- |
-| Dwarf    | CON 9 | CHA 17 | Cleric, Fighter, or Thief |
-| Elf      | INT 9 | CON 17 | Any except Paladin|
-| Half-Elf | INT 9 | CON 17 | Any |
-| Halfling | DEX 9 | STR 17 | Cleric, Fighter, Ranger or Thief |
-| Human    | None  | None   | Any |
+| Race     | Min Score       | Max Score         | Classes                          |
+|--------- |---------------- | ----------------- | -------------------------------- |
+| Dwarf    | Constitution  9 | Charisma 17       | Cleric, Fighter, or Thief        |
+| Elf      | Intelligence 9  | Constitution 17   | Any except Paladin               |
+| Half-Elf | Intelligence 9  | Constitution 17   | Any                              |
+| Halfling | Dexterity 9     | Strength 17       | Cleric, Fighter, Ranger or Thief |
+| Human    | None            | None              | Any                              |
 
 : Racial Requirements {#tbl-racial-requirements}
 

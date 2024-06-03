@@ -113,7 +113,7 @@
     "href": "races.html#demography-of-oncewas",
     "title": "4  Character Races",
     "section": "",
-    "text": "Table 4.1: Racial Requirements\n\n\n\n\n\nRace\nMin Score\nMax Score\nClasses\n\n\n\n\nDwarf\nCON 9\nCHA 17\nCleric, Fighter, or Thief\n\n\nElf\nINT 9\nCON 17\nAny except Paladin\n\n\nHalf-Elf\nINT 9\nCON 17\nAny\n\n\nHalfling\nDEX 9\nSTR 17\nCleric, Fighter, Ranger or Thief\n\n\nHuman\nNone\nNone\nAny",
+    "text": "Table 4.1: Racial Requirements\n\n\n\n\n\n\n\n\n\n\n\nRace\nMin Score\nMax Score\nClasses\n\n\n\n\nDwarf\nConstitution 9\nCharisma 17\nCleric, Fighter, or Thief\n\n\nElf\nIntelligence 9\nConstitution 17\nAny except Paladin\n\n\nHalf-Elf\nIntelligence 9\nConstitution 17\nAny\n\n\nHalfling\nDexterity 9\nStrength 17\nCleric, Fighter, Ranger or Thief\n\n\nHuman\nNone\nNone\nAny",
     "crumbs": [
       "Player Characters",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Character Races</span>"

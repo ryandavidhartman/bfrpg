@@ -5,14 +5,14 @@ The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, a
 
 | Class | Minimum Scores |
 |-- |-- |
-| Cleric or Druid | WIS 9 |
-| Figther | STR 9 |
-| Ranger | STR 9, WIS 11, DEX 11 |
-| Paladin | STR 9, WIS 11, CHA 11 |
-| Magic-User | INT 9 |
-| Thief | DEX 9 |
-| Fighter/Magic-User | STR 9, INT 9 |
-| Magic-User/Thief | INT 9, DEX 9 |
+| Cleric or Druid | Wisdom 9 |
+| Figther | Strength 9 |
+| Ranger | Strength 9, Wisdom 11, Dexterity 11 |
+| Paladin | Strength 9, Wisdom 11, Charisma 11 |
+| Magic-User | Intelligence 9 |
+| Thief | Dexterity 9 |
+| Fighter/Magic-User | Strength 9, Intelligence 9 |
+| Magic-User/Thief | Intelligence 9, Dexterity 9 |
 
 : Class Prime Requisites {#tbl-prime-requisites}
 
