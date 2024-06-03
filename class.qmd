@@ -29,6 +29,7 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 
 ![](images/cleric.jpg)
 
+::: {.column-screen-inset-right}
 
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 |       |             |          |         |          |          |   |   |  Spell Level  |   |   |                |
@@ -76,7 +77,6 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 | 20    | 1,170,000   | 9d8+11   | +8      | 1        | 1        | 9 | 6 | 5 | 4 | 4 | 3 | 3 | 3 |                |
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
-
 : Cleric XP Progression {#tbl-xp-clerics}
 
 | Wisdom   | Spell Bonus                                 |
@@ -86,15 +86,13 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 | 13-15    | +1 Orison, +1 1^st^ level spell               |
 | 16-17    | +2 Orisons, +2 1^st^ level spells             |
 | 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
-
 : Cleric Wisdom Bonus {#tbl-wisdom-clerics}
+
 
 | Cleric Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
 |------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
 | Rank/Title   | Acolyte | Adept | Priest | Vicar | Curate | High Priest | Bishop | Archbishop/Patriarch |
-
 : Cleric Titles {#tbl-titles-clerics}
-
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|
@@ -109,8 +107,9 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 | **16-17** | 6 | 7 | 10 | 12 | 11 |
 | **18-19** | 6 | 7 | 9 | 11 | 10 |
 | **20** | 5 | 6 | 9 | 11 | 10 |
-
 : Cleric Saving Throws {#tbl-save-clerics}
+
+:::
 
 ### Turning the Undead
 
@@ -128,6 +127,7 @@ Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of t
 
 Note: Evil clerics can choose to command Undead rather than turn them.
 
+::: {.column-screen-inset-right}
 
 | Cleric Lvl | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
 |--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
@@ -154,6 +154,8 @@ Note: Evil clerics can choose to command Undead rather than turn them.
 | 20           | D        | D      | D     | D     | D      | T     | T       | 3       | 7     |
 : Turn Undead Table DC + Wisdom Bonus {#tbl-turn-clerics}
 
+:::
+
 ## Druids
 
 Druids are nature priests, revering the gods of the natural world.  Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities.  Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas.  However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.
@@ -163,6 +165,8 @@ Druids advance at the same rate as Clerics, and they use the same combat and sav
 The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid.  Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields.  Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
 
 ![](images/druid.jpg)
+
+::: {.column-screen-inset-right}
 
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 |       |             |          |         |          |          |   |   |  Spell Level  |   |   |                |
@@ -241,6 +245,8 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 | **20**    | 8  | 6  | 5  | 11 | 8 |
 : Druid Saving Throws {#tbl-save-druids}
 
+:::
+
 ### Animal Affinity
 
 Druids can calm or befriend animals. The Druid rolls a d20 and adds their Wisdom Bonus. Cross-reference the Druid's level with the animal's hit dice on the Druids Animal Affinity Table. The number shown is the minimum needed to Calm that sort of animal. 
@@ -256,6 +262,8 @@ If a Druid succeeds at Calming or Befriending some of the animals, but not all a
 Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the GM should roll a [reaction roll](combat.qmd#tbl-monsterReactions) with any result below "uncertain" meaning the animals flee. 
 If the result on the table results in automatically befriending the animals, the GM should treat the animals as if a “Friendly,” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. 
 However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The GM may [check morale](combat.qmd#morale) as necessary when the situation seems appropriate.
+
+::: {.column-screen-inset-right}
 
 | Druid Lvl | < 1 HD | 1 HD | 2 HD | 3 HD | 4 HD | 5 HD | 6 HD | 7 HD | 8 HD | 9 HD | 10 HD | 
 |-----------|--------|------|------|------|------|------|------|------|------|------|-------|
@@ -281,6 +289,8 @@ However, it will not fight to the death or sacrifice itself indiscriminately. Wh
 | 20        | B      | B    | B    | B    | B    | B    | C    | C    | 3    | 7    | 11   |
 : Druid Animal Affinity {#tbl-animal-druids}
 
+:::
+
 ## Fighter
 
 Fighters include soldiers, town guardsmen, barbarian warriors, and anyone else for whom fighting is a way of life. They train in combat, and they generally approach problems head on, weapon drawn. Not surprisingly, Fighters are the best at fighting of all the classes. They are also the hardiest, able to take more punishment than any other class.
@@ -288,6 +298,8 @@ Fighters include soldiers, town guardsmen, barbarian warriors, and anyone else f
 The Prime Requisite for Fighters is Strength; a character must have a Strength score of 9 or higher to become a Fighter. Members of this class may wear any armor and use any weapon.
 
 ![](images/fighter.jpg)
+
+::: {.column-screen-inset-right}
 
 | Level | Exp. Points | Hit Dice   | Attack Bonus | Attacks/<BR>Round | Weapon Specialization | Skill points | Feats | Weapon Proficiency |
 |-------|--------------|------------|--------------|-------------------|-----------------------|--------------|-------|--------------------|
@@ -313,7 +325,6 @@ The Prime Requisite for Fighters is Strength; a character must have a Strength s
 | 20    | 1,560,000    | 9d10+22    | +10          | 3/1               | +3/+3                 | 1            | 1     |                    |
 : Fighter XP Progression {#tbl-xp-fighters}
 
-
 | Strength | Fighting Bonus       |
 |----------|----------------------|
 | 9-12     | +0 to hit, +0 damage |
@@ -338,6 +349,8 @@ The Prime Requisite for Fighters is Strength; a character must have a Strength s
 | **20** | 5 | 6 | 8 | 9 | 10 |
 : Fighter Saving Throws {#tbl-save-fighter}
 
+:::
+
 ### Weapon Specialization
 
 A Fighter chooses one weapon in which the character is especially skilled. This choice must be specific; for instance, a specialization in the longsword will give no bonuses when using a shortsword. The weapon specialization confers additional to hit and damage bonuses as the fighter progresses in rank.
@@ -351,6 +364,8 @@ Paladins are the epitome of honor, courage, and righteousness, standing as beaco
 A character must a minimum Strength score of 9, a Wisdom score of 11, and a Charisma score of 11 to be a Paladin. Paladins must be human or half-even. They may use any weapon and may wear any armor or shield.
 
 Paladins have the same attack bonus and saving throws as Fighters of the same level. They should be treated as Fighters for all purposes except they may not specialize.
+
+::: {.column-screen-inset-right}
 
 +-------+-------------+----------+---------+------------+----------+----------+---+---+---+---+--------------+
 |       |             |          |         |            |          |          |   Spell Level |              |
@@ -423,6 +438,8 @@ Note starting at level 11 a Paladin may Lay Hands or Neutralize Poison the speci
 | **20** | 5 | 6 | 8 | 9 | 10 |
 : Paladin Saving Throws {#tbl-save-paladin}
 
+:::
+
 Note Paladins save as a Fighter of the same level.
 
 ### Paladin Abilities
@@ -451,6 +468,8 @@ Starting at fifth level Paladins gain the ability to case [Cleric Spells](spells
 
 Starting ad 2^nd^ level Paladins may [Turn Undead](combat.qmd#turning-the-undead).
 
+::: {.column-screen-inset-right}
+
 | Paladin Lvl  | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
 |--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
 |              | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
@@ -476,6 +495,7 @@ Starting ad 2^nd^ level Paladins may [Turn Undead](combat.qmd#turning-the-undead
 | 20           | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
 : Turn Undead Table DC + Wisdom Bonus {#tbl-turn-clerics}
 
+:::
 
 ### Paladin Restrictions
 
@@ -495,6 +515,8 @@ Rangers roam the borderlands, where their mission is to keep the beasts and mons
 Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger, a character must have a Strength score of 9 or higher, Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may use any weapon and may wear any armor, but some of the Ranger’s special talents and abilities are unavailable when wearing armor heavier than leather armor.
 
 ![](images/ranger.jpg)
+
+::: {.column-screen-inset-right}
 
 | Level | Exp. Points | Hit Dice | Attack Bonus | Arrows<br>Fired/Rd | Skill<br>Points | Feats | Weapon<br>Proficiency |
 |-------|-------------|----------|--------------|-----|---|---|---|
@@ -541,6 +563,8 @@ Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger,
 | 20    | 5                   | 6           | 8                    | 9             | 10     |
 : Ranger Saving Throws {#tbl-save-ranger}
 
+:::
+
 ### Ranger Abilities
 
 #### Chosen Enemy
@@ -554,6 +578,8 @@ Rangers are expert bowmen. When using any regular bow (shortbow or longbow, but 
 #### Wilderness Expertise
 
 Rangers can Move Silently, Hide, and Track when in wilderness areas, at percentages given in the table below. Apply a -2 penalty when attempting these abilities in urban areas. Move Silently and Hide may not be used in armor heavier than leather.
+
+::: {.column-screen-inset-right}
 
 | Level | Move Silently (%) | Hide (%) | Track (%) |
 |-------|-------------------|----------|-----------|
@@ -574,64 +600,83 @@ Rangers can Move Silently, Hide, and Track when in wilderness areas, at percenta
 | 15    | 90                | 90       | 100       |
 : Ranger Wilderness Expertise {#tbl-ranger-special-abilities}
 
+:::
 
 ## Magic User
 
-![](images/magic_user.jpg)
-
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-|       |             |          |          | Spell Lvl |   |   |   |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| Level | Exp. Points | Hit Dice | AB       | 1 | 2 | 3 | 4 | 5 | 6 |
-+:======+============:+:========:+:========:+===+===+===+===+===+===+
-| 1     | 0           | 1d4      | +1       | 1 | – | – | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 2     | 2,500       | 2d4      | +1       | 2 | – | – | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 3     | 5,000       | 3d4      | +1       | 2 | 1 | – | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 4     | 10,000      | 4d4      | +2       | 2 | 2 | – | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 5     | 20,000      | 5d4      | +2       | 2 | 2 | 1 | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 6     | 40,000      | 6d4      | +3       | 3 | 2 | 2 | – | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 7     | 80,000      | 7d4      | +3       | 3 | 2 | 2 | 1 | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 8     | 150,000     | 8d4      | +3       | 3 | 3 | 2 | 2 | – | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 9     | 300,000     | 9d4      | +4       | 3 | 3 | 2 | 2 | 1 | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 10    | 450,000     | 9d4+1    | +4       | 4 | 3 | 3 | 2 | 2 | – |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 11    | 600,000     | 9d4+2    | +4       | 4 | 4 | 3 | 2 | 2 | 1 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 12    | 750,000     | 9d4+3    | +4       | 4 | 4 | 3 | 3 | 2 | 2 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 13    | 900,000     | 9d4+4    | +5       | 4 | 4 | 4 | 3 | 2 | 2 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 14    | 1,050,000   | 9d4+5    | +5       | 4 | 4 | 4 | 3 | 3 | 2 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 15    | 1,200,000   | 9d4+6    | +5       | 5 | 4 | 4 | 3 | 3 | 2 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 16    | 1,350,000   | 9d4+7    | +6       | 5 | 5 | 4 | 3 | 3 | 2 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 17    | 1,500,000   | 9d4+8    | +6       | 5 | 5 | 4 | 4 | 3 | 3 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 18    | 1,650,000   | 9d4+9    | +6       | 6 | 5 | 4 | 4 | 3 | 3 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 19    | 1,800,000   | 9d4+10   | +7       | 6 | 5 | 5 | 4 | 3 | 3 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-| 20    | 1,950,000   | 9d4+11   | +7       | 6 | 5 | 5 | 4 | 4 | 3 |
-+-------+-------------+----------+----------+---+---+---+---+---+---+
-
-Magic-Users are those who seek and use knowledge of the arcane. They do magic not as the Cleric does, by faith in a greater power, but rather through insight and understanding.
+Magic-Users are those who seek and use knowledge of the arcane. They do magic not as the Cleric does, by faith in a greater power, but rather through insight and understanding.  Every Magic-User has a spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in the Arcane Language. All Magic-Users begin play knowing how to read, write and speak Arcane.
 
 Magic-Users are the worst of all the classes at fighting; hours spent studying massive tomes of magic do not lead a character to become strong or adept with weapons. They are the least hardy, equal to Thieves at lower levels but quickly falling behind.
 
 The Prime Requisite for Magic-Users is Intelligence; a character must have an Intelligence score of 9 or higher to become a Magic-User. The only weapons they become proficient with are the dagger and the walking staff (or cudgel). Magic-Users may not wear armor of any sort nor use a shield as such things interfere with spellcasting.
 
 A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-magic) and one other spell of first level. These spells are written in a spellbook provided by his or her master. The GM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the [Spells](spells.qmd#magic-user-spells) section for more details.
+
+
+![](images/magic_user.jpg)
+
+::: {.column-screen-inset-right}
+
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+|       |             |          |              |              |       |   |   | Spell Level           |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| Level | Exp. Points | Hit Dice | Attack Bonus | Skill Points | Feats | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | Weapon Proficiency |
++:======+============:+:========:+:============:+:============:+:======+===+===+===+===+===+===+===+===+:==================:+
+| 1     | 0           | 1d4      | +1           | 3            |       | 1 | 1 | – | – | – | – | – | – | 2                  |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 2     | 2,500       | 2d4      | +1           | 1            | 1     | 2 | 2 | – | – | – | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 3     | 5,000       | 3d4      | +1           | 1            |       | 3 | 2 | 1 | – | – | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 4     | 10,000      | 4d4      | +2           | 1            | 1     | 4 | 2 | 2 | – | – | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 5     | 20,000      | 5d4      | +2           | 1            |       | 5 | 2 | 2 | 1 | – | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 6     | 40,000      | 6d4      | +3           | 1            | 1     | 6 | 3 | 2 | 2 | – | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 7     | 80,000      | 7d4      | +3           | 1            |       | 7 | 3 | 2 | 2 | 1 | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 8     | 150,000     | 8d4      | +3           | 1            | 1     | 8 | 3 | 3 | 2 | 2 | – | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 9     | 300,000     | 9d4      | +4           | 1            |       | 9 | 3 | 3 | 2 | 2 | 1 | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 10    | 450,000     | 9d4+1    | +4           | 1            | 1     | 9 | 4 | 3 | 3 | 2 | 2 | – | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 11    | 600,000     | 9d4+2    | +4           | 1            |       | 9 | 4 | 4 | 3 | 2 | 2 | 1 | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 12    | 750,000     | 9d4+3    | +4           | 1            | 1     | 9 | 4 | 4 | 3 | 3 | 2 | 2 | – |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 13    | 900,000     | 9d4+4    | +5           | 1            |       | 9 | 4 | 4 | 4 | 3 | 2 | 2 | 1 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 14    | 1,050,000   | 9d4+5    | +5           | 1            | 1     | 9 | 4 | 4 | 4 | 3 | 3 | 2 | 1 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 15    | 1,200,000   | 9d4+6    | +5           | 1            |       | 9 | 5 | 4 | 4 | 3 | 3 | 2 | 1 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 16    | 1,350,000   | 9d4+7    | +6           | 1            | 1     | 9 | 5 | 5 | 4 | 3 | 3 | 2 | 2 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 17    | 1,500,000   | 9d4+8    | +6           | 1            |       | 9 | 5 | 5 | 4 | 4 | 3 | 3 | 2 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 18    | 1,650,000   | 9d4+9    | +6           | 1            | 1     | 9 | 6 | 5 | 4 | 4 | 3 | 3 | 2 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 19    | 1,800,000   | 9d4+10   | +7           | 1            |       | 9 | 6 | 5 | 5 | 4 | 3 | 3 | 2 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+| 20    | 1,950,000   | 9d4+11   | +7           | 1            | 1     | 9 | 6 | 5 | 5 | 4 | 4 | 3 | 3 |                    |
++-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+: Magic-User XP Progression {#tbl-xp-magic-users}
+
+| Magic-User Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
+|------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
+| Rank/Title   | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer | Mage | Arch Mage |
+: Magic-User Titles {#tbl-titles-magic-users}
+
+| Intelligence | Spell Bonus                                        |
+|--------------|----------------------------------------------------|
+| 9-11         | No bonus spells                                    |
+| 12           | +1 Cantrip                                         |
+| 13-15        | +1 Cantrip, +1 1^st^ level spell                   |
+| 16-17        | +2 Cantrips, +2 1^st^ level spells                 |
+| 18           | +3 Cantrips, +3 1^st^ level, +1 2^nd^ level spells |
+: Magic-User Intelligence Bonus {#tbl-intelligence-magic-users}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|
@@ -646,8 +691,72 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 | **16-17** | 9 | 8 | 7 | 12 | 9 |
 | **18-19** | 9 | 7 | 6 | 11 | 9 |
 | **20** | 8 | 6 | 5 | 11 | 8 |
-
 : Magic-User Saving Throws {#tbl-save-mage}
+
+:::
+
+### Magic-User Abilities
+
+#### Starting Spells
+
+A first level Magic-User begins play with inherent Detect Magic, [Read Magic](allSpells.qmd#read-magic) and [Arcane Bolt](allSpells.qmd#arcane-bolt). The player can also choose one 0 Level Spell and one 1 level Spell. The DM rolls any additional 0 and 1 spells randomly.
+
+#### Inherent Detect Magic
+
+Magic-Users can detect magic in anything they touch. Magical items or creatures feel warm, cause a tingling sensation, or have some other unusual tactile effect.
+
+#### Inherent Read Magic
+
+Magic-Users can read and write magic (Arcane) without a spell. The arcane language was discovered by Magic-Users (not invented). Arcane language is the same no matter what the native language or culture of the spell caster.
+
+#### Arcane Bolt
+
+This is a bolt of raw magic. The target gets a save vs. spells to avoid all damage. The bolt has a range of 30 feet and does 1d4 damage. Since it is pure magic, it will affect creatures only affected by magical weapons. The Arcane Bolt does not affect inanimate objects.
+
+#### Spell Preparation
+
+A Magic-User may only prepare spells after resting and needs one turn per each three spell levels to do so. Spells prepared but not used on a previous day are not lost. For example, a 3rd level Magic-User preparing all three of their available spells (two 1st level and one 2nd level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up).
+Each day, usually in the morning, spellcasters prepare spells by studying their spellbooks to replace those they have used. Spells prepared but not used persist from day to day; only those cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) to prepare a different spell of that level.
+
+#### Casting
+
+Magic-Users must have at least one hand free and be able to speak to cast spells. Binding and gagging a spellcaster is an effective means of preventing spell casting. In combat, casting a spell takes the same time as making an attack
+
+#### Spell Disruption
+
+If a Magic-User is attacked (even if not hit), the character must make a saving throw vs. spells on the Initiative number on which they are casting a spell. On a failure, the spell is spoiled and lost. As a specific exception, two spell casters releasing their spells at each other on the same Initiative number will both succeed in their casting; one caster may disrupt another with a spell only if they have a better initiative and chooses to delay casting the spell until right before the other caster.
+
+#### Learning New Spells
+
+A Magic-User may learn spells by being taught directly by another magic user, by studying, by transcribing from a spell scroll or another individual's spellbook, or through research.
+If being taught, a spell can be learned in a single day, while referencing another individual's spellbook takes one day per spell level. It typically costs 300 gps per spell level.
+
+To copy a spell, the character must spend 1d4 hours per Spell Level.
+The chance of successfully mastering a spell is DC 12 -1 per level of the magic-user, - INT bonus, +1 per level of the spell. Any failure requires another Magic-User who knows the spell to teach it.
+Spell mastery failure isn't black and white. Spells that aren't mastered may be cast but require a D20 check on the Potential Spell Failure Table.
+
+| Roll  | Effect                                                                                                     |
+|-------|------------------------------------------------------------------------------------------------------------|
+| 1     | Spell fails entirely. A demon or other hostile entity appropriate to the setting appears and attacks the caster. |
+| 2-4   | Spell fails entirely. Caster takes 1d6 points of injury.                                                    |
+| 5-7   | Spell fails entirely. Caster temporarily forgets the spell. Make a DC10 Int roll after a week, and again each following week, until they remember. |
+| 8-10  | Spell has the reverse of the intended effect.                                                              |
+| 11-12 | Spell affects someone or something other than its intended target – friend, foe, or random object.         |
+| 13-14 | Spell produces nothing but a loud noise, bright flash of light, awful odor, etc.                           |
+| 15-17 | Spell produces a weaker version of the intended effect.                                                    |
+| 18-20 | Spell is cast normally.                                                                                    |
+: Potential Spell Failure Table {#tbl-potential-spell-failure}
+
+#### Great School of Magic in Glantri
+
+The Great School of Magic in Glantri City is a place of arcane learning and the heart of Glantrian society. While many magic-users have been privately tutored, the best and brightest come from the Great School.
+There are 4 two-month quarters at the school separated by month long breaks. One on one mentoring continues until the Magic-User is 4th level at which point they are released to independent study. Routine testing is still administered until 6th level at which time the Magic-User graduates and is formally declared a Magic-User.
+After that time, they may stay at the school to use the facilities and take Arcana courses, but this is usually frowned upon.
+
+##### Great School of Magic Costs and Expenses
+
+The tuition for the Great School is 300 gp per spell level. One week is required per spell level to complete the research. Tuition covers access to the facilities, mentor, classes, and common needs such as ink and paper. Thrown in for free are a small room and three (poor) meals a day for those who want it.
+
 
 ## Thief
 
@@ -658,6 +767,8 @@ Thieves fight better than Magic-Users but not as well as Fighters. Avoidance of 
 ![](images/thief.jpg)
 
 The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity score of 9 or higher to become a Thief. They may use any weapon, but may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however.
+
+::: {.column-screen-inset-right}
 
 | Level | Exp. Points | Hit Dice | Attack<BR>Bonus | Skill<BR>Points | Feats | Weapon<BR>Proficiency |
 |-------|-------------|----------|--------------|--------------|-------|--------------------|
@@ -703,9 +814,13 @@ The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity 
 | **20** | 6 | 8 | 8 | 6 | 8 |
 : Thief Saving Throws {#tbl-save-thief}
 
+:::
+
 ### Thief Abilities
 
 Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the GM may amend this as he or she sees fit. The GM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the GM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the GM might apply a penalty of -1 for the slimy wall.
+
+::: {.column-screen-inset-right}
 
 | Thief Level | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear  Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
 |----|----|----|----|----|----|----|----|----|----|
@@ -730,6 +845,8 @@ Thieves have a number of special abilities, described below. One Turn must gener
 | 19 | 3  | 5  | 2  | 2  | 1 | 3  | 3  | 4  | 2  |
 | 20 | 3  | 4  | 2  | 2  | 1 | 3  | 2  | 4  | 2  |
 : Thief Abilities {#tbl-abilities-thief}
+
+:::
 
 **Ability Bonus or Penalty Adjustments**
 
