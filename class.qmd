@@ -13,7 +13,6 @@ The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, a
 | Thief | Dexterity 9 |
 | Fighter/Magic-User | Strength 9, Intelligence 9 |
 | Magic-User/Thief | Intelligence 9, Dexterity 9 |
-
 : Class Prime Requisites {#tbl-prime-requisites}
 
 ## Cleric

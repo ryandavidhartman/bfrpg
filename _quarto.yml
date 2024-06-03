@@ -17,6 +17,8 @@ book:
         - abilities.qmd
         - races.qmd
         - class.qmd
+        - skills.qmd
+        - feats.qmd
         - equipment.qmd
         - vehicles.qmd
     - part: Magic
