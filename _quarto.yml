@@ -19,6 +19,8 @@ book:
         - class.qmd
         - skills.qmd
         - feats.qmd
+        - hitPoints.qmd
+        - languages.qmd
         - equipment.qmd
         - vehicles.qmd
     - part: Magic

@@ -1,0 +1,40 @@
+# Hit Points
+
+First-level characters begin play with maximum HP based on the hit die for their class, plus the Constitution bonus or penalty. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](class.qmd#character-classes), and no longer add the Constitution bonus or penalty.
+
+## Negative Hit Points and Death
+
+Instead of stopping at zero hit points, keep track of the current negative figure. At the end of each round after they fall, the character loses an additional hit point. If a total of -10 is reached, the character is dead. Before this point is reached, the character may have their wounds bound and/or receive magical healing, which will stabilize the character. The injured character may not move more than a few feet without help, nor fight, nor cast spells, until their hit points are again greater than zero. Spellcasters who survive being reduced to zero or negative hit points lose all currently prepared spells.
+
+## 1 Hit Point
+
+The character is Fatigued.
+
+### Fatigued
+
+A fatigued character can neither run nor charge and takes a -2 penalty to Strength and Dexterity. Doing anything that would normally cause fatigue causes the fatigued character to become exhausted. After 8 hours of complete rest, fatigued characters are no longer fatigued.
+
+## 0 Hit Points
+
+The player character is Unconscious.
+
+### Unconscious
+
+An unconscious character is knocked out and helpless.
+
+## -1 to -9 Hit Points
+
+The character is Dying.
+
+### Dying
+
+A dying character is unconscious and near death. At the end of each round (starting with the round in which the character dropped below 0 hit points), the character loses 1 hit point. If a dying character reaches -10 hit points, the character is dead. A dying character can be stabilized with aid from another character.
+
+### Stable
+
+A character that was dying but has stopped losing hit points and still has negative hit points is stable. A stable character is no longer dying but is still unconscious. If the character is stable because of aid from another character (such as a Heal check or magical healing), then the character no longer loses hit points. There is a slim chance (DC 20 +Con) that a character can become stable without aid.
+
+## Healing and Rest
+
+Characters recover 1 hit point of damage every day, provided that normal sleep is possible. Characters who choose full bed rest regain an additional hit point. Normal characters require 6 hours sleep out of every 24. Subtract or add the character’s constitution modifier. For example: a character with 18 Constitution needs only 3 hours sleep per night and a character with 3 Constitution needs 9 hours. Characters who get less than the required amount of sleep suffer a -1 penalty on all attack rolls and saving throws (as well as not receiving any hit points of healing). Subtract an additional -1 penalty for each additional night without sufficient sleep. The required amount of sleep will remove these penalties. A Stable character with negative hit points recovers hit points naturally if the character is being helped. Otherwise, each day the character has a DC 18 chance to start recovering hit points naturally (starting with that day); otherwise, the character loses 1 hit point. Once an unaided character starts recovering hit points naturally, the character is no longer in danger of losing hit points (even if her current hit points are negative).
+

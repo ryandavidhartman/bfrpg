@@ -12,7 +12,11 @@ Monetary values are usually expressed in gold pieces. In addition to gold coins,
 
 1 silver piece (sp)= 10 copper pieces (cp)
 
-For game purposes, assume that one gold piece weighs 1/10^th^ of a pound, and that five coins will "fit" in a cubic inch of storage space (this isn't literally accurate, but works well enough when applied to a box or chest).
+For game purposes, assume that one gold piece weighs 1/20^th^ of a pound, and that five coins will "fit" in a cubic inch of storage space (this isn't literally accurate, but works well enough when applied to a box or chest).
+
+As a reference here is a rough equivalance to modern currency, 1 silver coin is roughly equal to 1 US dollar.  Hence:
+
+`1 pp = $50.  1 gp = $10. 	1 ep = $5.  	1 sp = $1.    1 cp = ₵10`
 
 First level characters generally begin the game with 3d6 x 10 gp (unless the GM decides otherwise).
 
@@ -200,26 +204,44 @@ Missile weapon ranges are given in feet. In the wilderness, substitute yards for
 
 ## Armor and Shields
 
-| Armor Type | Price | Weight | AC |
-|--------|------------|------------|-----------|
-| No Armor | 0 gp | 0 | 11 |
-| Leather Armor | 20 gp | 15 | 13 |
-| Chain Mail | 60 gp | 40 | 15 |
-| Plate Mail | 300 gp | 50 | 17 |
-| Shield    | 7 gp | 5 | +1 |
+| Armor Type                | Price    | Weight | AC  |
+|---------------------------|----------|--------|-----|
+| No Armor                  | 0 gp     | 0      | 10  |
+| Padded Armor              | 15 gp    | 10     | 11  |
+| Hide                      | 10 gp    | 30     | 12  |
+| Leather Armor             | 20 gp    | 15     | 13  |
+| Ring Mail or Studded Leather | 25 gp    | 30     | 14  |
+| Chain Mail                | 60 gp    | 40     | 15  |
+| Splint Mail               | 100 gp   | 45     | 16  |
+| Plate Mail                | 300 gp   | 50     | 17  |
+| Field Plate               | 500 gp   | 70     | 18  |
+| Full Plate                | 1500 gp  | 50     | 19  |
+| Shield                    | 7 gp     | 8      | +1  |
+
+ _Note: that armor for Halfling characters is 50% heavy as armor for the other races._
 
 ## Beasts of Burden
 
 Note: Statistics for the animals below are [here](monsters.qmd#beasts-of-burden).
 
-| Item | Price |
-|--------|------------|
-| Horse, Draft | 120 gp |
-| Horse, War | 200 gp |
-| Horse, Riding | 75 gp |
-| Pony* | 40 gp |
-| Pony, War* | 80 gp |
+| Item          | Price  |
+|---------------|--------|
+| Camel         | 80 gp  |
+| Donkey/Mule   | 50 gp  |
+| Horse, Draft  | 120 gp |
+| Horse, Riding | 75 gp  |
+| Horse, War    | 200 gp |
+| Pony*         | 50 gp  |
+| Pony, War*    | 80 gp  |
+<sup>*</sup>Due to their small stature, Dwarves and Halflings generally ride ponies rather than horses.
 
-*Due to their small stature, Dwarves and Halflings generally ride ponies rather than horses.
+### War Horse Barding
 
-##
+Barding is armor designed to protect an animal’s head, neck, chest, and body. War Horses and War Ponies are able to wear barding. Studded Leather, Chain, and Plate armor can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.
+
+| Barding Type           | AC  | Cost    |
+|------------------------|-----|---------|
+| No Barding             | 12  | -       |
+| Studded Leather Barding| 16  | 100 gp  |
+| Chain Barding          | 17  | 240 gp  |
+| Plate Barding          | 19  | 1200 gp |

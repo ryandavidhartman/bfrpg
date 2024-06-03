@@ -49,25 +49,25 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 
 ::: {.table-responsive}
 
-|      | **Camel**    | **Donkey** | **Horse, Draft** | **Horse, Riding** |**Horse, War** | **Mule** | **Pony** | 
-|----|-----|----|---|---|-----|----|---|
-| Armor Class: | 13 | 13 | 13 | 13 | 13 | 13 | 13 | 
-| Hit Dice: | 2 | 2 | 3 | 2 | 3 | 2 | 1 | 
-| \# of Attacks: | 1 bite/1 hoof | 1 bite | 2 hooves | 2 hooves | 2 hooves | 1 kick or 1 bite | 1 bite | 
-| Damage: | 1/1d4 | 1d2 | 1d4/1d4 | 1d4/1d4 | 1d6/1d6 | 1d4 or 1d2 | 1d4 | 
-| Movement: | 50'(10') [40'(10')] | 40' (10') | 60' (10') | 80' (10') | 60' (10') | 40' (10') | 40' (10') | 
-| No. Appearing: | Wild 2d4 | Wild 2d4 | domestic only | Wild 10d10 | domestic only | domestic only | domestic only | 
-| Save As: | Fighter: 2 | Fighter: 2 | Fighter: 3 | Fighter: 2 | Fighter: 3 | Fighter: 2 | Fighter: 1 | 
-| Morale: | 7 | 7 | 7 | 7 | 9 | 7 | 6 (9) | 
-| XP: | 75 | 75 | 145 | 75 | 145 | 75 | 25 | 
+|                 | Camel               | Donkey/Mule  | Horse, Draft     | Horse, Riding     | Horse, War    | Pony          | Pony, War     | 
+|-----------------|---------------------|--------------|------------------|-------------------|---------------|---------------|---------------|
+| Armor Class:    | 10                  | 10           | 10               | 12                | 12            | 10            | 12            | 
+| Hit Dice:       | 2                   | 2            | 3                | 2                 | 3             | 2             | 2             | 
+| \# of Attacks:  | Bite or Hoof        | Kick or Bite | 2 Hooves         | 1 Hoof            | 2 Hooves      | 2 Hooves      | 2 Hooves      | 
+| Damage:         | 1d4                 | 1d4          | 2d4              | 1d4               | 2d4           | 1d4           | 1d4           | 
+| Movement:       | 50'(10') [40'(10')] | 40' (10')    | 60' (10')        | 80' (10')         | 80' (10')     | 60' (10')     | 60' (10')     | 
+| No. Appearing:  | Wild 2d4            | Wild 2d4     | domestic only    | Wild 10d10        | domestic only | Wild 2d4      | domestic only | 
+| Save As:        | Fighter: 2          | Fighter: 2   | Fighter: 3       | Fighter: 2        | Fighter: 3    | Fighter: 2    | Fighter: 2    | 
+| Morale:         | 10                  | 7            | 8                | 10                | 15            | 10            | 15            | 
+| XP:             | 75                  | 75           | 145              | 75                | 145           | 75            | 95            |
+| Price:          | 80gp                | 50gp         | 120gp            | 75pg              | 200gp         | 50gp          | 80gp          |          
 
 :::
 
 
 For convenience, animals commonly used to carry loads and/or characters are listed here together. Such creatures obviously have no treasure.
 
-**Camels** are large animals found in arid environments
-that bear distinctive fatty deposits known as "humps" on
+**Camels** are large animals found in arid environments that bear distinctive fatty deposits known as "humps" on
 their backs. There are two relevant species of camel
 described here: the far more common one-humped
 dromedary, and the two-humped Bactrian camel.
@@ -83,6 +83,15 @@ be used for either; both varieties are capable of being
 taken into dungeons as pack animals. A light load for a
 donkey is up to 70 pounds; a heavy load, up to 140
 pounds.
+
+**Mules** are a domestic equine hybrid between a donkey
+and a horse. Mules vary widely in size, and may be of
+any color. They are more patient, hardier and longer-
+lived than horses, and are perceived as less obstinate
+and more intelligent than donkeys. Like donkeys, they
+are capable of being taken into dungeons as pack
+animals. A light load for a mule is up to 300 pounds; a
+heavy load, up to 600 pounds.
 
 **Draft Horses** are large horses bred to be working
 animals doing hard tasks such as plowing and other
@@ -104,21 +113,11 @@ They are able to attack while the rider is mounted due
 to their training. A light load for a warhorse is up to
 350 pounds; a heavy load, up to 700 pounds
 
-**Mules** are a domestic equine hybrid between a donkey
-and a horse. Mules vary widely in size, and may be of
-any color. They are more patient, hardier and longer-
-lived than horses, and are perceived as less obstinate
-and more intelligent than donkeys. Like donkeys, they
-are capable of being taken into dungeons as pack
-animals. A light load for a mule is up to 300 pounds; a
-heavy load, up to 600 pounds.
-
 A **Pony** is a variety of small horse. Compared to a
 larger horse, a pony may have a thicker coat, mane and
 tail, with proportionally shorter legs, a wider barrel,
 heavier bone, a thicker neck and a shorter, broader
-head. Ponies can be trained for war, and the morale in
-parentheses above is for a war pony; this does not
+head. Ponies can be trained for war, and equiped with barding; this does not
 allow them to fight while a rider is mounted, however.
 A light load for a pony is up to 275 pounds; a heavy
 load, up to 550 pounds.
