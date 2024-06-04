@@ -8,7 +8,7 @@
         "Movement:": "60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "2d6, Lair 4d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "7 on first sighting, 12 after engaged",
+        "Morale:": "10 on first sighting, 20 after engaged",
         "Treasure Type:": "U or special",
         "XP:": "240"
     },
@@ -47,7 +47,7 @@
         "Movement:": "80\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 3d10",
         "Save As:": "Fighter: 1 to 4 (as Hit Dice)",
-        "Morale:": "5 (7)",
+        "Morale:": "6 (9)",
         "Treasure Type:": "None",
         "XP:": "25 - 240"
     },
@@ -60,7 +60,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -73,7 +73,7 @@
         "Movement:": "5\u2019",
         "No.\u00a0Appearing:": "1d4+1",
         "Save As:": "Fighter: 6",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "U",
         "XP:": "500"
     },
@@ -86,7 +86,7 @@
         "Movement:": "20\u2019 Unarmored, 40\u2019",
         "No.\u00a0Appearing:": "3d4, Wild 4d6, Lair 5d10",
         "Save As:": "Normal Man",
-        "Morale:": "7 (9)",
+        "Morale:": "10 (14)",
         "Treasure Type:": "P, Q each, C, K in Lair",
         "XP:": "10"
     },
@@ -99,7 +99,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 6",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "F",
         "XP:": "610"
     },
@@ -112,7 +112,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "F, K",
         "XP:": "1,085"
     },
@@ -125,7 +125,7 @@
         "Movement:": "30\u2019 Fly 40\u2019",
         "No.\u00a0Appearing:": "1d100, Wild\u00a01d100, Lair\u00a01d100",
         "Save As:": "Normal Man",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -138,7 +138,7 @@
         "Movement:": "10\u2019 Fly 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d10, Wild 1d10, Lair\u00a01d10",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -151,7 +151,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -164,7 +164,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d2, Wild 1d2, Lair 1d2",
         "Save As:": "Fighter: 7",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "670"
     },
@@ -177,7 +177,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -190,7 +190,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1, Wild 1d2, Lair 1d2",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -203,7 +203,7 @@
         "Movement:": "10\u2019 Fly 50\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 5d6",
         "Save As:": "Fighter: 1",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "Special",
         "XP:": "13"
     },
@@ -216,7 +216,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 2d6, Lair 2d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "100"
     },
@@ -229,7 +229,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 2d6, Lair 2d6",
         "Save As:": "Fighter: 1",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -242,7 +242,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 2d6, Lair 2d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "100"
     },
@@ -255,7 +255,7 @@
         "Movement:": "60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d6, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 3",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "U",
         "XP:": "145"
     },
@@ -268,7 +268,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 10",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "1,390"
     },
@@ -281,7 +281,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "C",
         "XP:": "280"
     },
@@ -294,7 +294,7 @@
         "Movement:": "1\u2019",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "100 - 280"
     },
@@ -307,7 +307,7 @@
         "Movement:": "50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 3",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -320,7 +320,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 5d4, Lair 5d4",
         "Save As:": "Fighter: 3",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "Q, R each; B, L, M in lair",
         "XP:": "145"
     },
@@ -333,7 +333,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d3, Lair 1d3",
         "Save As:": "Fighter: 3",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "B",
         "XP:": "555"
     },
@@ -346,7 +346,7 @@
         "Movement:": "50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Special, Wild 10d12",
         "Save As:": "Fighter: 3",
-        "Morale:": "5 (8)",
+        "Morale:": "6 (12)",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -359,7 +359,7 @@
         "Movement:": "50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Special, Wild 10d12",
         "Save As:": "Fighter: 3",
-        "Morale:": "7 (9)",
+        "Morale:": "10 (14)",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -372,7 +372,7 @@
         "Movement:": "50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Special, Wild 10d12",
         "Save As:": "Fighter: 4",
-        "Morale:": "7(9)",
+        "Morale:": "10(14)",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -385,7 +385,7 @@
         "Movement:": "20\u2019 Fly 60\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "2d10, Wild 1d10",
         "Save As:": "Fighter: 2",
-        "Morale:": "5",
+        "Morale:": "6",
         "Treasure Type:": "None",
         "XP:": "125"
     },
@@ -398,7 +398,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d10, Wild 10d4, Lair 10d4",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "C",
         "XP:": "75"
     },
@@ -411,7 +411,7 @@
         "Movement:": "50\u2019 Unarmored 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 2d10",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "A",
         "XP:": "240"
     },
@@ -424,7 +424,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 2d4, Lair 2d4",
         "Save As:": "Normal Man",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "13"
     },
@@ -437,7 +437,7 @@
         "Movement:": "100\u2019",
         "No.\u00a0Appearing:": "Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -450,7 +450,7 @@
         "Movement:": "40\u2019 (10\u2019) Fly 60\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 9",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "F",
         "XP:": "1,225"
     },
@@ -463,7 +463,7 @@
         "Movement:": "30\u2019 Fly 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d4, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 5",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "D",
         "XP:": "450"
     },
@@ -476,7 +476,7 @@
         "Movement:": "20\u2019 Swim 20\u2019",
         "No.\u00a0Appearing:": "1d2, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 3",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -489,7 +489,7 @@
         "Movement:": "30\u2019 (10\u2019) Swim 30\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -502,7 +502,7 @@
         "Movement:": "\u2013Same\u2013",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -515,7 +515,7 @@
         "Movement:": "\u2013Same\u2013",
         "No.\u00a0Appearing:": "Wild 1d3",
         "Save As:": "Fighter: 15",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "2,850"
     },
@@ -528,7 +528,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "D",
         "XP:": "555"
     },
@@ -541,7 +541,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4",
         "Save As:": "Fighter: 7",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "D",
         "XP:": "800"
     },
@@ -554,7 +554,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 2d3, Lair 2d6",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -567,7 +567,7 @@
         "Movement:": "Fly 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 2d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -580,7 +580,7 @@
         "Movement:": "Fly 60\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -593,7 +593,7 @@
         "Movement:": "20\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "1,575"
     },
@@ -606,7 +606,7 @@
         "Movement:": "30\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 7",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "1,575"
     },
@@ -619,7 +619,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 9",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "None",
         "XP:": "4,000"
     },
@@ -632,7 +632,7 @@
         "Movement:": "30\u2019 Fly 80\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 12",
-        "Morale:": "12 (8)",
+        "Morale:": "20 (12)",
         "Treasure Type:": "None",
         "XP:": "800"
     },
@@ -645,7 +645,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 3d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -658,7 +658,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "domestic only",
         "Save As:": "Fighter: 2",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -671,7 +671,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "E",
         "XP:": "280"
     },
@@ -684,7 +684,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 7 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "800"
     },
@@ -697,7 +697,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 9 (as Hit Dice)",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "H",
         "XP:": "1,225"
     },
@@ -710,7 +710,7 @@
         "Movement:": "50’ Fly 80’ (10’)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d6",
         "Save As:": "Fighter: 5 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "450"
     },
@@ -723,7 +723,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 8 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "1,015"
     },
@@ -736,7 +736,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (20\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 10 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "1,480"
     },
@@ -749,7 +749,7 @@
         "Movement:": "10\u2019 Fly 60\u2019 (20\u2019) Swim 60\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 8 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "1,015"
     },
@@ -762,7 +762,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 6 (as Hit Dice)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "H",
         "XP:": "610"
     },
@@ -775,7 +775,7 @@
         "Movement:": "10\u2019 (10\u2019) Swim 30\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1",
         "Save As:": "Fighter: 20 at +5",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "H",
         "XP:": "13,650"
     },
@@ -788,7 +788,7 @@
         "Movement:": "30' Fly 80' (20')",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1d4",
         "Save As:": "Fighter: 11 (as Hit Dice)",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "",
         "XP:": "1,765"
     },
@@ -801,7 +801,7 @@
         "Movement:": "40'",
         "No.\u00a0Appearing:": "Lair 1d6",
         "Save As:": "Magic-User: 4",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "D",
         "XP:": "100"
     },
@@ -814,7 +814,7 @@
         "Movement:": "10\u2019 fly 160 (10\u2019)\u2019",
         "No.\u00a0Appearing:": "1, Wild 1d4",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "Nil",
         "XP:": "145"
     },
@@ -840,7 +840,7 @@
         "Movement:": "30\u2019 Fly 80\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 15",
-        "Morale:": "12 (9)",
+        "Morale:": "20 (14)",
         "Treasure Type:": "None",
         "XP:": "1,390"
     },
@@ -853,7 +853,7 @@
         "Movement:": "\u2013 Fly 120\u2019 \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -866,7 +866,7 @@
         "Movement:": "\u2013 Fly 120\u2019 \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1,975"
     },
@@ -879,7 +879,7 @@
         "Movement:": "\u2013 Fly 120\u2019 \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "3,385"
     },
@@ -892,7 +892,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -905,7 +905,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1,975"
     },
@@ -918,7 +918,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "3,385"
     },
@@ -931,7 +931,7 @@
         "Movement:": "\u2013 20\u2019 (10\u2019) \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "\u2013 10 \u2013",
+        "Morale:": "\u2013 16 \u2013",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -970,7 +970,7 @@
         "Movement:": "\u2013 40\u2019 Fly 30\u2019 \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "\u2013 10 \u2013",
+        "Morale:": "\u2013 16 \u2013",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -1009,7 +1009,7 @@
         "Movement:": "40\u2019 Fly 80\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -1022,7 +1022,7 @@
         "Movement:": "40\u2019 Fly 80\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1,975"
     },
@@ -1035,7 +1035,7 @@
         "Movement:": "40\u2019 Fly 80\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "3,385"
     },
@@ -1048,7 +1048,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -1061,7 +1061,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1,975"
     },
@@ -1074,7 +1074,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "3,385"
     },
@@ -1087,7 +1087,7 @@
         "Movement:": "\u2013 20\u2019 (15\u2019) Swim 60\u2019 \u2013",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "\u2013 10 \u2013",
+        "Morale:": "\u2013 16 \u2013",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -1126,7 +1126,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "945"
     },
@@ -1139,7 +1139,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1,975"
     },
@@ -1152,7 +1152,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "\u2013 special \u2013",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "3,385"
     },
@@ -1165,7 +1165,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d20",
         "Save As:": "Fighter: 9",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "special",
         "XP:": "1,075"
     },
@@ -1178,7 +1178,7 @@
         "Movement:": "50\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d12",
         "Save As:": "Fighter: 10",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "special",
         "XP:": "1,300"
     },
@@ -1191,7 +1191,7 @@
         "Movement:": "10\u2019 fly 160\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, wild 1d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -1204,7 +1204,7 @@
         "Movement:": "Swim 60\u2019",
         "No.\u00a0Appearing:": "Wild 2d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -1217,7 +1217,7 @@
         "Movement:": "Swim 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1",
         "Save As:": "Fighter: 9",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "1,075"
     },
@@ -1230,7 +1230,7 @@
         "Movement:": "Swim 40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -1243,7 +1243,7 @@
         "Movement:": "Swim 30\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d2",
         "Save As:": "Fighter: 8",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "875"
     },
@@ -1256,7 +1256,7 @@
         "Movement:": "Swim 50\u2019",
         "No.\u00a0Appearing:": "Wild 2d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "7 (11)",
+        "Morale:": "10 (18)",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -1269,7 +1269,7 @@
         "Movement:": "30\u2019 Fly 60\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -1282,7 +1282,7 @@
         "Movement:": "30\u2019 Swim 30\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4",
         "Save As:": "Fighter: 2",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -1295,7 +1295,7 @@
         "Movement:": "30\u2019 Fly 50\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1d6, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "C",
         "XP:": "320"
     },
@@ -1308,7 +1308,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "V",
         "XP:": "280"
     },
@@ -1321,7 +1321,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 10",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "E, N, O",
         "XP:": "1,390"
     },
@@ -1334,7 +1334,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d8, Lair 2d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "B",
         "XP:": "100"
     },
@@ -1347,7 +1347,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "B",
         "XP:": "125"
     },
@@ -1360,7 +1360,7 @@
         "Movement:": "20\u2019 Unarmored 40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 12",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "E plus 1d12x1000 gp",
         "XP:": "1,975"
     },
@@ -1373,7 +1373,7 @@
         "Movement:": "20\u2019 Unarmored 30\u2019",
         "No.\u00a0Appearing:": "1, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 13",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E plus 1d8x1000 gp",
         "XP:": "2,285"
     },
@@ -1386,7 +1386,7 @@
         "Movement:": "20\u2019 Unarmored 40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 11",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E plus 1d10x1000 gp",
         "XP:": "1,670"
     },
@@ -1399,7 +1399,7 @@
         "Movement:": "20\u2019 Unarmored 40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 10",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E plus 1d10x1000 gp",
         "XP:": "1,390"
     },
@@ -1412,7 +1412,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 8",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "E plus 1d8x1000 gp",
         "XP:": "875"
     },
@@ -1425,7 +1425,7 @@
         "Movement:": "40\u2019, Unarmored 50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4+1",
         "Save As:": "Fighter: 16",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "E + 1d12x1,000gp",
         "XP:": "3,250"
     },
@@ -1438,7 +1438,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d2, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 9",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E plus 1d8x1000 gp",
         "XP:": "1,075"
     },
@@ -1451,7 +1451,7 @@
         "Movement:": "30\u2019 Unarmored 50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 15",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "E plus 1d20x1000 gp",
         "XP:": "3,100"
     },
@@ -1464,7 +1464,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 3d6, Lair 3d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "Q, S each; D, K in lair",
         "XP:": "75"
     },
@@ -1477,7 +1477,7 @@
         "Movement:": "20\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 5d8, Lair 5d8",
         "Save As:": "Fighter: 1 (with Dwarf bonuses)",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "D",
         "XP:": "25"
     },
@@ -1490,7 +1490,7 @@
         "Movement:": "20\u2019 Unarmored 30\u2019",
         "No.\u00a0Appearing:": "2d4 ,Wild 6d10, Lair 6d10",
         "Save As:": "Fighter: 1",
-        "Morale:": "7 or see below",
+        "Morale:": "10 or see below",
         "Treasure Type:": "R each; C in lair",
         "XP:": "10"
     },
@@ -1503,7 +1503,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 5",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "1,390"
     },
@@ -1516,7 +1516,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 4",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "945"
     },
@@ -1529,7 +1529,7 @@
         "Movement:": "80\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter:10",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "5,650"
     },
@@ -1542,7 +1542,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 6",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "1,765"
     },
@@ -1555,7 +1555,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 5",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "1,225"
     },
@@ -1568,7 +1568,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 9",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "3,890"
     },
@@ -1581,7 +1581,7 @@
         "Movement:": "20\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 7",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "2,730"
     },
@@ -1594,7 +1594,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 1",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "100"
     },
@@ -1607,7 +1607,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 8",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "945"
     },
@@ -1620,7 +1620,7 @@
         "Movement:": "40\u2019 (10\u2019) Fly 120\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 2d8, Lair 2d8",
         "Save As:": "Fighter: 7",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "E",
         "XP:": "670"
     },
@@ -1633,7 +1633,7 @@
         "Movement:": "0",
         "No.\u00a0Appearing:": "Wild 1",
         "Save As:": "Fighter: 4",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -1646,7 +1646,7 @@
         "Movement:": "20\u2019 Fly 50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d6, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "C",
         "XP:": "100"
     },
@@ -1659,7 +1659,7 @@
         "Movement:": "Fly 160\u2019",
         "No.\u00a0Appearing:": "Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 1",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -1672,7 +1672,7 @@
         "Movement:": "Fly 150\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -1685,7 +1685,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 3 to 7 (same as Hit Dice)",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "C",
         "XP:": "205 - 800"
     },
@@ -1698,7 +1698,7 @@
         "Movement:": "60\u2019 (10\u2019) Fly 120\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 2d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -1711,7 +1711,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d4, Lair 4d8",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "Q, R each; D, K in lair",
         "XP:": "25"
     },
@@ -1724,7 +1724,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1, Lair 1",
         "Save As:": "Fighter: 5 to 12",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "B",
         "XP:": "360 - 1,875"
     },
@@ -1737,7 +1737,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "1d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -1750,7 +1750,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d6, 1d8 Wild Lair 1d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -1763,7 +1763,7 @@
         "Movement:": "10\u2019 Fly 20\u2019",
         "No.\u00a0Appearing:": "1 swarm, Wild 1d3 swarms",
         "Save As:": "N/A",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "None",
         "XP:": "100 - 280"
     },
@@ -1776,7 +1776,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1 (special)",
         "Save As:": "Fighter: 8",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "945"
     },
@@ -1789,7 +1789,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "175"
     },
@@ -1802,7 +1802,7 @@
         "Movement:": "70\u2019 Swim 30\u2019",
         "No.\u00a0Appearing:": "1d2, Wild 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -1815,7 +1815,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As: Fighter:": "10",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "1,390"
     },
@@ -1828,7 +1828,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "V",
         "XP:": "280"
     },
@@ -1841,7 +1841,7 @@
         "Movement:": "1\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 3",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "175"
     },
@@ -1854,7 +1854,7 @@
         "Movement:": "1\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "125"
     },
@@ -1867,7 +1867,7 @@
         "Movement:": "10\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Fighter: 5",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "405",
         "": ""
@@ -1881,7 +1881,7 @@
         "Movement:": "20\u2019 Unarmored 30\u2019",
         "No.\u00a0Appearing:": "4d4, Wild 6d10, Lair 6d10",
         "Save As:": "Normal Man",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "P, Q each; C in lair",
         "XP:": "10"
     },
@@ -1894,7 +1894,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -1907,7 +1907,7 @@
         "Movement:": "60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -1920,7 +1920,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 5",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -1933,7 +1933,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d6",
         "Save As:": "Fighter: 3",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -1946,7 +1946,7 @@
         "Movement:": "10\u2019",
         "No.\u00a0Appearing:": "1d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "280"
     },
@@ -1959,7 +1959,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1d3",
         "Save As:": "Fighter: 5",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "405"
     },
@@ -1972,7 +1972,7 @@
         "Movement:": "40\u2019 Fly 70\u2019 (20\u2019, and see below)",
         "No.\u00a0Appearing:": "1d4, Wild 1d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -1985,7 +1985,7 @@
         "Movement:": "40\u2019 (special)",
         "No.\u00a0Appearing:": "1d6, Wild 1d10",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -1998,7 +1998,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d3, Wild 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "360"
     },
@@ -2011,7 +2011,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -2024,7 +2024,7 @@
         "Movement:": "20\u2019 Unarmored 30\u2019 Swim 40\u2019 (not armor)",
         "No.\u00a0Appearing:": "2d4, Wild 2d4, Lair 6d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "D",
         "XP:": "75"
     },
@@ -2037,7 +2037,7 @@
         "Movement:": "30\u2019 Swim 40\u2019",
         "No.\u00a0Appearing:": "1d8, LAir 5d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "d",
         "XP:": "75"
     },
@@ -2050,7 +2050,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "C",
         "XP:": "555"
     },
@@ -2063,7 +2063,7 @@
         "Movement:": "50\u2019 Human Form 40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "C",
         "XP:": "280"
     },
@@ -2076,7 +2076,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 2d8, Lair 2d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "C",
         "XP:": "175"
     },
@@ -2089,7 +2089,7 @@
         "Movement:": "50\u2019 Human Form 40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "C",
         "XP:": "405"
     },
@@ -2102,7 +2102,7 @@
         "Movement:": "60\u2019 Human Form 40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d6, Lair 2d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "C",
         "XP:": "280"
     },
@@ -2115,7 +2115,7 @@
         "Movement:": "40\u2019 Fly 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "D",
         "XP:": "555"
     },
@@ -2128,7 +2128,7 @@
         "Movement:": "40\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d12",
         "Save As:": "Fighter: 15",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "special",
         "XP:": "2850"
     },
@@ -2141,7 +2141,7 @@
         "Movement:": "50\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 2d8",
         "Save As:": "Fighter: 13",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "special",
         "XP:": "2,175"
     },
@@ -2154,7 +2154,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "F",
         "XP:": "320"
     },
@@ -2167,7 +2167,7 @@
         "Movement:": "Swim 40\u2019",
         "No.\u00a0Appearing:": "Wild 1d2 or 3d6 (see below)",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "A",
         "XP:": "37"
     },
@@ -2180,7 +2180,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 6",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "C",
         "XP:": "500"
     },
@@ -2193,7 +2193,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -2206,7 +2206,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1d4, Lair 1d12",
         "Save As:": "Fighter: 5",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "D",
         "XP:": "450"
     },
@@ -2219,7 +2219,7 @@
         "Movement:": "40\u2019 Swim 40\u2019",
         "No.\u00a0Appearing:": "Wild 2d20, Lair 2d20",
         "Save As:": "Fighter: 2",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "B",
         "XP:": "37"
     },
@@ -2232,7 +2232,7 @@
         "Movement:": "Swim 30\u2019",
         "No.\u00a0Appearing:": "Wild 1d2",
         "Save As:": "Fighter: 8",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "875"
     },
@@ -2245,7 +2245,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 2d6, Lair 2d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "C + 1d20x100 gp",
         "XP:": "240"
     },
@@ -2258,7 +2258,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 3d6, Lair 10d6",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "Q, R each; D in lair",
         "XP:": "25"
     },
@@ -2271,7 +2271,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -2284,7 +2284,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -2297,7 +2297,7 @@
         "Movement:": "10\u2019 Fly 160\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1, Wild 1d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -2310,7 +2310,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "C",
         "XP:": "360"
     },
@@ -2323,7 +2323,7 @@
         "Movement:": "10\u2019 Fly 100\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Normal Man",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -2336,7 +2336,7 @@
         "Movement:": "80\u2019 (10\u2019) Fly 160\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d12",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -2349,7 +2349,7 @@
         "Movement:": "30\u2019 Fly 60\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 10d4, Lair 10d4",
         "Save As:": "Fighter: 1 (with Elf bonuses)",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "R, S",
         "XP:": "37"
     },
@@ -2362,7 +2362,7 @@
         "Movement:": "20\u2019 (15\u2019) Burrow 20\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "1d2, Wild 1d4",
         "Save As:": "Fighter: 6 to 10 (\u00bd of Hit Dice)",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "1,670 \u2013 5,450"
     },
@@ -2375,7 +2375,7 @@
         "Movement:": "20\u2019 Swim 10\u2019",
         "No.\u00a0Appearing:": "5d10, Wild 5d10, Lair 5d10",
         "Save As:": "Normal Man",
-        "Morale:": "5",
+        "Morale:": "6",
         "Treasure Type:": "None",
         "XP:": "360*"
     },
@@ -2388,7 +2388,7 @@
         "Movement:": "40\u2019 Swim 20\u2019",
         "No.\u00a0Appearing:": "3d6, Wild 3d10, Lair 3d10",
         "Save As:": "Fighter: 1",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "C",
         "XP:": "10"
     },
@@ -2401,7 +2401,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "U",
         "XP:": "240"
     },
@@ -2414,7 +2414,7 @@
         "Movement:": "40\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d12",
         "Save As:": "Fighter: 6",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "875"
     },
@@ -2427,7 +2427,7 @@
         "Movement:": "40\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 8",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "1,875"
     },
@@ -2440,7 +2440,7 @@
         "Movement:": "20\u2019 Fly\u00a0160\u2019\u00a0(10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d12",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "I",
         "XP:": "500"
     },
@@ -2453,7 +2453,7 @@
         "Movement:": "",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 12",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "I",
         "XP:": "1,875"
     },
@@ -2466,7 +2466,7 @@
         "Movement:": "",
         "No.\u00a0Appearing:": "Wild 1",
         "Save As:": "Fighter: 20 at +5",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "I",
         "XP:": "14,250"
     },
@@ -2479,7 +2479,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "2d6, Wild 2d6, Lair 5d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -2492,7 +2492,7 @@
         "Movement:": "5\u2019",
         "No.\u00a0Appearing:": "5d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -2505,7 +2505,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4",
         "Save As:": "Fighter: 5",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "405"
     },
@@ -2518,7 +2518,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 8",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "875"
     },
@@ -2531,7 +2531,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4+1, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 8",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "F",
         "XP:": "945"
     },
@@ -2544,7 +2544,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 12",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E",
         "XP:": "1,975"
     },
@@ -2557,7 +2557,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 10",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "E",
         "XP:": "1,390"
     },
@@ -2570,7 +2570,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 2d4, Lair 1d6",
         "Save As:": "Fighter: 7",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "L",
         "XP:": "735"
     },
@@ -2583,7 +2583,7 @@
         "Movement:": "50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "1d6, Wild 1d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "None",
         "XP:": "280"
     },
@@ -2596,7 +2596,7 @@
         "Movement:": "Swim 50\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 2d6",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -2609,7 +2609,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d10, Wild 1d10, Lair 1d10",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "F",
         "XP:": "100"
     },
@@ -2622,7 +2622,7 @@
         "Movement:": "Swim 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 3d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -2635,7 +2635,7 @@
         "Movement:": "Swim 60\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 8",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "875"
     },
@@ -2648,7 +2648,7 @@
         "Movement:": "Swim 80\u2019",
         "No.\u00a0Appearing:": "Wild 2d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -2661,7 +2661,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 2",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -2674,7 +2674,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "",
         "Save As:": "Fighter: 2",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "37"
     },
@@ -2687,7 +2687,7 @@
         "Movement:": "5\u2019",
         "No.\u00a0Appearing:": "1d8",
         "Save As:": "Fighter: 1",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "145"
     },
@@ -2700,7 +2700,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "3d6, Wild 3d10",
         "Save As:": "Fighter: 1",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -2713,7 +2713,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d2, Wild 1d2, Lair 1d2",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "100"
     },
@@ -2726,7 +2726,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "37"
     },
@@ -2739,7 +2739,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 5",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "405"
     },
@@ -2752,7 +2752,7 @@
         "Movement:": "10\u2019 Swim 30\u2019",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "175"
     },
@@ -2765,7 +2765,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 1",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "37"
     },
@@ -2778,7 +2778,7 @@
         "Movement:": "Fly 100\u2019",
         "No.\u00a0Appearing:": "1d4, Lair 1d8",
         "Save As:": "Fighter: 6",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "E",
         "XP:": "610"
     },
@@ -2791,7 +2791,7 @@
         "Movement:": "20\u2019 Web 40\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 3",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "175"
     },
@@ -2804,7 +2804,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d4, Lair 1d4",
         "Save As:": "Fighter: 2",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "100"
     },
@@ -2817,7 +2817,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d3, Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 4",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "280"
     },
@@ -2830,7 +2830,7 @@
         "Movement:": "20\u2019 Fly 60\u2019",
         "No.\u00a0Appearing:": "3d6, Wild 3d6, Lair 5d8",
         "Save As:": "Magic-User: 4 (with Elf bonuses)",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "S",
         "XP:": "13"
     },
@@ -2843,7 +2843,7 @@
         "Movement:": "Swim 40\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -2856,7 +2856,7 @@
         "Movement:": "Swim 40\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 7",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "670"
     },
@@ -2869,7 +2869,7 @@
         "Movement:": "10\u2019 Fly 60\u2019",
         "No.\u00a0Appearing:": "1d10, Wild 3d12, Lair 3d12",
         "Save As:": "Fighter: 1",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "D",
         "XP:": "37"
     },
@@ -2882,7 +2882,7 @@
         "Movement:": "5\u2019",
         "No.\u00a0Appearing:": "1d4+1",
         "Save As:": "Fighter: 6",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "U",
         "XP:": "500"
     },
@@ -2895,7 +2895,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d3, Lair 1d3",
         "Save As:": "Fighter: 3",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "B",
         "XP:": "175"
     },
@@ -2908,7 +2908,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "Wild 1d3, Lair 1d3",
         "Save As:": "Fighter: 6",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -2921,7 +2921,7 @@
         "Movement:": "40\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 8",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "1,875"
     },
@@ -2934,7 +2934,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 8",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "C",
         "XP:": "945"
     },
@@ -2947,7 +2947,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1d8, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 6",
-        "Morale:": "10 (8)",
+        "Morale:": "16 (12)",
         "Treasure Type:": "D",
         "XP:": "555"
     },
@@ -2960,7 +2960,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1 (special)",
         "Save As:": "Fighter: 7",
-        "Morale:": "10 (8)",
+        "Morale:": "16 (12)",
         "Treasure Type:": "D",
         "XP:": "735"
     },
@@ -2973,7 +2973,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "\u2013 special, see below \u2013",
         "Save As:": "Fighter: -2",
-        "Morale:": "\u2013 9 (7) \u2013",
+        "Morale:": "\u2013 14 (10) \u2013",
         "Treasure Type:": "\u2013 None \u2013",
         "XP:": "1 HD 37, 2 HD 100"
     },
@@ -3012,7 +3012,7 @@
         "Movement:": "5\u2019 Swim 20\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Normal Man",
-        "Morale:": "5",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "10"
     },
@@ -3025,7 +3025,7 @@
         "Movement:": "5\u2019 Swim 20\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 1",
-        "Morale:": "6",
+        "Morale:": "9",
         "Treasure Type:": "None",
         "XP:": "25"
     },
@@ -3038,7 +3038,7 @@
         "Movement:": "80\u2019",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 8",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "280"
     },
@@ -3051,7 +3051,7 @@
         "Movement:": "70\u2019",
         "No.\u00a0Appearing:": "Wild 1d8",
         "Save As:": "Fighter: 6",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "280"
     },
@@ -3064,7 +3064,7 @@
         "Movement:": "30\u2019 Unarmored 40\u2019",
         "No.\u00a0Appearing:": "Special",
         "Save As:": "Fighter: 2",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "Q, R, S each; special in lair",
         "XP:": "100"
     },
@@ -3077,7 +3077,7 @@
         "Movement:": "40\u2019 Fly 60\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 7 to 9 (as Hit Dice)",
-        "Morale:": "11",
+        "Morale:": "18",
         "Treasure Type:": "F",
         "XP:": "800 - 1,225"
     },
@@ -3090,7 +3090,7 @@
         "Movement:": "Swim 30\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 1 to 4 (as Hit Dice)",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "25 - 240"
     },
@@ -3103,7 +3103,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 5",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "V",
         "XP:": "360"
     },
@@ -3116,7 +3116,7 @@
         "Movement:": "Swim 80\u2019 (10\u2019)",
         "No.\u00a0Appearing:": "Wild 1d6",
         "Save As:": "Fighter: 6",
-        "Morale:": "10",
+        "Morale:": "16",
         "Treasure Type:": "None",
         "XP:": "500"
     },
@@ -3129,7 +3129,7 @@
         "Movement:": "Swim 60\u2019",
         "No.\u00a0Appearing:": "Wild 1d4",
         "Save As:": "Fighter: 6",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "Special",
         "XP:": "1,875"
     },
@@ -3142,7 +3142,7 @@
         "Movement:": "Swim 60\u2019 (20\u2019)",
         "No.\u00a0Appearing:": "Wild 1d3",
         "Save As:": "Fighter: 8",
-        "Morale:": "7",
+        "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "17,850"
     },
@@ -3155,7 +3155,7 @@
         "Movement:": "30\u2019",
         "No.\u00a0Appearing:": "1d6, Wild 1d8, Lair 1d8",
         "Save As:": "Fighter: 3",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "B",
         "XP:": "175"
     },
@@ -3168,7 +3168,7 @@
         "Movement:": "60\u2019",
         "No.\u00a0Appearing:": "2d6, Wild 3d6, Lair 3d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "8",
+        "Morale:": "12",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -3181,7 +3181,7 @@
         "Movement:": "50\u2019",
         "No.\u00a0Appearing:": "1d4, Wild 2d4, Lair 2d4",
         "Save As:": "Fighter: 4",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "None",
         "XP:": "240"
     },
@@ -3194,7 +3194,7 @@
         "Movement:": "Fly 80\u2019",
         "No.\u00a0Appearing:": "1d4, Lair 1d6",
         "Save As:": "Fighter: 4",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "E",
         "XP:": "320"
     },
@@ -3207,7 +3207,7 @@
         "Movement:": "30\u2019 (10\u2019) Fly 80\u2019 (15\u2019)",
         "No.\u00a0Appearing:": "Wild 1d6, Lair 1d6",
         "Save As:": "Fighter: 7",
-        "Morale:": "9",
+        "Morale:": "14",
         "Treasure Type:": "E",
         "XP:": "735"
     },
@@ -3233,7 +3233,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "2d4, Wild 4d6",
         "Save As:": "Fighter: 2",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "75"
     },
@@ -3246,7 +3246,7 @@
         "Movement:": "20\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Magic-User: by HD",
-        "Morale:": "9 to 12 (see below)",
+        "Morale:": "14 to 20 (see below)",
         "Treasure Type:": "None",
         "XP:": "100 (variable)"
     },
@@ -3259,7 +3259,7 @@
         "Movement:": "40\u2019",
         "No.\u00a0Appearing:": "1",
         "Save As:": "Magic-User: by HD",
-        "Morale:": "12",
+        "Morale:": "20",
         "Treasure Type:": "None",
         "XP:": "37 (variable)"
     }

@@ -515,8 +515,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">12</span>]]))})</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`2d6: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`1d20: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -549,32 +549,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </thead>
 <tbody>
 <tr class="odd">
-<td>2 or less</td>
+<td>1 or less</td>
+<td>Refusal, -2 on further rolls</td>
+</tr>
+<tr class="even">
+<td>2</td>
 <td>Refusal, -1 on further rolls</td>
 </tr>
-<tr class="even">
-<td>3-5</td>
+<tr class="odd">
+<td>3-6</td>
 <td>Refusal</td>
 </tr>
-<tr class="odd">
-<td>6-8</td>
+<tr class="even">
+<td>7-8</td>
 <td>Try again</td>
 </tr>
+<tr class="odd">
+<td>9-12</td>
+<td>Try again, +1 on future rolls</td>
+</tr>
 <tr class="even">
-<td>9-11</td>
+<td>14-19</td>
 <td>Acceptance</td>
 </tr>
 <tr class="odd">
-<td>12 or more</td>
-<td>Acceptance, +1 to Loyalty</td>
+<td>20 or more</td>
+<td>Acceptance, +2 to Loyalty</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><strong>Refusal, -1 on further rolls</strong>&nbsp;means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.</p>
+<p><strong>Refusal, -1/-2 on further rolls</strong>&nbsp;means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 or -2 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.</p>
 <p>If a&nbsp;<strong>Try again</strong>&nbsp;result is rolled, the potential retainer is reluctant, and needs more convincing; the player character must “sweeten” the deal in order to get an additional roll, such as by offering more pay, a magic item, etc. If the player character makes no better offer, treat&nbsp;<strong>Try again</strong>&nbsp;as a&nbsp;<strong>Refusal</strong>&nbsp;result.</p>
-<p><strong>Loyalty:</strong>&nbsp;All retainers have a Loyalty score, which is generally 7 plus the employer’s Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.</p>
-<p>If a Loyalty check roll made in combat is a natural 2, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 12 is fanatical… the retainer will do virtually anything the player character asks, and never flee in combat. However, the Game Master should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.</p>
+<p><strong>Loyalty:</strong>&nbsp;All retainers have a Loyalty score, which is generally 10 plus the employer’s Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.</p>
+<p>If a Loyalty check roll made in combat is a natural 1, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 20 is fanatical… the retainer will do virtually anything the player character asks, and never flee in combat. However, the Game Master should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.</p>
 <p>In addition, the Game Master should roll a Loyalty check for each retainer at the end of each adventure, after&nbsp;treasure is divided, to determine if the retainer will remain with the player character. The GM may apply adjustments to this roll, probably no more than two points plus or minus, if the retainer is particularly well or poorly paid.</p>
 <p><strong>Maximum Number of Retainers:</strong>&nbsp;A player character may hire at most 4 retainers, adjusted by the character’s Charisma bonus or penalty. Any attempts to hire more than this number of retainers will be met with automatic refusals.</p>
 <p><strong>Level of Retainers:</strong>&nbsp;Normally, potential retainers will be one-half the level of the employer (or less). So, a first level character cannot hire retainers, second level PCs can only hire first level characters, and so on. Of course, there is no way for the retainers to directly know the level of the PC employer, nor for the employer to know the level of the potential retainer; but the Game Master should usually enforce this rule for purposes of game balance. It shouldn’t be surprising that first level characters can’t hire retainers, as they have no reputation to speak of yet.</p>
@@ -763,7 +771,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHJlYWN0aW9uID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93UmV0KFwiI3JlYWN0aW9uLXJvbGxcIiwgZ2VuZXJhbFRhYmxlU2VsZWN0MihbMiw2LDBdLFtbMiwyXSxbMyw1XSxbNiw4XSxbOSwxMV0sWzEyLDEyXV0pKX0pXHJcbm1kYDJkNjogJHtyZWFjdGlvbn1gXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgncmVhY3Rpb24nKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHJlYWN0aW9uID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93UmV0KFwiI3JlYWN0aW9uLXJvbGxcIiwgZ2VuZXJhbFRhYmxlU2VsZWN0MihbMSwyMCwwXSxbWzEsMV0sIFsyLDJdLFszLDZdLFs3LDhdLFs5LDEyXSxbMTQsMTldLFsyMCwgMjBdXSkpfSlcclxubWRgMWQyMDogJHtyZWFjdGlvbn1gXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgncmVhY3Rpb24nKSJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

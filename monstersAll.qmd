@@ -18,7 +18,7 @@
 | Movement:       | 60' (10')                             | 50'           | 40'            |
 | No. Appearing:  | 2d6, Lair 4d6                         | 3d6, Lair 4d8 | 4d6, Lair 4d10 |
 | Save As:        | Fighter: 4                            | Fighter: 2    | Fighter: 1     |
-| Morale:         | 7 on first sighting, 12 after engaged                                  |
+| Morale:         | 10 on first sighting, 20 after engaged                                 |
 | Treasure Type:  | U or special                          |               |                |
 | XP:             | 240                                   | 75            | 25             |
 
@@ -48,7 +48,7 @@ giant ants.
 | Movement: | 80' (10') |
 | No. Appearing: | Wild 3d10 |
 | Save As: | Fighter: 1 to 4 (as Hit Dice) |
-| Morale: | 5 (7) |
+| Morale: | 9 (16) |
 | Treasure Type: | None |
 | XP: | 25 - 240 |
 
@@ -75,7 +75,7 @@ better armed than others.
 | Movement: | 40' |
 | No. Appearing: | 1d6, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -95,7 +95,7 @@ These powerful creatures resemble gorillas but are far more aggressive; though t
 | Movement: | 5' |
 | No. Appearing: | 1d4+1 |
 | Save As: | Fighter: 6 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | U |
 | XP: | 500 |
 
@@ -124,7 +124,7 @@ A subterranean version of the assassin vine grows near hot springs, volcanic ven
 | Movement:       | 20' Unarmored, 40'       |
 | No. Appearing:  | 3d4, Wild 4d6, Lair 5d10 |
 | Save As:        | Normal Man               |
-| Morale:         | 7 (9)                    |
+| Morale:         | 10 (14)                  |
 | Treasure Type:  | P, Q each, C, K in Lair  |
 | XP:             | 10                       |
 
@@ -190,7 +190,7 @@ considered a terrible insult.
 | Movement:       | 20' (10')               | 20' (10')                               |
 | No. Appearing:  | 1d6, Wild 1d6, Lair 1d6 | 1                                       |
 | Save As:        | Fighter: 6              | Fighter: 8                              |
-| Morale:         | 9                       | 10                                      |
+| Morale:         | 14                      | 16                                      |
 | Treasure Type:  | F                       | F, K                                    |
 | XP:             | 610                     | 1,085                                   |
 
@@ -242,7 +242,7 @@ touch the corpse, an obviously bad idea.
 | Movement: | 30' Fly 40' | 10' Fly 60' (10') |
 | No. Appearing: | 1d100, Wild 1d100, Lair 1d100 | 1d10, Wild 1d10, Lair 1d10 |
 | Save As: | Normal Man | Fighter: 2 |
-| Morale: | 6 | 8 |
+| Morale: | 14 | 12 |
 | Treasure Type: | None | None |
 | XP: | 10 | 75 |
 
@@ -273,7 +273,7 @@ Bears attack by rending opponents with their claws, dragging them in and biting 
 | Movement: | 40' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -296,7 +296,7 @@ are threatened.
 | Movement: | 40' |
 | No. Appearing: | 1d2, Wild 1d2, Lair 1d2 |
 | Save As: | Fighter: 7 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | None |
 | XP: | 670 |
 
@@ -316,7 +316,7 @@ These monstrous bears are even larger than grizzly bears. They are ferocious kil
 | Movement: | 40' |
 | No. Appearing: | 1, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 5 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 360 |
 
@@ -339,7 +339,7 @@ just as bloodthirsty.
 | Movement: | 40' |
 | No. Appearing: | 1, Wild 1d2, Lair 1d2 |
 | Save As: | Fighter: 6 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -359,7 +359,7 @@ These long, lean carnivores are slightly taller than grizzly bears, and just as 
 | Movement: | 10' Fly 50' |
 | No. Appearing: | 1d6, Wild 1d6, Lair 5d6 |
 | Save As: | Fighter: 1 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | Special |
 | XP: | 13 |
 
@@ -395,7 +395,7 @@ contain special honey which acts as 1d6+1 [Potions of Healing](magicItems.qmd#po
 | Movement: | 40' |
 | No. Appearing: | 1d8, Wild 2d6, Lair 2d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 100 |
 
@@ -417,7 +417,7 @@ Giant bombardier beetles, like most beetles, have more or less the same visual a
 | Movement: | 40' |
 | No. Appearing: | 1d8, Wild 2d6, Lair 2d6 |
 | Save As: | Fighter: 1 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 25 |
 
@@ -449,7 +449,7 @@ from behind receive no bonus to do so.
 | Movement:       | 40'                        |
 | No. Appearing:  | 1d8, Wild 2d6, Lair 2d6    |
 | Save As:        | Fighter: 2                 |
-| Morale:         | 8                          |
+| Morale:         | 12                         |
 | Treasure Type:  | None                       |
 | XP:             | 100                        |
 
@@ -485,7 +485,7 @@ hit points to the victim
 | Movement: | 60' (10') |
 | No. Appearing: | 1d6, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 3 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | U |
 | XP: | 145 |
 
@@ -507,7 +507,7 @@ They are fast runners, depending on their speed to run down prey, and they willi
 | Movement: | 20' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 10 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 1,390 |
 
@@ -533,7 +533,7 @@ The typical black pudding measures 10 feet across and 2 feet thick, and weighs a
 | Movement: | 40' |
 | No. Appearing: | 1d6, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | C |
 | XP: | 280 |
 
@@ -577,7 +577,7 @@ generally avoiding a fight if possible, but they hate
 | Movement: | 1' |
 | No. Appearing: | Wild 1d8 |
 | Save As: | Fighter: 2 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 100 - 280 |
 
@@ -601,7 +601,7 @@ Each blood rose plant will have 1, 2 or 3 whiplike canes studded with thorns wit
 | Movement: | 50' (10') |
 | No. Appearing: | Wild 1d6 |
 | Save As: | Fighter: 3 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -623,7 +623,7 @@ A boar is covered in coarse, grayish-black fur. Adults are about 4 feet long and
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 2d4, Wild 5d4, Lair 5d4 |
 | Save As: | Fighter: 3 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | Q, R each; B, L, M in lair |
 | XP: | 145 |
 
@@ -647,7 +647,7 @@ One out of every eight bugbears will be a hardened warrior of 4+4 Hit Dice (240 
 | Movement: | 20' (10') |
 | No. Appearing: | 1d3, Lair 1d3 |
 | Save As: | Fighter: 3 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | B |
 | XP: | 555 |
 
@@ -673,7 +673,7 @@ Once a caecilia has swallowed an opponent, it will generally attempt to disengag
 | Movement:       | 50' (10')                     | 50' (10')              | 50' (10')                     |
 | No. Appearing:  | Special, Wild 10d12           | Special, Wild 10d12    | Special, Wild 10d12           |
 | Save As:        | Fighter: 3                    | Fighter: 3             | Fighter: 4                    |
-| Morale:         | 5 (8)                         | 7 (9)                  | 7(9)                          |
+| Morale:         | 6 (12)                        | 10 (14)                | 10(14)                        |
 | Treasure Type:  | None                          | None                   | None                          |
 | XP:             | 75                            | 145                    | 240                           |
 
@@ -732,7 +732,7 @@ large caravans going over semi-arid prairie.
 | Movement: | 20' Fly 60' (15') |
 | No. Appearing: | 2d10, Wild 1d10 |
 | Save As: | Fighter: 2 |
-| Morale: | 5 |
+| Morale: | 6 |
 | Treasure Type: | None |
 | XP: | 125 |
 
@@ -762,7 +762,7 @@ Finally, a giant cave locust can spray a greenish-brown goo (its digestive juice
 | Movement: | 40' |
 | No. Appearing: | 1d10, Wild 10d4, Lair 10d4 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | C |
 | XP: | 75 |
 
@@ -782,7 +782,7 @@ Cavemen are a species closely related to humans; they are shorter and stockier, 
 | Movement: | 50' Unarmored 60' (10') |
 | No. Appearing: | Wild 2d10 |
 | Save As: | Fighter: 4 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | A |
 | XP: | 240 |
 
@@ -804,7 +804,7 @@ Centaurs are generally haughty and aloof, but very honorable. Most would rather 
 | Movement: | 40' |
 | No. Appearing: | 2d4, Wild 2d4, Lair 2d4 |
 | Save As: | Normal Man |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 13 |
 
@@ -826,7 +826,7 @@ Giant centipedes tend to attack anything that resembles food, biting with their 
 | Movement: | 100' |
 | No. Appearing: | Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -846,7 +846,7 @@ A Cheetah is one of the fastest land animals - a large (about 100 pounds) cat ca
 | Movement:       | 40' (10') Fly 60' (15')                                                  |
 | No. Appearing:  | 1d2, Wild 1d4, Lair 1d4                                                  |
 | Save As:        | Fighter: 9                                                               |
-| Morale:         | 9                                                                        |
+| Morale:         | 14                                                                       |
 | Treasure Type:  | F                                                                        |
 | XP:             | 1,225                                                                    |
 
@@ -869,7 +869,7 @@ Chimeras are cruel and voracious. They can speak Dragon but seldom bother to do 
 | Movement: | 30' Fly 60' (10') |
 | No. Appearing: | 1d4, Wild 1d8, Lair 1d8 |
 | Save As: | Fighter: 5 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | D |
 | XP: | 450 |
 
@@ -893,7 +893,7 @@ Anyone touched by a cockatrice, or who touches one (even if gloved), must save v
 | Movement: | 20' Swim 20' |
 | No. Appearing: | 1d2, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 3 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -915,7 +915,7 @@ Giant crabs carry their eyes on armored stalks, which means that no bonus is awa
 | Movement: | 30' (10') Swim 30' (10') | --Same-- | --Same-- |
 | No. Appearing: | Wild 1d8 | Wild 1d4 | Wild 1d3 |
 | Save As: | Fighter: 2 | Fighter: 6 | Fighter: 15 |
-| Morale: | 7 | 8 | 9 |
+| Morale: | 10 | 12 | 14 |
 | Treasure Type: | None | None | None |
 | XP: | 75 | 500 | 2,850 |
 
@@ -941,7 +941,7 @@ Crocodiles are aggressive predators 11 to 12 feet long. They lie mostly submerge
 | Movement:       | 50'                              | 40'                                       |
 | No. Appearing:  | 1d4, Wild 1d4                    | 1d4, Wild 1d4                             |
 | Save As:        | Fighter: 6                       | Fighter: 7                                |
-| Morale:         | 8                                | 9                                         |
+| Morale:         | 12                               | 14                                        |
 | Treasure Type:  | D                                | D                                         |
 | XP:             | 555                              | 800                                       |
 
@@ -967,7 +967,7 @@ Any character fighting a Displacer for the first time will miss his or her first
 | Movement: | 50' |
 | No. Appearing: | 1d3, Wild 2d3, Lair 2d6 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -987,7 +987,7 @@ The Deinonychus (sometimes mistakenly called a "Velociraptor") is a medium-sized
 | Movement: | Fly 60' (10') | Fly 60' (15') |
 | No. Appearing: | Wild 2d4 | Wild 1d4 |
 | Save As: | Fighter: 1 | Fighter: 3 |
-| Morale: | 7 | 8 |
+| Morale: | 10 | 12 |
 | Treasure Type: | None | None |
 | XP: | 25 | 360 |
 
@@ -1009,7 +1009,7 @@ Pteranodons are essentially giant-sized pterodactyls, having wingspans of 25 fee
 | Movement: | 20' (15') |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 1,575 |
 
@@ -1036,7 +1036,7 @@ where it tramples.
 | Movement: | 30' (15') |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 7 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 1,575 |
 
@@ -1074,7 +1074,7 @@ attack.
 | Movement: | 40' (10') |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 9 |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | None |
 | XP: | 4,000 |
 
@@ -1109,13 +1109,13 @@ large bipedal carnosaurs, such as the allosaurus.
 | Movement: | 30' Fly 80' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 12 |
-| Morale: | 12 (8) |
+| Morale: | 20 (12) |
 | Treasure Type: | None |
 | XP: | 800 |
 
 The djinn (singular djinni) are humanoid creatures from the Elemental Plane of Air. A djinni in its natural form is about 10½ feet tall and weighs about 1,000 pounds.
 
-Djinn disdain physical combat, preferring to use their magical powers and aerial abilities against foes. A djinni overmatched in combat usually takes flight and becomes a whirlwind (see below) to harass those who follow; the 12 morale reflects a djinni's absolute control over its own fear, but does not indicate that the creature will throw its life away easily. Use the "8" figure to determine whether an outmatched djinn decides to leave a combat.
+Djinn disdain physical combat, preferring to use their magical powers and aerial abilities against foes. A djinni overmatched in combat usually takes flight and becomes a whirlwind (see below) to harass those who follow; the 20 morale reflects a djinni's absolute control over its own fear, but does not indicate that the creature will throw its life away easily. Use the "12" figure to determine whether an outmatched djinn decides to leave a combat.
 
 Djinn have a number of magical powers, which can be used at will (that is, without needing magic words or gestures): **create food and drink**, creating tasty and nourishing food for up to 2d6 humans or similar creatures, once per day; become **invisible**, with unlimited uses per day; **create normal items**, creating up to 1,000 pounds of soft goods or wooden items of permanent nature or metal goods lasting at most a day, once per day; assume **gaseous form**, as the potion, up to one hour per day; and **create illusions**, as the spell **phantasmal force** but including sound as well as visual elements, three times per day.
 
@@ -1137,7 +1137,7 @@ Due to their highly magical nature, djinn cannot be harmed by non-magical weapon
 | Movement: | 50' | 50' |
 | No. Appearing: | Wild 3d4 | domestic only |
 | Save As: | Fighter: 1 | Fighter: 2 |
-| Morale: | 9 | 9 |
+| Morale: | 14 | 9 |
 | Treasure Type: | None | None |
 | XP: | 25 | 75 |
 
@@ -1159,7 +1159,7 @@ Riding dogs are a large breed, used primarily by Halflings for transport. They m
 | Movement: | 30' |
 | No. Appearing: | 1d6, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | E |
 | XP: | 280 |
 
@@ -1198,7 +1198,7 @@ help them behave like the person they have replaced.
 
 Dragons are large (sometimes very large) winged reptilian monsters. Unlike wyverns, dragons have four legs as well as two wings; this is how experts distinguish "true" dragons from other large reptilian monsters. All dragons are long-lived, and they grow slowly for as long as they live. For this reason, they are described as having seven "age categories," ranging from 3 less to 3 more hit dice than the average. For convenience, a table is provided following the description of each dragon type; this table shows the variation in hit dice, damage from their various attacks, and other features peculiar to dragons.
 
-If one dragon is encountered, it is equally likely to be a male or female ranging from -2 to +3 hit dice (1d6-3); two are a mated pair ranging from -1 to +2 hit dice (1d4-2). If three or four are encountered, they consist of a mated pair plus one or two young of -3 hit dice in size. If this is the case, the parents receive a Morale of 12 in combat since they are protecting their young.
+If one dragon is encountered, it is equally likely to be a male or female ranging from -2 to +3 hit dice (1d6-3); two are a mated pair ranging from -1 to +2 hit dice (1d4-2). If three or four are encountered, they consist of a mated pair plus one or two young of -3 hit dice in size. If this is the case, the parents receive a Morale of 20 in combat since they are protecting their young.
 
 In combat dragons use a powerful bite, slashing claws, a long, whiplike tail, and most famously some form of breath weapon. Tactically, dragons prefer to fight while flying, making passes over ground-based enemies to strike or breathe on them. Smarter and older dragons will look for the toughest or most dangerous foe to strike down first, particularly preferring to eliminate magic-users as early in a fight as possible.
 
@@ -1243,7 +1243,7 @@ Experience Points (XP) given for dragons on the following pages are for non-spel
 | Movement:       | 30\' Fly 80\' (20\')                   |
 | No. Appearing:  | 1, Wild 1, Lair 1d4                    |
 | Save As:        | Fighter: 11 (as Hit Dice)              |
-| Morale:         | 10                                     |
+| Morale:         | 16                                     |
 | Treasure Type:  |                                        |
 | XP:             | 1,765                                  |
 
@@ -1293,7 +1293,7 @@ All cloud dragons have the power to assume the form of any type of humanoid (as 
 | Movement: | 30' Fly 80' (15') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 9 (as Hit Dice) |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | H |
 | XP: | 1,225 |
 
@@ -1341,7 +1341,7 @@ Desert dragons are immune to normal lightning, and suffer only half damage from 
 | Movement: | 30' Fly 80' (15') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 8 (as Hit Dice) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | H |
 | XP: | 1,015 |
 
@@ -1385,7 +1385,7 @@ Forest dragons are immune to all poisons. Note that, despite their breath weapon
 | Movement: | 30' Fly 80' (10') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 6 (as Hit Dice) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | H |
 | XP: | 610 |
 
@@ -1433,7 +1433,7 @@ Ice dragons are immune to normal cold, and take only half damage from magical co
 | Movement: | 30' Fly 80' (20') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 10 (as Hit Dice) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | H |
 | XP: | 1,480 |
 
@@ -1481,7 +1481,7 @@ Mountain dragons are immune to normal fire, and suffer only half damage from mag
 | Movement:       | 50' Fly 80' (10')                  |
 | No. Appearing:  | 1, Wild 1, Lair 1d6                |
 | Save As:        | Fighter: 5 (as Hit Dice)           |
-| Morale:         | 8                                  |
+| Morale:         | 12                                 |
 | Treasure Type:  | H                                  |
 | XP:             | 450                                |
 
@@ -1529,7 +1529,7 @@ The breath weapon of the plains dragon is a scorching, shimmering cone of heat, 
 | Movement: | 10' Fly 60' (20') Swim 60' (15') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 8 (as Hit Dice) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | H |
 | XP: | 1,015 |
 
@@ -1575,7 +1575,7 @@ Sea dragons are neutral in outlook, in much the same way as ice dragons. They of
 | Movement: | 30' Fly 80' (15') |
 | No. Appearing: | 1, Wild 1, Lair 1d4 |
 | Save As: | Fighter: 7 (as Hit Dice) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | H |
 | XP: | 800 |
 
@@ -1620,7 +1620,7 @@ Swamp dragons are immune to all forms of acid. A swamp dragon may hold its breat
 | Movement: | 10' (10') Swim 30' (15') |
 | No. Appearing: | Wild 1 |
 | Save As: | Fighter: 20 at +5 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | H (calculated at one-quarter hit dice)  |
 | XP: | 13,650 |
 
@@ -1661,7 +1661,7 @@ Due to their massive size, dragon turtles are immune to virtually all poisons.
 | Movement: | 40' |
 | No. Appearing: | Lair 1d6 |
 | Save As: | Magic-User: 4 |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | D |
 | XP: | 100 |
 
@@ -1686,7 +1686,7 @@ Shy, intelligent, and resolute, dryads are as elusive as they are alluring -- th
 | Movement: | 10' fly 160 (10')' |
 | No. Appearing: | 1, Wild 1d4 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | Nil |
 | XP: | 145 |
 
@@ -1720,7 +1720,7 @@ talons, then attack with the beak.
 | Movement: | 10' fly 90' |
 | No. Appearing: | 2d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 (12 if defending a nest) |
+| Morale: | 10 (20 if defending a nest) |
 | Treasure Type: | Nil |
 | XP: | 240 |
 
@@ -1760,13 +1760,13 @@ one
 | Movement: | 30' Fly 80' (10') |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 15 |
-| Morale: | 12 (9) |
+| Morale: | 20 (14) |
 | Treasure Type: | None |
 | XP: | 1,390 |
 
 The efreet (singular efreeti) are humanoid creatures from the Elemental Plane of Fire. An efreeti in its natural form stands about 12 feet tall and weighs about 2,000 pounds. Efreet are malicious by nature. They love to mislead, befuddle, and confuse their foes. They do this for enjoyment as much as for tactical reasons.
 
-Note that the 12 morale reflects an efreeti's absolute control over its own fear, but does not indicate that the creature will throw its life away easily. Use the "9" figure to determine whether an outmatched efreeti decides to leave a combat.
+Note that the 20 morale reflects an efreeti's absolute control over its own fear, but does not indicate that the creature will throw its life away easily. Use the "9" figure to determine whether an outmatched efreeti decides to leave a combat.
 
 Efreet have a number of magical powers, which can be used at will (that is, without needing magic words or gestures): become **invisible**, with unlimited uses per day; assume **gaseous form**, as the potion, up to one hour per day; **create illusions**, as the spell **phantasmal force** but including sound as well as visual elements, three times per day; **create flame**, with unlimited uses; and create a **wall of fire** (as the spell), once per day. Create flame allows the efreet to cause a flame to appear in its hand or otherwise on its person at will; it behaves as desired by the efreet, becoming as large as a torchflame or as small as a candle, and ignites flammable material just as any ordinary flame does. The flame can be thrown as a weapon with a range of up to 60', causing 1d8 points of damage on a successful hit. The efreet can create another flame, and throw it as well if desired, once per round.
 
@@ -1861,7 +1861,7 @@ type.
 | Movement:       | -- Fly 120' --       | -- Fly 120' --        | -- Fly 120' --       |
 | No. Appearing:  | -- special --        | -- special --         | -- special --        |
 | Save As:        | Fighter: 8           | Fighter: 12           | Fighter: 16          |
-| Morale:         | 10                   | 10                    | 10                   |
+| Morale:         | 16                   | 16                    | 16                   |
 | Treasure Type:  | -- None --           | -- None --            | -- None --           |
 | XP:             | 945                  | 1,975                 | 3,385                |
 
@@ -1883,7 +1883,7 @@ Air elementals resemble "dust devils," that is, small whirlwinds, but they are m
 | Movement:       | 40'                    | 40'                     | 40'                    |
 | No. Appearing:  | -- special --          | -- special --           | -- special --          |
 | Save As:        | Fighter: 8             | Fighter: 12             | Fighter: 16            |
-| Morale:         | 10                     | 10                      | 10                     |
+| Morale:         | 16                     | 16                      | 16                     |
 | Treasure Type:  | -- None --             | -- None --              | -- None --             |
 | XP:             | 945                    | 1,975                   | 3,385                  |
 
@@ -1918,7 +1918,7 @@ of damage each round.
 | Movement: | -- 20' (10') -- |
 | No. Appearing: | -- special -- |
 | Save As: | Fighter: 8 | Fighter: 12 | Fighter: 16 |
-| Morale: | -- 10 -- |
+| Morale: | -- 16 -- |
 | Treasure Type: | -- None -- |
 | XP: | 945 | 1,975 | 3,385 |
 
@@ -1938,7 +1938,7 @@ Earth elementals resemble crude, headless humanoid statues, with clublike hands 
 | Movement: | -- 40' Fly 30' -- |
 | No. Appearing: | -- special -- |
 | Save As: | Fighter: 8 | Fighter: 12 | Fighter: 16 |
-| Morale: | -- 10 -- |
+| Morale: | -- 16 -- |
 | Treasure Type: | -- None -- |
 | XP: | 945 | 1,975 | 3,385 |
 
@@ -1961,7 +1961,7 @@ Remember that a fire elemental is constantly burning; such a creature may easily
 | Movement:       | 40' Fly 80'            | 40'  Fly 80'            | 40'  Fly 80'           |
 | No. Appearing:  | -- special --          | -- special --           | -- special --          |
 | Save As:        | Fighter: 8             | Fighter: 12             | Fighter: 16            |
-| Morale:         | 10                     | 10                      | 10                     |
+| Morale:         | 16                     | 16                      | 16                     |
 | Treasure Type:  | -- None --             | -- None --              | -- None --             |
 | XP:             | 945                    | 1,975                   | 3,385                  |
 
@@ -1995,7 +1995,7 @@ turns
 | Movement:       | 20' (10')              | 20' (10')               | 20' (10')              |
 | No. Appearing:  | -- special --          | -- special --           | -- special --          |
 | Save As:        | Fighter: 8             | Fighter: 12             | Fighter: 16            |
-| Morale:         | 10                     | 10                      | 10                     |
+| Morale:         | 16                     | 16                      | 16                     |
 | Treasure Type:  | -- None --             | -- None --              | -- None --             |
 | XP:             | 945                    | 1,975                   | 3,385                  |
 
@@ -2030,7 +2030,7 @@ height.
 | Movement: | -- 20' (15') Swim 60' -- |
 | No. Appearing: | -- special -- |
 | Save As: | Fighter: 8 | Fighter: 12 | Fighter: 16 |
-| Morale: | -- 10 -- |
+| Morale: | -- 16 -- |
 | Treasure Type: | -- None -- |
 | XP: | 945 | 1,975 | 3,385 |
 
@@ -2060,7 +2060,7 @@ structures which are in the water.
 | Movement:       | 40'                    | 40'                     | 40'                    |
 | No. Appearing:  | -- special --          | -- special --           | -- special --          |
 | Save As:        | Fighter: 8             | Fighter: 12             | Fighter: 16            |
-| Morale:         | 10                     | 10                      | 10                     |
+| Morale:         | 16                     | 16                      | 16                     |
 | Treasure Type:  | -- None --             | -- None --              | -- None --             |
 | XP:             | 945                    | 1,975                   | 3,385                  |
 
@@ -2088,7 +2088,7 @@ fire or lightning elementals.
 | Movement:       | 40' (10')                         | 50' (15')        |
 | No. Appearing:  | Wild 1d20                         | Wild 1d12        |
 | Save As:        | Fighter: 9                        | Fighter: 10      |
-| Morale:         | 8                                 | 8                |
+| Morale:         | 12                                | 12               |
 | Treasure Type:  | special                           | special          |
 | XP:             | 1,075                             | 1,300            |
 
@@ -2125,7 +2125,7 @@ elephant are worth 1d8 x 100 gp each.
 | Movement:       | 10' fly 160' (10')  |
 | No. Appearing:  | 1, wild 1d4         |
 | Save As:        | Fighter: 1          |
-| Morale:         | 8                   |
+| Morale:         | 12                  |
 | Treasure Type:  | None                |
 | XP:             | 10                  |
 
@@ -2157,7 +2157,7 @@ making the kill with its sharp beak.
 | Movement: | Swim 60' | Swim 60' (10') |
 | No. Appearing: | Wild 2d4 | Wild 1 |
 | Save As: | Fighter: 5 | Fighter: 9 |
-| Morale: | 8 | 10 |
+| Morale: | 20 | 16 |
 | Treasure Type: | None | None |
 | XP: | 360 | 1,075 |
 
@@ -2179,7 +2179,7 @@ Giant barracudas always appear singly and are 50% likely to break off the attack
 | Movement: | Swim 40' (10') |
 | No. Appearing: | Wild 1d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -2201,7 +2201,7 @@ Giant bass are predatory, and on a natural attack roll of 20 a giant bass will s
 | Movement: | Swim 30' (10') |
 | No. Appearing: | Wild 1d2 |
 | Save As: | Fighter: 8 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 875 |
 
@@ -2223,7 +2223,7 @@ Because of its large size (15 to 20 feet long) and body design, a giant catfish 
 | Movement: | Swim 50' |
 | No. Appearing: | Wild 2d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 (11) |
+| Morale: | 10 (18) |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -2243,7 +2243,7 @@ Giant piranha average 5' in length at adulthood, and are aggressive carnivores. 
 | Movement: | 30' Fly 60' |
 | No. Appearing: | 1d6, Wild 2d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -2263,7 +2263,7 @@ Giant flies look much like ordinary houseflies, but are about 3' long. Some are 
 | Movement: | 30' Swim 30' |
 | No. Appearing: | 1d4, Wild 1d4 |
 | Save As: | Fighter: 2 |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -2285,7 +2285,7 @@ A giant frog can stretch its tongue out up to 15' and drag up to dwarf-sized pre
 | Movement: | 30' Fly 50' (15') |
 | No. Appearing: | 1d6, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | C |
 | XP: | 320 |
 
@@ -2307,7 +2307,7 @@ Gargoyles require no food, water, or air. Due to their highly magical nature, th
 | Movement: | 20' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 2 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | V |
 | XP: | 280 |
 
@@ -2332,7 +2332,7 @@ Any treasure indicated will be visible inside the creature, which must be slain 
 | Movement: | 30' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 10 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | E, N, O |
 | XP: | 1,390 |
 
@@ -2362,7 +2362,7 @@ Instead of attacking, a ghost may attempt to possess a living creature. This abi
 | Movement:       | 30'                     | 30'                          |
 | No. Appearing:  | 1d6, Wild 2d8, Lair 2d8 | 1d4, Wild 1d8, Lair 1d8      |
 | Save As:        | Fighter: 2              | Fighter: 2                   |
-| Morale:         | 9                       | 9                            |
+| Morale:         | 14                      | 14                           |
 | Treasure Type:  | B                       | B                            |
 | XP:             | 100                     | 125                          |
 
@@ -2445,7 +2445,7 @@ behaves like any other ghast in all respects.
 | Movement: | 20' Unarmored 40' (10') |
 | No. Appearing: | 1d2, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 12 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | E plus 1d12x1000 gp |
 | XP: | 1,975 |
 
@@ -2469,7 +2469,7 @@ Cloud giants fight in well-organized units, using carefully developed battle pla
 | Movement: | 20' Unarmored 30' |
 | No. Appearing: | 1, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 13 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | E plus 1d8x1000 gp |
 | XP: | 2,285 |
 
@@ -2493,7 +2493,7 @@ A cyclops can throw a large rock up to 200' for 3d6 points of damage, but they a
 | Movement: | 20' Unarmored 40' (10') |
 | No. Appearing: | 1d2, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 11 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | E plus 1d10x1000 gp |
 | XP: | 1,670 |
 
@@ -2530,7 +2530,7 @@ Fire giants are immune to all fire-based attacks.
 | Movement: | 20' Unarmored 40' (10') |
 | No. Appearing: | 1d2, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 10 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | E plus 1d10x1000 gp |
 | XP: | 1,390 |
 
@@ -2556,7 +2556,7 @@ A frost giant can throw large stones up to 200' for 3d6 damage. Frost giants are
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d4, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 8 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | E plus 1d8x1000 gp |
 | XP: | 875 |
 
@@ -2579,7 +2579,7 @@ Whether attacking with a weapon or st, hill giants deal 2d8 damage. Hill gian
 | Movement:       | 40', Unarmored 50' (10')        |
 | No. Appearing:  | 1d4, Wild 1d4, Lair 1d4+1       |
 | Save As:        | Fighter: 16                     |
-| Morale:         | 10                              |
+| Morale:         | 16                              |
 | Treasure Type:  | E + 1d12x1,000gp                |
 | XP:             | 3,250                           |
 
@@ -2637,7 +2637,7 @@ A mountain giant can throw large stones up to 240' for
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d2, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 9 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | E plus 1d8x1000 gp |
 | XP: | 1,075 |
 
@@ -2671,7 +2671,7 @@ strategy.
 | Movement: | 30' Unarmored 50' (10') |
 | No. Appearing: | 1, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 15 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | E plus 1d20x1000 gp |
 | XP: | 3,100 |
 
@@ -2697,7 +2697,7 @@ Unlike most other giants, storm giants have been known to befriend humans, elves
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d6, Wild 3d6, Lair 3d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | Q, S each; D, K in lair |
 | XP: | 75 |
 
@@ -2721,7 +2721,7 @@ One out of every six gnolls will be a hardened warrior of 4 Hit Dice (240 XP) ha
 | Movement: | 20' Unarmored 40' |
 | No. Appearing: | 1d8, Wild 5d8, Lair 5d8 |
 | Save As: | Fighter: 1 (with Dwarf bonuses) |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | D |
 | XP: | 25 |
 
@@ -2731,7 +2731,7 @@ Gnomes generally wear leather or earth tones, though they decorate their clothes
 
 Gnomes speak their own language, Gnomish, and many know the language of the dwarves. Most gnomes who travel outside gnome lands (as traders or tinkers) know Common, while warriors in gnome settlements usually learn Goblin. Gnomes encountered in the wilderness are likely to be unfriendly, but not hostile. They tolerate dwarves but dislike most other humanoid races. When forced to interact with other races, a gnome will generally be recalcitrant, unless offered a significant amount of treasure.
 
-Most gnomes encountered outside their home are warriors; the statistics above are for such. In the lair, for every warrior there will be an average of three civilians having 1-1 Hit Dice and Armor Class 11; such gnomes have Morale of 7. One out of every eight gnome warriors will be a sergeant having 3 Hit Dice (145 XP). Gnomes gain a +1 bonus to their morale if they are led by a sergeant. Both warriors and sergeants commonly wear chainmail. In gnomish communities, one out of every sixteen warriors will be a captain of 5 Hit Dice (360 XP) with an Armor Class of 16 (11), adding a shield. In addition, in communities of 35 or greater, there will be a king of 7 Hit Dice (670 XP), with an Armor Class of 18 (11), in plate mail and carrying a shield, having a +1 bonus damage due to strength. In their community, gnomes never fail a morale check as long as the king is alive. There is a chance equal to 1-4 on 1d6 that a community will have a Cleric of level 1d6+1, and 1-2 on 1d6 of a Magic-User of level 1d6. Gnomish Clerics and Magic-Users are equivalent to regular gnomish warriors statistically.
+Most gnomes encountered outside their home are warriors; the statistics above are for such. In the lair, for every warrior there will be an average of three civilians having 1-1 Hit Dice and Armor Class 11; such gnomes have Morale of 10. One out of every eight gnome warriors will be a sergeant having 3 Hit Dice (145 XP). Gnomes gain a +1 bonus to their morale if they are led by a sergeant. Both warriors and sergeants commonly wear chainmail. In gnomish communities, one out of every sixteen warriors will be a captain of 5 Hit Dice (360 XP) with an Armor Class of 16 (11), adding a shield. In addition, in communities of 35 or greater, there will be a king of 7 Hit Dice (670 XP), with an Armor Class of 18 (11), in plate mail and carrying a shield, having a +1 bonus damage due to strength. In their community, gnomes never fail a morale check as long as the king is alive. There is a chance equal to 1-4 on 1d6 that a community will have a Cleric of level 1d6+1, and 1-2 on 1d6 of a Magic-User of level 1d6. Gnomish Clerics and Magic-Users are equivalent to regular gnomish warriors statistically.
 
 </div>
 <div class="monster" data-tag="Goblin" >
@@ -2747,7 +2747,7 @@ Most gnomes encountered outside their home are warriors; the statistics above ar
 | Movement: | 20' Unarmored 30' |
 | No. Appearing: | 2d4 ,Wild 6d10, Lair 6d10 |
 | Save As: | Fighter: 1 |
-| Morale: | 7 or see below |
+| Morale: | 10 or see below |
 | Treasure Type: | R each; C in lair |
 | XP: | 10 |
 
@@ -2844,7 +2844,7 @@ Fighter of 4^th^ level.
 | Movement: | 60' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 5 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 1,390 |
 
@@ -2866,7 +2866,7 @@ style="position: absolute; top: 0.2in; left: 0in" A magical attack that deals el
 | Movement: | 40' (10') |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 4 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 945 |
 
@@ -2890,7 +2890,7 @@ When a bone golem enters combat, there is a cumulative 1% chance each round that
 | Movement: | 80' (10') |
 | No. Appearing: | 1 |
 | Save As: | Fighter:10 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 5,650 |
 
@@ -2914,7 +2914,7 @@ When a bronze golem enters combat, there is a cumulative 1% chance each round th
 | Movement: | 20' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 6 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 1,765 |
 
@@ -2945,7 +2945,7 @@ worse, magical healing cures only 1 point per die rolled
 | Movement: | 30' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 5 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 1,225 |
 
@@ -2980,7 +2980,7 @@ instead receives up to 4 points of healing.
 | Movement: | 20' (10') |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 9 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 3,890 |
 
@@ -3004,7 +3004,7 @@ A magical attack that deals electricity damage slows an iron golem (as the [slo
 | Movement: | 20' (10') |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 7 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 2,730 |
 
@@ -3029,7 +3029,7 @@ A [stone to flesh](allSpells.qmd#flesh-to-stone) spell may be used to weaken t
 | Movement: | 40' |
 | No. Appearing: | 1 |
 | Save As: | Fighter: 1 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 100 |
 
@@ -3049,7 +3049,7 @@ Wood golems are small constructs, not more than 4' in height, and are crudely ma
 | Movement: | 40' (10') |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 8 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 945 |
 
@@ -3084,7 +3084,7 @@ bull with the rest being cows
 | Movement: | 40' (10') Fly 120' (10') |
 | No. Appearing: | Wild 2d8, Lair 2d8 |
 | Save As: | Fighter: 7 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | E |
 | XP: | 670 |
 
@@ -3109,7 +3109,7 @@ Griffons can be trained as mounts if raised in captivity, but even in this case 
 | Movement: | 0 |
 | No. Appearing: | Wild 1 |
 | Save As: | Fighter: 4 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 360 |
 
@@ -3131,7 +3131,7 @@ The roots of this tree are also animated; they do not attack, but they do pull d
 | Movement: | 20' Fly 50' (10') |
 | No. Appearing: | 1d6, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | C |
 | XP: | 100 |
 
@@ -3153,7 +3153,7 @@ A harpy looks like a giant vulture bearing the torso and face of a human female.
 | Movement: | Fly 160' | Fly 150' (10') |
 | No. Appearing: | Wild 1d6, Lair 1d6 | Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 1 | Fighter: 4 |
-| Morale: | 7 | 8 |
+| Morale: | 16 | 12 |
 | Treasure Type: | None | None |
 | XP: | 10 | 240 |
 
@@ -3184,7 +3184,7 @@ their eggs or offspring are threatened.
 | Movement: | 40' |
 | No. Appearing: | 2d4, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 3 to 7 (same as Hit Dice) |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | C |
 | XP: | 205 - 800 |
 
@@ -3208,7 +3208,7 @@ Note that hellhounds vary with regard to the number of hit dice each has. If gen
 | Movement: | 60' (10') Fly 120' (10') |
 | No. Appearing: | Wild 2d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -3232,7 +3232,7 @@ Hippogriffs are omnivorous, entering combat only as defense, save for those time
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d6, Wild 2d4, Lair 4d8 |
 | Save As: | Fighter: 1 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | Q, R each; D, K in lair |
 | XP: | 25 |
 
@@ -3256,7 +3256,7 @@ One out of every six hobgoblins will be a warrior of 3 Hit Dice (145 XP). Regula
 | Movement: | 40' (10') |
 | No. Appearing: | 1, Wild 1, Lair 1 |
 | Save As: | Fighter: 5 to 12 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | B |
 | XP: | 360 - 1,875 |
 
@@ -3280,7 +3280,7 @@ Some hydras live in the ocean; use the given movement as a swimming rate rather 
 | Movement: | 60' |
 | No. Appearing: | 1d8 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -3301,7 +3301,7 @@ Hyenas are doglike carnivores who exhibit some of the behaviors of canines but a
 | Movement: | 40' |
 | No. Appearing: | 1d6, 1d8 Wild Lair 1d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -3321,7 +3321,7 @@ These ancient four legged predators are named for their tooth shape, and while t
 | Movement: | 10' Fly 20' |
 | No. Appearing: | 1 swarm, Wild 1d3 swarms |
 | Save As: | N/A |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | None |
 | XP: | 100 - 280 |
 
@@ -3345,7 +3345,7 @@ Damage is reduced to a single point per round for three rounds if the character 
 | Movement: | 40' |
 | No. Appearing: | 1 (special) |
 | Save As: | Fighter: 8 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 945 |
 
@@ -3370,7 +3370,7 @@ Invisible stalkers have an amorphous form. A [detect invisible](allSpells.qmd#d
 | Movement:       | 50'             |
 | No. Appearing:  | 1d4             |
 | Save As:        | Fighter: 4      |
-| Morale:         | 8               |
+| Morale:         | 12              |
 | Treasure Type:  | None            |
 | XP:             | 175             |
 
@@ -3420,7 +3420,7 @@ adventurer in any party.
 | Movement: | 70' Swim 30' |
 | No. Appearing: | 1d2, Wild 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -3458,7 +3458,7 @@ automatically.
 | Movement:         | 20'          |
 | No. Appearing:    | 1            |
 | Save As: Fighter: | 10           |
-| Morale:           | 12           |
+| Morale:           | 20           |
 | Treasure Type:    | None         |
 | XP:               | 1,390        |
 
@@ -3506,7 +3506,7 @@ a result of the splitting described above.
 | Movement:       | 20'             |
 | No. Appearing:  | 1               |
 | Save As:        | Fighter: 2      |
-| Morale:         | 12              |
+| Morale:         | 20              |
 | Treasure Type:  | V               |
 | XP:             | 280             |
 
@@ -3556,7 +3556,7 @@ which must be slain if the treasure is to be recovered.
 | Movement:       | 1'          |
 | No. Appearing:  | 1           |
 | Save As:        | Fighter:  3 |
-| Morale:         | 12          |
+| Morale:         | 20          |
 | Treasure Type:  | None        |
 | XP:             | 175         |
 
@@ -3595,7 +3595,7 @@ adding any magical "plus" value to the roll if applicable).
 | Movement:       | 1'                            |
 | No. Appearing:  | 1                             |
 | Save As:        | Fighter:  2                   |
-| Morale:         | 12                            |
+| Morale:         | 20                            |
 | Treasure Type:  | None                          |
 | XP:             | 125                           |
 
@@ -3639,7 +3639,7 @@ retrieved by any magic short of a wish.
 | Movement:       | 10'                           |
 | No. Appearing:  | 1                             |
 | Save As:        | Fighter:  5                   |
-| Morale:         | 12                            |
+| Morale:         | 20                            |
 | Treasure Type:  | None                          |
 | XP:             | 405                           |
 |                 |                               |
@@ -3671,7 +3671,7 @@ simply have no effect on the monster.
 | Movement: | 20' Unarmored 30' |
 | No. Appearing: | 4d4, Wild 6d10, Lair 6d10 |
 | Save As: | Normal Man |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | P, Q each; C in lair |
 | XP: | 10 |
 
@@ -3695,7 +3695,7 @@ Kobolds are cunning foes. They see all larger races as enemies, and are thus lik
 | Movement: | 30' |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -3720,7 +3720,7 @@ Once a giant leech hits in combat, it attaches to the victim and sucks blood, ca
 | Movement:       | 60’ (10’)          |
 | No. Appearing:  | 1, Wild 1d4        |
 | Save As:        | Fighter: 4         |
-| Morale:         | 8                  |
+| Morale:         | 12                 |
 | Treasure Type:  | None               |
 | XP:             | 240                |
 
@@ -3750,7 +3750,7 @@ tree.
 | Movement: | 50' |
 | No. Appearing: | Wild 1d8 |
 | Save As: | Fighter: 5 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | None |
 | XP: | 360 |
 
@@ -3796,7 +3796,7 @@ Living statues can be crafted to resemble any sort of living creature, but most 
 | Movement: | 30' |
 | No. Appearing: | 1d6 |
 | Save As: | Fighter: 3 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -3816,7 +3816,7 @@ Crystal living statues have no particular special powers, unlike those made of i
 | Movement: | 10' |
 | No. Appearing: | 1d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 280 |
 
@@ -3836,7 +3836,7 @@ If struck by a non-magical metal (even partially metal) weapon, the weapon may b
 | Movement: | 20' |
 | No. Appearing: | 1d3 |
 | Save As: | Fighter: 5 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 405 |
 
@@ -3856,7 +3856,7 @@ A stone living statue attacks by spraying molten rock from its fingertips. The r
 | Movement: | 40' Fly 70' (20', and see below) |
 | No. Appearing: | 1d4, Wild 1d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -3876,7 +3876,7 @@ Giant draco lizards are able to extend their ribs and connected skin to form a s
 | Movement: | 40' (special) |
 | No. Appearing: | 1d6, Wild 1d10 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -3896,7 +3896,7 @@ Giant gecko lizards range from 4' to 6' in length, and are generally green in co
 | Movement: | 40' (10') |
 | No. Appearing: | 1d3, Wild 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 360 |
 
@@ -3918,7 +3918,7 @@ The horns of the giant horned chameleon are used only in mating rituals, not in 
 | Movement: | 40' (10') |
 | No. Appearing: | 1d2, Wild 1d4 |
 | Save As: | Fighter: 5 |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -3940,7 +3940,7 @@ Giant tuataras are large, being 10' to 12' long, and heavily built. They are pre
 | Movement:       | 40' (special)        | 40' (special)       | 40' (special)        |
 | No. Appearing:  | 1d4, Wild 1d6        | 1d4, Wild 1d6       | 1d4, Wild 1d6        |
 | Save As:        | Fighter:  3          | Fighter: 4          | Fighter:  5          |
-| Morale:         | 7                    | 8                   | 9                    |
+| Morale:         | 10                   | 12                  | 14                   |
 | Treasure Type:  | None                 | None                | None                 |
 | XP:             | 175                  | 405                 | 735                  |
 
@@ -3987,7 +3987,7 @@ considered prey.
 | Movement:       | 20' Unarmored 30' Swim 40' (not  armor) | 30' Swim 40'       |
 | No. Appearing:  | 2d4, Wild 2d4, Lair 6d6                 | 1d8, LAir 5d8      |
 | Save As:        | Fighter: 2                              | Fighter: 2         |
-| Morale:         | 11                                      | 9                  |
+| Morale:         | 18                                      | 14                 |
 | Treasure Type:  | D                                       | d                  |
 | XP:             | 75                                      | 75                 |
 
@@ -4072,7 +4072,7 @@ In animal form, lycanthropes may be hit only by silver or magical weapons.
 | Movement: | 40' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | C |
 | XP: | 555 |
 
@@ -4092,7 +4092,7 @@ Werebears are humans that can transform into large bears. When in human form, th
 | Movement: | 50' Human Form 40' |
 | No. Appearing: | 1d4, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | C |
 | XP: | 280 |
 
@@ -4123,7 +4123,7 @@ bored with mundane things but are excited by violence
 | Movement: | 40' |
 | No. Appearing: | 1d8, Wild 2d8, Lair 2d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | C |
 | XP: | 175 |
 
@@ -4147,7 +4147,7 @@ Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particular
 | Movement: | 50' Human Form 40' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 5 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | C |
 | XP: | 405 |
 
@@ -4168,7 +4168,7 @@ deal with unless whatever offer is made to them is very attractive to them.
 | Movement: | 60' Human Form 40' |
 | No. Appearing: | 1d6, Wild 2d6, Lair 2d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | C |
 | XP: | 280 |
 
@@ -4200,7 +4200,7 @@ weapons.
 | Movement: | 40' Fly 60' (10') |
 | No. Appearing: | 1d2, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | D |
 | XP: | 555 |
 
@@ -4223,7 +4223,7 @@ Manticores are vicious predators, having a preference for human flesh. They will
 | Movement:       | 40' (15')                         | 50' (15')                         |
 | No. Appearing:  | Wild 1d12                         | Wild 2d8                          |
 | Save As:        | Fighter: 15                       | Fighter: 13                       |
-| Morale:         | 8                                 | 8                                 |
+| Morale:         | 12                                | 12                                |
 | Treasure Type:  | special                           | special                           |
 | XP:             | 2850                              | 2,175                             |
 
@@ -4276,7 +4276,7 @@ worth 1d10 x 100 gp.
 | Movement: | 30' |
 | No. Appearing: | 1d3, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 4 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | F |
 | XP: | 320 |
 
@@ -4302,7 +4302,7 @@ Medusae are shy and reclusive, owing no doubt to the fact that, once the lair of
 | Movement: | Swim 40' |
 | No. Appearing: | Wild 1d2 or 3d6 (see below) |
 | Save As: | Fighter: 1 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | A |
 | XP: | 37 |
 
@@ -4336,7 +4336,7 @@ Mermaids arm themselves with spears or daggers. They hunt fish and harvest kelp 
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d6, Wild 1d8, Lair 1d8 |
 | Save As: | Fighter: 6 |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | C |
 | XP: | 500 |
 
@@ -4356,7 +4356,7 @@ Minotaurs are huge bull-headed humanoid monsters. A minotaur stands more than 7 
 | Movement: | 50' |
 | No. Appearing: | Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -4376,7 +4376,7 @@ These great cats are about 7 feet long (from nose to tail-tip) and weigh about 1
 | Movement: | 20' |
 | No. Appearing: | 1d4, Lair 1d12 |
 | Save As: | Fighter: 5 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | D |
 | XP: | 450 |
 
@@ -4398,7 +4398,7 @@ As they are undead, mummies are immune to **sleep**, **charm** and **hold**�
 | Movement: | 40' Swim 40' |
 | No. Appearing: | Wild 2d20, Lair 2d20 |
 | Save As: | Fighter: 2 |
-| Morale: | 6 |
+| Morale: | 9 |
 | Treasure Type: | B |
 | XP: | 37 |
 
@@ -4423,7 +4423,7 @@ Nixies are fey creatures, and thus unpredictable. However, they are rarely malic
 | Movement: | Swim 30' |
 | No. Appearing: | Wild 1d2 |
 | Save As: | Fighter: 8 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 875 |
 
@@ -4461,7 +4461,7 @@ being held will normally be released at this point.
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 1d6, Wild 2d6, Lair 2d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | C + 1d20x100 gp |
 | XP: | 240 |
 
@@ -4483,7 +4483,7 @@ One out of every six ogres will be a pack leader of 6+1 Hit Dice (500 XP). Ogres
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | 2d4, Wild 3d6, Lair 10d6 |
 | Save As: | Fighter: 1 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | Q, R each; D in lair |
 | XP: | 25 |
 
@@ -4510,7 +4510,7 @@ One out of every eight orcs will be a warrior of 2 Hit Dice (75 XP). Orcs gain a
 | Movement:       | 60'          | 50’          |
 | No. Appearing:  | Wild 1d6     | Wild 1d6     |
 | Save As:        | Fighter:   3 | Fighter:   2 |
-| Morale:         | 8            | 8            |
+| Morale:         | 12           | 12           |
 | Treasure Type:  | None         | None         |
 | XP:             | 145          | 75           |
 
@@ -4538,7 +4538,7 @@ except as meat.
 | Movement:       | 10’ Fly 160’ (10’)  |
 | No. Appearing:  | 1, Wild 1d4         |
 | Save As:        | Fighter:   1        |
-| Morale:         | 8                   |
+| Morale:         | 12                  |
 | Treasure Type:  | None                |
 | XP:             | 25                  |
 
@@ -4567,7 +4567,7 @@ talons.
 | Movement: | 40' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 5 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | C |
 | XP: | 360 |
 
@@ -4601,7 +4601,7 @@ their native territory.
 | Movement:       | 10’ Fly 100’ (10’)    |
 | No. Appearing:  | Wild 1d4              |
 | Save As:        | Normal Man            |
-| Morale:         | 6                     |
+| Morale:         | 9                     |
 | Treasure Type:  | None                  |
 | XP:             | 10                    |
 
@@ -4629,7 +4629,7 @@ cannot actually carry on a conversation.
 | Movement: | 80' (10') Fly 160' (10') |
 | No. Appearing: | Wild 1d12 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -4659,7 +4659,7 @@ a heavy load, up to 900 pounds.
 | Movement: | 30' Fly 60' |
 | No. Appearing: | 2d4, Wild 10d4, Lair 10d4 |
 | Save As: | Fighter: 1 (with Elf bonuses) |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | R, S |
 | XP: | 37 |
 
@@ -4699,7 +4699,7 @@ person."
 | Movement: | 20' (15') Burrow 20' (15') |
 | No. Appearing: | 1d2, Wild 1d4 |
 | Save As: | Fighter: 6 to 10 (½ of Hit Dice) |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | None |
 | XP: | 1,670 -- 5,450 |
 
@@ -4723,7 +4723,7 @@ Any time a purple worm successfully bites a man-sized or smaller opponent with a
 | Movement: | 20' Swim 10' | 40' Swim 20' |
 | No. Appearing: | 5d10, Wild 5d10, Lair 5d10 | 3d6, Wild 3d10, Lair 3d10 |
 | Save As: | Normal Man | Fighter: 1 |
-| Morale: | 5 | 8 |
+| Morale: | 6 | 12 |
 | Treasure Type: | None | C |
 | XP: | 360* | 10 |
 
@@ -4749,7 +4749,7 @@ Any rat bite has a 5% chance of causing a disease. A character who suffers one o
 | Movement: | 50' |
 | No. Appearing: | 1d4, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | U |
 | XP: | 240 |
 
@@ -4803,7 +4803,7 @@ will attempt to withdraw to consume its prey in peace.
 | Movement: | 40' (15') | 40' (15') |
 | No. Appearing: | Wild 1d12 | Wild 1d8 |
 | Save As: | Fighter: 6 | Fighter: 8 |
-| Morale: | 6 | 6 |
+| Morale: | 9 | 9 |
 | Treasure Type: | None | None |
 | XP: | 875 | 1,875 |
 
@@ -4827,7 +4827,7 @@ The woolly rhinoceros is a prehistoric beast with long fur, found in primitive "
 | Movement: | 20' Fly 160' (10') |
 | No. Appearing: | Wild 1d12 | Wild 1d8 | Wild 1 |
 | Save As: | Fighter: 6 | Fighter: 12 | Fighter: 20 at +5 |
-| Morale: | 8 | 9 | 10 |
+| Morale: | 12 | 14 | 16 |
 | Treasure Type: | I | I | I |
 | XP: | 500 | 1,875 | 14,250 |
 
@@ -4869,7 +4869,7 @@ or less. If facing a large group the rocs may make
 passes close overhead to scatter them first before each
 chooses a single target to prey upon. Mated pairs
 found in their nests will fight to the death to protect
-their eggs or offspring (morale of 12 in this case).
+their eggs or offspring (morale of 20 in this case).
 
 </div>
 <div class="monster" data-tag="Rock Baboon" >
@@ -4885,7 +4885,7 @@ their eggs or offspring (morale of 12 in this case).
 | Movement: | 40' |
 | No. Appearing: | 2d6, Wild 2d6, Lair 5d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -4907,7 +4907,7 @@ Rock baboons are omnivorous, but prefer meat. They are aggressive, naturally cru
 | Movement: | 5' |
 | No. Appearing: | 5d4 |
 | Save As: | Fighter: 1 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 10 |
 
@@ -4927,7 +4927,7 @@ Rot grubs are 1-inch long vermin found in carrion, dung, and other such garbage 
 | Movement: | 40' |
 | No. Appearing: | 1d4 |
 | Save As: | Fighter: 5 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 405 |
 
@@ -4977,7 +4977,7 @@ both monsters seem to have the exact same power.
 | Movement: | 50' |
 | No. Appearing: | Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 8 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | None |
 | XP: | 875 |
 
@@ -5005,7 +5005,7 @@ primarily upon large herbivores.
 | Movement:       | 40'                       |
 | No. Appearing:  | 1d4+1, Wild 2d4, Lair 2d4 |
 | Save As:        | Fighter: 8                |
-| Morale:         | 8                         |
+| Morale:         | 12                        |
 | Treasure Type:  | F                         |
 | XP:             | 945                       |
 
@@ -5038,7 +5038,7 @@ Elvish, Common, and/or Dragon.
 | Movement:       | 40'                             |
 | No. Appearing:  | 1d3, Wild 1d3, Lair 1d3         |
 | Save As:        | Fighter: 12                     |
-| Morale:         | 9                               |
+| Morale:         | 14                              |
 | Treasure Type:  | E                               |
 | XP:             | 1,975                           |
 
@@ -5081,7 +5081,7 @@ parley, fight, or even ignore adventurers.
 | Movement:       | 40'                           |
 | No. Appearing:  | 1d4, Wild 2d4, Lair 2d4       |
 | Save As:        | Fighter:   10                 |
-| Morale:         | 8                             |
+| Morale:         | 12                            |
 | Treasure Type:  | E                             |
 | XP:             | 1,390                         |
 
@@ -5122,7 +5122,7 @@ those listening).
 | Movement:       | 20'                         |
 | No. Appearing:  | 1d3, Wild 2d4, Lair 1d6     |
 | Save As:        | Fighter:  7                 |
-| Morale:         | 8                           |
+| Morale:         | 12                          |
 | Treasure Type:  | L                           |
 | XP:             | 735                         |
 
@@ -5169,7 +5169,7 @@ Elvish, Common, or Dragon.
 | Movement: | 50' (10') |
 | No. Appearing: | 1d6, Wild 1d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | None |
 | XP: | 280 |
 
@@ -5189,7 +5189,7 @@ Giant scorpions are quite large, sometimes as large as a donkey. They are aggres
 | Movement: | Swim 50' (10') |
 | No. Appearing: | Wild 2d6 |
 | Save As: | Fighter: 6 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -5209,7 +5209,7 @@ Sea serpents are, obviously, serpentine monsters which live in the sea. They ran
 | Movement: | 30' |
 | No. Appearing: | 1d10, Wild 1d10, Lair 1d10 |
 | Save As: | Fighter: 2 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | F |
 | XP: | 100 |
 
@@ -5233,7 +5233,7 @@ Due to their incorporeal nature, shadows cannot be harmed by non-magical weapons
 | Movement: | Swim 60' (10') |
 | No. Appearing: | Wild 3d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -5258,7 +5258,7 @@ and often travel up rivers in search of prey.
 | Movement: | Swim 60' (10') |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 8 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 875 |
 
@@ -5278,7 +5278,7 @@ Great white sharks range from 12' to 15' in length on the average, though specim
 | Movement: | Swim 80' |
 | No. Appearing: | Wild 2d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 240 |
 
@@ -5299,7 +5299,7 @@ Mako sharks are fast-moving predators found in temperate and tropical seas. They
 | Movement:       | 60'                     | 60'                   |
 | No. Appearing:  | 1d4, Wild 1d8, Lair 1d8 |                       |
 | Save As:        | Fighter: 2              | Fighter: 2            |
-| Morale:         | 10                      | 10                    |
+| Morale:         | 16                      | 16                    |
 | Treasure Type:  | None                    | None                  |
 | XP:             | 25                      | 37                    |
 
@@ -5335,7 +5335,7 @@ save again in subsequent rounds if bitten again.
 | Movement: | 5' |
 | No. Appearing: | 1d8 |
 | Save As: | Fighter: 1 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 145 |
 
@@ -5371,7 +5371,7 @@ wails.
 | Movement: | 40' |
 | No. Appearing: | 3d6, Wild 3d10 |
 | Save As: | Fighter: 1 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 25 |
 
@@ -5391,7 +5391,7 @@ Skeletons are mindless **undead** created by an evil Magic-User or Cleric, gen
 | Movement: | 40' |
 | No. Appearing: | 1d2, Wild 1d2, Lair 1d2 |
 | Save As: | Fighter: 2 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 100 |
 
@@ -5411,7 +5411,7 @@ style="position: absolute; top: 0in; left: 0in" Giant rattlesnakes are simply mu
 | Movement: | 30' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 1 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 37 |
 
@@ -5437,7 +5437,7 @@ Rattlesnakes are a variety of pit viper; in addition to the details given above,
 | Movement: | 30' |
 | No. Appearing: | 1d3, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 5 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 405 |
 
@@ -5457,7 +5457,7 @@ After a successful bite attack, a python will wrap itself around the victim (in 
 | Movement: | 10' Swim 30' |
 | No. Appearing: | Wild 1d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 175 |
 
@@ -5479,7 +5479,7 @@ Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, et
 | Movement: | 30' |
 | No. Appearing: | 1d6, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 1 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 37 |
 
@@ -5499,7 +5499,7 @@ Spitting cobras average about 7' in length at adulthood. They use their spreadin
 | Movement: | Fly 100' |
 | No. Appearing: | 1d4, Lair 1d8 |
 | Save As: | Fighter: 6 |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | E |
 | XP: | 610 |
 
@@ -5532,7 +5532,7 @@ Like all undead, they may be Turned by Clerics and are immune to **sleep**, **
 | Movement: | 20' Web 40' |
 | No. Appearing: | 1d3, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 3 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 175 |
 
@@ -5554,7 +5554,7 @@ The venom of the giant black widow is strong, such that those bitten must save v
 | Movement: | 40' |
 | No. Appearing: | 1d4, Wild 1d4, Lair 1d4 |
 | Save As: | Fighter: 2 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 100 |
 
@@ -5574,7 +5574,7 @@ Crab spiders are ambush predators, hiding using various forms of camouflage and 
 | Movement: | 50' |
 | No. Appearing: | 1d3, Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 4 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | None |
 | XP: | 280 |
 
@@ -5598,7 +5598,7 @@ Each round the original victim dances, he or she must save vs. Poison again or t
 | Movement: | 20' Fly 60' |
 | No. Appearing: | 3d6, Wild 3d6, Lair 5d8 |
 | Save As: | Magic-User: 4 (with Elf bonuses) |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | S |
 | XP: | 13 |
 
@@ -5620,7 +5620,7 @@ Five sprites acting together can cast **remove curse**, or its reversed form *
 | Movement:       | Swim 40'              | Swim 40'              |
 | No. Appearing:  | Wild 1d4              | Wild 1d4              |
 | Save As:        | Fighter: 6            | Fighter: 7            |
-| Morale:         | 8                     | 8                     |
+| Morale:         | 12                    | 12                    |
 | Treasure Type:  | None                  | None                  |
 | XP:             | 500                   | 670                   |
 
@@ -5666,7 +5666,7 @@ in hopes that at least one will escape any pursuit.
 | Movement: | 10' Fly 60' |
 | No. Appearing: | 1d10, Wild 3d12, Lair 3d12 |
 | Save As: | Fighter: 1 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | D |
 | XP: | 37 |
 
@@ -5709,7 +5709,7 @@ but any attack that misses hits the victim instead.
 | Movement:       | 5'                     |
 | No. Appearing:  | 1d4+1                  |
 | Save As:        | Fighter:  6            |
-| Morale:         | 12                     |
+| Morale:         | 20                     |
 | Treasure Type:  | U                      |
 | XP:             | 500                    |
 
@@ -5771,7 +5771,7 @@ ground variety of the plant.
 | Movement: | 40' |
 | No. Appearing: | 1d3, Lair 1d3 |
 | Save As: | Fighter: 3 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | B |
 | XP: | 175 |
 
@@ -5795,7 +5795,7 @@ If all opponents of a tentacle worm are rendered paralyzed, it will begin to fee
 | Movement: | 50' |
 | No. Appearing: | Wild 1d3, Lair 1d3 |
 | Save As: | Fighter: 6 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -5826,7 +5826,7 @@ areas of habitat to support their requirements for prey.
 | Movement: | 40' (10') |
 | No. Appearing: | Wild 1d6 |
 | Save As: | Fighter: 8 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 1,875 |
 
@@ -5846,7 +5846,7 @@ A titanothere is a huge prehistoric animal that resembles the rhinoceros; adults
 | Movement: | 20' |
 | No. Appearing: | Wild 1d8, Lair 1d8 |
 | Save As: | Fighter: 8 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | C |
 | XP: | 945 |
 
@@ -5914,7 +5914,7 @@ See [Lizard Man](#lizard-man).
 | Movement:       | 40'                     | 40'            |
 | No. Appearing:  | 1d8, Wild 1d8, Lair 1d8 | 1 (special)    |
 | Save As:        | Fighter: 6              | Fighter: 7     |
-| Morale:         | 10 (8)                  | 10 (8)         |
+| Morale:         | 16 (12)                 | 16 (12)        |
 | Treasure Type:  | D                       | D              |
 | XP:             | 555                     | 735            |
 
@@ -6017,7 +6017,7 @@ of the remains).
 | Movement:       | 30'                    | 50'                | 40'                |
 | No. Appearing:  | – special, see below – |                    |                    |
 | Save As:        | Fighter: -2            | Fighter: -4        | Fighter: -6        |
-| Morale:         | – 9 (7) –              |                    |                    |
+| Morale:         | – 14 (10) –            |                    |                    |
 | Treasure Type:  | – None –               |                    |                    |
 | XP:             | 1 HD 37,   2 HD 100    | 3 HD 175, 4 HD 280 | 5 HD 405, 6 HD 555 |
 
@@ -6068,7 +6068,7 @@ adults
 | Movement:       | 5' Swim 20'        | 5' Swim 20'     |
 | No. Appearing:  | Wild 1d4           | Wild 1d4        |
 | Save As:        | Normal Man         | Fighter:  1     |
-| Morale:         | 5                  | 6               |
+| Morale:         | 6                  | 9               |
 | Treasure Type:  | None               | None            |
 | XP:             | 10                 | 25              |
 
@@ -6101,7 +6101,7 @@ well-camouflaged, gaining surprise on a roll of 1-3 on
 | Movement: | 80' | 70' |
 | No. Appearing: | Wild 1d6 | Wild 1d8 |
 | Save As: | Fighter: 8 | Fighter: 6 |
-| Morale: | 7 | 9 |
+| Morale: | 10 | 14 |
 | Treasure Type: | None | None |
 | XP: | 280 | 280 |
 
@@ -6129,7 +6129,7 @@ Alicorns cannot heal or transport themselves by magic as unicorns do. However, a
 | Movement: | 30' Unarmored 40' |
 | No. Appearing: | Special |
 | Save As: | Fighter: 2 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | Q, R, S each; special in lair |
 | XP: | 100 |
 
@@ -6151,7 +6151,7 @@ Some hobgoblin tribes consider urgoblins an abomination, and kill them whenever 
 | Movement: | 40' Fly 60' |
 | No. Appearing: | 1d6, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 7 to 9 (as Hit Dice) |
-| Morale: | 11 |
+| Morale: | 18 |
 | Treasure Type: | F |
 | XP: | 800 - 1,225 |
 
@@ -6284,7 +6284,7 @@ complete its destruction.
 | Movement: | Swim 30' |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 1 to 4 (as Hit Dice) |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | None |
 | XP: | 25 - 240 |
 
@@ -6308,7 +6308,7 @@ These creatures are found in fresh and salt water as well as in swamps. The fres
 | Movement: | 50' |
 | No. Appearing: | 1d4, Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 5 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | V |
 | XP: | 360 |
 
@@ -6332,7 +6332,7 @@ There are many varieties of normal-sized weasel, including several which are cal
 | Movement: | Swim 80' (10') |
 | No. Appearing: | Wild 1d6 |
 | Save As: | Fighter: 6 |
-| Morale: | 10 |
+| Morale: | 16 |
 | Treasure Type: | None |
 | XP: | 500 |
 
@@ -6354,7 +6354,7 @@ Killer whales eat fish, squid, seals, and other whales, but are not above consum
 | Movement: | Swim 60' |
 | No. Appearing: | Wild 1d4 |
 | Save As: | Fighter: 6 |
-| Morale: | 8 |
+| Morale: | 12 |
 | Treasure Type: | Special |
 | XP: | 1,875 |
 
@@ -6374,7 +6374,7 @@ Narwhals are aquatic mammals resembling large dolphins with a single (or rarely,
 | Movement: | Swim 60' (20') |
 | No. Appearing: | Wild 1d3 |
 | Save As: | Fighter: 8 |
-| Morale: | 7 |
+| Morale: | 10 |
 | Treasure Type: | None |
 | XP: | 17,850 |
 
@@ -6394,7 +6394,7 @@ These creatures can be up to 60 feet long. They prey on giant squid. Sperm whale
 | Movement: | 30' |
 | No. Appearing: | 1d6, Wild 1d8, Lair 1d8 |
 | Save As: | Fighter: 3 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | B |
 | XP: | 175 |
 
@@ -6421,7 +6421,7 @@ Like all undead, wights may be Turned by Clerics and are immune to **sleep**, 
 | Movement: | 60' | 50' |
 | No. Appearing: | 2d6, Wild 3d6, Lair 3d6 | 1d4, Wild 2d4, Lair 2d4 |
 | Save As: | Fighter: 2 | Fighter: 4 |
-| Morale: | 8 | 9 |
+| Morale: | 12 | 14 |
 | Treasure Type: | None | None |
 | XP: | 75 | 240 |
 
@@ -6443,7 +6443,7 @@ Dire wolves are efficient pack hunters that will kill anything they can catch. D
 | Movement: | Fly 80' |
 | No. Appearing: | 1d4, Lair 1d6 |
 | Save As: | Fighter: 4 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | E |
 | XP: | 320 |
 
@@ -6465,7 +6465,7 @@ Like all undead, they may be Turned by Clerics and are immune to **sleep**, **
 | Movement: | 30' (10') Fly 80' (15') |
 | No. Appearing: | Wild 1d6, Lair 1d6 |
 | Save As: | Fighter: 7 |
-| Morale: | 9 |
+| Morale: | 14 |
 | Treasure Type: | E |
 | XP: | 735 |
 
@@ -6512,7 +6512,7 @@ If disturbed, a patch of this mold bursts forth with a cloud of poisonous spores
 | Movement: | 20' |
 | No. Appearing: | 2d4, Wild 4d6 |
 | Save As: | Fighter: 2 |
-| Morale: | 12 |
+| Morale: | 20 |
 | Treasure Type: | None |
 | XP: | 75 |
 
@@ -6524,18 +6524,18 @@ Zombies are the **undead** corpses of humanoid creatures. They are deathly slo
 
 ## Zombraire (and Skeletaire)
 
-|                 | Zombraire           | Skeletaire          |
-|-----------------|---------------------|---------------------|
-| Armor Class:    | 12 (see below)      | 13 (see below)      |
-| Hit Dice:       | 2* (variable)       | 1* (variable)       |
-| No. of Attacks: | 1 dagger or 1 spell | 1 dagger or 1 spell |
-| Damage:         | 1d4 or per spell    | 1d4 or per spell    |
-| Movement:       | 20'                 | 40'                 |
-| No. Appearing:  | 1                   | 1                   |
-| Save As:        | Magic-User: by HD   | Magic-User:  by HD  |
-| Morale:         | 9 to 12 (see below) | 12                  |
-| Treasure Type:  | None                | None                |
-| XP:             | 100 (variable)      | 37 (variable)       |
+|                 | Zombraire            | Skeletaire          |
+|-----------------|----------------------|---------------------|
+| Armor Class:    | 12 (see below)       | 13 (see below)      |
+| Hit Dice:       | 2* (variable)        | 1* (variable)       |
+| No. of Attacks: | 1 dagger or 1 spell  | 1 dagger or 1 spell |
+| Damage:         | 1d4 or per spell     | 1d4 or per spell    |
+| Movement:       | 20'                  | 40'                 |
+| No. Appearing:  | 1                    | 1                   |
+| Save As:        | Magic-User: by HD    | Magic-User:  by HD  |
+| Morale:         | 14 to 20 (see below) | 20                  |
+| Treasure Type:  | None                 | None                |
+| XP:             | 100 (variable)       | 37 (variable)       |
 
 A Zombraire is a free-willed undead Magic-User. Like
 the zombie it resembles, a zombraire moves silently, is

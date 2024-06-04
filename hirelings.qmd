@@ -14,29 +14,31 @@ If the player character is successful, one or more NPCs will present themselves 
 
 import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
 
-viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([2,6,0],[[2,2],[3,5],[6,8],[9,11],[12,12]]))})
-md`2d6: ${reaction}`
+viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([1,20,0],[[1,1], [2,2],[3,6],[7,8],[9,12],[14,19],[20, 20]]))})
+md`1d20: ${reaction}`
 ```
 
 :::{#reaction-roll}
 
 | **Adjusted Die Roll** | **Result** |
 |---|---|
-| 2 or less | Refusal, -1 on further rolls |
-| 3-5 | Refusal |
-| 6-8 | Try again |
-| 9-11 | Acceptance |
-| 12 or more | Acceptance, +1 to Loyalty |
+| 1 or less | Refusal, -2 on further rolls |
+| 2 | Refusal, -1 on further rolls |
+| 3-6 | Refusal |
+| 7-8 | Try again
+| 9-12 | Try again, +1 on future rolls |
+| 14-19 | Acceptance |
+| 20 or more | Acceptance, +2 to Loyalty |
 
 :::
 
-**Refusal, -1 on further rolls** means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.
+**Refusal, -1/-2 on further rolls** means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 or -2 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.
 
 If a **Try again** result is rolled, the potential retainer is reluctant, and needs more convincing; the player character must "sweeten" the deal in order to get an additional roll, such as by offering more pay, a magic item, etc. If the player character makes no better offer, treat **Try again** as a **Refusal** result.
 
-**Loyalty:** All retainers have a Loyalty score, which is generally 7 plus the employer's Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.
+**Loyalty:** All retainers have a Loyalty score, which is generally 10 plus the employer's Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.
 
-If a Loyalty check roll made in combat is a natural 2, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 12 is fanatical... the retainer will do virtually anything the player character asks, and never flee in combat. However, the Game Master should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.
+If a Loyalty check roll made in combat is a natural 1, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 20 is fanatical... the retainer will do virtually anything the player character asks, and never flee in combat. However, the Game Master should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.
 
 In addition, the Game Master should roll a Loyalty check for each retainer at the end of each adventure, after treasure is divided, to determine if the retainer will remain with the player character. The GM may apply adjustments to this roll, probably no more than two points plus or minus, if the retainer is particularly well or poorly paid.
 

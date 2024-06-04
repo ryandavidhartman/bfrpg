@@ -323,13 +323,18 @@ Wrestling attacks against creatures with touch attacks (such as wights) will cau
 
 #### Morale
 
-NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 2 and 12. To make a Morale check, roll 2d6; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 12 never fail a Morale check; they always fight to the death.
+NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 1 and 20. To make a Morale check, roll 1d20; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 20 never fail a Morale check; they always fight to the death.
 
 In general, Morale is checked when monster(s) first encounter opposition, and again when the monster party is reduced to half strength (by numbers if more than one monster, or by hit points if the monster is alone). For this purpose, monsters incapacitated by **sleep**, **charm**, or **hold** magic are counted as if dead.
 
-The Game Master may apply adjustments to a monster's Morale score in some situations, at his or her discretion. Generally, adjustments should not total more than +2 or -2. No adjustment is ever applied to a Morale score of 12.
+The Game Master may apply adjustments to a monster's Morale score in some situations, at his or her discretion. Generally, adjustments should not total more than +3 or -3. No adjustment is ever applied to a Morale score of 20.
 
 A monster that fails a Morale check will generally attempt to flee; intelligent monsters or NPCs may attempt to surrender, if the GM so desires.
+
+| Cowardly |  Medium | Brave | Very Brave | Fight to the Death |
+|----------|---------|-------|------------|--------------------|
+| 15       | 10      | 5     | 2          | 1                  |
+: Morale DC {#tbl-morale-dc}        
 
 Note that special rules apply to retainers; see the relevant rules in the [Hirelings](hirelings.qmd#retainers) section, above.
 
