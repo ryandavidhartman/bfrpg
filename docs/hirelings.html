@@ -515,7 +515,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">18</span>]<span class="op">,</span>[<span class="dv">19</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`1d20: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
@@ -569,10 +569,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Try again, +1 on future rolls</td>
 </tr>
 <tr class="even">
-<td>14-19</td>
+<td>14-18</td>
 <td>Acceptance</td>
 </tr>
 <tr class="odd">
+<td>19</td>
+<td>Acceptance, +1 to Loyalty</td>
+</tr>
+<tr class="even">
 <td>20 or more</td>
 <td>Acceptance, +2 to Loyalty</td>
 </tr>
@@ -771,7 +775,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHJlYWN0aW9uID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93UmV0KFwiI3JlYWN0aW9uLXJvbGxcIiwgZ2VuZXJhbFRhYmxlU2VsZWN0MihbMSwyMCwwXSxbWzEsMV0sIFsyLDJdLFszLDZdLFs3LDhdLFs5LDEyXSxbMTQsMTldLFsyMCwgMjBdXSkpfSlcclxubWRgMWQyMDogJHtyZWFjdGlvbn1gXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgncmVhY3Rpb24nKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHJlYWN0aW9uID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93UmV0KFwiI3JlYWN0aW9uLXJvbGxcIiwgZ2VuZXJhbFRhYmxlU2VsZWN0MihbMSwyMCwwXSxbWzEsMV0sIFsyLDJdLFszLDZdLFs3LDhdLFs5LDEyXSxbMTQsMThdLFsxOSwxOV0sWzIwLCAyMF1dKSl9KVxyXG5tZGAxZDIwOiAke3JlYWN0aW9ufWBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdyZWFjdGlvbicpIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

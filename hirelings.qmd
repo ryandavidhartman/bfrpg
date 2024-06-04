@@ -14,7 +14,7 @@ If the player character is successful, one or more NPCs will present themselves 
 
 import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
 
-viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([1,20,0],[[1,1], [2,2],[3,6],[7,8],[9,12],[14,19],[20, 20]]))})
+viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([1,20,0],[[1,1], [2,2],[3,6],[7,8],[9,12],[14,18],[19,19],[20, 20]]))})
 md`1d20: ${reaction}`
 ```
 
@@ -27,7 +27,8 @@ md`1d20: ${reaction}`
 | 3-6 | Refusal |
 | 7-8 | Try again
 | 9-12 | Try again, +1 on future rolls |
-| 14-19 | Acceptance |
+| 14-18 | Acceptance |
+| 19 | Acceptance, +1 to Loyalty |
 | 20 or more | Acceptance, +2 to Loyalty |
 
 :::
