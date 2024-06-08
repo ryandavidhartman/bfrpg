@@ -16,7 +16,7 @@ For game purposes, assume that one gold piece weighs 1/20^th^ of a pound, and t
 
 As a reference here is a rough equivalance to modern currency, 1 silver coin is roughly equal to 1 US dollar.  Hence:
 
-`1 pp = $50.  1 gp = $10. 	1 ep = $5.  	1 sp = $1.    1 cp = ₵10`
+*1 pp = $50.  1 gp = $10. 	1 ep = $5.  	1 sp = $1.    1 cp = ₵10*
 
 First level characters generally begin the game with 3d6 x 10 gp (unless the GM decides otherwise).
 

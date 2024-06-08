@@ -49,18 +49,18 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 
 ::: {.table-responsive}
 
-|                 | Camel               | Donkey/Mule  | Horse, Draft     | Horse, Riding     | Horse, War    | Pony          | Pony, War     | 
-|-----------------|---------------------|--------------|------------------|-------------------|---------------|---------------|---------------|
-| Armor Class:    | 10                  | 10           | 10               | 12                | 12            | 10            | 12            | 
-| Hit Dice:       | 2                   | 2            | 3                | 2                 | 3             | 2             | 2             | 
-| \# of Attacks:  | Bite or Hoof        | Kick or Bite | 2 Hooves         | 1 Hoof            | 2 Hooves      | 2 Hooves      | 2 Hooves      | 
-| Damage:         | 1d4                 | 1d4          | 2d4              | 1d4               | 2d4           | 1d4           | 1d4           | 
-| Movement:       | 50'(10') [40'(10')] | 40' (10')    | 60' (10')        | 80' (10')         | 80' (10')     | 60' (10')     | 60' (10')     | 
-| No. Appearing:  | Wild 2d4            | Wild 2d4     | domestic only    | Wild 10d10        | domestic only | Wild 2d4      | domestic only | 
-| Save As:        | Fighter: 2          | Fighter: 2   | Fighter: 3       | Fighter: 2        | Fighter: 3    | Fighter: 2    | Fighter: 2    | 
-| Morale:         | 10                  | 7            | 8                | 10                | 15            | 10            | 15            | 
-| XP:             | 75                  | 75           | 145              | 75                | 145           | 75            | 95            |
-| Price:          | 80gp                | 50gp         | 120gp            | 75pg              | 200gp         | 50gp          | 80gp          |          
+|                   | Camel               | Donkey/Mule  | Horse, Draft     | Horse, Riding     | Horse, War    | Pony          | Pony, War     | 
+|-------------------|---------------------|--------------|------------------|-------------------|---------------|---------------|---------------|
+| Armor Class:      | 10                  | 10           | 10               | 12                | 12            | 10            | 12            | 
+| Hit Dice:         | 2                   | 2            | 3                | 2                 | 3             | 2             | 2             | 
+| \# of Attacks:    | Bite or Hoof        | Kick or Bite | 2 Hooves         | 2 Hooves          | 2 Hooves      | 2 Hooves      | 2 Hooves      | 
+| Damage:           | 1d4                 | 1d4          | 2d4              | 1d4               | 2d4           | 1d4           | 1d4           | 
+| Movement:         | 50'(10') [40'(10')] | 40' (10')    | 60' (10')        | 80' (10')         | 80' (10')     | 60' (10')     | 60' (10')     | 
+| No. Appearing:    | Wild 2d4            | Wild 2d4     | domestic only    | Wild 10d10        | domestic only | Wild 2d4      | domestic only | 
+| Save As: Fighter  | 2                   | 2            | 3                | 2                 | 3             | 2             | 2             | 
+| Morale:           | 10                  | 7            | 8                | 10                | 15            | 10            | 15            | 
+| XP:               | 75                  | 75           | 145              | 75                | 145           | 75            | 95            |
+| Price:            | 80gp                | 50gp         | 120gp            | 75pg              | 200gp         | 50gp          | 80gp          |          
 
 :::
 
