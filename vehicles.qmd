@@ -21,18 +21,18 @@ The following tables give details of various land and sea vehicles. Game Masters
 
 ::: {.column-screen-inset-right}
 
-| Vehicle | Length x Width | Cargo | Crew | Movement | Miles/Day | Hardness / HP | Cost (gp) |
-|---|---|---|---|---|---|---|---|
-| Canoe | 15' x 4' | ½ ton | 1 | 40' (5') | 30 | 4 / 4 | 50 |
-| Caravel | 55' x 15' | 75 tons | 10 | 20' (20') | 42 | 8 / 75 | 10,000 |
-| Carrack | 60' x 20' | 135 tons | 20 | 30' (30') | 48 | 10 / 120 | 20,000 |
-| Galley, Small | 100' x 15' | 210 tons | 90 | 20' (20') | 36 / 24 | 8 / 75 | 15,000 |
-| Galley, Large | 120' x 20' | 375 tons | 160 | 30' (25') | 42 / 24 | 10 / 120 | 30,000 |
-| Longship | 110' x 15' | 10 tons | 70 | 30' (25') | 42 / 24 | 9 / 110 | 25,000 |
-| Raft/Barge | per 10' x 10' | 1 ton | 2 | 40' (10') | 18 | 6 / 12 | 100 |
-| Riverboat | 50' x 20' | 50 tons | 10 | 20' (20') | 30 | 8 / 30 | 3,500 |
-| Rowboat | 15' x 6' | 1 ton | 1 | 30'  (10') | 24 | 6 / 8 | 60 |
-| Sailboat | 40' x 8' | 5 tons | 1 | 40' (15') | 36 | 7 / 20 | 2,000 |
+| Vehicle       | Length x Width | Cargo    | Crew | Movement   | Miles/Day | Hardness / HP | Cost (gp) |
+|---------------|----------------|----------|------|------------|-----------|---------------|-----------|
+| Canoe         | 15' x 4'       | ½ ton    | 1    | 40' (5')   | 30        | 4 / 4         | 50        |
+| Caravel       | 55' x 15'      | 75 tons  | 10   | 20' (20')  | 42        | 8 / 75        | 10,000    |
+| Carrack       | 60' x 20'      | 135 tons | 20   | 30' (30')  | 48        | 10 / 120      | 20,000    |
+| Galley, Small | 100' x 15'     | 210 tons | 90   | 20' (20')  | 36 / 24   | 8 / 75        | 15,000    |
+| Galley, Large | 120' x 20'     | 375 tons | 160  | 30' (25')  | 42 / 24   | 10 / 120      | 30,000    |
+| Longship      | 110' x 15'     | 10 tons  | 70   | 30' (25')  | 42 / 24   | 9 / 110       | 25,000    |
+| Raft/Barge    | per 10' x 10'  | 1 ton    | 2    | 40' (10')  | 18        | 6 / 12        | 100       |
+| Riverboat     | 50' x 20'      | 50 tons  | 10   | 20' (20')  | 30        | 8 / 30        | 3,500     |
+| Rowboat       | 15' x 6'       | 1 ton    | 1    | 30'  (10') | 24        | 6 / 8         | 60        |
+| Sailboat      | 40' x 8'       | 5 tons   | 1    | 40' (15')  | 36        | 7 / 20        | 2,000     |
 
 
 ::: 

@@ -30,7 +30,7 @@ Being proficient in a weapon means you can add your Attack Bonus to attack rolls
 ### Carrying Capacity
 
 Player characters with average strength are able to carry up to 40 pounds and still be considered lightly loaded, or up to 115 pounds and be considered heavily loaded. 
-
+Note a character's armor weight counts against their load.
 
 +----------+------------+-------------+------------+
 | Strength | Light Load | Medium Load | Heavy Load |
@@ -76,7 +76,6 @@ A character's movement rate is adjusted by his or her Encumbrance (the load he o
 +-----------+------------+-------------+------------+  
 : Player Character Movement Rates {#tbl-movement-rates}     
  
-    
 
 ### Mapping
 
@@ -88,19 +87,18 @@ A torch or lantern will provide light covering a **30' radius**; dim light will 
 
 
 ```{ojs}
-/* import {view} from '@tomlarkworthy/view' */
-import {rolld4,rolld6} from "./custom.js"
+viewof torch = Inputs.button(html`<button style="color: black; background-color: lightgray;">Torch Turns (1d4+4)</button>`, {value: 0, reduce: () => (4 + generalDice(1,4,0))})
 
-viewof torch = Inputs.input(0)
-
-htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle"> 
-<div>
-${Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;">Torch Turns (1d4+4)</button>`, {value: 0, reduce: () => (4 + rolld4() )}), viewof torch)}
-</div><div>
-Torch burn turns = ${torch.value}</div>
-</div>
+htl.html`
+  <div style="display: flex; align-items: center;">
+    <div>
+      ${viewof torch}
+    </div>
+    <div style="margin-left: 10px;">
+      Torch burn turns = ${torch}
+    </div>
+  </div>
 `
-
 
 ```
 
@@ -108,21 +106,20 @@ Torch burn turns = ${torch.value}</div>
 
 ```{ojs}
 
-viewof oil = Inputs.input(0)
+viewof oil = Inputs.button(html`<button style="color: black; background-color: lightgray;">Oil Lantern (1d6 +18)</button>`, {value: 0, reduce: () => (18 + generalDice(1,6,0) )})
 
-htl.html`<div style="display:grid; grid-template-columns: 50% auto; vertical-align:midle">
-${Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;">Oil Lantern (1d6 +18)</button>`, {value: 0, reduce: () => (18 + rolld6() )}), viewof oil)}
-Lantern Turns = ${oil.value}
-</div>
+htl.html`
+  <div style="display: flex; align-items: center;">
+    <div>
+      ${viewof torch}
+    </div>
+    <div style="margin-left: 10px;">
+      Lantern turns = ${torch}
+    </div>
+  </div>
 `
 
-
 ```
-
-
-
-${form.select}
-
 
 ### Darkvision
 
