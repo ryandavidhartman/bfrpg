@@ -37,6 +37,7 @@ book:
       chapters: 
         - combatOverview.qmd
         - combatDetails.qmd
+        - savingThrows.qmd
     - part: Monsters
       chapters: 
         - monsters.qmd

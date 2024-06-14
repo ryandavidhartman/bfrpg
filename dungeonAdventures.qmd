@@ -87,6 +87,9 @@ A torch or lantern will provide light covering a **30' radius**; dim light will 
 
 
 ```{ojs}
+
+import {generalDice} from "./custom.js"
+
 viewof torch = Inputs.button(html`<button style="color: black; background-color: lightgray;">Torch Turns (1d4+4)</button>`, {value: 0, reduce: () => (4 + generalDice(1,4,0))})
 
 htl.html`
@@ -111,10 +114,10 @@ viewof oil = Inputs.button(html`<button style="color: black; background-color: l
 htl.html`
   <div style="display: flex; align-items: center;">
     <div>
-      ${viewof torch}
+      ${viewof oil}
     </div>
     <div style="margin-left: 10px;">
-      Lantern turns = ${torch}
+      Lantern turns = ${oil}
     </div>
   </div>
 `
@@ -138,38 +141,38 @@ A careful character might choose to listen at a door before opening it. Thieves 
 
 ```{ojs}
 
-import {generalDice} from "./custom.js"
+viewof i = Inputs.button(html`<button style="color: black; background-color: lightgray;"> 1d6 </button>`, {value: 1, reduce: () => (generalDice(1,6,0) )})
+viewof j = Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Bar </button>`, {value: 0, reduce: () => (generalDice(1,20,0) )})
+viewof k = Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Door </button>`, {value: 0, reduce: () => (generalDice(1,10,0) )})
 
-viewof i = Inputs.input(0)
-viewof j = Inputs.input(0)
-viewof k = Inputs.input(0)
+htl.html`
+  <div style="display: flex; align-items: center;">
+    <div>
+      ${viewof i}
+    </div>
+    <div style="margin-left: 10px;">
+      1d6 results = ${i}
+    </div>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div>
+      ${viewof j}
+    </div>
+    <div style="margin-left: 10px;">
+      Force Bar results = ${j}
+    </div>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div>
+      ${viewof k}
+    </div>
+    <div style="margin-left: 10px;">
+      Force Door results = ${k}
+    </div>
+  </div>
+`
 
-
-viewof form = Inputs.form(
-  {
-    doors: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;" 1d6 </button>`, {value: 1, reduce: () => (rolld6() )}), viewof i),
-    forceBars: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Bar </button>`, {value: 0, reduce: () => (generalDice(1,20,0) )}), viewof j),
-    forceDoor: Inputs.bind(Inputs.button(html`<button style="color: black; background-color: lightgray;"> Force Door </button>`, {value: 0, reduce: () => (generalDice(1,10,0) )}), viewof k),
-  },
-  {
-    template: (formParts) => htl.html`
-     <div>
-       <div style="
-         display: grid;
-         grid-template-columns: 50% auto; 
-         vertical-align:midle;
-         row-gap: 10px;
-       ">
-         ${Object.values(formParts)[0]} 1d6 result: ${i.value}
-         ${Object.values(formParts)[1]} Force Bar: ${j.value}
-         ${Object.values(formParts)[2]} Force Door: ${k.value}
-
-       </div>
-     </div>`
-  }
-)
 ```
-
 
 
 ### Traps
