@@ -25,7 +25,7 @@ Alignment is a way of describing the moral code of a creature.  These rules are 
 
 A creature's general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.
 
-Depending on the campaign, the GM may require that players choose an alignment for their characters.
+Depending on the campaign, the DM may require that players choose an alignment for their characters.
 
 Alignment is a tool for developing your character's identity. It is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.
 
@@ -411,7 +411,7 @@ Zombie	N
 
 This supplement provides additional armor and shields for play under the Basic Fantasy Role-Playing Game rules.    If you do not already have a copy of the Basic Fantasy RPG rules, please visit the website and download a copy.
 
-The tables below provide an expanded range of armor and shields for use in the game.  Availability of these additional items is at the discretion of the Game Master, of course.
+The tables below provide an expanded range of armor and shields for use in the game.  Availability of these additional items is at the discretion of the Dungeon Master , of course.
 
 Unless otherwise specified, a suit of armor takes 10 rounds minus the character's Dexterity bonus to put on or take off.
 
@@ -507,7 +507,7 @@ A **tower shield** is a very large shield that is almost the height of the weare
 
 **Piecemeal Armor**
 
-In some instances, a Game Master may wish to allow characters to piece together the various parts of Plate Armor to create a customized appearance or for some other purpose. This is known as **Piecemail Armor**. For every two pieces of Plate Mail Armor, other than the breastplate, a character may add +1 to his AC, up to a total bonus of +3. The character cannot gain more than +3 AC. Note: a "piece" of plate mail encompasses both the right and left hand side of the respective part. A single vambrace is not considered a "piece" until a second vambrace accompanies it. A breastplate may only be worn over padded armor and offers a +2 bonus to AC.
+In some instances, a Dungeon Master  may wish to allow characters to piece together the various parts of Plate Armor to create a customized appearance or for some other purpose. This is known as **Piecemail Armor**. For every two pieces of Plate Mail Armor, other than the breastplate, a character may add +1 to his AC, up to a total bonus of +3. The character cannot gain more than +3 AC. Note: a "piece" of plate mail encompasses both the right and left hand side of the respective part. A single vambrace is not considered a "piece" until a second vambrace accompanies it. A breastplate may only be worn over padded armor and offers a +2 bonus to AC.
 
 **For example:** Thorus the dwarven fighter currently wears chain mail. He finds a suit of Dwarven Plate Mail while exploring an abandoned mine, but one of the gauntlets and the breastplate is missing. He straps on the greaves, tassets, pauldrons, vambraces and faulds. Five full pieces have been strapped on, thus raising the Dwarf's overall armor class to 17. This also increases the overall weight of his armor by 32 lbs. to a total of 72 lbs. which is heavier than Plate due to overlapping the Plate Mail pieces with the chain mail pieces.
 
@@ -522,15 +522,15 @@ The **Basic Fantasy RPG Core Rules** allow you to create brave Fighters, devout 
 
 ### The Basis for These Rules
 
-The key concept here is "reasonableness" -- if it's reasonable, the Game Master should allow it (possibly requiring an Ability Roll).
+The key concept here is "reasonableness" -- if it's reasonable, the Dungeon Master  should allow it (possibly requiring an Ability Roll).
 
 ### Adventurers Know How to Adventure
 
 Player Characters (PCs) -- as opposed to most Normal Men -- are adventurers. While they might be mere upstart adventurers at level 1, they are still assumed to know the basics of adventuring and exploration. Assume that all player characters know how to tie knots, climb, swim, row a small boat, build a reasonable bonfire (usually requiring a tinderbox), make minor repairs and maintenance on arms and armor, and to ride a horse. Except for Barbarians (a Fighter subclass), assume that all PCs are literate in all the languages they speak, know how to read, and know math at least at an elementary school level; Barbarians have to take Literacy as a language.
 
-The fact that the adventurer knows how to do each of these basic tasks, however, does not mean that he or she will automatically succeed in doing them. The GM should judge each attempt and rule on its results. Simple stuff (such as climbing a ladder or a rope or lighting a bonfire out of dry wood with a tinderbox) should succeed automatically; difficult tasks (such as climbing a difficult cliff or a wall or trying to light a fire without a tinderbox) should require an Ability Roll (in our examples, based on Dexterity and Intelligence, respectively). Clearly impossible stuff (such as trying to set stones on fire with a tinderbox and no oil) should always fail -- no roll required.
+The fact that the adventurer knows how to do each of these basic tasks, however, does not mean that he or she will automatically succeed in doing them. The DM should judge each attempt and rule on its results. Simple stuff (such as climbing a ladder or a rope or lighting a bonfire out of dry wood with a tinderbox) should succeed automatically; difficult tasks (such as climbing a difficult cliff or a wall or trying to light a fire without a tinderbox) should require an Ability Roll (in our examples, based on Dexterity and Intelligence, respectively). Clearly impossible stuff (such as trying to set stones on fire with a tinderbox and no oil) should always fail -- no roll required.
 
-Note that thinking should usually be done by players, not characters. No Intelligence Roll should solve riddles or puzzles -- players should try and figure them out themselves (this way is usually far more enjoyable, too). In fact, characters are assumed to be literate and know a bit of math for this exact reason -- to allow the GM to present the players with interesting and enjoyable challenges without too many problems.
+Note that thinking should usually be done by players, not characters. No Intelligence Roll should solve riddles or puzzles -- players should try and figure them out themselves (this way is usually far more enjoyable, too). In fact, characters are assumed to be literate and know a bit of math for this exact reason -- to allow the DM to present the players with interesting and enjoyable challenges without too many problems.
 
 ### Background Skills
 
@@ -539,7 +539,7 @@ Adventuring aside, talented characters may also be proficient in one or more pro
 
 Each Background Skill is a broad profession, such as Mason, Carpenter, Gemcutter, Jeweler, Farmer, Woodsman, Blacksmith, and so on. It entails all the basic skills involved in this profession. Assume that a character can easily perform the day-to-day tasks of each his or her Background Skills as long as they have access to the required tools, equipment, and materials; there is no need to roll dice in such a case. Only difficult tasks require an Ability Roll. For example, a character with the Blacksmith background skill can easily produce horseshoes, pots, and even average-quality arrowheads as long as he or she has access to a functioning forge, coal, iron, and so on; only making a special item (such as a high-quality sword suitable to be later enchanted) will require an Ability Roll.
 
-NPCs, of course, are as skilled in their professions as the GM needs them to be.
+NPCs, of course, are as skilled in their professions as the DM needs them to be.
 
 ### Some Examples of Background Skills
 
@@ -591,9 +591,9 @@ This supplement additional combat options for player and non-player characters f
 
 ### Using These Rules
 
-Below are defined various *optional* combat rules. The Game Master must choose which, if any, of these rules apply in his or her game.
+Below are defined various *optional* combat rules. The Dungeon Master  must choose which, if any, of these rules apply in his or her game.
 
-In order to make these options easier to use, each optional rule has a checkbox beside it. The GM may wish to print a copy of this supplement and mark the checkboxes for the rules he or she has chosen.
+In order to make these options easier to use, each optional rule has a checkbox beside it. The DM may wish to print a copy of this supplement and mark the checkboxes for the rules he or she has chosen.
 
 ### Weapon Specialization ☐
 
@@ -616,13 +616,13 @@ As indicated in the Attacks Per Round column, at higher ranks of specialization 
 | 5    | +3 / +2                          | 2 / 1             |
 | 6    | +3 / +3                          | 2 / 1             |
 
-Some GMs do not like the 3/2 rate, as it does involve keeping track of even and odd rounds.  In such a case, the GM may either choose to use 1/1 for both ranks, or 1/1 for rank 3 and 2/1 for rank 4.
+Some GMs do not like the 3/2 rate, as it does involve keeping track of even and odd rounds.  In such a case, the DM may either choose to use 1/1 for both ranks, or 1/1 for rank 3 and 2/1 for rank 4.
 
 ### Shield Specialist ☐
 
 A fighter character may spend a specialization rank to specialize with shields.
 
-If the Game Master utilizes other non-standard shield types (see the Armor & Shield Supplement) then the character must acquire specialization in each such type.
+If the Dungeon Master  utilizes other non-standard shield types (see the Armor & Shield Supplement) then the character must acquire specialization in each such type.
 
 A shield specialist receives an additional +1 bonus to AC while wielding the shield.
 
@@ -642,7 +642,7 @@ A natural 1 on the attack die roll may result in a **fumble**; if this occurs, t
 
 The effects of a fumble vary based on the type of weapon. For hand-held weapons, the weapon is dropped; use the grenade-like weapons table, to determine where, considering the wielder as if he or she were the "target" in the table. If the character binds his weapon to his hand (so he cannot drop it), then the fumble leads to the character suffering damage equal to the weapon's normal attack die (without Strength, magic, or other bonuses). For bows, a broken bowstring is the usual result; for crossbows, a fumble leads to a jammed mechanism requiring 2d10 rounds to clear.
 
-The GM is encouraged to make up alternate fumble results when appropriate to the circumstances, using these suggestions as a guideline.
+The DM is encouraged to make up alternate fumble results when appropriate to the circumstances, using these suggestions as a guideline.
 
 ### Two Weapon Combat ☐
 
@@ -690,7 +690,7 @@ Nearly all rider and mount combinations are considered large for purposes of fig
 
 Unless otherwise specified by the attacker, all attacks are assumed to be directed against the rider rather than the mount. An attack that misses the rider by 1 to 2 points, but which would hit the mount's AC, is applied against the mount instead.
 
-An untrained mount that takes damage must roll a Morale check, and will generally attempt to flee immediately if the check fails (regardless of Initiative). The rider must save vs. Death Ray with Dexterity bonus applied or be thrown from the steed's back. A thrown rider suffers 1d6 points of falling damage, is prone, and cannot make any further action until the next round. A rider who retains his or her seat will regain control 1d4 rounds after the mount is out of sight of the attacker. The GM must rule if magic or other means is used to regain control. Also note, even trained mounts subjected to magical **fear** will respond in this way.
+An untrained mount that takes damage must roll a Morale check, and will generally attempt to flee immediately if the check fails (regardless of Initiative). The rider must save vs. Death Ray with Dexterity bonus applied or be thrown from the steed's back. A thrown rider suffers 1d6 points of falling damage, is prone, and cannot make any further action until the next round. A rider who retains his or her seat will regain control 1d4 rounds after the mount is out of sight of the attacker. The DM must rule if magic or other means is used to regain control. Also note, even trained mounts subjected to magical **fear** will respond in this way.
 
 **Jousting:** A joust is simply a situation in which two riders charge at each other with lances. All the standard rules apply to such attacks, except that the AC penalty for charging does not apply to their attacks against each other (but the penalty does apply to attacks made by bystanders).
 
@@ -716,7 +716,7 @@ Called shots are all those kind of attacks that are not performed with the inten
 
 The character executing a called shot makes a normal attack roll with a -4 penalty on the roll.
 
-Called shots may be resisted with a saving throw of some kind; when in doubt, the GM should consider either Paralyzation or Death Ray. If the attacker is a weapon specialist, apply the specialist's damage bonus as a penalty on this saving throw.
+Called shots may be resisted with a saving throw of some kind; when in doubt, the DM should consider either Paralyzation or Death Ray. If the attacker is a weapon specialist, apply the specialist's damage bonus as a penalty on this saving throw.
 
 Here are some samples of called shots:
 

@@ -23,7 +23,7 @@ The **Basic Fantasy Role-Playing Game** is a rules-light game system inspired by
 
 In the almost 50 years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played. Still, some have not tried RPGs; if you are one of those people, this part is for you.
 
-Role-playing games are played by a number of players, commonly two to eight, and a Game Master (GM), who is responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (NPCs), monsters, treasure, and all other elements that aid or challenge the players. Dice are often used to determine the success or failure of actions in the game; Basic Fantasy RPG uses polyhedral dice for this purpose.
+Role-playing games are played by a number of players, commonly two to eight, and a Dungeon Master  (GM), who is responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (NPCs), monsters, treasure, and all other elements that aid or challenge the players. Dice are often used to determine the success or failure of actions in the game; Basic Fantasy RPG uses polyhedral dice for this purpose.
 
 In essence, role-playing games are grown-up games of pretend, with rules to determine outcomes. These rules range from very free-form and simple to very complex and detailed.
 
@@ -33,7 +33,7 @@ This game attempts to balance simplicity and complexity, being neither too detai
 
 As a player, you should have a pencil, some notebook paper, and a set of dice. Graph paper is also useful for drawing maps. You can use preprinted character sheets available on the Basic Fantasy RPG website, but notebook paper works fine.
 
-As the Game Master, you need the same materials. For new GMs or those with limited preparation time, pre-written adventures (modules) are available for free on the [basicfantasy.org](https://www.basicfantasy.org/) website. Modules written for other game systems can also be used with some conversion.
+As the Dungeon Master , you need the same materials. For new GMs or those with limited preparation time, pre-written adventures (modules) are available for free on the [basicfantasy.org](https://www.basicfantasy.org/) website. Modules written for other game systems can also be used with some conversion.
 
 # Using the Dice
 

@@ -56,7 +56,7 @@ The statistics above represent common sorts of wild herd animals, including deer
 
 Generally, 1 hit die herd animals inflict 1d4 points of
 damage on a hit, 2 and 3 hit die animals inflict 1d6, and
-4 hit die animals inflict 1d8. The GM should feel free to
+4 hit die animals inflict 1d8. The DM should feel free to
 vary from these figures as he or she sees fit; there are
 many types of herd animals in the world, and some are
 better armed than others.
@@ -513,7 +513,7 @@ They are fast runners, depending on their speed to run down prey, and they willi
 
 Black puddings are amorphous creatures that live only to eat. They inhabit underground areas throughout the world, scouring caverns, ruins, and dungeons in search of organic matter, living or dead. They attack any creatures they encounter, lashing out with pseudopods or simply engulfing opponents with their bodies, which secrete acids that help them catch and digest their prey.
 
-If attacked with normal or magical weapons, or with lightning or electricity, a black pudding suffers no injury, but will be split into two puddings; the GM should divide the original black pudding's hit dice between the two however he or she sees fit, with the limitation that neither pudding may have less than two hit dice. A two hit die black pudding is simply unharmed by such attacks, but cannot be split further.
+If attacked with normal or magical weapons, or with lightning or electricity, a black pudding suffers no injury, but will be split into two puddings; the DM should divide the original black pudding's hit dice between the two however he or she sees fit, with the limitation that neither pudding may have less than two hit dice. A two hit die black pudding is simply unharmed by such attacks, but cannot be split further.
 
 Cold or ice based attacks do not harm a black pudding, but such an attack will paralyze the pudding for one round per die of damage the attack would normally cause. Other attack forms will affect a black pudding normally; the preferred method of killing one usually involves fire.
 
@@ -740,7 +740,7 @@ Giant cave locusts are pale, cricket-like creatures that live underground. An av
 
 These creatures eat subterranean fungus (including shriekers) as well as carrion; they are not predators, but if disturbed they will attack, shrieking loudly, biting, jumping wildly around, or spitting nasty goo.
 
-All giant cave locusts in a group will shriek when disturbed, attracting wandering monsters. The GM should roll a wandering monster check each round that one or more cave locusts are attacking; if wandering monsters are indicated, they will arrive in 1d4 rounds.
+All giant cave locusts in a group will shriek when disturbed, attracting wandering monsters. The DM should roll a wandering monster check each round that one or more cave locusts are attacking; if wandering monsters are indicated, they will arrive in 1d4 rounds.
 
 Any giant cave locust that is engaged (adjacent to an opponent) will attempt to bite, doing 1d2 damage on a successful hit. This does not interrupt the monster's shrieking.
 
@@ -1216,7 +1216,7 @@ The shapes are:
 
 **Cloud Shaped:** The breath weapon covers an area up to the maximum given width (based on the dragon type and age) in both length and width (that is, any length figure given for the dragon type and age is ignored). A cloud-shaped breath weapon is, at most, 20' deep or high.
 
-All dragons save for those of the lowest age category are able to speak Dragon. Each type has a given chance of "talking;" this is the chance that the dragon will know Common or some other humanoid language. Many who talk choose to learn Elvish. If the first roll for "talking" is successful, the GM may roll again, with each additional roll adding another language which the dragon may speak.
+All dragons save for those of the lowest age category are able to speak Dragon. Each type has a given chance of "talking;" this is the chance that the dragon will know Common or some other humanoid language. Many who talk choose to learn Elvish. If the first roll for "talking" is successful, the DM may roll again, with each additional roll adding another language which the dragon may speak.
 
 Some dragons learn to cast spells; the odds that a dragon can cast spells are the same as the odds that a dragon will learn to speak to lesser creatures, but each is rolled for separately.
 
@@ -1225,7 +1225,7 @@ All dragons crave wealth, hoarding as many coins, gems, items of jewelry, and be
 Unlike other monsters, multiple dragons encountered in a lair together do not share treasure; generate a full treasure for each dragon individually. Treasure for dragons is special, as noted on the treasure section . The odds of monetary treasure increase with the monster's age category, while the chances of gems, jewelry, and magic items are based upon its hit dice.
 
 Young dragons typically have brightly colored, glossy skin; as a dragon ages, both the color and the sheen slowly become dull.
-Experience Points (XP) given for dragons on the following pages are for non-spell-casting dragons of age category 4.  The GM must calculate the XP award for any specific dragon as given in the [character advancement section](advancement.qmd#experience-points-xp), adding a special ability bonus (i.e. a "star") if the dragon casts spells.
+Experience Points (XP) given for dragons on the following pages are for non-spell-casting dragons of age category 4.  The DM must calculate the XP award for any specific dragon as given in the [character advancement section](advancement.qmd#experience-points-xp), adding a special ability bonus (i.e. a "star") if the dragon casts spells.
 
 </div>
 
@@ -1251,7 +1251,7 @@ Cloud dragons have the most varied appearance of all the true dragons. In an ind
 
 Cloud dragons are not cruel and do not seek to kill for pleasure. Many tales are told of cloud dragons offering assistance to adventurers, though they are every bit as avaricious as any dragon; adventurers in need of gold need not bother asking for a loan.
 
-Another way in which cloud dragons differ from other types is that they do not have fixed breath weapons. Upon reaching the second age category, a cloud dragon acquires the breath weapon of a randomly-chosen (or GM assigned) dragon type; upon reaching the fourth age category, they acquire a second breath weapon type. Cloud dragons possess the same immunities as the dragons whose breath weapons they reproduce.
+Another way in which cloud dragons differ from other types is that they do not have fixed breath weapons. Upon reaching the second age category, a cloud dragon acquires the breath weapon of a randomly-chosen (or DM assigned) dragon type; upon reaching the fourth age category, they acquire a second breath weapon type. Cloud dragons possess the same immunities as the dragons whose breath weapons they reproduce.
 
 All cloud dragons have the power to assume the form of any type of humanoid (as described in the spell [charm person](allSpells.qmd#charm-person)) at will in a manner otherwise equivalent to the spell [polymorph self](allSpells.qmd#polymorph-self).
 
@@ -1786,7 +1786,7 @@ Asian traditions include a different group: fire, earth,
 metal, water, and wood. This book presents the full
 range needed for either tradition, and to those types are
 added cold and lightning elementals for those who wish
-to be less traditional. As always, the Game Master
+to be less traditional. As always, the Dungeon Master 
 decides what sort of monsters appear in their world,
 and so not all of the following creatures may be
 encountered.
@@ -1944,7 +1944,7 @@ Earth elementals resemble crude, headless humanoid statues, with clublike hands 
 
 Fire elementals are simply flames, which may appear generally humanoid for brief moments when they attack. Fire elementals take double damage when attacked by water (including water elementals). They cannot cross a body of water wider than their own diameter. They do an additional 1d8 points of damage against creatures which are cold or icy in nature.
 
-Remember that a fire elemental is constantly burning; such a creature may easily start fires if it moves into an area containing items which burn easily, such as dry wood, paper, or oil. No specific rules are given for such fires, but the GM is directed to the rules for burning oil for an example of fire damage.
+Remember that a fire elemental is constantly burning; such a creature may easily start fires if it moves into an area containing items which burn easily, such as dry wood, paper, or oil. No specific rules are given for such fires, but the DM is directed to the rules for burning oil for an example of fire damage.
 
 </div>
 
@@ -2340,7 +2340,7 @@ Ghosts are the spectral remnants of intelligent beings who, for one reason or an
 
 Seeing a ghost is so terrible that the victim must save vs. Spells or flee for 2d6 rounds. A character or creature who successfully saves vs. a given ghost's **fear** attack may not be so affected by that ghost again, but of course may still be affected by another.
 
-A ghost that hits a living target with its touch attack does 1d8 points of damage, and at the same time regenerates the same number of hit points. In addition, the victim loses 1 Constitution point. Elves and dwarves (and other long-lived creatures such as dragons) are allowed a saving throw vs. Death Ray to resist this effect, which must be rolled on each hit. Characters who lose Constitution appear to have aged. If a ghost is fighting a living creature which does not have a Constitution score, the GM should assign whatever score he or she sees fit.
+A ghost that hits a living target with its touch attack does 1d8 points of damage, and at the same time regenerates the same number of hit points. In addition, the victim loses 1 Constitution point. Elves and dwarves (and other long-lived creatures such as dragons) are allowed a saving throw vs. Death Ray to resist this effect, which must be rolled on each hit. Characters who lose Constitution appear to have aged. If a ghost is fighting a living creature which does not have a Constitution score, the DM should assign whatever score he or she sees fit.
 
 Lost Constitution can be regained at a rate of one point per casting of **restoration**; nothing else (except a **wish**) can restore Constitution lost to a ghost. If a character's Constitution falls to 0, he or she dies permanently and cannot be **raised** (but still may be **reincarnated**).
 
@@ -2410,7 +2410,7 @@ removes the effect from a sickened creature.
 
 They may be Turned by Clerics using the same column
 as the ghoul, but as they are superior to ghouls, in a
-mixed group of ghasts and ghouls the GM should apply
+mixed group of ghasts and ghouls the DM should apply
 Turning effects to the ordinary ghouls first.
 
 Humanoids bitten by ghasts may be infected with ghast
@@ -2425,7 +2425,7 @@ ghoul. However, a humanoid who becomes a ghast in
 this way retains all of the knowledge and abilities they
 possessed in life, unless those abilities are directly
 incompatible with the creature's new form (as decided
-by the GM). For such ghasts, the GM should also
+by the GM). For such ghasts, the DM should also
 adjust XP values to include any such abilities. The
 newly-risen ghast is not under the control of any other
 ghasts, but hungers for the flesh of the living and
@@ -3473,7 +3473,7 @@ secrete acids that help them catch and digest their prey.
 
 If attacked with normal or magical weapons, or with
 lightning or electricity, a black jelly suffers no injury, but
-will be split into two jellies; the GM should divide the
+will be split into two jellies; the DM should divide the
 original creature's hit dice between the two however
 they see fit, with the limitation that neither pudding may
 have less than two hit dice. A two hit die black jelly is
@@ -4438,7 +4438,7 @@ giant octopus hits with at least one tentacle per each
 100 pounds of weight of its prey, it has grabbed it;
 unless the victim can find a way to resist (using
 whatever method the player might think of and
-whatever rolls the GM may choose), they will be pulled
+whatever rolls the DM may choose), they will be pulled
 into the water and thus be in danger of drowning.
 
 Don't forget to account for the weight of armor worn!
@@ -4733,7 +4733,7 @@ Giant rats are scavengers, but will attack to defend their nests and territories
 
 Any rat bite has a 5% chance of causing a disease. A character who suffers one or more rat bites where the die roll indicates disease will sicken in 3d6 hours. The infected character will lose one point of Constitution per hour; after losing each point, the character is allowed a save vs. Death Ray (adjusted by the current Constitution bonus or penalty) to break the fever and end the disease. Any character reduced to zero Constitution is dead. See **Constitution Point Losses** in the **Encounter** section for details on regaining lost Constitution.
 
-\* Note: The XP award for normal rats is for driving away or killing an entire pack of normal size. If the adventurers are forced to flee, the GM should award 3 XP per rat slain.
+\* Note: The XP award for normal rats is for driving away or killing an entire pack of normal size. If the adventurers are forced to flee, the DM should award 3 XP per rat slain.
 
 </div>
 <div class="monster" data-tag="Rhagodessa, Giant" >
@@ -5062,7 +5062,7 @@ doorway, or treasure hoard; in such a case, the
 salamander will attack anyone attempting to gain
 unauthorized access to the protected area. Those
 which arrive through natural rifts may have any goals or
-motivations the GM wishes, and thus may choose to
+motivations the DM wishes, and thus may choose to
 parley, fight, or even ignore adventurers.
 
 </div>
@@ -5353,7 +5353,7 @@ in the nearby area. Movement or light within 10 feet,
 or causing any damage to one, will cause one to wail
 for 1d4 rounds.
 
-In game terms, the GM should generally roll a
+In game terms, the DM should generally roll a
 wandering monster check each round that this monster
 wails.
 
@@ -5514,7 +5514,7 @@ A spectre will normally resemble the living creature it
 used to be. Most spectres are formed from humanoid
 creatures, but some may have other forms and sizes;
 statistically, most such creatures will be as given above,
-but of course the GM may create special types.
+but of course the DM may create special types.
 
 Like all undead, they may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Due to their incorporeal nature, they cannot be harmed by non-magical weapons.
 
@@ -5633,7 +5633,7 @@ less for males). Their tentacles are studded with barbs
 and sharp-edged suckers.
 
 Members of any group of these creatures encountered
-are equally likely to be male or female. The GM may
+are equally likely to be male or female. The DM may
 roll for this or may assign them as they see fit.
 
 In order to bite a creature, the giant squid must hit with
@@ -5641,7 +5641,7 @@ at least two tentacles first. Further, any time a giant
 squid hits with at least one tentacle per each 75 pounds
 of weight of its prey, it has grabbed it; unless the victim
 can find a way to resist (using whatever method the
-player might think of and whatever rolls the GM may
+player might think of and whatever rolls the DM may
 choose), they will be pulled into the water and thus be
 in danger of drowning. Don't forget to account for the
 weight of armor worn!
@@ -5888,7 +5888,7 @@ incapacitated, the tree returns to its normal state.
 Any character or creature nearby when this happens
 must save vs. Death Ray to scamper away; those who
 fail will suffer 2d6 points of damage and will be trapped
-under the fallen tree. The GM should consider
+under the fallen tree. The DM should consider
 battlefield conditions when deciding on the exact results
 of such an event.
 

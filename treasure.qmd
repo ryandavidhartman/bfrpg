@@ -18,7 +18,7 @@
 
 ## Distribution of Treasure
 
-Some adventurers choose to adventure to battle evil, while other seek to attain glory or power... but others go in search of treasure, gold and jewels and magical items. Below is the information the Game Master will need to satisfy the greedy.
+Some adventurers choose to adventure to battle evil, while other seek to attain glory or power... but others go in search of treasure, gold and jewels and magical items. Below is the information the Dungeon Master  will need to satisfy the greedy.
 
 ## Random Treasure Generation
 
@@ -28,13 +28,13 @@ Tables for the random generation of gems, jewelry (and bejeweled art pieces), an
 
 ## Placed Treasures
 
-The Game Master is never required to roll for treasure; rather, treasure may be placed, or random treasures amended, as desired or needed for the purposes of the adventure. Special treasures are always placed; for example, a special magic item needed to complete an adventure.
+The Dungeon Master  is never required to roll for treasure; rather, treasure may be placed, or random treasures amended, as desired or needed for the purposes of the adventure. Special treasures are always placed; for example, a special magic item needed to complete an adventure.
 
 ## Adjusting Treasure Awards
 
-There will be many cases where random treasure generation is not the best method to employ. For instance, a larger than average treasure assigned to a smaller than average lair of monsters might need to be reduced. It is up to the Game Master to decide how much treasure he or she wishes to allow into the campaign. Too much gold (or other treasure which can be converted to gold) may make things too easy for the player characters. Similarly, too many magic items may also make things too easy.
+There will be many cases where random treasure generation is not the best method to employ. For instance, a larger than average treasure assigned to a smaller than average lair of monsters might need to be reduced. It is up to the Dungeon Master  to decide how much treasure he or she wishes to allow into the campaign. Too much gold (or other treasure which can be converted to gold) may make things too easy for the player characters. Similarly, too many magic items may also make things too easy.
 
-If you are a novice Game Master, remember that you can always give more treasure, but it can be difficult to drain treasure from the party without angering the players... particularly if you use heavy-handed methods. Start small, and work up as you gain experience.
+If you are a novice Dungeon Master , remember that you can always give more treasure, but it can be difficult to drain treasure from the party without angering the players... particularly if you use heavy-handed methods. Start small, and work up as you gain experience.
 
 ## Treasure Types:
 
@@ -104,7 +104,7 @@ If you are a novice Game Master, remember that you can always give more treasure
 :::
 ::: 
 
-Note: Unguarded treasures should be rare; see the [Game Master](gm01.qmd) section, below, for advice on placement of unguarded treasure.
+Note: Unguarded treasures should be rare; see the [Dungeon Master ](gm01.qmd) section, below, for advice on placement of unguarded treasure.
 
 ### Gems and Jewelry
 
@@ -131,7 +131,7 @@ viewof gemJewel = Inputs.button(html`<button style="color: black; background-col
 
 ::: 
 
-The values of gems vary from the above for reasons of quality, size, etc. The GM may use the table below to adjust the values of the gems in the hoard, at his or her option. This is why there is no die result given in the table above for Jewel; on a roll of 12 on the table below, a Gem can become a Jewel.
+The values of gems vary from the above for reasons of quality, size, etc. The DM may use the table below to adjust the values of the gems in the hoard, at his or her option. This is why there is no die result given in the table above for Jewel; on a roll of 12 on the table below, a Gem can become a Jewel.
 
 
 ```{ojs}

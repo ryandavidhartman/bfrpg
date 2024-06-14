@@ -44,7 +44,7 @@ Range: 5'
 
 Duration: 1 hour/level
 
-This spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The GM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.
+This spell permits the caster to discover information about a magic item or a permanently enchanted area. For each turn spent studying the enchanted item or area, the caster may learn one feature of the enchantment. Features include spell effects, bonuses, and command words or activating conditions. The DM will choose the order in which the features are revealed, but command words or activating conditions should be last. Note that the number of charges remaining for a charged item is not revealed by this spell.
 
 Each turn of study requires the caster to make a d20 roll, adding their Intelligence bonus and level. The total result must be 16 or higher to succeed; any failure ends the spell. A natural 1 is always a failure.
 
@@ -102,7 +102,7 @@ Duration: 1 round/level
 
 This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12^th^ level, 325 lbs. at 13^th^ level, and so on).
 
-The GM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
+The DM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
 </div>
 
 <div class="spell" data-tag="Animate Tool" id="Animate-Tool">
@@ -723,7 +723,7 @@ Cure disease cures all diseases that the subject is suffering from. The spell al
 
 Note: This spell does not prevent reinfection after a new exposure to the same disease.
 
-The reverse spell **Cause Disease** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Game Master.
+The reverse spell **Cause Disease** infects the target creature with a debilitating disease, causing it to suffer from symptoms such as fever, weakness, or nausea. The affected creature must make a saving throw to resist the disease's effects. On a failed save, the creature suffers ongoing damage and penalties to its abilities until the disease is cured. The exact effects of the disease and the duration of its affliction can vary depending on the caster's level and the discretion of the Dungeon Master .
 </div>
 
 <div class="spell" data-tag="Cure Light Wounds*" id="Cure-Light-Wounds">
@@ -875,7 +875,7 @@ Duration: 1 round/level
 
 This spell allows the caster to detect evil; specifically, the caster can detect creatures with evil intentions, magic items with evil enchantments, and possibly extraplanar creatures of evil nature. Normal characters, even “bad” characters, cannot be detected by this spell, as only overwhelming evil is detectable. The caster sees the “evil” creatures or objects with a definite glow around them, but the glow cannot be seen by anyone else.
 
-The exact definition of evil is left for the GM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
+The exact definition of evil is left for the DM to decide. Note that items such as ordinary traps or poisons are not “evil,” and thus not detectable by this spell.
 
 Reversed, this spell becomes **Detect Good**, which works just as described above with respect to detecting “good” enchantments, angelic creatures, and so on.
 </div>
@@ -1014,7 +1014,7 @@ Second, the caster can choose to drive an evil creature back to its home plane b
 
 Third, with a touch the caster can automatically dispel any one spell cast by an evil creature. Exception: Spells that can't be dispelled by [Dispel Magic](allSpells.html#dispel-magic) also can't be dispelled by **Dispel Evil**. Saving throws do not apply to this effect. This use also ends the spell.
 
-The exact definition of evil is left for the GM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
+The exact definition of evil is left for the DM to decide; however, extraplanar creatures that oppose the caster should almost always qualify.
 </div>
 
 <div class="spell" data-tag="Dispel Magic" id="Dispel-Magic">
@@ -1325,7 +1325,7 @@ Duration: Special
 
 With this spell, the caster binds a single animal into their service as a familiar. The spell requires 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier. The creature must be present, and the caster must touch it to cast the spell.
 
-Only normal (non-magical) creatures of 1-1 hit die may be made into familiars. Further, each spellcaster may have only one familiar at a time. If a familiar dies, the caster will not be able to successfully cast this spell again for 2d6 months (the period to be rolled by the GM and not revealed to the player). A saving throw vs. Spells is allowed to resist, and if this roll succeeds, the animal chosen is not compatible with the caster and cannot become their familiar.
+Only normal (non-magical) creatures of 1-1 hit die may be made into familiars. Further, each spellcaster may have only one familiar at a time. If a familiar dies, the caster will not be able to successfully cast this spell again for 2d6 months (the period to be rolled by the DM and not revealed to the player). A saving throw vs. Spells is allowed to resist, and if this roll succeeds, the animal chosen is not compatible with the caster and cannot become their familiar.
 
 The familiar will behave as if permanently charmed by its master and will perform any task assigned to it to the best of its ability. The creature's morale is increased by 2 points (to a maximum of 11), and it receives improved intelligence equal to 3+1d4 points. Familiars also age at half the normal rate for their kind, so a cat familiar (for instance) might easily live forty years.
 
@@ -1640,7 +1640,7 @@ The gate is full two-way, and anyone on either side can pass back and forth eith
 
 Note that the spell will allow both sides to be on the same plane if so desired, and that means it can also work as a very powerful alternative to teleportation.
 
-As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the GM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
+As long as the destination is known and exists as known, the gate will open where desired. If not, the gate will open in a random location on the plane (i.e. wherever the DM wants it to). Some extraordinary creatures, at the GM’s discretion, are powerful enough to detect that a gate is about to open and prevent it.
 </div>
 
 <div class="spell" data-tag="Gentle Repose" id="Gentle-Repose">
@@ -2089,7 +2089,7 @@ Range: 0
 
 Duration: Special
 
-The caster summons an **Invisible Stalker** to do his or her bidding (see the [Monsters](monstersAll.html#invisible-stalker) section, below, for details). The spell persists until [Dispel Evil](allSpells.html#dispel-evil) is cast on the creature, it is slain, or the task is fulfilled. The GM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
+The caster summons an **Invisible Stalker** to do his or her bidding (see the [Monsters](monstersAll.html#invisible-stalker) section, below, for details). The spell persists until [Dispel Evil](allSpells.html#dispel-evil) is cast on the creature, it is slain, or the task is fulfilled. The DM is advised to review the monster entry for the invisible stalker when this spell is used, as they may not always be reliable servants.
 </div>
 
 <div class="spell" data-tag="Jump" id="Jump">
@@ -2555,7 +2555,7 @@ Duration: 1 turn/level
 
 After careful ceremonial preparations lasting five days, and the application of many rare and expensive unguents, the caster is able to call back the spirit of the dead to reanimate its corpse as a mummy.  Mummies so created are of the standard sort (see its [monster entry](monstersAll.html#mummy)).  Mummies do not count against the normal limits of controllable undead (per [Re-animation](allSpells.html#re-animation) spell), but the caster can maintain control over as many Hit Dice of mummies as their own level.
 
-Mummies do not travel well, being slow and quickly wear down, taking damage on long journeys.  They make better guardians for the animator's lair.  A separate casting of the spell is necessary for each mummy created.  It might be possible to create a mummy from a large humanoid such as a giant, however the difficulty will be greater (the GM determines how much more difficult).  More powerful mummies, such as those with intact class-based powers, are generally created through the use of the undeath spell.
+Mummies do not travel well, being slow and quickly wear down, taking damage on long journeys.  They make better guardians for the animator's lair.  A separate casting of the spell is necessary for each mummy created.  It might be possible to create a mummy from a large humanoid such as a giant, however the difficulty will be greater (the DM determines how much more difficult).  More powerful mummies, such as those with intact class-based powers, are generally created through the use of the undeath spell.
 
 Mummification is generally in the realm of the Black Magic-User, but occasionally Clerics of certain cults might have access as well.
 </div>
@@ -2682,7 +2682,7 @@ This spell creates the visual illusion of an object, creature (or small group of
 
 If used to create the illusion of one or more creatures, they will have an Armor Class of 11 and will disappear if hit in combat. Damage done by monsters, spells, etc. simulated by this spell is not real; those “killed” or otherwise apparently disabled will wake up uninjured (at least from this spell) after 2d8 rounds. The illusory damage done will be equivalent to the normal damage for any attack form simulated.
 
-Attempting to animate more creatures than the caster's level grants viewing creatures with at least average Intelligence an immediate save vs. Spells to recognize the creatures as illusions; those making the save will be unaffected by any actions taken by the illusions from that point on. A similar save may be granted by the GM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
+Attempting to animate more creatures than the caster's level grants viewing creatures with at least average Intelligence an immediate save vs. Spells to recognize the creatures as illusions; those making the save will be unaffected by any actions taken by the illusions from that point on. A similar save may be granted by the DM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
 </div>
 
 <div class="spell" data-tag="Phase Door" id="Phase-Door">
@@ -2845,7 +2845,7 @@ Duration: 1 turn/level
 
 This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.
 
-First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual GM to decide.
+First, the subject gains a +2 bonus to AC and a +2 bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Note that the definition of "evil" is left to the individual DM to decide.
 
 Second, the barrier blocks any attempt to possess the warded creature (by a [Magic Jar](allSpells.html#magic-jar) attack, for example) or to exercise mental control over the creature (including charm spells or effects). The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the **Protection From Evil** effect. If the **Protection From Evil** effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature. Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
 
@@ -2918,7 +2918,7 @@ Duration: 1 turn/level
 
 This spell works almost identically to the [Protection From Evil](allSpells.html#protection-from-evil) spell by warding a creature from attacks by undead creatures, from mental control, and from summoned creatures regardless of any moral or ethical leanings.  It creates a magical barrier around the subject at a distance of 1 foot.  The barrier moves with the subject and has three major effects:
 
-First, the subject gains a +2 bonus to AC and on saves.  Both of these bonuses apply against attacks made or effects created by undead creatures or beings that the GM decides have a strong connection with death or undead.
+First, the subject gains a +2 bonus to AC and on saves.  Both of these bonuses apply against attacks made or effects created by undead creatures or beings that the DM decides have a strong connection with death or undead.
 
 Second, the barrier blocks any attempt to possess the warded creature (by a [Magic Jar](allSpells.html#magic-jar) attack, for example) or to exercise mental control over the creature (including charm spells or effects).  The protection does not prevent such effects from targeting the protected creature, but it suppresses the effect for the duration of the **Protection from Undead** spell.  If the **Protection From Undead** effect ends before the effect granting control does, the would-be controller would then be able to command the controlled creature.  Likewise, the barrier keeps out a possessing life force but does not expel one if it is in place before the spell is cast.
 
@@ -3091,7 +3091,7 @@ Roll on the following table to determine what sort of creature the character bec
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 
-A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the GM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
+A reincarnated character recalls the majority of its former life and form.  Its class is unchanged, as are the character's Intelligence, Wisdom, and Charisma.  Strength, Dexterity, and Constitution scores should be rerolled.   (If the character's ability scores are outside the allowable range for the new form, they should be adjusted up or down by the DM as needed.)  The subject’s level (or Hit Dice) is reduced by 1; this is a real reduction, not a negative level, and is not subject to magical restoration.  Roll one hit die and subtract the total from the character's original hit point total; this is the new form's hit points.  If the subject was 1^st^ level, instead of a hit point reduction, its new Constitution score is reduced by 2.
 
 A character that has been turned into an undead creature or killed by a death effect can’t be returned to life by this spell.  Constructs, elementals, and undead creatures can’t be reincarnated.  The spell cannot bring back a creature who has died of old age.
 
@@ -4100,7 +4100,7 @@ Duration: 2 turns/level
 
 Web creates a many-layered mass of strong, sticky strands, filling a volume of 8,000 cubic feet (equivalent to eight 10'x10'x10' cubes). The strands are similar to spider webs but far larger and tougher. These masses must be anchored to two or more solid and diametrically opposed points or else the web collapses upon itself and disappears; within this limitation, the caster may choose any arrangement of webs he or she wishes, up to the limit of range and the given 8,000 cubic foot volume. The caster may choose to create a smaller volume if he or she wishes. Creatures caught within a web become entangled among the gluey fibers. Attacking a creature in a web won’t cause the attacker to become entangled, but moving through the affected area will.
 
-Anyone in the area of effect when the spell is cast must make a save vs. Death Ray. If this save succeeds, the creature is entangled, but not prevented from moving, though moving is reduced to one-half normal movement rate. Such entangled creatures may not cast spells or perform normal attacks; whether other actions are possible is left to the GM to decide. Once an entangled creature leaves the area of effect of the web, it will be able to act normally again.
+Anyone in the area of effect when the spell is cast must make a save vs. Death Ray. If this save succeeds, the creature is entangled, but not prevented from moving, though moving is reduced to one-half normal movement rate. Such entangled creatures may not cast spells or perform normal attacks; whether other actions are possible is left to the DM to decide. Once an entangled creature leaves the area of effect of the web, it will be able to act normally again.
 
 If the save fails, the creature is entangled and can’t move or perform any other physical action. Speech remains possible, however. Creatures with Strength of 13 or higher (or 4 or more hit dice) may be able to break loose, however; each round, such creatures are allowed another save vs. Death Ray with results as given above. Creatures failing the initial save and having Strength of 12 or less (or fewer than 4 hit dice) are trapped until the duration expires or the webs are otherwise removed.
 

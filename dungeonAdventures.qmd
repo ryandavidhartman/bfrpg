@@ -79,7 +79,7 @@ A character's movement rate is adjusted by his or her Encumbrance (the load he o
 
 ### Mapping
 
-In any dungeon expedition, making maps is important. Generally one player will do this, drawing a map on graph paper as the Game Master describes each room or corridor. Absolute accuracy is usually not possible; the main thing is to ensure that the party can find its way back out of the dungeon.
+In any dungeon expedition, making maps is important. Generally one player will do this, drawing a map on graph paper as the Dungeon Master  describes each room or corridor. Absolute accuracy is usually not possible; the main thing is to ensure that the party can find its way back out of the dungeon.
 
 ### Light
 
@@ -133,7 +133,7 @@ A stuck door can be opened on a roll of 1 on 1d6; add the character's Strength b
 
 Locked doors can be forced by rolling the same range, but on 1d10. Metal bars can sometimes be bent on a roll of this range on 1d20.
 
-A careful character might choose to listen at a door before opening it. Thieves have a special ability, Listen, which should be applied if the listener is a Thief. For other characters, the GM rolls 1d6, with 1 indicating success. Sounds heard might include voices, footsteps, or any other sound the GM considers appropriate. Of course, the room beyond the door might really be silent; thus, the Game Master must make the roll, so that a roll of 1 in such a case will not give anything away to the players.
+A careful character might choose to listen at a door before opening it. Thieves have a special ability, Listen, which should be applied if the listener is a Thief. For other characters, the DM rolls 1d6, with 1 indicating success. Sounds heard might include voices, footsteps, or any other sound the DM considers appropriate. Of course, the room beyond the door might really be silent; thus, the Dungeon Master  must make the roll, so that a roll of 1 in such a case will not give anything away to the players.
 
 
 ```{ojs}
@@ -174,19 +174,19 @@ viewof form = Inputs.form(
 
 ### Traps
 
-Dungeons and ruins frequently contain traps, including spear-throwers, covered pits, etc. The GM will decide what is required to trigger a trap, and what happens when the trap is triggered. (Some guidance on this is provided in the Game Master section later in this book.) In general, there will be some way to avoid or reduce the effect of the trap being sprung. For instance, a save vs. Death Ray is often used to avoid falling into a covered pit (with Dexterity bonus added), while spear-throwers, automated crossbows, and the like are sometimes treated as if they were monsters (attacking vs. the victim's Armor Class at some given attack bonus).
+Dungeons and ruins frequently contain traps, including spear-throwers, covered pits, etc. The DM will decide what is required to trigger a trap, and what happens when the trap is triggered. (Some guidance on this is provided in the Dungeon Master  section later in this book.) In general, there will be some way to avoid or reduce the effect of the trap being sprung. For instance, a save vs. Death Ray is often used to avoid falling into a covered pit (with Dexterity bonus added), while spear-throwers, automated crossbows, and the like are sometimes treated as if they were monsters (attacking vs. the victim's Armor Class at some given attack bonus).
 
 Normal characters have a chance equal to a roll of 1 on 1d6 to detect a trap if a search for one is made. Note that this is about a 16.7% chance; Thieves have a special ability to find and remove traps, which supersedes this roll, as does the stonework trap-finding ability of Dwarves. A Dwarven Thief is a special case; apply whichever trap-detection ability is higher. In all cases, a search for traps takes at least a turn per 10' square area. A single character may only effectively search a given area for traps once, even if the character has more than one trap-detection roll "type" allowed (such as the Dwarven Thief above).
 
-Trap detection may not be allowed if the trap is purely magical in nature; on the other hand, in such cases Magic-Users and/or Clerics may be able to detect magical traps at the given 1 in 1d6 chance, at the Game Master's option.
+Trap detection may not be allowed if the trap is purely magical in nature; on the other hand, in such cases Magic-Users and/or Clerics may be able to detect magical traps at the given 1 in 1d6 chance, at the Dungeon Master 's option.
 
 ### Secret Doors
 
-Under normal conditions, searching for secret doors takes one turn per character per 10' of wall searched. A secret door is found on a roll of 1 on 1d6; characters with 15 or higher Intelligence succeed on a roll of 1-2. Also, as noted previously, Elves add 1 to the range automatically, such that an Elf discovers secret doors on a 1-2 on 1d6, or 1-3 if the Elf has an Intelligence of 15 or higher. The GM may create secret doors that are more difficult (or easier) to detect at his or her option.
+Under normal conditions, searching for secret doors takes one turn per character per 10' of wall searched. A secret door is found on a roll of 1 on 1d6; characters with 15 or higher Intelligence succeed on a roll of 1-2. Also, as noted previously, Elves add 1 to the range automatically, such that an Elf discovers secret doors on a 1-2 on 1d6, or 1-3 if the Elf has an Intelligence of 15 or higher. The DM may create secret doors that are more difficult (or easier) to detect at his or her option.
 
 Multiple characters searching for secret doors ensures that any such will eventually be found; however, if the first and second searchers fail, the next searcher must take two turns to search, and all subsequent searches of the area require an hour.
 
-Note that finding a secret door does not grant understanding of how it works. The GM may require
+Note that finding a secret door does not grant understanding of how it works. The DM may require
 additional rolls or other actions to be taken before the
 door can be opened.
 

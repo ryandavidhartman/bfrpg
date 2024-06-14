@@ -1,0 +1,23 @@
+# Combat Overview
+
+## Combat Order of Play
+
+Time shifts to combat rounds (10 seconds long each).
+
+1. **[Determine Surprise](combatDetails.qmd#surprise)**
+    - When surprise is possible, roll DC for each side, which might be surprised. Normal characters are surprised on a DC13. Elves are surprised on a DC15. Surprised characters are unable to act for one round. Characters or creatures, which are well hidden and prepared to perform an ambush, get a +3 to surprise.
+
+2. **[Determine Monster Reactions](combatDetails.qmd#monster-reactions)**
+    - When the party first encounters another group the DM may decide to roll on the monster reaction table.    
+
+3. **Declare Action**
+    - Attack, Move, Cast Spell, Hold Action, Move, Run, Charge, Melee Attack, Ranged Attack, Cast Spell, Dodge, Perform a Feat, . . .
+
+4. **[Determine Initiative Order](combatDetails.qmd#initiative)**
+    - 1d6 is rolled for Initiative for each character and opponent. This roll is adjusted by the character's Dexterity bonus. High numbers act first. Equal initiative numbers act simultaneously.
+
+5. **Resolve Actions**
+    - As the DM counts down the Initiative numbers, each character may act. Actions include Hold Action, Move, Run Away, Charge, Melee Attack, Ranged Attack, Cast Spell, Dodge. The result of the action is resolved.
+
+6. **Start Next Round**
+    - The next round of combat begins after everyone has completed an Action.

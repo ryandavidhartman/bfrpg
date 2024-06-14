@@ -18,7 +18,7 @@ As a reference here is a rough equivalance to modern currency, 1 silver coin is 
 
 *1 pp = $50.  1 gp = $10. 	1 ep = $5.  	1 sp = $1.    1 cp = ₵10*
 
-First level characters generally begin the game with 3d6 x 10 gp (unless the GM decides otherwise).
+First level characters generally begin the game with 3d6 x 10 gp (unless the DM decides otherwise).
 
 ```{ojs}
 import { generalDice } from "./custom.js"
@@ -117,9 +117,9 @@ A **Small Sack** will hold at most 20 pounds or 2 cubic feet of goods.
 
 A pair of **Saddlebags** will hold at most 10 pounds or 1 cubic foot of goods (divided evenly between both bags).
 
-**Thieves' Picks and Tools** are required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools, or may be used at a penalty at the option of the Game Master.
+**Thieves' Picks and Tools** are required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools, or may be used at a penalty at the option of the Dungeon Master .
 
-A **Tinderbox** is generally purchased with a **flint and steel**; the flint, a piece of hard rock, is struck vigorously against a C-shaped piece of high-carbon steel. When done correctly, hot sparks will fly from the flint and steel into the tinder, hopefully starting a fire. The best tinder is a dried piece of prepared tinder fungus, carried in the tinderbox to keep it dry; char cloth, hemp rope, or even very dry grass can substitute if prepared tinder fungus is not available. The time required to start a fire should be determined by the GM according to the prevailing conditions; under ideal conditions, starting a fire with a flint, steel and tinder takes about a turn.
+A **Tinderbox** is generally purchased with a **flint and steel**; the flint, a piece of hard rock, is struck vigorously against a C-shaped piece of high-carbon steel. When done correctly, hot sparks will fly from the flint and steel into the tinder, hopefully starting a fire. The best tinder is a dried piece of prepared tinder fungus, carried in the tinderbox to keep it dry; char cloth, hemp rope, or even very dry grass can substitute if prepared tinder fungus is not available. The time required to start a fire should be determined by the DM according to the prevailing conditions; under ideal conditions, starting a fire with a flint, steel and tinder takes about a turn.
 
 A **Torch** sheds light over a 30' radius, with dim light extending about 20' further, and burns for 1d4+4 turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight.
 
@@ -183,7 +183,7 @@ A **Whetstone** is used to sharpen and maintain edged weapons such as swords, 
 
 [Humans](races.qmd#humans) and [Elves](races.qmd#elves) must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. [Halflings](races.qmd#halflings) may not use Large weapons at all, and must use Medium weapons with both hands. [Dwarves](races.qmd#dwarves), due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
 
-The GM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.
+The DM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.
 
 ## Missile Weapon Ranges
 

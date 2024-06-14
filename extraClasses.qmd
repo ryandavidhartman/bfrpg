@@ -48,7 +48,7 @@ Assassins must abide by the same weapon and armor restrictions as Thieves.  A pr
 
 Assassins have several special abilities, as listed on the table below.  Some abilities are shared with the Thief class, and are described in the Core Rules.  Those abilities special to the Assassin class are as follows: 
 
-**Poison**:  Assassins learn the art of making lethal poisons. Poisons are often quite expensive to make; it is not uncommon for a single application of contact poison to cost 500 gp or more.  The GM is advised to take care that poison does not become too much of an easy solution for the Assassin. 
+**Poison**:  Assassins learn the art of making lethal poisons. Poisons are often quite expensive to make; it is not uncommon for a single application of contact poison to cost 500 gp or more.  The DM is advised to take care that poison does not become too much of an easy solution for the Assassin. 
 
 **Assassinate**:  This is the Assassin's primary special ability. As with the Thief's Sneak Attack ability, any time an Assassin is behind an opponent in melee and it is reasonably likely the opponent doesn't know he or she is there, an attempt to assassinate may be made.  The attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.  The attack is rolled at an attack bonus of +4, and if the attack hits, the victim must roll a saving throw vs. Death Ray or be instantly killed.  If this saving throw is a success, the victim still suffers normal weapon damage.  At the GM's option, characters two or more levels lower than the Assassin may be denied a saving throw.
 
@@ -210,13 +210,13 @@ The Prime Requisite for an Illusionist is Intelligence. The Illusionist is requi
 
 Because of their expertise at creating and understanding illusions, Illusionists always gain an additional +2 on saves vs. any sort of illusion or phantasm.
 
-Illusionists produce magic much like other types of Magic-Users, but have different spell choices. They can learn spells from each other so long as the spells are available to both classes. Like other Magic-Users, a first level Illusionist begins play knowing **read magic** and one other spell of first level, recorded within a spell book. The GM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the **Illusionist Spells** section below for more details.
+Illusionists produce magic much like other types of Magic-Users, but have different spell choices. They can learn spells from each other so long as the spells are available to both classes. Like other Magic-Users, a first level Illusionist begins play knowing **read magic** and one other spell of first level, recorded within a spell book. The DM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the **Illusionist Spells** section below for more details.
 
 ### Illusionist Spells
 
 Illusionists cast spells through the exercise of knowledge and will, exactly as normal Magic-Users. They prepare spells by study of their spellbooks; each Illusionist has his or her own spellbook, containing the magical formulae for each spell the Illusionist has learned, written in a magical script that can only be read by the Illusionist who wrote it, or through the use of a special first-level spell: **read magic**. All Illusionists begin play with **read magic** as their first spell, and it is so ingrained that an Illusionist can prepare it without a spellbook. **Read magic** has a range of "touch" and is permanent with respect to any given magical work (spellbook or scroll).
 
-Illusionists may learn spells by being taught directly by another Illusionist or by studying another Illusionist's spellbook. The Illusionist may also learn appropriate spells from standard Magic-Users (or other arcane casters, if used); the spell always being at the level as it appears on the Illusionist Spell List. Likewise, a Magic-User may learn spells shared by the classes from an Illusionist. If being taught, a spell can be learned in a single day; researching another Illusionist's spellbook takes one day per spell level. Either way, the spell learned must be transcribed into the Illusionist's own spellbook, at a cost of 500 gp per spell level transcribed. A beginning Illusionist starts with a spellbook containing **read magic** and at least one other first-level spell, as determined by the Game Master, at no cost.
+Illusionists may learn spells by being taught directly by another Illusionist or by studying another Illusionist's spellbook. The Illusionist may also learn appropriate spells from standard Magic-Users (or other arcane casters, if used); the spell always being at the level as it appears on the Illusionist Spell List. Likewise, a Magic-User may learn spells shared by the classes from an Illusionist. If being taught, a spell can be learned in a single day; researching another Illusionist's spellbook takes one day per spell level. Either way, the spell learned must be transcribed into the Illusionist's own spellbook, at a cost of 500 gp per spell level transcribed. A beginning Illusionist starts with a spellbook containing **read magic** and at least one other first-level spell, as determined by the Dungeon Master , at no cost.
 
 Spells in **bold** are new to this supplement. Spells with an asterisk (*) following the name are reversible.
 
@@ -460,7 +460,7 @@ The caster can use this spell to end all ongoing "illusion spells" within a 20-f
 
 Any illusion spell cast by a character of a level equal to or less than the **dispel illusion** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance of failure for each level the illusion's caster level exceeds the **dispel illusion** caster level. For example, a 10^th^-level caster dispelling an illusion created by a 14^th^ level caster has a 20% chance of failure.
 
-When an Illusionist attempts to dispel an illusion cast by a non-Illusionist, the Illusionist is treated as if he or she were two levels higher; if it is not obvious whether the illusion was created by an Illusionist or not, the GM should assume it was.
+When an Illusionist attempts to dispel an illusion cast by a non-Illusionist, the Illusionist is treated as if he or she were two levels higher; if it is not obvious whether the illusion was created by an Illusionist or not, the DM should assume it was.
 
 Non-illusion spells cannot be ended by this spell.
 
@@ -542,7 +542,7 @@ Illusionist 3
 
 Duration: Permanent
 
-This spell creates the illusion of a wall, floor, ceiling, or similar surface, covering up to a 10-foot square area, up to 1 foot thick. The section of wall created appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search may reveal the true nature of the surface; the GM may either allow a save vs. Spells to detect the illusion, or if the probing attempt is well devised the GM may allow it to automatically succeed. In either case, such measures do not cause the illusion to disappear.
+This spell creates the illusion of a wall, floor, ceiling, or similar surface, covering up to a 10-foot square area, up to 1 foot thick. The section of wall created appears absolutely real when viewed, but physical objects can pass through it without difficulty. When the spell is used to hide pits, traps, or normal doors, any detection abilities that do not require sight work normally. Touch or a probing search may reveal the true nature of the surface; the DM may either allow a save vs. Spells to detect the illusion, or if the probing attempt is well devised the DM may allow it to automatically succeed. In either case, such measures do not cause the illusion to disappear.
 
 #### **Improved Invisibility** 
 
@@ -658,7 +658,7 @@ Illusionist 1 Duration: concentration
 
 This spell is often the first spell an Illusionist will learn. The spell creates the visual illusion of an object, creature, or other effect, as visualized by the caster up to a maximum size of a 20-foot cube. The illusion does not create sound, smell, texture, temperature, or movement. The image persists so long as the caster concentrates upon it.
 
-A save vs. Spells may be granted by the GM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
+A save vs. Spells may be granted by the DM any time he or she feels the illusion is likely to be seen through, especially if the player describes an illusion which seems improbable or otherwise poorly conceived.
 
 #### **Phantasmal Killer** 
 
@@ -872,17 +872,17 @@ This spell works as **change self**, but instead can affect any number of willin
 
 ### Illusions, Saving Throws And Disbelief
 
-The victim of an illusion does not automatically get to save vs. Spells to resist the effects of the illusion. Rather, the victim must have a good reason to believe that a creature, object, or situation is an illusion. The Game Master must base his or her decision on the quality and the credibility of the illusion.
+The victim of an illusion does not automatically get to save vs. Spells to resist the effects of the illusion. Rather, the victim must have a good reason to believe that a creature, object, or situation is an illusion. The Dungeon Master  must base his or her decision on the quality and the credibility of the illusion.
 
 A high-quality illusion is one created by a caster who has a clear "mental image" of the creature, an object, or situation being simulated. For example, the quality of an illusion of a dragon cannot be high if the caster has never seen a real dragon.
 
 An illusion can be credible only if the creature, the object, or the situation is realistic. For example, the illusion of a door on a wall is credible, but not a door floating in the air. Illusions created by higher-level spells are generally more credible since several senses are affected.
 
-If an illusion is of low quality and/or is not credible, the GM may decide to allow an automatic save vs. Spells.
+If an illusion is of low quality and/or is not credible, the DM may decide to allow an automatic save vs. Spells.
 
-In addition, a player can announce to the Game Master that his or her character does not "believe" in the existence of a creature, an object, or a situation. The GM must then make a secret save vs. Spells for that character. Note that the GM should always make a roll, even if the creature, object, or situation is not an illusion, as omitting the roll would give this fact away to the player.
+In addition, a player can announce to the Dungeon Master  that his or her character does not "believe" in the existence of a creature, an object, or a situation. The DM must then make a secret save vs. Spells for that character. Note that the DM should always make a roll, even if the creature, object, or situation is not an illusion, as omitting the roll would give this fact away to the player.
 
-If a saving throw vs. an illusion is successful, the Game Master must announce this fact to the player; if the character then tells his or her comrades, they in turn receive a save vs. Spells with a +4 bonus.
+If a saving throw vs. an illusion is successful, the Dungeon Master  must announce this fact to the player; if the character then tells his or her comrades, they in turn receive a save vs. Spells with a +4 bonus.
 
 ### New Magic Items
 
@@ -914,7 +914,7 @@ The effect can be used no more than a total of 30 rounds per day.
 
 Making Magic Items
 
-Illusionists follow the rules for magic-users for making magic items. Illusionists may make spell scrolls and any magic items on this page, as well as any other items the GM feels are appropriate.
+Illusionists follow the rules for magic-users for making magic items. Illusionists may make spell scrolls and any magic items on this page, as well as any other items the DM feels are appropriate.
 
 ## Scout
 
@@ -1010,7 +1010,7 @@ If a scout is operating alone or greater then 30' away from a party (or in a par
 
 ::: 
 
-**Note:** *If the GM allows Thief characters to allocate their ability percentages, as given on page 153 of the **Basic Fantasy RPG** **Core Rules**, then the Scout may also be allowed to do so. Scouts gain 30 points per level from 2^nd^ to 9^th^ levels, 20 points per level from 10^th^ to 15^th^ levels, and 10 points per level thereafter.*
+**Note:** *If the DM allows Thief characters to allocate their ability percentages, as given on page 153 of the **Basic Fantasy RPG** **Core Rules**, then the Scout may also be allowed to do so. Scouts gain 30 points per level from 2^nd^ to 9^th^ levels, 20 points per level from 10^th^ to 15^th^ levels, and 10 points per level thereafter.*
 
 <!-- -------------------------------------------------- -->
 

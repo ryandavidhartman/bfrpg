@@ -61,7 +61,7 @@ The **longship** commonly used by northern raiders is very similar to the larg
 
 ## Siege Engines
 
-These are weapons used to attack strongholds, or sometimes ships. Their cost may be up to twice as high in a remote location. A siege engine that throws missiles (a ballista, onager or trebuchet) must have a trained artillerist to fire it; this is the character who makes the attack rolls for the weapon. Missile-throwing engines have attack penalties, detailed below. Note: siege engines are not generally usable against individuals or monsters; the GM may make exceptions for very large monsters like giants or dragons. Review the rules in the [Stronghold](gm02.qmd#strongholds) section for details regarding attacking fortified buildings such as castles, towers, fortresses, and so on.
+These are weapons used to attack strongholds, or sometimes ships. Their cost may be up to twice as high in a remote location. A siege engine that throws missiles (a ballista, onager or trebuchet) must have a trained artillerist to fire it; this is the character who makes the attack rolls for the weapon. Missile-throwing engines have attack penalties, detailed below. Note: siege engines are not generally usable against individuals or monsters; the DM may make exceptions for very large monsters like giants or dragons. Review the rules in the [Stronghold](gm02.qmd#strongholds) section for details regarding attacking fortified buildings such as castles, towers, fortresses, and so on.
 
 ::: {.column-screen-inset-right}
 

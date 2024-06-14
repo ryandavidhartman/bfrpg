@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basic Fantasy RPG, OnceWas edition - 3&nbsp; Character Abilities</title>
+<title>Basic Fantasy RPG, OnceWas edition - 18&nbsp; Combat Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,8 +30,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./races.html" rel="next">
-<link href="./char-creation.html" rel="prev">
+<link href="./combatDetails.html" rel="next">
+<link href="./advancement.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -104,8 +70,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -121,7 +85,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./char-creation.html">Player Characters</a></li><li class="breadcrumb-item"><a href="./abilities.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Character Abilities</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./combatOverview.html">Encounters</a></li><li class="breadcrumb-item"><a href="./combatOverview.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Combat Overview</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -189,7 +153,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./abilities.html" class="sidebar-item-text sidebar-link active">
+  <a href="./abilities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Character Abilities</span></span></a>
   </div>
 </li>
@@ -312,7 +276,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./combatOverview.html" class="sidebar-item-text sidebar-link">
+  <a href="./combatOverview.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Combat Overview</span></span></a>
   </div>
 </li>
@@ -484,19 +448,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ability-scores" id="toc-ability-scores" class="nav-link active" data-scroll-target="#ability-scores">Ability Scores</a>
-  <ul>
-  <li><a href="#stat-roller" id="toc-stat-roller" class="nav-link" data-scroll-target="#stat-roller">Stat Roller</a></li>
-  </ul></li>
+  <li><a href="#combat-order-of-play" id="toc-combat-order-of-play" class="nav-link active" data-scroll-target="#combat-order-of-play">Combat Order of Play</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./char-creation.html">Player Characters</a></li><li class="breadcrumb-item"><a href="./abilities.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Character Abilities</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./combatOverview.html">Encounters</a></li><li class="breadcrumb-item"><a href="./combatOverview.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Combat Overview</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Character Abilities</span></h1>
+<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Combat Overview</span></h1>
 </div>
 
 
@@ -513,187 +474,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="ability-scores" class="level2">
-<h2 class="anchored" data-anchor-id="ability-scores">Ability Scores</h2>
-<p>Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a <a href="./class.html#character-classes">Prime Requisite</a> ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under <a href="./races.html#character-races">Character Races</a>.</p>
-<table style="border-collapse: collapse; width: 50%; margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="background-color: lightblue; border: 1px solid black;">
-Ability Score
-</th>
-<th style="background-color: lightblue;border: 1px solid black;">
-Bonus/Penalty
-</th>
-</tr>
-</thead>
-<tbody><tr style="background-color: lightgray; border: 1px solid black;">
-<td style="border: 1px solid black;">
-3
-</td>
-<td style="border: 1px solid black;">
--3
-</td>
-</tr>
-<tr style="background-color: lightgray; border: 1px solid black;">
-<td style="border: 1px solid black;">
-4-5
-</td>
-<td style="border: 1px solid black;">
--2
-</td>
-</tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black;">
-6-8
-</td>
-<td style="border: 1px solid black;">
--1
-</td>
-</tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black;">
-9-12
-</td>
-<td style="border: 1px solid black;">
-0
-</td>
-</tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black;">
-13-15
-</td>
-<td style="border: 1px solid black;">
-+1
-</td>
-</tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black;">
-16-17
-</td>
-<td style="border: 1px solid black;">
-+2
-</td>
-</tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black;">
-18
-</td>
-<td style="border: 1px solid black;">
-+3
-</td>
-</tr>
-<tr style="background-color: lightgray; border: 1px solid black;">
-<td style="border: 1px solid black;">
-19
-</td>
-<td style="border: 1px solid black;">
-+4
-</td>
-</tr>
-<tr style="background-color: lightgray; border: 1px solid black;">
-<td style="border: 1px solid black;">
-20
-</td>
-<td style="border: 1px solid black;">
-+5
-</td>
-</tr>
-</tbody></table>
-<p><br> <strong>Strength:</strong> This ability measures the character’s raw physical power. Strength is the Prime Requisite for <a href="./class.html#fighter">Fighters</a>. Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand-to-hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the <a href="combat.qmd#damage">Combat</a> section for details).</p>
-<p><strong>Intelligence:</strong> This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for <a href="./class.html#magic-users">Magic-Users</a>, and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of <a href="./abilities.html#languages">languages</a> the character can learn to read and write. Characters with an Intelligence penalty may struggle with learning languages, being limited to understanding only their native language.</p>
-<p><strong>Wisdom:</strong> Wisdom is a combination of intuition, willpower, and common sense. It is the Prime Requisite for <a href="./class.html#cleric">Clerics</a>, who receive a Spell Bonus and a bonus to Turn Undead based on their Wisdom score. The Wisdom bonus or penalty may apply to some saving throws vs.&nbsp;magical attacks, particularly those affecting the target’s will.</p>
-<p><strong>Dexterity:</strong> This ability measures the character’s quickness, balance, and aptitude with tools. Dexterity is the Prime Requisite for <a href="./class.html#thief">Thieves</a>. The Dexterity bonus or penalty applies to all <a href="combat.qmd#attacking-maneuvers">attack rolls</a> with missile (ranged) weapons, to the character’s <a href="./equipment.html#armor-and-shields">Armor Class</a> value, and to the character’s <a href="combat.qmd#initiative">Initiative</a> die roll.</p>
-<p><strong>Constitution:</strong> Constitution is a combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.</p>
-<p><strong>Charisma:</strong> This ability represents the character’s ability to influence or lead people. Those with high Charisma are well-liked or highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of <a href="./hirelings.html#retainers">retainers</a> a character can hire and the loyalty of those retainers are affected by Charisma.</p>
-<section id="stat-roller" class="level4">
-<h4 class="anchored" data-anchor-id="stat-roller">Stat Roller</h4>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="69" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 68;"><span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { rollAbilityScore } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>viewof statRolls <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll Stats&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="kw">null</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> [<span class="fu">rollAbilityScore</span>()<span class="op">,</span><span class="fu">rollAbilityScore</span>()<span class="op">,</span><span class="fu">rollAbilityScore</span>()<span class="op">,</span><span class="fu">rollAbilityScore</span>()<span class="op">,</span><span class="fu">rollAbilityScore</span>()<span class="op">,</span><span class="fu">rollAbilityScore</span>()]})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="77" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 76;"><span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { calculateModifier } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>    <span class="kw">var</span> x <span class="op">=</span> <span class="st">""</span></span>
-<span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (statRolls <span class="op">!=</span> <span class="kw">null</span>) {</span>
-<span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a>        x <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;br&gt;&lt;table style="max-width:20%;"&gt;</span></span>
-<span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-83"><a href="#cb2-83" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-84"><a href="#cb2-84" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">0</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-85"><a href="#cb2-85" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-86"><a href="#cb2-86" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-87"><a href="#cb2-87" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">1</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-88"><a href="#cb2-88" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">1</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-89"><a href="#cb2-89" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-90"><a href="#cb2-90" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-91"><a href="#cb2-91" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">2</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-92"><a href="#cb2-92" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">2</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-93"><a href="#cb2-93" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-94"><a href="#cb2-94" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-95"><a href="#cb2-95" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">3</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-96"><a href="#cb2-96" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">3</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">4</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">4</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;tr&gt;</span></span>
-<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;</span><span class="sc">${</span>statRolls[<span class="dv">5</span>]<span class="sc">}</span><span class="vs">&lt;/td&gt;</span></span>
-<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a><span class="vs">                        &lt;td&gt;(</span><span class="sc">${</span><span class="fu">calculateModifier</span>(statRolls[<span class="dv">5</span>])<span class="sc">}</span><span class="vs">)&lt;/td&gt;</span></span>
-<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a><span class="vs">                    &lt;/tr&gt;</span></span>
-<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a><span class="vs">                `</span></span>
-<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>    } <span class="cf">else</span> {x <span class="op">=</span> <span class="fu">md</span><span class="vs">`&lt;br&gt;&lt;b&gt;Press button to roll stats&lt;b&gt;`</span>}</span>
-<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x</span>
-<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>    }</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-2-2" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
+<section id="combat-order-of-play" class="level2">
+<h2 class="anchored" data-anchor-id="combat-order-of-play">Combat Order of Play</h2>
+<p>Time shifts to combat rounds (10 seconds long each).</p>
+<ol type="1">
+<li><strong><a href="./combatDetails.html#surprise">Determine Surprise</a></strong>
+<ul>
+<li>When surprise is possible, roll DC for each side, which might be surprised. Normal characters are surprised on a DC13. Elves are surprised on a DC15. Surprised characters are unable to act for one round. Characters or creatures, which are well hidden and prepared to perform an ambush, get a +3 to surprise.</li>
+</ul></li>
+<li><strong><a href="./combatDetails.html#monster-reactions">Determine Monster Reactions</a></strong>
+<ul>
+<li>When the party first encounters another group the DM may decide to roll on the monster reaction table.</li>
+</ul></li>
+<li><strong>Declare Action</strong>
+<ul>
+<li>Attack, Move, Cast Spell, Hold Action, Move, Run, Charge, Melee Attack, Ranged Attack, Cast Spell, Dodge, Perform a Feat, . . .</li>
+</ul></li>
+<li><strong><a href="./combatDetails.html#initiative">Determine Initiative Order</a></strong>
+<ul>
+<li>1d6 is rolled for Initiative for each character and opponent. This roll is adjusted by the character’s Dexterity bonus. High numbers act first. Equal initiative numbers act simultaneously.</li>
+</ul></li>
+<li><strong>Resolve Actions</strong>
+<ul>
+<li>As the DM counts down the Initiative numbers, each character may act. Actions include Hold Action, Move, Run Away, Charge, Melee Attack, Ranged Attack, Cast Spell, Dodge. The result of the action is resolved.</li>
+</ul></li>
+<li><strong>Start Next Round</strong>
+<ul>
+<li>The next round of combat begins after everyone has completed an Action.</li>
+</ul></li>
+</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IHJvbGxBYmlsaXR5U2NvcmUgfSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHN0YXRSb2xscyA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBTdGF0czwvYnV0dG9uPmAsIHt2YWx1ZTogbnVsbCwgcmVkdWNlOiAoKSA9PiBbcm9sbEFiaWxpdHlTY29yZSgpLHJvbGxBYmlsaXR5U2NvcmUoKSxyb2xsQWJpbGl0eVNjb3JlKCkscm9sbEFiaWxpdHlTY29yZSgpLHJvbGxBYmlsaXR5U2NvcmUoKSxyb2xsQWJpbGl0eVNjb3JlKCldfSlcclxuXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGNhbGN1bGF0ZU1vZGlmaWVyIH0gZnJvbSBcIi4vY3VzdG9tLmpzXCJcclxue1xyXG4gICAgdmFyIHggPSBcIlwiXHJcbiAgICBpZiAoc3RhdFJvbGxzICE9IG51bGwpIHtcclxuICAgICAgICB4ID0gaHRtbGA8YnI+PHRhYmxlIHN0eWxlPVwibWF4LXdpZHRoOjIwJTtcIj5cclxuICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD4ke3N0YXRSb2xsc1swXX08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8dGQ+KCR7Y2FsY3VsYXRlTW9kaWZpZXIoc3RhdFJvbGxzWzBdKX0pPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHRkPiR7c3RhdFJvbGxzWzFdfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD4oJHtjYWxjdWxhdGVNb2RpZmllcihzdGF0Um9sbHNbMV0pfSk8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8dGQ+JHtzdGF0Um9sbHNbMl19PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHRkPigke2NhbGN1bGF0ZU1vZGlmaWVyKHN0YXRSb2xsc1syXSl9KTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgICAgICA8dHI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD4ke3N0YXRSb2xsc1szXX08L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8dGQ+KCR7Y2FsY3VsYXRlTW9kaWZpZXIoc3RhdFJvbGxzWzNdKX0pPC90ZD5cclxuICAgICAgICAgICAgICAgICAgICA8L3RyPlxyXG4gICAgICAgICAgICAgICAgICAgIDx0cj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHRkPiR7c3RhdFJvbGxzWzRdfTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDx0ZD4oJHtjYWxjdWxhdGVNb2RpZmllcihzdGF0Um9sbHNbNF0pfSk8L3RkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvdHI+XHJcbiAgICAgICAgICAgICAgICAgICAgPHRyPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8dGQ+JHtzdGF0Um9sbHNbNV19PC90ZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHRkPigke2NhbGN1bGF0ZU1vZGlmaWVyKHN0YXRSb2xsc1s1XSl9KTwvdGQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC90cj5cclxuICAgICAgICAgICAgICAgIGBcclxuICAgIH0gZWxzZSB7eCA9IG1kYDxicj48Yj5QcmVzcyBidXR0b24gdG8gcm9sbCBzdGF0czxiPmB9XHJcblxyXG4gICAgcmV0dXJuIHhcclxuICAgIH0gXHJcblxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ3N0YXRSb2xscycpIn1dfQ==
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../..";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1249,13 +1063,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./char-creation.html" class="pagination-link" aria-label="Player Characters">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Player Characters</span></span>
+      <a href="./advancement.html" class="pagination-link" aria-label="Advancement">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Advancement</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./races.html" class="pagination-link" aria-label="Character Races">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Character Races</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./combatDetails.html" class="pagination-link" aria-label="Combat Details">
+        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Combat Details</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

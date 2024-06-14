@@ -17,13 +17,13 @@ Next, choose a [race](races.qmd#character-races) and [class](class.qmd#character
 
 ## How to Create a Player Character
 
-Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Game Master what spell or spells your character knows; it's up to the Game Master to decide this, but they may allow you to choose one or more spells yourself.
+Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Dungeon Master  what spell or spells your character knows; it's up to the Dungeon Master  to decide this, but they may allow you to choose one or more spells yourself.
 
 Note on your character sheet that your character has zero (0) experience points (or XP). Also, you may want to note the number needed to advance to second level, as shown in the table for your class.
 
 First-level characters begin play with the maximum HP for your class plus your Constitution bonus or penalty. Note the result as your hit points on your character sheet.
 
-Roll for your starting money. Generally, your character will start with 3d6 times 10 gold pieces, but ask the Game Master before rolling.  [Here](appendix_interactive.qmd#starting-gold) is an interactive tool to roll your starting gold.
+Roll for your starting money. Generally, your character will start with 3d6 times 10 gold pieces, but ask the Dungeon Master  before rolling.  [Here](appendix_interactive.qmd#starting-gold) is an interactive tool to roll your starting gold.
 
 Now, purchase equipment for your character, as shown in the [Equipment](equipment.qmd#equipment-explanations) section. Write your purchases on your character sheet and note how much money remains afterward. Ensure you understand the weapon and armor restrictions for your class and race before making your purchases. [Here](appendix_interactive.qmd#buy-equipment) is an interactive tool to purchase equipment.
 

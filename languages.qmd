@@ -22,6 +22,6 @@ There are twelve languages in the OnceWas:
 
 Characters with Intelligence of 13 or higher may choose to begin the game knowing one or more languages other than those given above; the number of additional languages that may be learned is equal to the [Intelligence bonus](abilities.qmd#ability-scores) (+1, +2, or +3).
 
-Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orkish, etc. The GM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language "slots" open, to be filled during play.
+Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orkish, etc. The DM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language "slots" open, to be filled during play.
 
 Some Game Masters may even allow player characters to learn exotic languages such as Draconic; also, "dead" or otherwise archaic languages might be allowed to more scholarly characters.

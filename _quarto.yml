@@ -5,7 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank based on the work of Chris Gonnerman"
-  date: "6/11/2024"  
+  date: "6/13/2024"  
   chapters:
     - index.qmd
     - part: Introduction
@@ -35,7 +35,8 @@ book:
         - advancement.qmd
     - part: Encounters
       chapters: 
-        - combat.qmd
+        - combatOverview.qmd
+        - combatDetails.qmd
     - part: Monsters
       chapters: 
         - monsters.qmd
@@ -45,7 +46,7 @@ book:
       chapters: 
         - treasure.qmd
         - magicItems.qmd
-    - part: GM Information
+    - part: DM Information
       chapters: 
         - gm01.qmd
         - gm02.qmd

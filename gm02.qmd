@@ -19,7 +19,7 @@ Here are some possible scenarios:
 
 **To Get Loot:** This is a surprisingly common scenario (well, perhaps not so surprising). The dungeon is rumored to contain a hidden treasure of great value, and the first characters to find it will be rich! Of course, the treasure might not be *that* huge, and might be guarded by any number of horrific monsters...
 
-**To Escape Confinement:** The player characters have been captured by an enemy, and find themselves incarcerated without their weapons, armor, or equipment. This scenario must be used with care, as the GM must not be seen to be "railroading" the characters into the adventure.
+**To Escape Confinement:** The player characters have been captured by an enemy, and find themselves incarcerated without their weapons, armor, or equipment. This scenario must be used with care, as the DM must not be seen to be "railroading" the characters into the adventure.
 
 There are many other possible scenarios, and each has many variations. Knowing the answer to this question will make the next questions easier to answer.
 
@@ -39,7 +39,7 @@ Dungeon maps can be drawn on graph paper in pencil, or created on the computer w
 
 "Stocking" the dungeon refers to assigning contents to each room. There are several possibilities; a room might contain a monster (which might or might not have treasure), a trap (which might guard a treasure, or might not), an "unguarded" treasure, a "special" (something other than a monster, trap, or treasure; often a puzzle of some sort), or be "empty."
 
-The GM may choose the contents of any room, or may roll on the table below:
+The DM may choose the contents of any room, or may roll on the table below:
 
 | d% | Contents |
 |-----|-------|
@@ -53,7 +53,7 @@ The GM may choose the contents of any room, or may roll on the table below:
 
 An **unguarded treasure** will generally be hidden (such as in a secret room, inside an unusual container, etc.) or protected by a trap (a poison needle in the lock of a chest, or a poison gas canister that explodes if the container is opened, or something similar); such a treasure might even be hidden **and** trapped! Again, some sort of saving throw should be allowed if a trap is used. It's not a bad idea to hide a treasure so well that the player characters are unlikely to find it; don't be concerned if they don't. If you give away the location of all your unguarded treasures, your players will not appreciate it properly when they manage to find one by cleverness or luck.
 
-A **monster** might be selected by the GM or rolled on the random encounter tables. It's traditional that the first level (below ground) contains monsters of 1 hit die or less, the second level contains monsters of around 2 hit dice, and so on, but the GM may choose to arrange his or her dungeon in any way desired.
+A **monster** might be selected by the DM or rolled on the random encounter tables. It's traditional that the first level (below ground) contains monsters of 1 hit die or less, the second level contains monsters of around 2 hit dice, and so on, but the DM may choose to arrange his or her dungeon in any way desired.
 
 A **monster with treasure** might indicate a lair, or it might be a group of monsters carrying loot, possibly camping for some reason before moving on.
 
@@ -65,17 +65,17 @@ A **special** might be a puzzle of some sort, such as a door that can only be 
 
 ### 6\. Finishing Touches
 
-The GM may wish to create one or more custom wandering monster tables for the dungeon; monster patrols, if any, may need to be described; and possibly some locations may have unusual sounds, smells, graffiti, etc. which need to be noted. Don't spend too much time on this, though.
+The DM may wish to create one or more custom wandering monster tables for the dungeon; monster patrols, if any, may need to be described; and possibly some locations may have unusual sounds, smells, graffiti, etc. which need to be noted. Don't spend too much time on this, though.
 
 Remember, if you only detail the "interesting" things, your players will begin to guess what might be in a room. Some extra description will help make things uncertain for the players. For instance, a room with an unguarded treasure:
 
-Game Master:* This room contains a chest, centered against the far wall.*
+Dungeon Master :* This room contains a chest, centered against the far wall.*
 
 Player 1:* We look for monsters, and if we don't see any, the thief will check the chest for traps.*
 
 Kind of boring, right? This might be better:
 
-Game Master: *In this room you see a comfortable-looking upholstered chair, a side table and a foot stool. Two burned-out torches are held by sconces on each wall.*
+Dungeon Master : *In this room you see a comfortable-looking upholstered chair, a side table and a foot stool. Two burned-out torches are held by sconces on each wall.*
 
 Player 1: *If we don't see any monsters, the thief will check the table and the footstool for traps and see if anything is hidden inside them, while the rest of us check for secret doors... one of those sconces might open one.*
 
@@ -85,9 +85,9 @@ A little extra detail can add a lot to the adventure.
 
 Some suggestions of typical traps are listed below, to assist the GM. Deadlier traps can be created by combining simple traps, by making their effects harder to avoid, or by making them capable of dealing more damage.
 
-Traps are not necessarily reliable; the GM may choose to make a roll of some sort for each potential victim until the trap is sprung (say, 1-2 on 1d6). Or, a trap door might not open until a given weight is placed on it, so that a lightly loaded thief might cross without difficulty, only to see his heavily armored warrior ally fall victim to it.
+Traps are not necessarily reliable; the DM may choose to make a roll of some sort for each potential victim until the trap is sprung (say, 1-2 on 1d6). Or, a trap door might not open until a given weight is placed on it, so that a lightly loaded thief might cross without difficulty, only to see his heavily armored warrior ally fall victim to it.
 
-**Alarm:** Everyone within a 30' radius must save vs Spells or be deafened for 1d8 turns by the loud noise. The GM should check immediately for wandering monsters, which, if indicated, will arrive in 2d10 rounds.
+**Alarm:** Everyone within a 30' radius must save vs Spells or be deafened for 1d8 turns by the loud noise. The DM should check immediately for wandering monsters, which, if indicated, will arrive in 2d10 rounds.
 
 **Arrow Trap:** A hidden, mounted crossbow attacks at AB +1, doing 1d6+1 points of damage on a successful hit.
 
@@ -121,7 +121,7 @@ Traps are not necessarily reliable; the GM may choose to make a roll of some sor
 
 ### 1\. Think About Why
 
-This is much the same task as was described above. The player characters may enter a particular area looking for a town to resupply from, a church or temple to provide healing services, or for many other reasons. Once in the area, the Game Master can make the player characters aware of adventuring opportunities in the area, by means of rumors, posted bounties (such as for raiding humanoids), quests offered by local clergy, and so forth.
+This is much the same task as was described above. The player characters may enter a particular area looking for a town to resupply from, a church or temple to provide healing services, or for many other reasons. Once in the area, the Dungeon Master  can make the player characters aware of adventuring opportunities in the area, by means of rumors, posted bounties (such as for raiding humanoids), quests offered by local clergy, and so forth.
 
 ### 2\. What Kind Of Setting Is It?
 
@@ -179,7 +179,7 @@ Make sure not to double-count corners on walls that are 5' thick or thicker -- c
 
 A 1' thick wall is made of solid pieces of material held with mortar (or pegs and ropes for wooden walls); such walls may be at most 40' tall. A 5' thick wall consists of two 1' thick walls sandwiching 3' of earth and rubble; such a wall may be at most 60' tall. A 10' thick wall consists of a 4' thick outer wall and a 2' thick inner wall sandwiching 4' of earth and rubble, and may be built up to 80' tall. A 15' thick wall consists of a 6' thick outer wall and a 2' thick inner wall sandwiching 7' of earth and rubble; these walls may be built up to 100' tall. To attain the maximum height, thinner walls can be used on upper stories. For example, an 80 ft. tower must have at least 20' of 10' thick walls at the base, but more could be used.
 
-The character will have to pay engineering costs for designing the stronghold, and tall structures are more difficult to design and to build. For each portion of the stronghold (wall, tower, and so on), each 10' of height adds 10% to the costs in both time and money. The GM should feel free to add a multiplier to reflect the difficulties of building in a remote area, obtaining materials, etc. In particular, if materials need to be transported, they require 1 ton of cargo space per 5 gp of wood or stone construction. (The increased weight of stone compensates for its compactness compared to wood.)
+The character will have to pay engineering costs for designing the stronghold, and tall structures are more difficult to design and to build. For each portion of the stronghold (wall, tower, and so on), each 10' of height adds 10% to the costs in both time and money. The DM should feel free to add a multiplier to reflect the difficulties of building in a remote area, obtaining materials, etc. In particular, if materials need to be transported, they require 1 ton of cargo space per 5 gp of wood or stone construction. (The increased weight of stone compensates for its compactness compared to wood.)
 
 A building over 40' high must have a solid foundation, and if over 60' high, it must rest on bedrock.
 
