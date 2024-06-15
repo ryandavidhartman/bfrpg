@@ -14,11 +14,7 @@
 
 *Then we turned back to the sarcophagus...*
 
-## Order of Play
-
-When the party of adventurers comes in contact with potential enemies, time shifts to combat rounds (10 seconds long, [as described previously](dungeonAdventures.qmd#time-and-scale)). Before beginning combat, surprise is checked (see below). Unsurprised characters then roll for Initiative, and act in order of the rolls (again, as described below).
-
-### Surprise
+## Surprise
 
 When surprise is possible, roll a DC for each side which might be surprised. Normal characters are surprised on a DC13. Elves are surprised on a DC15. Surprised characters are unable to act for one round. Characters or creatures which are well hidden and prepared to perform an ambush get a +3 to surprise.
 
@@ -27,11 +23,29 @@ For example: Drahff the Human Fighter and Morningstar the Elven Fighter/Magic-Us
 Surprised characters or creatures stand flat-footed for one round. They still defend themselves, so there is no penalty to Armor Class, but they cannot move nor attack during the round of surprise.
 
 
-### Monster Reactions
+## Morale
 
-When a group of player characters meet one or more monsters, it's important to know how the monsters will react to the party. In many cases, the reaction of the monster or monsters is obvious... zombies guarding a tomb will virtually always attack intruders, for example.
+NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 1 and 20. To make a Morale check, roll 1d20; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 20 never fail a Morale check; they always fight to the death.
 
-In cases where the reaction of the monsters to the party is not obvious, a **reaction roll** may be made. The Dungeon Master  rolls d20, adding the Charisma bonus of the "lead" character (or applying his or her Charisma penalty) along with any other adjustments he or she feels are reasonable, and consults the table below:
+In general, Morale is checked when monster(s) first encounter opposition, and again when the monster party is reduced to half strength (by numbers if more than one monster, or by hit points if the monster is alone). For this purpose, monsters incapacitated by **sleep**, **charm**, or **hold** magic are counted as if dead.
+
+The Dungeon Master  may apply adjustments to a monster's Morale score in some situations, at his or her discretion. Generally, adjustments should not total more than +3 or -3. No adjustment is ever applied to a Morale score of 20.
+
+A monster that fails a Morale check will generally attempt to flee; intelligent monsters or NPCs may attempt to surrender, if the DM so desires.
+
+| Cowardly |  Medium | Brave | Very Brave | Fight to the Death |
+|----------|---------|-------|------------|--------------------|
+| 15       | 10      | 5     | 2          | 1                  |
+: Morale DC {#tbl-morale-dc}        
+
+Note that special rules apply to retainers; see the relevant rules in the [Hirelings](hirelings.qmd#retainers) section, above.
+
+## Reaction Table
+
+When a group of player characters encounters one or more monsters or NPCs, it's important to determine how these creatures will react to the party. While some reactions are obvious—such as zombies guarding a tomb almost always attacking intruders—others are not as clear-cut.
+
+In situations where the reaction of the monsters or NPCs to the party is uncertain, particularly when talking, bluffing, or trading is involved, a **reaction roll** may be made. The Dungeon Master rolls a d20, adding the Charisma bonus (or applying the Charisma penalty) of the "lead" character, along with any other adjustments they feel are reasonable, and consults the table below:
+
 
 ```{ojs}
 
@@ -67,7 +81,7 @@ A favorable result means that the monsters do, in fact, like the player characte
 
 As always, interpreting the results of this roll is left to the GM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.
 
-### Initiative
+## Initiative
 
 Each round, 1d6 is rolled for Initiative for each character or monster. This roll is adjusted by the character's Dexterity bonus. High numbers act first. Any characters/monsters with equal numbers act simultaneously. The DM may make single rolls for groups of identical monsters at his or her option.
 
@@ -75,7 +89,7 @@ As the DM counts down the Initiative numbers, each character or monster may act 
 
 A character using a weapon with a long reach (spears, for instance) may choose to attack a closing opponent on the closing opponent's number and thus attack simultaneously with the opponent, even if the character rolled lower for Initiative.
 
-### Combat
+## Moving
 
 Each character or creature involved in combat may move, if desired, up to its encounter movement distance, and then attack, if any opponent is in range, when its Initiative number comes up. After attacking, a character or creature may not move again until the next round.
 
@@ -119,7 +133,7 @@ The attack made after the charge is made at +2 on the attack roll. The charging 
 
 **Set Weapon Against Charge**: Spears, pole arms, and certain other piercing weapons deal double damage when "set" (braced against the ground or floor) and used against a charging creature. For this to be done, the character or creature being charged must have equal or better Initiative; this counts as holding an action: both attacker and defender act on the attacker's Initiative number and are therefore simultaneous.
 
-### Evasion and Pursuit
+## Evasion and Pursuit
 
 Sometimes a party of adventurers will want nothing
 more than to avoid a group of monsters (or sometimes,
@@ -171,9 +185,7 @@ movement. After a withdrawal, the character may still
 attack at any point later in the same round if an
 opponent is within reach
 
-
-
-### Attacking Maneuvers
+## Attacking
 
 To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB), as shown on the Attack Bonus table, as well as **Strength** bonus (if performing a melee attack) or **Dexterity** bonus (if performing a missile or ranged attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent's Armor Class, the attack hits and damage is rolled. A natural "1" on the die roll is always a failure. A natural "20" is always a hit, if the opponent can be hit at all (for example, monsters that can only be hit by silver or magic weapons cannot be hit by normal weapons, so a natural "20" with a normal weapon will not hit such a monster).
 
@@ -199,11 +211,21 @@ To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB),
 
 : Attack Bonus Table {#tbl-attacking-bonus}
 
-#### Attacking from Behind
+### Weapon Proficiency
 
-Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the [Sneak Attack](class.qmd#thief-abilities) ability.
+Being proficient in a weapon means you can add your Attack Bonus to attack rolls made with that weapon. If you're not proficient, you can still use the weapon but cannot add your Attack Bonus.
 
-#### Normal Men
+[Fighters](class.qmd#fighter), [Rangers](class.qmd#ranger), and [Paladins](class.qmd#paladin) start with 4 weapon proficiencies and gain 1 weapon proficiency every other level after 1st (1 at 3rd, 1 at 5th, 1 at 7th, etc.). Only true Fighters can also specialize in a weapon.
+
+[Clerics](class.qmd#cleric) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Clerics may wear any armor and have no weapon restrictions.
+
+[Druids](class.qmd#druids) start with 3 weapon proficiencies and gain 1 weapon proficiency every 4 levels (1 at 5th, 1 at 9th, etc.). Druids may not utilize metal armor of any type and are likewise limited to wooden shields. Druids may utilize any one-handed melee weapons, as well as staff, sling, and short bow.
+
+[Thieves](class.qmd#thief) and Assassins start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
+
+[Magic Users](class.qmd#magic-user) start with 2 weapon proficiencies and gain no new proficiencies as they spend most of their training time studying books and not practicing with weapons.
+
+### Normal Men
 
 A note about **normal men**: The <a href="#NM">NM entry</a> in the table above is for normal men, also known as **zero level characters**. These characters represent the artisans, shopkeepers, scullery maids, and other non-adventurer characters who will appear in the game. All such characters are NPCs, of course. Demi-human races have few if any zero-level characters among their numbers; the vast majority of "normal men" are humans.
 
@@ -211,25 +233,116 @@ Average zero-level humans have 1d4 hit points, and usually are not proficient wi
 
 It is recommended not to waste time in detailing the ability score or other statistics of such characters further; they are normal, as in "average," and so very few would have extreme statistics. A blacksmith might be credited with a Strength score of 13 or more, or a savant with Intelligence of 16 or more, but in general such things need not be detailed for most of these characters.
 
-#### Monster Attack Bonus
+### Monster Attack Bonus
 
 When looking up a monster's hit dice on the Attack Bonus Table, ignore all "plus" or "minus" values; so a monster with 3+2 hit dice, or one with 3-1, is still treated as just 3 hit dice. The exception is monsters with 1-1 or lower hit dice, which are considered less than one hit die and have an attack bonus of +0.
 
-#### Melee Combat
+### Critical Hit
+
+**A natural 20 always hits.** (barring magic or silver weapon requirements). Roll an additional d20 + modifiers to determine if it is a special.
+
+| Roll (d20) | Result                                    |
+|------------|-------------------------------------------|
+| 1-10 (50%) | Regular Damage                            |
+| 11-15 (25%)| Maximum Damage (for example: a character with regular normal damage of 1d6 +2 would have a Maximum Damage of 6 +2 = 8) |
+| 16-19 (20%)| Critical Damage. Roll Regular Damage + Maximum Damage + Modifier (for example 1d6+2, the character rolls a 3 + Maximum Damage of 6 + 2 = 3 + 6 +2 = 11) |
+| 20 (5%)    | Critical Damage (see above) plus roll on the chart below: |
+: Critical Hit Table {#tbl-critical-hit}
+
+
+| Roll (1d4) | Condition      | Effect                                             |
+|------------|----------------|----------------------------------------------------|
+| 1          | Enemy is Disarmed | Primary weapon is knocked from enemy’s grasp     |
+| 2          | Enemy is Shaken   | -2 to hit, Saves, DC checks                      |
+| 3          | Enemy is Prone    | -4 to hit, a -4 AC (melee), +4 AC (ranged)       |
+| 4          | Enemy is Blinded  | -4 to hit, a -4 AC, -2 Init                      |
+: Critical Damage Table {#tbl-critical-damage}
+
+
+### Critical Miss
+
+**A natural 1 always misses.** Roll an additional d20 to determine if it is a special.
+
+| Roll (d20) | Result                                                                 |
+|------------|------------------------------------------------------------------------|
+| 1-2 (10%)  | Weapon breaks, no attack next round                                    |
+| 3-5 (15%)  | Stumble; DEX check (DC20) or -1 to combat rolls for 1d2 rounds         |
+| 6-10 (25%) | Sloppy Attack; DEX check (DC15) or opponent gets free attack           |
+| 11-15 (25%)| Drop weapon, no attack next round                                      |
+| 16-20 (25%)| Just a Miss                                                            |
+: Critical Miss Table {#tbl-critical-miss}
+
+### Melee Combat
 
 Melee occurs after a character has closed for combat and strikes at a monster or other foe. Melee weapons or attacks may generally only be used against foes who are engaged with the attacker (as described above).
 
-#### Missile Fire
+### Missile Fire
 
 Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the [Missile Weapon Ranges](equipment.qmd#missile-weapon-ranges) table. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
 
 If a character attempts to use a missile weapon against a foe who is within 5' of him or her (i.e. who is engaged with the shooter), a penalty of -5 is applied to the attack roll. This is due to the shooter dodging around to avoid the foe's attacks. The only exception is if the attacker is behind the target creature and undetected, or that creature is distracted so as to not be able to attack the shooter; in these cases, apply the usual +1 bonus (+3 total bonus if attacking from behind).
 
-#### Cover and Concealment
+### Damage
+
+If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the [Strength](abilities.qmd#ability-scores) bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
+
+Also, magic weapons will add their bonuses to damage (and cursed weapons will apply their penalty). Note that, regardless of any penalties to damage, any successful hit will do at least one point of damage.
+
+As [explained elsewhere](hitPoints.qmd#unconscious), a creature or character reduced to 0 hit points is unconscious, and dying when they have negative hit points.
+
+### Subduing Damage
+
+Attacks made with the "flat of the blade" for non-lethal damage are made at a -4 attack penalty and do half damage. Most weapons can be used this way; only those with penetration or slashing features on all sides cannot.
+
+If a character is reduced to zero hit points who has taken at least some subduing damage, the character becomes unconscious rather than dying. (Any further subduing damage is then considered killing damage, allowing the possibility that someone might be beaten to death.) A character knocked out in this way, but not subsequently killed, will wake up with 1 hit point in 1d4 turns, or can be awakened (with 1 hit point) by someone else after 2d10 rounds.
+
+## Attacking Maneuvers
+
+### Attacking from Behind
+
+Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the [Sneak Attack](class.qmd#thief-abilities) ability.
+
+### Cover and Concealment
 
 In certain situations, the intended target of a missile (or melee) attack may have cover or concealment of some kind. Cover is defined as "hard" protection such as that afforded by a thick tree trunk or stone wall, that is, anything that will stop or slow a missile weapon. Concealment is "soft" cover like fog or light foliage that makes the target difficult to see but does not affect the missile itself. Cover or concealment makes it more difficult to strike an intended target, and thus a penalty will be applied to the attacker's die roll depending upon how much of the target is protected from attack. For concealment the attack penalty should range from -1 (25% obscured) to -4 (90% obscured). For hard cover, these penalties should be doubled.
 
-#### Missile Weapon Rate of Fire
+| Concealment | Attack Penalty |
+|-------------|----------------|
+| 25% Concealed | -1 attack penalty |
+| 50% Concealed | -2 attack penalty |
+| 75% Concealed | -3 attack penalty |
+| 90% Concealed | -4 attack penalty |
+: Concealment Attack Penalty Table {tbl-concealment-penalty}
+
+
+### Flanking
+
+When a creature and at least one ally are within 5ft of the same enemy on opposite sides, that enemy is flanked. Each of the creatures flanking has advantage of +1 on melee attacks against it.
+
+### Spell Casting
+
+Spellcasters must have at least one hand free, and be able to speak, to cast spells; thus, binding and gagging a spellcaster is an effective means of preventing them from casting spells. In combat, casting a spell usually takes the same time as making an attack. If a spellcaster is attacked (even if not hit) they must make a saving throw on the Initiative number on which they are casting a spell, or the spell is spoiled and lost. 
+As a specific exception, two spell casters releasing their spells at each other on the same Initiative number will both succeed in their casting; one caster may disrupt another with a spell only if they have a better Initiative and chooses to delay casting the spell until right before the other caster.
+
+### Two-weapon style
+
+When fighting with two weapons at the same time, one weapon must be smaller (like a short sword or dagger). The penalty for fighting with two weapons is -2 to hit with the primary weapon and -5 with the secondary weapon.
+
+### Attacking an Invisible Opponent
+
+The penalty for attacking an invisible opponent is -4 on the attack roll (the same penalty for attacking while blind).
+
+### Brawling
+
+Sometimes a character will attack without a weapon, striking with a fist or foot. This is called brawling. Normal characters do 1d3 points of subduing damage with a punch, 1d4 with a kick; kicks are rolled at a -2 attack penalty. A character in no armor or leather armor cannot successfully punch or kick a character in metal armor, and in fact, if this is attempted the damage is applied to the attacker instead of the defender. The DM must decide which monsters can be successfully attacked this way. All character classes may engage in brawling; there is no "weapon" restriction in this case.
+
+## Ranged Attacks
+
+Missile weapons may be used to attack foes at a distance. The distance the attacker is from their target affects the attack roll, as shown on the Missile Weapon Ranges table in the Equipment section. Opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
+
+If a character attempts to use a missile weapon against a foe that is within 5' of them (i.e., who is engaged with the shooter), a penalty of -5 is applied to the attack roll. This is due to the shooter dodging around to avoid the foe's attacks. The only exception is if the attacker is behind the target creature and undetected, or that creature is distracted to not be able to attack the shooter; in these cases, apply the +1 bonus for Short Range and +2 for attacking from behind.
+
+### Missile Weapon Rate of Fire
 
 In general, missile weapons are allowed a single attack per round, just as are melee weapons. However, crossbows are an exception, as reloading a crossbow between shots is time-consuming.
 
@@ -239,22 +352,14 @@ Siege engines also fire less often than ordinary weapons. The rate of fire for s
 
 Of course, the user of such a weapon may drop or sling the weapon and switch to another weapon rather than reloading. Also, it is possible (especially when defending a position) to load more than one crossbow in advance and then switch weapons each round until all have been fired. In a dungeon environment this sort of strategy is unlikely, of course.
 
-#### Grenade-Like Missiles
+### Grenade-Like Missiles
 
 When throwing grenade-like missiles (flasks of oil, etc.), a successful attack roll indicates a direct hit. Otherwise, the DM will roll 1d10 and consult the diagram below to determine where the missile hit. Treat each number as representing a 10' square area.
 
 ![Grenade AOT](./images/grenade-charg.svg){#fig-grenade}
 
 
-#### Missiles That Miss
-
-With the exception of grenade-like missiles, missile weapons which miss the intended target are normally considered lost. However, if the weapon is fired into a melee where allies of the shooter are involved, and the attack misses, it may hit one of the allied creatures. The DM should decide which allies may be hit, and roll attacks against each until a hit is made or all possible targets are exhausted. These attack rolls are made with the shooter's normal attack bonus, just as if he or she intended to attack the allied creature. However, the DM must make these rolls, not the player.
-
-This rule is applied to attacks made by monsters, when appropriate. However, the DM still makes the rolls.
-
-This rule is intentionally vague; the DM must decide when and how to apply it based on the circumstances of the battle. It is recommended that no more than three allies be “tried” in this way, but the DM may make an exception as he or she sees fit.
-
-#### Oil
+### Oil
 
 A flask of oil can be used as a grenade-like missile. The oil must be set afire in order to inflict damage; otherwise the oil is just slippery. Assuming some means of igniting the oil is at hand, a direct hit to a creature deals 1d8 points of fire damage, plus in the next round the target takes an additional 1d8 points of damage, unless he or she spends the round extinguishing the flames by some reasonable means. The DM must judge the method used; rolling on the floor (assuming it's not oily also) or covering the flames with a wet blanket are good methods, for instance, while pouring or splashing water on burning oil does little good. In any event, a flask of burning oil only causes damage for two rounds at most.
 
@@ -264,37 +369,34 @@ A flask of oil spilled or splattered on the ground will burn for 10 rounds. Thos
 
 Fire-resistant creatures, including creatures having fire-based abilities, are not damaged by burning oil.
 
-#### Holy Water
+### Holy Water
 
 Holy water damages undead creatures. A flask of holy water can be thrown as a grenade-like missile; the flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, it must be opened and poured out onto the target, generally requiring the attacker to be adjacent to the target.
 
 A direct hit by a flask of holy water deals 1d8 points of damage to an undead creature. In addition, each such creature within 5 feet of the point of impact receives 1d6 points of damage from the splash. Holy water is only effective for one round.
 
-#### Damage
+### Missiles That Miss
 
-If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the [Strength](abilities.qmd#ability-scores) bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
+With the exception of grenade-like missiles, missile weapons which miss the intended target are normally considered lost. However, if the weapon is fired into a melee where allies of the shooter are involved, and the attack misses, it may hit one of the allied creatures. The DM should decide which allies may be hit, and roll attacks against each until a hit is made or all possible targets are exhausted. These attack rolls are made with the shooter's normal attack bonus, just as if he or she intended to attack the allied creature. However, the DM must make these rolls, not the player.
 
-Also, magic weapons will add their bonuses to damage (and cursed weapons will apply their penalty). Note that, regardless of any penalties to damage, any successful hit will do at least one point of damage.
+This rule is applied to attacks made by monsters, when appropriate. However, the DM still makes the rolls.
 
-As explained elsewhere, a creature or character reduced to 0 hit points is dead.
+This rule is intentionally vague; the DM must decide when and how to apply it based on the circumstances of the battle. It is recommended that no more than three allies be “tried” in this way, but the DM may make an exception as he or she sees fit.
 
-#### Subduing Damage
+## Grappling / Wrestling
 
-Attacks made with the "flat of the blade" for non-lethal damage are made at a -4 attack penalty and do half damage. Most weapons can be used this way; only those with penetration or slashing features on all sides cannot.
+A grappling attack requires a Touch Attack (melee attack roll + attack bonus, + either Str or Dex)
+Success indicates the attacker has grabbed their opponent. A successful touch attack causes the attacker to move into the same “space” as the defender. Both Sides make a Grapple Check (D20+ attack bonus, + either Str or Dex, + Size Modifier) to determine if this hold is maintained. Highest DC wins.
 
-If a character is reduced to zero hit points who has taken at least some subduing damage, the character becomes unconscious rather than dying. (Any further subduing damage is then considered killing damage, allowing the possibility that someone might be beaten to death.) A character knocked out in this way, but not subsequently killed, will wake up with 1 hit point in 1d4 turns, or can be awakened (with 1 hit point) by someone else after 2d10 rounds.
-
-#### Brawling
-
-Sometimes a character will attack without a weapon, striking with a fist or foot. This is called brawling. Normal characters do 1d3 points of subduing damage with a punch, 1d4 with a kick; kicks are rolled at a -2 attack penalty. A character in no armor or leather armor cannot successfully punch or kick a character in metal armor, and in fact, if this is attempted the damage is applied to the attacker instead of the defender. The DM must decide which monsters can be successfully attacked this way. All character classes may engage in brawling; there is no "weapon" restriction in this case.
-
-#### Wrestling
-
-A wrestling attack requires a successful melee attack roll, where success indicates the attacker has grabbed his or her opponent. This hold is maintained until the attacker releases it or the defender makes a save vs. Death Ray, which is attempted at the defender's next action (according to Initiative). A successful wrestling attack causes the attacker to move into the same "space" as the defender (if miniature figures are used).
+| Size   | Modifier |
+|--------|----------|
+| Small  | -4       |
+| Medium | +0       |
+| Large  | +4       |
 
 After achieving a hold on an opponent, the attacker can automatically inflict unarmed damage (as if striking with a fist), prevent a held opponent from speaking, use simple magic items such as rings, or take any other action the DM allows. The attacker may also attempt to acquire an item the opponent is holding (such as a weapon) or attempt to move the opponent (as described below). A held character may be voluntarily released whenever the attacker so desires.
+The attacker can’t draw or use a weapon or use a wand, staff, scroll or potion, escape another’s wrestling attack, cast a spell, or pin another character while holding an opponent.
 
-The attacker can't draw or use a weapon or use a wand, staff, scroll or potion, escape another's wrestling attack, cast a spell, or pin another character while holding an opponent.
 
 **Moving the Opponent:** The attacker can move up to one-half speed (bringing the defender along) with a successful attack roll, if the attacker is strong enough to carry or drag the defender.
 
@@ -322,24 +424,37 @@ Large creatures able to fly may attempt to carry off their opponents (even if th
 
 Wrestling attacks against creatures with touch attacks (such as wights) will cause the attacker to suffer one such attack automatically every round.
 
-#### Morale
+## Jousting
 
-NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 1 and 20. To make a Morale check, roll 1d20; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 20 never fail a Morale check; they always fight to the death.
+Jousting is a medieval sport where two combatants, mounted on horses, charge at each other with lances, aiming to unhorse their opponent. It is a display of skill, strength, and horsemanship, often held in tournaments. The event is not only a test of combat prowess but also a spectacle enjoyed by audiences, with knights in shining armor and spirited horses adding to the grandeur.
 
-In general, Morale is checked when monster(s) first encounter opposition, and again when the monster party is reduced to half strength (by numbers if more than one monster, or by hit points if the monster is alone). For this purpose, monsters incapacitated by **sleep**, **charm**, or **hold** magic are counted as if dead.
+### Rules
 
-The Dungeon Master  may apply adjustments to a monster's Morale score in some situations, at his or her discretion. Generally, adjustments should not total more than +3 or -3. No adjustment is ever applied to a Morale score of 20.
+* Only combatants are allowed on the field. 
 
-A monster that fails a Morale check will generally attempt to flee; intelligent monsters or NPCs may attempt to surrender, if the DM so desires.
+* Only one attack is allowed for each mounted pass. Make a normal initiative roll to hit first. 
 
-| Cowardly |  Medium | Brave | Very Brave | Fight to the Death |
-|----------|---------|-------|------------|--------------------|
-| 15       | 10      | 5     | 2          | 1                  |
-: Morale DC {#tbl-morale-dc}        
+* Attackers ride applying a Charge against each other. (+2 for double damage), however, since all attacks are being done simultaneously, the AC penalty does not apply except for any other attacks that may be applied to either side by third parties. 
 
-Note that special rules apply to retainers; see the relevant rules in the [Hirelings](hirelings.qmd#retainers) section, above.
+* When a jouster is hit by the other jouster, he must make a save versus Death Ray (however, CON does not modify this save, but add any Riding Skill bonus) or be unhorsed and land prone upon the ground. 
 
-#### Turning the Undead
+* If the save is failed by 4 or more, then the unhorsed individual is also stunned for 2 rounds (-2 penalty to AC as well as loss of DEX bonus if applicable and -2 penalty to attacks). 
+
+* Each 5 points of damage dealt gives a -1 penalty to the save. 
+
+* If the save is failed by 8 or more, the individual is Knocked Out completely. 
+
+* A mounted opponent has a +2 chance to hit a mounted opponent's horse with sword, mace, flail, or another small weapon. 
+
+* On a roll of a natural 1 to hit, a combatant's lance breaks on impact. The fighter may get another lance if his seconds provide them at their end of the bridge. 
+
+* A mounted combatant using a sword, mace, flail, or other small weapon can't hit a mounted combatant using a lance. 
+
+* Combat continues, mounted or on foot, until a clear winner emerges.  
+
+* Jousts may be done using subdual damage instead of lethal damage (which is often the case in tournaments), generally by using blunted lances.
+
+## Turning the Undead
 
 Clerics can Turn undead, that is, drive away undead monsters by means of faith alone. The Cleric brandishes their holy symbol and calls upon the power of their divine patron. The player rolls 1d20 and adds their Wisdom Bonus.
 
@@ -402,49 +517,7 @@ res = turnUndead(level,r)
 ${res}
 
 
-### Energy Drain
-
-Sometimes characters are exposed to energy drain from undead or evil magic. Such energy drain is manifested in the form of "negative levels." For each negative level a victim receives, he or she suffers a semi-permanent loss of one hit die worth of hit points, a penalty of -1 on all attack and saving throw rolls (and any other roll made on 1d20), and -5% to any percentile roll such as thief abilities. In addition, an affected spell caster loses access to one of his or her highest-level spell slots. The victim may or may not be allowed a saving throw to resist the effect (depending on the specific monster type).
-
-If the character's hit points are reduced to zero or less by means of energy drain, the victim is immediately slain. If the energy drain is caused by an undead monster, the victim will usually be transformed into that sort of undead (exact details vary by type of monster).
-
-Negative levels may be removed by magic, such as the [restoration](allSpells.qmd#restoration) spell. When a negative level is to be removed, divide the total number of hit points lost by the number of negative levels (rounding normally) to determine how many hit points are restored.
-
-For example, a character suffers three negative levels of energy drain. The hit point losses rolled were 6, 5, and 2, for a total of 13 points lost. The first negative level removed restores 13 / 3 = 4.3333 hit points (which is rounded to 4 even). Now the character has two negative levels and has lost 9 hit points. The next time a negative level is removed, the character recovers 9 / 2 = 4.5 hit points, which is rounded to 5 even. Now the character has one negative level and 4 hit points lost. Removal of the last negative level will restore the remaining 4 points.
-
-Those who have suffered energy drain generally have a gaunt, haggard look about them, noticeable by observant characters.
-
-### Healing and Rest
-
-Characters recover 1 hit point of damage every day, provided that normal sleep is possible. Characters who choose full bedrest regain an additional hit point each evening.
-
-Normal characters require 6 hours sleep out of every 24. Subtract from this number of hours the character's Constitution bonus; so a character with 18 Constitution needs only 3 hours sleep per night (and a character with 3 Constitution needs 9 hours). Note that these figures are minimums; given a choice, most characters would prefer to sleep two or more hours longer.
-
-Characters who get less than the required amount of sleep suffer a **-1 penalty** on all attack rolls and saving throws (as well as not receiving any hit points of healing). For each additional night where sufficient sleep is not received, the penalty becomes one point worse. Regardless of how long the character has gone without adequate sleep, the normal amount of sleep will remove these penalties.
-
-### Constitution Point Losses
-
-Any character who has lost Constitution points temporarily (such as due to a disease) may regain them with normal rest. The rate of recovery is one point per day, awarded each morning when the character awakens from a normal night's sleep. If more than one Constitution point was lost, the character must make a save vs. Death Ray (without adjustments) to regain the final point; failure results in a permanent loss of that point.
-
-If a Constitution loss results in a lower bonus or penalty, the character's maximum hit points must be reduced appropriately; for instance, a character reduced from 16 to 15 Constitution goes from +2 to +1, thus losing one hit point per die rolled. If a reduction in maximum hit points reduces that figure to less than the character's current hit points, reduce the current hit points to the new maximum hit point figure immediately.
-
-When regaining Constitution, any increase that increases the character's Constitution bonus results in the restoration of the hit points lost due to the reduction, added to the maximum hit point figure only. Current hit points will not be improved in this fashion, but rather must be regained by normal healing.
-
-### Falling Damage
-
-Characters suffer 1d6 damage per 10' fallen, up to a maximum 20d6. Fractional distances are rounded to the nearest whole number, so that a fall of 1-4' does no damage, 5'-14' does 1d6, etc.
-
-### Deafness and Blindness
-
-A deafened creature can react only to what it can see or feel, is surprised on 1-3 on 1d6, and suffers a -1 penalty to its Initiative rolls. A blinded creature is surprised on 1-4 on 1d6, suffers a -4 penalty to its attack rolls, a -4 penalty to its Armor Class, and a -2 penalty to its Initiative rolls. These effects are modified when dealing with monsters having unusual sensory abilities; for example, bats may be affected by deafness as if blinded instead.
-
-These penalties are for characters or creatures recently handicapped. Those who are normally blind or deaf may have reduced penalties at the GM's option.
-
-Note that the penalty for attacking an invisible opponent is the same as the penalty for attacking blind, that is, -4 on the attack roll. Do not apply this twice... a
-blind character attacking an invisible opponent is no
-worse off than if they were attacking a visible one
-
-### Attacking a Vehicle
+## Attacking a Vehicle
 
 Attacks against vehicles (such as wagons or ships) are made against Armor Class 11. Each vehicle has listed Hardness and Hit Point values. Roll damage against the vehicle, and then reduce that damage by the Hardness value. Any excess damage is applied to the vehicle.
 

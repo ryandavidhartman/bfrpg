@@ -144,7 +144,7 @@ Chelonian swim no better than other humanoid races, but they can hold their brea
 
 **Restrictions:** Fauns can choose any class. A Faun will typically follow the tenets of nature deities, and Clerics and Druids (if allowed by the GM) can be found equally in their societies. A Faun must have a minimum Constitution score of 9, and is limited to a maximum Charisma score of 15, generally accounted to overly gregarious personalities and lack of inhibitions. Fauns may not wear typical human-style footwear.
 
-**Special Abilities:** Fauns have Darkvision out to 30'. They are resistant to charm-like effects from fey beings, getting a +4 bonus on relevant saves. This includes charms of dryads, nixies, and similar beings (GM's decision when necessary).
+**Special Abilities:** Fauns have [Darkvision](senses.qmd#darkvision) out to 30'. They are resistant to charm-like effects from fey beings, getting a +4 bonus on relevant saves. This includes charms of dryads, nixies, and similar beings (GM's decision when necessary).
 
 **Saving Throws:**Like Dwarves, Fauns save at +4 vs. Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, and at +3 vs. Dragon Breath.
 
@@ -205,7 +205,7 @@ When allowed by the GM, certain optional subclasses might be allowed as a compon
 
 **Restrictions:** A bugbear may become a Fighter, Cleric, or Thief. Bugbear Clerics are called Shamans. When permitted by the GM, bugbears may be allowed to advance in certain optional classes. Likewise, a DM may exclude certain choices. A bugbear character must have minimum Strength score of 13 and Dexterity score of 9. Bugbears are limited to a maximum of 15 in both Intelligence and Charisma.
 
-**Special Abilities:** Bugbears prefer to ambush opponents if they can. When hunting, they often send scouts ahead of the main group. Bugbear attacks are coordinated, and their tactics are sound if not brilliant. They are able to move in nearly complete silence, surprising opponents on 1-3 on 1d6. Like most dark dwelling races, a bugbear has Darkvision out to 60'.
+**Special Abilities:** Bugbears prefer to ambush opponents if they can. When hunting, they often send scouts ahead of the main group. Bugbear attacks are coordinated, and their tactics are sound if not brilliant. They are able to move in nearly complete silence, surprising opponents on 1-3 on 1d6. Like most dark dwelling races, a bugbear has [Darkvision](senses.qmd#darkvision) out to 60'.
 
 **Thief Ability Adjustments:** A bugbear Thief has a +20% bonus to Move Silently and despite its size gets a bonus of +10% on Hide checks.
 
@@ -255,7 +255,7 @@ Thus, a centaur with its first class level has 3d8 hit points and +2 attack bonu
 
 **Restrictions:** A gnoll character may become a Fighter, Cleric, or occasionally a Magic-user. When permitted by the GM, certain optional subclasses are especially appropriate for gnolls. Likewise, a DM may exclude certain class choices as inappropriate. A gnoll character must have a minimum Strength score of 13 and Constitution score of 11. Gnolls are savage, brutish, and cruel, and are limited to scores of 15 in both Intelligence and Charisma.
 
-**Special Abilities:** In its role as a scavenger, a gnoll is especially attuned to scent. A gnoll is able to identify individuals by scent alone. This powerful olfactory sense allows it to determine the presence of concealed or invisible creatures, and any penalties associated with combating such foes is halved. For instance, a gnoll suffers only a -2 penalty when attacking an invisible pixie. Like most dark-dwelling races, gnolls have Darkvision out to 60'.
+**Special Abilities:** In its role as a scavenger, a gnoll is especially attuned to scent. A gnoll is able to identify individuals by scent alone. This powerful olfactory sense allows it to determine the presence of concealed or invisible creatures, and any penalties associated with combating such foes is halved. For instance, a gnoll suffers only a -2 penalty when attacking an invisible pixie. Like most dark-dwelling races, gnolls have [Darkvision](senses.qmd#darkvision) out to 60'.
 
 **Thief Ability Adjustments:** Gnolls do not become standard Thieves, but if using non-standard class options a gnoll may have one or more typical Thief abilities. Such gnolls have a bonus of +10% on Hear Noise attempts. A gnoll with the Tracking ability has a +10% bonus on that skill due primarily from its keen sense of smell.
 
@@ -271,7 +271,7 @@ Thus, a gnoll with its first class level has 1d8 hit points and +1 attack bonus 
 
 **Restrictions:** A goblin may become any of the standard classes. Goblin Clerics are called Shamans, and on occasion one may encounter a Goblin Witch-Doctor, which is simply a Cleric/Magic-User combination class. When permitted by the DM a goblin may be allowed to advance in certain optional classes. Likewise, a DM may exclude certain choices. A goblin character must have a minimum Dexterity score of 9. Goblins do not have great fortitude, and are limited to maximum scores of 16 in Strength and Constitution. In addition to the Constitution limitation, goblins must subtract one point from every hit die roll, down to a minimum of 1 hit point per die. However, a goblin with a class hit die less than d6 does not apply the -1 deduction to hit point rolls (Constitution bonus/penalty still applies). A goblin may not use Large weapons, and must wield Medium weapons with both hands. Likewise a goblin must utilize smaller-sized armor.
 
-**Special Abilities:** Like Halflings, a goblin gains a +2 bonus to itsarmor class when attacked in melee by creatures larger than man-sized. Crafty and mechanically inclined, a goblin notices secret doors as well as an Elf (1‑2 on 1d6 rather than the usual 1 on 1d6). Likewise, one is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like Dwarves, a goblin is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. Like most dark-dwelling races, a Goblin has Darkvision out to 60'.
+**Special Abilities:** Like Halflings, a goblin gains a +2 bonus to itsarmor class when attacked in melee by creatures larger than man-sized. Crafty and mechanically inclined, a goblin notices secret doors as well as an Elf (1‑2 on 1d6 rather than the usual 1 on 1d6). Likewise, one is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like Dwarves, a goblin is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. Like most dark-dwelling races, a Goblin has [Darkvision](senses.qmd#darkvision) out to 60'.
 
 **Thief Ability Adjustments:** A goblin Thief has a +10% bonus to Open Locks and Finding/Removing Traps.
 
@@ -287,7 +287,7 @@ Hobgoblins are cruel and calculating warriors, always looking to exploit those w
 
 **Special Abilities:** Militaristic and always on alert, a Hobgoblin character is seldom surprised. Like Elves, it is surprised only on a roll of 1 on 1d6 (one point better). Even against well-planned ambushes, surprise is only achieved against a hobgoblin on a roll of 1-3 on 1d6.
 
-While not as mechanically-minded as normal goblins, a hobgoblin is still very alert, noticing secret doors as well as an Elf (1-2 on 1d6 rather than the usual 1 on 1d6). Likewise, a hobgoblin is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like most dark-dwelling races, a hobgoblin has Darkvision out to 60'.
+While not as mechanically-minded as normal goblins, a hobgoblin is still very alert, noticing secret doors as well as an Elf (1-2 on 1d6 rather than the usual 1 on 1d6). Likewise, a hobgoblin is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Like most dark-dwelling races, a hobgoblin has [Darkvision](senses.qmd#darkvision) out to 60'.
 
 **Thief Ability Adjustments:** Given their "always alert" status, a roguish hobgoblin has a +5% bonus to Listen and Finding/Removing Traps.
 
@@ -303,7 +303,7 @@ The tunneling kobolds dwell almost entirely within dark environs, and one will s
 
 **Special Abilities:** Like Halflings, a kobold gains a +2 bonus to its armor class when attacked in melee by creatures larger than man-sized. Another similarity to Halflings, a kobold also has a +1 attack bonus when using ranged weapons.
 
-Kobolds are masters of trap-works and are otherwise very mechanically inclined. A kobold character notices secret doors as well as an Elf (1-2 in 1d6 rather than the usual 1 in 1d6). Likewise, a kobold is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Kobolds are masterful miners, and like Dwarves, a kobold is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. A kobold has Darkvision out to 90'.
+Kobolds are masters of trap-works and are otherwise very mechanically inclined. A kobold character notices secret doors as well as an Elf (1-2 in 1d6 rather than the usual 1 in 1d6). Likewise, a kobold is so observant that it has a 1 in 1d6 chance to find a secret door with just a cursory look. Kobolds are masterful miners, and like Dwarves, a kobold is able to detect slanting passages, traps, shifting walls, and new construction on a roll of 1-2 on 1d6; a search must be performed before this roll may be made. A kobold has [Darkvision](senses.qmd#darkvision) out to 90'.
 
 **Thief Ability Adjustments:** Kobolds are considered to be masters at trap-works; a roguish kobold has a +15% bonus to Finding/Removing Traps. In addition, it has +5% bonuses to Open Locks, Move Silently, and Hiding.
 
@@ -344,7 +344,7 @@ Thus, a lizard man in its first class level has 1d8 hit points and +1 attack bon
 
 **Restrictions:** An ogre may become a Fighter or rarely a Cleric. Ogres usually lack the sophistication for other options, but certain optional subclasses might be allowed by the GM. Likewise, a DM may exclude certain class choices as inappropriate. An ogre character must have a minimum Strength score of 15 and Constitution score of 13. An ogre is generally deficient in its intellect and ability to interact with others;  it is limited to a score of 13 for both Intelligence and Charisma. Likewise, an ogre is not wise nor particularly dexterous, and it is limited to a score of 15 in both Wisdom and Dexterity. An ogre in combat counts as a Large opponent (for instance against Halflings), and only specially-made large armors can be worn (often costing 3 or more times the normal price).
 
-**Special Abilities:** Due to its great mass, a properly classed ogre rolls hit dice one size larger than normal; a d4 would become a d6, a d6 to d8, etc. An ogre is never truly unarmed, as it can attack with its fists for 1d8 subduing points of damage per hit. An ogre character rolls attacks normally with most weapons, applying its Strength bonus to damage. However, when properly equipped with tremendously over-sized weapons (often crudely constructed), an ogre may forgo its normal damage bonus from strength and instead roll 2d6 for damage. An ogre gets an additional +1 bonus on feats of strength such as opening doors due to its great size. Like many humanoid races, an ogre has Darkvision out to 60.
+**Special Abilities:** Due to its great mass, a properly classed ogre rolls hit dice one size larger than normal; a d4 would become a d6, a d6 to d8, etc. An ogre is never truly unarmed, as it can attack with its fists for 1d8 subduing points of damage per hit. An ogre character rolls attacks normally with most weapons, applying its Strength bonus to damage. However, when properly equipped with tremendously over-sized weapons (often crudely constructed), an ogre may forgo its normal damage bonus from strength and instead roll 2d6 for damage. An ogre gets an additional +1 bonus on feats of strength such as opening doors due to its great size. Like many humanoid races, an ogre has [Darkvision](senses.qmd#darkvision) out to 60.
 
 **Thief Ability Adjustments:** Ogres cannot become Thieves, but if non-standard class options are utilized, an Ogre has -20% penalty on Open Locks, Remove Traps or Picking Pockets. Likewise, stealth is difficult; an ogre has a -10% penalty to Move Silently and Hide. However, it can Climb readily, getting a +10% bonus, assuming what it is climbing is stable with the addition of the ogre's weight.
 
@@ -362,7 +362,7 @@ Thus, an ogre at  its first class level has 3d8 hit points and +2 attack bonus i
 
 Orcs prefer dark environs such as underground, deep ravines, or dark forested areas, and it suffers a -1 penalty to attack rolls in bright sunlight or within the radius of **light** spells.
 
-**Special Abilities:** Like most dark-dwelling races, orcs have Darkvision out to 60', but suffer penalties in bright light (see above).
+**Special Abilities:** Like most dark-dwelling races, orcs have [Darkvision](senses.qmd#darkvision) out to 60', but suffer penalties in bright light (see above).
 
 **Thief Ability Adjustments:** An orc Thief has a +10% bonus to Climb Walls and Listen.
 

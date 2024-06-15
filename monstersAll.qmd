@@ -142,7 +142,7 @@ weapons, favoring small weapons made for their stature
 and relative lack of strength; all such weapons do 1d4
 points of damage on a hit.
 
-Barklings see well in the dark, having Darkvision with a
+Barklings see well in the dark, having [Darkvision](senses.qmd#darkvision) with a
 range of 30 feet, but their sense of smell is where they
 excel; a barkling can track almost any living or corporeal undead creature by scent, even if it has been
 as much as a day since it passed.
@@ -246,7 +246,7 @@ touch the corpse, an obviously bad idea.
 | Treasure Type: | None | None |
 | XP: | 10 | 75 |
 
-Bats are nocturnal flying mammals. The statistics presented here describe small, insectivorous bats. They have a natural sonar that allows them to operate in total darkness; for game purposes, treat this ability as Darkvision.
+Bats are nocturnal flying mammals. The statistics presented here describe small, insectivorous bats. They have a natural sonar that allows them to operate in total darkness; for game purposes, treat this ability as [Darkvision](senses.qmd#darkvision).
 
 A group of normal-sized bats has no effective attack (at least in terms of doing damage) but can confuse those in the area, flying around apparently randomly. For every ten bats in the area, one creature can be confused; such a creature will suffer a penalty of -2 on all attack and saving throw rolls while the bats remain in the area.
 
@@ -629,7 +629,7 @@ A boar is covered in coarse, grayish-black fur. Adults are about 4 feet long and
 
 Bugbears look like huge, hairy goblins, standing about 6 feet tall. Their eyes are usually a darkish brown color and they move very quietly. They are wild and relatively fearless, and bully smaller humanoids whenever possible.
 
-Bugbears prefer to ambush opponents if they can. When hunting, they often send scouts ahead of the main group. Bugbear attacks are coordinated, and their tactics are sound if not brilliant. They are able to move in nearly complete silence, surprising opponents on 1-3 on 1d6. In order to remain silent, they must wear only leather or hide armor, as indicated in the Armor Class scores above. Bugbears receive a +1 bonus on damage due to their great Strength. As with most goblinoid monsters, they have Darkvision with a 30' range.
+Bugbears prefer to ambush opponents if they can. When hunting, they often send scouts ahead of the main group. Bugbear attacks are coordinated, and their tactics are sound if not brilliant. They are able to move in nearly complete silence, surprising opponents on 1-3 on 1d6. In order to remain silent, they must wear only leather or hide armor, as indicated in the Armor Class scores above. Bugbears receive a +1 bonus on damage due to their great Strength. As with most goblinoid monsters, they have [Darkvision](senses.qmd#darkvision) with a 30' range.
 
 One out of every eight bugbears will be a hardened warrior of 4+4 Hit Dice (240 XP), with a +2 bonus to damage. In lairs of 16 or more bugbears, there will be a chieftain of 6+6 Hit Dice (500 XP), with a +3 bonus to damage. Bugbears gain a +1 bonus to their morale if they are led by a hardened warrior or chieftain. In the lair, bugbears never fail a morale check as long as the chieftain is alive. In addition, there is a 2 in 6 chance that a shaman will be present in a lair. A shaman is equal to an ordinary bugbear statistically, but possesses 1d4+1 levels of Clerical abilities.
 
@@ -2703,7 +2703,7 @@ Unlike most other giants, storm giants have been known to befriend humans, elves
 
 Gnolls are hyena-headed, evil humanoids that wander in loose tribes. Most gnolls have dirty yellow or reddish-brown fur. An adult male gnoll is about 7½ feet tall and weighs 300 pounds.
 
-Gnolls are nocturnal, and have Darkvision with a 30' range. They are cruel carnivores, preferring intelligent creatures for food because they scream more. They show little discipline when fighting unless they have a strong leader.
+Gnolls are nocturnal, and have [Darkvision](senses.qmd#darkvision) with a 30' range. They are cruel carnivores, preferring intelligent creatures for food because they scream more. They show little discipline when fighting unless they have a strong leader.
 
 One out of every six gnolls will be a hardened warrior of 4 Hit Dice (240 XP) having a +1 bonus to damage due to strength. Gnolls gain a +1 bonus to their morale if they are led by such a warrior. In lairs of 12 or greater, there will be a pack leader of 6 Hit Dice (500 XP) having a +2 bonus to damage. In the lair, gnolls never fail a morale check as long as the pack leader is alive. In addition, a lair has a chance equal to 1-2 on 1d6 of a shaman being present, and 1 on 1d6 of a witch or warlock. A shaman is equivalent to a hardened warrior statistically, and in addition has Clerical abilities at level 1d4+1. A witch or warlock is equivalent to a regular gnoll, and has Magic-User abilities of level 1d4.
 

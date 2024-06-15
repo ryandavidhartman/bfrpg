@@ -792,7 +792,7 @@ Range: Touch
 
 Duration: 1 turn/level
 
-The caster produces a magical “dark flame” upon an object that does not produce heat or use oxygen. However, the magical dark flames allow all within 30 feet radius to see via Darkvision within the spell area, much like a normal lit torchwould allow for normal vision. The darkvision does not extend beyond the spell radius, and neither does the effect extend to any who might leave the area of effect. The spell does not provide any stealth bonus within the effect, as all (including foes) receive the darkvision.     However, because there is no light produced it may augment stealthy movement in general against those outside the spell range.
+The caster produces a magical “dark flame” upon an object that does not produce heat or use oxygen. However, the magical dark flames allow all within 30 feet radius to see via [Darkvision](senses.qmd#darkvision) within the spell area, much like a normal lit torchwould allow for normal vision. The darkvision does not extend beyond the spell radius, and neither does the effect extend to any who might leave the area of effect. The spell does not provide any stealth bonus within the effect, as all (including foes) receive the darkvision.     However, because there is no light produced it may augment stealthy movement in general against those outside the spell range.
 </div>
 
 
@@ -805,7 +805,7 @@ Range: Touch
 
 Duration: 1 hour/level
 
-The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](dungeonAdventures.html#darkvision) for a description of Darkvision.
+The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](senses.qmd#darkvision) for a description of Darkvision.
 </div>
 
 <div class="spell" data-tag="Death Spell" id="Death-Spell">

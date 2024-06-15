@@ -2,14 +2,14 @@
 
 ## Combat Order of Play
 
-Time shifts to combat rounds (10 seconds long each).
+When the party of adventurers comes in contact with potential enemies, time shifts to combat rounds (10 seconds long, [as described previously](dungeonAdventures.qmd#time-and-scale)). Before beginning combat, surprise is checked (see below). Unsurprised characters then roll for Initiative, and act in order of the rolls (again, as described below).
 
 1. **[Determine Surprise](combatDetails.qmd#surprise)**
     - When surprise is possible, roll DC for each side, which might be surprised. Normal characters are surprised on a DC13. Elves are surprised on a DC15. Surprised characters are unable to act for one round. Characters or creatures, which are well hidden and prepared to perform an ambush, get a +3 to surprise.
 
-2. **[Determine Monster Reactions](combatDetails.qmd#monster-reactions)**
-    - When the party first encounters another group the DM may decide to roll on the monster reaction table.    
-
+2. **[Determine Morale](combatDetails.qmd#morale)**
+    - When entering combat and again when the monster party is reduced to half the DM may wish to do a morale check.
+    
 3. **Declare Action**
     - Attack, Move, Cast Spell, Hold Action, Move, Run, Charge, Melee Attack, Ranged Attack, Cast Spell, Dodge, Perform a Feat, . . .
 
@@ -21,3 +21,50 @@ Time shifts to combat rounds (10 seconds long each).
 
 6. **Start Next Round**
     - The next round of combat begins after everyone has completed an Action.
+
+## Actions Explained
+
+### Move
+
+A character may [move](combatDetails.qmd#moving) up to their movement distance and take an action. Movement can be broken up, using some of the distance before and after the action. For example, if a creature has a movement of 30 feet, it can move 10 feet, take an action, and then move 20 feet.  Opponents more than 5' apart may move freely, but once two opposing figures are within 5' of each other, they are “engaged” and must abide by the rules under Defensive Movement, below.
+
+### Attack
+
+To roll “to hit,” the attacker rolls 1d20 and adds their attack bonus, as well as Strength bonus (if performing a melee attack) or Dexterity bonus (if performing a missile attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent's Armor Class, the attack hits and damage is rolled.  Find information on [attacking](combatDetails.qmd#attacking)
+
+### Cast a Spell
+
+Casting a spell is a standard action. A spell caster can move and then cast the spell, or cast the spell and then move. Movement can be broken up, using some of the distance before and after the action.
+
+### Parry and Dodge
+
+Parry and Dodge is a Defensive action instead of an attack that gives a +2 bonus to AC.
+
+### Perform a Feat
+
+A use a one of the characters [feats](feats.qmd)
+
+### Hold Action
+
+A combatant can choose to wait until later in the initiative to act. If a player states that they are waiting for another character or monster to act, then the player character's action takes place on the same Initiative number as the creature they are waiting for. In this case, the player character's action is simultaneous with the creature waiting for, just as if they had rolled the same number. A character using a weapon with a long reach (spears, for instance) may choose to attack a closing opponent on the closing opponent's number and thus attack simultaneously with the opponent, even if the character rolled lower for Initiative.
+
+
+### Run Away
+	
+A character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character's Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again.
+
+
+### Defensive Movement and Attacks of Opportunity.
+
+Any time a character turns their back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.
+
+Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a fighting withdrawal.
+
+### Charge
+
+The attack made after the [charge](combatDetails.qmd#charging) is made at +2 on the attack roll. The charging character or creature takes a -2 penalty to Armor Class for the remainder of the round. 
+
+
+### Set Weapon Against Charge
+
+Spears, pole arms, and certain other piercing weapons deal double damage when braced against the ground or floor and used against a charging creature. For this to be done, the character or creature being charged must have equal or better Initiative; this counts as holding an action: both attacker and defender act on the attacker's Initiative number and are therefore simultaneous.

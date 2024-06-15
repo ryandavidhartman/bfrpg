@@ -1,5 +1,13 @@
 # Dungeon Adventures
 
+### Dungeon Survival
+
+As described in the [Equipment](equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
+
+Failure to consume enough food does not significantly affect a character for the first two days, after which he or she loses 1 hit point per day. Furthermore, at that point the character loses the ability to heal wounds normally, though magic will still work. Eating enough food for a day (over the course of about a day, not all at once) restores the ability to heal, and the character will recover lost hit points at the normal rate.
+
+Inadequate water affects characters more swiftly; after a single day without adequate water, the character loses 1d4 hit points, and will lose an additional 1d4 hit points per day thereafter; healing ability is lost when the first die of damage is rolled.
+
 ### Time and Scale
 
 Time is measured with a certain level of abstraction. Each **Round** of combat is comprised of a set of actions, which take place based on the initiative. For example, one attack roll may represent a whole series of feints, parries, and lunges.
@@ -11,21 +19,6 @@ A full combat Round (the entire initiative order) is approximately 1 minute and 
 A **Turn** is approximately 10 minutes (10 full combat Rounds or 60 initiative Actions).
 
 Distances in the dungeon are measured in feet. Outdoors, change all distance measurements (movement, range, etc.) to yards (so 100' becomes 100 yards) but area of effect measurements (for spells, for instance) normally remain in feet.
-
-### Weapon Proficiency
-
-Being proficient in a weapon means you can add your Attack Bonus to attack rolls made with that weapon. If you're not proficient, you can still use the weapon but cannot add your Attack Bonus.
-
-[Fighters](class.qmd#fighter), [Rangers](class.qmd#ranger), and [Paladins](class.qmd#paladin) start with 4 weapon proficiencies and gain 1 weapon proficiency every other level after 1st (1 at 3rd, 1 at 5th, 1 at 7th, etc.). Only true Fighters can also specialize in a weapon.
-
-[Clerics](class.qmd#cleric) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Clerics may wear any armor and have no weapon restrictions.
-
-[Druids](class.qmd#druids) start with 3 weapon proficiencies and gain 1 weapon proficiency every 4 levels (1 at 5th, 1 at 9th, etc.). Druids may not utilize metal armor of any type and are likewise limited to wooden shields. Druids may utilize any one-handed melee weapons, as well as staff, sling, and short bow.
-
-[Thieves](class.qmd#thief) and Assassins start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
-
-[Magic Users](class.qmd#magic-user) start with 2 weapon proficiencies and gain no new proficiencies as they spend most of their training time studying books and not practicing with weapons.
-
 
 ### Carrying Capacity
 
@@ -124,12 +117,6 @@ htl.html`
 
 ```
 
-### Darkvision
-
-Some character races, and almost all monsters, have Darkvision. This gives them the ability to see even in total darkness. Darkvision is black and white only but otherwise like normal sight. Darkvision does not grant one the ability to see in magical darkness. The range of Darkvision is typically either 30' or 60'; if not given for a particular creature, assume the 60' range.
-
-Darkvision is totally ineffective in any light greater than moonlight.
-
 ### Doors
 
 A stuck door can be opened on a roll of 1 on 1d6; add the character's Strength bonus to the range, so that a character with a bonus of +2 can open a stuck door on a roll of 1-3 on 1d6.
@@ -192,12 +179,3 @@ Multiple characters searching for secret doors ensures that any such will eventu
 Note that finding a secret door does not grant understanding of how it works. The DM may require
 additional rolls or other actions to be taken before the
 door can be opened.
-
-### Dungeon Survival
-
-As described in the [Equipment](equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
-
-Failure to consume enough food does not significantly affect a character for the first two days, after which he or she loses 1 hit point per day. Furthermore, at that point the character loses the ability to heal wounds normally, though magic will still work. Eating enough food for a day (over the course of about a day, not all at once) restores the ability to heal, and the character will recover lost hit points at the normal rate.
-
-Inadequate water affects characters more swiftly; after a single day without adequate water, the character loses 1d4 hit points, and will lose an additional 1d4 hit points per day thereafter; healing ability is lost when the first die of damage is rolled.
-

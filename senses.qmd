@@ -1,0 +1,32 @@
+# Senses
+
+In the world of OnceWas, creatures possess a variety of extraordinary senses that allow them to perceive their surroundings in unique ways. These special senses provide advantages in detecting hidden foes, navigating through darkness, and sensing the presence of others beyond the capabilities of ordinary sight and hearing. Below are descriptions of some common and special senses found among different creatures and characters.
+
+## Blindsight
+Using nonvisual senses, such as sensitivity to vibrations, keen smell, acute hearing, or echolocation, a creature with blindsight maneuvers and fights as well as a sighted creature. Invisibility, darkness, and most kinds of concealment are irrelevant, though the creature must have line of effect to a creature or object to discern that creature or object. The ability’s range is specified in the creature’s descriptive text.
+
+The creature usually does not need to make Spot or Listen checks to notice creatures within range of its blindsight ability. Unless noted otherwise, blindsight is continuous, and the creature need do nothing to use it. Some forms of blindsight, however, must be triggered as a free action. If so, this is noted in the creature’s description. If a creature must trigger its blindsight ability, the creature gains the benefits of blindsight only during its turn.
+
+- Blindsight never allows a creature to distinguish color or visual contrast.
+- A creature cannot read with blindsight.
+- Blindsight does not subject a creature to gaze attacks (even though darkvision does).
+- Blinding attacks do not penalize creatures using blindsight.
+- Deafening attacks thwart blindsight if it relies on hearing.
+- Blindsight negates displacement and blur effects.
+
+## Darkvision
+Some character races and monsters have Darkvision. This gives them the ability to see even in total darkness. Darkvision is black and white only but otherwise like normal sight. Darkvision does not grant one the ability to see in magical darkness. The range of Darkvision is typically either 30' or 60'; if not given for a particular creature, assume the 60' range.
+
+- Darkvision is totally ineffective in any light greater than moonlight.
+
+## ESP
+ESP detects the surface thoughts of any thinking creature in range. The caster can probe one creature per turn, getting simple thoughts, and probes can continue from round to round to see if the thoughts change. ESP is blocked by 2 or more feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead foil.
+
+## Scent
+The creature with the Scent sense can detect approaching enemies, sniff out hidden foes, and track by sense of smell. Creatures with the scent sense can identify familiar odors just as humans do familiar sights.
+
+## Tremorsense
+A creature with tremorsense can detect and pinpoint the origin of vibrations within a specific radius, provided that the monster and the source of the vibrations are in contact with the ground. Tremorsense can’t be used to detect flying or incorporeal creatures. Many burrowing creatures, such as ankhegs and umber hulks, have this special sense.
+
+## Truesight
+A creature with truesight can see in normal and magical darkness, see invisible creatures and objects, and automatically detect visual illusions. A creature using truesight also perceives the original form of a shapechanger or a creature that is transformed by magic. Furthermore, the creature with truesight can see into the Ethereal Plane within the same range.

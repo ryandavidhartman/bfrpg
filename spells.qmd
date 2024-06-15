@@ -280,7 +280,7 @@ Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out [Darkvision](senses.qmd#darkvision) and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
@@ -1841,7 +1841,7 @@ Duration: 6 turns + 1/level
 
 This spell creates a light equal to torchlight which illuminates a 30' radius area (and provides dim light for an additional 20') around the target location or object. The effect is immobile if cast into an area, but it can be cast on a movable object. Light taken into an area of magical darkness does not function.
 
-Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out Darkvision and negates mundane light sources.
+Reversed, **Light** becomes **Darkness**, creating an area of darkness just as described above. This darkness blocks out [Darkvision](senses.qmd#darkvision) and negates mundane light sources.
 
 A light spell may be cast to counter and dispel the darkness spell of an equal or lower level caster (and vice versa). Doing so causes both spells to instantly cease, restoring the existing ambient light level.
 
@@ -1975,7 +1975,7 @@ Range: 20'
 
 Duration: 1 turn/level
 
-This spell causes a bank of misty vapor to arise around the caster, remaining stationary once created.  The vapor obscures all sight, including darkvision, beyond 2d4 ft.  A strong wind can disperse the spell in one-quarter the usual duration.
+This spell causes a bank of misty vapor to arise around the caster, remaining stationary once created.  The vapor obscures all sight, including [darkvision](senses.qmd#darkvision), beyond 2d4 ft.  A strong wind can disperse the spell in one-quarter the usual duration.
 
 :::
 
@@ -4545,7 +4545,7 @@ Range: Touch
 
 Duration: 1 hour/level
 
-The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](dungeonAdventures.html#darkvision) for a description of Darkvision.
+The subject receives Darkvision with a range of 60' for the duration of the spell. See [here](senses.qmd#darkvision) for a description of Darkvision.
 
 :::
 
@@ -5539,7 +5539,7 @@ Range: 240'
 
 Duration: 6 turns
 
-With this spell the caster creates an invisible magical “eye” through which he or she can see. The eye has [Darkvision](dungeonAdventures.html#darkvision), but otherwise sees exactly as the caster would. It can be created in any place the caster can see, up to a range of 240' away, and thereafter can move at a rate of 40' per round as directed by the caster. The eye will not move more than 240' feet away from the caster under any circumstances. The eye cannot pass through solid objects, but as it is exactly the size of a normal human's eye, it can pass through holes as small as 1 inch in diameter. The caster must concentrate to use the eye.
+With this spell the caster creates an invisible magical “eye” through which he or she can see. The eye has [Darkvision](senses.qmd#darkvision), but otherwise sees exactly as the caster would. It can be created in any place the caster can see, up to a range of 240' away, and thereafter can move at a rate of 40' per round as directed by the caster. The eye will not move more than 240' feet away from the caster under any circumstances. The eye cannot pass through solid objects, but as it is exactly the size of a normal human's eye, it can pass through holes as small as 1 inch in diameter. The caster must concentrate to use the eye.
 
 :::
 
@@ -5743,9 +5743,9 @@ Range: 30'
 
 Duration: 24 hours
 
-This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. [Darkvision](dungeonAdventures.html#darkvision) cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to [ESP](allSpells.html#esp) spells.
+This spell creates a field impenetrable to most kinds of scrutiny. Those looking into the area from outside see only a dark, foggy mass. [Darkvision](senses.qmd#darkvision) cannot penetrate it. Eavesdroppers do not perceive any sound, no matter how loud, emanating from the area. Those inside the affected area can see and hear outside the affected area normally. Anyone inside the affected area is immune to [ESP](allSpells.html#esp) spells.
 
-Divination spells like [Magic Mirror](allSpells.html#magic-mirror), [Clairvoyance](allSpells.html#clairvoyance), and [Clairaudience](allSpells.html#clairvaudiance) cannot perceive anything within the area.
+Divination spells like [Magic Mirror](allSpells.qmd#magic-mirror), [Clairvoyance](allSpells.qmd#clairvoyance), and [Clairaudience](allSpells.qmd#clairvaudiance) cannot perceive anything within the area.
 
 No speech is possible between those inside and those outside the sanctum. The spell does not prevent other means of communication, such as telepathic communication, or such as that between a Magic-User and a familiar.
 

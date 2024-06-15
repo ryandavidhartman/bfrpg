@@ -1,0 +1,42 @@
+# Healing and Injuries
+
+## Healing and Rest
+
+Characters recover 1 hit point of damage every day, provided that normal sleep is possible. Characters who choose full bedrest regain an additional hit point each evening.
+
+Normal characters require 6 hours sleep out of every 24. Subtract from this number of hours the character's Constitution bonus; so a character with 18 Constitution needs only 3 hours sleep per night (and a character with 3 Constitution needs 9 hours). Note that these figures are minimums; given a choice, most characters would prefer to sleep two or more hours longer.
+
+Characters who get less than the required amount of sleep suffer a **-1 penalty** on all attack rolls and saving throws (as well as not receiving any hit points of healing). For each additional night where sufficient sleep is not received, the penalty becomes one point worse. Regardless of how long the character has gone without adequate sleep, the normal amount of sleep will remove these penalties.
+
+## Energy Drain
+
+Sometimes characters are exposed to energy drain from undead or evil magic. Such energy drain is manifested in the form of "negative levels." For each negative level a victim receives, he or she suffers a semi-permanent loss of one hit die worth of hit points, a penalty of -1 on all attack and saving throw rolls (and any other roll made on 1d20), and -5% to any percentile roll such as thief abilities. In addition, an affected spell caster loses access to one of his or her highest-level spell slots. The victim may or may not be allowed a saving throw to resist the effect (depending on the specific monster type).
+
+If the character's hit points are reduced to zero or less by means of energy drain, the victim is immediately slain. If the energy drain is caused by an undead monster, the victim will usually be transformed into that sort of undead (exact details vary by type of monster).
+
+Negative levels may be removed by magic, such as the [restoration](allSpells.qmd#restoration) spell. When a negative level is to be removed, divide the total number of hit points lost by the number of negative levels (rounding normally) to determine how many hit points are restored.
+
+For example, a character suffers three negative levels of energy drain. The hit point losses rolled were 6, 5, and 2, for a total of 13 points lost. The first negative level removed restores 13 / 3 = 4.3333 hit points (which is rounded to 4 even). Now the character has two negative levels and has lost 9 hit points. The next time a negative level is removed, the character recovers 9 / 2 = 4.5 hit points, which is rounded to 5 even. Now the character has one negative level and 4 hit points lost. Removal of the last negative level will restore the remaining 4 points.
+
+Those who have suffered energy drain generally have a gaunt, haggard look about them, noticeable by observant characters.
+
+## Constitution Point Losses
+
+Any character who has lost Constitution points temporarily (such as due to a disease) may regain them with normal rest. The rate of recovery is one point per day, awarded each morning when the character awakens from a normal night's sleep. If more than one Constitution point was lost, the character must make a save vs. Death Ray (without adjustments) to regain the final point; failure results in a permanent loss of that point.
+
+If a Constitution loss results in a lower bonus or penalty, the character's maximum hit points must be reduced appropriately; for instance, a character reduced from 16 to 15 Constitution goes from +2 to +1, thus losing one hit point per die rolled. If a reduction in maximum hit points reduces that figure to less than the character's current hit points, reduce the current hit points to the new maximum hit point figure immediately.
+
+When regaining Constitution, any increase that increases the character's Constitution bonus results in the restoration of the hit points lost due to the reduction, added to the maximum hit point figure only. Current hit points will not be improved in this fashion, but rather must be regained by normal healing.
+
+## Falling Damage
+
+Characters suffer 1d6 damage per 10' fallen, up to a maximum 20d6. Fractional distances are rounded to the nearest whole number, so that a fall of 1-4' does no damage, 5'-14' does 1d6, etc.
+
+## Deafness
+
+A deafened creature can react only to what it can see or feel, is surprised on a DC 10, and suffers a -1 penalty to its Initiative rolls. 
+	
+## Blindness
+
+A blinded creature is surprised on a DC 6, suffers a -4 penalty to its attack rolls, a -4 penalty to its Armor Class, and a -2 penalty to its Initiative rolls. These effects are modified when dealing with monsters having unusual sensory abilities; for example, bats may be affected by deafness as if blinded instead.
+These penalties are for characters or creatures recently handicapped. Those who are normally blind or deaf may have reduced penalties at the DM's option.
