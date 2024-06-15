@@ -151,3 +151,61 @@ The character is a master of control and receives a +1 to any saves that deal wi
 ### Accomplished (minimum Cha 15)
 
 This feat adds two extra ranks to the Perform
+
+### Acrobatic. (minimum Dex 15)
+
+This feat adds one extra rank to the Balance, Jump, and Tumble Skill. 
+
+### Agile Climber. (minimum Dex 13)
+
+This feat adds two extra ranks to the Climb Skill. 
+
+### Alertness. (minimum Wis 14)
+
+The character is unusually alert, adds one extra rank to the Spot and Perception Skills and gets a bonus of +1 to notice secret and concealed doors. 
+
+### Escape Artist.
+
+This feat adds two extra ranks to the Escape Artist Skill.
+
+### Heroic Effort. (minimum Str 15)
+
++4 to non-combat Strength DC checks. It can be performed one time a day. 
+
+### Identify Poison.
+
+This feat adds three extra ranks to the Poison Skill.
+
+### Lost in a Crowd.
+
+The character has learned how to move as one with crowds and hide among them, vanishing into a busy street in the blink of an eye. The character moves at full Speed in crowds and can use cover from crowds to hide at a +2 bonus when in a crowd of at least 10 creatures and a +4 bonus on when in a crowd of at least 100 creatures.
+
+### Linguist. (minimum Int 9)
+
+Add an additional four languages to the ones the character knows. The character accent is also perfect.
+
+### Pack Mule.
+
+The character can carry 20% more before being encumbered, also heavy loads are counted as light for movement.
+
+### Research Spells, Improved. (Magic-Users only)
+
+The cost of learning a spell is reduced to 150 gp per spell level and only three days are required per spell level to complete the research. The chance of successfully mastering a spell is DC 10 -1 per level of the magic-user, - INT bonus, +1 per level of the spell. If the roll is unsuccessful, the character may try again at the next level.
+
+Additionally, the Magic-User can choose three known spells they can cast. The character no longer needs to study a spellbook to prepare these spells. This feat can be taken multiple times.
+
+### Thieving Ability, Improved. (Thief only)
+
+Add +2 to a specific thieving ability or +1 to 2. This feat can be stacked. 
+
+### Tracking.
+
+The character can identify tracks and follow the trails of creatures and characters across most types of terrain at a +1.
+
+### Under Foot. (Halflings only)
+
+Halflings can move through spaces occupied by an opponent man sized or larger.
+
+### Well-Studied Monster Hunter.
+
+The Character has a +3 chance of having knowledge of a monster.

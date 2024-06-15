@@ -5,7 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank based on the work of Chris Gonnerman"
-  date: "6/14/2024"  
+  date: "6/15/2024"  
   chapters:
     - index.qmd
     - part: Introduction
@@ -55,12 +55,14 @@ book:
         - gm02.qmd
     - part: The World of OnceWas
       chapters:
-        - gods.qmd    
+        - gods.qmd
+        - planes.qmd 
     - part: Appendix
       chapters:
         - appendix_interactive.qmd
         - appendixMapmaker.qmd
         - char_sheet.qmd
+        - handyTables.qmd
     - part: Extra
       chapters:
         - extraClasses.qmd
@@ -83,3 +85,5 @@ format:
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
     mainfont: "Caudex"
 
+    pdf:
+        latex-template: "custom.tex"

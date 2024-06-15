@@ -845,7 +845,7 @@ target the wearer.
 
 Delusion: Whoever wears this device believes it is
 some other form of useful magical device, and behaves
-thus (so for example, if Darion believes he is wearing a
+thus (so for example, if Evron believes he is wearing a
 **Ring of Invisibility** he will believe himself to actually be
 invisible). Unlike the potion of the same name, the
 device's effect is not dispelled by the wearer suffering

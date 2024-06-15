@@ -2,6 +2,8 @@
 
 ## Money
 
+![](./images/coins.png)
+
 Monetary values are usually expressed in gold pieces. In addition to gold coins, there are coins made of platinum, silver, electrum (an alloy of gold and silver), and copper. They are valued as follows:
 
 1 platinum piece (pp)= 5 gold pieces (gp)
@@ -127,6 +129,8 @@ A **Whetstone** is used to sharpen and maintain edged weapons such as swords, 
 
 **Wineskin/Waterskin** is a container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. If adventuring in the desert or other hot, dry areas, a character may need as much as ten times this amount. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight.
 
+![](./images/weapons.jpg)
+
 ## Weapons
 
 <div class="tableFixHead">
@@ -245,3 +249,280 @@ Barding is armor designed to protect an animal’s head, neck, chest, and body. 
 | Studded Leather Barding| 16  | 100 gp  |
 | Chain Barding          | 17  | 240 gp  |
 | Plate Barding          | 19  | 1200 gp |
+
+## Poisons
+
+### Basic Poison
+
+The first poison must Poisoners learn and easily produced by shadier folks. This poison is the bread and butter for assassins just starting out.
+
+This is a contact poison in a thick, reddish liquid form. It somewhat smells like cucumbers.
+
+Cost: 25 gp per dose
+
+Component: Poisonous Plants
+
+Effect: On a hit, the target takes 1d4 poison damage. Save versus Poison negates.
+
+Potency: The poison retains potency for 1 minute before drying.
+
+### Oleander
+
+Oleander is a beautiful plant known for its striking flowers. Though commonly grown as a hedge and ornamental, all parts of the oleander plant are deadly and contain toxins. If eaten, oleander can cause vomiting, diarrhea, erratic pulse, seizures, coma, and death, and contact with the leaves and sap is known to be a skin irritant to some people. Indeed, the toxins in oleander are so strong that people have become ill after eating honey made by bees that visited the flowers! Fortunately, fatalities from oleander poisoning are rare, as the plant is very bitter and thus quickly deters anyone sampling the vegetation.
+
+Cost: 25 gp per dose
+
+Component: Poisonous Plants
+
+Effect: If ingested, the target takes 1d2 poison damage and is poisoned for 1d12 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
+
+Potency: The poison retains potency in food or drink for 2d4 days.
+
+### Deadly Nightshade
+
+The sweetness of the berries that often lures children and unwitting adults to consume this lethal plant. A native of wooded or waste areas in the OnceWas, deadly nightshade has dull green leaves and shiny black berries about the size of cherries. Nightshade toxins in its stems, leaves, berries, and roots causes paralysis in the involuntary muscles of the body, including the heart. Even physical contact with the leaves may cause skin irritation.
+
+Cost: 25 gp per dose
+
+Component: Poisonous Plants
+
+Effect: If ingested, the target takes 1d4 dmg. Save versus poison or be paralyzed for 4d4 hours.
+
+Potency: The poison retains potency in food or drink for 2d4 days.
+
+### White Snakeroot
+
+White snakeroot is an herb with flat-topped clusters of small white flowers. Simply drinking the milk of a cow that had grazed on the plant has poisoned some victims. Indeed, both the meat and milk from poisoned livestock can pass the toxin to human consumers. Symptoms of "milk poisoning" include loss of appetite, nausea, weakness, abdominal discomfort, reddened tongue, abnormal acidity of the blood, and death. Luckily farmers are now aware of this life-threatening hazard and make efforts remove the plant from animal pastures.
+
+Cost: 25 gp per dose
+
+Component: Poisonous Plants
+
+Effect: If ingested, the target takes 1d4 poison damage and is poisoned for 2d12 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
+
+Potency: The poison retains potency in food or drink for 2d4 days.
+
+### Water Hemlock
+
+A large wildflower in the carrot family, water hemlock is sometimes confused with edible parsnips or celery. The roots are especially toxic, and will rapidly generate potentially fatal symptoms in anyone unlucky enough to ingest this poison. Painful convulsions, abdominal cramps, nausea, and death are common, and those who survive are often afflicted with amnesia or lasting tremors.
+
+Cost: 25 gp per dose
+
+Component: Poisonous Plants
+
+Effect: If ingested, the target takes 2d4 poison damage and is poisoned for 24 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
+
+Potency: The poison retains potency in food or drink for 2d6 weeks..
+
+### Giant Spider Poison
+
+This is an ingested Poison in a milky liquid form. It smells pungent and bitter.
+
+Cost: 50 gp per dose
+
+Component: Giant Poisonous Spiders
+
+Effect: If consumed this poison causes 1d10 hp dmg and parallzation for 2d4 hours. Save for half damage and violent vomiting for 1-4 rounds.
+
+Potency: The poison retains potency in food or drink for 2d6 months.
+
+### Assassin’s Blood
+
+An assassin's favorite tool to make the target think they have food poisoning. This is the best tool to get a target away from a group and allow them to finish the job.
+
+This is an ingested Poison in a clear liquid form. It faintly smells like copper.
+
+Cost: 75 gp per dose
+
+Component:  Giant Scorpion Venom
+
+Effect: When ingested, the target takes 1d12 poison damage and is poisoned for 24 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks.. Save versus Poison for half.
+
+Potency: The poison retains potency for 1 hour when applied to food or drink.
+
+### Serpent Venom
+
+This poison is harvested from a dead or giant Poisonous Snake.
+
+It is a greasy contact Poison that has an oily sheen.
+
+Cost: 100 gps per dose
+
+Component: Giant Poisonous Snake Venom
+
+Effect: 3d6 poison damage. Save negates.
+
+Potency: This poison stays potent for 24 hours or until delivered through a wound or washed off.
+
+### Carrion Crawler Mucus
+
+One of the odder venoms on the market, this venom is theorized to be created from the necrotic flesh that Carrion Crawlers regularly devour.
+
+This is a contact poison in a thick, yellow paste. It smells like rotting garbage.
+
+Cost: 200 gp per dose
+
+Component: Carrion Crawlers Mucus
+
+Effect: On a hit, the target must make a Poison saving throw, they are poisoned and take 1d4 poison damage on a fail, or half damage on a save.
+
+Aftereffect: If the target fails the initial saving throw, at the start of their next turn they become paralyzed. At the end of their turn they can repeat the saving throw, ending the paralyzed and poisoned condition on a success.
+
+Duration: Target is Poisoned and Paralyzed until they save.
+
+Potency: This poison stays potent for 10 minutes when applied to a weapon.
+
+### Essence of Ether
+
+Breathing in this vapor subjects a creatures to its effect. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body. A creature subjected to this poison must succeed on a poison saving throw with a -1 penalty or become unconscious.
+
+This poison is a pleasant-smelling colorless inhaled vapor.
+
+Cost: 250 gps
+
+Component: This is a mysterious Alchemist concoction
+
+Effect: The poisoned creature is unconscious. The creature awakens if they take damage or if another creature spends an action to awaken them.
+
+Duration: 8 hours
+
+Potency: Dissipates in 1d4 rounds
+
+### Malice
+
+Malice is a white, odorless, bitter crystalline powder that is blown into the eyes or inhaled by the victim.
+
+Cost: 300 gps per dose
+
+Component:
+
+Effect: A creature subjected to this poison must succeed on a Poison saving throw or become blinded for 1 hour.  
+
+Duration: 1 hour.
+
+Potency: Dissipates immediately.
+
+### Pale Tincture
+
+This strange substance is harvested from fungi cultivated by Myconids in their lairs under ground. The poison is extracted by squeezing the liquid out of the Pale mushrooms.
+
+This pale tan liquid is an ingested poison with an earthy smell.
+
+Cost: 400 gp per dose
+
+Component: Fungi cultivated by Myconids
+
+Effect: A creature subjected to this poison must make a Poison saving throw or take 1d6 poison damage
+
+and become poisoned.
+
+Aftereffects: The poisoned creature must repeat the saving throw every 24 hours, taking 1d6 poison damage on a failed save.
+
+Duration: Target is poisoned until they succeed on seven saving throws against the poison.
+
+Potency: This poison stays potent for 1 hour when applied to food or drink.
+ 
+### Burnt Othur Fumes
+
+This mist is sprayed out into a 5 foot cube and burns through the membranes of nasal passageways and through the soft tissue of the mouth. This lingering poison is designed to kill quickly before its affects can be stopped.
+
+This is sprayed mist that smells like burning dust.
+
+Cost: 500 gp per dose
+
+Component: Giant Wasp Venom
+
+Effect: A creature subjected to this must succeed on a saving throw against poison or take 3d6 poison damage and must repeat the saving throw at the start of each of its turns.
+
+Aftereffect: On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.
+
+Duration: Target must make three successful saves.
+
+Potency: Dissipates immediately.
+
+### Drow Sleep Poison
+
+This poison is said to be made only by the drow, and only in a place far removed from sunlight.     The Drow Sleep Poison is a contact poison that is a black, gummy, and heavy substance similar to molasses.
+
+Cost: 600 gps per dose
+
+Component: Drow poisonmakers extract this toxin from a slippery, black fungus that grows like great slicks of oil in the Vault.
+
+Effect: Unconsciousness for 4d6 hours. A successful Save negates unconsciousness but the creature suffers a -2 penalty to Attack, Saving throws, and Ability Checks for 2d6 hours.
+
+Potency: The poison retains potency for 2 hours when applied to a weapon. Sunlight reduces the potency by half.
+
+### Wyvern Poison
+
+This venom comes from the vicious wyvern. Many have died trying to harvest this venom as it the tail of the wyvern will occasionally jab out with muscle spasms, even in death.
+
+Wyvern Poison is a thick, amber colored contact poison.
+
+Cost: 1200 gp per dose
+
+Component: Wyvern Stinger Poison
+
+Effect: On a hit, the target must make a saving throw, taking 7d6 poison damage on a fail, or half as much on a successful save.
+
+Potency: Stays potent until delivered through a wound or washed off.
+
+### Midnight Tears
+
+A creature that ingests this poison suffers no Effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a poison throw, taking 9d6 poison damage on a failed save, or half as much damage on a successful one.
+
+A clear, odorless and colorless liquid, it only reveals itself as an inky black poison when it comes into contact with cold iron.
+
+Cost: 1500 gps per dose
+
+Component: Rare black flowers that bloom at midnight in the Grey Lands.
+
+Effect: The poisoned creature is unconscious. The creature awakens they take damage or if another creature spends an action to awaken them.
+
+Duration: 8 hours
+
+Potency: Dissipates immediately
+
+### Purple Worm Poison
+
+From the stingers of a Purple Worm, this powerful poison is also used in alcoholic beverages to provide a powerful kick, not for the feint of heart.
+
+This is a gooey purplish contact poison that has a sharp smell to it that burns the nostrils.
+
+Cost: 2000 gp per dose
+
+Component: Purple Worm Stingers
+
+Effect: On a hit, the target must make a Poison saving throw, taking 12d6 poison damage on a fail, or half as much on a successful save.
+
+Potency: Stays potent until delivered through a wound or washed off.
+
+## Clerical Spell Costs
+
+### Seeking Divine Aid
+
+It is often possible to seek divine aid in the form of clerical spells from temples dedicated to one of the 12 gods of OnceWas. The availability and cost may vary depending on the specific god's temple, the region, and the cleric's willingness to perform the spell. Some temples may also require a quest or service in addition to the monetary cost. It is recommended to inquire at multiple temples and be prepared for potential additional requirements or variations in pricing.
+
+**0 Level Spell** - 50 gp  
+*Example: Cure Minor Wounds*
+
+**1st Level Spell** (Adept, minimum 2nd level cleric) - 100 gp  
+*Example: Cure Light Wounds*
+
+**2nd Level Spell** (Vicar, minimum 4th level cleric) - 200 gp  
+*Example: Restore Health (level 2) - 50 gp*
+
+**3rd Level Spell** (Curate, minimum 6th level cleric) - 500 gp  
+*Examples: Cure Blindness, Cure Deafness, Cure Disease, Remove Curse*
+
+**4th Level Spell** (High Priest, minimum 8th level cleric) - 1000 gp  
+*Example: Cure Serious Wounds*
+
+**5th Level Spell** (High Priest, minimum 10th level cleric) - 10,000 gp  
+*Example: Raise Dead*
+
+**6th Level Spell** (Bishop, 12th level cleric) - 20,000 gp  
+*Example: Restoration*
+
+**7th Level Spell** (Patriarch, minimum 14th level cleric) - 50,000 gp  
+*Example: Resurrection*
+

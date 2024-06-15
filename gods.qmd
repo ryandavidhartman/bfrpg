@@ -1,8 +1,10 @@
-# Gods of OnceWas
+# Gods and Demons
+
+## Twleve Gods of OnceWas
 
 ![](./images/Gods.png)
 
-# Anu
+### Anu
 *God of the Sun and Sky, King of Elysium*
 Also known as Odin (Northern), Helios, Caelus (Dwarven), Pelor and Coelus (Elven).
 *Patron God of Keoland*
@@ -26,7 +28,7 @@ Despite his benevolence, Anu can at times be neglectful of his followers. Anu sp
 Alexander the Good is the Patriarch of the Church of in the city of Niole Dra.
 His avatar is Utu, demi-god of justice and law. His antithesis is his sister Nanna-Sin, goddess of the moon and ghosts.
 
-# Brigit
+### Brigit
 *Goddess of Fire and Poetry, Queen of the Hearth*
 Also known as Vesta, Hestia, Sol, and Ney-An (Elven)
 *Patron Goddess of Nyrond*
@@ -41,7 +43,7 @@ The clerics and followers of Brigit adorn themselves with bronze jewelry.
 The Matriarch of the Church of Brigit is Lady Gabála Érenn in Nyr’s Gate of Nyrond.
 Brigit’s avatar is Demeter, demi-goddess of the harvest and rebirth.
 
-# Enki
+### Enki
 *God of Water, Oceans, and Rivers, King of Ships*
 Also known as Rán (Elven), Khnum (Dwarven), Njǫrd (Northern), Oceanu
 *Patron God of Isigir*
@@ -56,7 +58,7 @@ The clerics of Enki wear blue and teal tunics.
 The Lord Patriarch of the Church of Enki is Fernández of in Umbar of Isigir.
 Enki’s avatar is Uinen, the dancing goddess, demi-goddess of merchants.
 
-# Enlil
+### Enlil
 *God of War and Wrath, King of Vultures*
 Also known as Tyr (Northern), Montu, Kratos (Dwarven)
 *Patron God of Stone Hold*
@@ -71,7 +73,7 @@ The barbarian clerics of Enlil paint their faces green and paint their battle ar
 The High Priest of the Holy Place of Enlil is the mighty Seiðr of the Maul of the gods in Stone Hold.
 Enlil’s avatar is Lovitar, demi-goddess of pain.
 
-# Goibhnie
+### Goibhnie
 *God of Earth, Mountains, Blacksmiths, and Hard Work, King of Dwarves*
 Also known as Ponos, Hephaestus (Northern), Vulcan, Moradin (Dwarven)
 *Patron God of Hammerfast*
@@ -86,7 +88,7 @@ The clerics of Goibhnie wear thick leather bracers bound with thick iron rings.
 The Prelate of the Church of Goibhnie is Durgari Rockbrow of the City Under the Mountain in Hammerfast.
 Goibhnie’s avatar is Hanseath, demi-god of carousing, brewery, and singing.
 
-# Grund-Wyren
+### Grund-Wyren
 *Mother of Demons, Monsters, and Nightmares, Queen of the Abyss*
 Also known as Nidhogg (Northern), Echidna, Angrboda, Kaal
 *Patron God of Narragor*
@@ -100,7 +102,7 @@ The clerics of Grund-Wyren dress in red robes with dark green ornamentation.
 The High Priest of the Temple of Grund-Wyren is Master Aakil of Melkot, city of the Bone March in Narragor.
 Grund-Wyren’s avatar is Lolth, Demon Queen of Spiders.
 
-# Ki
+### Ki
 *Goddess of Life and Nature, Queen of Elves*
 Also known as Yggdrasil (Northern), Joro, Gaia, Sehanine (Elven)
 *Patron Goddess of Imladris*
@@ -111,7 +113,7 @@ Also known as Yggdrasil (Northern), Joro, Gaia, Sehanine (Elven)
 
 The goddess Ki is a radiant being revered by the fey. Elves, druids, and rangers also follow Ki’s teachings. She is protector of the forest, flowers, and wild animals, and they obey her commands. Ki travels freely to the Feywild. She also spends time in both the OnceWas and Elysium. Ki is calm, soothing and graceful, but is also capable of vicious savagery. The clerics of Ki adorn themselves with silver jewelry. The High Priestess of the Temple of Ki is Her Grace Lady Yaereene Lightbringer of Imladris. Ki’s avatar is the Green man, demi-god of woods, nature, and giants.
 
-# Marduk
+### Marduk
 *God of Wind, Thunder, and Storms, Slayer of Monsters*
 Also known as Thor (Northern), Bel, Muamman Duathal (Dwarven), and Bahamut (Elven)
 *Patron God of Dunador.*
@@ -126,7 +128,7 @@ The Clerics of Marduk adorn themselves with platinum jewelry.
 The Patriarch of the Church of Marduk is William Menote in the Andevar Province of Dunador.
 Marduk’s avatar is Gilgamesh, demi-god of strength.
 
-# Nanna-Sin
+### Nanna-Sin
 *Goddess of the Moon, the Ethereal, and Ghosts, Queen of the Night*
 Also known as Luna, Selenaia (Elven), Máni (Dwarven), Freya (Northern)
 *Patron Goddess of Sunndi*
@@ -142,7 +144,7 @@ The clerics of Nanna-Sin paint their faces white and adorn simple pale blue robe
 The High Priestess of the Church of Nanna-Sin is Chantress Isadoris of The City of Bozisha-Dar in Sunndi.
 Nanna-Sin’s avatar is Bebhionn, demi-goddess of love.
 
-# Nergal
+### Nergal
 *God of Death, King of Underworld*
 Also known as Serapis (Northern), Anubis (Sunndi), Erebos, Nergal, Naralis (Elven)
 Worshiped in the Empire of Iuz.
@@ -158,7 +160,7 @@ Nergal's temples are hidden and usually subterranean except in the most evil lan
 The Dark Abbot of the Cathedral of Nergal is Calliguri the Old of Dorakka in the Empire of Iuz.
 Nergal’s avatar is Emperor Iuz, demi-god of chaos and evil. Iuz has been imprisoned in the Far Realm for 300 years.
 
-# Oghma
+### Oghma
 *God of Knowledge, Bards, and Magic-Users, King of Books*
 Also known as Grianeach, Cermait, Ogmios, Mímir (Northern)
 *Patron God of Glantri*
@@ -172,7 +174,7 @@ The clerics of Oghma adorn themselves with brass jewelry.
 The Patriarch of the Church of Oghma is Garfield the Enlightened of Glantri City in Glantri.
 Oghma’s avatar is Cuthbert, demi-god of wisdom, dedication, and zeal.
 
-# Siduri
+### Siduri
 *Goddess of Beer and Wine, Queen of Taverns*
 Also known as Ninkasi, Maenad (Northern), Mainades, Aegiri
 *Patron Goddess of the Pomarj*
@@ -187,4 +189,67 @@ The ArchPriestess of the Sanctuary of Siduri is Caiaphas of the city of High Por
 Siduri’s avatar is Morrigan, demi-goddess of luck and thieves and the Raven Queen.
 
 
+## Demon Lords of OnceWas
+
+![](./images/demons.png)
+
 Additional to the twelve gods and tweleve demigods, there are twelve Demon Lords.
+
+
+### Blibdoolpoolp
+*the Sea Mother, Demon of Madness and Revenge*
+
+Blibdoolpoolp is a fearsome sea deity worshiped by kuo-toa. She embodies the chaotic and destructive nature of the ocean, and her followers often seek revenge on those who wrong them. Her presence drives mortals to madness, and she delights in the insanity and chaos that ensues.
+
+### Caizel
+*the Seductress, Demon of Lust*
+
+Caizel is the epitome of temptation and carnal desire. She appears as an irresistible figure, capable of bending the wills of even the most steadfast individuals. Her influence leads to moral corruption and the destruction of relationships and societies through uncontrollable lust.
+
+### Demogorgon
+*the Prince of Demons, Demon of Greed*
+
+Demogorgon is a two-headed monstrosity that represents the insatiable desire for power and wealth. His dual nature symbolizes the internal conflict within all who seek to dominate others. He thrives on the chaos caused by greed and the ruthless pursuit of ambition.
+
+### Graz’zt
+*the Dark Prince, Demon of Pride and Indulgence*
+
+Graz’zt is a seductive and cunning demon lord known for his vanity and indulgence in pleasures. He rules over a vast domain filled with decadence and vice. His charm and intelligence make him a formidable adversary, as he manipulates others to satisfy his own prideful desires.
+
+### Lupercio
+*the Baron of Sloth*
+
+Lupercio embodies laziness and apathy. His influence causes mortals to succumb to lethargy and neglect their duties and ambitions. He feeds on the stagnation and decay that follow in the wake of inactivity and indifference.
+
+### Malar
+*the Beastlord, Bestial Demonic Spirit of Lycanthropy*
+
+Malar is a primal and savage demon lord worshiped by those who embrace their inner beast. He is the patron of lycanthropes and revels in the hunt and the thrill of the kill. His followers are ferocious and uncontrollable, spreading fear and bloodshed wherever they go.
+
+### Nimlurun
+*the Rat Lord, Demon of Filth and Squalor*
+
+Nimlurun is the lord of decay and vermin. He thrives in places of extreme squalor and filth, commanding swarms of rats and other pests. His presence brings disease and pestilence, and his followers revel in the degradation and collapse of civilized life.
+
+### Thralhavoc
+*the Shadowmaster, Demon of Envy*
+Thralhavoc lurks in the darkness, whispering envious thoughts into the minds of mortals. He sows discord by exploiting the jealousy and resentment people feel towards one another. His influence leads to betrayal and conflict as individuals strive to take what others possess.
+
+### Turaglas
+*the Ebon Maw, Demon of Gluttony*
+Turaglas is an insatiable entity, always consuming and never satisfied. He represents the destructive force of gluttony, driving his followers to gorge themselves on food, drink, and resources until there is nothing left. His voracious appetite leads to ruin and desolation.
+
+### Explictica Defilus
+*the Reptile God “the Clear Ruin”, Demon of Desecration and Disease*
+
+Explictica Defilus is a vile serpent deity associated with corruption and plague. She spreads disease and defiles sacred places, leaving a trail of death and decay in her wake. Her worshipers practice dark rituals to invoke her favor, bringing ruin to the lands they infest.
+
+### Yeenoghu
+*the Prince of Gnolls, Demon of Wrath*
+
+Yeenoghu is the savage and bloodthirsty demon lord of the gnolls. He personifies wrath and unrestrained violence, leading his gnoll followers on brutal raids and massacres. His insatiable rage fuels their berserk fury, making them terrifying opponents on the battlefield.
+
+### Zuggtmoy
+*the Queen of Fungi, Demon of Rot and Decay*
+
+Zuggtmoy is the mistress of mold and fungi, ruling over a realm of perpetual decay. She embodies the slow, creeping destruction of rot, spreading her spores to corrupt and consume all living matter. Her influence leads to the degradation of both nature and civilization.

@@ -224,7 +224,7 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 | 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
 : Druid Wisdom Bonus {#tbl-wisdom-druids}
 
-| Druid Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
+| Druid Level |    1^st^ | 2^nd^ | 3^rd^  | 4^th^ |  5^th^ |    8^th^    | 12^th^ |     14^th^           |
 |------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
 | Rank/Title   | Aspirant | Initiate | Wayfarer | Grovekeeper | Warden | Herald | Spring Walker | Elder Druid |
 : Druid Titles {#tbl-titles-druids}
@@ -416,7 +416,7 @@ Paladins have the same attack bonus and saving throws as Fighters of the same le
 
 Note starting at level 11 a Paladin may Lay Hands or Neutralize Poison the specified number of times per day.
 
-| Paladin Level |    1    |   2   |   3   |   4   |   5   |      8      |    12    |         14           |
+| Paladin Level |  1^st^  | 2^nd^ | 3^rd^ | 4^th^ | 5^th^ |    8^th^    |  12^th^  |      14^th^          |
 |---------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
 | Rank/Title    | Squire  | Initiate | Defender | Crusader | Knight | Champion | Holy Avenger | Paladin Lord |
 : Paladin Titles {#tbl-titles-paladins}
@@ -541,7 +541,7 @@ Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger,
 | 20    | 1,716,000   | 9d10+22  | +10(+13 bow) | 2/1 | 1 | 1 |   |
 : Ranger XP Progression {#tbl-xp-rangers}
 
-| Ranger Level |    1    |   2   |   3   |   4   |   5   |      8      |    12    |         14           |
+| Ranger Level | 1^st^   | 2^nd^ | 3^rd^ | 4^th^ | 5^th^ |    8^th^    |  12^th^  |      14^th^          |
 |--------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
 | Rank/Title   | Tracker | Scout | Hunter | Pathfinder | Guardian | Ranger | Ranger Knight | Ranger Lord |
 : Ranger Titles {#tbl-titles-rangers}
@@ -614,6 +614,13 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 
 ![](images/magic_user.jpg)
 
+- Magic users are scarce. They are just as frequently reviled as they are revered, often experiencing the shifting tides of popularity as political dynamics ebb and flow.
+- Everyone knows that magic exists but it is not typical in people’s daily lives.
+- It is common among the working class to think that bad things tend to happen whenever magic is about.
+- Magic items are uncommon hidden away in deep dungeons or put on display as symbols of the owner’s power.
+- Institutions of magic are rare outside of Glantri.
+- Places of interest, cities, religious sites, concentrations of monsters, and wizard towers are all usually built on Ley lines or High Points.
+
 ::: {.column-screen-inset-right}
 
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
@@ -663,9 +670,9 @@ A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-ma
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
 : Magic-User XP Progression {#tbl-xp-magic-users}
 
-| Magic-User Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
-|------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
-| Rank/Title   | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer | Mage | Arch Mage |
+| Magic-User Level |    1^st^   |   2^nd^  |   4^th^  | 6^th^  |  8^th^  |    10^th^   | 12^th^ |   14^th^             |
+|------------------|------------|----------|----------|--------|---------|-------------|--------|----------------------|
+| Rank/Title       | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer    | Mage   | Arch Mage            |
 : Magic-User Titles {#tbl-titles-magic-users}
 
 | Intelligence | Spell Bonus                                        |
@@ -793,10 +800,10 @@ The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity 
 | 20    | 975,000     | 9d6+22   | +8           | 1            | 1     |                    |
 : Thief XP Progression {#tbl-xp-thieves}
 
-| Theif Level   | 1 | 2 | 4 | 6 | 8 | 10 | 14 |
+| Theif Level   |  1^st^  | 2^nd^ | 4^th^ | 6^th^ |    8^th^    |  10^th^  |      14^th^          |
 |---------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
 | Rank/Title    | Footpad<br>Initiate  | Rogue | Journeyman<BR>Thief | Burglar | Magsman | Veteran<BR>Thief | Master<BR>Thief |
-: Thief Titles {#tbl-titles-thieves}
+: Thieve's Guild Ranks {#tbl-titles-thieves}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
 |----|---|----|----|---|---|---|
@@ -917,6 +924,13 @@ Finally, Thieves can perform a Sneak Attack any time they are behind an oppone
 The Sneak Attack can be performed with any melee (but not missile) weapon, or may be performed bare-handed (in which case [subduing damage](combatDetails.qmd#subduing-damage) is done). Also, the Sneak Attack can be performed with the "flat of the blade;" the bonuses and penalties cancel out, so the attack has a +0 attack bonus and does normal damage; the damage done in this case is subduing damage.
 
 At 7^th^ level, Thieves get **triple** Sneak Attack damage.
+
+#### Thieve’s Cant or Thieve’s Tongue
+
+Thieves' Cant is a secret language used by thieves and other criminals to communicate without being understood by outsiders. It combines verbal expressions, hand signals, and sometimes written symbols
+
+![](images/theivesSymbols.jpg)
+
 
 ## Combination Classes
 

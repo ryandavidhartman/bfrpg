@@ -1,0 +1,98 @@
+# Useful Tables
+
+## Attack Bonus Table 
+| Fighter Level | Cleric or Thief Level | Magic-User Level | Monster Hit Dice | Attack Bonus |
+|---|---|----|----|----|
+|  <em id="NM"> NM </em> |  |  | less than 1 | +0 |
+| 1 | 1-2 | 1-3 | 1 | +1 |
+| 2-3 | 3-4 | 4-5 | 2 | +2 |
+| 4 | 5-6 | 6-8 | 3 | +3 |
+| 5-6 | 7-8 | 9-12 | 4 | +4 |
+| 7 | 9-11 | 13-15 | 5 | +5 |
+| 8-10 | 12-14 | 16-18 | 6 | +6 |
+| 11-12 | 15-17 | 19-20 | 7 | +7 |
+| 13-15 | 18-20 |  | 8-9 | +8 |
+| 16-17 |  |  | 10-11 | +9 |
+| 18-20 |  |  | 12-13 | +10 |
+|  |  |  | 14-15 | +11 |
+|  |  |  | 16-19 | +12 |
+|  |  |  | 20-23 | +13 |
+|  |  |  | 24-27 | +14 |
+|  |  |  | 28-31 | +15 |
+|  |  |  | 32 or more | +16|
+
+: Attack Bonus Table {#tbl-attacking-bonus-2}
+
+## Critical Hit
+
+**A natural 20 always hits.** (barring magic or silver weapon requirements). Roll an additional d20 + modifiers to determine if it is a special.
+
+| Roll (d20) | Result                                    |
+|------------|-------------------------------------------|
+| 1-10 (50%) | Regular Damage                            |
+| 11-15 (25%)| Maximum Damage (for example: a character with regular normal damage of 1d6 +2 would have a Maximum Damage of 6 +2 = 8) |
+| 16-19 (20%)| Critical Damage. Roll Regular Damage + Maximum Damage + Modifier (for example 1d6+2, the character rolls a 3 + Maximum Damage of 6 + 2 = 3 + 6 +2 = 11) |
+| 20 (5%)    | Critical Damage (see above) plus roll on the chart below: |
+: Critical Hit Table {#tbl-critical-hit-2}
+
+
+| Roll (1d4) | Condition      | Effect                                             |
+|------------|----------------|----------------------------------------------------|
+| 1          | Enemy is Disarmed | Primary weapon is knocked from enemy’s grasp     |
+| 2          | Enemy is Shaken   | -2 to hit, Saves, DC checks                      |
+| 3          | Enemy is Prone    | -4 to hit, a -4 AC (melee), +4 AC (ranged)       |
+| 4          | Enemy is Blinded  | -4 to hit, a -4 AC, -2 Init                      |
+: Critical Damage Table {#tbl-critical-damage-2}
+
+
+## Critical Miss
+
+**A natural 1 always misses.** Roll an additional d20 to determine if it is a special.
+
+| Roll (d20) | Result                                                                 |
+|------------|------------------------------------------------------------------------|
+| 1-2 (10%)  | Weapon breaks, no attack next round                                    |
+| 3-5 (15%)  | Stumble; DEX check (DC20) or -1 to combat rolls for 1d2 rounds         |
+| 6-10 (25%) | Sloppy Attack; DEX check (DC15) or opponent gets free attack           |
+| 11-15 (25%)| Drop weapon, no attack next round                                      |
+| 16-20 (25%)| Just a Miss                                                            |
+: Critical Miss Table {#tbl-critical-miss-2}
+
+## Difficulty Check Table
+| Percentile | (1d6) | (1d20) | Description             |
+|------------|-------|--------|-------------------------|
+| 85%        | 1-5   | DC 3   | Very Easy               |
+| 70%        | 1-4   | DC 6   | Easy                    |
+| 50%        | 1-3   | DC 10  | Normal                  |
+| 35%        | 1-2   | DC 13  | Hard                    |
+| 15%        | 1-1   | DC 15  | Very Hard               |
+| 5%         | -     | DC 20  | Extremely Difficult     |
+: Difficulty Check Table {tbl-difficulty-check}
+
+## Grenade-Like Missiles
+
+When throwing grenade-like missiles (flasks of oil, etc.), a successful attack roll indicates a direct hit. Otherwise, the DM will roll 1d10 and consult the diagram below to determine where the missile hit. Treat each number as representing a 10' square area.
+
+![Grenade AOT](./images/grenade-charg.svg){#fig-grenade}
+
+## Mishap Table
+| (1d20) | Description                            |
+|--------|----------------------------------------|
+| 1-4    | Total Failure with major consequences  |
+| 5-8    | Total Failure with minor consequences  |
+| 9-12   | Partial Success with major consequences|
+| 13-16  | Partial Success with minor consequences|
+| 17-20  | Mostly Successful but poorly executed  |
+: Mishap Table {tbl-mishap-table}
+
+## Reaction Table
+| DC + CHA + Leadership or Diplomacy Skill Bonus | Reaction             |
+|----------------------------------------------- |----------------------|
+| 1                                              | Violently hostile, immediate attack        |
+| 2-5                                            | Hostile, immediate attack                  |
+| 6-9                                            | Uncertain but prone to negative            |
+| 10-11                                          | Neutral, uninterested, uncertain           |
+| 12-15                                          | Uncertain but prone to positive            |
+| 16-19                                          | Friendly, immediate action                 |
+| 20                                             | Enthusiastically friendly, immediate acceptance |
+: Reaction Table {tbl-reaction-table}

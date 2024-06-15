@@ -14,14 +14,14 @@ The skills listed below have DC targets assigned. These targets can be modified 
 There will be times when a player character tries to do something in the game that seems to have no rule covering it. In some of those cases, the DM will assign a Difficulty Challenge (DC) number from 1 to 20. The player rolls 1d20 and adds their Ability Bonus for the score the DM thinks is most appropriate, as well as any situational bonus or penalty the DM assigns. The resulting number must equal or be greater than the DC number.
 
 
-| Percentile% (2d10) | (1d6) | (1d20) | Description         |
-|--------------------|-------|--------|---------------------|
-| 85%                | 1-5   | DC 3   | Very Easy           |
-| 70%                | 1-4   | DC 6   | Easy                |
-| 50%                | 1-3   | DC 10  | Normal              |
-| 35%                | 1-2   | DC 13  | Hard                |
-| 15%                | 1-1   | DC 15  | Very Hard           |
-| 5%                 | -     | DC 20  | Extremely Difficult |
+| Percentile% | (1d6) | (1d20) | Description         |
+|-------------|-------|--------|---------------------|
+| 85%         | 1-5   | DC 3   | Very Easy           |
+| 70%         | 1-4   | DC 6   | Easy                |
+| 50%         | 1-3   | DC 10  | Normal              |
+| 35%         | 1-2   | DC 13  | Hard                |
+| 15%         | 1-1   | DC 15  | Very Hard           |
+| 5%          | -     | DC 20  | Extremely Difficult |
 : Skill Check DC {#tbl-skill-dc}
 
 When the player performs a skill action, they roll d20, modified by the ability score of the skill and the number of ranks in the skill. The roll must be greater than or equal to the Skill Check Difficulty Challenge (DC) that the DM assigns.
