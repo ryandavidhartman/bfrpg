@@ -52,17 +52,7 @@ Distributed under the terms of the Open Game License version 1.0a
 
 :::
 
-### Half-elf
-
-**Description:** Half-Elves are the result of crossbreeding between Elves and Humans. An average Half-Elf male stands around 5'5" in height, with females averaging an inch shorter. They have pointed ears, but their features tend to favor the Human parent a bit more than the Elf. Half-Elves are well tolerated by Humans in most cases, but are often shunned (or at best, ignored) by Elven society.
-
-**Restrictions:** Half-Elves may become members of any class or combination allowed to Elves. They are required to have a minimum Intelligence of 9, and like Elves they may not have Constitution scores higher than 17. They do not suffer from the Elven hit dice limit.
-
-**Special Abilities:** Half-Elves have Darkvision with a 30' range. They are able to find secret doors on a 1-2 on 1d6, but do not find secret doors on a cursory examination as Elves do. Half-Elves gain a bonus of +5% on all earned experience, except if the Half-Elf is a member of a combination class.
-
-**Saving Throws:** Half-Elves save at +1 vs. Magic Wands and Spells.
-
-Half-Ogre
+### Half-Ogre
 
 **Description:** Half-Ogres are the result of crossbreeding between Humans and Ogres. Such creatures tend to be outcasts within both Human and Ogrish communities, but they may often be found as leaders in communities of orcs or goblins. Half-Ogres are big, averaging around 7' in height, broad shouldered and rangy. Their features tend to favor the Ogrish parent, with dark coarse hair, tan or brown skin and dark eyes.
 
