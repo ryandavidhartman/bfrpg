@@ -6008,18 +6008,18 @@ of the remains).
 
 ## Trollkin
 
-| |   Trollkin, Infant                | Trollkin, Juvenile           |  Trollkin, Adolescent        |
-|---|----|-----|-----|
-| Armor Class:    | 14                     | 15                 | 16                 |
-| Hit Dice:       | 1\* -- 2\*             | 3\* -- 4\*         | 5\* -- 6\*         |
-| No. of Attacks: | – 2 claws, 1 bite –    |                    |                    |
-| Damage:         | 1d4 claw,  1d4 bite    | 1d4 claw, 1d6 bite | 1d6 claw, 1d6 bite |
-| Movement:       | 30'                    | 50'                | 40'                |
-| No. Appearing:  | – special, see below – |                    |                    |
-| Save As:        | Fighter: -2            | Fighter: -4        | Fighter: -6        |
-| Morale:         | – 14 (10) –            |                    |                    |
-| Treasure Type:  | – None –               |                    |                    |
-| XP:             | 1 HD 37,   2 HD 100    | 3 HD 175, 4 HD 280 | 5 HD 405, 6 HD 555 |
+|                 |   Trollkin, Infant  | Trollkin, Juvenile | Trollkin, Adolescent |
+|-----------------|---------------------|--------------------|----------------------|
+| Armor Class:    | 14                  | 15                 | 16                   |
+| Hit Dice:       | 1\* - 2\*           | 3\* - 4\*          | 5\* - 6\*            |
+| No. of Attacks: | 2 claws, 1 bite     |                    |                      |
+| Damage:         | 1d4 claw,  1d4 bite | 1d4 claw, 1d6 bite | 1d6 claw, 1d6 bite   |
+| Movement:       | 30'                 | 50'                | 40'                  |
+| No. Appearing:  | special, see below  |                    |                      |
+| Save As:        | Fighter:  2         | Fighter:  4        | Fighter: 6           |
+| Morale:         |  14 (10)            |                    |                      |
+| Treasure Type:  |  None               |                    |                      |
+| XP:             | 1 HD 37,   2 HD 100 | 3 HD 175, 4 HD 280 | 5 HD 405, 6 HD 555   |
 
 Trollkin are young trolls. They have all the powers and
 weaknesses of trolls, and look exactly like smaller than
