@@ -21,7 +21,7 @@ If the monster's **Attack Bonus** (see @tbl-attacking-bonus) is different than
 
 **Movement:** This line gives the monster's movement rate, or rates for those monsters able to move in more than one fashion. For example, Bugbears have a normal walking movement of 30', and this is all that is listed for them. Mermaids can only move about in the water, and so their movement is given as **Swim 40'**. Pegasi can both walk and fly, so their movement is listed as **80' Fly 160'**.
 
-In addition, a distance may appear in parentheses after a movement figure; this is the creature's [turning distance](combat.qmd#maneuverability). If a turning distance is not listed, assume 5'.
+In addition, a distance may appear in parentheses after a movement figure; this is the creature's [turning distance](combatDetails.qmd#maneuverability). If a turning distance is not listed, assume 5'.
 
 **Attacks:** The number (and sometimes type or types) of attacks the monster can perform. For example, Goblins may attack once with a weapon, so they are marked **1 weapon**. Ghouls are marked **2 claws/1 bite** as they can attack with both claws and also bite in one round. Some monsters have alternate
 attacks, such as the triceratops with an attack of 1 gore
@@ -37,7 +37,7 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 
 **Save As:** The character class and level the monster uses for saving throws. Most monsters save as Fighters of a level equal to their hit dice.
 
-**Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a [Morale Check](combat.qmd#morale). Monsters having a Morale of 12 never fail morale checks, and fight until destroyed (or until they have no enemies left). 
+**Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a [Morale Check](combatDetails.qmd#morale). Monsters having a Morale of 12 never fail morale checks, and fight until destroyed (or until they have no enemies left). 
 
 **Treasure Type:** This line reflects how much wealth the creature owns. See the [Treasure](treasure.qmd#treasure-types) section for more details. In most cases, a creature keeps valuables in its home or lair and has no treasure with it when it travels. Intelligent creatures that own useful, portable treasure (such as magic items) tend to carry and use these, leaving bulky items at home.
 

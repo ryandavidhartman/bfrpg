@@ -29,9 +29,9 @@ Now, purchase equipment for your character, as shown in the [Equipment](equipmen
 
 Since you now know what sort of armor your character is wearing, note your Armor Class on your character sheet. Don't forget to add your Dexterity bonus or penalty to the figure.
 
-Look up your character's attack bonus (see @tbl-attacking-bonus in [Encounters](combat.qmd)) and note it on your character sheet. Don't add your ability bonuses (or penalties) to this figure, as you will add a different bonus (Strength or Dexterity) depending on the sort of weapon you use in combat (i.e., melee or missile weapon).
+Look up your character's attack bonus (see @tbl-attacking-bonus in [Encounters](combatDetails.qmd)) and note it on your character sheet. Don't add your ability bonuses (or penalties) to this figure, as you will add a different bonus (Strength or Dexterity) depending on the sort of weapon you use in combat (i.e., melee or missile weapon).
 
-Also, look up your saving throws (from the tables near the end of the [Encounter](combat.qmd#saving-throw-tables-by-class) or at the appropriate [class](class.qmd#character-classes)). Note them on your character sheet. Adjust the saving throw figures based on your race, if your character is a demi-human (see [Character Races](races.qmd)). Please note that the saving throw bonuses for demi-humans are presented as "plus" values, to be added to the die roll. For convenience, you may simply subtract them from the saving throw numbers on the character sheet instead.
+Also, look up your saving throws (from the tables near the end of the [Encounter](combatDetails.qmd#saving-throw-tables-by-class) or at the appropriate [class](class.qmd#character-classes)). Note them on your character sheet. Adjust the saving throw figures based on your race, if your character is a demi-human (see [Character Races](races.qmd)). Please note that the saving throw bonuses for demi-humans are presented as "plus" values, to be added to the die roll. For convenience, you may simply subtract them from the saving throw numbers on the character sheet instead.
 
 Finally, if you haven't done so already, name your character. This often takes longer than all the other steps combined.
 

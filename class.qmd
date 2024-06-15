@@ -21,7 +21,7 @@ Clerics have devoted themselves to the service of a [deity](gods.qmd). Additiona
 
 Most Clerics spend their time in mundane forms of service, such as preaching and ministering at a temple. A select few are called to travel away from the temple and serve their deity more directly, smiting undead monsters and aiding in the battle against evil and chaos. Player Clerics are assumed to be among this group.
 
-Clerics fight about as well as Thieves but not as well as Fighters. They are hardier than Thieves, at least at lower levels, as they are accustomed to physical labor that the Thief would deftly avoid. Clerics can cast [spells of divine nature](spells.qmd#cleric-spells) starting at 2^nd^ level, and they have the power to Turn the Undead, driving away undead monsters by means of faith alone (see the [Encounter](combat.qmd#turning-the-undead) section for details).
+Clerics fight about as well as Thieves but not as well as Fighters. They are hardier than Thieves, at least at lower levels, as they are accustomed to physical labor that the Thief would deftly avoid. Clerics can cast [spells of divine nature](spells.qmd#cleric-spells) starting at 2^nd^ level, and they have the power to Turn the Undead, driving away undead monsters by means of faith alone (see the [Encounter](combatDetails.qmd#turning-the-undead) section for details).
 
 The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score of 9 or higher to become a Cleric. They may wear any armor and have no weapon restrictions.
 
@@ -258,9 +258,9 @@ If a mixed group of animals is to be affected, the druid rolls just once. The re
 
 If a Druid succeeds at Calming or Befriending some of the animals, but not all are affected, they may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Druid may not attempt to use their Animal Affinity ability again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose.
 
-Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the DM should roll a [reaction roll](combat.qmd#tbl-monsterReactions) with any result below "uncertain" meaning the animals flee. 
+Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the DM should roll a [reaction roll](combatDetails.qmd#tbl-monsterReactions) with any result below "uncertain" meaning the animals flee. 
 If the result on the table results in automatically befriending the animals, the DM should treat the animals as if a “Friendly,” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. 
-However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The DM may [check morale](combat.qmd#morale) as necessary when the situation seems appropriate.
+However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The DM may [check morale](combatDetails.qmd#morale) as necessary when the situation seems appropriate.
 
 ::: {.column-screen-inset-right}
 
@@ -465,7 +465,7 @@ Starting at fifth level Paladins gain the ability to case [Cleric Spells](spells
 
 #### Turn Undead
 
-Starting ad 2^nd^ level Paladins may [Turn Undead](combat.qmd#turning-the-undead).
+Starting ad 2^nd^ level Paladins may [Turn Undead](combatDetails.qmd#turning-the-undead).
 
 ::: {.column-screen-inset-right}
 
@@ -890,7 +890,7 @@ Move Silently, like Remove Traps, is always rolled by the GM. The Thief will usu
 
 #### Climb Walls
 
-Climb Walls permits the Thief to climb sheer surfaces with few or no visible handholds. This ability should normally be rolled by the player. If the roll fails, the Thief falls from about halfway up the wall or other vertical surface. The DM may require multiple rolls if the distance climbed is more than 100 feet. See [Falling Damage](combat.qmd#falling-damage).
+Climb Walls permits the Thief to climb sheer surfaces with few or no visible handholds. This ability should normally be rolled by the player. If the roll fails, the Thief falls from about halfway up the wall or other vertical surface. The DM may require multiple rolls if the distance climbed is more than 100 feet. See [Falling Damage](combatDetails.qmd#falling-damage).
 
 #### Hide in Shadows
 
@@ -914,7 +914,7 @@ Starting at 4^th^ level, thieves have a chance to decipher magical writings and 
 
 Finally, Thieves can perform a Sneak Attack any time they are behind an opponent in melee and it is reasonably likely the opponent doesn't know the Thief is there. The DM may require a Move Silently or Hide roll to determine this. The Sneak Attack is made with a **+4 attack bonus** and does **double damage** if it is successful. A Thief usually can't make a Sneak Attack on the same opponent twice in any given combat.
 
-The Sneak Attack can be performed with any melee (but not missile) weapon, or may be performed bare-handed (in which case [subduing damage](combat.qmd#subduing-damage) is done). Also, the Sneak Attack can be performed with the "flat of the blade;" the bonuses and penalties cancel out, so the attack has a +0 attack bonus and does normal damage; the damage done in this case is subduing damage.
+The Sneak Attack can be performed with any melee (but not missile) weapon, or may be performed bare-handed (in which case [subduing damage](combatDetails.qmd#subduing-damage) is done). Also, the Sneak Attack can be performed with the "flat of the blade;" the bonuses and penalties cancel out, so the attack has a +0 attack bonus and does normal damage; the damage done in this case is subduing damage.
 
 At 7^th^ level, Thieves get **triple** Sneak Attack damage.
 

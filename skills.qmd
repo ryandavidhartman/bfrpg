@@ -126,7 +126,7 @@ Decipher requires a successful check against an Extremely Difficult Target (DC 1
 
 ## Diplomacy – CHA
 
-You can change the attitudes of others with a successful Diplomacy check. In negotiations, the DM adds the number of skill points in the character's diplomacy skill to the Reaction roll on the [Reaction Roll table](combat.qmd#monster-reactions). More than one roll may be required for checks to resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.
+You can change the attitudes of others with a successful Diplomacy check. In negotiations, the DM adds the number of skill points in the character's diplomacy skill to the Reaction roll on the [Reaction Roll table](combatDetails.qmd#monster-reactions). More than one roll may be required for checks to resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.
 
 ## Disguise – CHA
 

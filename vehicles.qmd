@@ -47,7 +47,7 @@ The** Crew** figure given reflects the minimum number of sailors and/or rowers
 
 The parenthesized figure represents maneuverability; see **Maneuverability** in **Part 5: The Encounter** for details.
 
-See **Attacking a Vehicle,** also in the [Encounter](combat.qmd#maneuverability) section, for details on the **Hardness** and **HP** statistics.
+See **Attacking a Vehicle,** also in the [Encounter](combatDetails.qmd#maneuverability) section, for details on the **Hardness** and **HP** statistics.
 
 A **chariot** requires a single horse, generally a warhorse, to pull it. Both **coaches** and** wagons** require at least a pair of draft horses to pull them.
 
