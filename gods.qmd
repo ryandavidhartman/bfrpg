@@ -1,10 +1,15 @@
-# Gods and Demons
+# Gods and Demons of OnceWas
 
-## Twleve Gods of OnceWas
+## Gods
 
 ![](./images/Gods.png)
 
+---
+
 ### Anu
+
+![](images/Anu.jpg)
+
 *God of the Sun and Sky, King of Elysium*
 Also known as Odin (Northern), Helios, Caelus (Dwarven), Pelor and Coelus (Elven).
 *Patron God of Keoland*
@@ -12,7 +17,7 @@ Also known as Odin (Northern), Helios, Caelus (Dwarven), Pelor and Coelus (Elven
 **Holy Symbol:** The Sun<br>
 **Month:** June<br>
 **Color:** Yellow<br>
-**Demigod: **Uta<br>
+**Demigod:** Uta<br>
 
 Anu is considered the ruler of the gods and King of Elysium. Anu’s directives are to alleviate suffering wherever it is found, to bring light into places of darkness, and to show kindness, mercy, and compassion.
 Anu is the deity most commonly worshiped in Keoland. Paladins and rangers are found among his worshipers. Clerics of Anu wear yellow robes and gold jewelry to honor the sun.
@@ -27,8 +32,13 @@ Anu watches over the life of the fields and farms, and the harvests and herds. A
 Despite his benevolence, Anu can at times be neglectful of his followers. Anu spends very little time in the OnceWas, preferring to remain in his castle in Elysium.
 Alexander the Good is the Patriarch of the Church of in the city of Niole Dra.
 His avatar is Utu, demi-god of justice and law. His antithesis is his sister Nanna-Sin, goddess of the moon and ghosts.
+
+----
 
 ### Brigit
+
+![](images/Brigit.jpg)
+
 *Goddess of Fire and Poetry, Queen of the Hearth*
 Also known as Vesta, Hestia, Sol, and Ney-An (Elven)
 *Patron Goddess of Nyrond*
@@ -43,7 +53,12 @@ The clerics and followers of Brigit adorn themselves with bronze jewelry.
 The Matriarch of the Church of Brigit is Lady Gabála Érenn in Nyr’s Gate of Nyrond.
 Brigit’s avatar is Demeter, demi-goddess of the harvest and rebirth.
 
+----
+
 ### Enki
+
+![](images/Enki.jpg)
+
 *God of Water, Oceans, and Rivers, King of Ships*
 Also known as Rán (Elven), Khnum (Dwarven), Njǫrd (Northern), Oceanu
 *Patron God of Isigir*
@@ -58,7 +73,12 @@ The clerics of Enki wear blue and teal tunics.
 The Lord Patriarch of the Church of Enki is Fernández of in Umbar of Isigir.
 Enki’s avatar is Uinen, the dancing goddess, demi-goddess of merchants.
 
+---
+
 ### Enlil
+
+![](images/Enlil.jpg)
+
 *God of War and Wrath, King of Vultures*
 Also known as Tyr (Northern), Montu, Kratos (Dwarven)
 *Patron God of Stone Hold*
@@ -73,7 +93,12 @@ The barbarian clerics of Enlil paint their faces green and paint their battle ar
 The High Priest of the Holy Place of Enlil is the mighty Seiðr of the Maul of the gods in Stone Hold.
 Enlil’s avatar is Lovitar, demi-goddess of pain.
 
+---
+
 ### Goibhnie
+
+![](images/Goibhnie.jpg)
+
 *God of Earth, Mountains, Blacksmiths, and Hard Work, King of Dwarves*
 Also known as Ponos, Hephaestus (Northern), Vulcan, Moradin (Dwarven)
 *Patron God of Hammerfast*
@@ -88,7 +113,12 @@ The clerics of Goibhnie wear thick leather bracers bound with thick iron rings.
 The Prelate of the Church of Goibhnie is Durgari Rockbrow of the City Under the Mountain in Hammerfast.
 Goibhnie’s avatar is Hanseath, demi-god of carousing, brewery, and singing.
 
+---
+
 ### Grund-Wyren
+
+![](images/Grund-Wyren.jpg)
+
 *Mother of Demons, Monsters, and Nightmares, Queen of the Abyss*
 Also known as Nidhogg (Northern), Echidna, Angrboda, Kaal
 *Patron God of Narragor*
@@ -102,7 +132,12 @@ The clerics of Grund-Wyren dress in red robes with dark green ornamentation.
 The High Priest of the Temple of Grund-Wyren is Master Aakil of Melkot, city of the Bone March in Narragor.
 Grund-Wyren’s avatar is Lolth, Demon Queen of Spiders.
 
+---
+
 ### Ki
+
+![](images/Ki.jpg)
+
 *Goddess of Life and Nature, Queen of Elves*
 Also known as Yggdrasil (Northern), Joro, Gaia, Sehanine (Elven)
 *Patron Goddess of Imladris*
@@ -113,7 +148,12 @@ Also known as Yggdrasil (Northern), Joro, Gaia, Sehanine (Elven)
 
 The goddess Ki is a radiant being revered by the fey. Elves, druids, and rangers also follow Ki’s teachings. She is protector of the forest, flowers, and wild animals, and they obey her commands. Ki travels freely to the Feywild. She also spends time in both the OnceWas and Elysium. Ki is calm, soothing and graceful, but is also capable of vicious savagery. The clerics of Ki adorn themselves with silver jewelry. The High Priestess of the Temple of Ki is Her Grace Lady Yaereene Lightbringer of Imladris. Ki’s avatar is the Green man, demi-god of woods, nature, and giants.
 
+----
+
 ### Marduk
+
+![](images/Marduk.jpg)
+
 *God of Wind, Thunder, and Storms, Slayer of Monsters*
 Also known as Thor (Northern), Bel, Muamman Duathal (Dwarven), and Bahamut (Elven)
 *Patron God of Dunador.*
@@ -128,7 +168,12 @@ The Clerics of Marduk adorn themselves with platinum jewelry.
 The Patriarch of the Church of Marduk is William Menote in the Andevar Province of Dunador.
 Marduk’s avatar is Gilgamesh, demi-god of strength.
 
+---
+
 ### Nanna-Sin
+
+![](images/Nanna-Sin.jpg)
+
 *Goddess of the Moon, the Ethereal, and Ghosts, Queen of the Night*
 Also known as Luna, Selenaia (Elven), Máni (Dwarven), Freya (Northern)
 *Patron Goddess of Sunndi*
@@ -144,7 +189,12 @@ The clerics of Nanna-Sin paint their faces white and adorn simple pale blue robe
 The High Priestess of the Church of Nanna-Sin is Chantress Isadoris of The City of Bozisha-Dar in Sunndi.
 Nanna-Sin’s avatar is Bebhionn, demi-goddess of love.
 
+---
+
 ### Nergal
+
+![](images/Nergal.jpg)
+
 *God of Death, King of Underworld*
 Also known as Serapis (Northern), Anubis (Sunndi), Erebos, Nergal, Naralis (Elven)
 Worshiped in the Empire of Iuz.
@@ -160,7 +210,12 @@ Nergal's temples are hidden and usually subterranean except in the most evil lan
 The Dark Abbot of the Cathedral of Nergal is Calliguri the Old of Dorakka in the Empire of Iuz.
 Nergal’s avatar is Emperor Iuz, demi-god of chaos and evil. Iuz has been imprisoned in the Far Realm for 300 years.
 
+---
+
 ### Oghma
+
+![](images/Oghma.jpg)
+
 *God of Knowledge, Bards, and Magic-Users, King of Books*
 Also known as Grianeach, Cermait, Ogmios, Mímir (Northern)
 *Patron God of Glantri*
@@ -174,7 +229,12 @@ The clerics of Oghma adorn themselves with brass jewelry.
 The Patriarch of the Church of Oghma is Garfield the Enlightened of Glantri City in Glantri.
 Oghma’s avatar is Cuthbert, demi-god of wisdom, dedication, and zeal.
 
+----
+
 ### Siduri
+
+![](images/Siduri.jpg)
+
 *Goddess of Beer and Wine, Queen of Taverns*
 Also known as Ninkasi, Maenad (Northern), Mainades, Aegiri
 *Patron Goddess of the Pomarj*
@@ -189,7 +249,120 @@ The ArchPriestess of the Sanctuary of Siduri is Caiaphas of the city of High Por
 Siduri’s avatar is Morrigan, demi-goddess of luck and thieves and the Raven Queen.
 
 
-## Demon Lords of OnceWas
+## Demigods
+
+![](./images/demiGods.jpg)
+
+### Bebhionn
+*Demigoddess of Love, Avatar of Nanna-Sin*
+
+Bebhionn is a radiant and compassionate figure, often depicted with a gentle smile and an aura of serene beauty. She embodies the ideals of love, compassion, and maternal care. Bebhionn is the guide for those who seek to find and nurture true love and to mend broken hearts.
+
+**Worshipers and Clergy:** Lovers, poets, and those who seek to heal emotional wounds honor Bebhionn. Her clergy perform ceremonies to bless unions and provide counsel to those in need of emotional guidance. They wear pale blue robes adorned with heart symbols.
+
+**Holy Symbol:** Abstract representation of the female form
+
+### Cuthbert
+*Demigod of Wisdom, Dedication, and Zeal, Avatar of Oghma*
+
+Cuthbert appears as a wise and stern figure, often depicted with a book in one hand and a staff in the other. He embodies the virtues of knowledge, dedication, and unwavering determination. Cuthbert inspires his followers to pursue wisdom and to uphold justice and order.
+
+**Worshipers and Clergy:** Scholars, judges, and those who seek guidance and enlightenment honor Cuthbert. His priests are known for their wisdom and sound judgment. They wear robes of brass and carry scrolls and tomes.
+
+**Holy Symbol:** A circle bisected by a vertical and a hortizontal line
+
+### Demeter
+*Demigoddess of the Harvest and Rebirth, Avatar of Brigit*
+
+Demeter is a nurturing figure associated with the cycle of life and the changing seasons. She is often depicted with sheaves of wheat and a cornucopia, symbolizing abundance and the bounty of the earth. As the demigoddess of the harvest, Demeter ensures the fertility of the land and the prosperity of its people. She is also linked to the mysteries of life and death, embodying the power of rebirth and renewal.
+
+**Worshipers and Clergy:** Farmers, gardeners, and those involved in agriculture revere Demeter. Her clergy performs rituals to bless the crops and ensure a bountiful harvest. They wear green robes and garlands of flowers during ceremonies.
+
+**Holy Symbol:** A sheaf of wheat
+
+### Gilgamesh
+*Demigod of Strength, Avatar of Marduk*
+
+Gilgamesh is a legendary hero known for his unparalleled strength and bravery. Often depicted as a towering figure with a lion by his side, he embodies the ideals of physical power and heroic feats. Gilgamesh inspires warriors and athletes, urging them to strive for greatness and overcome any challenge.
+
+**Worshipers and Clergy:** Warriors, athletes, and those who seek physical prowess honor Gilgamesh. His priests are often found training fighters and organizing competitions. They wear arm bands and medallions engraved with his symbol.
+
+**Holy Symbol:** A head of a Lion
+
+### Green Man
+*Demigod of Woods, Nature, and Giants, Avatar of Ki*
+
+The Green Man is a primal deity who represents the raw and untamed aspects of nature. He is depicted with a face made of leaves and vines, embodying the spirit of the forest and the cycles of growth and decay. The Green Man is also revered by giants, who see him as a protector of the natural world.
+
+**Worshipers and Clergy:** Druids, rangers, and those who dwell in the wilderness worship the Green Man. His clergy live in harmony with nature, performing rituals to honor the changing seasons. They wear leaf-green tunics and masks made of bark and leaves.
+
+**Holy Symbol:** A face made of leaves
+
+### Hanseath
+*Demigod of War and Beer, Avatar of Goibhnie*
+
+Hanseath is a boisterous and jolly figure, often depicted holding a frothing mug of beer in one hand and a battle axe in the other. He is the patron of warriors who enjoy revelry and camaraderie after the heat of battle. Hanseath embodies the joy of victory and the pleasures of life.
+
+**Worshipers and Clergy:** Dwarves, soldiers, and brewers hold Hanseath in high regard. His priests are known for their hearty feasts and robust drinking songs. They wear red and gold tabards and often sport impressive beards.
+
+**Holy Symbol:** A mug of beer
+
+### Iuz
+*Demigod of Chaos and Evil, Avatar of Nergal*
+
+Iuz is a malevolent and fearsome deity, often depicted with a twisted and terrifying visage. He embodies chaos, evil, and the dark forces that seek to disrupt the natural order. Iuz is the patron of those who thrive on anarchy and destruction.
+
+**Worshipers and Clergy:** Necromancers, warlocks, and those who revel in chaos and destruction honor Iuz. His clergy conducts dark rituals and ceremonies that invoke fear and dread. They wear black robes and carry symbols of chaos.
+
+**Holy Symbol:** A skull
+
+### Lolth
+*Demigoddess of Spiders, Avatar of Grund-Wyren*
+
+Lolth is a sinister and manipulative figure, often depicted as a dark and beautiful spider queen. She embodies cunning, ambition, and the allure of darkness. Lolth is the patron of spiders, drow, and those who seek power through deceit and treachery.
+
+**Worshipers and Clergy:** Drow, assassins, and those who plot in the shadows honor Lolth. Her clergy perform rituals to summon spiders and weave dark magic. They wear black robes adorned with spider motifs.
+
+**Holy Symbol:** A black spider
+
+### Lovitar
+*Demigoddess of Love and Pain, Avatar of Enlil*
+
+Lovitar is a complex and dual-natured deity, often depicted with a whip in one hand and a rose in the other. She embodies the interconnectedness of love and pain, pleasure and suffering. Lovitar teaches that true strength and understanding come from experiencing both joy and sorrow.
+
+**Worshipers and Clergy:** Those who have suffered great loss or those who seek to understand the depths of the human heart worship Lovitar. Her clergy practices rituals that explore the balance between pain and pleasure. They wear red and black robes and carry whips adorned with roses.
+
+**Holy Symbol:** A cat of nine tails
+
+### Morrigan
+*Demigoddess of Luck and Thieves, Avatar of Siduri*
+
+Morrigan is a cunning and resourceful figure, often depicted with a raven on her shoulder. She embodies luck, fortune, and the art of thievery. Morrigan is the patron of those who rely on wit and dexterity to achieve their goals.
+
+**Worshipers and Clergy:** Thieves, gamblers, and those who live by their wits honor Morrigan. Her clergy conducts secretive rituals to invoke her favor and ensure their success in endeavors. They wear dark cloaks and carry talismans of ravens.
+
+**Holy Symbol:** Three keys
+
+### Uinen
+*Demigoddess of Merchants, Avatar of Enki*
+
+Uinen is a graceful and serene deity, often depicted with a flowing gown and a ship at her side. She oversees trade and commerce, ensuring fair dealings and prosperous voyages. Uinen is the patron of merchants and sailors, guiding them safely across the seas.
+
+**Worshipers and Clergy:** Merchants, sailors, and traders worship Uinen. Her clergy bless ships and trade caravans, and offer prayers for successful business ventures. They wear blue robes and carry silver coins as talismans.
+
+**Holy Symbol:** A Horse with the tail of a fish
+
+### Uta
+*Demigod of Art and Music, Avatar of Sarasvati*
+
+Uta is a figure of creativity and inspiration, often depicted with a lyre or a paintbrush in hand. He embodies the beauty of art and the power of music to move the soul. Uta inspires artists and musicians to express themselves and share their gifts with the world.
+
+**Worshipers and Clergy:** Artists, musicians, and those who appreciate beauty and creativity honor Uta. His clergy organize festivals and performances to celebrate art and music. They wear colorful garments and carry instruments or paintbrushes.
+
+**Holy Symbol:** Abstract image of a star over field of crossed wavy lines 
+
+
+## Demon Lords
 
 ![](./images/demons.png)
 
