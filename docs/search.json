@@ -6951,6 +6951,39 @@
     ]
   },
   {
+    "objectID": "handyTables.html#dc-20",
+    "href": "handyTables.html#dc-20",
+    "title": "35  Useful Tables",
+    "section": "DC 20",
+    "text": "DC 20\n\n\n\n\n\n\n\nRoll\nResult\n\n\n\n\n1 (5%)\nNo Magic Items\n\n\n2-6 (25%)\n1 Potion rolled randomly (D30)\n\n\n7-10 (20%)\nMelee Weapon (Mace, Dagger, Short Sword, or Long Sword) +1\n\n\n11-14 (20%)\nRanged Weapon (Short Bow or Long Bow) +1\n\n\n15-17 (20%)\nRing rolled randomly (D6)\n\n\n18-19 (10%)\nRing of Protection +1, 2 Potions rolled randomly (D30), Melee or Ranged Weapon +1\n\n\n20 (5%)\nRing of Protection +2, 3 Potions rolled randomly (D30), Melee or Ranged Weapon +2",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Useful Tables</span>"
+    ]
+  },
+  {
+    "objectID": "handyTables.html#potions-d30",
+    "href": "handyTables.html#potions-d30",
+    "title": "35  Useful Tables",
+    "section": "Potions (D30)",
+    "text": "Potions (D30)\n\nAlchemist’s Fire\nCat’s Grace\nClairaudience\nClairvoyance\nCold Resistance\nControl Animal\nControl Dragon\nControl Giant\nControl Human\nControl Plant\nControl Undead\nDelusion\nDiminution\nESP\nFire Resistance\nFlying\nGaseous Form\nGiant Strength\nGrowth\nSpeed\nHeroism\nInvisibility\nKeoghtom’s Ointment\nLevitation\nLongevity\nPolymorph Self\nSpeed\nSpider Climb\nTreasure Finding\nWater Breathing",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Useful Tables</span>"
+    ]
+  },
+  {
+    "objectID": "handyTables.html#rings-d6",
+    "href": "handyTables.html#rings-d6",
+    "title": "35  Useful Tables",
+    "section": "Rings (D6)",
+    "text": "Rings (D6)\n\nRing of Darkvision\nRing of Resistance (Roll d4 - 1: Fire, 2: Cold, 3: Electrical, 4: Poison)\nRing of Free Action\nRing of Protection +1\nRing of Telekinesis\nRing of X-Ray Vision",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Useful Tables</span>"
+    ]
+  },
+  {
     "objectID": "extraClasses.html",
     "href": "extraClasses.html",
     "title": "36  Additional Classes",

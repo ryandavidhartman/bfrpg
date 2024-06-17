@@ -96,3 +96,60 @@ When throwing grenade-like missiles (flasks of oil, etc.), a successful attack r
 | 16-19                                          | Friendly, immediate action                 |
 | 20                                             | Enthusiastically friendly, immediate acceptance |
 : Reaction Table {tbl-reaction-table}
+
+# Random Magic Item Table
+
+## DC 20
+
+| Roll         | Result                                                         |
+|--------------|----------------------------------------------------------------|
+| 1 (5%)       | No Magic Items                                                 |
+| 2-6 (25%)    | 1 Potion rolled randomly (D30)                                 |
+| 7-10 (20%)   | Melee Weapon (Mace, Dagger, Short Sword, or Long Sword) +1     |
+| 11-14 (20%)  | Ranged Weapon (Short Bow or Long Bow) +1                       |
+| 15-17 (20%)  | Ring rolled randomly (D6)                                      |
+| 18-19 (10%)  | Ring of Protection +1, 2 Potions rolled randomly (D30), Melee or Ranged Weapon +1 |
+| 20 (5%)      | Ring of Protection +2, 3 Potions rolled randomly (D30), Melee or Ranged Weapon +2 |
+
+## Potions (D30)
+
+1. Alchemist’s Fire
+2. Cat's Grace
+3. Clairaudience
+4. Clairvoyance
+5. Cold Resistance
+6. Control Animal
+7. Control Dragon
+8. Control Giant
+9. Control Human
+10. Control Plant
+11. Control Undead
+12. Delusion
+13. Diminution
+14. ESP
+15. Fire Resistance
+16. Flying
+17. Gaseous Form
+18. Giant Strength
+19. Growth
+20. Speed
+21. Heroism
+22. Invisibility
+23. Keoghtom's Ointment
+24. Levitation
+25. Longevity
+26. Polymorph Self
+27. Speed
+28. Spider Climb
+29. Treasure Finding
+30. Water Breathing
+
+## Rings (D6)
+
+1. Ring of Darkvision
+2. Ring of Resistance (Roll d4 - 1: Fire, 2: Cold, 3: Electrical, 4: Poison)
+3. Ring of Free Action
+4. Ring of Protection +1
+5. Ring of Telekinesis
+6. Ring of X-Ray Vision
+
