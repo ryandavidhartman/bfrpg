@@ -49,6 +49,7 @@ book:
       chapters: 
         - treasure.qmd
         - magicItems.qmd
+        - namedMagicItems.qmd
     - part: DM Information
       chapters: 
         - gm01.qmd

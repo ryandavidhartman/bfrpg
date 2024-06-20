@@ -1,0 +1,162 @@
+# Named Magic Items
+
+In the world of OnceWas, magic items of great power and renown are scattered across the lands, waiting to be discovered by those brave and resourceful enough to seek them. These legendary weapons are often imbued with unique enchantments and storied histories, offering their wielders abilities far beyond those of ordinary arms. Here are some of the most notable named magical items:
+
+## Named Magic Weapons
+
+### Albruin
+This ancient two-handed great sword +2 glows a dim ghostly blue when drawn. It grants +1 to initiative, +1 to Saves vs. Poison, and allows the wielder Darkvision when the blade is drawn.
+
+### Alayas
+This elven long sword +1 is overlaid on the hilt with silver and copper. If the wielder scores a critical hit on a natural roll of 20, the subsequent d20 roll to determine a special is at an additional +2.
+
+### Axes of Azaghal
+These dwarven hand axes +3 allow the wielder to take a penalty of up to -3 to melee attacks in exchange for a bonus of +3 to damage inflicted.
+
+### Belladonna Scimitar
+This mirrored silver-bladed scimitar +2 temporarily forces a Lycanthrope from its transformed state for 1d8 rounds on a natural or modified roll of 19 or 20.
+
+### Black Sword
+Only a large-sized (or greater) creature can wield this abysmal great black sword +3. If the wielder scores a hit against a medium or smaller humanoid, the opponent must make a saving throw against Paralysis or Petrify or be knocked prone. A prone opponent has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a crossbow). Standing back up is a move-equivalent action that provokes an attack of opportunity.
+
+### Blazefury, Last Hope of Nyr’s Gate
+This is a bastard sword +1, +3 against magic users, arcane spell-casting monsters, and arcane summoned creatures.
+
+### Caladwen
+This elegant elven dagger +2 can heal 3d6 hit points once per day.
+
+### Cúrandír’s Halberd
+This elven two-handed polearm has a +3 to hit and damage. If the wielder scores a critical hit on a natural roll of 20, the subsequent d20 roll to determine a special is at an additional +2. This weapon may only be wielded by humans and elves (or larger) due to its size.
+
+### Daggers of Bele and Lokai
+These matched dwarven daggers are identical except for the stones set into their pommels. One pommel is chalcedony (opaque white), the other is obsidian (opaque black). Both daggers when used together defensively give the user the Parry and Dodge Defensive action with a +4 to AC rather than +2.
+
+Alternatively, if both daggers are used offensively, the wielder attacks with no penalty to attack with the primary weapon or with the secondary weapon.
+
+If both daggers hit the same opponent in a single turn, that creature takes an additional 1d6 piercing damage.
+
+If the daggers are used individually, they are just +1 daggers.
+
+### Dancing Edge
+This elven long sword +1 allows the wielder to take a penalty of -1 to melee attacks in exchange for a bonus of +1 to armor class.
+
+### Darts of Aiwë (elven for "small bird”)
+These are 3 magical elven darts +3 that do 1d4 piercing damage at a range up to 100 feet. They have the following additional abilities:
+
+- **Flight of the Hummingbird:** As the darts are thrown, they seem to become alive and fly on their own, ignoring creatures with cover penalty.
+- **Returning:** Instead of an attack, the wielder can make the birds fly back to their empty hand. The darts can be called back from up to 100 feet.
+- **Nectar Harvester:** If the attacker rolls a natural 20 (in addition to the subsequent roll to see if it is critical), the attacker is healed the same amount as the opponent is wounded.
+
+### Draug Sváfnir
+This northern steel long sword +1 has an enchantment that is +3 against demons and allows an extra attack when in combat with demons. It vibrates when within 120 feet of fiends.
+
+### Drawmij’s Dagger
+Drawmij’s dagger +2 is balanced for throwing and can be instantly summoned into the sapphire ring wearer's hand as long as the dagger is within 120’ (twice per day) regardless of barriers.
+
+### Firebrand
+Upon command, this long sword +1, (+2 against trolls, treants, and other creatures especially vulnerable to fire) will be sheathed in fire. The fire does not harm the wielder. The effect remains until the wielder commands it to stop, or until the weapon is dropped or sheathed.
+
+While it flames, the sword delivers an additional 1d6 points of fire damage. It casts light and burns just as if it were a torch.
+
+### Giant’s Fist
+This elven mace +1, if the wielder scores a critical hit on a natural roll of 20 against a medium or smaller humanoid, the opponent must make a saving throw against Paralysis or Petrify or be knocked prone. A prone opponent has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a crossbow). Standing back up is a move-equivalent action that provokes an attack of opportunity.
+
+### Gil-Galad’s Repeating Crossbow
+This elven crossbow +1 fires 2 bolts (+1 to hit, 1d6 damage) per round. It holds a magazine with 6 crossbow bolts. As long as it holds bolts, the user can reload it by pulling the reloading lever (a free action). Loading a new case of 6 bolts is a full-round action.
+
+### Ginnarr
+This dwarven battle axe +2 endows the wielder with +2 on the Reaction Roll table when dealing with dwarves.
+
+### God’s Wrath
+This elven morning star +1, if the wielder scores a critical hit on a natural roll of 20, the character gets an immediate additional attack.
+
+### King Maker
+This elven great axe +1 allows the character once during an encounter to inspire all members within a 20-foot radius to gain a +1 to both their next attack and a +1 to damage.
+
+### Javelin of Marduk
+The Javelin of Marduk becomes a bolt of lightning when hurled by a cleric of Marduk. Should this happen, creatures within a five-foot-wide line between the cleric and the target have to make a saving throw vs. wands or suffer 4d6 lightning damage.
+
+### Mace of Disruption
+This appears to be a mace +1, but it has a good alignment, and any evil character touching it will receive 2d4 points of damage due to the powerful enchantments laid upon the weapon. If a mace of disruption strikes an undead creature it may utterly destroy the creature.
+
+| Undead  | DC + Wis |
+|---------|----------|
+| Skeleton| DC 10    |
+| Zombie  | DC 12    |
+| Ghoul   | DC 14    |
+| Shadow  | DC 16    |
+| Ghast   | DC 18    |
+| Wight   | DC 20    |
+| Wraith  | DC 21    |
+| Mummy   | DC 22    |
+| Spectre | DC 23    |
+| Vampire | DC 24    |
+| Ghost   | DC 25    |
+| Lich    | DC 26    |
+
+### Mace of Hecate
+Any one lycanthrope within 30 feet has a chance of being charmed by the wielder of this mace +2. (DC 12)
+
+### Oathbow
+This beautiful longbow +2 is constructed of flexible, white wood and has ornate, twisting designs carved into its surface. When an arrow is fired, there is a whistling in flight that sounds like a voice whispering in Elven, wishing for the swift defeat of your enemies. The Oathbow has the following additional abilities:
+
+- **Once per day,** the Oathbow can fire one normal arrow and it becomes six arrows in flight.
+- **Once per day,** the Oathbow can fire an arrow that acts like a Light Spell.
+
+### Rapier of the Rat King
+This ancient scimitar +3, if the wielder rolls a natural 20 (in addition to the subsequent roll to see if it is critical), the opponent must make a saving throw against Death Ray or Poison. On a fail, a swarm of rats viciously attacks the opponent. The swarm does an additional 1d4 + 6 damage. Spellcasting within the swarm is impossible.
+
+The rats cannot be fought effectively with weapons, but fire and area effects can force it to disperse by inflicting damage. The swarm disperses when it has taken a total of 12 hit points from these attacks. A protection from evil spell keeps the swarm at bay, and certain area-effect spells, such as gust of wind and stinking cloud, disperse a swarm immediately. The swarm is stationary once conjured.
+
+### Reydundoom “Fake Man’s Bane”
+This dwarven warhammer +1 weighs half as much as a normal warhammer. In addition, whenever it scores a hit against any golem, the golem is stunned for 1d4 rounds.
+
+### Rodwen “Ghost Touch”
+This long sword +1, +3 against incorporeal or ethereal creatures allows the wielder to sense nearby incorporeal or ethereal creatures in the OnceWas.
+
+### Serethiel
+This knife +2 throws like a dagger (1d4) and swings like a short sword (1d6).
+
+### Shield Breaker
+This elven war hammer +1, if the wielder scores a critical hit on a natural roll of 20 against a medium or smaller humanoid wearing non-magical armor or bearing a non  magical shield, the opponent must make a saving throw against Paralysis or Petrify or their shield or armor is damaged and reduced by 1d4 effectiveness.
+
+### Syan Lin (Blue Sky)
+This elven longbow is enchanted +1, +2 against orcs, -4 against elves.
+
+### Vihor, the Dagger of Speed
+This dagger +2 has an effect identical to Weapon Finesse. A character may use the Dex bonus, rather than Str bonus, when fighting with this dagger in melee combat.
+
+### Whispering Wind
+This elven short bow +1 endows the wielder with +2 on the Reaction Roll table when dealing with elves. In addition, the character can fire into melee combat without risk of hitting an ally.
+
+### Vorpal Sword
+This long sword delivers a +3 bonus to attack and damage rolls. In addition, the weapon ignores any resistance to slashing damage. It can only be wielded by a magic user and is considered by many to be evil.
+
+The Vorpal Sword is solid to the touch and when blocking an opponent's attack. However, on a successful hit against a living creature, the sword deals damage to the opponent’s soul, passing through armor and clothing. This damage cannot be healed normally or with most healing spells or regeneration. The 6th level Cleric spell Restoration will restore lost hit points.
+
+If an opponent reaches 0 hit points, the soul is consumed by the sword. The energy of the soul temporarily grants the wielder increased strength for 1d6 rounds. The Strength bonus varies according to HD.
+
+| HD       | Strength Bonus  |
+|----------|-----------------|
+| 0-3      | +1              |
+| 3-5      | +2              |
+| 6-8      | +3              |
+| 9-11     | +4              |
+| 11-20    | +5              |
+
+The Vorpal Sword is a normal long sword when used against the unliving.
+
+## Magic Armor
+
+### The Black Shield of Nerull
+The Black Shield is a magical shield that grants a +3 bonus to AC. It also provides immunity to death spells and effects, Energy Drain, and negative energy effects. The wielder cannot be attacked from behind, charmed, frightened, or possessed.
+
+### Silver Dragon Scale Mail
+This armor gives a +1 bonus to AC, a +1 bonus on saving throws against the Frightful Presence and breath weapons of dragons, and resistance to cold damage. The armor consists of a coat, leggings, and a separate skirt of leather covered with overlapping dragon scales. The suit includes gauntlets.
+
+### Red Dragon Scale Mail
+This armor gives a +1 bonus to AC, a +1 bonus on saving throws against the Frightful Presence and breath weapons of dragons, and resistance to fire damage. The armor consists of a coat, leggings, and a separate skirt of leather covered with overlapping dragon scales. The suit includes gauntlets.
+
+### Black Plate Demon Armor
+This armor gives a +1 bonus to AC and a +3 bonus to Intimidate rolls.
+

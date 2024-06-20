@@ -157,13 +157,15 @@ Note: Evil clerics can choose to command Undead rather than turn them.
 
 ## Druids
 
-Druids are nature priests, revering the gods of the natural world.  Often a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities.  Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas.  However, there are those who are called to go abroad to serve the natural order in a more direct way by working actively to restore balance.
+Druids are nature priests, revering the gods of the natural world. They are a hybrid of Magic-User and Cleric, drawing power from nature and ley lines, and revering all the gods of OnceWas as well as elemental forces. Druids serve the natural order in a more direct way by working actively to restore balance. Often, a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities. Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas. However, some are called to go abroad to serve the natural order more directly by working actively to restore balance.
 
-Druids advance at the same rate as Clerics, and they use the same combat and saving throw tables.  Druids can cast [spells of divine nature](spells.qmd#druid-spells)  starting at 2^nd^ level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead.  They can identify any natural animal or plant, and can identify clean water.
+Druids advance at the same rate as Clerics but use the same combat and saving throw tables as Magic-Users. Druids can cast [spells of divine nature](spells.qmd#druid-spells) starting at 2^nd^ level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead. They can identify any natural animal or plant and can identify clean water.
 
-The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid.  Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields.  Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
+The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid. Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields. Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
 
 ![](images/druid.jpg)
+
+
 
 ::: {.column-screen-inset-right}
 
@@ -603,23 +605,24 @@ Rangers can Move Silently, Hide, and Track when in wilderness areas, at percenta
 
 ## Magic User
 
-Magic-Users are those who seek and use knowledge of the arcane. They do magic not as the Cleric does, by faith in a greater power, but rather through insight and understanding.  Every Magic-User has a spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in the Arcane Language. All Magic-Users begin play knowing how to read, write and speak Arcane.
+Magic users are scarce. They are just as frequently reviled as they are revered, often experiencing the shifting tides of popularity as political dynamics ebb and flow.
+
+- Everyone knows that magic exists, but it is not typical in people’s daily lives.
+- It is common among the working class to think that bad things tend to happen whenever magic is about.
+- Magic items are uncommon — hidden away in deep dungeons or put on display as symbols of the owner’s power.
+- Institutions of magic are rare outside of Glantri.
+- Places of interest, cities, religious sites, concentrations of monsters, and wizard towers are all usually built on ley lines or high points.
+
+Magic-Users seek and use knowledge of the arcane. They perform magic not as the Cleric does, by faith in a greater power, but rather through insight and understanding. Every Magic-User has a spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in the Arcane Language. All Magic-Users begin play knowing how to read, write, and speak Arcane.
 
 Magic-Users are the worst of all the classes at fighting; hours spent studying massive tomes of magic do not lead a character to become strong or adept with weapons. They are the least hardy, equal to Thieves at lower levels but quickly falling behind.
 
 The Prime Requisite for Magic-Users is Intelligence; a character must have an Intelligence score of 9 or higher to become a Magic-User. The only weapons they become proficient with are the dagger and the walking staff (or cudgel). Magic-Users may not wear armor of any sort nor use a shield as such things interfere with spellcasting.
 
-A first level Magic-User begins play knowing [read magic](allSpells.qmd#read-magic) and one other spell of first level. These spells are written in a spellbook provided by his or her master. The DM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the [Spells](spells.qmd#magic-user-spells) section for more details.
-
+A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-magic) and one other spell of first level. These spells are written in a spellbook provided by his or her master. The DM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the [Spells](spells.qmd#magic-user-spells) section for more details.
 
 ![](images/magic_user.jpg)
 
-- Magic users are scarce. They are just as frequently reviled as they are revered, often experiencing the shifting tides of popularity as political dynamics ebb and flow.
-- Everyone knows that magic exists but it is not typical in people’s daily lives.
-- It is common among the working class to think that bad things tend to happen whenever magic is about.
-- Magic items are uncommon hidden away in deep dungeons or put on display as symbols of the owner’s power.
-- Institutions of magic are rare outside of Glantri.
-- Places of interest, cities, religious sites, concentrations of monsters, and wizard towers are all usually built on Ley lines or High Points.
 
 ::: {.column-screen-inset-right}
 
@@ -762,6 +765,16 @@ After that time, they may stay at the school to use the facilities and take Arca
 ##### Great School of Magic Costs and Expenses
 
 The tuition for the Great School is 300 gp per spell level. One week is required per spell level to complete the research. Tuition covers access to the facilities, mentor, classes, and common needs such as ink and paper. Thrown in for free are a small room and three (poor) meals a day for those who want it.
+
+##### Arcane Symbols
+
+Magic-Users trained at the Great School of Magic will recognize certain arcane symbols representing the four basic elements.
+
+![](images/elementalSymbols.png)
+
+Classically trained Magic-Users will also be familar with the runes identifying potions created by the Master Alchemist of the School of Magic.  Kappiyan Flurmastyr is the current Master Alchemist.
+
+![](images/potions.png)
 
 
 ## Thief
