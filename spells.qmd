@@ -1991,7 +1991,7 @@ Duration: 6 rounds/level
 
 Flames as bright as a torch appear in the caster’s open hand.  The flames don’t harm the caster or their equipment.  Alternatively, a bluish, cold aura may be produced, which also sheds light as bright as torch-light.
 
-In addition to providing illumination, the flames or cold aura can be hurled or used to touch enemies.  The caster can strike an opponent with a melee touch attack, dealing fire or cold damage respectively equal to 1d6, +1 points per caster level (maximum +5). 
+In addition to providing illumination, the flames or cold aura can be hurled or used to touch enemies.  The caster can strike an opponent with a melee [touch attack](combatDetails.qmd#touch-attack), dealing fire or cold damage respectively equal to 1d6, +1 points per caster level (maximum +5). 
 
 Alternatively, the caster can hurl the flames or cold aura up to 50 ft as a thrown weapon.  When doing so, the caster must make an attack roll (with no range penalty), and on a successful hit deals the same damage as the melee attack.  As soon as the caster hurls the flames or cold aura, a new one appears in their hand.  Each attack made reduces the remaining duration by 1 minute.  If an attack reduces the remaining duration to 0 minutes or less, the spell ends with that attack.
 

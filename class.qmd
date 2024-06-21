@@ -943,12 +943,3 @@ At 7^th^ level, Thieves get **triple** Sneak Attack damage.
 Thieves' Cant is a secret language used by thieves and other criminals to communicate without being understood by outsiders. It combines verbal expressions, hand signals, and sometimes written symbols
 
 ![](images/theivesSymbols.jpg)
-
-
-## Combination Classes
-
-To become a member of a combination class, a character must meet the requirements of both classes. Combination class characters use the best attack bonus and the best saving throw values of their original two classes, but must gain experience equal to the combined requirements of both base classes to advance in levels. Elves are the only characters eligible to be a member of one of these combination classes:
-
-**Fighter/Magic-User:** These characters may both fight and cast magic spells; further, they are allowed to cast magic spells while wearing armor. These characters roll six-sided dice (d6) for hit points.
-
-**Magic-User/Thief:** Members of this combination class may cast spells while wearing leather armor, and may use any weapon. These characters roll four-sided dice (d4) for hit points.

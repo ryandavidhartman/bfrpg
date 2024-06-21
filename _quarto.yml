@@ -17,6 +17,7 @@ book:
         - abilities.qmd
         - races.qmd
         - class.qmd
+        - multiClass.qmd
         - skills.qmd
         - feats.qmd
         - hitPoints.qmd

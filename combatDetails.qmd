@@ -275,6 +275,11 @@ When looking up a monster's hit dice on the Attack Bonus Table, ignore all "plus
 
 Melee occurs after a character has closed for combat and strikes at a monster or other foe. Melee weapons or attacks may generally only be used against foes who are engaged with the attacker (as described above).
 
+### Touch Attack
+
+A "Touch Attack" is a melee attack that simply requires the attacker to touch their target, thus bypassing the target's armor but not their DEX bonus. To attack, roll + attack bonus + either STR or DEX against the target's no armor AC.
+
+
 ### Missile Fire
 
 Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the [Missile Weapon Ranges](equipment.qmd#missile-weapon-ranges) table. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
