@@ -5676,6 +5676,39 @@ This spell functions like [Hold Person](allSpells.html#hold-person), except that
 :::
 
 ::: {.callout-note icon=false collapse=true}
+
+## Lusian's Terrible Transmutation
+
+Black Magic-User 5
+
+Range: 20'
+
+Duration: Special
+ 
+This spell fused two different creatures into a single unique form, combining traits of both into the new form. This spell often does not function, and kills, creatures that possessed any magical abilities.
+
+Both creatures needed to be within 20 feet of each other when the spell is cast and the new creature would appear where the larger creature was.
+Both creatures are allowed a Saving throw. Any save negates the spell. A failed save rolls on the result table.
+
+| Roll  | Description                              |
+|-------|------------------------------------------|
+| 1-5   | Total Failure resulting in death.        |
+| 6-11  | Total Failure with minor consequences.   |
+| 12-14 | Total Failure with minor consequences.   |
+| 15-17 | Partial Success with minor consequences  |
+| 18-20 | Successful fusion as planned.            |
+
+Creatures possessing intelligence higher than that of an animal are likely to have their mind shattered during the casting (DC 15), resulting in an uncontrollable wild creation.
+ 
+The resulting creature is likely not able to breed successfully unless Lusian's Join Animal was sealed with a [permanency](allSpells.qmd#permanency) spell.
+
+History:
+
+This spell was developed by Lusian the Transmuter, a powerful elven sorceress in the black arts from Imladris. Lusian called forth dark powers with binding rituals. She perverted nature – forging blood and sinew, forcing hoof and beak to meld as one, grafting wing with claw and fang to feather. So wicked was she that the goddess [Ki](gods.qmd#ki) bound her to a horrible fate.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Magic Jar
  
