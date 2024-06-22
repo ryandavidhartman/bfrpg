@@ -1,5 +1,7 @@
 # Skills
 
+![](images/skills.png)
+
 At first level, a character starts with 3 skill level points. Every level after 1st, the character gets 1 additional skill level point that can be applied to a skill as long as the skill level does not exceed the character level.
 
 When a character uses a skill, make a skill check. The higher the result of the skill check, the better. Based on the circumstances, the result must match or beat a particular number (a DC or the result of an opposed skill check) for the check to be successful. The harder the task, the higher the number a character needs to roll.

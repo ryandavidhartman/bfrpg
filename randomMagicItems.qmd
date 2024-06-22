@@ -313,7 +313,20 @@ generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,9 ], [10,15], [16,20], [21
 | 90-92 | Map to Treasure Type G |
 | 93-00 | Map to 1d4 Magic Items |
 
+:::
+
 ### Spell Scrolls: Spell Level
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#scroll-level-table", 
+generalTableSelect([1,100,0],[[1,30], [31,55], [56,75], [76,88], [89,97], [98,99], [100, 100]]))})
+
+```
+
+:::{#scroll-level-table}
 
 | **d%** | **Level of Spell** |
 |---|----|
@@ -322,43 +335,46 @@ generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,9 ], [10,15], [16,20], [21
 | 56-75 | 3^rd^ |
 | 76-88 | 4^th^ |
 | 89-97 | 5^th^ |
-| 98-00 | 6^th^ |
+| 98-99 | 6^th^ |
+| 100   | 7^th^ |
 
 :::
 
 ## Rings
 
 ```{ojs}
-
 Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#rings-table", 
-generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,44],[45,57],[58,66],[67,70],[71,71],[72,73],[74,75],[76,81],[82,83],[84,90],[91,97],[98,98],[99,100]]))})
-
+generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,39],[40-44],[45,57],[58,66],[67-68],[69, 70], [71, 71], [72,73],[74,75],[76,78],[79,81],[82,83],[84,85],[86-90],[91,97],[98,98],[99,100]]))})
 ```
 
 :::{#rings-table}
 
-| **d%** | **Type** |
-|----|----|
-| 01-06 | Control Animal |
-| 07-12 | Control Human |
-| 13-19 | Control Plant |
-| 20-30 | Delusion |
-| 31-33 | Djinni Summoning |
-| 34-44 | Fire Resistance |
-| 45-57 | Invisibility |
-| 58-66 | Protection +1 |
-| 67-70 | Protection +2 |
-| 71 | Protection +3 |
-| 72-73 | Regeneration |
-| 74-75 | Spell Storing |
-| 76-81 | Spell Turning |
-| 82-83 | Telekinesis |
-| 84-90 | Water Walking |
-| 91-97 | Weakness |
-| 98 | Wishes |
-| 99-00 | X-Ray Vision |
+| **d%** | **Type**               |
+|--------|------------------------|
+| 01-06  | Control Animal         |
+| 07-12  | Control Human          |
+| 13-19  | Control Plant          |
+| 20-30  | Delusion               |
+| 31-33  | Djinni Summoning       |
+| 34-39  | Eibon                  |
+| 40-50  | Fire Resistance        |
+| 51-54  | Free Action            |
+| 55-63  | Invisibility           |
+| 64-68  | Protection +1          |
+| 69-70  | Protection +2          |
+| 71     | Protection +3          |
+| 72-73  | Regeneration           |
+| 74-75  | Second Chances         |
+| 76-78  | Ring of Shooting Stars |
+| 79-81  | Spell Storing          |
+| 82-83  | Spell Turning          |
+| 84-85  | Telekinesis            |
+| 86-90  | Water Walking          |
+| 91-97  | Weakness               |
+| 98     | Wishes                 |
+| 99-00  | X-Ray Vision           |
 
 :::
 

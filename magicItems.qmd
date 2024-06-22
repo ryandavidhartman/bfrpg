@@ -59,6 +59,8 @@ A potion is an elixir concocted with a spell-like effect that affects only the d
 
 Almost all potions are created by Kappiyan Flurmastyr, master alchemist from Glantry. The glass bottles bear his symbol: a large circle, within which is a triangle, containing a square, within which is a circle. An additional [symbol](class.qmd#arcane-symbols) indicates the nature of the potion.
 
+![](images/potion.png)
+
 ### Potion Miscibility
 
 When two potions are mixed, there is a chance for unpredictable outcomes, ranging from disastrous results to potentially enhancing the potency of one or both potions.
@@ -251,25 +253,71 @@ Treasure Maps are generally non-magical. They must be created by the DM, althoug
 
 A ring is a circular metal band worn on the finger (no more than one ring per hand) that has a spell-like power (often a constant effect that affects the wearer).
 
-**Control Animal:** The wearer of this ring can charm up to 6 hit dice of animals. The effect works much like a **charm person** spell, but only affects animals (including giant-sized animals, but excluding fantastic creatures as well as anything more intelligent than a dog or cat). The wearer can activate the power at will, targeting any animal within 60' that he or she can see. The wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
+### Control Animal
 
-**Control Human:** The wearer of this ring may cast the spell **charm person** at any target he or she can see within 60'. The wearer can use this power once per round, at will, but cannot control more than 6 hit dice of creatures at a time; however, the wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
+The wearer of this ring can charm up to 6 hit dice of animals. The effect works much like a [charm person](allSpells.qmd#charm-person) spell, but only affects animals (including giant-sized animals, but excluding fantastic creatures as well as anything more intelligent than a dog or cat). The wearer can activate the power at will, targeting any animal within 60' that he or she can see. The wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
 
-**Control Plant:** The wearer of this ring may create an effect equivalent to a **potion of plant control** at will, affecting plants or plant creatures within 60' that he or she can see. The effect lasts as long as the wearer remains within 60' of the plants or plant creatures. A saving throw is allowed just as for the potion.
+### Control Human
 
-**Delusion:** This ring appears to be some other sort of ring (roll again on the rings table to determine what sort). Whoever wears it believes it is working, and behaves thus (so a character who believes he is wearing a **ring of invisibility** will believe himself to actually be invisible). Unlike the potion of the same name, the ring's effect is not dispelled by the wearer taking damage; in fact, the only way to rid a character of this cursed item is with the spell **remove curse**.
+The wearer of this ring may cast the spell [charm person](allSpells.qmd#charm-person) at any target he or she can see within 60'. The wearer can use this power once per round, at will, but cannot control more than 6 hit dice of creatures at a time; however, the wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
 
-**Djinni Summoning:** This ring serves as a special gate by means of which a specific djinni can be called from the Elemental Plane of Air. When the ring is rubbed, the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes non-magical and worthless.
+### Control Plant
 
-**Fire Resistance:** The wearer of this ring receives protection as the spell **resist fire**, but the protection works continually.
+The wearer of this ring may create an effect equivalent to a [potion of plant control](magicItems.qmd#control-plant)) at will, affecting plants or plant creatures within 60' that he or she can see. The effect lasts as long as the wearer remains within 60' of the plants or plant creatures. A saving throw is allowed just as for the potion.
 
-**Invisibility:** By activating this simple silver ring, the wearer can benefit from **invisibility**, as the spell. If the invisibility is dispelled (as described for the spell), the ring may not be reactivated for one full turn. The invisibility effect otherwise lasts for 24 hours.
+### Delusion
 
-**Protection:** This ring offers continual magical protection in the form of a bonus to the Armor Class of the wearer (varying from +1 to +3 as shown on the table). This bonus is also applied to the wearer's saving throw die rolls.
+This ring appears to be some other sort of ring (roll on the [rings table](randomMagicItems.qmd#rings) to determine what sort). Whoever wears it believes it is working, and behaves thus (so a character who believes he is wearing a **ring of invisibility** will believe himself to actually be invisible). Unlike the potion of the same name, the ring's effect is not dispelled by the wearer taking damage; in fact, the only way to rid a character of this cursed item is with the spell [remove curse](allSpells.qmd#remove-curse).
 
-**Regeneration:** This ring grants the wearer the power of regeneration, exactly as described in the description of the troll, including the weakness with respect to acid and fire damage. However, only damage taken while wearing the ring is regenerated.
+### Djinni Summoning
 
-**Spell Storing:** A ring of spell storing contains a number of Magic-User spells that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. Any class may wear and use this ring, but it can only be recharged by a Magic-User casting the appropriate spell into it. A table is provided below to determine how many spells, and what levels they are. A ring of spell storing must be recharged with the same spells that were placed into it when it was made; so a ring of two spell storing containing **fireball** and **fly** can only be recharged with those two spells. The ring magically imparts to the wearer the names of all spells stored within it. A ring found in a treasure hoard may be completely charged, or discharged, or partially charged, at the DM's option.
+This ring serves as a special gate by means of which a specific [djinni](monstersAll.qmd#djinni) can be called from the Elemental Plane of Air. When the ring is rubbed, the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes non-magical and worthless.
+
+### Eibon
+
+The wearer can spend 3 charges to [Misty Step](allSpells.qmd#misty-step).
+
+The ring is made of an amber gold and set with a large purple gem, somber and smoldering, of which the like is not easily found in the OnceWas.
+
+### Fire Resistance
+
+The wearer of this ring receives protection as the spell [resist fire](allSpells.qmd#resist-fire), but the protection works continually.
+
+### Free Action
+
+This ring enables the wearer to move and attack freely and normally even when attacked by a [web](allSpells.qmd#web), [hold](allSpells.qmd#hold-person), or [slow](allSpells.qmd#haste) spell, or even while under water. The spells simply have no effect. While under water, the individual moves at normal (surface) speed and does full damage even with cutting weapons (like axes and scimitars) and with smashing weapons (like flails, hammers, and maces), insofar as the weapon used is held rather than hurled. This will not, however, enable breathing under water without further appropriate magic.
+
+### Invisibility
+
+By activating this simple silver ring, the wearer becomes invisible, vanishing from sight, including Darkvision.  Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. 
+
+Light, however, never becomes invisible, although a source of light can become so (thus, the effect is that of a light with no visible source).  Any part of an item that the subject carries but that extends more than 10 feet from it becomes visible.  Of course, the subject is not magically silenced, and certain other conditions can render the recipient detectable (such as stepping in a puddle).
+
+If the invisibility is dispelled if the wearer attacks any creature or casts any spell.  Actions (other than spell casting) directed at unattended objects do not break the spell. Causing harm indirectly is not an attack.  Once dispelled, the ring may not be reactivated for one full turn.
+
+### Protection
+
+This ring offers continual magical protection in the form of a bonus to the Armor Class of the wearer (varying from +1 to +3). This bonus is also applied to the wearer's saving throw die rolls.
+
+### Regeneration
+
+This ring grants the wearer the power of regeneration, exactly as described in the description of the [troll](monstersAll.qmd#troll-and-trollwife), including the weakness with respect to acid and fire damage. However, only damage taken while wearing the ring is regenerated.
+
+### Second Chances
+
+This diamond ring with a platinum band allows (once per day) the user to reroll any dice roll and keep the higher roll.
+
+### Ring of Shooting Stars
+
+ This gold ring generally has 2d10 charges. 1 to 3 charges can be expended as an action. For every charge expended, a glowing mote of light is launched from the ring at a visible target at a point you within 60 feet. Each creature within a 15-foot cube originating from that point is showered in sparks for 5d4 fire damage on a failed save, or half as much damage on a successful one.
+
+### Spell Storing
+
+A ring of spell storing contains a number of spells (either divine or arcane) that any wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. Any class may wear and use this ring, but it can only be recharged by a spell caster casting the appropriate spell into it.
+
+A table is provided below to determine how many spells, and what levels they are. A ring of spell storing must be recharged with the same spells that were placed into it when it was made; so a ring of two spell storing containing [fireball](allSpells.qmd#fireball) and [fly](allSpells.qmd#fly) can only be recharged with those two spells. The ring magically imparts to the wearer the names of all spells stored within it.
+
+A ring found in a treasure hoard may be completely charged, or discharged, or partially charged, at the DM's option.
 
 | **d%** | **# of Spells**   | **d%** | **Level of Spell** |
 |----|----|----|----|
@@ -281,17 +329,32 @@ A ring is a circular metal band worn on the finger (no more than one ring per ha
 | 92-96 | 6   | 98-00 | 6^th^ |
 | 97-00 | 7   |  |  |
 
-**Spell Turning:** This ring reflects spells cast directly at the wearer, but not area effect spells, back at the caster; so a **hold person** spell would be reflected, but not a **fireball**. It will reflect up to 2d6 spells before its power is exhausted.
+### Spell Turning
 
-**Telekinesis:** The wearer of this ring can use the power of the spell **telekinesis**, as if cast by a 12^th^ level Magic-User. The effect may be used as many times per day as the wearer wishes, but lasts only as long as the wearer concentrates on it.
+This ring reflects spells cast directly at the wearer, but not area effect spells, back at the caster; so a [hold person](allSpells.qmd#hold-person) spell would be reflected, but not a [fireball](allSpells.qmd#fireball). It will reflect up to 2d10 spells levels before its power is exhausted.
 
-**Water Walking:** This ring allows the wearer to walk on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the wearer's feet hover an inch or two above the surface. Molten lava will still cause the wearer damage from the heat since he or she is still near it. The wearer can walk, run, or otherwise move across the surface as if it were normal ground.
+### Telekinesis
 
-**Weakness:** Whoever puts this ring on is cursed; his or her Strength score is reduced immediately to 3. The ring can only be removed with **remove curse**.
+The wearer of this ring can move objects or creatures by concentration alone. An object weighing no more than 600 pounds can be moved up to 20 feet per round.  A creature can negate the effect on itself or an object it holds or has on its body with a successful save vs. Death Ray.
 
-**Wishes:** A ring of wishes contains the power to grant wishes to the wearer. 1d4 wishes will remain within the ring when it is found. The DM must adjudicate all wishes, and instructions are given in the **Dungeon Master ** section regarding this.
+In order to use this power, the caster must maintain concentration, moving no more than normal movement (no running), making no attacks and casting no spells.  If concentration is lost (whether intentional or not), the power may be used again on the next round, but the subject of the effect is allowed a new saving throw.
 
-**X-Ray Vision:** On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead or gold blocks the vision. The ring may be used three times per day, and each use lasts at most one turn (or until the wearer ceases to concentrate upon it).
+The effect may be used as many times per day as the wearer wishes, but lasts only as long as the wearer concentrates on it.
+
+### Water Walking
+
+This ring allows the wearer to walk on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the wearer's feet hover an inch or two above the surface. Molten lava will still cause the wearer damage from the heat since he or she is still near it. The wearer can walk, run, or otherwise move across the surface as if it were normal ground.
+
+### Weakness
+Whoever puts this ring on is cursed; his or her Strength score is reduced immediately to 3. The ring can only be removed with [remove curse](allSpells.qmd#remove-curse).
+
+### Wishes
+
+A ring of wishes contains the power to grant wishes to the wearer. 1d4 wishes will remain within the ring when it is found. The DM must adjudicate all wishes, and instructions are given in the **Dungeon Master ** section regarding this.
+
+### X-Ray Vision
+
+On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead or gold blocks the vision. The ring may be used three times per day, and each use lasts at most one turn (or until the wearer ceases to concentrate upon it).
 
 ## Wands, Staves and Rods
 
