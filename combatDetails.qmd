@@ -78,7 +78,7 @@ A result of 12-15 signifies that the monsters are uncertain but tend towards a p
 
 A favorable result means that the monsters do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.
 
-As always, interpreting the results of this roll is left to the GM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.
+As always, interpreting the results of this roll is left to the DM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.
 
 ## Initiative
 
@@ -149,7 +149,7 @@ The DM may easily play out the pursuit, following along
 on their map (note that the players can't draw maps
 while they run headlong through the dungeon or
 wilderness area). Any time a character must pass
-through a doorway, make a hard turn, etc., the GM
+through a doorway, make a hard turn, etc., the DM
 may require a saving throw vs. Death Ray (with
 Dexterity bonus added); if the save is failed, the
 character has fallen at that point and moves no further
@@ -416,7 +416,7 @@ If more than one attacker has a hold on a particular defender, a successful esca
 
 Held characters may also use simple magic items such as rings. A character being held may not normally cast a spell, even if he or she has not been silenced by the attacker.
 
-**Multiple Opponents:** Several combatants can be involved in a wrestling match. Up to four combatants can wrestle a single opponent of normal size in a given round. Creatures that are smaller than the attacker count for half, while creatures that are larger count at least double (as determined by the GM). Note that, after an opponent is pinned, other attackers benefit from the -4 AC penalty applied to the defender. However, this AC penalty is not cumulative (that is, each successful attack does not lower the defender's AC further).
+**Multiple Opponents:** Several combatants can be involved in a wrestling match. Up to four combatants can wrestle a single opponent of normal size in a given round. Creatures that are smaller than the attacker count for half, while creatures that are larger count at least double (as determined by the DM). Note that, after an opponent is pinned, other attackers benefit from the -4 AC penalty applied to the defender. However, this AC penalty is not cumulative (that is, each successful attack does not lower the defender's AC further).
 
 It is also possible for another character to attack the attacker in an ongoing wrestling bout. In this case, a successful hold on the attacker grants the original defender a +4 bonus on subsequent escape rolls.
 

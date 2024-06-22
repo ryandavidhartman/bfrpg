@@ -543,7 +543,7 @@ NPCs, of course, are as skilled in their professions as the DM needs them to be.
 
 ### Some Examples of Background Skills
 
-Percentile dice can be used to determine background skills, if desired, or the player may simply choose from the list (or make something up, with the agreement of the GM).
+Percentile dice can be used to determine background skills, if desired, or the player may simply choose from the list (or make something up, with the agreement of the DM).
 
 |        |                 |
 |--------|-----------------|
@@ -678,7 +678,7 @@ Characters who, for whatever reason, engage in combat while wearing no armor wha
 
 ### Mounted Combat ☐
 
-When a combatant is mounted, the rider's Initiative roll is used for both rider and mount, as the rider is the one guiding the mount's movements. Thus, all attacks by rider and mount are effectively simultaneous and generally must all be against the same target. Some exotic mounts may vary from this rule at the GM's option, especially if the mount is unusually fast or slow. For example, a zombie steed still moves and attacks last in the round regardless of the rider's Initiative roll.
+When a combatant is mounted, the rider's Initiative roll is used for both rider and mount, as the rider is the one guiding the mount's movements. Thus, all attacks by rider and mount are effectively simultaneous and generally must all be against the same target. Some exotic mounts may vary from this rule at the DM's option, especially if the mount is unusually fast or slow. For example, a zombie steed still moves and attacks last in the round regardless of the rider's Initiative roll.
 
 When charging, only one of the rider or mount receives the charging bonus, and the other of the pair does not attack that turn. Note that normal steeds (horses) do not generally have attacks which benefit from a charging movement. To receive the benefits of charging, the rider must have proper riding equipment, i.e. a saddle with stirrups.
 

@@ -80,7 +80,7 @@ generalTableSelect([1,12,0],[[ 1 , 1 ],[ 2 , 2 ],[ 3 , 3 ],[ 4 , 4 ],[ 5 , 5 ],[
 
 The Dungeon Master  should check for random encounters in the wilderness about every four hours of game time; this translates nicely to three night checks and three daytime checks. If your players choose to stand three night watches, you simply check for each watch; in the daytime, check morning, afternoon, and evening.
 
-To check for a wilderness encounter, roll 1d6; on a roll of 1, an encounter occurs. If a wilderness encounter is indicated, roll 2d8 on the appropriate table below. The Dungeon Master  should think carefully about how the encounter happens; check for surprise in advance, and if the monster is not surprised, it may be considered to have had time to set up an ambush (at the GM's option).
+To check for a wilderness encounter, roll 1d6; on a roll of 1, an encounter occurs. If a wilderness encounter is indicated, roll 2d8 on the appropriate table below. The Dungeon Master  should think carefully about how the encounter happens; check for surprise in advance, and if the monster is not surprised, it may be considered to have had time to set up an ambush (at the DM's option).
 
 ```{ojs}
 
@@ -298,7 +298,7 @@ Finally, add up the levels of all members of the party, and use this number as a
 
 It is assumed above that NPC parties will be Human, or predominantly so; but the Dungeon Master  may choose to present parties of Elves, Dwarves, or Halflings from time to time. In general, a party of demi-humans will be homogeneous.... an Elf party would consist of all Elves, for instance. If encountered in the territory of another race, the demi-human party might include a guide hired to lead them to their destination. For example, the Elf party mentioned above might hire a Human guide to help them when traveling through a Human country.
 
-The Dungeon Master  may simply use the figures given above when generating such parties. One thing that the DM must decide is whether or not the "normal men" rules apply to demi-humans... are there "normal elves" for instance? This decision is left to the GM. If there are such characters, they will have the same racial abilities as others of their race, but will fight with an Attack Bonus of +0 just as normal men do. If there are no such characters in the campaign world, then simply substitute 1^st^ level Fighters for the normal men listed above.
+The Dungeon Master  may simply use the figures given above when generating such parties. One thing that the DM must decide is whether or not the "normal men" rules apply to demi-humans... are there "normal elves" for instance? This decision is left to the DM. If there are such characters, they will have the same racial abilities as others of their race, but will fight with an Attack Bonus of +0 just as normal men do. If there are no such characters in the campaign world, then simply substitute 1^st^ level Fighters for the normal men listed above.
 
 ## Dealing with Players
 

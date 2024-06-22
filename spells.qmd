@@ -388,7 +388,7 @@ Range: 60'
 
 Duration: Level+1d4 rounds
 
-This spell allows the caster to charm one or more animals, in much the same fashion as [Charm Person](allSpells.html#charm-person), at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
+This spell allows the caster to charm one or more animals, in much the same fashion as [Charm Person](allSpells.html#charm-person), at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the DM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
 
 This spell does not grant the caster any special means of communication with the affected animals; if combined with [Speak With Animals](allSpells.html#speak-with-animals), this spell becomes significantly more useful.
 
@@ -649,7 +649,7 @@ Range: 60'+10'/level
 
 Duration: 1 turn/level
 
-This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion).
+This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the DM's discretion).
 
 All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.
 
@@ -970,7 +970,7 @@ Range: Self
 
 Duration: 1 round/level
 
-This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the GM's discretion.
+This spell puts the caster in contact with his patron deity or an extraplanar servant thereof, who answers one yes-or-no question per caster level. The ritual to cast this spell takes 1 turn to complete. The being contacted may or may not be omniscient, and further, though the being is technically allied with the caster, it may still not answer questions clearly or completely. These details are left to the DM's discretion.
 
 :::
 
@@ -1176,7 +1176,7 @@ Duration: 1 round/level
 
 This spell imbues inanimate objects with mobility and a semblance of life. The animated objects then attack whomever or whatever the caster designates. This spell cannot animate objects carried or worn by a creature. An animated object can be of any non-magical material. The caster can animate one object per level, up to a maximum of 25 lbs. per caster level (i.e. 300 lbs. at 12^th^ level, 325 lbs. at 13^th^ level, and so on).
 
-The DM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the GM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the GM).
+The DM must rule on the effectiveness of animated objects in combat. In general, animated objects attack using the same attack bonus as the caster. Small or lightweight objects do no more than 1d4 damage per hit, while larger and/or heavier objects do 1d6 or 1d8 (at the DM's discretion). As a special case, weapons which are animated do damage using the normal die roll for the type, but only up to a maximum 1d8. Animated objects have a movement rate of 10', and generally must move in contact with the ground (walking, hopping, slithering, or bouncing, however seems most appropriate to the DM).
 
 :::
 
@@ -1705,7 +1705,7 @@ Duration: Permanent
 
 Upon encountering a normal or giant-sized (but not magical) animal, the druid may begin casting this spell, which requires an hour to complete.  During this period the animal will remain nearby, and will not attack the caster or their allies for the duration of the casting (so long as they do not attack or otherwise disturb it).  At the end of the casting, if the animal rolls a successful save vs. Spells, the spell has failed.  At this point the animal acts naturally, without bearing the caster any special ill-will.
 
-If the animal fails its save, it becomes an animal friend and joins the caster for the rest of its natural life, assisting in any way it can.  Both the caster and any other animal friends are treated as treasured partners.  There is no arcane mental connection, nor any particular control, but rather a strong fraternal bond, which should go both ways.  If the animal is treated poorly, or it's love not returned over a period of time, it could attempt another save vs. Spells at the GM's discretion.
+If the animal fails its save, it becomes an animal friend and joins the caster for the rest of its natural life, assisting in any way it can.  Both the caster and any other animal friends are treated as treasured partners.  There is no arcane mental connection, nor any particular control, but rather a strong fraternal bond, which should go both ways.  If the animal is treated poorly, or it's love not returned over a period of time, it could attempt another save vs. Spells at the DM's discretion.
 
 A caster may only have, at most, twice their level in hit dice of animal friends.  If this spell is cast on an animal that would put the total above that number, it has no effect.
 
@@ -1807,7 +1807,7 @@ Range: 200'
 
 Duration: 3 rounds/level
 
-This spell causes existing grasses, trees, bushes, shrubs, or other plants to entwine around creatures in a 40 ft x 40 ft area. At the GM's discretion a caster underground may use roots of plants or trees if such are present. Most creatures within the area of effect move at ¼ normal speed; very large and/or very strong creatures (at least as big or strong as a giant or dragon) move at ½ normal speed.
+This spell causes existing grasses, trees, bushes, shrubs, or other plants to entwine around creatures in a 40 ft x 40 ft area. At the DM's discretion a caster underground may use roots of plants or trees if such are present. Most creatures within the area of effect move at ¼ normal speed; very large and/or very strong creatures (at least as big or strong as a giant or dragon) move at ½ normal speed.
 
 If the creature affected is running at the time the spell is cast, the creature must make a saving throw vs Spell (with Dexterity bonus applied, if any) or trip and become prone and trapped until the end of spell.  Entangled creatures may not attack nor take most actions other than movement due to the interference of the enchanted plants. This spell is only effective in a settings where plants will grow, including wilderness areas, farmland, and earthen-walled tunnels.
 
@@ -1933,7 +1933,7 @@ Range: 60'
 
 Duration: Level+1d4 rounds
 
-This spell allows the caster to charm one or more animals, in much the same fashion as [Charm Person](allSpells.html#charm-person), at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the GM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
+This spell allows the caster to charm one or more animals, in much the same fashion as [Charm Person](allSpells.html#charm-person), at a rate of 1 hit die per caster level. The caster may decide which individual animals out of a mixed group are to be affected first; excess hit dice of effect are ignored. No saving throw is allowed, either for normal or giant-sized animals, but creatures of more fantastic nature (as determined by the DM) are allowed a save vs. Spells to resist. When the duration expires, the animals will resume normal activity immediately.
 
 This spell does not grant the caster any special means of communication with the affected animals; if combined with [Speak With Animals](allSpells.html#speak-with-animals), this spell becomes significantly more useful.
 
@@ -2141,7 +2141,7 @@ The caster needs not call a bolt of lightning immediately; other actions, even s
 
 If the caster is outdoors and in a stormy area – a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental) – each bolt deals 3d8 points of damage instead of 3d6.
 
-This spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the GM's discretion.
+This spell functions only where the open sky is accessible, generally meaning outdoors; bolts may be summoned through windows or skylights at the DM's discretion.
 
 :::
 
@@ -2190,7 +2190,7 @@ Range: 60'+10'/level
 
 Duration: 1 turn/level
 
-This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the GM's discretion).
+This spell causes an animal to grow to twice its normal size and eight times its normal weight. The affected creature will do double normal damage with all physical attacks, and its existing natural Armor Class increases by 2. The animal's carrying capacity is also doubled. Unfriendly animals may save vs. Spells to resist this spell; normally, domesticated animals will not attempt to resist it, though they may become confused or panicky afterward (at the DM's discretion).
 
 All equipment worn or carried by an animal is similarly enlarged by the spell, though this change has no effect on the magical properties of any such equipment. Any enlarged item that leaves the enlarged creature’s possession instantly returns to its normal size.
 
@@ -2777,7 +2777,7 @@ Range: 100'+10'/level
 
 Duration: 1 round/level
 
-This spell functions identically to the cleric spell [Animate Objects](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the GM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
+This spell functions identically to the cleric spell [Animate Objects](allSpells.html#animate-objects), but it may only be cast on living trees, plants, or fungi, wooden objects, un-worked stone or earth, or naturally-occurring bodies of water or ice.  At the DM's option other natural phenomena such as non-magical fires or weather effects might also be subject to this spell.
 
 :::
 
@@ -2899,7 +2899,7 @@ Roll on the following table to determine what sort of creature the character bec
 | 93     | Lizard Man             |
 | 94–98  | Orc                    |
 | 99     | Troglodyte             |
-| 100    | Other (GM's choice)    |
+| 100    | Other (DM's choice)    |
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 
@@ -3416,7 +3416,7 @@ Range: 30'
 
 Duration: Special
 
-This spell makes a humanoid creature of 4 hit dice or less regard the caster as its trusted friend and ally. Humans and demi-humans may be affected, regardless of level of ability. A save vs. Spells will negate the effect. If the creature is currently being threatened or attacked by the caster or his or her allies, it receives a +5 bonus on its saving throw. The spell does not enable the caster to control the charmed person as if it were an automaton; rather, it perceives his or her words and actions in the most favorable way. The caster can try to give the subject orders, but it will not do anything it wouldn’t ordinarily do, and further may receive an additional saving throw to overcome the magic (at the GM's discretion). The caster must speak the target's language to communicate any commands, or else be good at pantomiming; of course, if the caster is attacked, the charmed creature will act to protect its “friend” (though that could mean attacking the caster's enemies, or attempting to carry off the caster to a “safe” place). The target receives a new saving throw each day if it has an Intelligence of 13 or greater, every week if its Intelligence is 9-12, or every month if its Intelligence is 8 or less.
+This spell makes a humanoid creature of 4 hit dice or less regard the caster as its trusted friend and ally. Humans and demi-humans may be affected, regardless of level of ability. A save vs. Spells will negate the effect. If the creature is currently being threatened or attacked by the caster or his or her allies, it receives a +5 bonus on its saving throw. The spell does not enable the caster to control the charmed person as if it were an automaton; rather, it perceives his or her words and actions in the most favorable way. The caster can try to give the subject orders, but it will not do anything it wouldn’t ordinarily do, and further may receive an additional saving throw to overcome the magic (at the DM's discretion). The caster must speak the target's language to communicate any commands, or else be good at pantomiming; of course, if the caster is attacked, the charmed creature will act to protect its “friend” (though that could mean attacking the caster's enemies, or attempting to carry off the caster to a “safe” place). The target receives a new saving throw each day if it has an Intelligence of 13 or greater, every week if its Intelligence is 9-12, or every month if its Intelligence is 8 or less.
 
 :::
 
@@ -3835,7 +3835,7 @@ This spell puts several creatures of 3 or fewer hit dice into a magical slumber.
 
 Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Sleep does not affect unconscious creatures, constructs, or undead creatures, and such creatures in the area of effect are ignored.
 
-When the duration elapses, the sleeping creatures normally wake up immediately; however, if they are made very comfortable and the surroundings are quiet, the affected creatures may continue sleeping normally, at the GM's option.
+When the duration elapses, the sleeping creatures normally wake up immediately; however, if they are made very comfortable and the surroundings are quiet, the affected creatures may continue sleeping normally, at the DM's option.
 
 :::
 
@@ -4835,7 +4835,7 @@ Duration: Instantaneous
 
 This spell releases a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level to each creature within its area. A save vs. Spells for half damage is allowed. The bolt begins at the caster's fingertips and extends to the range given. The caster may choose to limit the range of the spell, but the minimum range is 60 feet. The lightning bolt passes through an area 5' wide, arcing and jumping, so that, while it is not actually 5' wide, for game purposes treat it as if it is so.
 
-The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it may reflect from the barrier back toward the caster, or in a random direction at the GM's option. Creatures already affected by the lightning bolt do not take additional damage if struck by the reflection of the same bolt.
+The lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell’s range permits; otherwise, it may reflect from the barrier back toward the caster, or in a random direction at the DM's option. Creatures already affected by the lightning bolt do not take additional damage if struck by the reflection of the same bolt.
 
 :::
 
@@ -6049,7 +6049,7 @@ A saving throw vs. Spells will allow an unwilling target to resist a geas when i
 
 The geased creature must follow the given instructions until the geas is completed, no matter how long it takes.
 
-If the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the GM's discretion.
+If the instructions involve some open-ended task that the recipient cannot complete through his or her own actions, the spell remains in effect for a maximum of one day per caster level. A clever recipient can subvert some instructions, at the DM's discretion.
 
 For every 24 hours that the subject chooses not to obey the geas (or is prevented from obeying it), it suffers a --2 penalty to each of its ability scores, up to a total of --8. No ability score can be reduced to less than 3 by this effect. The ability score penalties are removed 24 hours after the subject resumes obeying the geas.
 
@@ -6188,7 +6188,7 @@ Roll on the following table to determine what sort of creature the character bec
 | 93     | Lizard Man             |
 | 94–98  | Orc                    |
 | 99     | Troglodyte             |
-| 100    | Other (GM's choice)    |
+| 100    | Other (DM's choice)    |
 
 Since the dead character is returning in a new body, all physical ills and afflictions are repaired.  The condition of the remains is not a factor.  So long as some small portion of the character’s body still exists, it can be reincarnated, but the portion receiving the spell must have been part of the character’s body at the time of death.  The magic of the spell creates an entirely new young adult body for the soul to inhabit from the natural elements at hand.  This process takes one hour to complete.  When the body is ready, the subject is reincarnated.
 

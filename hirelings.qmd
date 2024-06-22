@@ -67,7 +67,7 @@ Alternately, a Magic-User seeking to create certain magic items may employ an al
 
 Higher priced armorers or weaponsmiths may be hired to assist in making magic weapons or armor; in this case, the character hired will be a specialist, an expert in making one particular type of armor or weapon, and will command a higher price (as shown above). Such characters will rarely agree to do the mundane work of maintaining weapons and armor for a military unit.
 
-**Engineer:** *750 gp per month.* Any player character wishing to build a fortress, a ship, or any other mundane construction will need an engineer. Large projects may require several engineers, at the GM's option.
+**Engineer:** *750 gp per month.* Any player character wishing to build a fortress, a ship, or any other mundane construction will need an engineer. Large projects may require several engineers, at the DM's option.
 
 **Savant:** *1,500 gp per month.* Savants are experts in ancient and obscure knowledge. Many savants have particular interests in very limited or focused areas (for example, "Elven migrations of the 2^nd^ age"), but even these will know or have access to a lot of facts. The listed cost is the minimum required to maintain a savant with his library, collections, etc. If the savant's patron asks a difficult question, there may be additional costs for materials or research to answer it.
 

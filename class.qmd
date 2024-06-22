@@ -768,13 +768,15 @@ The tuition for the Great School is 300 gp per spell level. One week is required
 
 ##### Arcane Symbols
 
-Magic-Users trained at the Great School of Magic will recognize certain arcane symbols representing the four basic elements.
+Magic-Users trained at Great School of Magic will be familar with the runes identifying potions created by the School's Master Alchemist.  Kappiyan Flurmastyr is the current Master Alchemist.
+
+![](images/potions.png)
+
+Magic-Users will also recognize certain arcane symbols representing the four basic elements.
 
 ![](images/elementalSymbols.png)
 
-Classically trained Magic-Users will also be familar with the runes identifying potions created by the Master Alchemist of the School of Magic.  Kappiyan Flurmastyr is the current Master Alchemist.
 
-![](images/potions.png)
 
 
 ## Thief
@@ -902,11 +904,11 @@ Remove Traps is generally rolled twice: first to detect the trap, and second to
 
 #### Pick Pockets
 
-Pick Pockets allows the Thief to lift the wallet, cut the purse, etc. of a victim without the victim noticing. Obviously, if the roll is failed, the Thief didn't get what he or she wanted; but further, the intended victim (or an onlooker, at the GM's option) will notice the attempt if the die roll is more than two times the target number (or if the die roll is 00).
+Pick Pockets allows the Thief to lift the wallet, cut the purse, etc. of a victim without the victim noticing. Obviously, if the roll is failed, the Thief didn't get what he or she wanted; but further, the intended victim (or an onlooker, at the DM's option) will notice the attempt if the die roll is more than two times the target number (or if the die roll is 00).
 
 #### Move Silently
 
-Move Silently, like Remove Traps, is always rolled by the GM. The Thief will usually believe he or she is moving silently regardless of the die roll, but those he or she is trying to avoid will hear the Thief if the roll is failed.
+Move Silently, like Remove Traps, is always rolled by the DM. The Thief will usually believe he or she is moving silently regardless of the die roll, but those he or she is trying to avoid will hear the Thief if the roll is failed.
 
 #### Climb Walls
 

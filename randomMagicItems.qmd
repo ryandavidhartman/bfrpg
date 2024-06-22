@@ -1,0 +1,526 @@
+# Random Magical Treasure
+
+As an aid to DMs here are tables for generating magical treasure to determine the sort of item found by rolling on the following table:
+
+```{ojs}
+
+import {generalTableSelect, highlightTableRow} from "./custom.js"
+
+viewof form = Inputs.form(
+  {
+    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[1,25],[26,35],[36,55],[56,85],[86,90],[91,95],[96,100]]))}),
+    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">Weapoon or Armor</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[1,70], [71,100]]))}),
+    button3: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any Except Weapon</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#armor-weapon-table", 
+            generalTableSelect([1,100,0],[[-2,-1],[1,12],[13,40],[41,79],[80,86],[87,93],[94,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 15% 30% 30%;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+
+```
+
+::: {#armor-weapon-table}
+
+| **Any** | **Weapon or Armor** | **Any Except Weapons** | **Type of Item** |
+|----|----|----|----| 
+| 01-25 | 01-70 |  | Weapon |
+| 26-35 | 71-00 | 01-12 | Armor |
+| 36-55 |  | 13-40 | Potion |
+| 56-85 |  | 41-79 | Scroll |
+| 86-90 |  | 80-86 | Ring |
+| 91-95 |  | 87-93 | Wand, Staff, or Rod |
+| 96-00 |  | 94-00 | Miscellaneous Magic |
+
+:::
+
+## Magic Weapons
+
+First, roll d% on the following table to determine the weapon type:
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#weapon-type-table", 
+generalTableSelect([1,100,0],[[1,2],[3,9],[10,11],[12,19],[20,27],[28,31],[32,35],[36,43],[44,47],[48,59],[60,65],[66,79],[80,81],[82,83],[84,86],[87,94],[95,95],[96,96],[97,97],[98,100]]))})
+
+```
+
+:::{#weapon-type-table}
+
+| **d%** | **Weapon Type** |
+|----|-----|
+| 01-02 | Great Axe |
+| 03-09 | Battle Axe |
+| 10-11 | Hand Axe |
+| 12-19 | Shortbow |
+| 20-27 | Shortbow Arrow |
+| 28-31 | Longbow |
+| 32-35 | Longbow Arrow |
+| 36-43 | Light Quarrel |
+| 44-47 | Heavy Quarrel |
+| 48-59 | Dagger |
+| 60-65 | Shortsword |
+| 66-79 | Longsword |
+| 80-81 | Scimitar |
+| 82-83 | Two-Handed Sword |
+| 84-86 | Warhammer |
+| 87-94 | Mace |
+| 95 | Maul |
+| 96 | Pole Arm |
+| 97 | Sling Bullet |
+| 98-00 | Spear |
+
+:::
+
+Next, roll on the Weapon Bonus tables. Follow the directions given if a roll on the Special Enemy or Special Ability tables are indicated; generally multiple rolls on the Special Ability table should be ignored when rolled.
+
+```{ojs}
+
+Inputs.form(
+  {
+    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Melee</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#melee-missile-weapon", 
+            generalTableSelect([1,100,0],[[1,40],[41,50],[51,55],[56,57],[58,58],[59,75],[76,85],[86,95],[96,98],[99,100]]))}),
+    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Missile</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#melee-missile-weapon", 
+            generalTableSelect([1,100,0],[[1,40],[47,58],[59,64],[-2,-1],[-2,-1],[65,82],[83,94],[-2,-1],[95,98],[99,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 30% 30% ;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+```
+
+:::{#melee-missile-weapon}
+
+| **d% Melee** | **d% Missile** | **Weapon Bonus**             |
+|--------------|----------------|------------------------------|
+| 01-40        | 01-46          | +1                           |
+| 41-50        | 47-58          | +2                           |
+| 51-55        | 59-64          | +3                           |
+| 56-57        |                | +4                           |
+| 58           |                | +5                           |
+| 59-75        | 65-82          | +1, +2 vs. Special Enemy     |
+| 76-85        | 83-94          | +1, +3 vs. Special Enemy     |
+| 86-95        |                | Roll Again + Special Ability |
+| 96-98        | 95-98          | Cursed, -1*                  |
+| 99-00        | 99-00          | Cursed, -2*                  |
+
+
+:::
+
+\* If cursed weapons are rolled along with special abilities, ignore the special ability roll.
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#special-enemy-table", 
+generalTableSelect([1,6,0],[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]]))})
+
+```
+
+:::{#special-enemy-table}
+
+| **1d6** | **Special Enemy** |
+|---------|-------------------|
+| 1       | Dragons           |
+| 2       | Enchanted         |
+| 3       | Lycanthropes      |
+| 4       | Regenerators      |
+| 5       | Spell Users       |
+| 6       | Undead            |
+
+
+:::
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#special-ability-table", 
+generalTableSelect([1,20,0],[[1,9],[10,11],[12,12],[13,16],[17,19],[20,20]]))})
+
+```
+
+:::{#special-ability-table}
+
+| **1d20** | **Special Ability** |
+|----|----|
+| 01-09 | Casts Light on Command |
+| 10-11 | Charm Person |
+| 12 | Drains Energy |
+| 13-16 | Flames on Command |
+| 17-19 | Locate Objects |
+| 20 | Wishes |
+
+:::
+
+## Magic Armor
+
+Generate the type and bonus of each item of magic armor on the tables below.
+
+```{ojs}
+
+Inputs.form(
+  {
+    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Armor Type</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#magic-armor-table", 
+            generalTableSelect([1,100,0],[[1,9],[10,28],[29,43],[44,100]]))}),
+    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Armor Bonus</button>`, {value: 0, 
+        reduce: () => highlightTableRow("#magic-armor-table", 
+            generalTableSelect([1,100,0],[[1,50],[51,80],[81,90],[91,95],[92,100]]))}),
+  }, 
+  {
+    template: (formParts) => htl.html`
+     <div>
+       <div style="
+         display: grid;
+         grid-template-columns: 40% 40% ;
+         column-gap: 10px
+       ">
+         ${Object.values(formParts)}
+       </div>
+     </div>`
+  })
+
+```
+
+:::{#magic-armor-table}
+
+| **d%** | **Armor Type** | **d%** | **Armor Bonus**  |
+|--------|----------------|--------|------------------|
+| 01-09  | Leather Armor  | 01-50  | +1               |
+| 10-28  | Chain Mail     | 51-80  | +2               |
+| 29-43  | Plate Mail     | 81-90  | +3               |
+| 44-00  | Shield         | 91-95  | Cursed *         |
+|        |                | 96-00  | Cursed, AC 11 ** |
+
+:::
+
+\* If Cursed armor is rolled, roll again and reverse the bonus (e.g., -1 instead of +1).
+
+** This armor has AC 11 but appears to be +1 when tested.
+
+## Potions
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#potions-random-table", 
+generalTableSelect([1,100,0],[[1,3], [4,6], [7,9], [10,12], [13,15], [16,18], [19,21], [22,24], [25,27], [28,30], [31,34], [35,37], [38,40], [41,43], [44,46], [47,49], [50,52], [53,55], [56,58], [59,62], [63,65], [66,68], [69,70], [71,73], [74,76], [77,79], [80,82], [83,85], [86,88], [89,91], [92,94], [95,97], [98,100]]))})
+
+```
+
+:::{#potions-random-table}
+
+| **d%** | **Type**              |
+|--------|-----------------------|
+| 01-03  | Alchemist’s Fire      |
+| 04-06  | Clairaudience         |
+| 07-09  | Clairvoyance          |
+| 10-12  | Cold Resistance       |
+| 13-15  | Control Animal        |
+| 16-18  | Control Dragon        |
+| 19-21  | Control Giant         |
+| 22-24  | Control Human         |
+| 25-27  | Control Plant         |
+| 28-30  | Control Undead        |
+| 31-34  | Delusion              |
+| 35-37  | Diminution            |
+| 38-40  | ESP                   |
+| 41-43  | Extra Healing         |
+| 44-46  | Fire Resistance       |
+| 47-49  | Flying                |
+| 50-52  | Gaseous Form          |
+| 53-55  | Giant Strength        |
+| 56-58  | Growth                |
+| 59-62  | Healing               |
+| 63-65  | Heroism               |
+| 66-68  | Invisibility          |
+| 69-70  | Invulnerability       |
+| 71-73  | Keoghtom's Ointment   |
+| 74-76  | Levitation            |
+| 77-79  | Longevity             |
+| 83-85  | Poison                |
+| 86-88  | Polymorph Self        |
+| 89-91  | Speed                 |
+| 92-94  | Total Healing         |
+| 95-97  | Treasure Finding      |
+| 98-100 | Water Breathing       |
+
+:::
+
+## Scrolls
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#scrolls-table", 
+generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,9 ], [10,15], [16,20], [21,25], [26,29], [30,32], [33,34], [35,35  ], [36,40], [41,46], [47,56], [57,61], [62,75], [76,85], [86,89], [90,92], [93,100]]))})
+
+```
+
+:::{#scrolls-table}
+
+| **d%** | **General Type** |
+|----|----|
+| 01-03 | Cleric Spell Scroll (1 Spell) |
+| 04-06 | Cleric Spell Scroll (2 Spells) |
+| 07-08 | Cleric Spell Scroll (3 Spells) |
+| 09 | Cleric Spell Scroll (4 Spells) |
+| 10-15 | Magic-User Spell Scroll (1 Spell) |
+| 16-20 | Magic-User Spell Scroll (2 Spells) |
+| 21-25 | Magic-User Spell Scroll (3 Spells) |
+| 26-29 | Magic-User Spell Scroll (4 Spells) |
+| 30-32 | Magic-User Spell Scroll (5 Spells) |
+| 33-34 | Magic-User Spell Scroll (6 Spells) |
+| 35 | Magic-User Spell Scroll (7 Spells) |
+| 36-40 | Cursed Scroll |
+| 41-46 | Protection from Elementals |
+| 47-56 | Protection from Lycanthropes |
+| 57-61 | Protection from Magic |
+| 62-75 | Protection from Undead |
+| 76-85 | Map to Treasure Type A |
+| 86-89 | Map to Treasure Type E |
+| 90-92 | Map to Treasure Type G |
+| 93-00 | Map to 1d4 Magic Items |
+
+### Spell Scrolls: Spell Level
+
+| **d%** | **Level of Spell** |
+|---|----|
+| 01-30 | 1^st^ |
+| 31-55 | 2^nd^ |
+| 56-75 | 3^rd^ |
+| 76-88 | 4^th^ |
+| 89-97 | 5^th^ |
+| 98-00 | 6^th^ |
+
+:::
+
+## Rings
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#rings-table", 
+generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,44],[45,57],[58,66],[67,70],[71,71],[72,73],[74,75],[76,81],[82,83],[84,90],[91,97],[98,98],[99,100]]))})
+
+```
+
+:::{#rings-table}
+
+| **d%** | **Type** |
+|----|----|
+| 01-06 | Control Animal |
+| 07-12 | Control Human |
+| 13-19 | Control Plant |
+| 20-30 | Delusion |
+| 31-33 | Djinni Summoning |
+| 34-44 | Fire Resistance |
+| 45-57 | Invisibility |
+| 58-66 | Protection +1 |
+| 67-70 | Protection +2 |
+| 71 | Protection +3 |
+| 72-73 | Regeneration |
+| 74-75 | Spell Storing |
+| 76-81 | Spell Turning |
+| 82-83 | Telekinesis |
+| 84-90 | Water Walking |
+| 91-97 | Weakness |
+| 98 | Wishes |
+| 99-00 | X-Ray Vision |
+
+:::
+
+## Wands, Staves and Rods
+
+```{ojs}
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#wands-table", 
+generalTableSelect([1,100,0],[[1,8],[9,13],[14,17],[18,28],[29,30],[31,34],[35,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,73],[74,79],[80,84],[85,92],[93,100]]))})
+
+```
+
+:::{#wands-table}
+
+| **d%** | **Type** |
+|----|----|
+| 01-08 | Rod of Cancellation |
+| 09-13 | Snake Staff |
+| 14-17 | Staff of Commanding |
+| 18-28 | Staff of Healing |
+| 29-30 | Staff of Power |
+| 31-34 | Staff of Striking |
+| 35 | Staff of Wizardry |
+| 36-40 | Wand of Cold |
+| 41-45 | Wand of Enemy Detection |
+| 46-50 | Wand of Fear |
+| 51-55 | Wand of Fireballs |
+| 56-60 | Wand of Illusion |
+| 61-65 | Wand of Lightning Bolts |
+| 66-73 | Wand of Magic Detection |
+| 74-79 | Wand of Paralyzation |
+| 80-84 | Wand of Polymorph |
+| 85-92 | Wand of Secret Door Detection |
+| 93-00 | Wand of Trap Detection |
+
+:::
+
+## Miscellaneous Magic Items
+
+Effect Subtables
+d%
+Subtable
+01-57
+Effect Subtable 1
+58-00
+Effect Subtable 2
+
+### **Effect Subtables**
+
+| d%    | Subtable          |
+|-------|-------------------|
+| 01-57 | Effect Subtable 1 |
+| 58-00 | Effect Subtable 2 |
+
+### **Effect Subtable 1**
+
+| d%    | Effect             | Form |
+|-------|--------------------|------|
+| 01    | Blasting           | G    |
+| 02-05 | Blending           | F    |
+| 06-13 | Cold Resistance    | F    |
+| 14-17 | Comprehension      | E    |
+| 18-22 | Control Animal     | C    |
+| 23-29 | Control Human      | C    |
+| 30-35 | Control Plant      | C    |
+| 36-37 | Courage            | G    |
+| 38-40 | Deception          | F    |
+| 41-52 | Delusion           | A    |
+| 53-55 | Djinni Summoning   | C    |
+| 56    | Doom               | G    |
+| 57-67 | Fire Resistance    | F    |
+| 68-80 | Invisibility       | F    |
+| 81-85 | Levitation         | B    |
+| 86-95 | Mind Reading       | C    |
+| 96-97 | Panic              | G    |
+| 98-00 | Penetrating Vision | D    |
+
+### **Effect Subtable 2**
+
+| d%    | Effect                       | Form |
+|-------|------------------------------|------|
+| 01-07 | Protection +1                | F    |
+| 08-10 | Protection +2                | F    |
+| 11    | Protection +3                | F    |
+| 12-14 | Protection from Energy Drain | F    |
+| 15-20 | Protection from Scrying      | F    |
+| 21-23 | Regeneration                 | C    |
+| 24-29 | Scrying                      | H    |
+| 30-32 | Scrying, Superior            | H    |
+| 33-39 | Speed                        | B    |
+| 40-42 | Spell Storing                | C    |
+| 43-50 | Spell Turning                | F    |
+| 51-69 | Stealth                      | B    |
+| 70-72 | Telekinesis                  | C    |
+| 73-74 | Telepathy                    | C    |
+| 75-76 | Teleportation                | C    |
+| 77-78 | True Seeing                  | D    |
+| 79-88 | Water Walking                | B    |
+| 89-99 | Weakness                     | C    |
+| 00    | Wishes                       | C    |
+
+
+Roll on the first table above to select a subtable, then
+roll again on the selected subtable to determine the
+exact effect. Finally, roll on the specified column of the
+Form table to determine the physical form of the item.
+
+### Form of Item
+
+::: {.table-responsive .column-screen-right}
+
+|                     | A     | B     | C     | D     | E     | F     | G     | H     |
+|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|
+| Bell (or Chime)     | 01-02 |       |       |       |       |       | 01-17 |       |
+| Belt or Girdle      | 03-05 |       |       |       |       | 01-07 |       |       |
+| Boots               | 06-13 | 01-25 |       |       |       |       |       |       |
+| Bowl                | 14-15 |       |       |       |       |       |       | 01-17 |
+| Cloak               | 16-28 |       |       |       |       | 08-38 |       |       |
+| Crystal Ball or Orb | 29-31 |       |       |       |       |       |       | 18-67 |
+| Drums               | 32-33 |       |       |       |       |       | 18-50 |       |
+| Helm                | 34-38 |       |       |       | 01-40 |       |       |       |
+| Horn                | 39-43 |       |       |       |       |       | 51-00 |       |
+| Lens                | 44-46 |       |       | 01-17 |       |       |       |       |
+| Mirror              | 47-49 |       |       | 18-17 |       |       |       | 68-00 |
+| Pendant             | 50-67 | 26-50 | 01-40 | 18-50 | 41-80 | 39-50 |       |       |
+| Ring                | 68-00 | 51-00 | 41-00 | 51-00 | 81-00 | 51-00 |       |       |
+
+:::
+
+### Rare Items 
+
+| d%    | Type                                       |
+|-------|--------------------------------------------|
+| 01-05 | Bag of Devouring                           |
+| 06-20 | Bag of Holding                             |
+| 21-32 | Boots of Traveling and Leaping             |
+| 33-47 | Broom of Flying                            |
+| 48-57 | Device of Summoning Elementals (see below) |
+| 58-59 | Efreeti Bottle                             |
+| 60-64 | Flying Carpet                              |
+| 65-81 | Gauntlets of Ogre Power                    |
+| 82-86 | Girdle of Giant Strength                   |
+| 87-88 | Mirror of Imprisonment                     |
+| 89-00 | Rope of Climbing                           |
+
+
+## Devices of Summoning Elementals
+
+Review the information for [Elementals](monstersAll.qmd#elemental) 
+before randomly selecting any of these items, as you
+may not wish to allow all types of elementals in your
+campaign.
+
+| 1d8 | Type                                      |
+|-----|-------------------------------------------|
+| 1   | Bowl of Summoning Water Elementals        |
+| 2   | Brazier of Summoning Fire Elementals      |
+| 3   | Censer of Summoning Air Elementals        |
+| 4   | Crucible of Summoning Metal Elementals    |
+| 5   | Mallet of Summoning Wood Elementals       |
+| 6   | Marble Plate of Summoning Cold Elementals |
+| 7   | Rod of Summoning Lightning Elementals     |
+| 8   | Stone of Summoning Earth Elementals       |

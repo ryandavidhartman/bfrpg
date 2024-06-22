@@ -50,7 +50,7 @@ Assassins have several special abilities, as listed on the table below.  Some ab
 
 **Poison**:  Assassins learn the art of making lethal poisons. Poisons are often quite expensive to make; it is not uncommon for a single application of contact poison to cost 500 gp or more.  The DM is advised to take care that poison does not become too much of an easy solution for the Assassin. 
 
-**Assassinate**:  This is the Assassin's primary special ability. As with the Thief's Sneak Attack ability, any time an Assassin is behind an opponent in melee and it is reasonably likely the opponent doesn't know he or she is there, an attempt to assassinate may be made.  The attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.  The attack is rolled at an attack bonus of +4, and if the attack hits, the victim must roll a saving throw vs. Death Ray or be instantly killed.  If this saving throw is a success, the victim still suffers normal weapon damage.  At the GM's option, characters two or more levels lower than the Assassin may be denied a saving throw.
+**Assassinate**:  This is the Assassin's primary special ability. As with the Thief's Sneak Attack ability, any time an Assassin is behind an opponent in melee and it is reasonably likely the opponent doesn't know he or she is there, an attempt to assassinate may be made.  The attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.  The attack is rolled at an attack bonus of +4, and if the attack hits, the victim must roll a saving throw vs. Death Ray or be instantly killed.  If this saving throw is a success, the victim still suffers normal weapon damage.  At the DM's option, characters two or more levels lower than the Assassin may be denied a saving throw.
 
 
 
@@ -388,7 +388,7 @@ This spell allows the caster to alter his or her appearance. This includes not o
 
 The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile (touch) or audible (sound) properties of the caster or his equipment.
 
-A creature that interacts with the caster may, at the discretion of the GM, be allowed a save vs. Spells to recognize the illusion.
+A creature that interacts with the caster may, at the discretion of the DM, be allowed a save vs. Spells to recognize the illusion.
 
 #### **Color Cloud** 
 
@@ -456,7 +456,7 @@ Illusionist 2
 
 Duration: instantaneous
 
-The caster can use this spell to end all ongoing "illusion spells" within a 20-foot cubic area. **Dispel illusion** affects spells such as **audible glamer**, **phantasmal image**, **phantasmal force**, **spectral force**, **advanced illusion**, and so on. If there is any question as to whether or not a spell is an illusion, the GM's discretion will apply.
+The caster can use this spell to end all ongoing "illusion spells" within a 20-foot cubic area. **Dispel illusion** affects spells such as **audible glamer**, **phantasmal image**, **phantasmal force**, **spectral force**, **advanced illusion**, and so on. If there is any question as to whether or not a spell is an illusion, the DM's discretion will apply.
 
 Any illusion spell cast by a character of a level equal to or less than the **dispel illusion** caster's level is ended automatically. Those created by higher level casters might not be canceled; there is a 5% chance of failure for each level the illusion's caster level exceeds the **dispel illusion** caster level. For example, a 10^th^-level caster dispelling an illusion created by a 14^th^ level caster has a 20% chance of failure.
 
@@ -892,7 +892,7 @@ The items listed below are magic items made by and for Illusionists. Unless othe
 
 **Dust of Disappearance**: This dust looks exactly like dust of appearance and is stored the same way (with the same quantities). When a handful is sprinkled on a creature or object, it becomes invisible as if from **improved invisibility**. This invisibility cannot be dispelled, but will wear off quickly in 2d6 rounds. Anyone under the effects of the dust does not know when the invisibility will end.
 
-**Dust of Illusion**: This dust resembles powered chalk, but if stared at, it will shift in color and texture. When a handful is sprinkled on a creature or object, its form can be changed as if by a **change self** spell. (Unlike the spell, the dust affects objects in a similar manner, subject to the GM's discretion.) The effects last for 2 hours.
+**Dust of Illusion**: This dust resembles powered chalk, but if stared at, it will shift in color and texture. When a handful is sprinkled on a creature or object, its form can be changed as if by a **change self** spell. (Unlike the spell, the dust affects objects in a similar manner, subject to the DM's discretion.) The effects last for 2 hours.
 
 **Gem of Seeing**: This gem is of exceeding high quality, but otherwise appears to be a simple gem. When peered through, however, it allows the user to see as if under the effects of **true seeing**. This may be used for up to 30 minutes in any given day, but its use may be broken up into separate minute uses.
 
@@ -900,7 +900,7 @@ The items listed below are magic items made by and for Illusionists. Unless othe
 
 **Ring of Blur**: This metal ring has a smoky texture that seems to have unclear edges and a very slowly shifting pattern that can only really be seen if looked at for a while. On command, this ring gives the user the effect of the **blur** spell.
 
-**Ring of Chameleon Power**: This thin metal ring will automatically match the skin color of the wearer's finger and become nearly invisible. The user can create a subtle illusion around him or her that will allow the user to hide. The effectiveness is influenced by the circumstances (doing this in plain sight isn't likely to succeed, doing it while no one is looking is guaranteed to work), subject to the GM's decision. The effect is an illusion, so the user is still there and can always be accidentally found. In addition, it can provide the benefit of **change self** whenever desired.
+**Ring of Chameleon Power**: This thin metal ring will automatically match the skin color of the wearer's finger and become nearly invisible. The user can create a subtle illusion around him or her that will allow the user to hide. The effectiveness is influenced by the circumstances (doing this in plain sight isn't likely to succeed, doing it while no one is looking is guaranteed to work), subject to the DM's decision. The effect is an illusion, so the user is still there and can always be accidentally found. In addition, it can provide the benefit of **change self** whenever desired.
 
 **Robe of Scintillating Colors**: The robe appears to be a non-described neutral gray color. When activated by the wearer, however, the robe displays a shifting pattering of indescribable colors, constantly shifting and cascading from the top of the robe to the bottom hem, casting off scintillating light. It takes 1 round after the wearer activates the effect for the colors to fully start flowing. This affects everyone within 30 feet of the robe. Those looking at the robe must save vs. Petrify or be dazed for 1d4+1 rounds, unable to take action until the effect ends.
 

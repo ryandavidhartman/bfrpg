@@ -83,7 +83,7 @@ A little extra detail can add a lot to the adventure.
 
 ### Traps
 
-Some suggestions of typical traps are listed below, to assist the GM. Deadlier traps can be created by combining simple traps, by making their effects harder to avoid, or by making them capable of dealing more damage.
+Some suggestions of typical traps are listed below, to assist the DM. Deadlier traps can be created by combining simple traps, by making their effects harder to avoid, or by making them capable of dealing more damage.
 
 Traps are not necessarily reliable; the DM may choose to make a roll of some sort for each potential victim until the trap is sprung (say, 1-2 on 1d6). Or, a trap door might not open until a given weight is placed on it, so that a lightly loaded thief might cross without difficulty, only to see his heavily armored warrior ally fall victim to it.
 
@@ -115,7 +115,7 @@ Traps are not necessarily reliable; the DM may choose to make a roll of some sor
 
 **Blade Trap:** A blade or spear drops down from the ceiling or pops out of the wall and attacks at AB +1 for 1d8 points of damage. Particularly large blades might attack everyone along a 10' or 20' line.
 
-**Triggered Spell:** When activated, a spell of the GM's choice is cast, targeting or centered on the character who triggered it. Popular choices include curses, illusions, or a **wall of fire**.
+**Triggered Spell:** When activated, a spell of the DM's choice is cast, targeting or centered on the character who triggered it. Popular choices include curses, illusions, or a **wall of fire**.
 
 ## Designing a Wilderness Adventure
 

@@ -683,7 +683,7 @@ horned heads. Cattle are raised mostly for their meat
 gentle unless spooked, in which case they will stampede
 (run in a group). Anyone caught in the path of the
 stampede will suffer at least one trampling attack, as
-determined by the GM. Male cattle are called bulls,
+determined by the DM. Male cattle are called bulls,
 females are cows, and young are calves (calf is
 singular). If attacked, cattle will charge, generally using
 their horns to attack. Bulls are larger (+1 hit die), less
@@ -1206,7 +1206,7 @@ Each dragon can use its breath weapon as many times per day as it has hit dice, 
 
 The breath weapon of a dragon does 1d8 points of damage per hit die (so, a 7 hit die dragon does 7d8 points of damage with its breath). Victims may make a save vs. Dragon Breath for half damage. The breath weapon may be projected in any direction around the dragon, even behind, for the same reason that the dragon can bite those behind it.
 
-There are three shapes (or areas of effect) which a dragon's breath weapon can cover. Each variety has a "normal" shape, which that type of dragon can use from the second age category (-2 hit dice) onward. Upon reaching the sixth age category (+2 hit dice), a dragon learns to shape its breath weapon into one of the other shapes (GM's option); at the seventh age category (+3 hit dice), the dragon can produce all three shapes.
+There are three shapes (or areas of effect) which a dragon's breath weapon can cover. Each variety has a "normal" shape, which that type of dragon can use from the second age category (-2 hit dice) onward. Upon reaching the sixth age category (+2 hit dice), a dragon learns to shape its breath weapon into one of the other shapes (DM's option); at the seventh age category (+3 hit dice), the dragon can produce all three shapes.
 
 The shapes are: 
 
@@ -2425,7 +2425,7 @@ ghoul. However, a humanoid who becomes a ghast in
 this way retains all of the knowledge and abilities they
 possessed in life, unless those abilities are directly
 incompatible with the creature's new form (as decided
-by the GM). For such ghasts, the DM should also
+by the DM). For such ghasts, the DM should also
 adjust XP values to include any such abilities. The
 newly-risen ghast is not under the control of any other
 ghasts, but hungers for the flesh of the living and
@@ -6223,7 +6223,7 @@ several specific weaknesses.
 
 First, a vampire can be held at bay by several things,
 including the smell of garlic, a silver or silvered mirror,
-or a holy symbol presented by a believer (GM's
+or a holy symbol presented by a believer (DM's
 discretion is advised here, but in general someone
 threatened by a vampire may be more devout than
 usual). In such a situation the vampire cannot

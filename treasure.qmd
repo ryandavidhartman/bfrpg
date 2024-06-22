@@ -108,7 +108,7 @@ Note: Unguarded treasures should be rare; see the [Dungeon Master ](gm01.qmd) 
 
 ### Gems and Jewelry
 
-Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated in the main table above is small, roll for each gem; but if the number is large (10 or more, at the GM's option), after each roll for Type and Base Value, roll the indicated die to see how many such gems are in the hoard.
+Use the tables below to determine the base value and number found when gems are indicated in a treasure hoard. If the number generated in the main table above is small, roll for each gem; but if the number is large (10 or more, at the DM's option), after each roll for Type and Base Value, roll the indicated die to see how many such gems are in the hoard.
 
 ```{ojs}
 

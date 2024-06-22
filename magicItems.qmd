@@ -1,518 +1,6 @@
-# Magic Items
+# Magical Items
 
-Determine the sort of item found by rolling on the following table:
-
-```{ojs}
-
-import {generalTableSelect, highlightTableRow} from "./custom.js"
-
-viewof form = Inputs.form(
-  {
-    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#armor-weapon-table", 
-            generalTableSelect([1,100,0],[[1,25],[26,35],[36,55],[56,85],[86,90],[91,95],[96,100]]))}),
-    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">Weapoon or Armor</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#armor-weapon-table", 
-            generalTableSelect([1,100,0],[[1,70], [71,100]]))}),
-    button3: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any Except Weapon</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#armor-weapon-table", 
-            generalTableSelect([1,100,0],[[-2,-1],[1,12],[13,40],[41,79],[80,86],[87,93],[94,100]]))}),
-  }, 
-  {
-    template: (formParts) => htl.html`
-     <div>
-       <div style="
-         display: grid;
-         grid-template-columns: 15% 30% 30%;
-         column-gap: 10px
-       ">
-         ${Object.values(formParts)}
-       </div>
-     </div>`
-  })
-
-
-```
-
-::: {#armor-weapon-table}
-
-| **Any** | **Weapon or Armor** | **Any Except Weapons** | **Type of Item** |
-|----|----|----|----| 
-| 01-25 | 01-70 |  | Weapon |
-| 26-35 | 71-00 | 01-12 | Armor |
-| 36-55 |  | 13-40 | Potion |
-| 56-85 |  | 41-79 | Scroll |
-| 86-90 |  | 80-86 | Ring |
-| 91-95 |  | 87-93 | Wand, Staff, or Rod |
-| 96-00 |  | 94-00 | Miscellaneous Magic |
-
-:::
-
-## Magic Weapons
-
-First, roll d% on the following table to determine the weapon type:
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#weapon-type-table", 
-generalTableSelect([1,100,0],[[1,2],[3,9],[10,11],[12,19],[20,27],[28,31],[32,35],[36,43],[44,47],[48,59],[60,65],[66,79],[80,81],[82,83],[84,86],[87,94],[95,95],[96,96],[97,97],[98,100]]))})
-
-```
-
-:::{#weapon-type-table}
-
-| **d%** | **Weapon Type** |
-|----|-----|
-| 01-02 | Great Axe |
-| 03-09 | Battle Axe |
-| 10-11 | Hand Axe |
-| 12-19 | Shortbow |
-| 20-27 | Shortbow Arrow |
-| 28-31 | Longbow |
-| 32-35 | Longbow Arrow |
-| 36-43 | Light Quarrel |
-| 44-47 | Heavy Quarrel |
-| 48-59 | Dagger |
-| 60-65 | Shortsword |
-| 66-79 | Longsword |
-| 80-81 | Scimitar |
-| 82-83 | Two-Handed Sword |
-| 84-86 | Warhammer |
-| 87-94 | Mace |
-| 95 | Maul |
-| 96 | Pole Arm |
-| 97 | Sling Bullet |
-| 98-00 | Spear |
-
-:::
-
-Next, roll on the Weapon Bonus tables. Follow the directions given if a roll on the Special Enemy or Special Ability tables are indicated; generally multiple rolls on the Special Ability table should be ignored when rolled.
-
-```{ojs}
-
-Inputs.form(
-  {
-    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Melee</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#melee-missile-weapon", 
-            generalTableSelect([1,100,0],[[1,40],[41,50],[51,55],[56,57],[58,58],[59,75],[76,85],[86,95],[96,98],[99,100]]))}),
-    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Missile</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#melee-missile-weapon", 
-            generalTableSelect([1,100,0],[[1,40],[47,58],[59,64],[-2,-1],[-2,-1],[65,82],[83,94],[-2,-1],[95,98],[99,100]]))}),
-  }, 
-  {
-    template: (formParts) => htl.html`
-     <div>
-       <div style="
-         display: grid;
-         grid-template-columns: 30% 30% ;
-         column-gap: 10px
-       ">
-         ${Object.values(formParts)}
-       </div>
-     </div>`
-  })
-
-```
-
-:::{#melee-missile-weapon}
-
-| **d% Melee** | **d% Missile** | **Weapon Bonus**             |
-|--------------|----------------|------------------------------|
-| 01-40        | 01-46          | +1                           |
-| 41-50        | 47-58          | +2                           |
-| 51-55        | 59-64          | +3                           |
-| 56-57        |                | +4                           |
-| 58           |                | +5                           |
-| 59-75        | 65-82          | +1, +2 vs. Special Enemy     |
-| 76-85        | 83-94          | +1, +3 vs. Special Enemy     |
-| 86-95        |                | Roll Again + Special Ability |
-| 96-98        | 95-98          | Cursed, -1*                  |
-| 99-00        | 99-00          | Cursed, -2*                  |
-
-
-:::
-
-\* If cursed weapons are rolled along with special abilities, ignore the special ability roll.
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#special-enemy-table", 
-generalTableSelect([1,6,0],[[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]]))})
-
-```
-
-:::{#special-enemy-table}
-
-| **1d6** | **Special Enemy** |
-|---------|-------------------|
-| 1       | Dragons           |
-| 2       | Enchanted         |
-| 3       | Lycanthropes      |
-| 4       | Regenerators      |
-| 5       | Spell Users       |
-| 6       | Undead            |
-
-
-:::
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#special-ability-table", 
-generalTableSelect([1,20,0],[[1,9],[10,11],[12,12],[13,16],[17,19],[20,20]]))})
-
-```
-
-:::{#special-ability-table}
-
-| **1d20** | **Special Ability** |
-|----|----|
-| 01-09 | Casts Light on Command |
-| 10-11 | Charm Person |
-| 12 | Drains Energy |
-| 13-16 | Flames on Command |
-| 17-19 | Locate Objects |
-| 20 | Wishes |
-
-:::
-
-## Magic Armor
-
-Generate the type and bonus of each item of magic armor on the tables below.
-
-```{ojs}
-
-Inputs.form(
-  {
-    button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Armor Type</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#magic-armor-table", 
-            generalTableSelect([1,100,0],[[1,9],[10,28],[29,43],[44,100]]))}),
-    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">d% Armor Bonus</button>`, {value: 0, 
-        reduce: () => highlightTableRow("#magic-armor-table", 
-            generalTableSelect([1,100,0],[[1,50],[51,80],[81,90],[91,95],[92,100]]))}),
-  }, 
-  {
-    template: (formParts) => htl.html`
-     <div>
-       <div style="
-         display: grid;
-         grid-template-columns: 40% 40% ;
-         column-gap: 10px
-       ">
-         ${Object.values(formParts)}
-       </div>
-     </div>`
-  })
-
-```
-
-:::{#magic-armor-table}
-
-| **d%** | **Armor Type** | **d%** | **Armor Bonus**  |
-|--------|----------------|--------|------------------|
-| 01-09  | Leather Armor  | 01-50  | +1               |
-| 10-28  | Chain Mail     | 51-80  | +2               |
-| 29-43  | Plate Mail     | 81-90  | +3               |
-| 44-00  | Shield         | 91-95  | Cursed *         |
-|        |                | 96-00  | Cursed, AC 11 ** |
-
-:::
-
-\* If Cursed armor is rolled, roll again and reverse the bonus (e.g., -1 instead of +1).
-
-** This armor has AC 11 but appears to be +1 when tested.
-
-## Potions
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#potions-random-table", 
-generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,11], [12,13], [14,16], [17,19], [20,22], [23,25], [26,32], [33,35], [36,39], [40,43], [44,47], [48,51], [52,55], [56,59], [60,63], [64,68], [69,72], [73,76], [77,80], [81,84], [85,86], [87,89], [90,97], [98,100]]))})
-
-```
-
-:::{#potions-random-table}
-
-| **d%** | **Type**         |
-|--------|------------------|
-| 01-03  | Clairaudience    |
-| 04-06  | Clairvoyance     |
-| 07-08  | Cold Resistance  |
-| 09-11  | Control Animal   |
-| 12-13  | Control Dragon   |
-| 14-16  | Control Giant    |
-| 17-19  | Control Human    |
-| 20-22  | Control Plant    |
-| 23-25  | Control Undead   |
-| 26-32  | Delusion         |
-| 33-35  | Diminution       |
-| 36-39  | Fire Resistance  |
-| 40-43  | Flying           |
-| 44-47  | Gaseous Form     |
-| 48-51  | Giant Strength   |
-| 52-55  | Growth           |
-| 56-59  | Healing          |
-| 60-63  | Heroism          |
-| 64-68  | Invisibility     |
-| 69-72  | Invulnerability  |
-| 73-76  | Levitation       |
-| 77-80  | Longevity        |
-| 81-84  | Mind Reading     |
-| 85-86  | Poison           |
-| 87-89  | Polymorph Self   |
-| 90-97  | Speed            |
-| 98-00  | Treasure Finding |
-
-:::
-
-## Scrolls
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#scrolls-table", 
-generalTableSelect([1,100,0],[[1,3], [4,6], [7,8], [9,9 ], [10,15], [16,20], [21,25], [26,29], [30,32], [33,34], [35,35  ], [36,40], [41,46], [47,56], [57,61], [62,75], [76,85], [86,89], [90,92], [93,100]]))})
-
-```
-
-:::{#scrolls-table}
-
-| **d%** | **General Type** |
-|----|----|
-| 01-03 | Cleric Spell Scroll (1 Spell) |
-| 04-06 | Cleric Spell Scroll (2 Spells) |
-| 07-08 | Cleric Spell Scroll (3 Spells) |
-| 09 | Cleric Spell Scroll (4 Spells) |
-| 10-15 | Magic-User Spell Scroll (1 Spell) |
-| 16-20 | Magic-User Spell Scroll (2 Spells) |
-| 21-25 | Magic-User Spell Scroll (3 Spells) |
-| 26-29 | Magic-User Spell Scroll (4 Spells) |
-| 30-32 | Magic-User Spell Scroll (5 Spells) |
-| 33-34 | Magic-User Spell Scroll (6 Spells) |
-| 35 | Magic-User Spell Scroll (7 Spells) |
-| 36-40 | Cursed Scroll |
-| 41-46 | Protection from Elementals |
-| 47-56 | Protection from Lycanthropes |
-| 57-61 | Protection from Magic |
-| 62-75 | Protection from Undead |
-| 76-85 | Map to Treasure Type A |
-| 86-89 | Map to Treasure Type E |
-| 90-92 | Map to Treasure Type G |
-| 93-00 | Map to 1d4 Magic Items |
-
-:::
-
-## Rings
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#rings-table", 
-generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,44],[45,57],[58,66],[67,70],[71,71],[72,73],[74,75],[76,81],[82,83],[84,90],[91,97],[98,98],[99,100]]))})
-
-```
-
-:::{#rings-table}
-
-| **d%** | **Type** |
-|----|----|
-| 01-06 | Control Animal |
-| 07-12 | Control Human |
-| 13-19 | Control Plant |
-| 20-30 | Delusion |
-| 31-33 | Djinni Summoning |
-| 34-44 | Fire Resistance |
-| 45-57 | Invisibility |
-| 58-66 | Protection +1 |
-| 67-70 | Protection +2 |
-| 71 | Protection +3 |
-| 72-73 | Regeneration |
-| 74-75 | Spell Storing |
-| 76-81 | Spell Turning |
-| 82-83 | Telekinesis |
-| 84-90 | Water Walking |
-| 91-97 | Weakness |
-| 98 | Wishes |
-| 99-00 | X-Ray Vision |
-
-:::
-
-## Wands, Staves and Rods
-
-```{ojs}
-
-Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
-{value: 0, 
-reduce: () => highlightTableRow("#wands-table", 
-generalTableSelect([1,100,0],[[1,8],[9,13],[14,17],[18,28],[29,30],[31,34],[35,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,73],[74,79],[80,84],[85,92],[93,100]]))})
-
-```
-
-:::{#wands-table}
-
-| **d%** | **Type** |
-|----|----|
-| 01-08 | Rod of Cancellation |
-| 09-13 | Snake Staff |
-| 14-17 | Staff of Commanding |
-| 18-28 | Staff of Healing |
-| 29-30 | Staff of Power |
-| 31-34 | Staff of Striking |
-| 35 | Staff of Wizardry |
-| 36-40 | Wand of Cold |
-| 41-45 | Wand of Enemy Detection |
-| 46-50 | Wand of Fear |
-| 51-55 | Wand of Fireballs |
-| 56-60 | Wand of Illusion |
-| 61-65 | Wand of Lightning Bolts |
-| 66-73 | Wand of Magic Detection |
-| 74-79 | Wand of Paralyzation |
-| 80-84 | Wand of Polymorph |
-| 85-92 | Wand of Secret Door Detection |
-| 93-00 | Wand of Trap Detection |
-
-:::
-
-## Miscellaneous Magic Items
-
-Effect Subtables
-d%
-Subtable
-01-57
-Effect Subtable 1
-58-00
-Effect Subtable 2
-
-### **Effect Subtables**
-
-| d%    | Subtable          |
-|-------|-------------------|
-| 01-57 | Effect Subtable 1 |
-| 58-00 | Effect Subtable 2 |
-
-### **Effect Subtable 1**
-
-| d%    | Effect             | Form |
-|-------|--------------------|------|
-| 01    | Blasting           | G    |
-| 02-05 | Blending           | F    |
-| 06-13 | Cold Resistance    | F    |
-| 14-17 | Comprehension      | E    |
-| 18-22 | Control Animal     | C    |
-| 23-29 | Control Human      | C    |
-| 30-35 | Control Plant      | C    |
-| 36-37 | Courage            | G    |
-| 38-40 | Deception          | F    |
-| 41-52 | Delusion           | A    |
-| 53-55 | Djinni Summoning   | C    |
-| 56    | Doom               | G    |
-| 57-67 | Fire Resistance    | F    |
-| 68-80 | Invisibility       | F    |
-| 81-85 | Levitation         | B    |
-| 86-95 | Mind Reading       | C    |
-| 96-97 | Panic              | G    |
-| 98-00 | Penetrating Vision | D    |
-
-### **Effect Subtable 2**
-
-| d%    | Effect                       | Form |
-|-------|------------------------------|------|
-| 01-07 | Protection +1                | F    |
-| 08-10 | Protection +2                | F    |
-| 11    | Protection +3                | F    |
-| 12-14 | Protection from Energy Drain | F    |
-| 15-20 | Protection from Scrying      | F    |
-| 21-23 | Regeneration                 | C    |
-| 24-29 | Scrying                      | H    |
-| 30-32 | Scrying, Superior            | H    |
-| 33-39 | Speed                        | B    |
-| 40-42 | Spell Storing                | C    |
-| 43-50 | Spell Turning                | F    |
-| 51-69 | Stealth                      | B    |
-| 70-72 | Telekinesis                  | C    |
-| 73-74 | Telepathy                    | C    |
-| 75-76 | Teleportation                | C    |
-| 77-78 | True Seeing                  | D    |
-| 79-88 | Water Walking                | B    |
-| 89-99 | Weakness                     | C    |
-| 00    | Wishes                       | C    |
-
-
-Roll on the first table above to select a subtable, then
-roll again on the selected subtable to determine the
-exact effect. Finally, roll on the specified column of the
-Form table to determine the physical form of the item.
-
-### Form of Item
-
-::: {.table-responsive .column-screen-right}
-
-|                     | A     | B     | C     | D     | E     | F     | G     | H     |
-|---------------------|-------|-------|-------|-------|-------|-------|-------|-------|
-| Bell (or Chime)     | 01-02 |       |       |       |       |       | 01-17 |       |
-| Belt or Girdle      | 03-05 |       |       |       |       | 01-07 |       |       |
-| Boots               | 06-13 | 01-25 |       |       |       |       |       |       |
-| Bowl                | 14-15 |       |       |       |       |       |       | 01-17 |
-| Cloak               | 16-28 |       |       |       |       | 08-38 |       |       |
-| Crystal Ball or Orb | 29-31 |       |       |       |       |       |       | 18-67 |
-| Drums               | 32-33 |       |       |       |       |       | 18-50 |       |
-| Helm                | 34-38 |       |       |       | 01-40 |       |       |       |
-| Horn                | 39-43 |       |       |       |       |       | 51-00 |       |
-| Lens                | 44-46 |       |       | 01-17 |       |       |       |       |
-| Mirror              | 47-49 |       |       | 18-17 |       |       |       | 68-00 |
-| Pendant             | 50-67 | 26-50 | 01-40 | 18-50 | 41-80 | 39-50 |       |       |
-| Ring                | 68-00 | 51-00 | 41-00 | 51-00 | 81-00 | 51-00 |       |       |
-
-:::
-
-### Rare Items 
-
-| d%    | Type                                       |
-|-------|--------------------------------------------|
-| 01-05 | Bag of Devouring                           |
-| 06-20 | Bag of Holding                             |
-| 21-32 | Boots of Traveling and Leaping             |
-| 33-47 | Broom of Flying                            |
-| 48-57 | Device of Summoning Elementals (see below) |
-| 58-59 | Efreeti Bottle                             |
-| 60-64 | Flying Carpet                              |
-| 65-81 | Gauntlets of Ogre Power                    |
-| 82-86 | Girdle of Giant Strength                   |
-| 87-88 | Mirror of Imprisonment                     |
-| 89-00 | Rope of Climbing                           |
-
-
-## Devices of Summoning Elementals
-
-Review the information for [Elementals](monstersAll.qmd#elemental) 
-before randomly selecting any of these items, as you
-may not wish to allow all types of elementals in your
-campaign.
-
-| 1d8 | Type                                      |
-|-----|-------------------------------------------|
-| 1   | Bowl of Summoning Water Elementals        |
-| 2   | Brazier of Summoning Fire Elementals      |
-| 3   | Censer of Summoning Air Elementals        |
-| 4   | Crucible of Summoning Metal Elementals    |
-| 5   | Mallet of Summoning Wood Elementals       |
-| 6   | Marble Plate of Summoning Cold Elementals |
-| 7   | Rod of Summoning Lightning Elementals     |
-| 8   | Stone of Summoning Earth Elementals       |
-
-
-## Explanation of Magic Items
-
-### Using Magic Items
+## Using Magic Items
 
 To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly.
 
@@ -530,9 +18,12 @@ When an article of magic armor, clothing or jewelry (including a ring) is discov
 
 Generally only one magical item of a given type may be worn at the same time. For example, a character can normally only wear one suit of armor, wear one necklace and carry one shield at a time. In the case of rings, a character may wear one magical ring per hand. If a character wears more items of a given type than would normally be practical, the items will usually fail to function due to interference with one another; for instance, wearing two rings on the same hand normally results in both rings failing to operate. **Note, however,** that this limitation cannot be used to disable cursed magic items. For example, wearing a cursed ring would prevent another magic ring from being worn and used on that hand, but the curse would not be lifted by donning a second magic ring.
 
-### Magic Weapons
+## Magic Weapons
 
-Magic weapons are created with a variety of powers and will usually aid the wielder in combat. A magical weapon's bonus is applied to all attack and damage rolls made with the weapon.
+A magical weapon will typical have a bonus which is applied to all attack and  damage rolls made with the weapon.
+Somme rare magic weapons are created with a variety of powers and will usually aid the wielder in combat.
+
+### Example powers
 
 **Casts Light on Command:** By drawing the weapon and uttering a command word, the wielder may cause it to glow; it will then shed light with the same radius as a **light** spell. Sheathing or laying down the weapon, or speaking the command word again, dispels the effect. This power may be used as often as desired.
 
@@ -554,7 +45,7 @@ Magic weapons are created with a variety of powers and will usually aid the wiel
 
 **Affliction:** The character knows the weapon is cursed as soon as he or she uses it in combat; however, any attempt to throw it away fails, as the weapon magically appears back in the character's hand whenever he or she tries to draw any other weapon. In this case, the **remove curse** spell needed to rid the character of the weapon will be unopposed (i.e. no saving throw).
 
-### Magic Armor
+## Magic Armor
 
 Magic armor (including shields) offers improved, magical protection to the wearer. In general, magic armor grants the normal Armor Class for its type, plus the magical armor bonus, as rolled on the Magic Armor table; for example, Plate Mail +2 provides an Armor Class of 19.
 
@@ -562,94 +53,201 @@ There are two varieties of **cursed armor**: Cursed Armor -1 and Cursed Armor A
 
 Cursed armor cannot be removed from the wearer once the curse is proven, that is, once the wearer is hit in combat. Once the curse has taken effect, only a **remove curse** spell, or some more powerful magic (such as a wish), will enable the wearer to remove it. The armor will detect as magical, like any other magic armor; the curse cannot be detected by any means other than wearing the armor in combat.
 
-### Potions
+## Potions
 
 A potion is an elixir concocted with a spell-like effect that affects only the drinker. Unless otherwise noted, a potion grants its benefits for 1d6+6 turns (even if the duration of an associated spell is longer or shorter).
 
-**Clairaudience:** This potion enables the drinker to hear sounds in another area through the ears of a living creature in that area, up to a maximum 60' away. This effect otherwise functions just as the spell **clairvoyance**.
+Almost all potions are created by Kappiyan Flurmastyr, master alchemist from Glantry. The glass bottles bear his symbol: a large circle, within which is a triangle, containing a square, within which is a circle. An additional [symbol](class.qmd#arcane-symbols) indicates the nature of the potion.
 
-**Clairvoyance:** This potion grants the imbiber the effect of the **clairvoyance**spell.
+### Potion Miscibility
 
-**Cold Resistance:** This potion grants the imbiber the power of the spell **resist cold**.
+When two potions are mixed, there is a chance for unpredictable outcomes, ranging from disastrous results to potentially enhancing the potency of one or both potions.
 
-**Control Animal:** This potion functions like a **control human** potion, but affects only normal, non-magical animals.
+| Roll Range | Effect |
+|------------|--------|
+| 01         | Creates an explosion, dealing 6d10 force damage to the mixer and 1d10 force damage to each creature within 5 feet. |
+| 02-03      | The mixture becomes a potion of poison. |
+| 04-08      | The mixture becomes a potion of delusion that mimics one of the mixed potions' effects. |
+| 09-15      | Both potions lose their effects. |
+| 16-25      | One potion loses its effect. |
+| 26-35      | Both potions work, but with half their normal effects. Effects unable to be halved are lost. |
+| 36-90      | Both potions work normally. |
+| 91-99      | Both potions work. One potion has 150% of its normal effect or increased duration. |
+| 00         | Only one potion works, and its effect is permanent. |
 
-**Control Dragon:** This potion functions like a **control human** potion, but affects only dragons.
+### Alchemist’s fire
 
-**Control Giant:** This potion functions like a **control human** potion, but affects only giants.
+Alchemist’s fire is a concoction of volatile liquids that ignite upon exposure to air. When hurled as a splash weapon, treat it as a ranged attack with a range increment of 10 feet. A direct hit inflicts 1d6 points of fire damage.
 
-**Control Human:** This potion allows the drinker to charm a human, demi-human, or humanoid by gazing at them. The effect functions like the **charm person** spell. If the charm is resisted, the drinker can attempt to charm up to two more targets before the potion's benefit is exhausted.
+Upon impact, every creature within 10 feet of the splash point takes 1 point of fire damage. Additionally, on the following round after a direct hit, the target sustains an additional 1d6 points of fire damage. The affected creature can use a full-round action to attempt to extinguish the flames before taking this additional damage.
 
-**Control Plant:** This potion grants the drinker control over one or more plants or plant creatures within a 10' square area up to 50' away. Normal plants become animated, having a movement rate of 10', and obey the drinker's commands. If ordered to attack, only the largest plants can do any real harm, attacking with a +0 attack bonus and inflicting 1d4 points of damage per hit. Affected plant creatures (who fail to save vs. Spells) can understand the drinker, and behave as if under a **charm monster** spell.
+### Cat's Grace
 
-**Control Undead:** This potion grants the drinker command of 3d6 hit dice of undead monsters. A save vs. Spells is allowed to resist the effect. Mindless undead follow the drinker's commands exactly; free-willed undead act as if under a **charm person** spell.
+Cat's Grace is a potent elixir that temporarily enhances Dexterity to a score of 20. While under its effects, the drinker gains the following benefits:
 
-**Delusion:** This cursed potion will appear, if tested or analyzed, to be one of the other potions (other than poison). When imbibed, the drinker will briefly believe he has received the benefits of the "other" potion, but the illusion will be swiftly exposed...
+| Bonus Type               | Bonus Amount |
+|--------------------------|--------------|
+| Ranged Attacks           | +5           |
+| Dragon Breath Saves      | +5           |
+| Dexterity-related Skills | +5           |
+| Armor Class (AC)         | +5           |
 
-**Diminution:** This potion reduces the drinker and all items worn or carried to one-twelfth of his or her original height (so that a 6' tall character becomes 6" tall). The drinker's weight is divided by 1,728; this makes an armed warrior weigh less than 2.5 ounces. The affected creature cannot make an effective attack against any creature bigger than a house cat, but may be able to slip under doors or into cracks and has a 90% chance of moving about undetected (both in terms of sound and vision).
 
-**Fire Resistance:** This potion grants the imbiber the power of the spell **resist fire**.
+### Clairaudience
 
-**Flying:** This spell grants the power of the spell **fly**.
+The Clairaudience potion enables the drinker to hear sounds from another area up to 60 feet away through the ears of a living creature in that area. This effect functions similarly to the spell [clairvoyance](allSpells.qmd#clairvoyance).
 
-**Gaseous Form:** The drinker and all of his or her gear become insubstantial, misty, and translucent. He or she becomes immune to non-magical weapons, and has an Armor Class of 22 vs. magical weapons. The imbiber can't attack or cast spells while in gaseous form. The drinker also loses supernatural abilities while in gaseous form. A gaseous creature can fly at a speed of 10', and can pass through small holes or narrow openings, even mere cracks, as long as the potion persists. The gaseous creature is subject to the effects of wind, and can't enter water or other liquid. Objects cannot be manipulated in this form, even those brought along when the potion was imbibed. The drinker cannot resume material form at will, but must wait for the potion to expire; however, the potion may be quaffed in thirds, in which case each drink lasts 1d4+1 turns.
 
-**Giant Strength:** This potion grants the imbiber the Strength of a giant. For the duration, the drinker gains a bonus of +5 on attack and damage rolls with melee or thrown weapons, and can throw large stones just as a stone giant can.
+### Clairvoyance
 
-**Growth:** The drinker of this potion (with all equipment worn or carried) becomes twice normal height and eight times normal weight. The enlarged character is treated as having the Strength of a Stone Giant (but without the rock-throwing ability), gaining +5 on attack and damage rolls.
+This potion grants the imbiber the effect of the [clairvoyance](allSpells.qmd#clairvoyance) spell.
 
-**Healing:** The imbiber of this potion receives 1d6+1 hit points of healing (as the spell **cure light wounds**).
+### Cold Resistance:
 
-**Heroism:** This potion improves the fighting ability of the drinker. Fighters of less than 3^rd^ level gain +3 to attack bonus as well as gaining 3 hit dice. Fighters of 4^th^ to 5^th^ level gain +2 to attack bonus and 2 hit dice. Fighters of 6^th^ or 7^th^ level gain +1 to attack bonus and 1 hit die. Fighters of 8^th^ level or higher, as well as non-Fighter class characters, gain no hit dice, but still receive +1 to attack bonus. Hit dice gained are only temporary, and damage received is deducted from those hit dice first; any that remain when the potion expires are simply lost.
+This potion grants the imbiber the power of the spell [resist cold](allSpells.qmd#resist-cold).
 
-**Invisibility:** This potion makes the imbiber invisible (as the spell). This potion may be quaffed in thirds, in which case each drink lasts 1d4+1 turns.
+### Control Animal
 
-**Invulnerability:** This potion grants a bonus of +2 to Armor Class.
+This potion functions like a **control human** potion, but affects only normal, non-magical animals.
 
-**Levitation:** This potion grants the power of the spell **levitate**.
+### Control Dragon
 
-**Longevity:** The drinker of this potion becomes younger by 1d10 years.
+This potion functions like a **control human** potion, but affects only dragons.
 
-**Mind Reading**: This potion grants the power of the spell of the same name.
+### Control Giant
 
-**Poison:** This isn't a potion at all, it's a trap. The drinker must save vs. Poison or die, even if only a sip was imbibed.
+This potion functions like a **control human** potion, but affects only giants.
 
-**Polymorph Self:** This potion grants the power of the spell of the same name.
+### Control Human
 
-**Speed:** This potion gives the drinker the benefits of the spell **haste**.
+This potion allows the drinker to charm a human, demi-human, or humanoid by gazing at them. The effect functions like the [charm person](allSpells.qmd#charm-person) spell. If the charm is resisted, the drinker can attempt to charm up to two more targets before the potion's benefit is exhausted.
 
-**Treasure Finding:** The imbiber of this potion will immediately know the direction and approximate distance to the largest treasure hoard in a 300' spherical radius. This potion specifically detects platinum, gold, electrum, silver, and copper; gemstones and magic items are not detected.
+### Control Plant
 
-### Scrolls
+This potion grants the drinker control over one or more plants or plant creatures within a 10' square area up to 50' away. Normal plants become animated, having a movement rate of 10', and obey the drinker's commands. If ordered to attack, only the largest plants can do any real harm, attacking with a +0 attack bonus and inflicting 1d4 points of damage per hit. Affected plant creatures (who fail to save vs. Spells) can understand the drinker, and behave as if under a [charm monster](allSpells.qmd#charm-monster) spell.
 
-Most scrolls contain some sort of magic which is activated when read, and which may only be used once; the characters burn away as the words are read.
+### Control Undead
 
-**Spell Scrolls** are enchanted with one or more Cleric or Magic-User spells (never both sorts on the same scroll). Each spell can be used just once, though of course the same spell may appear multiple times on a single scroll. Use the table below to determine the spell level of each spell on a scroll. Only a Cleric can use a Clerical scroll, and only a Magic-User can use a Magic-User scroll.
+This potion grants the drinker command of 3d6 hit dice of undead monsters. A save vs. Spells is allowed to resist the effect. Mindless undead follow the drinker's commands exactly; free-willed undead act as if under a [charm person](allSpells.qmd#charm-person) spell.
 
-Magic-Users must cast **read magic** on a spell scroll before being able to use it; each scroll needs to be treated in this way just once, and the effect lasts indefinitely thereafter. If a Magic-User attempts to cast a spell from a scroll, and he or she does not know that spell, there is a 10% chance the spell will fail. If a spell on a scroll is of higher level than the highest level spell the Magic-User can cast, for each spell level of difference, add 10% to the chance of failure. For example, Aura the 3^rd^ level Magic-User attempts to cast **polymorph self** from a scroll. Aura is able to cast, at most, 2^nd^ level spells. **Polymorph self** is a 4^th^ level spell, so Aura has a chance of failure of 10% (she doesn't know the spell) plus 20% (2^nd^ level maximum vs. 4^th^ level spell), for a total of 30%.
+### Delusion:
 
-Clerical scrolls are written in a normal language (being just specially enchanted prayers), so the Cleric merely needs to know the language in which the scroll is written in order to use it. Clerics suffer the same chance of failure as do Magic-Users, save that the 10% penalty assigned for not knowing the spell does not apply.
+This **cursed** potion will appear, if tested or analyzed, to be one of the other potions (other than poison). When imbibed, the drinker will briefly believe he has received the benefits of the "other" potion, but the illusion will be swiftly exposed...
 
-#### Spell Scrolls: Spell Level
+### Diminution
 
-| **d%** | **Level of Spell** |
-|---|----|
-| 01-30 | 1^st^ |
-| 31-55 | 2^nd^ |
-| 56-75 | 3^rd^ |
-| 76-88 | 4^th^ |
-| 89-97 | 5^th^ |
-| 98-00 | 6^th^ |
+This potion reduces the drinker and all items worn or carried to one-twelfth of his or her original height (so that a 6' tall character becomes 6" tall). The drinker's weight is divided by 1,728; this makes an armed warrior weigh less than 2.5 ounces. The affected creature cannot make an effective attack against any creature bigger than a house cat, but may be able to slip under doors or into cracks and has a 90% chance of moving about undetected (both in terms of sound and vision).
 
-A **Cursed Scroll** inflicts some curse upon whoever reads it. It need not be read completely; in fact, merely glancing at the text is enough to inflict the curse. A saving throw may or may not be allowed, as determined by the DM (though a save vs. Spells should usually be allowed). The DM is encouraged to be creative when creating curses; the spell **bestow curse** (the reverse of **remove curse**) can be used for inspiration, but cursed scrolls can contain more powerful or inventive curses at the GM's discretion.
+### ESP
 
-**Protection Scrolls** can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under **Language** in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
+This potion grants the power of the [ESP](allSpells.qmd#esp) spell.
 
-**Protection from Magic** scrolls are special, as they protect against magic spells and items rather than creatures. No magical effect can cross the 10' circle of protection in either direction for 1d4 turns. As with the other protection scrolls, the circle created by this scroll moves with the reader.
+### Extra Healing
 
-**Treasure Maps** are generally non-magical. They must be created by the GM, although he or she may delay creating the map until the characters can actually use it. The treasure indicated on the map will normally be guarded by some sort of monster, determined by the DM as desired.
+The imbiber of this potion receives 2d8+2 hit points of healing.
 
-### Rings
+### Fire Resistance
+
+This potion grants the imbiber the power of the spell [resist fire](allSpells.qmd#resist-fire).
+
+### Flying
+
+This spell grants the power of the spell [fly](allSpells.qmd#fly).
+
+### Gaseous Form
+
+The drinker and all of their gear become insubstantial, misty, and translucent. They become immune to non-magical weapons and have an Armor Class of 22 against magical weapons. The imbiber can't attack or cast spells while in gaseous form and loses supernatural abilities. A gaseous creature can fly at a speed of 10 feet and can pass through small holes or narrow openings, including cracks, as long as the potion persists. However, the gaseous creature is subject to the effects of wind and cannot enter water or other liquids. Objects cannot be manipulated in this form, even those brought along when the potion was imbibed. The drinker cannot resume material form at will but must wait for the potion to expire. Alternatively, the potion may be consumed in thirds, with each dose lasting 1d4+1 turns.
+
+### Giant Strength
+
+This potion grants the imbiber the Strength of 21. For the duration, the drinker gains a bonus of +5 on attack and damage rolls with melee or thrown weapons, and can throw large stones just as a [Stone Giant](monstersAll.qmd#giant-stone)) can.
+
+### Growth
+
+The drinker of this potion (with all equipment worn or carried) becomes twice normal height and eight times normal weight. The enlarged character is treated as having the Strength of a [Stone Giant](monstersAll.qmd#giant-stone) (but without the rock-throwing ability), gaining +5 on attack and damage rolls.
+
+### Healing
+
+The imbiber of this potion receives 1d6+1 hit points of healing (as the spell [cure light wounds](allSpells.qmd#cure-light-wounds)).
+
+### Heroism
+
+This potion improves the fighting ability of the drinker. Fighters of less than 3^rd^ level gain +3 to attack bonus as well as gaining 3 hit dice. Fighters of 4^th^ to 5^th^ level gain +2 to attack bonus and 2 hit dice. Fighters of 6^th^ or 7^th^ level gain +1 to attack bonus and 1 hit die. Fighters of 8^th^ level or higher, as well as non-Fighter class characters, gain no hit dice, but still receive +1 to attack bonus. Hit dice gained are only temporary, and damage received is deducted from those hit dice first; any that remain when the potion expires are simply lost.
+
+### Invisibility
+
+This potion makes the imbiber [invisible](allSpells.qmd#invisibility) (as the spell). This potion may be quaffed in thirds, in which case each drink lasts 1d4+1 turns.
+
+### Invulnerability
+
+This potion grants a bonus of +2 to Armor Class.
+
+### Keoghtom's Ointment
+
+This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease. The ointment will remove scars and reattach knocked out teeth.
+
+### Levitation
+
+This potion grants the power of the spell [levitate](allSpells.qmd#levitate).
+
+### Longevity
+
+The drinker of this potion becomes younger by 1d10 years.
+
+### Poison
+
+This isn't a potion at all, it's a trap. The drinker must save vs. Poison or die, even if only a sip was imbibed.
+
+### Polymorph Self
+This potion grants the power of polymorph self spell.
+
+### Speed
+
+This potion gives the drinker the benefits of the spell [haste](allSpells.qmd#haste).
+
+### Total Healing
+
+The imbiber of this potion is fully restored all hit points lost.
+
+### Treasure Finding
+
+The imbiber of this potion will immediately know the direction and approximate distance to the largest treasure hoard in a 300' spherical radius. This potion specifically detects platinum, gold, electrum, silver, and copper; gemstones and magic items are not detected.
+
+### Water Breathing
+
+The imbiber breathes underwater as though it was air for 1d6+6 turns.
+
+
+## Scrolls
+
+Most scrolls contain some sort of magic, which is activated when read, and may only be used once; the characters burn away as the words are read. Spell Scrolls are enchanted with either Cleric (divine) or Magic-User (arcane) spells. Each spell can be used just once, as a scroll immediately disintegrates once it is used.
+
+Only a Cleric can use a Clerical scroll, and only a Magic-User can use a Magic-User scroll. The exception to this rule is the thief who, starting at 4th level, has a chance to use an arcane scroll.
+
+Magic-User scrolls are written in Arcane. If a Magic-User attempts to cast a spell from a scroll that is a higher level than what the Magic-User can cast, a DC check must be made. Roll DC 10 + Int and subtract 2 for each spell level of difference.
+
+A Magic-User may only transcribe a spell from a scroll or another individual's spellbook prior to it being used. To copy a spell, the character must spend 1d4 hours per spell level. The chance of successfully transcribing a spell is DC 14 + Int, +1 per level of the Magic-User, -2 per level of the spell. Any failure requires another Magic-User who knows the spell to teach it.
+
+Clerical scrolls are written in a normal language (being just specially enchanted prayers). If a Cleric attempts to cast a spell from a scroll that is a higher level than what the Cleric can cast, a DC check must be made. Roll DC 10 + Wis and subtract 2 for each spell level of difference.
+
+
+### Cursed Scroll
+
+A cursed scroll inflicts some curse upon whoever reads it. It need not be read completely; in fact, merely glancing at the text is enough to inflict the curse. A saving throw may or may not be allowed, as determined by the DM (though a save vs. Spells should usually be allowed). The DM is encouraged to be creative when creating curses; the spell **bestow curse** (the reverse of **remove curse**) can be used for inspiration, but cursed scrolls can contain more powerful or inventive curses at the DM's discretion.
+
+### Protection Scrolls
+
+Protection Scrolls can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under [Language](languages.qmd in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
+
+### Protection from Magic
+
+Protection from Magic scrolls are special, as they protect against magic spells and items rather than creatures. No magical effect can cross the 10' circle of protection in either direction for 1d4 turns. As with the other protection scrolls, the circle created by this scroll moves with the reader.
+
+### Treasure Maps
+
+Treasure Maps are generally non-magical. They must be created by the DM, although he or she may delay creating the map until the characters can actually use it. The treasure indicated on the map will normally be guarded by some sort of monster, determined by the DM as desired.
+
+## Rings
 
 A ring is a circular metal band worn on the finger (no more than one ring per hand) that has a spell-like power (often a constant effect that affects the wearer).
 
@@ -671,7 +269,7 @@ A ring is a circular metal band worn on the finger (no more than one ring per ha
 
 **Regeneration:** This ring grants the wearer the power of regeneration, exactly as described in the description of the troll, including the weakness with respect to acid and fire damage. However, only damage taken while wearing the ring is regenerated.
 
-**Spell Storing:** A ring of spell storing contains a number of Magic-User spells that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. Any class may wear and use this ring, but it can only be recharged by a Magic-User casting the appropriate spell into it. A table is provided below to determine how many spells, and what levels they are. A ring of spell storing must be recharged with the same spells that were placed into it when it was made; so a ring of two spell storing containing **fireball** and **fly** can only be recharged with those two spells. The ring magically imparts to the wearer the names of all spells stored within it. A ring found in a treasure hoard may be completely charged, or discharged, or partially charged, at the GM's option.
+**Spell Storing:** A ring of spell storing contains a number of Magic-User spells that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. Any class may wear and use this ring, but it can only be recharged by a Magic-User casting the appropriate spell into it. A table is provided below to determine how many spells, and what levels they are. A ring of spell storing must be recharged with the same spells that were placed into it when it was made; so a ring of two spell storing containing **fireball** and **fly** can only be recharged with those two spells. The ring magically imparts to the wearer the names of all spells stored within it. A ring found in a treasure hoard may be completely charged, or discharged, or partially charged, at the DM's option.
 
 | **d%** | **# of Spells**   | **d%** | **Level of Spell** |
 |----|----|----|----|
@@ -695,7 +293,7 @@ A ring is a circular metal band worn on the finger (no more than one ring per ha
 
 **X-Ray Vision:** On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead or gold blocks the vision. The ring may be used three times per day, and each use lasts at most one turn (or until the wearer ceases to concentrate upon it).
 
-### Wands, Staves and Rods
+## Wands, Staves and Rods
 
 A wand is a short stick, generally 12 to 18 inches long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges, and each use of the wand depletes one of those charges; a wand found in a treasure hoard will have 2d10 charges remaining. If a wand generates an effect equivalent to a spell, assume the spell functions as if cast by a 6^th^ level caster, or the lowest level caster who could cast that spell (whichever is higher), unless otherwise noted. Wands are generally usable only by Magic-Users. Saving throws are rolled as normal, but on the Magic Wands column rather than the Spells column.
 
@@ -741,7 +339,7 @@ After all charges are used up from the staff, it remains a +2 walking staff. Onc
 
 **Wand of Trap Detection:** This wand grants the user a power equivalent to the spell **find traps**.
 
-### Miscellaneous Items
+## Miscellaneous Items
 
 These items may take any of several forms, and have a
 variety of effects; when randomly rolled, the effect is
@@ -1005,7 +603,7 @@ difficulty in using it successfully (and safely).
 
 A device of this type found in a treasure hoard may be
 completely charged, or discharged, or partially charged,
-at the GM's option.
+at the DM's option.
 
 | d%    | no of Spells | d%    | Level of Spell |
 |-------|--------------|-------|----------------|
@@ -1071,7 +669,7 @@ ring when it is found. The DM must adjudicate all
 wishes, and instructions are given in the **Dungeon Master **
 section regarding this.
 
-### Rare Items
+## Rare Items
 
 **Bag of Devouring**: This device appears, to all tests, to
 be a normal **Bag of Holding**, and in fact it performs
@@ -1097,7 +695,7 @@ unharmed, but it will no longer work until it is turned
 right side out again. If living creatures are placed inside
 they will suffocate within a turn (with exceptions for
 creatures resistant to suffocation as determined by the
-GM). The bag's volume cannot be overfilled (as excess
+DM). The bag's volume cannot be overfilled (as excess
 items simply cannot be put inside), but if overloaded
 above 500 pounds and then lifted it will be torn.
 
@@ -1228,7 +826,7 @@ the rope, it can reach no more than 50 feet from that
 point). The rope has no real strength and thus cannot
 lift or support any weight if not tied to an anchor point.
 
-### Devices for Summoning Elementals
+## Devices for Summoning Elementals
 
 These devices all grant the power to summon and
 control an elemental. As noted, the DM is likely to
