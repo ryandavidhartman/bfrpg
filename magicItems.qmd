@@ -237,7 +237,7 @@ A cursed scroll inflicts some curse upon whoever reads it. It need not be read c
 
 ### Protection Scrolls
 
-Protection Scrolls can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under [Language](languages.qmd in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
+Protection Scrolls can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under [Language](languages.qmd) in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
 
 ### Protection from Magic
 
