@@ -1,5 +1,7 @@
 # Character Races
 
+![](images/races.png)
+
 ## Demography of OnceWas
 
 The allowed PC character races in OnceWas are Human, Dwarf, Elf, Half-Elf, or Halfling. Human is preferred for this campaign. In the world of OnceWas, 80% of the humanoid population is human, 5% are dwarves, 1.5% are halflings, 1% are elves, 0.5% are half-elves, and 12% are other races such as Orcs, Goblins, etc.  It's important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.

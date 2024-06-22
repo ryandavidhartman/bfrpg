@@ -1,5 +1,7 @@
 # Character Abilities 
 
+![](images/abilities.png)
+
 ## Ability Scores
 
 Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
