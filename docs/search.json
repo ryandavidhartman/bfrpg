@@ -5191,6 +5191,17 @@
     ]
   },
   {
+    "objectID": "monstersAll.html#glantrian-clockwork-mule",
+    "href": "monstersAll.html#glantrian-clockwork-mule",
+    "title": "25  Monster Descriptions",
+    "section": "Glantrian Clockwork Mule",
+    "text": "Glantrian Clockwork Mule\n\n\n\n\n\nGlantrian Clockwork Mule\n\n\n\n\nArmor Class:\n10\n\n\nHit Dice:\n2d8+2\n\n\nNo. of Attacks:\n1 Hoove\n\n\nDamage:\n1d4+2 or by weapon +4\n\n\nMovement:\n40’\n\n\nNo. Appearing:\nSpecial\n\n\nSave As:\nFighter: 2\n\n\nMorale:\n20\n\n\nTreasure Type:\nNone\n\n\nXP:\n150\n\n\n\n\nDescription\nThis mechanical mule serves as a reliable companion for those who require assistance with heavy loads in rugged terrain. The Glantrian Clockwork Mule is a striking fusion of brass, steel, and polished wood, constructed from intricate clockwork parts and powered by arcane mechanisms. Its frame is sleek and streamlined, adorned with intricate gears, pistons, and exposed cogs that hint at its internal workings. Riveted plates of brass encase its sturdy form, while polished wooden accents add a touch of warmth to its metallic sheen.\n\n\nAbilities\n\nSTR 14 (+2)\nDEX 10 (+0)\nCON 12 (+1)\nINT 3 (-3)\nWIS 10 (+0)\nCHA 8 (-1)\n\n\n\nSpecial Traits\n\nDamage Immunities: poison, psychic\nCondition Immunities: charmed, frightened, paralyzed, petrified, poisoned\nSenses: passive Perception 10\nLanguages: understands Common but can’t speak\n\n\n\nAssembly and Maintenance\nTo assemble the Glantrian Clockwork Mule, one character must dedicate 8 hours of uninterrupted work. At the end of this time, the character can make a DC 20 Intelligence check to successfully assemble the mule. If the character possesses the assembly instructions and can read Arcane, they receive an additional +1. - Success: The clockwork mule is assembled correctly and functions as intended. - Failure: The character ends up with leftover parts. They must spend an additional 1d4 hours adjusting and can then attempt a new Intelligence check to complete assembly.\nThe mule requires 5 gold pieces daily to operate. If it goes more than 24 hours without this sustenance, it will cease functioning and become dormant until fed again.\n\n\nConstruct Nature\nThe clockwork mule doesn’t require air, food, drink, or sleep.\n\n\nAutonomous Following\nThe mule can follow an operator when they whistle to it. It will continue to follow until instructed to stay by the operator clicking their tongue.\n\n\nCarrying Capacity\nIt can carry up to 1,000 pounds of weight, making it quite robust for transporting goods.\n\n\nHidden Storage Compartment\nThere is a hidden hatch at the rear with a storage space that is 2 feet wide, 2 feet long, and 2 feet deep. This compartment is airtight and watertight when closed, ensuring the safety of stored items.\n\n\nWater Adaptability\nWhen submerged in water, the mule deploys flotation devices automatically. This allows it to float on the water’s surface, preventing it from sinking.",
+    "crumbs": [
+      "Monsters",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Monster Descriptions</span>"
+    ]
+  },
+  {
     "objectID": "monstersAll.html#gnoll",
     "href": "monstersAll.html#gnoll",
     "title": "25  Monster Descriptions",

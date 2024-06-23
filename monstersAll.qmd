@@ -2684,8 +2684,70 @@ Storm giants prefer to attack first with their **lightning bolts** (which work
 Unlike most other giants, storm giants have been known to befriend humans, elves, or dwarves.
 
 </div>
-<div class="monster" data-tag="Gnoll" >
 
+<div class="monster" data-tag="Glantrian-Clockwork-Mule">
+## Glantrian Clockwork Mule
+
+![](images/glantrian-mule.png)
+
+|   | Glantrian Clockwork Mule |
+|---|--------------------------|
+| Armor Class: | 10 |
+| Hit Dice: | 2d8+2 |
+| No. of Attacks: | 1 Hoove |
+| Damage: | 1d4+2 or by weapon +4 |
+| Movement: | 40' |
+| No. Appearing: | Special |
+| Save As: | Fighter: 2 |
+| Morale: | 20 |
+| Treasure Type: | None |
+| XP: | 150 |
+
+### Description
+
+This mechanical mule serves as a reliable companion for those who require assistance with heavy loads in rugged terrain. The Glantrian Clockwork Mule is a striking fusion of brass, steel, and polished wood, constructed from intricate clockwork parts and powered by arcane mechanisms. Its frame is sleek and streamlined, adorned with intricate gears, pistons, and exposed cogs that hint at its internal workings. Riveted plates of brass encase its sturdy form, while polished wooden accents add a touch of warmth to its metallic sheen.
+
+
+### Abilities
+- **STR** 14 (+2)
+- **DEX** 10 (+0)
+- **CON** 12 (+1)
+- **INT** 3 (-3)
+- **WIS** 10 (+0)
+- **CHA** 8 (-1)
+
+### Special Traits
+- **Damage Immunities:** poison, psychic
+- **Condition Immunities:** charmed, frightened, paralyzed, petrified, poisoned
+- **Senses:** passive Perception 10
+- **Languages:** understands Common but can't speak
+
+### Assembly and Maintenance
+To assemble the Glantrian Clockwork Mule, one character must dedicate 8 hours of uninterrupted work. At the end of this time, the character can make a DC 20 Intelligence check to successfully assemble the mule. If the character possesses the assembly instructions and can read Arcane, they receive an additional +1.
+- **Success:** The clockwork mule is assembled correctly and functions as intended.
+- **Failure:** The character ends up with leftover parts. They must spend an additional 1d4 hours adjusting and can then attempt a new Intelligence check to complete assembly.
+
+The mule requires 5 gold pieces daily to operate. If it goes more than 24 hours without this sustenance, it will cease functioning and become dormant until fed again.
+
+### Construct Nature
+The clockwork mule doesn't require air, food, drink, or sleep.
+
+### Autonomous Following
+The mule can follow an operator when they whistle to it. It will continue to follow until instructed to stay by the operator clicking their tongue.
+
+### Carrying Capacity
+It can carry up to 1,000 pounds of weight, making it quite robust for transporting goods.
+
+### Hidden Storage Compartment
+There is a hidden hatch at the rear with a storage space that is 2 feet wide, 2 feet long, and 2 feet deep. This compartment is airtight and watertight when closed, ensuring the safety of stored items.
+
+### Water Adaptability
+When submerged in water, the mule deploys flotation devices automatically. This allows it to float on the water's surface, preventing it from sinking.
+</div>
+
+
+
+<div class="monster" data-tag="Gnoll" >
 ## Gnoll
 
 |  | Gnoll |
@@ -2706,10 +2768,9 @@ Gnolls are hyena-headed, evil humanoids that wander in loose tribes. Most gnolls
 Gnolls are nocturnal, and have [Darkvision](senses.qmd#darkvision) with a 30' range. They are cruel carnivores, preferring intelligent creatures for food because they scream more. They show little discipline when fighting unless they have a strong leader.
 
 One out of every six gnolls will be a hardened warrior of 4 Hit Dice (240 XP) having a +1 bonus to damage due to strength. Gnolls gain a +1 bonus to their morale if they are led by such a warrior. In lairs of 12 or greater, there will be a pack leader of 6 Hit Dice (500 XP) having a +2 bonus to damage. In the lair, gnolls never fail a morale check as long as the pack leader is alive. In addition, a lair has a chance equal to 1-2 on 1d6 of a shaman being present, and 1 on 1d6 of a witch or warlock. A shaman is equivalent to a hardened warrior statistically, and in addition has Clerical abilities at level 1d4+1. A witch or warlock is equivalent to a regular gnoll, and has Magic-User abilities of level 1d4.
-
 </div>
-<div class="monster" data-tag="Gnome" >
 
+<div class="monster" data-tag="Gnome" >
 ## Gnome
 
 |  | Gnome |

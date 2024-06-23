@@ -143,6 +143,19 @@
         "XP:": "75"
     },
     {
+        "Name": "Glantrian Clockwork Mule",
+        "Armor Class:": "10",
+        "Hit Dice:": "2",
+        "No.\u00a0of Attacks:": "1 Hoove",
+        "Damage:": "+4 to hit, 1d4+2",
+        "Movement:": "40",
+        "No.\u00a0Appearing:": "Special",
+        "Save As:": "Fighter: 2",
+        "Morale:": "20",
+        "Treasure Type:": "None",
+        "XP:": "150"
+    },
+    {
         "Name": "Bear, Black",
         "Armor Class:": "14",
         "Hit Dice:": "4",
