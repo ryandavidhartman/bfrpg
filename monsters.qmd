@@ -37,7 +37,7 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 
 **Save As:** The character class and level the monster uses for saving throws. Most monsters save as Fighters of a level equal to their hit dice.
 
-**Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a [Morale Check](combatDetails.qmd#morale). Monsters having a Morale of 12 never fail morale checks, and fight until destroyed (or until they have no enemies left). 
+**Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a [Morale Check](combatDetails.qmd#morale). Monsters having a Morale of 20never fail morale checks, and fight until destroyed (or until they have no enemies left). 
 
 **Treasure Type:** This line reflects how much wealth the creature owns. See the [Treasure](treasure.qmd#treasure-types) section for more details. In most cases, a creature keeps valuables in its home or lair and has no treasure with it when it travels. Intelligent creatures that own useful, portable treasure (such as magic items) tend to carry and use these, leaving bulky items at home.
 
