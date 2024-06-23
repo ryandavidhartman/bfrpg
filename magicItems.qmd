@@ -356,6 +356,8 @@ A ring of wishes contains the power to grant wishes to the wearer. 1d4 wishes wi
 
 On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead or gold blocks the vision. The ring may be used three times per day, and each use lasts at most one turn (or until the wearer ceases to concentrate upon it).
 
+![](images/magic_wand.png)
+
 ## Wands, Staves and Rods
 
 A wand is a short stick, generally 12 to 18 inches long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges, and each use of the wand depletes one of those charges; a wand found in a treasure hoard will have 2d10 charges remaining. If a wand generates an effect equivalent to a spell, assume the spell functions as if cast by a 6^th^ level caster, or the lowest level caster who could cast that spell (whichever is higher), unless otherwise noted. Wands are generally usable only by Magic-Users. Saving throws are rolled as normal, but on the Magic Wands column rather than the Spells column.

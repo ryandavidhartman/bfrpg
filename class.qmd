@@ -17,6 +17,8 @@ The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, a
 
 ## Cleric
 
+![](images/cleric_class.png)
+
 Clerics have devoted themselves to the service of a [deity](gods.qmd). Additionally, there are twelve demigods and twelve Demon Lords. Clerics of demigods and Demon Lords cannot advance beyond 6^th^ level.
 
 Most Clerics spend their time in mundane forms of service, such as preaching and ministering at a temple. A select few are called to travel away from the temple and serve their deity more directly, smiting undead monsters and aiding in the battle against evil and chaos. Player Clerics are assumed to be among this group.
@@ -157,6 +159,8 @@ Note: Evil clerics can choose to command Undead rather than turn them.
 
 ## Druids
 
+![](images/druid_class.png)
+
 Druids are nature priests, revering the gods of the natural world. They are a hybrid of Magic-User and Cleric, drawing power from nature and ley lines, and revering all the gods of OnceWas as well as elemental forces. Druids serve the natural order in a more direct way by working actively to restore balance. Often, a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities. Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas. However, some are called to go abroad to serve the natural order more directly by working actively to restore balance.
 
 Druids advance at the same rate as Clerics but use the same combat and saving throw tables as Magic-Users. Druids can cast [spells of divine nature](spells.qmd#druid-spells) starting at 2^nd^ level, and they have the power of Animal Affinity (detailed at the end), working much like the Clerical ability to Turn Undead. They can identify any natural animal or plant and can identify clean water.
@@ -294,6 +298,8 @@ However, it will not fight to the death or sacrifice itself indiscriminately. Wh
 
 ## Fighter
 
+![](images/fighter_class.png)
+
 Fighters include soldiers, town guardsmen, barbarian warriors, and anyone else for whom fighting is a way of life. They train in combat, and they generally approach problems head on, weapon drawn. Not surprisingly, Fighters are the best at fighting of all the classes. They are also the hardiest, able to take more punishment than any other class.
 
 The Prime Requisite for Fighters is Strength; a character must have a Strength score of 9 or higher to become a Fighter. Members of this class may wear any armor and use any weapon.
@@ -359,6 +365,8 @@ A Fighter chooses one weapon in which the character is especially skilled. This 
 Paladins and Rangers cannot specialize.
 
 ## Paladin
+
+![](images/paladin_class.png)
 
 Paladins are the epitome of honor, courage, and righteousness, standing as beacons of hope against the growing darkness descending over the OnceWas. They are holy warriors, dedicated to upholding the tenets of justice and vanquishing evil wherever it may lurk. Blessed by divine powers, Paladins serve as champions of the gods, drawing upon their faith to perform miraculous feats and protect the innocent.
 
@@ -511,6 +519,8 @@ A Paladin must obey a code of honor and strive to perform duties assigned by the
 
 ## Ranger
 
+![](images/ranger_class.png)
+
 Rangers roam the borderlands, where their mission is to keep the beasts and monsters of the untamed lands at bay. They generally operate alone or in small groups and rely on stealth and surprise to meet their objectives.
 
 Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger, a character must have a Strength score of 9 or higher, Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may use any weapon and may wear any armor, but some of the Ranger’s special talents and abilities are unavailable when wearing armor heavier than leather armor.
@@ -604,6 +614,8 @@ Rangers can Move Silently, Hide, and Track when in wilderness areas, at percenta
 :::
 
 ## Magic User
+
+![](images/magic_user_class.png)
 
 Magic users are scarce. They are just as frequently reviled as they are revered, often experiencing the shifting tides of popularity as political dynamics ebb and flow.
 
@@ -780,6 +792,8 @@ Magic-Users will also recognize certain arcane symbols representing the four bas
 
 
 ## Thief
+
+![](images/thief_class.png)
 
 Thieves are those who take what they want or need by stealth, disarming traps and picking locks to get to the gold they crave; or “borrowing” money from pockets, beltpouches, etc. right under the nose of the “mark” without the victim ever knowing.
 

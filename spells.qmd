@@ -3158,6 +3158,8 @@ For the duration of the spell, each participant may freely switch between its ph
 
 :::
 
+![](images/arcane_spells.png)
+
 
 # Magic-User Spells
 

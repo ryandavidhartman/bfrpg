@@ -252,6 +252,8 @@ Barding is armor designed to protect an animal’s head, neck, chest, and body. 
 
 ## Poisons
 
+![](images/poison.png)
+
 ### Basic Poison
 
 The first poison must Poisoners learn and easily produced by shadier folks. This poison is the bread and butter for assassins just starting out.
