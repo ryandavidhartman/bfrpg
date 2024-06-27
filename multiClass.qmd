@@ -91,7 +91,7 @@ The Nature Warden possesses a natural affinity for the environment, allowing the
 These abilities stem from their deep connection to nature and enhance their skills in survival, herbalism, and environmental protection.
 
 ##### Nature’s Bond
-At 2nd level as a Nature Warden, choose a type of terrain (such as Forest, Mountains, Swamp, etc.). The Nature Warden gains an additional +1 Initiative bonus when interacting in this terrain. This bonus reflects their heightened awareness and familiarity with the nuances of their chosen natural habitat.
+At 2^nd^ level as a Nature Warden, choose a type of terrain (such as Forest, Mountains, Swamp, etc.). The Nature Warden gains an additional +1 Initiative bonus when interacting in this terrain. This bonus reflects their heightened awareness and familiarity with the nuances of their chosen natural habitat.
 
 ##### Limited Animal Affinity
 Nature Wardens have a special bond with animals, allowing them to calm or befriend them to a limited extent. When encountering animals, the Nature Warden can attempt to calm or befriend them based on their level and the animals' hit dice, as detailed in the Animal Affinity Table. This ability reinforces their role as protectors and stewards of the natural world, fostering cooperation with wildlife when needed.

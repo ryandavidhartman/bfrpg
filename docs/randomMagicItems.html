@@ -1058,7 +1058,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code hidden" id="cb7" data-startfrom="232" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 231;"><span id="cb7-232"><a href="#cb7-232" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
 <span id="cb7-233"><a href="#cb7-233" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
 <span id="cb7-234"><a href="#cb7-234" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#potions-random-table"</span><span class="op">,</span> </span>
-<span id="cb7-235"><a href="#cb7-235" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span> [<span class="dv">4</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span> [<span class="dv">7</span><span class="op">,</span><span class="dv">9</span>]<span class="op">,</span> [<span class="dv">10</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span> [<span class="dv">13</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span> [<span class="dv">16</span><span class="op">,</span><span class="dv">18</span>]<span class="op">,</span> [<span class="dv">19</span><span class="op">,</span><span class="dv">21</span>]<span class="op">,</span> [<span class="dv">22</span><span class="op">,</span><span class="dv">24</span>]<span class="op">,</span> [<span class="dv">25</span><span class="op">,</span><span class="dv">27</span>]<span class="op">,</span> [<span class="dv">28</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span> [<span class="dv">31</span><span class="op">,</span><span class="dv">34</span>]<span class="op">,</span> [<span class="dv">35</span><span class="op">,</span><span class="dv">37</span>]<span class="op">,</span> [<span class="dv">38</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span> [<span class="dv">41</span><span class="op">,</span><span class="dv">43</span>]<span class="op">,</span> [<span class="dv">44</span><span class="op">,</span><span class="dv">46</span>]<span class="op">,</span> [<span class="dv">47</span><span class="op">,</span><span class="dv">49</span>]<span class="op">,</span> [<span class="dv">50</span><span class="op">,</span><span class="dv">52</span>]<span class="op">,</span> [<span class="dv">53</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span> [<span class="dv">56</span><span class="op">,</span><span class="dv">58</span>]<span class="op">,</span> [<span class="dv">59</span><span class="op">,</span><span class="dv">62</span>]<span class="op">,</span> [<span class="dv">63</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span> [<span class="dv">66</span><span class="op">,</span><span class="dv">68</span>]<span class="op">,</span> [<span class="dv">69</span><span class="op">,</span><span class="dv">70</span>]<span class="op">,</span> [<span class="dv">71</span><span class="op">,</span><span class="dv">73</span>]<span class="op">,</span> [<span class="dv">74</span><span class="op">,</span><span class="dv">76</span>]<span class="op">,</span> [<span class="dv">77</span><span class="op">,</span><span class="dv">79</span>]<span class="op">,</span> [<span class="dv">80</span><span class="op">,</span><span class="dv">82</span>]<span class="op">,</span> [<span class="dv">83</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span> [<span class="dv">86</span><span class="op">,</span><span class="dv">88</span>]<span class="op">,</span> [<span class="dv">89</span><span class="op">,</span><span class="dv">91</span>]<span class="op">,</span> [<span class="dv">92</span><span class="op">,</span><span class="dv">94</span>]<span class="op">,</span> [<span class="dv">95</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span> [<span class="dv">98</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-235"><a href="#cb7-235" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">100</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span> </span>
+<span id="cb7-236"><a href="#cb7-236" aria-hidden="true" tabindex="-1"></a>[</span>
+<span id="cb7-237"><a href="#cb7-237" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">1</span><span class="op">,</span> <span class="dv">3</span>]<span class="op">,</span> [<span class="dv">4</span><span class="op">,</span> <span class="dv">6</span>]<span class="op">,</span> [<span class="dv">7</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> [<span class="dv">9</span><span class="op">,</span> <span class="dv">11</span>]<span class="op">,</span> [<span class="dv">12</span><span class="op">,</span> <span class="dv">14</span>]<span class="op">,</span> [<span class="dv">15</span><span class="op">,</span> <span class="dv">17</span>]<span class="op">,</span> [<span class="dv">18</span><span class="op">,</span> <span class="dv">20</span>]<span class="op">,</span> [<span class="dv">21</span><span class="op">,</span> <span class="dv">23</span>]<span class="op">,</span> </span>
+<span id="cb7-238"><a href="#cb7-238" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">24</span><span class="op">,</span> <span class="dv">26</span>]<span class="op">,</span> [<span class="dv">27</span><span class="op">,</span> <span class="dv">29</span>]<span class="op">,</span> [<span class="dv">30</span><span class="op">,</span> <span class="dv">32</span>]<span class="op">,</span> [<span class="dv">33</span><span class="op">,</span> <span class="dv">36</span>]<span class="op">,</span> [<span class="dv">37</span><span class="op">,</span> <span class="dv">39</span>]<span class="op">,</span> [<span class="dv">40</span><span class="op">,</span> <span class="dv">42</span>]<span class="op">,</span> [<span class="dv">43</span><span class="op">,</span> <span class="dv">45</span>]<span class="op">,</span> [<span class="dv">46</span><span class="op">,</span> <span class="dv">48</span>]<span class="op">,</span> </span>
+<span id="cb7-239"><a href="#cb7-239" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">49</span><span class="op">,</span> <span class="dv">51</span>]<span class="op">,</span> [<span class="dv">52</span><span class="op">,</span> <span class="dv">54</span>]<span class="op">,</span> [<span class="dv">55</span><span class="op">,</span> <span class="dv">57</span>]<span class="op">,</span> [<span class="dv">58</span><span class="op">,</span> <span class="dv">60</span>]<span class="op">,</span> [<span class="dv">61</span><span class="op">,</span> <span class="dv">63</span>]<span class="op">,</span> [<span class="dv">64</span><span class="op">,</span> <span class="dv">66</span>]<span class="op">,</span> [<span class="dv">67</span><span class="op">,</span> <span class="dv">69</span>]<span class="op">,</span> [<span class="dv">70</span><span class="op">,</span> <span class="dv">72</span>]<span class="op">,</span> </span>
+<span id="cb7-240"><a href="#cb7-240" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">73</span><span class="op">,</span> <span class="dv">75</span>]<span class="op">,</span> [<span class="dv">76</span><span class="op">,</span> <span class="dv">78</span>]<span class="op">,</span> [<span class="dv">79</span><span class="op">,</span> <span class="dv">81</span>]<span class="op">,</span> [<span class="dv">82</span><span class="op">,</span> <span class="dv">84</span>]<span class="op">,</span> [<span class="dv">85</span><span class="op">,</span> <span class="dv">87</span>]<span class="op">,</span> [<span class="dv">88</span><span class="op">,</span> <span class="dv">90</span>]<span class="op">,</span> [<span class="dv">91</span><span class="op">,</span> <span class="dv">93</span>]<span class="op">,</span> [<span class="dv">94</span><span class="op">,</span> <span class="dv">96</span>]<span class="op">,</span> </span>
+<span id="cb7-241"><a href="#cb7-241" aria-hidden="true" tabindex="-1"></a>    [<span class="dv">97</span><span class="op">,</span> <span class="dv">100</span>]</span>
+<span id="cb7-242"><a href="#cb7-242" aria-hidden="true" tabindex="-1"></a>]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-7" data-nodetype="expression">
 
@@ -1076,131 +1083,135 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>01-03</td>
-<td>Alchemist’s Fire</td>
+<td><a href="./magicItems.html#alchemists-fire">Alchemist’s Fire</a></td>
 </tr>
 <tr class="even">
 <td>04-06</td>
-<td>Clairaudience</td>
+<td><a href="./magicItems.html#potion-of-cats-grace">Potion of Cat’s Grace</a></td>
 </tr>
 <tr class="odd">
-<td>07-09</td>
-<td>Clairvoyance</td>
+<td>07-08</td>
+<td><a href="./magicItems.html#potion-of-clairaudience">Potion of Clairaudience</a></td>
 </tr>
 <tr class="even">
-<td>10-12</td>
-<td>Cold Resistance</td>
+<td>09-11</td>
+<td><a href="./magicItems.html#potion-of-clairvoyance">Potion of Clairvoyance</a></td>
 </tr>
 <tr class="odd">
-<td>13-15</td>
-<td>Control Animal</td>
+<td>12-14</td>
+<td><a href="./magicItems.html#potion-of-cold-resistance">Potion of Cold Resistance</a></td>
 </tr>
 <tr class="even">
-<td>16-18</td>
-<td>Control Dragon</td>
+<td>15-17</td>
+<td><a href="./magicItems.html#potion-of-control-animal">Potion of Control Animal</a></td>
 </tr>
 <tr class="odd">
-<td>19-21</td>
-<td>Control Giant</td>
+<td>18-20</td>
+<td><a href="./magicItems.html#potion-of-control-dragon">Potion of Control Dragon</a></td>
 </tr>
 <tr class="even">
-<td>22-24</td>
-<td>Control Human</td>
+<td>21-23</td>
+<td><a href="./magicItems.html#potion-of-control-giant">Potion of Control Giant</a></td>
 </tr>
 <tr class="odd">
-<td>25-27</td>
-<td>Control Plant</td>
+<td>24-26</td>
+<td><a href="./magicItems.html#potion-of-control-human">Potion of Control Human</a></td>
 </tr>
 <tr class="even">
-<td>28-30</td>
-<td>Control Undead</td>
+<td>27-29</td>
+<td><a href="./magicItems.html#potion-of-control-plant">Potion of Control Plant</a></td>
 </tr>
 <tr class="odd">
-<td>31-34</td>
-<td>Delusion</td>
+<td>30-32</td>
+<td><a href="./magicItems.html#potion-of-control-undead">Potion of Control Undead</a></td>
 </tr>
 <tr class="even">
-<td>35-37</td>
-<td>Diminution</td>
+<td>33-36</td>
+<td><a href="./magicItems.html#potion-of-delusion">Potion of Delusion</a></td>
 </tr>
 <tr class="odd">
-<td>38-40</td>
-<td>ESP</td>
+<td>37-39</td>
+<td><a href="./magicItems.html#potion-of-diminution">Potion of Diminution</a></td>
 </tr>
 <tr class="even">
-<td>41-43</td>
-<td>Extra Healing</td>
+<td>40-42</td>
+<td><a href="./magicItems.html#potion-of-esp">Potion of ESP</a></td>
 </tr>
 <tr class="odd">
-<td>44-46</td>
-<td>Fire Resistance</td>
+<td>43-45</td>
+<td><a href="./magicItems.html#potion-of-extra-healing">Potion of Extra Healing</a></td>
 </tr>
 <tr class="even">
-<td>47-49</td>
-<td>Flying</td>
+<td>46-48</td>
+<td><a href="./magicItems.html#potion-of-fire-resistance">Potion of Fire Resistance</a></td>
 </tr>
 <tr class="odd">
-<td>50-52</td>
-<td>Gaseous Form</td>
+<td>49-51</td>
+<td><a href="./magicItems.html#potion-of-flying">Potion of Flying</a></td>
 </tr>
 <tr class="even">
-<td>53-55</td>
-<td>Giant Strength</td>
+<td>52-54</td>
+<td><a href="./magicItems.html#potion-of-gaseous-form">Potion of Gaseous Form</a></td>
 </tr>
 <tr class="odd">
-<td>56-58</td>
-<td>Growth</td>
+<td>55-57</td>
+<td><a href="./magicItems.html#potion-of-giant-strength">Potion of Giant Strength</a></td>
 </tr>
 <tr class="even">
-<td>59-62</td>
-<td>Healing</td>
+<td>58-60</td>
+<td><a href="./magicItems.html#potion-of-growth">Potion of Growth</a></td>
 </tr>
 <tr class="odd">
-<td>63-65</td>
-<td>Heroism</td>
+<td>61-63</td>
+<td><a href="./magicItems.html#potion-of-healing">Potion of Healing</a></td>
 </tr>
 <tr class="even">
-<td>66-68</td>
-<td>Invisibility</td>
+<td>64-66</td>
+<td><a href="./magicItems.html#potion-of-heroism">Potion of Heroism</a></td>
 </tr>
 <tr class="odd">
-<td>69-70</td>
-<td>Invulnerability</td>
+<td>67-69</td>
+<td><a href="./magicItems.html#potion-of-invisibility">Potion of Invisibility</a></td>
 </tr>
 <tr class="even">
-<td>71-73</td>
-<td>Keoghtom’s Ointment</td>
+<td>70-72</td>
+<td><a href="./magicItems.html#potion-of-invulnerability">Potion of Invulnerability</a></td>
 </tr>
 <tr class="odd">
-<td>74-76</td>
-<td>Levitation</td>
+<td>71-75</td>
+<td><a href="./magicItems.html#keoghtoms-ointment">Keoghtom’s Ointment</a></td>
 </tr>
 <tr class="even">
-<td>77-79</td>
-<td>Longevity</td>
+<td>76-78</td>
+<td><a href="./magicItems.html#potion-of-levitation">Potion of Levitation</a></td>
 </tr>
 <tr class="odd">
-<td>83-85</td>
-<td>Poison</td>
+<td>79-81</td>
+<td><a href="./magicItems.html#potion-of-longevity">Potion of Longevity</a></td>
 </tr>
 <tr class="even">
-<td>86-88</td>
-<td>Polymorph Self</td>
+<td>82-84</td>
+<td><a href="./magicItems.html#poison">Poison</a></td>
 </tr>
 <tr class="odd">
-<td>89-91</td>
-<td>Speed</td>
+<td>85-87</td>
+<td><a href="./magicItems.html#potion-of-polymorph-self">Potion of Polymorph Self</a></td>
 </tr>
 <tr class="even">
-<td>92-94</td>
-<td>Total Healing</td>
+<td>88-90</td>
+<td><a href="./magicItems.html#potion-of-speed">Potion of Speed</a></td>
 </tr>
 <tr class="odd">
-<td>95-97</td>
-<td>Treasure Finding</td>
+<td>91-93</td>
+<td><a href="./magicItems.html#potion-of-total-healing">Potion of Total Healing</a></td>
 </tr>
 <tr class="even">
-<td>98-100</td>
-<td>Water Breathing</td>
+<td>94-96</td>
+<td><a href="./magicItems.html#potion-of-treasure-finding">Potion of Treasure Finding</a></td>
+</tr>
+<tr class="odd">
+<td>97-100</td>
+<td><a href="./magicItems.html#potion-of-water-breathing">Potion of Water Breathing</a></td>
 </tr>
 </tbody>
 </table>
@@ -1209,10 +1220,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="scrolls" class="level2">
 <h2 class="anchored" data-anchor-id="scrolls">Scrolls</h2>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="282" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 281;"><span id="cb8-282"><a href="#cb8-282" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
-<span id="cb8-283"><a href="#cb8-283" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
-<span id="cb8-284"><a href="#cb8-284" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#scrolls-table"</span><span class="op">,</span> </span>
-<span id="cb8-285"><a href="#cb8-285" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span> [<span class="dv">4</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span> [<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span> [<span class="dv">9</span><span class="op">,</span><span class="dv">9</span> ]<span class="op">,</span> [<span class="dv">10</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span> [<span class="dv">16</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> [<span class="dv">21</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span> [<span class="dv">26</span><span class="op">,</span><span class="dv">29</span>]<span class="op">,</span> [<span class="dv">30</span><span class="op">,</span><span class="dv">32</span>]<span class="op">,</span> [<span class="dv">33</span><span class="op">,</span><span class="dv">34</span>]<span class="op">,</span> [<span class="dv">35</span><span class="op">,</span><span class="dv">35</span>  ]<span class="op">,</span> [<span class="dv">36</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span> [<span class="dv">41</span><span class="op">,</span><span class="dv">46</span>]<span class="op">,</span> [<span class="dv">47</span><span class="op">,</span><span class="dv">56</span>]<span class="op">,</span> [<span class="dv">57</span><span class="op">,</span><span class="dv">61</span>]<span class="op">,</span> [<span class="dv">62</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span> [<span class="dv">76</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span> [<span class="dv">86</span><span class="op">,</span><span class="dv">89</span>]<span class="op">,</span> [<span class="dv">90</span><span class="op">,</span><span class="dv">92</span>]<span class="op">,</span> [<span class="dv">93</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="289" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 288;"><span id="cb8-289"><a href="#cb8-289" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
+<span id="cb8-290"><a href="#cb8-290" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb8-291"><a href="#cb8-291" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#scrolls-table"</span><span class="op">,</span> </span>
+<span id="cb8-292"><a href="#cb8-292" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span> [<span class="dv">4</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span> [<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span> [<span class="dv">9</span><span class="op">,</span><span class="dv">9</span> ]<span class="op">,</span> [<span class="dv">10</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span> [<span class="dv">16</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> [<span class="dv">21</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span> [<span class="dv">26</span><span class="op">,</span><span class="dv">29</span>]<span class="op">,</span> [<span class="dv">30</span><span class="op">,</span><span class="dv">32</span>]<span class="op">,</span> [<span class="dv">33</span><span class="op">,</span><span class="dv">34</span>]<span class="op">,</span> [<span class="dv">35</span><span class="op">,</span><span class="dv">35</span>  ]<span class="op">,</span> [<span class="dv">36</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span> [<span class="dv">41</span><span class="op">,</span><span class="dv">46</span>]<span class="op">,</span> [<span class="dv">47</span><span class="op">,</span><span class="dv">56</span>]<span class="op">,</span> [<span class="dv">57</span><span class="op">,</span><span class="dv">61</span>]<span class="op">,</span> [<span class="dv">62</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span> [<span class="dv">76</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span> [<span class="dv">86</span><span class="op">,</span><span class="dv">89</span>]<span class="op">,</span> [<span class="dv">90</span><span class="op">,</span><span class="dv">92</span>]<span class="op">,</span> [<span class="dv">93</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-8" data-nodetype="expression">
 
@@ -1314,10 +1325,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="spell-scrolls-spell-level" class="level3">
 <h3 class="anchored" data-anchor-id="spell-scrolls-spell-level">Spell Scrolls: Spell Level</h3>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="320" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 319;"><span id="cb9-320"><a href="#cb9-320" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
-<span id="cb9-321"><a href="#cb9-321" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
-<span id="cb9-322"><a href="#cb9-322" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#scroll-level-table"</span><span class="op">,</span> </span>
-<span id="cb9-323"><a href="#cb9-323" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span> [<span class="dv">31</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span> [<span class="dv">56</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span> [<span class="dv">76</span><span class="op">,</span><span class="dv">88</span>]<span class="op">,</span> [<span class="dv">89</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span> [<span class="dv">98</span><span class="op">,</span><span class="dv">99</span>]<span class="op">,</span> [<span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="327" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 326;"><span id="cb9-327"><a href="#cb9-327" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
+<span id="cb9-328"><a href="#cb9-328" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb9-329"><a href="#cb9-329" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#scroll-level-table"</span><span class="op">,</span> </span>
+<span id="cb9-330"><a href="#cb9-330" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span> [<span class="dv">31</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span> [<span class="dv">56</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span> [<span class="dv">76</span><span class="op">,</span><span class="dv">88</span>]<span class="op">,</span> [<span class="dv">89</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span> [<span class="dv">98</span><span class="op">,</span><span class="dv">99</span>]<span class="op">,</span> [<span class="dv">100</span><span class="op">,</span> <span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-9" data-nodetype="expression">
 
@@ -1369,10 +1380,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="rings" class="level2">
 <h2 class="anchored" data-anchor-id="rings">Rings</h2>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="345" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 344;"><span id="cb10-345"><a href="#cb10-345" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
-<span id="cb10-346"><a href="#cb10-346" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
-<span id="cb10-347"><a href="#cb10-347" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#rings-table"</span><span class="op">,</span> </span>
-<span id="cb10-348"><a href="#cb10-348" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">13</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span>[<span class="dv">31</span><span class="op">,</span><span class="dv">33</span>]<span class="op">,</span>[<span class="dv">34</span><span class="op">,</span><span class="dv">39</span>]<span class="op">,</span>[<span class="dv">40</span><span class="op">-</span><span class="dv">44</span>]<span class="op">,</span>[<span class="dv">45</span><span class="op">,</span><span class="dv">57</span>]<span class="op">,</span>[<span class="dv">58</span><span class="op">,</span><span class="dv">66</span>]<span class="op">,</span>[<span class="dv">67</span><span class="op">-</span><span class="dv">68</span>]<span class="op">,</span>[<span class="dv">69</span><span class="op">,</span> <span class="dv">70</span>]<span class="op">,</span> [<span class="dv">71</span><span class="op">,</span> <span class="dv">71</span>]<span class="op">,</span> [<span class="dv">72</span><span class="op">,</span><span class="dv">73</span>]<span class="op">,</span>[<span class="dv">74</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span>[<span class="dv">76</span><span class="op">,</span><span class="dv">78</span>]<span class="op">,</span>[<span class="dv">79</span><span class="op">,</span><span class="dv">81</span>]<span class="op">,</span>[<span class="dv">82</span><span class="op">,</span><span class="dv">83</span>]<span class="op">,</span>[<span class="dv">84</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span>[<span class="dv">86</span><span class="op">-</span><span class="dv">90</span>]<span class="op">,</span>[<span class="dv">91</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span>[<span class="dv">98</span><span class="op">,</span><span class="dv">98</span>]<span class="op">,</span>[<span class="dv">99</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="352" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 351;"><span id="cb10-352"><a href="#cb10-352" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
+<span id="cb10-353"><a href="#cb10-353" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb10-354"><a href="#cb10-354" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#rings-table"</span><span class="op">,</span> </span>
+<span id="cb10-355"><a href="#cb10-355" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">13</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span>[<span class="dv">31</span><span class="op">,</span><span class="dv">33</span>]<span class="op">,</span>[<span class="dv">34</span><span class="op">,</span><span class="dv">39</span>]<span class="op">,</span>[<span class="dv">40</span><span class="op">-</span><span class="dv">44</span>]<span class="op">,</span>[<span class="dv">45</span><span class="op">,</span><span class="dv">57</span>]<span class="op">,</span>[<span class="dv">58</span><span class="op">,</span><span class="dv">66</span>]<span class="op">,</span>[<span class="dv">67</span><span class="op">-</span><span class="dv">68</span>]<span class="op">,</span>[<span class="dv">69</span><span class="op">,</span> <span class="dv">70</span>]<span class="op">,</span> [<span class="dv">71</span><span class="op">,</span> <span class="dv">71</span>]<span class="op">,</span> [<span class="dv">72</span><span class="op">,</span><span class="dv">73</span>]<span class="op">,</span>[<span class="dv">74</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span>[<span class="dv">76</span><span class="op">,</span><span class="dv">78</span>]<span class="op">,</span>[<span class="dv">79</span><span class="op">,</span><span class="dv">81</span>]<span class="op">,</span>[<span class="dv">82</span><span class="op">,</span><span class="dv">83</span>]<span class="op">,</span>[<span class="dv">84</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span>[<span class="dv">86</span><span class="op">-</span><span class="dv">90</span>]<span class="op">,</span>[<span class="dv">91</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span>[<span class="dv">98</span><span class="op">,</span><span class="dv">98</span>]<span class="op">,</span>[<span class="dv">99</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-10" data-nodetype="expression">
 
@@ -1390,91 +1401,91 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tbody>
 <tr class="odd">
 <td>01-06</td>
-<td>Control Animal</td>
+<td><a href="./magicItems.html#ring-of-control-animal">Ring of Control Animal</a></td>
 </tr>
 <tr class="even">
 <td>07-12</td>
-<td>Control Human</td>
+<td><a href="./magicItems.html#ring-of-control-human">Ring of Control Human</a></td>
 </tr>
 <tr class="odd">
 <td>13-19</td>
-<td>Control Plant</td>
+<td><a href="./magicItems.html#ring-of-control-plant">Ring of Control Plant</a></td>
 </tr>
 <tr class="even">
 <td>20-30</td>
-<td>Delusion</td>
+<td><a href="./magicItems.html#ring-of-delusion">Ring of Delusion</a></td>
 </tr>
 <tr class="odd">
 <td>31-33</td>
-<td>Djinni Summoning</td>
+<td><a href="./magicItems.html#ring-of-djinni-summoning">Ring of Djinni Summoning</a></td>
 </tr>
 <tr class="even">
 <td>34-39</td>
-<td>Eibon</td>
+<td><a href="./magicItems.html#ring-of-eibon">Ring of Eibon</a></td>
 </tr>
 <tr class="odd">
 <td>40-50</td>
-<td>Fire Resistance</td>
+<td><a href="./magicItems.html#ring-of-fire-resistance">Ring of Fire Resistance</a></td>
 </tr>
 <tr class="even">
 <td>51-54</td>
-<td>Free Action</td>
+<td><a href="./magicItems.html#ring-of-free-action">Ring of Free Action</a></td>
 </tr>
 <tr class="odd">
 <td>55-63</td>
-<td>Invisibility</td>
+<td><a href="./magicItems.html#ring-of-invisibility">Ring of Invisibility</a></td>
 </tr>
 <tr class="even">
 <td>64-68</td>
-<td>Protection +1</td>
+<td><a href="./magicItems.html#ring-of-protection">Ring of Protection +1</a></td>
 </tr>
 <tr class="odd">
 <td>69-70</td>
-<td>Protection +2</td>
+<td><a href="./magicItems.html#ring-of-protection">Ring of Protection +2</a></td>
 </tr>
 <tr class="even">
 <td>71</td>
-<td>Protection +3</td>
+<td><a href="./magicItems.html#ring-of-protection">Ring of Protection +3</a></td>
 </tr>
 <tr class="odd">
 <td>72-73</td>
-<td>Regeneration</td>
+<td><a href="./magicItems.html#ring-of-regeneration">Ring of Regeneration</a></td>
 </tr>
 <tr class="even">
 <td>74-75</td>
-<td>Second Chances</td>
+<td><a href="./magicItems.html#ring-of-second-chances">Ring of Second Chances</a></td>
 </tr>
 <tr class="odd">
 <td>76-78</td>
-<td>Ring of Shooting Stars</td>
+<td><a href="./magicItems.html#ring-of-shooting-stars">Ring of Shooting Stars</a></td>
 </tr>
 <tr class="even">
 <td>79-81</td>
-<td>Spell Storing</td>
+<td><a href="./magicItems.html#ring-of-spell-storing">Ring of Spell Storing</a></td>
 </tr>
 <tr class="odd">
 <td>82-83</td>
-<td>Spell Turning</td>
+<td><a href="./magicItems.html#ring-of-spell-turning">Ring of Spell Turning</a></td>
 </tr>
 <tr class="even">
 <td>84-85</td>
-<td>Telekinesis</td>
+<td><a href="./magicItems.html#ring-of-telekinesis">Ring of Telekinesis</a></td>
 </tr>
 <tr class="odd">
 <td>86-90</td>
-<td>Water Walking</td>
+<td><a href="./magicItems.html#ring-of-water-walking">Ring of Water Walking</a></td>
 </tr>
 <tr class="even">
 <td>91-97</td>
-<td>Weakness</td>
+<td><a href="./magicItems.html#ring-of-weakness">Ring of Weakness</a></td>
 </tr>
 <tr class="odd">
 <td>98</td>
-<td>Wishes</td>
+<td><a href="./magicItems.html#ring-of-wishes">Ring of Wishes</a></td>
 </tr>
 <tr class="even">
 <td>99-00</td>
-<td>X-Ray Vision</td>
+<td><a href="./magicItems.html#ring-of-x-ray-vision">Ring of X-Ray Vision</a></td>
 </tr>
 </tbody>
 </table>
@@ -1483,10 +1494,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="wands-staves-and-rods" class="level2">
 <h2 class="anchored" data-anchor-id="wands-staves-and-rods">Wands, Staves and Rods</h2>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="383" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 382;"><span id="cb11-383"><a href="#cb11-383" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
-<span id="cb11-384"><a href="#cb11-384" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
-<span id="cb11-385"><a href="#cb11-385" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wands-table"</span><span class="op">,</span> </span>
-<span id="cb11-386"><a href="#cb11-386" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">13</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">17</span>]<span class="op">,</span>[<span class="dv">18</span><span class="op">,</span><span class="dv">28</span>]<span class="op">,</span>[<span class="dv">29</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span>[<span class="dv">31</span><span class="op">,</span><span class="dv">34</span>]<span class="op">,</span>[<span class="dv">35</span><span class="op">,</span><span class="dv">35</span>]<span class="op">,</span>[<span class="dv">36</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span>[<span class="dv">41</span><span class="op">,</span><span class="dv">45</span>]<span class="op">,</span>[<span class="dv">46</span><span class="op">,</span><span class="dv">50</span>]<span class="op">,</span>[<span class="dv">51</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span>[<span class="dv">56</span><span class="op">,</span><span class="dv">60</span>]<span class="op">,</span>[<span class="dv">61</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span>[<span class="dv">66</span><span class="op">,</span><span class="dv">73</span>]<span class="op">,</span>[<span class="dv">74</span><span class="op">,</span><span class="dv">79</span>]<span class="op">,</span>[<span class="dv">80</span><span class="op">,</span><span class="dv">84</span>]<span class="op">,</span>[<span class="dv">85</span><span class="op">,</span><span class="dv">92</span>]<span class="op">,</span>[<span class="dv">93</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="390" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 389;"><span id="cb11-390"><a href="#cb11-390" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
+<span id="cb11-391"><a href="#cb11-391" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb11-392"><a href="#cb11-392" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#wands-table"</span><span class="op">,</span> </span>
+<span id="cb11-393"><a href="#cb11-393" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">13</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">17</span>]<span class="op">,</span>[<span class="dv">18</span><span class="op">,</span><span class="dv">28</span>]<span class="op">,</span>[<span class="dv">29</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span>[<span class="dv">31</span><span class="op">,</span><span class="dv">34</span>]<span class="op">,</span>[<span class="dv">35</span><span class="op">,</span><span class="dv">35</span>]<span class="op">,</span>[<span class="dv">36</span><span class="op">,</span><span class="dv">40</span>]<span class="op">,</span>[<span class="dv">41</span><span class="op">,</span><span class="dv">45</span>]<span class="op">,</span>[<span class="dv">46</span><span class="op">,</span><span class="dv">50</span>]<span class="op">,</span>[<span class="dv">51</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span>[<span class="dv">56</span><span class="op">,</span><span class="dv">60</span>]<span class="op">,</span>[<span class="dv">61</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span>[<span class="dv">66</span><span class="op">,</span><span class="dv">73</span>]<span class="op">,</span>[<span class="dv">74</span><span class="op">,</span><span class="dv">79</span>]<span class="op">,</span>[<span class="dv">80</span><span class="op">,</span><span class="dv">84</span>]<span class="op">,</span>[<span class="dv">85</span><span class="op">,</span><span class="dv">92</span>]<span class="op">,</span>[<span class="dv">93</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div id="ojs-cell-11" data-nodetype="expression">
 
@@ -2101,7 +2112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuaW1wb3J0IHtnZW5lcmFsVGFibGVTZWxlY3QsIGhpZ2hsaWdodFRhYmxlUm93fSBmcm9tIFwiLi9jdXN0b20uanNcIlxuXG52aWV3b2YgZm9ybSA9IElucHV0cy5mb3JtKFxuICB7XG4gICAgYnV0dG9uMTogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Bbnk8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2FybW9yLXdlYXBvbi10YWJsZVwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDI1XSxbMjYsMzVdLFszNiw1NV0sWzU2LDg1XSxbODYsOTBdLFs5MSw5NV0sWzk2LDEwMF1dKSl9KSxcbiAgICBidXR0b24yOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPldlYXBvb24gb3IgQXJtb3I8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2FybW9yLXdlYXBvbi10YWJsZVwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDcwXSwgWzcxLDEwMF1dKSl9KSxcbiAgICBidXR0b24zOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPkFueSBFeGNlcHQgV2VhcG9uPC9idXR0b24+YCwge3ZhbHVlOiAwLCBcbiAgICAgICAgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNhcm1vci13ZWFwb24tdGFibGVcIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbLTIsLTFdLFsxLDEyXSxbMTMsNDBdLFs0MSw3OV0sWzgwLDg2XSxbODcsOTNdLFs5NCwxMDBdXSkpfSksXG4gIH0sIFxuICB7XG4gICAgdGVtcGxhdGU6IChmb3JtUGFydHMpID0+IGh0bC5odG1sYFxuICAgICA8ZGl2PlxuICAgICAgIDxkaXYgc3R5bGU9XCJcbiAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDE1JSAzMCUgMzAlO1xuICAgICAgICAgY29sdW1uLWdhcDogMTBweFxuICAgICAgIFwiPlxuICAgICAgICAgJHtPYmplY3QudmFsdWVzKGZvcm1QYXJ0cyl9XG4gICAgICAgPC9kaXY+XG4gICAgIDwvZGl2PmBcbiAgfSlcblxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjd2VhcG9uLXR5cGUtdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSwyXSxbMyw5XSxbMTAsMTFdLFsxMiwxOV0sWzIwLDI3XSxbMjgsMzFdLFszMiwzNV0sWzM2LDQzXSxbNDQsNDddLFs0OCw1OV0sWzYwLDY1XSxbNjYsNzldLFs4MCw4MV0sWzgyLDgzXSxbODQsODZdLFs4Nyw5NF0sWzk1LDk1XSxbOTYsOTZdLFs5Nyw5N10sWzk4LDEwMF1dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5mb3JtKFxuICB7XG4gICAgYnV0dG9uMTogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBNZWxlZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgXG4gICAgICAgIHJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjbWVsZWUtbWlzc2lsZS13ZWFwb25cIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw0MF0sWzQxLDUwXSxbNTEsNTVdLFs1Niw1N10sWzU4LDU4XSxbNTksNzVdLFs3Niw4NV0sWzg2LDk1XSxbOTYsOThdLFs5OSwxMDBdXSkpfSksXG4gICAgYnV0dG9uMjogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBNaXNzaWxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCBcbiAgICAgICAgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNtZWxlZS1taXNzaWxlLXdlYXBvblwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDQwXSxbNDcsNThdLFs1OSw2NF0sWy0yLC0xXSxbLTIsLTFdLFs2NSw4Ml0sWzgzLDk0XSxbLTIsLTFdLFs5NSw5OF0sWzk5LDEwMF1dKSl9KSxcbiAgfSwgXG4gIHtcbiAgICB0ZW1wbGF0ZTogKGZvcm1QYXJ0cykgPT4gaHRsLmh0bWxgXG4gICAgIDxkaXY+XG4gICAgICAgPGRpdiBzdHlsZT1cIlxuICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMzAlIDMwJSA7XG4gICAgICAgICBjb2x1bW4tZ2FwOiAxMHB4XG4gICAgICAgXCI+XG4gICAgICAgICAke09iamVjdC52YWx1ZXMoZm9ybVBhcnRzKX1cbiAgICAgICA8L2Rpdj5cbiAgICAgPC9kaXY+YFxuICB9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjc3BlY2lhbC1lbmVteS10YWJsZVwiLCBcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSw2LDBdLFtbMSwxXSxbMiwyXSxbMywzXSxbNCw0XSxbNSw1XSxbNiw2XV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwgXG57dmFsdWU6IDAsIFxucmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNzcGVjaWFsLWFiaWxpdHktdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMjAsMF0sW1sxLDldLFsxMCwxMV0sWzEyLDEyXSxbMTMsMTZdLFsxNywxOV0sWzIwLDIwXV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmZvcm0oXG4gIHtcbiAgICBidXR0b24xOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPmQlIEFybW9yIFR5cGU8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI21hZ2ljLWFybW9yLXRhYmxlXCIsIFxuICAgICAgICAgICAgZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSxbWzEsOV0sWzEwLDI4XSxbMjksNDNdLFs0NCwxMDBdXSkpfSksXG4gICAgYnV0dG9uMjogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBBcm1vciBCb251czwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgXG4gICAgICAgIHJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjbWFnaWMtYXJtb3ItdGFibGVcIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw1MF0sWzUxLDgwXSxbODEsOTBdLFs5MSw5NV0sWzkyLDEwMF1dKSl9KSxcbiAgfSwgXG4gIHtcbiAgICB0ZW1wbGF0ZTogKGZvcm1QYXJ0cykgPT4gaHRsLmh0bWxgXG4gICAgIDxkaXY+XG4gICAgICAgPGRpdiBzdHlsZT1cIlxuICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNDAlIDQwJSA7XG4gICAgICAgICBjb2x1bW4tZ2FwOiAxMHB4XG4gICAgICAgXCI+XG4gICAgICAgICAke09iamVjdC52YWx1ZXMoZm9ybVBhcnRzKX1cbiAgICAgICA8L2Rpdj5cbiAgICAgPC9kaXY+YFxuICB9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjcG90aW9ucy1yYW5kb20tdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSwzXSwgWzQsNl0sIFs3LDldLCBbMTAsMTJdLCBbMTMsMTVdLCBbMTYsMThdLCBbMTksMjFdLCBbMjIsMjRdLCBbMjUsMjddLCBbMjgsMzBdLCBbMzEsMzRdLCBbMzUsMzddLCBbMzgsNDBdLCBbNDEsNDNdLCBbNDQsNDZdLCBbNDcsNDldLCBbNTAsNTJdLCBbNTMsNTVdLCBbNTYsNThdLCBbNTksNjJdLCBbNjMsNjVdLCBbNjYsNjhdLCBbNjksNzBdLCBbNzEsNzNdLCBbNzQsNzZdLCBbNzcsNzldLCBbODAsODJdLCBbODMsODVdLCBbODYsODhdLCBbODksOTFdLCBbOTIsOTRdLCBbOTUsOTddLCBbOTgsMTAwXV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwgXG57dmFsdWU6IDAsIFxucmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNzY3JvbGxzLXRhYmxlXCIsIFxuZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSxbWzEsM10sIFs0LDZdLCBbNyw4XSwgWzksOSBdLCBbMTAsMTVdLCBbMTYsMjBdLCBbMjEsMjVdLCBbMjYsMjldLCBbMzAsMzJdLCBbMzMsMzRdLCBbMzUsMzUgIF0sIFszNiw0MF0sIFs0MSw0Nl0sIFs0Nyw1Nl0sIFs1Nyw2MV0sIFs2Miw3NV0sIFs3Niw4NV0sIFs4Niw4OV0sIFs5MCw5Ml0sIFs5MywxMDBdXSkpfSlcblxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC05IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5JbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPlJvbGwgb24gVGFibGU8L2J1dHRvbj5gLCBcbnt2YWx1ZTogMCwgXG5yZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI3Njcm9sbC1sZXZlbC10YWJsZVwiLCBcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDMwXSwgWzMxLDU1XSwgWzU2LDc1XSwgWzc2LDg4XSwgWzg5LDk3XSwgWzk4LDk5XSwgWzEwMCwgMTAwXV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPlJvbGwgb24gVGFibGU8L2J1dHRvbj5gLCBcbnt2YWx1ZTogMCwgXG5yZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI3JpbmdzLXRhYmxlXCIsIFxuZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSxbWzEsNl0sWzcsMTJdLFsxMywxOV0sWzIwLDMwXSxbMzEsMzNdLFszNCwzOV0sWzQwLTQ0XSxbNDUsNTddLFs1OCw2Nl0sWzY3LTY4XSxbNjksIDcwXSwgWzcxLCA3MV0sIFs3Miw3M10sWzc0LDc1XSxbNzYsNzhdLFs3OSw4MV0sWzgyLDgzXSxbODQsODVdLFs4Ni05MF0sWzkxLDk3XSxbOTgsOThdLFs5OSwxMDBdXSkpfSlcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTEiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjd2FuZHMtdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw4XSxbOSwxM10sWzE0LDE3XSxbMTgsMjhdLFsyOSwzMF0sWzMxLDM0XSxbMzUsMzVdLFszNiw0MF0sWzQxLDQ1XSxbNDYsNTBdLFs1MSw1NV0sWzU2LDYwXSxbNjEsNjVdLFs2Niw3M10sWzc0LDc5XSxbODAsODRdLFs4NSw5Ml0sWzkzLDEwMF1dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2Zvcm0nKSJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuaW1wb3J0IHtnZW5lcmFsVGFibGVTZWxlY3QsIGhpZ2hsaWdodFRhYmxlUm93fSBmcm9tIFwiLi9jdXN0b20uanNcIlxuXG52aWV3b2YgZm9ybSA9IElucHV0cy5mb3JtKFxuICB7XG4gICAgYnV0dG9uMTogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Bbnk8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2FybW9yLXdlYXBvbi10YWJsZVwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDI1XSxbMjYsMzVdLFszNiw1NV0sWzU2LDg1XSxbODYsOTBdLFs5MSw5NV0sWzk2LDEwMF1dKSl9KSxcbiAgICBidXR0b24yOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPldlYXBvb24gb3IgQXJtb3I8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2FybW9yLXdlYXBvbi10YWJsZVwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDcwXSwgWzcxLDEwMF1dKSl9KSxcbiAgICBidXR0b24zOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPkFueSBFeGNlcHQgV2VhcG9uPC9idXR0b24+YCwge3ZhbHVlOiAwLCBcbiAgICAgICAgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNhcm1vci13ZWFwb24tdGFibGVcIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbLTIsLTFdLFsxLDEyXSxbMTMsNDBdLFs0MSw3OV0sWzgwLDg2XSxbODcsOTNdLFs5NCwxMDBdXSkpfSksXG4gIH0sIFxuICB7XG4gICAgdGVtcGxhdGU6IChmb3JtUGFydHMpID0+IGh0bC5odG1sYFxuICAgICA8ZGl2PlxuICAgICAgIDxkaXYgc3R5bGU9XCJcbiAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDE1JSAzMCUgMzAlO1xuICAgICAgICAgY29sdW1uLWdhcDogMTBweFxuICAgICAgIFwiPlxuICAgICAgICAgJHtPYmplY3QudmFsdWVzKGZvcm1QYXJ0cyl9XG4gICAgICAgPC9kaXY+XG4gICAgIDwvZGl2PmBcbiAgfSlcblxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjd2VhcG9uLXR5cGUtdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSwyXSxbMyw5XSxbMTAsMTFdLFsxMiwxOV0sWzIwLDI3XSxbMjgsMzFdLFszMiwzNV0sWzM2LDQzXSxbNDQsNDddLFs0OCw1OV0sWzYwLDY1XSxbNjYsNzldLFs4MCw4MV0sWzgyLDgzXSxbODQsODZdLFs4Nyw5NF0sWzk1LDk1XSxbOTYsOTZdLFs5Nyw5N10sWzk4LDEwMF1dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5mb3JtKFxuICB7XG4gICAgYnV0dG9uMTogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBNZWxlZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgXG4gICAgICAgIHJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjbWVsZWUtbWlzc2lsZS13ZWFwb25cIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw0MF0sWzQxLDUwXSxbNTEsNTVdLFs1Niw1N10sWzU4LDU4XSxbNTksNzVdLFs3Niw4NV0sWzg2LDk1XSxbOTYsOThdLFs5OSwxMDBdXSkpfSksXG4gICAgYnV0dG9uMjogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBNaXNzaWxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCBcbiAgICAgICAgcmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNtZWxlZS1taXNzaWxlLXdlYXBvblwiLCBcbiAgICAgICAgICAgIGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDQwXSxbNDcsNThdLFs1OSw2NF0sWy0yLC0xXSxbLTIsLTFdLFs2NSw4Ml0sWzgzLDk0XSxbLTIsLTFdLFs5NSw5OF0sWzk5LDEwMF1dKSl9KSxcbiAgfSwgXG4gIHtcbiAgICB0ZW1wbGF0ZTogKGZvcm1QYXJ0cykgPT4gaHRsLmh0bWxgXG4gICAgIDxkaXY+XG4gICAgICAgPGRpdiBzdHlsZT1cIlxuICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMzAlIDMwJSA7XG4gICAgICAgICBjb2x1bW4tZ2FwOiAxMHB4XG4gICAgICAgXCI+XG4gICAgICAgICAke09iamVjdC52YWx1ZXMoZm9ybVBhcnRzKX1cbiAgICAgICA8L2Rpdj5cbiAgICAgPC9kaXY+YFxuICB9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjc3BlY2lhbC1lbmVteS10YWJsZVwiLCBcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSw2LDBdLFtbMSwxXSxbMiwyXSxbMywzXSxbNCw0XSxbNSw1XSxbNiw2XV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwgXG57dmFsdWU6IDAsIFxucmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNzcGVjaWFsLWFiaWxpdHktdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMjAsMF0sW1sxLDldLFsxMCwxMV0sWzEyLDEyXSxbMTMsMTZdLFsxNywxOV0sWzIwLDIwXV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmZvcm0oXG4gIHtcbiAgICBidXR0b24xOiBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPmQlIEFybW9yIFR5cGU8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIFxuICAgICAgICByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI21hZ2ljLWFybW9yLXRhYmxlXCIsIFxuICAgICAgICAgICAgZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSxbWzEsOV0sWzEwLDI4XSxbMjksNDNdLFs0NCwxMDBdXSkpfSksXG4gICAgYnV0dG9uMjogSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5kJSBBcm1vciBCb251czwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgXG4gICAgICAgIHJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjbWFnaWMtYXJtb3ItdGFibGVcIiwgXG4gICAgICAgICAgICBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw1MF0sWzUxLDgwXSxbODEsOTBdLFs5MSw5NV0sWzkyLDEwMF1dKSl9KSxcbiAgfSwgXG4gIHtcbiAgICB0ZW1wbGF0ZTogKGZvcm1QYXJ0cykgPT4gaHRsLmh0bWxgXG4gICAgIDxkaXY+XG4gICAgICAgPGRpdiBzdHlsZT1cIlxuICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogNDAlIDQwJSA7XG4gICAgICAgICBjb2x1bW4tZ2FwOiAxMHB4XG4gICAgICAgXCI+XG4gICAgICAgICAke09iamVjdC52YWx1ZXMoZm9ybVBhcnRzKX1cbiAgICAgICA8L2Rpdj5cbiAgICAgPC9kaXY+YFxuICB9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTciLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPlJvbGwgb24gVGFibGU8L2J1dHRvbj5gLCBcbnt2YWx1ZTogMCwgXG5yZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI3BvdGlvbnMtcmFuZG9tLXRhYmxlXCIsIFxuZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLCAxMDAsIDBdLCBcbltcbiAgICBbMSwgM10sIFs0LCA2XSwgWzcsIDhdLCBbOSwgMTFdLCBbMTIsIDE0XSwgWzE1LCAxN10sIFsxOCwgMjBdLCBbMjEsIDIzXSwgXG4gICAgWzI0LCAyNl0sIFsyNywgMjldLCBbMzAsIDMyXSwgWzMzLCAzNl0sIFszNywgMzldLCBbNDAsIDQyXSwgWzQzLCA0NV0sIFs0NiwgNDhdLCBcbiAgICBbNDksIDUxXSwgWzUyLCA1NF0sIFs1NSwgNTddLCBbNTgsIDYwXSwgWzYxLCA2M10sIFs2NCwgNjZdLCBbNjcsIDY5XSwgWzcwLCA3Ml0sIFxuICAgIFs3MywgNzVdLCBbNzYsIDc4XSwgWzc5LCA4MV0sIFs4MiwgODRdLCBbODUsIDg3XSwgWzg4LCA5MF0sIFs5MSwgOTNdLCBbOTQsIDk2XSwgXG4gICAgWzk3LCAxMDBdXG5dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTgiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjc2Nyb2xscy10YWJsZVwiLCBcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDNdLCBbNCw2XSwgWzcsOF0sIFs5LDkgXSwgWzEwLDE1XSwgWzE2LDIwXSwgWzIxLDI1XSwgWzI2LDI5XSwgWzMwLDMyXSwgWzMzLDM0XSwgWzM1LDM1ICBdLCBbMzYsNDBdLCBbNDEsNDZdLCBbNDcsNTZdLCBbNTcsNjFdLCBbNjIsNzVdLCBbNzYsODVdLCBbODYsODldLCBbOTAsOTJdLCBbOTMsMTAwXV0pKX0pXG5cbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwgXG57dmFsdWU6IDAsIFxucmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNzY3JvbGwtbGV2ZWwtdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSwzMF0sIFszMSw1NV0sIFs1Niw3NV0sIFs3Niw4OF0sIFs4OSw5N10sIFs5OCw5OV0sIFsxMDAsIDEwMF1dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTEwIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwgXG57dmFsdWU6IDAsIFxucmVkdWNlOiAoKSA9PiBoaWdobGlnaHRUYWJsZVJvdyhcIiNyaW5ncy10YWJsZVwiLCBcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDZdLFs3LDEyXSxbMTMsMTldLFsyMCwzMF0sWzMxLDMzXSxbMzQsMzldLFs0MC00NF0sWzQ1LDU3XSxbNTgsNjZdLFs2Ny02OF0sWzY5LCA3MF0sIFs3MSwgNzFdLCBbNzIsNzNdLFs3NCw3NV0sWzc2LDc4XSxbNzksODFdLFs4Miw4M10sWzg0LDg1XSxbODYtOTBdLFs5MSw5N10sWzk4LDk4XSxbOTksMTAwXV0pKX0pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTExIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5JbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPlJvbGwgb24gVGFibGU8L2J1dHRvbj5gLCBcbnt2YWx1ZTogMCwgXG5yZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI3dhbmRzLXRhYmxlXCIsIFxuZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSxbWzEsOF0sWzksMTNdLFsxNCwxN10sWzE4LDI4XSxbMjksMzBdLFszMSwzNF0sWzM1LDM1XSxbMzYsNDBdLFs0MSw0NV0sWzQ2LDUwXSxbNTEsNTVdLFs1Niw2MF0sWzYxLDY1XSxbNjYsNzNdLFs3NCw3OV0sWzgwLDg0XSxbODUsOTJdLFs5MywxMDBdXSkpfSlcblxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdmb3JtJykifV19
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

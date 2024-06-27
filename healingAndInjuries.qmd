@@ -163,6 +163,10 @@ Those who have suffered energy drain typically appear gaunt and haggard, a notic
 ### Incorporeal
 - Having no physical body. Incorporeal creatures are immune to all nonmagical attack forms. Only other incorporeal creatures, +1 or better magic weapons, spells, spell-like effects, or supernatural effects can harm an incorporeal creature.
 
+### Insane
+
+- A creature suffering from insanity loses the ability to think rationally or understand what is happening around them. They may experience hallucinations, delusions, and extreme paranoia. An insane creature is incapable of performing any deliberate actions and cannot distinguish friend from foe. They may exhibit unpredictable behavior, including attacking allies or fleeing from nonexistent threats. Insanity typically imposes a severe penalty on all skill checks, attack rolls, and saving throws, usually around -6 or more, reflecting the complete disarray of the creature's mental state. The exact nature of an insane creature's behavior can vary, but it is always detrimental and chaotic. This condition can only be cured by powerful magic, such as a Heal spell or similar effects.
+
 ### Invisible
 - An invisible creature is visually undetectable. An invisible creature gains a +2 bonus on attack rolls against sighted opponents and ignores its opponents’ Dexterity bonuses to AC (if any). (See Invisibility, under Special Abilities.)
 

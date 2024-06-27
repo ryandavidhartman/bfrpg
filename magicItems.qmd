@@ -83,7 +83,7 @@ Alchemist’s fire is a concoction of volatile liquids that ignite upon exposure
 
 Upon impact, every creature within 10 feet of the splash point takes 1 point of fire damage. Additionally, on the following round after a direct hit, the target sustains an additional 1d6 points of fire damage. The affected creature can use a full-round action to attempt to extinguish the flames before taking this additional damage.
 
-### Cat's Grace
+### Potion of Cat's Grace
 
 Cat's Grace is a potent elixir that temporarily enhances Dexterity to a score of 20. While under its effects, the drinker gains the following benefits:
 
@@ -95,92 +95,92 @@ Cat's Grace is a potent elixir that temporarily enhances Dexterity to a score of
 | Armor Class (AC)         | +5           |
 
 
-### Clairaudience
+### Potion of Clairaudience
 
 The Clairaudience potion enables the drinker to hear sounds from another area up to 60 feet away through the ears of a living creature in that area. This effect functions similarly to the spell [clairvoyance](allSpells.qmd#clairvoyance).
 
 
-### Clairvoyance
+### Potion of Clairvoyance
 
 This potion grants the imbiber the effect of the [clairvoyance](allSpells.qmd#clairvoyance) spell.
 
-### Cold Resistance:
+### Potion of Cold Resistance:
 
 This potion grants the imbiber the power of the spell [resist cold](allSpells.qmd#resist-cold).
 
-### Control Animal
+### Potion of Control Animal
 
 This potion functions like a **control human** potion, but affects only normal, non-magical animals.
 
-### Control Dragon
+### Potion of Control Dragon
 
 This potion functions like a **control human** potion, but affects only dragons.
 
-### Control Giant
+### Potion of Control Giant
 
 This potion functions like a **control human** potion, but affects only giants.
 
-### Control Human
+### Potion of Control Human
 
 This potion allows the drinker to charm a human, demi-human, or humanoid by gazing at them. The effect functions like the [charm person](allSpells.qmd#charm-person) spell. If the charm is resisted, the drinker can attempt to charm up to two more targets before the potion's benefit is exhausted.
 
-### Control Plant
+### Potion of Control Plant
 
 This potion grants the drinker control over one or more plants or plant creatures within a 10' square area up to 50' away. Normal plants become animated, having a movement rate of 10', and obey the drinker's commands. If ordered to attack, only the largest plants can do any real harm, attacking with a +0 attack bonus and inflicting 1d4 points of damage per hit. Affected plant creatures (who fail to save vs. Spells) can understand the drinker, and behave as if under a [charm monster](allSpells.qmd#charm-monster) spell.
 
-### Control Undead
+### Potion of Control Undead
 
 This potion grants the drinker command of 3d6 hit dice of undead monsters. A save vs. Spells is allowed to resist the effect. Mindless undead follow the drinker's commands exactly; free-willed undead act as if under a [charm person](allSpells.qmd#charm-person) spell.
 
-### Delusion:
+### Potion of Delusion:
 
 This **cursed** potion will appear, if tested or analyzed, to be one of the other potions (other than poison). When imbibed, the drinker will briefly believe he has received the benefits of the "other" potion, but the illusion will be swiftly exposed...
 
-### Diminution
+### Potion of Diminution
 
 This potion reduces the drinker and all items worn or carried to one-twelfth of his or her original height (so that a 6' tall character becomes 6" tall). The drinker's weight is divided by 1,728; this makes an armed warrior weigh less than 2.5 ounces. The affected creature cannot make an effective attack against any creature bigger than a house cat, but may be able to slip under doors or into cracks and has a 90% chance of moving about undetected (both in terms of sound and vision).
 
-### ESP
+### Potion of ESP
 
 This potion grants the power of the [ESP](allSpells.qmd#esp) spell.
 
-### Extra Healing
+### Potion of Extra Healing
 
 The imbiber of this potion receives 2d8+2 hit points of healing.
 
-### Fire Resistance
+### Potion of Fire Resistance
 
 This potion grants the imbiber the power of the spell [resist fire](allSpells.qmd#resist-fire).
 
-### Flying
+### Potion of Flying
 
 This spell grants the power of the spell [fly](allSpells.qmd#fly).
 
-### Gaseous Form
+### Potion of Gaseous Form
 
 The drinker and all of their gear become insubstantial, misty, and translucent. They become immune to non-magical weapons and have an Armor Class of 22 against magical weapons. The imbiber can't attack or cast spells while in gaseous form and loses supernatural abilities. A gaseous creature can fly at a speed of 10 feet and can pass through small holes or narrow openings, including cracks, as long as the potion persists. However, the gaseous creature is subject to the effects of wind and cannot enter water or other liquids. Objects cannot be manipulated in this form, even those brought along when the potion was imbibed. The drinker cannot resume material form at will but must wait for the potion to expire. Alternatively, the potion may be consumed in thirds, with each dose lasting 1d4+1 turns.
 
-### Giant Strength
+### Potion of Giant Strength
 
 This potion grants the imbiber the Strength of 21. For the duration, the drinker gains a bonus of +5 on attack and damage rolls with melee or thrown weapons, and can throw large stones just as a [Stone Giant](monstersAll.qmd#giant-stone)) can.
 
-### Growth
+### Potion of Growth
 
 The drinker of this potion (with all equipment worn or carried) becomes twice normal height and eight times normal weight. The enlarged character is treated as having the Strength of a [Stone Giant](monstersAll.qmd#giant-stone) (but without the rock-throwing ability), gaining +5 on attack and damage rolls.
 
-### Healing
+### Potion of Healing
 
 The imbiber of this potion receives 1d6+1 hit points of healing (as the spell [cure light wounds](allSpells.qmd#cure-light-wounds)).
 
-### Heroism
+### Potion of Heroism
 
 This potion improves the fighting ability of the drinker. Fighters of less than 3^rd^ level gain +3 to attack bonus as well as gaining 3 hit dice. Fighters of 4^th^ to 5^th^ level gain +2 to attack bonus and 2 hit dice. Fighters of 6^th^ or 7^th^ level gain +1 to attack bonus and 1 hit die. Fighters of 8^th^ level or higher, as well as non-Fighter class characters, gain no hit dice, but still receive +1 to attack bonus. Hit dice gained are only temporary, and damage received is deducted from those hit dice first; any that remain when the potion expires are simply lost.
 
-### Invisibility
+### Potion of Invisibility
 
 This potion makes the imbiber [invisible](allSpells.qmd#invisibility) (as the spell). This potion may be quaffed in thirds, in which case each drink lasts 1d4+1 turns.
 
-### Invulnerability
+### Potion of Invulnerability
 
 This potion grants a bonus of +2 to Armor Class.
 
@@ -188,11 +188,11 @@ This potion grants a bonus of +2 to Armor Class.
 
 This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease. The ointment will remove scars and reattach knocked out teeth.
 
-### Levitation
+### Potion of Levitation
 
 This potion grants the power of the spell [levitate](allSpells.qmd#levitate).
 
-### Longevity
+### Potion of Longevity
 
 The drinker of this potion becomes younger by 1d10 years.
 
@@ -200,22 +200,22 @@ The drinker of this potion becomes younger by 1d10 years.
 
 This isn't a potion at all, it's a trap. The drinker must save vs. Poison or die, even if only a sip was imbibed.
 
-### Polymorph Self
+### Potion of Polymorph Self
 This potion grants the power of polymorph self spell.
 
-### Speed
+### Potion of Speed
 
 This potion gives the drinker the benefits of the spell [haste](allSpells.qmd#haste).
 
-### Total Healing
+### Potion of Total Healing
 
 The imbiber of this potion is fully restored all hit points lost.
 
-### Treasure Finding
+### Potion of Treasure Finding
 
 The imbiber of this potion will immediately know the direction and approximate distance to the largest treasure hoard in a 300' spherical radius. This potion specifically detects platinum, gold, electrum, silver, and copper; gemstones and magic items are not detected.
 
-### Water Breathing
+### Potion of Water Breathing
 
 The imbiber breathes underwater as though it was air for 1d6+6 turns.
 
@@ -253,41 +253,41 @@ Treasure Maps are generally non-magical. They must be created by the DM, althoug
 
 A ring is a circular metal band worn on the finger (no more than one ring per hand) that has a spell-like power (often a constant effect that affects the wearer).
 
-### Control Animal
+### Ring of Control Animal
 
 The wearer of this ring can charm up to 6 hit dice of animals. The effect works much like a [charm person](allSpells.qmd#charm-person) spell, but only affects animals (including giant-sized animals, but excluding fantastic creatures as well as anything more intelligent than a dog or cat). The wearer can activate the power at will, targeting any animal within 60' that he or she can see. The wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
 
-### Control Human
+### Ring of Control Human
 
 The wearer of this ring may cast the spell [charm person](allSpells.qmd#charm-person) at any target he or she can see within 60'. The wearer can use this power once per round, at will, but cannot control more than 6 hit dice of creatures at a time; however, the wearer may choose to end the effect for one or more controlled creatures at any time, in order to "free" enough hit dice to control a new target.
 
-### Control Plant
+### Ring of Control Plant
 
 The wearer of this ring may create an effect equivalent to a [potion of plant control](magicItems.qmd#control-plant)) at will, affecting plants or plant creatures within 60' that he or she can see. The effect lasts as long as the wearer remains within 60' of the plants or plant creatures. A saving throw is allowed just as for the potion.
 
-### Delusion
+### Ring of Delusion
 
 This ring appears to be some other sort of ring (roll on the [rings table](randomMagicItems.qmd#rings) to determine what sort). Whoever wears it believes it is working, and behaves thus (so a character who believes he is wearing a **ring of invisibility** will believe himself to actually be invisible). Unlike the potion of the same name, the ring's effect is not dispelled by the wearer taking damage; in fact, the only way to rid a character of this cursed item is with the spell [remove curse](allSpells.qmd#remove-curse).
 
-### Djinni Summoning
+### Ring of Djinni Summoning
 
 This ring serves as a special gate by means of which a specific [djinni](monstersAll.qmd#djinni) can be called from the Elemental Plane of Air. When the ring is rubbed, the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes non-magical and worthless.
 
-### Eibon
+### Ring of Eibon
 
 The wearer can spend 3 charges to [Misty Step](allSpells.qmd#misty-step).
 
 The ring is made of an amber gold and set with a large purple gem, somber and smoldering, of which the like is not easily found in the OnceWas.
 
-### Fire Resistance
+### Ring of Fire Resistance
 
 The wearer of this ring receives protection as the spell [resist fire](allSpells.qmd#resist-fire), but the protection works continually.
 
-### Free Action
+### Ring of Free Action
 
 This ring enables the wearer to move and attack freely and normally even when attacked by a [web](allSpells.qmd#web), [hold](allSpells.qmd#hold-person), or [slow](allSpells.qmd#haste) spell, or even while under water. The spells simply have no effect. While under water, the individual moves at normal (surface) speed and does full damage even with cutting weapons (like axes and scimitars) and with smashing weapons (like flails, hammers, and maces), insofar as the weapon used is held rather than hurled. This will not, however, enable breathing under water without further appropriate magic.
 
-### Invisibility
+### Ring of Invisibility
 
 By activating this simple silver ring, the wearer becomes invisible, vanishing from sight, including Darkvision.  Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. 
 
@@ -295,15 +295,15 @@ Light, however, never becomes invisible, although a source of light can become s
 
 If the invisibility is dispelled if the wearer attacks any creature or casts any spell.  Actions (other than spell casting) directed at unattended objects do not break the spell. Causing harm indirectly is not an attack.  Once dispelled, the ring may not be reactivated for one full turn.
 
-### Protection
+### Ring of Protection
 
 This ring offers continual magical protection in the form of a bonus to the Armor Class of the wearer (varying from +1 to +3). This bonus is also applied to the wearer's saving throw die rolls.
 
-### Regeneration
+### Ring of Regeneration
 
 This ring grants the wearer the power of regeneration, exactly as described in the description of the [troll](monstersAll.qmd#troll-and-trollwife), including the weakness with respect to acid and fire damage. However, only damage taken while wearing the ring is regenerated.
 
-### Second Chances
+### Ring of Second Chances
 
 This diamond ring with a platinum band allows (once per day) the user to reroll any dice roll and keep the higher roll.
 
@@ -311,7 +311,7 @@ This diamond ring with a platinum band allows (once per day) the user to reroll 
 
  This gold ring generally has 2d10 charges. 1 to 3 charges can be expended as an action. For every charge expended, a glowing mote of light is launched from the ring at a visible target at a point you within 60 feet. Each creature within a 15-foot cube originating from that point is showered in sparks for 5d4 fire damage on a failed save, or half as much damage on a successful one.
 
-### Spell Storing
+### Ring of Spell Storing
 
 A ring of spell storing contains a number of spells (either divine or arcane) that any wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. Any class may wear and use this ring, but it can only be recharged by a spell caster casting the appropriate spell into it.
 
@@ -329,11 +329,11 @@ A ring found in a treasure hoard may be completely charged, or discharged, or pa
 | 92-96 | 6   | 98-00 | 6^th^ |
 | 97-00 | 7   |  |  |
 
-### Spell Turning
+### Ring of Spell Turning
 
 This ring reflects spells cast directly at the wearer, but not area effect spells, back at the caster; so a [hold person](allSpells.qmd#hold-person) spell would be reflected, but not a [fireball](allSpells.qmd#fireball). It will reflect up to 2d10 spells levels before its power is exhausted.
 
-### Telekinesis
+### Ring of Telekinesis
 
 The wearer of this ring can move objects or creatures by concentration alone. An object weighing no more than 600 pounds can be moved up to 20 feet per round.  A creature can negate the effect on itself or an object it holds or has on its body with a successful save vs. Death Ray.
 
@@ -341,18 +341,18 @@ In order to use this power, the caster must maintain concentration, moving no mo
 
 The effect may be used as many times per day as the wearer wishes, but lasts only as long as the wearer concentrates on it.
 
-### Water Walking
+### Ring of Water Walking
 
 This ring allows the wearer to walk on any liquid as if it were firm ground. Mud, oil, snow, quicksand, running water, ice, and even lava can be traversed easily, since the wearer's feet hover an inch or two above the surface. Molten lava will still cause the wearer damage from the heat since he or she is still near it. The wearer can walk, run, or otherwise move across the surface as if it were normal ground.
 
-### Weakness
+### Ring of Weakness
 Whoever puts this ring on is cursed; his or her Strength score is reduced immediately to 3. The ring can only be removed with [remove curse](allSpells.qmd#remove-curse).
 
-### Wishes
+### Ring of Wishes
 
 A ring of wishes contains the power to grant wishes to the wearer. 1d4 wishes will remain within the ring when it is found. The DM must adjudicate all wishes, and instructions are given in the **Dungeon Master ** section regarding this.
 
-### X-Ray Vision
+### Ring of X-Ray Vision
 
 On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead or gold blocks the vision. The ring may be used three times per day, and each use lasts at most one turn (or until the wearer ceases to concentrate upon it).
 
@@ -360,49 +360,170 @@ On command, this ring gives its possessor the ability to see into and through so
 
 ## Wands, Staves and Rods
 
-A wand is a short stick, generally 12 to 18 inches long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges, and each use of the wand depletes one of those charges; a wand found in a treasure hoard will have 2d10 charges remaining. If a wand generates an effect equivalent to a spell, assume the spell functions as if cast by a 6^th^ level caster, or the lowest level caster who could cast that spell (whichever is higher), unless otherwise noted. Wands are generally usable only by Magic-Users. Saving throws are rolled as normal, but on the Magic Wands column rather than the Spells column.
+**Wands**
+A wand is a short stick, generally 12 to 18 inches long, imbued with the power to cast a specific spell or spell-like effect. A newly created wand has 20 charges, and each use of the wand depletes one of those charges. A wand found in a treasure hoard will have 2d10 charges remaining. If a wand generates an effect equivalent to a spell, assume the spell functions as if cast by a 6th level caster, or the lowest level caster who could cast that spell (whichever is higher), unless otherwise noted. Wands are generally usable only by Magic-Users. Saving throws are rolled as normal but use the Magic Wands column rather than the Spells column.
 
-A staff has a number of different (but often related) spell effects. A newly created staff has 30 charges, and each use of the staff depletes one or more of those charges. A staff found in a treasure hoard will have 3d10 charges remaining. Spell effects generated by a staff operate at 8^th^ level, or the lowest caster level the spell could be cast by, whichever is higher, unless otherwise stated. Staves are usable only by Magic-Users, except where noted. Saving throws against magic from a staff are rolled on the Spells column.
+**Staves**
+A staff has a number of different (but often related) spell effects. A newly created staff has 30 charges, and each use of the staff depletes one or more of those charges. A staff found in a treasure hoard will have 3d10 charges remaining. Spell effects generated by a staff operate at 8th level, or the lowest caster level the spell could be cast by, whichever is higher, unless otherwise stated. Staves are usable only by Magic-Users, except where noted. Saving throws against magic from a staff are rolled on the Spells column.
 
+**Rods**
 A rod is a scepter-like item with a special power unlike that of any known spell. Rods are normally usable by any class.
 
-**Rod of Cancellation:** This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. If the item is held by a creature, an attack roll is needed to touch it. Upon draining an item, the rod itself becomes brittle and cannot be used again. Drained items are only restorable by a **wish**.
+### Rod of Cancellation
 
-**Snake Staff:** This item is a walking staff +1. When used by a Cleric, the user may command the staff to transform into a constrictor snake (instead of causing damage) on a successful hit. The snake will wrap around a target up to man sized and hold him or her fast for 1d4 turns, unless a save vs. Spells is made. The snake does not attack in any other way, nor cause any damage. The snake may be recalled by the user at any point, in which case it returns to his or her hand and returns to staff form. It also returns in this way when the duration expires, or if the save is made. The snake has Armor Class 15, moves 20' per round and has 20 hit points; any hit points of damage taken are healed completely when the snake returns to staff form; if killed in snake form, the magic is destroyed and it turns into a broken stick. The staff may be used any number of times per day, and neither has nor uses charges.
+This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties. If the item is held by a creature, an attack roll is needed to touch it. Upon draining an item, the rod itself becomes brittle and cannot be used again. Drained items are only restorable by a **wish**.
 
-**Staff of Commanding:** This staff can cast **charm person** and **charm monster** spells, and can grant a power equivalent to a **potion of plant control**. Each function uses one charge.
+### Snake Staff
 
-**Staff of Healing:** This staff can heal 1d6+1 hit points per charge expended, as the spell **cure light wounds**. Alternately, with an expenditure of two charges, the staff can cast **cure disease**. This staff is only usable by a Cleric.
+This item is a walking staff +1. When used by a Cleric, the user may command the staff to transform into a constrictor snake (instead of causing damage) on a successful hit. The snake will wrap around a target up to man-sized and hold them fast for 1d4 turns, unless a save vs. Spells is made. The snake does not attack in any other way, nor cause any damage. The snake may be recalled by the user at any point, in which case it returns to their hand and reverts to staff form. It also returns in this way when the duration expires, or if the save is made. The snake has Armor Class 15, moves 20' per round, and has 20 hit points; any hit points of damage taken are healed completely when the snake returns to staff form. If killed in snake form, the magic is destroyed and it turns into a broken stick. The staff may be used any number of times per day and neither has nor uses charges.
 
-**Staff of Power:** This is a very potent magic item, with offensive and defensive abilities. It is usually topped with a glistening gem, its shaft straight and smooth. It has the following powers costing one charge per use: **lightning bolt**(6d6 damage), **fireball** (6d6 damage), **cone of cold** (as the wand, for 6d6 damage), **continual light**, and **telekinesis** (as the ring, lasting at most 1d6 turns). The staff is also a +2 walking staff, and can be used exactly as a **staff of striking**. A staff of power can be used for a retributive strike, requiring it to be broken by its wielder. All charges currently in the staff are instantly released in a 30' radius, doing 1d6 damage per charge remaining (save vs. Spells for half damage). All within the area, including the wielder, are affected by this.
+### Staff of Commanding
+
+This staff can cast [charm person](allSpells.qmd#charm-person) and [charm monster](allSpells.qmd#charm-monster) spells, and can grant a power equivalent to a [potion of control plant](magicItems.qmd#potion-of-control-plant). Each function uses one charge.
+
+### Staff of Healing
+
+This staff can heal 1d6+1 hit points per charge expended, as the spell [cure light wounds](allSpells.qmd#cure-light-wounds). Alternately, with an expenditure of two charges, the staff can cast [cure disease](allSpells.qmd#cure-disease). This staff is only usable by a Cleric.
+
+### Staff of Life
+
+The staff is made of white oak and carved to resemble braided bands of holly and oak boughs, twisted around a unicorn’s horn at the end. It has 7 charges. Only a Cleric or Paladin can only wield this staff.
+
+[Heal Spell](allSpells.qmd#heal) (per 1 charge)
+
+Heal enables the caster to wipe away injury and afflictions.  It immediately ends any and all of the following adverse conditions affecting the target: [ability damage](healingAndInjuries.qmd#ability-damaged-and-constitution-point-losses), [blindness](healingAndInjuries.qmd#blindness), [confusion](healingAndInjuries.qmd#confused), [deafness](healingAndInjuries.qmd#deafness), [disease](healingAndInjuries.qmd#diseased), [exhaustion or fatigue](healingAndInjuries.qmd#exhausted), [feeblemind](allSpells.qmd#feeblemind), [insanity](healingAndInjuries.qmd#insane), [nausea](healingAndInjuries.qmd#nauseated), and [poison](healingAndInjuries.qmd#poisoned).  It also restores all but 1d4 of the target's hit points.  Heal does not remove [negative levels](healingAndInjuries.qmd#energy-drain) or restore permanently drained ability score points.
+
+[Resurrection](allSpells.qmd#resurrection) (per 5 charges)                                
+
+This restores life to a deceased creature. A creature can be raised that has been dead for no longer than 6 months. The full body is not required; only a small portion is required, but that portion must have been part of the subject’s body at the time of death. (The dust left from a disintegrate spell counts as the required small portion.) A whole new body is created, so it will be at the peak of health, with full hit points, and all spells prepared at the time of death.
+
+This is still an ordeal, however. The subject of the spell loses one level (or 1 hit die) when it is resurrected, permanently (i.e. it does not accrue a negative level, but rather loses an actual level, being reduced to the minimum number of experience points required for the previous level). If the subject is 1st level, it loses 1 point of Constitution instead (if this would reduce its Constitution to 0 or less, it can’t be raised). This level, hit dice, or Constitution loss cannot be repaired by any means, though of course the character may gain levels and hit dice in the normal fashion.
+
+A creature which has become undead can be resurrected as long as the undead creature has been destroyed. Constructs and elementals cannot be resurrected.
+
+This item cannot bring back a creature that has died of old age.
+
+### Staff of Power
+
+This is a very potent magic item, with offensive and defensive abilities. It is usually topped with a glistening gem, its shaft straight and smooth. It has the following powers costing one charge per use: [lightning bolt](allSpells.qmd#lightning-bolt)(6d6 damage), [fireball](allSpells.qmd#fireball) (6d6 damage), [cone of cold](magicItems.qmd#wand-of-cold) (as the wand, for 6d6 damage), [continual light](allSpells.qmd#continual-light), and [telekinesis](magicItems.qmd#ring-of-telekinesis) (as the ring, lasting at most 1d6 turns). The staff is also a +2 walking staff, and can be used exactly as a [staff of striking](magicItems.qmd#staff-of-striking). 
+
+A staff of power can be used for a **retributive strike**, requiring it to be broken by its wielder. All charges currently in the staff are instantly released in a 30' radius, doing 1d6 damage per charge remaining (save vs. Spells for half damage). All within the area, including the wielder, are affected by this.
 
 After all charges are used up from the staff, it remains a +2 walking staff. Once empty of charges, it cannot be used for a retributive strike.
 
-**Staff of Striking:** This staff has no attack bonus, but is treated as a +1 weapon with respect to what sorts of monsters it can hit (and is usable by any class in that mode). This staff's primary power may only be used if wielded by a Cleric: By uttering a command word, the Cleric may create an effect similar to the spell **striking**. Expenditure of one charge adds 1d6 damage to the weapon's next strike; expenditure of two charges adds 2d6, and expenditure of three charges adds 3d6 damage. If the weapon is not successfully used after the command word has been spoken, the effect dissipates after one turn.
+### Staff of Storm Clouds
 
-**Staff of Wizardry:** This staff is equivalent to the** staff of power**, above, and has the following powers as well: **invisibility**, **passwall**, **web**, and **conjure elementals** (as the spell, but conjuring staff elementals as described in the **Monsters** section). These powers each use one charge when activated.
+This wooden staff is carved with the images of rolling thunderclouds. It emits the smell of ozone, and while holding it, you can hear the faint rumble of distant storm clouds within.
 
-**Wand of Cold:** This wand generates a conical blast of cold doing 6d8 damage (save vs. Magic Wands for half damage). The cone spreads from the tip of the wand to a width of 30' at a distance of 40' away.
+[Gust of Wind](allSpells.qmd#gust-of-wind) (1 charge)
+Range: 10 ft. x 50 yds, Duration: 5 rounds
+The force of this gust of wind (about 30 m.p.h.) is sufficient to extinguish candles, torches, and similar unprotected flames. It causes protected flames—such as those of lanterns—to dance wildly and has a 25% chance to extinguish even such lights. It also fans large fires outward 1d6 feet in the direction of the wind's movement. It forces back small flying creatures 1d6 x 10 yards and causes man-sized beings to be held motionless if attempting to move against its force. It slows larger-than-man-sized flying creatures by 50% for one round. It blows over light objects, disperses most vapors, and forces away gaseous or unsecured levitating creatures.
+Its path is a constant 10 feet wide, by 10 yards long per level of experience of the caster (for example, an 8th-level magic-user causes a gust of wind that travels 80 yards).
 
-**Wand of Enemy Detection:** The effect of this wand is to make all enemies of the user within 60' glow with a greenish white light for one round. Even hidden or invisible enemies glow in this way, revealing them, but enemies completely out of sight (such as behind a wall) may not be seen by the user. An "enemy" is any creature which is thinking of or otherwise intending to harm the user; also, all undead monsters and animated constructs within range will glow in this way regardless of intent or thoughts (or lack thereof).
+[Forked Lightning](allSpells.qmd#forked-lightning) (2 charges)
+Range: 50 feet
+Three arcs of electricity spring from the staff to strike separate targets within 20 feet of each other. For each bolt, the wielder must roll to hit their chosen target, ignoring any worn armor; metal-armored targets get a +4 bonus to hit (any magical bonuses still apply). Inanimate objects cannot be damaged by this spell. Each bolt deals 1d6 + 2 points of electricity damage.
+If there are fewer than the maximum allowed targets, then the extra bolts do not appear and are wasted; a single bolt can only strike a single creature.
+There is no save to resist the spell once struck by a bolt, but creatures with any sort of resistance to electrical attacks will suffer no damage whatsoever.
 
-**Wand of Fear:** This wand generates the effect of the spell **cause fear** (the reverse of the spell **remove fear**).
+[Thunderstrike](allSpells.qmd#call-lightning) (3 charges)
+Range: 150 feet, Duration: 5 rounds
+The wielder calls down a 5-foot wide, 30-foot long vertical bolt of lightning that deals 3d6 points of electricity damage. The bolt of lightning flashes down in a vertical stroke at whichever target point the caster chooses within the spell’s range (measured from the caster's position at the time of casting). Any creature in the target area or in the path of the bolt is affected; a successful save vs. Spells reduces damage taken by half.
+All within a 60-foot area must make a second save against paralyzation or be deafened for 1d6 turns.
 
-**Wand of Fireballs:** This wand generates **fireball**s, exactly as the spell, doing 6d6 damage.
+[Ice Storm](allSpells.qmd#ice-storm) (4 charges)
+Range: 450 feet, Duration: 1 round
+The staff causes great magical hailstones to pound down for 1 full round, dealing 5d6 points of damage to every creature in a 30-foot radius around the target spot; a successful save vs. Spells will reduce damage by half. The ice storm fills a vertical volume of 40 feet, so creatures higher than that distance above the target spot are unaffected. A -20% penalty applies to each Listen roll made within the ice storm’s effect, and all land movement within its area is at half speed. At the end of the duration, the hail disappears, leaving no aftereffects (other than the damage dealt). Any creature naturally resistant to cold takes half damage (or one-quarter damage if it makes its save).
 
-**Wand of Illusion:** This wand allows the user to create illusions equivalent to the spell **phantasmal force**.
+### Staff of Striking:
 
-**Wand of Lightning Bolts:** This wand generates **lightning bolts**, exactly as the spell, doing 6d6 damage.
+This staff has no attack bonus, but is treated as a +1 weapon with respect to what sorts of monsters it can hit (and is usable by any class in that mode). This staff's primary power may only be used if wielded by a Cleric: By uttering a command word, the Cleric may create an effect similar to the spell [striking](allSpells.qmd#striking). Expenditure of one charge adds 1d6 damage to the weapon's next strike; expenditure of two charges adds 2d6, and expenditure of three charges adds 3d6 damage. If the weapon is not successfully used after the command word has been spoken, the effect dissipates after one turn.
 
-**Wand of Magic Detection:** This wand grants the user a power equivalent to the spell **detect magic**.
+### Staff of Traveling and Leaping
 
-**Wand of Paralyzation:** This wand creates the effect of the spell **hold person**.
+This staff increases the wearer’s base land speed by an additional 10' per round.  In addition to this traveling ability, the staff allows the bearer to make great leaps, jumping up to 10' high and/or 30' across.
 
-**Wand of Polymorph:** This wand can be used to cast either **polymorph self** or **polymorph other**.
+### Staff of Withering
 
-**Wand of Secret Door Detection:** This wand grants the user a power similar to the spell **find traps**, but which reveals secret doors rather than traps.
+The staff functioned as a +2 quarterstaff. On a successful hit a charge can be expended to deal 2d10 +2 necrotic damage to the target. In addition, the target ages 10 years (save versus Wands for half).
 
-**Wand of Trap Detection:** This wand grants the user a power equivalent to the spell **find traps**.
+### Staff of Wizardry
+
+This staff is equivalent to the [Staff of Power](magicItems.qmd#staff-of-power), above, and has the following powers as well: [invisibility](allSpells.qmd#invisibility), [passwall](allSpells.qmd#passwall), [web](allSpells.qmd#web), and [conjure elementals](allSpells.qmd#conjure-elemental) These powers each use one charge when activated.
+
+
+### Quarterstaff of the Abbot
+
+This staff appears as a normal, unadorned wooden quarterstaff +1, but when the weapon is used in combat, it endows its possessor with one of the following attacks or feats:
+
+**Sunder**
+- On a successful hit, a man-sized opponent must save versus a DC 14 + Dexterity or have their non-magical weapon destroyed.
+
+**Trip**
+- On a successful hit, a man-sized opponent must save versus a DC 14 + Dexterity or be tripped.
+
+**Disarm**
+- On a successful hit, a man-sized opponent must save versus a DC 14 + Dexterity or be disarmed.
+
+**Improved Parry and Dodge**
+- This is a defensive action instead of an attack that gives a +3 bonus to AC.
+
+### Wand of Cold
+
+This wand generates a conical blast of cold doing 6d8 damage (save vs. Magic Wands for half damage). The cone spreads from the tip of the wand to a width of 30' at a distance of 40' away.
+
+### Wand of Enemy Detection
+
+The effect of this wand is to make all enemies of the user within 60' glow with a greenish white light for one round. Even hidden or invisible enemies glow in this way, revealing them, but enemies completely out of sight (such as behind a wall) may not be seen by the user. An "enemy" is any creature which is thinking of or otherwise intending to harm the user; also, all undead monsters and animated constructs within range will glow in this way regardless of intent or thoughts (or lack thereof).
+
+### Wand of Fear
+
+This wand generates the effect of the spell [cause fear](allSpells.qmd#remove-fear) (the reverse of the spell **remove fear**).
+
+### Wand of Fireballs
+
+This wand generates [fireball's](allSpells.qmd#fireball), exactly as the spell, doing 6d6 damage.
+
+### Wand of Illusion
+
+This wand allows the user to create illusions equivalent to the spell [phantasmal force](allSpells.qmd#phantasmal-force).
+
+### Wand of Lightning Bolts
+
+This wand generates [lightning bolts](allSpells.qmd#lightning-bolt), exactly as the spell, doing 6d6 damage.
+
+### Wand of Magic Detection
+
+This wand grants the user a power equivalent to the spell [detect magic](allSpells.qmd#detect-magic).
+
+### Wand of Paralyzation
+
+This wand creates the effect of the spell [hold person](allSpells.qmd#hold-person).
+
+### Wand of Polymorph
+
+This wand can be used to cast either [polymorph self](allSpells.qmd#polymorph-self) or [polymorph other](allSpells.qmd#polymorph-self).
+
+### Wand of Secret Door Detection
+
+This wand grants the user a power similar to the spell [find traps](allSpells.qmd#find-traps), but which reveals secret doors rather than traps.
+
+### Wand of Trap Detection
+
+This wand grants the user a power equivalent to the spell [find traps](allSpells.qmd#find-traps).
+
+### Wand of Viscid Globs
+
+This metallic baton works with a command word ("Híw"—Elven for sticky) and may be used by any class. The wand shoots bright greenish goo that covers a 5 ft area. (Save vs. Wands)
+
+Effect: The goo hardens rapidly when it comes into contact with air. If it splashes over a creature, it can effectively glue that being to the ground. If cast upon a flying creature, it hardens around the wings and prevents flight. The goo does not harden underwater; it requires contact with air. It does not cause those caught within it to suffocate.
+
+Strength: The adhesive is so strong that a creature could break their joints before the bonds, causing less intelligent creatures to possibly destroy themselves in their attempt to free themselves.
+
+Duration: The hardened goo eventually becomes brittle in 2d6 turns and cracks apart. The substance can also be dissolved by alcohol, such as that in wine.
+
+Weakness: This drow wand is destroyed if exposed to sunlight for an hour.
+
 
 ## Miscellaneous Items
 
