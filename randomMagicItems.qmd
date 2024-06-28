@@ -389,10 +389,11 @@ generalTableSelect([1,100,0],[[1,6],[7,12],[13,19],[20,30],[31,33],[34,39],[40-4
 
 ```{ojs}
 
+
 Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
 {value: 0, 
 reduce: () => highlightTableRow("#wands-table", 
-generalTableSelect([1,100,0],[[1,8],[9,13],[14,17],[18,28],[29,30],[31,34],[35,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,73],[74,79],[80,84],[85,92],[93,100]]))})
+generalTableSelect([1,100,0],[[1,5],[8,12],[13,16],[17,18],[19,19],[20,20],[21,21],[22,26],[27,31],[32,32],[33,33],[34,35],[36,40],[41,45],[46,50],[51,55],[56,60],[61,65],[66,73],[74,79],[80,84],[85,90],[91,96],[97,100]]))})
 
 ```
 
@@ -400,26 +401,33 @@ generalTableSelect([1,100,0],[[1,8],[9,13],[14,17],[18,28],[29,30],[31,34],[35,3
 
 | **d%** | **Type** |
 |----|----|
-| 01-08 | Rod of Cancellation |
-| 09-13 | Snake Staff |
-| 14-17 | Staff of Commanding |
-| 18-28 | Staff of Healing |
-| 29-30 | Staff of Power |
-| 31-34 | Staff of Striking |
-| 35 | Staff of Wizardry |
-| 36-40 | Wand of Cold |
-| 41-45 | Wand of Enemy Detection |
-| 46-50 | Wand of Fear |
-| 51-55 | Wand of Fireballs |
-| 56-60 | Wand of Illusion |
-| 61-65 | Wand of Lightning Bolts |
-| 66-73 | Wand of Magic Detection |
-| 74-79 | Wand of Paralyzation |
-| 80-84 | Wand of Polymorph |
-| 85-92 | Wand of Secret Door Detection |
-| 93-00 | Wand of Trap Detection |
+| 01-05 | [Rod of Cancellation](magicItems.qmd#rod-of-cancellation) |
+| 08-12 | [Snake Staff](magicItems.qmd#snake-staff) |
+| 13-16 | [Staff of Commanding](magicItems.qmd#staff-of-commanding) |
+| 17-18 | [Staff of Healing](magicItems.qmd#staff-of-healing) |
+| 19-19 | [Staff of Life](magicItems.qmd#staff-of-life) |
+| 20-20 | [Staff of Power](magicItems.qmd#staff-of-power) |
+| 21-21 | [Staff of Storm Clouds](magicItems.qmd#staff-of-storm-clouds) |
+| 22-26 | [Staff of Striking](magicItems.qmd#staff-of-striking) |
+| 27-31 | [Staff of Traveling and Leaping](magicItems.qmd#staff-of-traveling-and-leaping) |
+| 32-32 | [Staff of Withering](magicItems.qmd#staff-of-withering) |
+| 33-33 | [Staff of Wizardry](magicItems.qmd#staff-of-wizardry) |
+| 34-35 | [Quarter Staff of the Abbot](magicItems.qmd#quarterstaff-of-the-abbot) |
+| 36-40 | [Wand of Cold](magicItems.qmd#wand-of-cold) |
+| 41-45 | [Wand of Enemy Detection](magicItems.qmd#wand-of-enemy-detection) |
+| 46-50 | [Wand of Fear](magicItems.qmd#wand-of-fear) |
+| 51-55 | [Wand of Fireballs](magicItems.qmd#wand-of-fireballs) |
+| 56-60 | [Wand of Illusion](magicItems.qmd#wand-of-illusion) |
+| 61-65 | [Wand of Lightning Bolts](magicItems.qmd#wand-of-lightning-bolts) |
+| 66-73 | [Wand of Magic Detection](magicItems.qmd#wand-of-magic-detection) |
+| 74-79 | [Wand of Paralyzation](magicItems.qmd#wand-of-paralyzation) |
+| 80-84 | [Wand of Polymorph](magicItems.qmd#wand-of-polymorph) |
+| 85-90 | [Wand of Secret Door Detection](magicItems.qmd#wand-of-secret-door-detection) |
+| 91-96 | [Wand of Trap Detection](magicItems.qmd#wand-of-trap-detection) |
+| 97-100 | [Wand of Viscid Globs](magicItems.qmd#wand-of-viscid-globs) |
 
 :::
+
 
 ## Miscellaneous Magic Items
 

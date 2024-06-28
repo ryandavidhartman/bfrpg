@@ -2682,10 +2682,10 @@ Storm giants generally dress in short, loose tunic belted at the waist, sandals 
 Storm giants prefer to attack first with their **lightning bolts** (which work just as the spell does, and can be used once per five rounds; a save vs. Spells reduces damage to half). Also, 10% of storm giants have the abilities of a Magic-User of level 2 to 12 (2d6). In battle, they wear well-crafted and well-cared-for plate mail.
 
 Unlike most other giants, storm giants have been known to befriend humans, elves, or dwarves.
-
 </div>
 
 <div class="monster" data-tag="Glantrian-Clockwork-Mule">
+
 ## Glantrian Clockwork Mule
 
 ![](images/glantrian-mule.png)
@@ -3369,6 +3369,36 @@ Hyenas are doglike carnivores who exhibit some of the behaviors of canines but a
 These ancient four legged predators are named for their tooth shape, and while they are not technically prehistoric hyenas, the statistics work for the giant prehistoric varieties of hyenas as well. Many varieties of hyenodons were smallish, sometimes no bigger than a common hyena, and the statistics for standard hyenas may be used for them. The above statistics are for the larger types of Hyenodons or giant varieties of Hyena. A notable feature is that their massively built skull features a long jaw (similar to that of a crocodile) full of teeth, with four great fangs.
 
 </div>
+
+<div class="monter" data-tag="Infernal, Quasit>
+
+## Infernal, Quasit
+
+|  | Infernal, Quasit |
+|---|-----------|
+| Armor Class: | 19 (m) |
+| Hit Dice: | 2^**^ |
+| No. of Attacks: | 2 claws, 1 bite |
+| Damage: | 1d2 claws, 1d3 bite  + poison |
+| Movement: | 30' |
+| No. Appearing: | 1 |
+| Save As: | Magic-User: 2 |
+| Morale: | 14 |
+| Treasure Type: | None |
+| XP: | 125 |
+
+A Quasit is a diminutive demonic being, roughly humanoid in shape, standing about 2 feet tall. It possesses natural shape-shifting abilities, capable of transforming into a [giant centipede](monstersAll.qmd#centipede-giant), [giant bat](monstersAll.qmd#bat-and-bat-giant), or [wolf](monstersAll.qmd#wolf), all with terrifying visages that distinguish them from ordinary animals. Regardless of its form, a quasit has 60-foot [Darkvision](senses.qmd#darkvision).
+
+In its natural demonic form, a quasit attacks with poisonous claws and bites. The claws inflict an unnatural burning itch, temporarily reducing the target's Dexterity by 1 point for each successful attack. These points return 10 minutes after combat ends. For attack details in its other forms, refer to the relevant monster entry.
+
+Apart from physical prowess, a quasit possesses several magical abilities in any form. It can [detect magic](allSpells.qmd#detect-magic) at will, turn [invisible](allSpells.qmd#invisibility) at will, and once per day, it can instill [fear](allSpells.qmd#remove-fear) (reverse of remove fear) equivalent to that of a 7th-level caster.
+
+As an infernal being, a quasit is immune to electrical and poison attacks and sustains only half damage from acid, cold, or fire-based attacks. Magical weapons or spells are necessary to harm a quasit. Furthermore, as long as it retains at least 1 hit point, a quasit regenerates 1 hit point every round; if reduced below 1 hit point, a quasit perishes. A quasit also gains a +4 bonus when saving against magic (including wands).
+
+</div>
+
+
+
 <div class="monster" data-tag="Insect Swarm" >
 
 ## Insect Swarm
