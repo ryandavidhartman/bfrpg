@@ -866,7 +866,7 @@ If this is blown on the demon’s native plane, demons within 60 ft. take 6d6 po
 
 ### Amulet of Proof against Detection and Location
 
-The wearer of this item is immune to all forms of scrying (including crystal balls, clairvoyance, clairaudience, and any other means of location or spying at a distance) as well as any form of mind reading (such as the spell ESP).  Other characters who remain within 30' of the wearer are also immune to scrying, but not to mind reading.
+The wearer of this item is immune to all forms of scrying (including [crystal balls](magicItems.qmd#crystal-ball), [clairvoyance](allSpells.qmd#clairvoyance), [clairaudience](allSpells.qmd#clairaudience), and any other means of location or spying at a distance) as well as any form of mind reading (such as the spell [ESP](allSpells.qmd#esp)).  Other characters who remain within 30' of the wearer are also immune to scrying, but not to mind reading.
 
 ### Apparatus of the Crab
 
@@ -914,7 +914,7 @@ Getting any particular item from the bag requires the bearer to spend a round se
 
 This black leather belt has a dozen silver pine cone charms hanging from it.
 
-It provides the wearer with a +3 to hit and +3 AC bonus when in combat with plants , +3 saving throws from plant based attacks .
+It provides the wearer with a +3 to hit and +3 AC bonus when in combat with plants , +3 saving throws from plant based attacks.
 
 ### Boots of Levitation
 
@@ -1011,61 +1011,115 @@ You can use an action to press one side of the cube to cast the [gate](allSpells
 5. [The Elemental Plane of Air](planes.qmd#elemental-plane-of-air)
 6. [The Elemental Plane of Earth](planes.qmd#elemental-plane-of-earth)
 
+### Decanter of Endless Water
+
+Fresh water pours out of the flask when the stopper is removed and one of the command words is spoken. The water stops pouring out at the start of your next turn. Choose from the following options:
+
+- **"Stream"** produces 1 gallon of water.
+- **"Fountain"** produces 5 gallons of water.
+- **"Geyser"** produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.
+- **"Flood"** produces a continuous flow that can only be stopped by the user speaking the command word again.
+
+### Crystal Ball with Clairaudience
+
+This item works exactly like the standard [crystal ball](magicItems.qmd#crystal-ball), above, but also allows the user to hear any sounds in the location viewed as if they were there.
+
+### Drums of Panic
+
+These drums are kettle drums (hemispheres about 1-1/2 feet in diameter on stands). They come in pairs and are unremarkable in appearance. If both of the pair are sounded, all creatures with fewer than 6 hit dice within 120 feet (with the exception of those within a 20-foot radius safe zone around the drums) must save vs. Spells or flee in fear. The drums can be used once per day.
+
+### Dust of Disappearance
+
+Found in a small packet, this powder resembles very fine sand. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become Invisible for 2d12 rounds.
+
+### Efreeti Bottle
+
+This item is typically fashioned of brass or bronze, with a lead stopper bearing special seals; or, it may be a lamp made of brass. A thin stream of smoke is often seen issuing from it. When opened, the [efreeti](monstersAll.qmd#efreeti) imprisoned within issues from the bottle instantly and the DM rolls a d% to determine what happens.
+
+- There is a 10% chance (01–10 on d%) that the efreeti is insane and attacks immediately upon being released.
+- There is also a 10% chance (11–20) that the efreeti of the bottle grants three wishes.
+- In either case, the efreeti afterward disappears forever.
+- The other 80% of the time (21–100), the inhabitant of the bottle loyally serves the character for up to an hour per day for 101 days (or until the efreeti’s death), doing as the character commands. After 101 days have passed, the efreeti is freed from service and may return to its extradimensional home.
+
+Roll only the first time the bottle is opened (or the DM may choose which sort of bottle is found as desired).
+
+### Elven Boots
+
+These soft boots enable the wearer to move quietly in virtually any surroundings, granting a DC 9 (- Dex bonus) chance of success (Like a 8^th^ level [Thief](class.qmd#thief-abilities)).
+
+### Elven Cloak
+            
+This cloak of neutral gray cloth is indistinguishable from an ordinary cloak of the same color. However, when worn with the hood drawn up around the head, it gives the wearer a +5 bonus on Hide checks.
+
+### Folding Boat
+
+This object appears as a wooden box that measures 12 inches long, 6 inches wide, and 6 inches deep. It weighs 4 pounds and floats. It can be opened to store items inside. This item also has three [command words](magicItems.qmd#using-magic-items): étoc, knarr, κουτί, each requiring you to use an action to speak it.
+
+- The command word **étoc** causes the box to unfold into a boat 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four humanoid sized creatures comfortably.
+- The command word **knarr** causes the box to unfold into a ship 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. The ship can hold fifteen humanoid sized creatures comfortably.
+- The command word **κουτί** causes the folding boat to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.
+
+When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.
+
+### Flying Carpet
+
+This rug is able to fly through the air on command.  A flying carpet is typically 5' x 8' in size and can carry up to 500 pounds at a movement rate of 100' per round, or up to 1000 pounds (its maximum capacity) at a rate of 50' per round.  A flying carpet can fly at any speed up to its maximum, and can hover on command.
+
+### Gauntlets of Ogre Power
+
+These gauntlets are made of tough leather with iron studs running across the back of the hands and fingers. They grant the wearer a Strength bonus of +4 (instead of their own Strength bonus). Both gauntlets must be worn for the magic to be effective.
+
+### Gloves of Arrow Snaring
+
+The wearer of these gloves has a chance to catch arrows, bolts, or stones fired from a ranged weapon that would normally hit. The challenge is (DC 9 + Dex). There is no damage from a successful catch. Both gloves must be worn and at least one hand must be free for the magic to be effective.
+
+### Girdle of Giant Strength
+
+This item grants the wearer the Strength of a giant.  For so long as it is worn, the wearer gains a Strength bonus of +5 (instead of their own Strength bonus), and can throw large stones just as a [stone giant](monstersAll.qmd#giant-stone) does.
+
+### Goggles of the Night
+
+This item, when worn, allows [Darkvision](senses.qmd#darkvision) with a 60-foot range and can detect slanting passages, traps, shifting walls, and new construction on a Difficulty Challenge (DC) of 14; a search must be performed before this roll may be made.
+
+### Hannelore’s Coat of Arms
+
+This leather coat with four sleeves allows the wearer to summon and control a second set of arms identical to their own arms once per day for 3 turns. The penalty for fighting with multiple arms is -2 to hit with both primary hands and -5 with both secondary hands.
+
+### Helm of Reading Languages and Magic
+
+Appearing as a normal helmet, this helm grants its wearer the ability to understand the spoken words of any creature and to read text in any language, including magical writing. The wearer of this helm can also use arcane scrolls with the same proficiency as a 7th-level [thief](class.qmd#thief-abilities) (DC 7).
+
+### Helm of Telepathy
+
+The wearer can read the surface thoughts of a target creature within 90 feet, similar to the spell [ESP](allSpells.qmd#esp). Additionally, the wearer can send a telepathic message to anyone whose surface thoughts are being read, enabling two-way communication. This helm can be used up to three times per day.
+
+### Helm of Teleportation
+
+A character wearing this device may [teleport](allSpells.qmd#teleport) three times per day, exactly as if he or she had cast the spell of the same name.
+
+### Horn of Blasting
+
+This horn resembles a normal trumpet in appearance. It can function as a standard horn, but when a [command word](magicItems.qmd#using-magic-items) is spoken and the instrument is played, it unleashes a blast. Creatures within a cone 40 feet long and 40 feet wide at the far end take 2d6 points of damage and are [deafened](healingAndInjuries.qmd#deafness) for 2d6 rounds. Affected creatures can make a saving throw vs. Death Ray for half damage and to avoid deafness. Crystalline creatures take double damage, while nonliving creatures are immune to deafness but still suffer damage.
+
+If the horn of blasting is magically used more than once in a day, there is a cumulative 10% chance with each additional use that it explodes, dealing 3d6 points of damage to the person sounding it.
+
+The horn can also be used to damage or destroy buildings, fortifications, etc., doubling the damage dealt when used against structures.
+
+### Horn of Doom
+
+When blown, this horn has the effect of the spell [animate dead](allSpells.qmd#animate-dead), creating animated skeletons or zombies from remains within a 60-foot radius of the user. Up to 3d6 hit dice worth of undead creatures can be animated by the horn. If both skeletal and fleshy remains are present, skeletons are animated preferentially over zombies.
+
+If the user is a magic-user or cleric, they can control the undead created as long as they possess the horn. If blown by a fighter or thief, the undead created will be uncontrolled and hostile, attacking any nearby living creatures.
+
+The horn may be used once per day, but no more than 18 hit dice worth of undead creatures created by the horn can exist simultaneously.
+
+### Incense of Oghma
+
+Burning a cone of this powerful incense and meditating for 1 hour, enables a spell caster to memorize 3 additional spell levels.
+
+Example: +3 first level spells, or +1 first level and +1 second level, or +1 third level spell
 
 
-**Efreeti Bottle**: This item may appear as an ornate
-bottle, or sometimes as a magic lamp. It can be
-activated once per day, by opening it if it takes the form
-of a bottle or by rubbing it if it takes the form of a lamp.
-When activated, smoke pours out and forms into an
-efreeti.
-
-The efreeti released was trapped in the bottle and
-forced to serve whoever activates it. However, an
-efreeti who has spent too long in a bottle may have lost
-its mind, and if this happens the efreeti will begin a
-frenzied attack upon whoever activated the bottle,
-disappearing when either the user of the bottle or the
-efreeti is dead. There is, fortunately, only a 1 in 10
-chance this will happen.
-
-On the other hand, there is also a 1 in 10 chance that
-the efreeti of the bottle is able to grant three wishes to
-the user. If this is the case, the efreeti will perform no
-other service, and cannot return to the bottle after it is
-activated until the user makes a wish. Subsequent
-wishes require additional activations, and upon the final
-wish being granted the efreeti disappears for good.
-
-Roll 1d10 when the bottle is first activated; on a roll of
-1, the efreeti is insane, while on a roll of 0 the efreeti
-has three wishes to grant. If neither of these results is
-rolled, the efreeti will serve the user for up to one hour
-per day for 101 days, after which time it is freed and
-will disappear. Note that after the first activation, every
-day that passes is counted toward the 101 days
-whether or not the user activates the bottle.
-
-**Flying Carpet**: This item appears to be a fancy rug of
-the sort found in the castle of a king. It has the power
-to fly, carrying those upon it as if they stand upon a
-solid surface. A flying carpet is typically 5' x 8' in size
-and can carry up to 500 pounds at a movement rate of
-100' per round, or up to 1,000 pounds (its maximum
-capacity) at a rate of 50' per round. A flying carpet can
-fly at any speed up to its maximum, and can hover on
-command.
-
-**Gauntlets of Ogre Power**: These thick leather gloves
-grant the wearer a Strength bonus of +4 (instead of
-their own Strength bonus). Both gauntlets must be
-worn for the magic to be effective.
-
-**Girdle of Giant Strength**: This broad leather belt
-grants the wearer the strength of a giant. For so long as
-it is worn, the wearer gains a Strength bonus of +5
-(instead of their own Strength bonus), and can throw
-large stones just as a stone giant does.
 
 **Mirror of Imprisonment**: This item can appear as any
 style of full-length or larger mirror. It is a form of
