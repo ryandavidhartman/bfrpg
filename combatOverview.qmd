@@ -1,5 +1,8 @@
 # Combat Overview
 
+![](images/combat.png)
+
+
 ## Combat Order of Play
 
 When the party of adventurers comes in contact with potential enemies, time shifts to combat rounds (10 seconds long, [as described previously](dungeonAdventures.qmd#time-and-scale)). Before beginning combat, surprise is checked (see below). Unsurprised characters then roll for Initiative, and act in order of the rolls (again, as described below).

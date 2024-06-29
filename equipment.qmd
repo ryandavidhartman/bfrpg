@@ -206,6 +206,8 @@ The DM should apply similar limitations to weapon-armed monsters; for instance, 
 
 Missile weapon ranges are given in feet. In the wilderness, substitute yards for feet. If the target is as close as or closer than the Short range figure, the attacker receives a +1 attack bonus. If the target is further away than the Medium range figure, but not beyond the Long range figure, the attacker receives a -2 attack penalty.
 
+![](images/armor_shields.png)
+
 ## Armor and Shields
 
 | Armor Type                | Price    | Weight | AC  |

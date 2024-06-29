@@ -160,3 +160,63 @@ This armor gives a +1 bonus to AC, a +1 bonus on saving throws against the Frigh
 ### Black Plate Demon Armor
 This armor gives a +1 bonus to AC and a +3 bonus to Intimidate rolls.
 
+## Miscellaneous
+
+### Iggwilv’s Circlet of the Abyss
+
+The witch Iggwilv possesses an especially malignant version of a [Circlet of the Abyss](magicItems.qmd#circlet-of-the-abyss). Iggwilv’s own circlet is a platinum headpiece adorned with sharp inward-facing barbs that securely hold it in place. It emits an aura of evil and has transformative effects on its wearer. The circlet grants the following properties:
+
+**Demon Shielding:** Creates an invisible shield-like force around the wearer, negating magic missile attacks and improving the wearer's Armor Class by +3.
+
+**Ears of Evil:** Renders the wearer immune to Command spells.
+
+**Eyes of Evil:** Grants Darkvision with a range of 60 feet, unaffected by magical darkness, and the ability to perceive outlines of invisible creatures.
+
+**Tongue of Evil:** Grants the ability to understand and speak Abyssal, and immunity to Silence spells.
+
+**Veil of Evil:** Provides immunity to Hold Person, Charm Person, Fear, and Sleep spells.
+
+**Quasit Familiar:** Allows the wearer to summon and command a quasit familiar.
+
+**Abysmal Curses:**
+
+1. **Corruption:** Gradually shifts the wearer towards Chaotic Evil. Surrounding food spoils, plants and animals become sick, and social interactions suffer with a -5 penalty to Reaction Rolls. Holy water inflicts 1d8 points of damage, and the wearer starts hearing whispers from demons in their dreams.
+
+2. **Animals' Reaction:** Animals initially avoid, then fear, and eventually attack the wearer. They may become unable to ride horses or hunt due to animals fleeing their presence.
+
+3. **Leeching Joy:** Diminishes sensory pleasures—loss of taste, fresh water causing illness, music sounding like noise, and colors appearing less vibrant. Eventually, pleasure comes only from causing or receiving pain and misery.
+
+4. **Lust for Power:** Develops an insatiable desire for immense power, either to rule the world or to be the agent of its destruction.
+
+### Lamp of Amon
+
+This dark hooded lantern glows with a magical blue flame. The lantern sheds bright, bluish light in a 20-foot radius and dim light for an additional 20 feet. You can reduce the light to a beam or cover it completely.
+
+500 years ago, the elves of Imladris created the Lamp of Amon. The Elves used it against [Malar](gods.qmd#malar), the Beastlord, a demonic spirit of bestial savagery and bloodlust, and the source of all [lycanthropes](monstersAll.qmd#lycanthrope). His dogma concerned savage hunts, the spreading of the curse of lycanthropy, and general contempt for civilization.
+
+The Elves gravely wounded the demon add it fled to the dark caverns in the Ephel Duath to nurse its wounds.
+
+Later, Iuz would attack Imladris and steal the lamp. [Iuz](gods.qmd#iuz) convinced the Demon to serve him, first by threatening it with the light of the Lamp of Amon, and then by giving the spirit the lamp to destroy.
+
+Any lycanthropes bathed in the bright light are affected. The Light can drive the evil spirit from the newly cursed. Lycanthropes that have been affected for less than one year are instantly cured.
+
+Its radiance will consume and destroy the weaker of those too far corrupted. The stronger will be burned and turned away from the light. Lycanthropes affected more than one year with less than 20 hit points are instantly destroyed. Lycanthropes affected more than one year with more than 20 hit points instantly loose 20 hit points.
+
+### Pendant of Eredluin
+
+This pendant reflects spells cast directly at the wearer back at the caster, but it does not affect area-effect spells like fireball. It can reflect up to 6 spells before its power is exhausted.
+
+### Pendant of Bruidhinn
+
+This pendant has 2d10 charges. When activated, it can perform the following:
+
+**Dream (1 charge):**
+The user shapes a creature's dreams. The target must be on the same plane of existence and asleep. The user enters a trance and can interact with the target's dreams, shaping the environment and conversing with the sleeping target.
+
+**Whispered Message (2 charges):**
+The user points toward a creature within range and whispers a message. Only the target can hear and reply to the message in a whisper that only the user can hear. The message can pass through solid objects if the target is known and beyond a barrier, but magical silence blocks it.
+
+**Greater Sending (3 charges):**
+The user sends a mental call to a creature they are familiar with. The target hears the call in their mind and can accept or decline it. If accepted, the user and the target can communicate telepathically for up to 1 hour, regardless of distance but not across planes of existence.
+
+

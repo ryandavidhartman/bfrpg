@@ -94,11 +94,9 @@ Cat's Grace is a potent elixir that temporarily enhances Dexterity to a score of
 | Dexterity-related Skills | +5           |
 | Armor Class (AC)         | +5           |
 
-
 ### Potion of Clairaudience
 
 The Clairaudience potion enables the drinker to hear sounds from another area up to 60 feet away through the ears of a living creature in that area. This effect functions similarly to the spell [clairvoyance](allSpells.qmd#clairvoyance).
-
 
 ### Potion of Clairvoyance
 
@@ -186,7 +184,7 @@ This potion grants a bonus of +2 to Armor Class.
 
 ### Keoghtom's Ointment
 
-This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease. The ointment will remove scars and reattach knocked out teeth.
+This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be [poisoned](healingAndInjuries.qmd#poisoned), and is cured of any [disease](healingAndInjuries.qmd#diseased). The ointment will remove scars and reattach knocked out teeth.
 
 ### Potion of Levitation
 
@@ -1119,147 +1117,92 @@ Burning a cone of this powerful incense and meditating for 1 hour, enables a spe
 
 Example: +3 first level spells, or +1 first level and +1 second level, or +1 third level spell
 
+### Magical Deep Pocket
+
+This belt pouch can hold up to 20 pounds of material, including objects up to four feet long, though anything placed into it needs to fit through the opening of a normal-sized belt pouch. It always weighs one pound, regardless of its contents. Placing an object in the pocket follows the normal rules for interacting with objects. Retrieving an item from it requires you to use an action. When you reach into the pocket for a specific item, that item magically appears on top.
+
+The deep pocket has a few limitations:
+- Overloading it or piercing it with a sharp object destroys it.
+- If destroyed, its contents are lost forever, though an artifact lost this way may reappear elsewhere.
+- Turning it inside out spills its contents unharmed; it must be corrected before use.
+
+If a living creature is placed within the pocket, it can survive for up to 10 minutes before beginning to suffocate. Placing the deep pocket inside an extradimensional space created by a [bag of holding](magicItems.qmd#bag-of-holding), [portable hole](magicItems.qmd#portable-hole), or similar item instantly destroys both items, creating a gate to the [Astral Sea](planes.qmd#astral-sea). The gate opens where one item was placed inside the other. Creatures within 10 feet of the gate are drawn through and deposited randomly on the [Astral Sea](planes.qmd#astral-sea) before the gate closes. The gate is one-way and cannot be reopened.
+
+### Medallion of ESP
+
+This pendant disk, typically made from bronze, copper, or nickel and worn on a neck chain, allows the wearer to read the thoughts of others, similar to the spell [ESP](allSpells.qmd#esp). The medallion can be used as many times per day as desired. However, each use requires at least 1 round of full concentration to activate, and the wearer must maintain concentration to sustain the effect.
+
+### Mirror of Life Trapping
 
 
-**Mirror of Imprisonment**: This item can appear as any
-style of full-length or larger mirror. It is a form of
-magical trap, which can be set or deactivated by
-speaking a command word followed by "activate" or
-"deactivate."
+This magical device appears as a large mirror of various styles, framed in metal or wood. It can be hung or placed on a surface and activated by speaking a [command word](magicItems.qmd#using-magic-items) followed by "activate" or "deactivate." Only a Magic-User can properly control this device. The same command word deactivates the mirror, and the character who activated it is immune to its effects.
 
-When in its active state, any character or creature who
-stands within 30 feet of the mirror and sees its reflection
-must save vs. Spells or be drawn bodily into the mirror,
-including all items worn or carried. The victim is placed
-within one of 20 metaphysical cells inside the mirror.
-Those trapped in the mirror are mere reflections and
-are unable to take any action. The last character who
-spoke the command word to the mirror is immune to its
-power, as are undead, constructs, and any creature that
-lacks eyes.
+The mirror contains twenty metaphysical cells within it. Any character or creature standing within 30 feet of the mirror and viewing their reflection must make a save vs. Spells or be drawn bodily into the mirror, along with all items worn or carried. Size is not a factor for those trapped, but undead, constructs, and creatures lacking eyes are immune to its effects.
 
-A character who speaks the command word and then
-calls the number of a cell will cause the reflection of the
-occupant of that cell to appear in the mirror. The
-trapped creature can move and speak, but cannot cast
-spells or take any other real action. The controlling
-character may interrogate the trapped victim if desired,
-though the mirror does not compel the victim to
-respond or to be truthful. The controller may at any
-time speak the command word again and say "return"
-and the victim will be returned to its cell; or, the
-controller can say the command word followed by
-"come out" to free the victim, who appears standing
-beside the controller.
+Trapped creatures become mere reflections within the mirror, unable to take actions. The controlling character can summon the reflection of any trapped creature by speaking the command word followed by the number of the cell containing the reflection. The trapped creature can speak and move within the mirror but cannot cast spells or take tangible actions.
 
-Should all cells be full when a creature is drawn inside,
-one cell chosen at random will be emptied with the
-freed creature appearing where the trapped one had
-been standing. The freed creature is safe from the
-mirror for one turn thereafter before it can again be
-trapped. All victims will be freed instantly if the mirror
-is broken.
+The controlling character may interrogate the trapped victim, although the mirror does not compel truthfulness. To return the trapped creature to its cell, the controller speaks the command word followed by "return." Alternatively, the command word followed by "come out" frees the victim, who appears beside the controller.
 
-**Rope of Climbing**: This 50 foot long rope is about ½
-inch in diameter, but is capable of supporting up to
-3,000 pounds if tied to a secure anchor point. When
-the user holds one end of the rope and speaks the
-command word, the rope animates, moving like a
-snake at a rate of 10' per round in whatever direction
-the user commands. The rope is even able to move
-into a completely vertical position if so ordered. It can
-be commanded to tie itself to any anchor point within
-reach (since the user must continue holding one end of
-the rope, it can reach no more than 50 feet from that
-point). The rope has no real strength and thus cannot
-lift or support any weight if not tied to an anchor point.
+If all cells are occupied when a new creature is trapped, one cell chosen at random is emptied to accommodate the new arrival. If the mirror is broken, all trapped victims are instantly freed from its confines.
 
-## Devices for Summoning Elementals
 
-These devices all grant the power to summon and
-control an elemental. As noted, the DM is likely to
-choose to allow only certain types of Elementals, so not
-all of these devices may be available in your campaign.
 
-When one of these devices is activated in accordance
-with the summoning rules described for the Elemental
-monster entry on page 88, an appropriate elemental
-appears and follows the summoner's commands.
+### Portable Hole
 
-**Bowl of Summoning Water Elementals**: This device
-is about the size of a punch bowl, and will be made of
-precious metals set with jewels. To activate this device,
-it must be filled with fresh water (at least a quart) and
-the command words inscribed around its rim must be
-spoken, which requires a full round to complete.
+This fine black cloth, as soft as silk, is folded to the dimensions of a handkerchief. When unfolded, it forms a circular sheet 6 feet in diameter.
 
-**Brazier of Summoning Fire Elementals**: This device
-appears to be a small brazier, a metal bowl with legs
-and cage-like sides which stands about a 1½ feet tall.
-Braziers are meant to hold fire. To activate this device,
-a fire must be built in this brazier and the command
-words inscribed around its rim-band must be spoken,
-which requires a full round to complete.
+You can use an action to unfold a portable hole and place it on or against a solid surface, creating an extradimensional hole 10 feet deep. The cylindrical space within exists on a different plane and cannot be used to create passages. Creatures inside an open portable hole can exit by climbing out.
 
-**Censer of Summoning Air Elementals**: This device
-appears to be an ornate but ordinary censer, a kind of
-bowl with a perforated lid and a chain which is used to
-lift and swing the device. These are normally used in
-worship, but this device is made for a different purpose.
-To activate this device, incense must be placed in the
-bowl, lit, and covered, and the command words
-inscribed around the edge of the lid must be spoken,
-which requires a full round to complete.
+Closing the portable hole requires using an action to fold the cloth. Any creatures or objects within remain in the extradimensional space. The hole weighs next to nothing regardless of its contents.
 
-**Crucible of Summoning Metal Elementals**: This
-device appears to be a small crucible, an open-topped
-vessel used for melting metal. To activate this device, it
-must be placed on a solid, adequately heat-resistant
-surface and the command words inscribed around the
-edge of the lid must be spoken, which requires a full
-round to complete.
+If the hole is folded while a creature is inside its extradimensional space, the creature can use an action to make a DC 10 Strength check to force its way out. On a successful check, the creature appears within 5 feet of the portable hole or the creature carrying it. A breathing creature within a closed portable hole can survive for up to 10 minutes before beginning to suffocate.
 
-The crucible becomes very hot while the metal
-elemental is present, causing 2d8 points of damage to
-any character who dares to touch it barehanded and
-2d6 points even if wearing armor or ordinary fabric or
-leather gloves. The crucible requires a full turn to cool
-after use.
+Placing a portable hole inside an extradimensional space created by a [bag of holding](magicItems.qmd#bag-of-holding), [magical deep pocket](magicItems.qmd#magical-deep-pocket), or similar item instantly destroys both items, opening a gate to the [Astral Sea](planes.qmd#astral-sea) where the items were intermingled. Creatures within 10 feet of the gate are drawn through to a random location on the [Astral Sea](planes.qmd#astral-sea), after which the gate closes. The gate is one-way and cannot be reopened.
 
-**Mallet of Summoning Wood Elementals**: This is a
-wooden mallet of the sort used by builders to drive in
-pegs; though it could be used as a weapon, it is a poor
-excuse for one as it does just 1d4 points of damage on
-a hit and is not treated as a magic weapon. To activate
-this device, it must be held in the hand and the
-command words inscribed on one side of the hammer-
-head must then be spoken, which requires a full round
-to complete.
+### Mirror of Life Trapping
 
-**Marble Plate of Summoning Cold Elementals**: This
-device is a circular plate of marble about 9 inches in
-diameter and about ¾ of an inch thick. To activate this
-device, it must be placed level on a solid, stable surface
-and a full skin of fresh water must be poured upon it; as
-the water touches the base it magically freezes into a
-small sculpture of a cold elemental. The command
-words inscribed around the rim of the plate must then
-be spoken, which requires a full round to complete.
+This magical device appears as a large mirror of various styles, framed in metal or wood. It can be hung or placed on a surface and activated by speaking a [command word](magicItems.qmd#using-magic-items) followed by "activate" or "deactivate." Only a Magic-User can properly control this device. The same command word deactivates the mirror, and the character who activated it is immune to its effects.
 
-**Rod of Summoning Lightning Elementals**: This
-device appears as a copper rod about ¾ inch thick and
-2 feet long, tipped with a polished ball of amber. The
-rod will have a smooth, polished green surface (a thin
-coating of verdigris) but will not be pitted or damaged
-by the corrosion. To activate this device it must be held
-in the hand and the command words inscribed on the
-length of the rod must then be spoken, which requires a
-full round to complete.
+The mirror contains twenty metaphysical cells within it. Any character or creature standing within 30 feet of the mirror and viewing their reflection must make a save vs. Spells or be drawn bodily into the mirror, along with all items worn or carried. Size is not a factor for those trapped, but undead, constructs, and creatures lacking eyes are immune to its effects.
 
-**Stone of Summoning Earth Elementals**: This device
-is a roughly-cut but highly-polished stone in which a
-vein or cluster of precious or semi-precious stones is
-visible. To activate this device, it must be held in the
-user's hands and the command words inscribed on the
-smoothest area of the stone must be spoken, which
-requires a full round to complete.
+Trapped creatures become mere reflections within the mirror, unable to take actions. The controlling character can summon the reflection of any trapped creature by speaking the command word followed by the number of the cell containing the reflection. The trapped creature can speak and move within the mirror but cannot cast spells or take tangible actions.
+
+The controlling character may interrogate the trapped victim, although the mirror does not compel truthfulness. To return the trapped creature to its cell, the controller speaks the command word followed by "return." Alternatively, the command word followed by "come out" frees the victim, who appears beside the controller.
+
+If all cells are occupied when a new creature is trapped, one cell chosen at random is emptied to accommodate the new arrival. If the mirror is broken, all trapped victims are instantly freed from its confines.
+
+### Rope of Climbing
+
+This magical silk rope measures 50 feet in length. Upon command, it can move at a speed of 10 feet per round in any direction—forward, upward, downward, or otherwise—as desired by its owner. The rope attaches itself securely wherever commanded and can also unfasten and return in the same manner.
+
+To support weight other than its own, the rope requires something secure to tie itself to. The user must hold one end of the rope when invoking its magic.
+
+### Modrin’s Glass Cats
+
+These legendary wondrous items are tiny glass cat figurines. If the possessor of one is killed, that person’s body disappears in a brilliant flash of light. As the light fades, the body reappears restored to life with all hit points.
+
+This effect closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the person when death occurred. It also replaces damaged or missing organs and limbs.
+
+Once used, the glass cat becomes cracked, tarnished, and non-functional. It cannot be recharged.
+
+### Scarab of Protection
+
+This device appears as a silver medallion shaped like a beetle. The scarab absorbs [energy-draining attacks](healingAndInjuries.qmd#energy-drain), [death effects](allSpells.qmd#death-spell), and [curses](allSpells.qmd#remove-curse). After absorbing 2d6 such attacks, it crumbles to dust and is destroyed.
+
+### Smokestick
+
+This alchemically treated wooden stick creates thick, opaque smoke when burned. The smoke fills a 10-foot cube, dissipating in 1 round if exposed to moderate or stronger wind. The stick is consumed after 1 round, and the smoke naturally dissipates after 1 minute.
+
+### Stone of Commanding Earth Elementals
+
+A stone of this nature is typically an oddly shaped piece of roughly polished rock. By uttering a few words of summoning that require 1 full round to speak, the possessor can summon a Huge [earth elemental](monstersAll.qmd#elemental-earth). Only one elemental can be summoned per day, and it follows the commands of the summoner.
+
+### Storm in a Bottle
+
+Within this elegant glass bottle is a tiny raging thunderstorm. When thrown, it creates a 20-foot-radius sphere of whirling air centered on the impact point, lasting 5 rounds. Creatures in the sphere or entering it must succeed on a saving throw vs Breath Weapon or take 2d6 bludgeoning damage. The sphere creates difficult terrain.
+
+Additionally, you can command a [bolt of lightning](allSpells.qmd#lightning-bolt) to leap from the sphere's center toward a creature of your choice within 60 feet, dealing 5d6 lightning damage.
+
+### Thunderstone
+
+This stone can be thrown as a ranged attack with a range increment of 30 feet. Upon striking a hard surface or being struck hard, it emits a deafening bang treated as a sonic attack. Creatures within a 10-foot-radius spread must make a DC 16 Constitution saving throw or be deafened for 1 hour. [Deafened](healingAndInjuries.qmd#deafness) creatures suffer a -4 penalty on Initiative and have a 20% chance to miscast any spell with a verbal component.

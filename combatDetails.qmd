@@ -202,6 +202,8 @@ To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB),
 
 : Attack Bonus Table {#tbl-attacking-bonus}
 
+![](images/weapons_proficiency.png)
+
 ### Weapon Proficiency
 
 Being proficient in a weapon means you can add your Attack Bonus to attack rolls made with that weapon. If you're not proficient, you can still use the weapon but cannot add your Attack Bonus.
@@ -227,6 +229,8 @@ It is recommended not to waste time in detailing the ability score or other stat
 ### Monster Attack Bonus
 
 When looking up a monster's hit dice on the Attack Bonus Table, ignore all "plus" or "minus" values; so a monster with 3+2 hit dice, or one with 3-1, is still treated as just 3 hit dice. The exception is monsters with 1-1 or lower hit dice, which are considered less than one hit die and have an attack bonus of +0.
+
+![](images/critical.png)
 
 ### Critical Hit
 
@@ -347,8 +351,6 @@ Spears, polearms, and certain other piercing weapons deal double damage when "se
 
 ### Spellcasting and Combat
 
-#### Spell Casting
-
 - Spellcasters require one free hand and the ability to speak to cast spells.
 - They are vulnerable to disruption if attacked during spellcasting, requiring a saving throw based on their Initiative.
 - Simultaneous spellcasting succeeds unless one caster has better Initiative and delays their spell.
@@ -374,6 +376,8 @@ A light crossbow can be fired once per two rounds, and the user may not perform 
 Siege engines also fire less often than ordinary weapons. The rate of fire for such a weapon is presented as a fraction, indicating the number of attacks per round; for example, 1/6 means one attack every six rounds.
 
 Of course, the user of such a weapon may drop or sling the weapon and switch to another weapon rather than reloading. Also, it is possible (especially when defending a position) to load more than one crossbow in advance and then switch weapons each round until all have been fired. In a dungeon environment this sort of strategy is unlikely, of course.
+
+![](images/grenade.png)
 
 ### Grenade-Like Missiles
 
@@ -405,6 +409,8 @@ With the exception of grenade-like missiles, missile weapons which miss the inte
 This rule is applied to attacks made by monsters, when appropriate. However, the DM still makes the rolls.
 
 This rule is intentionally vague; the DM must decide when and how to apply it based on the circumstances of the battle. It is recommended that no more than three allies be “tried” in this way, but the DM may make an exception as he or she sees fit.
+
+![](images/grappling.jpg)
 
 ## Grappling / Wrestling
 

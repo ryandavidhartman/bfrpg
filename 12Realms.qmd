@@ -1,0 +1,44 @@
+# The Twelve Realms
+
+## The United Clans of Stone Hold
+
+### Description
+
+Stone Hold is the frozen realm of the northern barbarian clans, a fierce land inhabited by warrior people who do not farm but instead hunt and raid. They value strength and embrace their animal nature—keen instincts, primal physicality, and ferocious rage. Civilization, education, and arcane magic are seen as weaknesses. The barbarians thrive in the snowy wilds of their homeland.
+
+Most of the clans are composed of fighters, with some spellcasters among them, primarily druids and clerics of Enlil. The United Clans are in constant war with Glantri. Periodically, they undertake the "sailing the horn," a raiding journey down the Anduin, around the Isigir, and up the wild coast, attacking settlements along the way. This journey typically lasts about six months and is considered a rite of passage for warriors.
+
+### People
+
+The population of Stone Hold numbers less than 100,000, with 90% humans and 10% dwarves living in the Corrusk Mountains.
+
+### Religion
+
+The favored deity of Stone Hold is [Enlil](gods.qmd#enlil), the god of war. They also revere [Lovitar](gods.qmd#lovitar), the demigoddess of love and pain.
+
+### Government
+
+Stone Hold is governed by a council of 9 Jarls who convene every three years at the Maul of the Gods. The current Jarls are Ragnar, Ivar, Sigurd, Erik, Fergus, Torstein, Helga, Gorm, and Magnus.
+
+### Heraldry
+
+The coat of arms of Stone Hold features a white polar bear on a grey field, symbolizing their strength and resilience.
+
+![](images/stone_hold.png)
+
+### Climate
+
+Stone Hold experiences a cold and bleak climate with heavy snowfall and freezing rain.
+
+### Cities
+
+- **Maul of the Gods** (led by Jarl Ragnar)
+- **Mogilsloekr** (led by Jarl Ivar)
+- **Orrastaoir** (led by Jarl Sigurd)
+- **Glowhammer** (led by Jarl Erik)
+- **Krakenheim** (led by Jarl Fergus)
+- **Gilsbakki** (led by Jarl Torstein)
+- **WizardBane** (led by Jarl Stalvus)
+- **Hroarsholt** (led by Jarl Gorm)
+- **Ice Keep** (led by Jarl Magnus)
+
