@@ -359,8 +359,6 @@ When fighting with two weapons simultaneously:
 - Primary weapon: -2 to hit.
 - Secondary weapon: -5 to hit.
 
-These sections provide comprehensive guidelines for combat maneuvers, tactical considerations, and special techniques in your game.
-
 ## Ranged Attacks
 
 Missile weapons may be used to attack foes at a distance. The distance the attacker is from their target affects the attack roll, as shown on the Missile Weapon Ranges table in the Equipment section. Opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
