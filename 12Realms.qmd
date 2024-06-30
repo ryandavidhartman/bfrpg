@@ -112,7 +112,6 @@ Iuz has a cold bleak climate with a great deal of snow and freezing rain. The su
 - Horned Lands
 - Bandit Lands
 
-
 ## Glantri
 
 ### Description
@@ -373,6 +372,57 @@ Volcanic activity makes the climate hot and dry. The weather is extremely unfrie
 
 - **Melkot**, city of the Bone March
 - **Haigrog** (Orc-haven)
+
+## Nyrond
+
+### Description
+
+The Kingdom of Nyrond, birthed by the illustrious King Nyr, scion of the legendary Overking Accerak, once stood as a bastion of prosperity amid abundant natural riches. Today, however, Nyrond is a realm rent asunder, its lands scarred by the aftermath of bloody conflicts against the Empire of Iuz and the lawless Bandit Lands. The toll is grim: nearly 60,000 lives lost in battle, with twice that number fleeing in desperation, seeking refuge and livelihoods beyond its borders.
+
+Amidst the fractured realm, morale falters among nobles, soldiers, and the commonfolk alike. Hunger grips the populace, pushing some regions to the brink of starvation, while the kingdom's once brimming coffers now echo hollowly. Taxation, necessary to fend off the looming threat of Iuz to the north, has become a crushing burden, stoking rebellious flames among peasants and urban dwellers alike. Streets once vibrant with commerce now teem with destitute souls, their neighborhoods overrun by beggars and urchins, symbols of a kingdom in decline.
+
+In the heart of this turmoil lies Nyr’s Gate, where authorities pluck bodies from the ocean, grim testimony to the treacherous currents that run beneath the surface of the kingdom. Refugees huddle in impoverished districts, while trade, once the lifeblood of Nyrond, withers under the weight of uncertainty and strife.
+
+Internally, the vital silver mines of the Flinty Hills stand as a beacon of hope, their bounty, alongside aid from allies such as Keoland, serving as the sole bulwark against Nyrond's collapse. Yet even here, tensions simmer; the dwarves of Dwarvengarde, nestled deep beneath the Dunatis Mountains, tread cautiously. Led by the wise DwarfLord Kelfex Grommet, these stalwart miners maintain a wary vigilance against potential foes, their autonomy fiercely guarded amidst whispers of political intrigue and distant conflicts.
+
+Beyond the mountains, within the Plains of the Old Dominion, ancient nomadic tribes of wild elves ride their majestic giant owls, remnants of a time before the Overking's conquest reshaped the land. Distrust lingers between these elusive tribes and the dwarven enclaves, a fragile balance maintained through cautious diplomacy.
+
+In the face of adversity, Nyrond's coat of arms—a resplendent blue Pegasus soaring against a backdrop of blazing orange—remains a symbol of resilience, a reminder of past glories and the indomitable spirit that yet flickers in the kingdom's depths. Amidst its temperate climes and storied cities like Rel Mord and High Vale, Nyrond stands at a crossroads, where the echoes of history mingle with the uncertainty of its future—a realm where every dawn brings both promise and peril, and where the fate of thousands hangs in the balance.
+
+### People
+
+The population numbers about 200,000, of which 89% are human. Of the remaining people, 4% are wood elves from the Celadon Forest, 6% are dwarves (living in the Dunatis Mountains), and the remaining 1% are other races. Common is the predominant language.
+
+### Religion
+
+The favored deity is [Brigit](gods.qmd#brigit), goddess of fire. The demi-god [Girru](gods.qmd#girru), demi-god of volcanoes and fire, is also worshipped.
+
+### Government
+
+- Lynwerd of Aerdi and the house of Nyr is King of Nyrond.
+
+### Heraldry
+
+The coat of arms features a blue Pegasus on an orange field.
+
+![](images/nyrond.png)
+
+### Climate
+
+Nyrond has a temperate climate.
+
+### Cities
+
+- Rel Mord, the capital city of Nyrond
+- Durheim
+- Oerik
+- Nyr’s Gate
+- Port of Karereca
+- Brindol
+- HighVale
+- Tellerton
+- Drellin’s Ferry
+
 
 ## Pomarj
 
