@@ -54,20 +54,11 @@ A combatant can choose to wait until later in the initiative to act. If a player
 
 ### Run Away
 	
-A character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character's Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again.
+A character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character's Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again.  See [evasion and pursuit](combatDetails.qmd#evasion-and-pursuit)
 
 
 ### Defensive Movement and Attacks of Opportunity.
 
 Any time a character turns their back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.
 
-Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a fighting withdrawal.
-
-### Charge
-
-The attack made after the [charge](combatDetails.qmd#charging) is made at +2 on the attack roll. The charging character or creature takes a -2 penalty to Armor Class for the remainder of the round. 
-
-
-### Set Weapon Against Charge
-
-Spears, pole arms, and certain other piercing weapons deal double damage when braced against the ground or floor and used against a charging creature. For this to be done, the character or creature being charged must have equal or better Initiative; this counts as holding an action: both attacker and defender act on the attacker's Initiative number and are therefore simultaneous.
+Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a [fighting withdrawal](combatDetails.qmd#disengaging-from-melee).
