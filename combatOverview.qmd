@@ -30,57 +30,57 @@ When the party of adventurers comes in contact with potential enemies, time shif
 <table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
   <thead>
     <tr>
-     <th style="background-color: darkgray; border: 1px solid black;">Action</th>
-     <th style="background-color: darkgray; border: 1px solid black;">Description</th>
+     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Action</th>
+     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Description</th>
     </tr>
   </thead>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Attack](combatDetails.qmd#attacking)</td>
-    <td style="border: 1px solid black;">Move (encounter movement distance) + melee or ranged attack</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Attack](combatDetails.qmd#attacking)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Move (encounter movement distance) + melee or ranged attack</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Charge](combatDetails.qmd#charging)</td>
-    <td style="border: 1px solid black;">Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Charge](combatDetails.qmd#charging)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Parting Shot](combatDetails.qmd#disengaging-from-melee)</td>
-    <td style="border: 1px solid black;">Free attack (+2 bonus) vs. opponents turning from the fight</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Parting Shot](combatDetails.qmd#disengaging-from-melee)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Free attack (+2 bonus) vs. opponents turning from the fight</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Fighting Withdrawal](combatDetails.qmd#disengaging-from-melee)</td>
-    <td style="border: 1px solid black;">Move back (half normal walking movement) + melee attack</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Fighting Withdrawal](combatDetails.qmd#disengaging-from-melee)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Move back (half normal walking movement) + melee attack</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Attack from Behind](combatDetails.qmd#attacking-from-behind)</td>
-    <td style="border: 1px solid black;">+2 to Attack (do *not* combine with Sneak Attack ability)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Attack from Behind](combatDetails.qmd#attacking-from-behind)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+2 to Attack (do *not* combine with Sneak Attack ability)</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Flat of the blade](combatDetails.qmd#subduing-damage)</td>
-  <td style="border: 1px solid black;">-4 to attack (1/2 subduing damage)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Flat of the blade](combatDetails.qmd#subduing-damage)</td>
+  <td style="border: 1px solid black; padding-left: 5px;">-4 to attack (1/2 subduing damage)</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Punch](combatDetails.qmd#brawling)</td>
-    <td style="border: 1px solid black;">+0 to attack (1d3 subduing damage)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Punch](combatDetails.qmd#brawling)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+0 to attack (1d3 subduing damage)</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Kick](combatDetails.qmd#brawling)</td>
-    <td style="border: 1px solid black;">-2 to attack (1d4 subduing damage)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Kick](combatDetails.qmd#brawling)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">-2 to attack (1d4 subduing damage)</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Attacker/Defender is Invisbile](combatDetails.qmd#attacking-an-invisible-opponent)</td>
-    <td style="border: 1px solid black;">+4/-4 to Attack</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Attacker/Defender is Invisbile](combatDetails.qmd#attacking-an-invisible-opponent)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+4/-4 to Attack</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Attacker/Defender is Blinded](healingAndInjuries.qmd#blindness)</td>
-    <td style="border: 1px solid black;">-4/+4 to Attack</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Attacker/Defender is Blinded](healingAndInjuries.qmd#blindness)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">-4/+4 to Attack</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Defender is pinned](combatDetails.qmd#grappling-wrestling)</td>
-    <td style="border: 1px solid black;">+4 to attack</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Defender is pinned](combatDetails.qmd#grappling-wrestling)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+4 to attack</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">[Touch Attack](combatDetails.qmd#touch-attack)</td>
-    <td style="border: 1px solid black;">Ignores Armor but not Dex bonus</td>
+    <td style="border: 1px solid black; padding-left: 5px;">[Touch Attack](combatDetails.qmd#touch-attack)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Ignores Armor but not Dex bonus</td>
   </tr>
 </table>
 
@@ -89,28 +89,28 @@ When the party of adventurers comes in contact with potential enemies, time shif
 <table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
   <thead>
     <tr>
-     <th style="background-color: darkgray; border: 1px solid black;">Target Distance</th>
-     <th style="background-color: darkgray; border: 1px solid black;">Attack Modifier</th>
+     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Target Distance</th>
+     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Attack Modifier</th>
     </tr>
   </thead>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">5' or less</td>
-    <td style="border: 1px solid black;">-5 (attack from behind bonus +3)</td>
+    <td style="border: 1px solid black; padding-left: 5px;">5' or less</td>
+    <td style="border: 1px solid black; padding-left: 5px;">-5 (attack from behind bonus +3)</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">Up to short range</td>
-    <td style="border: 1px solid black;">+1</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Up to short range</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+1</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">Up to medium range</td>
-    <td style="border: 1px solid black;">+0</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Up to medium range</td>
+    <td style="border: 1px solid black; padding-left: 5px;">+0</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">Up to long range</td>
-    <td style="border: 1px solid black;">-2</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Up to long range</td>
+    <td style="border: 1px solid black; padding-left: 5px;">-2</td>
   </tr>
   <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black;">Beyond long range</td>
-    <td style="border: 1px solid black;">Cannot be attacked</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Beyond long range</td>
+    <td style="border: 1px solid black; padding-left: 5px;">Cannot be attacked</td>
   </tr>
 </table>
