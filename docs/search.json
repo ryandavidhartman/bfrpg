@@ -4201,11 +4201,22 @@
     ]
   },
   {
-    "objectID": "combatOverview.html#actions-explained",
-    "href": "combatOverview.html#actions-explained",
+    "objectID": "combatOverview.html#typical-actions",
+    "href": "combatOverview.html#typical-actions",
     "title": "19  Combat Overview",
-    "section": "Actions Explained",
-    "text": "Actions Explained\n\nMove\nA character may move up to their movement distance and take an action. Movement can be broken up, using some of the distance before and after the action. For example, if a creature has a movement of 30 feet, it can move 10 feet, take an action, and then move 20 feet. Opponents more than 5’ apart may move freely, but once two opposing figures are within 5’ of each other, they are “engaged” and must abide by the rules under Defensive Movement, below.\n\n\nAttack\nTo roll “to hit,” the attacker rolls 1d20 and adds their attack bonus, as well as Strength bonus (if performing a melee attack) or Dexterity bonus (if performing a missile attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent’s Armor Class, the attack hits and damage is rolled. Find information on attacking\n\n\nCast a Spell\nCasting a spell is a standard action. A spell caster can move and then cast the spell, or cast the spell and then move. Movement can be broken up, using some of the distance before and after the action.\n\n\nParry and Dodge\nParry and Dodge is a Defensive action instead of an attack that gives a +2 bonus to AC.\n\n\nPerform a Feat\nA use a one of the characters feats\n\n\nHold Action\nA combatant can choose to wait until later in the initiative to act. If a player states that they are waiting for another character or monster to act, then the player character’s action takes place on the same Initiative number as the creature they are waiting for. In this case, the player character’s action is simultaneous with the creature waiting for, just as if they had rolled the same number. A character using a weapon with a long reach (spears, for instance) may choose to attack a closing opponent on the closing opponent’s number and thus attack simultaneously with the opponent, even if the character rolled lower for Initiative.\n\n\nRun Away\nA character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character’s Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again. See evasion and pursuit\n\n\nDefensive Movement and Attacks of Opportunity.\nAny time a character turns their back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.\nAlternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a fighting withdrawal.",
+    "section": "Typical Actions",
+    "text": "Typical Actions\n\n\n\n\nAction\n\n\nDescription\n\n\n\n\n\nAttack\n\n\nMove (encounter movement distance) + melee or ranged attack\n\n\n\n\nCharge\n\n\nMove (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC\n\n\n\n\nParting Shot\n\n\nFree attack (+2 bonus) vs. opponents turning from the fight\n\n\n\n\nFighting Withdrawal\n\n\nMove back (half normal walking movement) + melee attack\n\n\n\n\nAttack from Behind\n\n\n+2 to Attack (do not combine with Sneak Attack ability)\n\n\n\n\nFlat of the blade\n\n\n-4 to attack (1/2 subduing damage)\n\n\n\n\nPunch\n\n\n+0 to attack (1d3 subduing damage)\n\n\n\n\nKick\n\n\n-2 to attack (1d4 subduing damage)\n\n\n\n\nAttacker/Defender is Invisbile\n\n\n+4/-4 to Attack\n\n\n\n\nAttacker/Defender is Blinded\n\n\n-4/+4 to Attack\n\n\n\n\nDefender is pinned\n\n\n+4 to attack\n\n\n\n\nTouch Attack\n\n\nIgnores Armor but not Dex bonus",
+    "crumbs": [
+      "Encounters",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Combat Overview</span>"
+    ]
+  },
+  {
+    "objectID": "combatOverview.html#missile-fire",
+    "href": "combatOverview.html#missile-fire",
+    "title": "19  Combat Overview",
+    "section": "Missile Fire",
+    "text": "Missile Fire\n\n\n\n\nTarget Distance\n\n\nAttack Modifier\n\n\n\n\n\n5’ or less\n\n\n-5 (attack from behind bonus +3)\n\n\n\n\nUp to short range\n\n\n+1\n\n\n\n\nUp to medium range\n\n\n+0\n\n\n\n\nUp to long range\n\n\n-2\n\n\n\n\nBeyond long range\n\n\nCannot be attacked",
     "crumbs": [
       "Encounters",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>Combat Overview</span>"

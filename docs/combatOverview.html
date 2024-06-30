@@ -509,17 +509,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#combat-order-of-play" id="toc-combat-order-of-play" class="nav-link active" data-scroll-target="#combat-order-of-play">Combat Order of Play</a></li>
-  <li><a href="#actions-explained" id="toc-actions-explained" class="nav-link" data-scroll-target="#actions-explained">Actions Explained</a>
-  <ul>
-  <li><a href="#move" id="toc-move" class="nav-link" data-scroll-target="#move">Move</a></li>
-  <li><a href="#attack" id="toc-attack" class="nav-link" data-scroll-target="#attack">Attack</a></li>
-  <li><a href="#cast-a-spell" id="toc-cast-a-spell" class="nav-link" data-scroll-target="#cast-a-spell">Cast a Spell</a></li>
-  <li><a href="#parry-and-dodge" id="toc-parry-and-dodge" class="nav-link" data-scroll-target="#parry-and-dodge">Parry and Dodge</a></li>
-  <li><a href="#perform-a-feat" id="toc-perform-a-feat" class="nav-link" data-scroll-target="#perform-a-feat">Perform a Feat</a></li>
-  <li><a href="#hold-action" id="toc-hold-action" class="nav-link" data-scroll-target="#hold-action">Hold Action</a></li>
-  <li><a href="#run-away" id="toc-run-away" class="nav-link" data-scroll-target="#run-away">Run Away</a></li>
-  <li><a href="#defensive-movement-and-attacks-of-opportunity." id="toc-defensive-movement-and-attacks-of-opportunity." class="nav-link" data-scroll-target="#defensive-movement-and-attacks-of-opportunity.">Defensive Movement and Attacks of Opportunity.</a></li>
-  </ul></li>
+  <li><a href="#typical-actions" id="toc-typical-actions" class="nav-link" data-scroll-target="#typical-actions">Typical Actions</a></li>
+  <li><a href="#missile-fire" id="toc-missile-fire" class="nav-link" data-scroll-target="#missile-fire">Missile Fire</a></li>
   </ul>
 </nav>
     </div>
@@ -576,43 +567,173 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ol>
 </section>
-<section id="actions-explained" class="level2">
-<h2 class="anchored" data-anchor-id="actions-explained">Actions Explained</h2>
-<section id="move" class="level3">
-<h3 class="anchored" data-anchor-id="move">Move</h3>
-<p>A character may <a href="./combatDetails.html#moving">move</a> up to their movement distance and take an action. Movement can be broken up, using some of the distance before and after the action. For example, if a creature has a movement of 30 feet, it can move 10 feet, take an action, and then move 20 feet. Opponents more than 5’ apart may move freely, but once two opposing figures are within 5’ of each other, they are “engaged” and must abide by the rules under Defensive Movement, below.</p>
+<section id="typical-actions" class="level2">
+<h2 class="anchored" data-anchor-id="typical-actions">Typical Actions</h2>
+<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="background-color: darkgray; border: 1px solid black;">
+Action
+</th>
+<th style="background-color: darkgray; border: 1px solid black;">
+Description
+</th>
+</tr>
+</thead>
+<tbody><tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#attacking">Attack</a>
+</td>
+<td style="border: 1px solid black;">
+Move (encounter movement distance) + melee or ranged attack
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#charging">Charge</a>
+</td>
+<td style="border: 1px solid black;">
+Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#disengaging-from-melee">Parting Shot</a>
+</td>
+<td style="border: 1px solid black;">
+Free attack (+2 bonus) vs.&nbsp;opponents turning from the fight
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#disengaging-from-melee">Fighting Withdrawal</a>
+</td>
+<td style="border: 1px solid black;">
+Move back (half normal walking movement) + melee attack
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#attacking-from-behind">Attack from Behind</a>
+</td>
+<td style="border: 1px solid black;">
++2 to Attack (do <em>not</em> combine with Sneak Attack ability)
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#subduing-damage">Flat of the blade</a>
+</td>
+<td style="border: 1px solid black;">
+-4 to attack (1/2 subduing damage)
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#brawling">Punch</a>
+</td>
+<td style="border: 1px solid black;">
++0 to attack (1d3 subduing damage)
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#brawling">Kick</a>
+</td>
+<td style="border: 1px solid black;">
+-2 to attack (1d4 subduing damage)
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#attacking-an-invisible-opponent">Attacker/Defender is Invisbile</a>
+</td>
+<td style="border: 1px solid black;">
++4/-4 to Attack
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./healingAndInjuries.html#blindness">Attacker/Defender is Blinded</a>
+</td>
+<td style="border: 1px solid black;">
+-4/+4 to Attack
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#grappling-wrestling">Defender is pinned</a>
+</td>
+<td style="border: 1px solid black;">
++4 to attack
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+<a href="./combatDetails.html#touch-attack">Touch Attack</a>
+</td>
+<td style="border: 1px solid black;">
+Ignores Armor but not Dex bonus
+</td>
+</tr>
+</tbody></table>
 </section>
-<section id="attack" class="level3">
-<h3 class="anchored" data-anchor-id="attack">Attack</h3>
-<p>To roll “to hit,” the attacker rolls 1d20 and adds their attack bonus, as well as Strength bonus (if performing a melee attack) or Dexterity bonus (if performing a missile attack) and any other adjustments required by the situation.&nbsp;If the total is equal to or greater than the opponent’s Armor Class, the attack hits and damage is rolled. Find information on <a href="./combatDetails.html#attacking">attacking</a></p>
-</section>
-<section id="cast-a-spell" class="level3">
-<h3 class="anchored" data-anchor-id="cast-a-spell">Cast a Spell</h3>
-<p>Casting a spell is a standard action. A spell caster can move and then cast the spell, or cast the spell and then move. Movement can be broken up, using some of the distance before and after the action.</p>
-</section>
-<section id="parry-and-dodge" class="level3">
-<h3 class="anchored" data-anchor-id="parry-and-dodge">Parry and Dodge</h3>
-<p>Parry and Dodge is a Defensive action instead of an attack that gives a +2 bonus to AC.</p>
-</section>
-<section id="perform-a-feat" class="level3">
-<h3 class="anchored" data-anchor-id="perform-a-feat">Perform a Feat</h3>
-<p>A use a one of the characters <a href="./feats.html">feats</a></p>
-</section>
-<section id="hold-action" class="level3">
-<h3 class="anchored" data-anchor-id="hold-action">Hold Action</h3>
-<p>A combatant can choose to wait until later in the initiative to act. If a player states that they are waiting for another character or monster to act, then the player character’s action takes place on the same Initiative number as the creature they are waiting for. In this case, the player character’s action is simultaneous with the creature waiting for, just as if they had rolled the same number. A character using a weapon with a long reach (spears, for instance) may choose to attack a closing opponent on the closing opponent’s number and thus attack simultaneously with the opponent, even if the character rolled lower for Initiative.</p>
-</section>
-<section id="run-away" class="level3">
-<h3 class="anchored" data-anchor-id="run-away">Run Away</h3>
-<p>A character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character’s Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again. See <a href="./combatDetails.html#evasion-and-pursuit">evasion and pursuit</a></p>
-</section>
-<section id="defensive-movement-and-attacks-of-opportunity." class="level3">
-<h3 class="anchored" data-anchor-id="defensive-movement-and-attacks-of-opportunity.">Defensive Movement and Attacks of Opportunity.</h3>
-<p>Any time a character turns their back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.</p>
-<p>Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a <a href="./combatDetails.html#disengaging-from-melee">fighting withdrawal</a>.</p>
+<section id="missile-fire" class="level2">
+<h2 class="anchored" data-anchor-id="missile-fire">Missile Fire</h2>
+<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="background-color: darkgray; border: 1px solid black;">
+Target Distance
+</th>
+<th style="background-color: darkgray; border: 1px solid black;">
+Attack Modifier
+</th>
+</tr>
+</thead>
+<tbody><tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+5’ or less
+</td>
+<td style="border: 1px solid black;">
+-5 (attack from behind bonus +3)
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+Up to short range
+</td>
+<td style="border: 1px solid black;">
++1
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+Up to medium range
+</td>
+<td style="border: 1px solid black;">
++0
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+Up to long range
+</td>
+<td style="border: 1px solid black;">
+-2
+</td>
+</tr>
+<tr style="border: 1px solid black;">
+<td style="border: 1px solid black;">
+Beyond long range
+</td>
+<td style="border: 1px solid black;">
+Cannot be attacked
+</td>
+</tr>
+</tbody></table>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

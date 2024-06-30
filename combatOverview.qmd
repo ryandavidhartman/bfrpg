@@ -25,40 +25,92 @@ When the party of adventurers comes in contact with potential enemies, time shif
 6. **Start Next Round**
     - The next round of combat begins after everyone has completed an Action.
 
-## Actions Explained
+## Typical Actions
 
-### Move
+<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+     <th style="background-color: darkgray; border: 1px solid black;">Action</th>
+     <th style="background-color: darkgray; border: 1px solid black;">Description</th>
+    </tr>
+  </thead>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Attack](combatDetails.qmd#attacking)</td>
+    <td style="border: 1px solid black;">Move (encounter movement distance) + melee or ranged attack</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Charge](combatDetails.qmd#charging)</td>
+    <td style="border: 1px solid black;">Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Parting Shot](combatDetails.qmd#disengaging-from-melee)</td>
+    <td style="border: 1px solid black;">Free attack (+2 bonus) vs. opponents turning from the fight</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Fighting Withdrawal](combatDetails.qmd#disengaging-from-melee)</td>
+    <td style="border: 1px solid black;">Move back (half normal walking movement) + melee attack</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Attack from Behind](combatDetails.qmd#attacking-from-behind)</td>
+    <td style="border: 1px solid black;">+2 to Attack (do *not* combine with Sneak Attack ability)</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Flat of the blade](combatDetails.qmd#subduing-damage)</td>
+  <td style="border: 1px solid black;">-4 to attack (1/2 subduing damage)</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Punch](combatDetails.qmd#brawling)</td>
+    <td style="border: 1px solid black;">+0 to attack (1d3 subduing damage)</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Kick](combatDetails.qmd#brawling)</td>
+    <td style="border: 1px solid black;">-2 to attack (1d4 subduing damage)</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Attacker/Defender is Invisbile](combatDetails.qmd#attacking-an-invisible-opponent)</td>
+    <td style="border: 1px solid black;">+4/-4 to Attack</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Attacker/Defender is Blinded](healingAndInjuries.qmd#blindness)</td>
+    <td style="border: 1px solid black;">-4/+4 to Attack</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Defender is pinned](combatDetails.qmd#grappling-wrestling)</td>
+    <td style="border: 1px solid black;">+4 to attack</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">[Touch Attack](combatDetails.qmd#touch-attack)</td>
+    <td style="border: 1px solid black;">Ignores Armor but not Dex bonus</td>
+  </tr>
+</table>
 
-A character may [move](combatDetails.qmd#moving) up to their movement distance and take an action. Movement can be broken up, using some of the distance before and after the action. For example, if a creature has a movement of 30 feet, it can move 10 feet, take an action, and then move 20 feet.  Opponents more than 5' apart may move freely, but once two opposing figures are within 5' of each other, they are “engaged” and must abide by the rules under Defensive Movement, below.
+## Missile Fire
 
-### Attack
-
-To roll “to hit,” the attacker rolls 1d20 and adds their attack bonus, as well as Strength bonus (if performing a melee attack) or Dexterity bonus (if performing a missile attack) and any other adjustments required by the situation. If the total is equal to or greater than the opponent's Armor Class, the attack hits and damage is rolled.  Find information on [attacking](combatDetails.qmd#attacking)
-
-### Cast a Spell
-
-Casting a spell is a standard action. A spell caster can move and then cast the spell, or cast the spell and then move. Movement can be broken up, using some of the distance before and after the action.
-
-### Parry and Dodge
-
-Parry and Dodge is a Defensive action instead of an attack that gives a +2 bonus to AC.
-
-### Perform a Feat
-
-A use a one of the characters [feats](feats.qmd)
-
-### Hold Action
-
-A combatant can choose to wait until later in the initiative to act. If a player states that they are waiting for another character or monster to act, then the player character's action takes place on the same Initiative number as the creature they are waiting for. In this case, the player character's action is simultaneous with the creature waiting for, just as if they had rolled the same number. A character using a weapon with a long reach (spears, for instance) may choose to attack a closing opponent on the closing opponent's number and thus attack simultaneously with the opponent, even if the character rolled lower for Initiative.
-
-
-### Run Away
-	
-A character that is running away may not attack. Running characters can move at double their normal encounter movement rate. Characters are allowed to run the number of rounds equal to 3 times the character's Constitution, after which they are fatigued and may only walk at the normal encounter rate. Fatigued characters must rest for at least 3 turns before running again.  See [evasion and pursuit](combatDetails.qmd#evasion-and-pursuit)
-
-
-### Defensive Movement and Attacks of Opportunity.
-
-Any time a character turns their back on an adjacent opponent (who has a ready weapon) and begins movement, that opponent is allowed a “parting shot” with a +2 bonus to attack, even if that opponent has already made all attacks for the round. Opponents with attack routines must choose one attack mode; for instance, a tiger with a claw/claw/bite routine could only claw once or bite once.
-
-Alternately, the character may begin backing away (at up to half normal walking movement) while continuing to fight (if the opponent remains within reach, that is, follows the retreating character). This is termed a [fighting withdrawal](combatDetails.qmd#disengaging-from-melee).
+<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+  <thead>
+    <tr>
+     <th style="background-color: darkgray; border: 1px solid black;">Target Distance</th>
+     <th style="background-color: darkgray; border: 1px solid black;">Attack Modifier</th>
+    </tr>
+  </thead>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">5' or less</td>
+    <td style="border: 1px solid black;">-5 (attack from behind bonus +3)</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">Up to short range</td>
+    <td style="border: 1px solid black;">+1</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">Up to medium range</td>
+    <td style="border: 1px solid black;">+0</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">Up to long range</td>
+    <td style="border: 1px solid black;">-2</td>
+  </tr>
+  <tr style="border: 1px solid black;">
+    <td style="border: 1px solid black;">Beyond long range</td>
+    <td style="border: 1px solid black;">Cannot be attacked</td>
+  </tr>
+</table>
