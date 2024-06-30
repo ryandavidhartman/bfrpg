@@ -5,7 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank based on the work of Chris Gonnerman"
-  date: "6/28/2024"  
+  date: "6/29/2024"  
   chapters:
     - index.qmd
     - part: Introduction
@@ -59,6 +59,7 @@ book:
     - part: The World of OnceWas
       chapters:
         - 12Realms.qmd
+        - history.qmd
         - gods.qmd
         - planes.qmd 
     - part: Appendix
@@ -72,8 +73,6 @@ book:
         - extraClasses.qmd
         - extraRaces.qmd
         - extraRules.qmd
-
-
 
 format:
   html:
