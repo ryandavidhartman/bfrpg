@@ -1768,6 +1768,19 @@
         "XP:": "145"
     },
     {
+        "Name": "Infernal, Quasit*",
+        "Armor Class:": "19",
+        "Hit Dice:": "2+2",
+        "No.\u00a0of Attacks:": "2 claws, 1 bite",
+        "Damage:": "1d2 claws, 1d3 bite + poison",
+        "Movement:": "30'",
+        "No.\u00a0Appearing:": "1",
+        "Save As:": "Magic-User: 2",
+        "Morale:": "14",
+        "Treasure Type:": "None",
+        "XP:": "125"
+    },
+    {
         "Name": "Insect Swarm",
         "Armor Class:": "Immune to normal weapons, including most magical types",
         "Hit Dice:": "2* to 4*",

@@ -10,8 +10,8 @@ Each character will have a score ranging from 6 to 18 in each of the following a
 <table style="border-collapse: collapse; width: 50%; margin-left: auto; margin-right: auto;">
   <thead>
     <tr>
-     <th style="background-color: lightblue; border: 1px solid black;">Ability Score</th>
-     <th style="background-color: lightblue;border: 1px solid black;">Bonus/Penalty</th>
+     <th style="background-color: darkgray; border: 1px solid black;">Ability Score</th>
+     <th style="background-color: darkgray; border: 1px solid black;">Bonus/Penalty</th>
     </tr>
   </thead>
   <tr style="background-color: lightgray; border: 1px solid black;">

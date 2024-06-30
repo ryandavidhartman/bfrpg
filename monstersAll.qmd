@@ -3370,11 +3370,11 @@ These ancient four legged predators are named for their tooth shape, and while t
 
 </div>
 
-<div class="monter" data-tag="Infernal, Quasit>
+<div class="monter" data-tag="Infernal, Quasit*">
 
-## Infernal, Quasit
+## Infernal, Quasit*
 
-|  | Infernal, Quasit |
+|  | Infernal, Quasit* |
 |---|-----------|
 | Armor Class: | 19 (m) |
 | Hit Dice: | 2^**^ |
@@ -3394,10 +3394,7 @@ In its natural demonic form, a quasit attacks with poisonous claws and bites. Th
 Apart from physical prowess, a quasit possesses several magical abilities in any form. It can [detect magic](allSpells.qmd#detect-magic) at will, turn [invisible](allSpells.qmd#invisibility) at will, and once per day, it can instill [fear](allSpells.qmd#remove-fear) (reverse of remove fear) equivalent to that of a 7th-level caster.
 
 As an infernal being, a quasit is immune to electrical and poison attacks and sustains only half damage from acid, cold, or fire-based attacks. Magical weapons or spells are necessary to harm a quasit. Furthermore, as long as it retains at least 1 hit point, a quasit regenerates 1 hit point every round; if reduced below 1 hit point, a quasit perishes. A quasit also gains a +4 bonus when saving against magic (including wands).
-
 </div>
-
-
 
 <div class="monster" data-tag="Insect Swarm" >
 
@@ -3420,7 +3417,7 @@ An insect swarm is not a single creature; rather, it is a large group of ordinar
 
 Any living creature within the volume or area of the swarm suffers 1d3 points of damage each round. Damage rolls are doubled if the victim is unarmored (for creatures which do not wear armor, any creature having less than Armor Class 15 is considered unarmored).
 
-Damage is reduced to a single point per round for three rounds if the character manages to exit the swarm. It is possible to "ward off" the insects by swinging a weapon, shield, or other similar-sized object around, and in this case also damage is reduced to 1 point per round. If a lit torch is used in this way, the swarm takes 1d4 damage per round. Weapons, even magic weapons, do not harm an insect swarm. An entire swarm can be affected by a **sleep** spell. Smoke can be used to drive a swarm away (if the swarm moves away from the victim(s) due to smoke, the damage stops immediately). Finally, a victim who dives into water will take damage for only one more round.
+Damage is reduced to a single point per round for three rounds if the character manages to exit the swarm. It is possible to "ward off" the insects by swinging a weapon, shield, or other similar-sized object around, and in this case also damage is reduced to 1 point per round. If a lit torch is used in this way, the swarm takes 1d4 damage per round. Weapons, even magic weapons, do not harm an insect swarm. An entire swarm can be affected by a [sleep](allSpells.qmd#sleep) spell. Smoke can be used to drive a swarm away (if the swarm moves away from the victim(s) due to smoke, the damage stops immediately). Finally, a victim who dives into water will take damage for only one more round.
 
 </div>
 <div class="monster" data-tag="Invisible Stalker" >

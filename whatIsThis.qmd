@@ -1,25 +1,38 @@
-# Brief History of OnceWas
+# Introduction
 
-![](./images/OnceWas.jpg)
+![](./images/odd_company.jpg)
 
-_There once was a Great Kingdom ruled by Acererak, known as the OverKing, who had conquered all the land from the Far Away Sea to the Eastern Ocean. During his reign, advancements in architecture, agriculture, and trade allowed the Great Kingdom to flourish for over a hundred years._
+*It was our first expedition into Drell's cursed mine in the undercity beneath Minas Ithil. We stood before the ancient chamber doors, where legend spoke of untold riches corrupted the a malevolent blood of Tiamat. I had scoffed at the tales whispered in the shadowy corners of the city, but Harbek, the stalwart dwarf, believed every word.*
 
-_As time passed, the OverKing became corrupt and evil. Perhaps he was manipulated by his advisor Iuz, or driven mad by arcane longevity. The OverKing became withdrawn from the world, and Iuz ruled as his regent._
+*Evron, the enigmatic magic-user, studied the intricate runes etched into the door. "These runes bear ancient magic," he murmured, his voice tinged with curiosity rather than fear. "They seem to ward against trespassers."*
 
-_Iuz’s rule was chaotic and cruel, a parasite over the Great Kingdom. The human fiefs rose up against him. The houses of Dun, Isig, Nyr, Keo, and Glant rebelled against the necromancer, marking the beginning of the Great War._
+*Hunter Morgan, the agile thief, stepped forward, his eyes gleaming with anticipation. "Leave it to me," he grinned, deftly producing his lockpicks. With a series of precise movements, he attempted to breach the enchanted lock. To our surprise, the mechanism yielded with a soft click.*
 
-_The Great Kingdom fell quickly. Iuz created an empire in the North. The House of Dun raised the banner of Dunador, while Glantry, Keoland, and Isigir rose as individual kingdoms._
+*Galatea, the cleric of dubious allegiance, smirked knowingly. "Magic bends to those who understand its nature," she remarked, her eyes glinting with a hint of malice.*
 
-_Iuz’s necromancy continued to grow in strength, using dark rituals to steal power and life force. Once beautiful, Iuz now appeared gnarled and old, considered the enemy of every sane and free person in OnceWas. His tyranny ended when an alliance of wizards used a powerful magic device to imprison him in the Far Realm._
+*As the doors swung open, revealing the dimly lit chamber within, a chill wind whispered through the mine, carrying echoes of forgotten whispers. Bones littered the ground around a stone sarcophagus, their eerie presence casting long shadows across the ancient stone walls.*
 
-_Hundreds of years have passed, and the people of OnceWas barely remember Acererak, the Great Kingdom, or Iuz. All that remain are strange ruins and old ghosts._
+*Harbek's grip tightened on his battleaxe as he cautiously entered, his eyes scanning the chamber for any sign of movement. "Watch your step," he grunted, his voice echoing in the oppressive silence.*
 
+*Evron approached the sarcophagus, his fingers tracing the intricate carvings that adorned its surface. "The lid looks heavy," he observed thoughtfully. "Let us turn it gently and reveal its secrets without disturbing the restless dead."*
 
-# What Is This?
+*Galatea's lips curled into a smile that sent shivers down my spine. "Fools," she hissed, her voice low and filled with dark amusement. "You dare to disturb the sanctum of the fallen?"*
+
+*Before anyone could react, the bones on the floor stirred, rattling as if pulled by invisible strings. With unnatural speed, they assembled themselves into skeletal warriors, their hollow sockets glaring at us with malevolent intent. Gripping their ancient weapons, they lunged forward, hungering for the warmth of the living.*
+
+*Evron cursed under his breath, summoning arcane energies to shield us from the skeletal onslaught. Harbek roared a battle cry, swinging his axe with deadly precision. Hunter Morgan darted among the shadows, striking swift and silent blows.*
+
+*Galatea stood at the center of chaos, her dark laughter blending with the clash of steel. "Embrace the darkness," she taunted, her eyes glowing with unholy fervor.*
+
+*As the battle raged on, each of us fought with a determination born of survival. The mine echoed with the clash of weapons and the cries of the undead. Amidst the chaos, I found myself wondering if our greed had led us to this cursed place, or if fate had a more sinister hand in our plight.*
+
+*In the end, it wasn't the lure of treasure that tested our mettle, but the dark forces awakened by our trespass. And as the last echoes of battle faded into silence, we stood victorious yet haunted, our hearts heavy with the knowledge that some secrets are better left undisturbed in the depths of Drell's cursed mine.*
+
+## What Is This?
 
 The **Basic Fantasy Role-Playing Game** is a rules-light game system inspired by early role-playing game systems. It is intended for fans of "old-school" game mechanics, simple enough for children in second or third grade to play, yet offering enough depth for adults.
 
-# What Is a Role-Playing Game?
+## What Is a Role-Playing Game?
 
 In the almost 50 years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played. Still, some have not tried RPGs; if you are one of those people, this part is for you.
 
@@ -29,13 +42,13 @@ In essence, role-playing games are grown-up games of pretend, with rules to dete
 
 This game attempts to balance simplicity and complexity, being neither too detailed nor too free-form.
 
-# What Do I Need to Play?
+## What Do I Need to Play?
 
 As a player, you should have a pencil, some notebook paper, and a set of dice. Graph paper is also useful for drawing maps. You can use preprinted character sheets available on the Basic Fantasy RPG website, but notebook paper works fine.
 
 As the Dungeon Master , you need the same materials. For new GMs or those with limited preparation time, pre-written adventures (modules) are available for free on the [basicfantasy.org](https://www.basicfantasy.org/) website. Modules written for other game systems can also be used with some conversion.
 
-# Using the Dice
+## Using the Dice
 
 The 20-sided die (d20) is used to resolve attack rolls and saving throws. The 10-sided die (d10) generates numbers from 1 to 10, and pairs are used together to generate numbers from 1 to 100 (percentile rolls). The 4-sided die (d4) is flipped rather than rolled. Other commonly used dice include the 6-sided die (d6), 8-sided die (d8), and 12-sided die (d12).
 

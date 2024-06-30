@@ -595,29 +595,6 @@ Below are defined various *optional* combat rules. The Dungeon Master  must choo
 
 In order to make these options easier to use, each optional rule has a checkbox beside it. The DM may wish to print a copy of this supplement and mark the checkboxes for the rules he or she has chosen.
 
-### Weapon Specialization ☐
-
-Under this rule, the player of a Fighter may choose a weapon in which the character is especially skilled. Specialization only applies to "true" Fighters, and not to any subclasses thereof which may appear in other supplements, unless otherwise noted.
-
-At first level, the player applies one **rank** of specialization to the chosen weapon. This choice must be quite specific; for instance, a specialization in the longsword will give no bonuses when using a shortsword.
-
-Every third level after first (that is, 4^th^, 7^th^, 10^th^, etc.) the player applies another rank of specialization. Each new rank may be applied to an existing specialization, or to a new specialization.
-
-For instance, at first level Evron's player assigns a rank to longsword. Evron gains a bonus of +1 on attack rolls when using a longsword. At 4^th^ level, the player may assign the new rank to longsword, giving a bonus of +1 on attack rolls and +1 on damage; or, the rank may be applied to a new weapon, such as the longbow, in which case both weapons have +1 on attack rolls but no bonus to damage.
-
-As indicated in the Attacks Per Round column, at higher ranks of specialization the Fighter is allowed to attack more than one time per round. 3/2 means that the character may attack three time in every two rounds, once in the odd-numbered round and twice in the even-numbered round. At 2/1 the Fighter is allowed to attack with the specialized weapon two times per round. Additional attacks always come after all other attacks are resolved; that is, the Fighter attacks once on his or her Initiative number, then again after all "first" attacks are done. If more than one weapon specialist is involved in a battle, count Initiative down twice, once for "first" attacks and again for "second" attacks.
-
-| Rank | Combat Bonuses (Attack / Damage) | Attacks per Round |
-|------|----------------------------------|-------------------|
-| 1    | +1 / +0                          | 1 / 1             |
-| 2    | +1 / +1                          | 1 / 1             |
-| 3    | +2 / +1                          | 3 / 2             |
-| 4    | +2 / +2                          | 3 / 2             |
-| 5    | +3 / +2                          | 2 / 1             |
-| 6    | +3 / +3                          | 2 / 1             |
-
-Some GMs do not like the 3/2 rate, as it does involve keeping track of even and odd rounds.  In such a case, the DM may either choose to use 1/1 for both ranks, or 1/1 for rank 3 and 2/1 for rank 4.
-
 ### Shield Specialist ☐
 
 A fighter character may spend a specialization rank to specialize with shields.
@@ -631,18 +608,6 @@ A shield specialist receives an additional +1 bonus to AC while wielding the shi
 A fighter character may spend a specialization rank to consider a type of armor of his choice one step lighter in regards of movement rates.
 
 A fighter can only apply one rank of specialization to each type of armor.
-
-### Critical Hits ☐
-
-A natural 20 on the attack die roll results in a **threat**. Roll again -- if the player hits on the second roll (a normal hit, not just another natural 20), a **critical hit** is scored and double damage is done. However, if the only way the character can hit is to roll a natural 20, critical hits are not scored.
-
-### Fumbles ☐
-
-A natural 1 on the attack die roll may result in a **fumble**; if this occurs, the player must roll a save vs. Death Ray with Dexterity applied. If the save is failed, the character has fumbled.
-
-The effects of a fumble vary based on the type of weapon. For hand-held weapons, the weapon is dropped; use the grenade-like weapons table, to determine where, considering the wielder as if he or she were the "target" in the table. If the character binds his weapon to his hand (so he cannot drop it), then the fumble leads to the character suffering damage equal to the weapon's normal attack die (without Strength, magic, or other bonuses). For bows, a broken bowstring is the usual result; for crossbows, a fumble leads to a jammed mechanism requiring 2d10 rounds to clear.
-
-The DM is encouraged to make up alternate fumble results when appropriate to the circumstances, using these suggestions as a guideline.
 
 ### Two Weapon Combat ☐
 
