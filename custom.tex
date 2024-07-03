@@ -1,23 +1,31 @@
-\documentclass{book}
+\documentclass[11pt, oneside]{report} % Ensure single-sided printing
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{fontspec}
-\setmainfont{Caudex} % Use Caudex font for the main text
-\usepackage{listings} % If you want to include code listings
-\usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry} % Adjust margins
+\setmainfont{Caudex}
 
-% Additional LaTeX packages and custom settings can be added here
+% Ensure the font is embedded correctly
+\defaultfontfeatures{Ligatures=TeX}
+
+% Adjusted margin for better readability
+\usepackage[margin=0.05in, inner=1in, outer=0.05in]{geometry}
+
+% Uncomment and include additional packages as needed
+% \usepackage{listings} % For code listings
+% \usepackage{amsmath} % For mathematical typesetting
 
 \begin{document}
 
 % Title page
 \title{Basic Fantasy RPG, OnceWas edition}
 \author{Jack Frank based on the work of Chris Gonnerman}
-\date{6/15/2024}
+\date{7/02/2024}
 \maketitle
 
 % Table of contents
 \tableofcontents
+
+\raggedright
 
 % Chapters
 $body$ % This placeholder will be replaced by the content of your chapters

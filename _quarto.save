@@ -93,4 +93,4 @@ format:
     toc: true
     execute:
       echo: false
-    documentclass: report  
+    documentclass: book  
