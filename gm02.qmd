@@ -1,5 +1,13 @@
 # Crafting Adventures
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 
 ## Designing a Dungeon Adventure
 

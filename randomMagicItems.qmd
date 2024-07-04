@@ -1,5 +1,13 @@
 # Random Magical Treasure
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 As an aid to DMs here are tables for generating magical treasure to determine the sort of item found by rolling on the following table:
 
 ```{ojs}

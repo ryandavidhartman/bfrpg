@@ -1,5 +1,13 @@
 # Named Magic Items
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 In the world of OnceWas, magic items of great power and renown are scattered across the lands, waiting to be discovered by those brave and resourceful enough to seek them. These legendary weapons are often imbued with unique enchantments and storied histories, offering their wielders abilities far beyond those of ordinary arms. Here are some of the most notable named magical items:
 
 ## Named Magic Weapons

@@ -110,6 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -505,35 +506,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
- <span class="menu-text">Extra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraClasses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Additional Classes</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRaces.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Additional Races</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Aditional and Alternate Rules</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -681,10 +653,10 @@ Table&nbsp;20.1: Morale DC
 <p>When a group of player characters encounters one or more monsters or NPCs, it’s important to determine how these creatures will react to the party. While some reactions are obvious—such as zombies guarding a tomb almost always attacking intruders—others are not as clear-cut.</p>
 <p>In situations where the reaction of the monsters or NPCs to the party is uncertain, particularly when talking, bluffing, or trading is involved, a <strong>reaction roll</strong> may be made. The Dungeon Master rolls a d20, adding the Charisma bonus (or applying the Charisma penalty) of the “lead” character, along with any other adjustments they feel are reasonable, and consults the table below:</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="52" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 51;"><span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>viewof mreaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#monster-reaction"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span>[<span class="dv">2</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">9</span>]<span class="op">,</span>[<span class="dv">10</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span>[<span class="dv">16</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span><span class="dv">20</span>]]))})</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`d20: </span><span class="sc">${</span>mreaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="60" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 59;"><span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>viewof mreaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#monster-reaction"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span>[<span class="dv">2</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span>[<span class="dv">6</span><span class="op">,</span><span class="dv">9</span>]<span class="op">,</span>[<span class="dv">10</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span>[<span class="dv">12</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span>[<span class="dv">16</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span><span class="dv">20</span>]]))})</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`d20: </span><span class="sc">${</span>mreaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -755,11 +727,13 @@ Table&nbsp;20.2: Monster Reaction Roll Table
 </div>
 </figure>
 </div>
-<p><code>The adjusted Roll will typically be:  DC + CHA MOD + Leadership  or Diplomacy Skill Bonus +/- any DM determined adjustments</code></p>
+<p>The adjusted Roll will typically be:<br> <strong>DC + CHA MOD + Leadership or Diplomacy Skill Bonus +/- any DM determined adjustments</strong></p>
 </div>
-<p>Results of 5 or less indicates that the monsters are hostile to violenlty and will normally attack immediately. If the roll is 6-9, the monsters are uncertain but lean towards a negative reaction and may attack if provoked. A roll of 10-11 means the monsters are neutral, uninterested, and uncertain, showing no strong inclination towards aggression or friendliness.</p>
-<p>A result of 12-15 signifies that the monsters are uncertain but tend towards a positive reaction, potentially open to parley or negotiation. When the roll is 16-19, the monsters are friendly and take immediate positive action, showing willingness to cooperate or assist the player characters. A result of 20 or higher indicates that the monsters (or their leader) are enthusiastically friendly and immediately accept the player characters, potentially offering substantial help or cooperation.</p>
-<p>A favorable result means that the monsters do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.</p>
+<ul>
+<li><p>Results of 5 or less indicates that the monsters are hostile to violenlty and will normally attack immediately. If the roll is 6-9, the monsters are uncertain but lean towards a negative reaction and may attack if provoked. A roll of 10-11 means the monsters are neutral, uninterested, and uncertain, showing no strong inclination towards aggression or friendliness.</p></li>
+<li><p>A result of 12-15 signifies that the monsters are uncertain but tend towards a positive reaction, potentially open to parley or negotiation. When the roll is 16-19, the monsters are friendly and take immediate positive action, showing willingness to cooperate or assist the player characters. A result of 20 or higher indicates that the monsters (or their leader) are enthusiastically friendly and immediately accept the player characters, potentially offering substantial help or cooperation.</p></li>
+<li><p>A favorable result means that the monsters do, in fact, like the player characters; this does not mean that the monsters will just hand over their treasure, but it does indicate that they may choose to cooperate with the player characters in mutually beneficial ways.</p></li>
+</ul>
 <p>As always, interpreting the results of this roll is left to the DM, who may choose to alter the result if he or she believes a different result would be more enjoyable to play out than the one rolled.</p>
 </section>
 <section id="initiative" class="level2">
@@ -1622,9 +1596,9 @@ Figure&nbsp;20.1: Grenade AOT
 </div>
 <p><br></p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="535" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 534;"><span id="cb2-535"><a href="#cb2-535" aria-hidden="true" tabindex="-1"></a>viewof level <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Cleric Level"</span>})</span>
-<span id="cb2-536"><a href="#cb2-536" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-537"><a href="#cb2-537" aria-hidden="true" tabindex="-1"></a>viewof r <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Roll"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="544" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 543;"><span id="cb2-544"><a href="#cb2-544" aria-hidden="true" tabindex="-1"></a>viewof level <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Cleric Level"</span>})</span>
+<span id="cb2-545"><a href="#cb2-545" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-546"><a href="#cb2-546" aria-hidden="true" tabindex="-1"></a>viewof r <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">select</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">2</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">4</span><span class="op">,</span><span class="dv">5</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">7</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">9</span><span class="op">,</span><span class="dv">10</span><span class="op">,</span><span class="dv">11</span><span class="op">,</span><span class="dv">12</span><span class="op">,</span><span class="dv">13</span><span class="op">,</span><span class="dv">14</span><span class="op">,</span><span class="dv">15</span><span class="op">,</span><span class="dv">16</span><span class="op">,</span><span class="dv">17</span><span class="op">,</span><span class="dv">18</span><span class="op">,</span><span class="dv">19</span><span class="op">,</span><span class="dv">20</span>]<span class="op">,</span> {<span class="dt">value</span><span class="op">:</span><span class="dv">1</span><span class="op">,</span> <span class="dt">label</span><span class="op">:</span> <span class="st">"Roll"</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -1641,9 +1615,9 @@ Figure&nbsp;20.1: Grenade AOT
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="541" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 540;"><span id="cb3-541"><a href="#cb3-541" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {turnUndead} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb3-542"><a href="#cb3-542" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-543"><a href="#cb3-543" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> <span class="fu">turnUndead</span>(level<span class="op">,</span>r)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="550" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 549;"><span id="cb3-550"><a href="#cb3-550" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {turnUndead} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb3-551"><a href="#cb3-551" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-552"><a href="#cb3-552" aria-hidden="true" tabindex="-1"></a>res <span class="op">=</span> <span class="fu">turnUndead</span>(level<span class="op">,</span>r)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-3-1" data-nodetype="declaration">

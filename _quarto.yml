@@ -5,7 +5,7 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank based on the work of Chris Gonnerman"
-  date: "7/02/2024"  
+  date: "7/03/2024"  
   chapters:
     - index.qmd
     - part: Introduction
@@ -68,11 +68,6 @@ book:
         - appendixMapmaker.qmd
         - char_sheet.qmd
         - handyTables.qmd
-    - part: Extra
-      chapters:
-        - extraClasses.qmd
-        - extraRaces.qmd
-        - extraRules.qmd
 
 format:
   html:

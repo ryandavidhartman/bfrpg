@@ -1,5 +1,13 @@
 # Magical Items
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ## Using Magic Items
 
 To use a magic item, it must be activated, although sometimes activation simply means putting a ring on your finger. Some items, once donned, function constantly.

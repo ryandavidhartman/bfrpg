@@ -110,6 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -505,35 +506,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
- <span class="menu-text">Extra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraClasses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Additional Classes</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRaces.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Additional Races</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Aditional and Alternate Rules</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -579,10 +551,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Hiring a retainer is more involved than hiring other NPCs. First, the player character must advertise for a retainer, typically by hiring a crier, posting notices in public places, or asking (and possibly paying) NPCs such as innkeepers or taverners to direct potential retainers to the player character. It is up to the Dungeon Master to rule on what must be done, and how successful these activities are.</p>
 <p>If the player character is successful, one or more NPCs will present themselves to be interviewed. The Dungeon Master should play out the interview with the player, and after all offers have been made and all questions asked, a reaction roll should be made. To check the potential retainer’s reaction, the Dungeon Master rolls 2d6 and adds the player character’s Charisma bonus. In addition, the Dungeon Master may apply any adjustments he or she feels are appropriate (a bonus of +1 for higher-than-average pay or the offer of a magic item such as a&nbsp;<strong>sword +1</strong>, or a penalty if the player character offers poor terms). The roll is read as follows:</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="15" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 14;"><span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">18</span>]<span class="op">,</span>[<span class="dv">19</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`1d20: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="23" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 22;"><span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">18</span>]<span class="op">,</span>[<span class="dv">19</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`1d20: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -728,109 +700,109 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Light Foot, Human</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="even">
 <td>Light Foot, Elf</td>
 <td style="text-align: center;">8</td>
 <td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Light Foot, Orc</td>
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Leather Armor and Spear</td>
-<td style="text-align: center;">7</td>
+<td style="text-align: center;">11</td>
 </tr>
 <tr class="even">
 <td>Heavy Foot, Human</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Chainmail, Shield, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Heavy Foot, Dwarf</td>
 <td style="text-align: center;">6</td>
 <td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">14</td>
 </tr>
 <tr class="even">
 <td>Heavy Foot, Orc</td>
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Archer, Human</td>
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="even">
 <td>Archer, Elf</td>
 <td style="text-align: center;">15</td>
 <td style="text-align: left;">Chainmail, Shortbow, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Archer, Orc</td>
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="even">
 <td>Crossbowman, Human</td>
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Chainmail, Crossbow, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Crossbowman, Dwarf</td>
 <td style="text-align: center;">12</td>
 <td style="text-align: left;">Platemail, Crossbow, and Shortsword</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">14</td>
 </tr>
 <tr class="even">
 <td>Longbowman, Human</td>
 <td style="text-align: center;">9</td>
 <td style="text-align: left;">Chainmail, Longbow, and Shortsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Longbowman, Elf</td>
 <td style="text-align: center;">20</td>
 <td style="text-align: left;">Chainmail, Longbow, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="even">
 <td>Light Horseman, Human</td>
 <td style="text-align: center;">10</td>
 <td style="text-align: left;">Leather Armor, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Light Horseman, Elf</td>
 <td style="text-align: center;">22</td>
 <td style="text-align: left;">Leather Armor, Lance, Shortbow, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="even">
 <td>Medium Horseman, Human</td>
 <td style="text-align: center;">15</td>
 <td style="text-align: left;">Chainmail, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 <tr class="odd">
 <td>Medium Horseman, Elf</td>
 <td style="text-align: center;">33</td>
 <td style="text-align: left;">Chainmail, Lance, Shortbow, and Longsword</td>
-<td style="text-align: center;">9</td>
+<td style="text-align: center;">14</td>
 </tr>
 <tr class="even">
 <td>Heavy Horseman, Human</td>
 <td style="text-align: center;">20</td>
 <td style="text-align: left;">Platemail, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">8</td>
+<td style="text-align: center;">12</td>
 </tr>
 </tbody>
 </table>

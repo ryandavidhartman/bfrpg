@@ -1,5 +1,14 @@
 # Dungeon Adventures
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
+
 ### Dungeon Survival
 
 As described in the [Equipment](equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.

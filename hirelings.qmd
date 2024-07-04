@@ -1,5 +1,13 @@
 # Hirelings
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 Player characters will sometimes want or need to hire NPCs (Non-Player Characters) to work for them. There are several categories of NPCs available for hire, as follows:
 
 ### Retainers
@@ -100,23 +108,23 @@ Statistics are given below for the most common sorts of mercenaries; the statist
 
 | Type of Mercenary      | Cost | Equipment                                     | Morale    |  
 |------------------------|:----:|:----------------------------------------------|:---------:|
-| Light Foot, Human      | 2    | Leather Armor, Shield, and Longsword          | 8         |
-| Light Foot, Elf        | 8    | Leather Armor, Shield, and Longsword          | 8         |
-| Light Foot, Orc        | 1    | Leather Armor and Spear                       | 7         |
-| Heavy Foot, Human      | 3    | Chainmail, Shield, and Longsword              | 8         |
-| Heavy Foot, Dwarf      | 6    | Chainmail, Shield, and Shortsword             | 9         |
-| Heavy Foot, Orc        | 2    | Chainmail, Shield, and Shortsword             | 8         |
-| Archer, Human          | 5    | Leather Armor, Shortbow, and Shortsword       | 8         |
-| Archer, Elf            | 15   | Chainmail, Shortbow, and Shortsword           | 8         |
-| Archer, Orc            | 3    | Leather Armor, Shortbow, and Shortsword       | 8         |
-| Crossbowman, Human     | 5    | Chainmail, Crossbow, and Shortsword           | 8         |
-| Crossbowman, Dwarf     | 12   | Platemail, Crossbow, and Shortsword           | 9         |
-| Longbowman, Human      | 9    | Chainmail, Longbow, and Shortsword            | 8         |
-| Longbowman, Elf        | 20   | Chainmail, Longbow, and Longsword             | 8         |
-| Light Horseman, Human  | 10   | Leather Armor, Shield, Lance, and Longsword   | 8         |
-| Light Horseman, Elf    | 22   | Leather Armor, Lance, Shortbow, and Longsword | 8         |
-| Medium Horseman, Human | 15   | Chainmail, Shield, Lance, and Longsword       | 8         |
-| Medium Horseman, Elf   | 33   | Chainmail, Lance, Shortbow, and Longsword     | 9         |
-| Heavy Horseman, Human  | 20   | Platemail, Shield, Lance, and Longsword       | 8         |
+| Light Foot, Human      | 2    | Leather Armor, Shield, and Longsword          | 12        |
+| Light Foot, Elf        | 8    | Leather Armor, Shield, and Longsword          | 12        |
+| Light Foot, Orc        | 1    | Leather Armor and Spear                       | 11        |
+| Heavy Foot, Human      | 3    | Chainmail, Shield, and Longsword              | 12        |
+| Heavy Foot, Dwarf      | 6    | Chainmail, Shield, and Shortsword             | 14        |
+| Heavy Foot, Orc        | 2    | Chainmail, Shield, and Shortsword             | 12        |
+| Archer, Human          | 5    | Leather Armor, Shortbow, and Shortsword       | 12        |
+| Archer, Elf            | 15   | Chainmail, Shortbow, and Shortsword           | 12        |
+| Archer, Orc            | 3    | Leather Armor, Shortbow, and Shortsword       | 12        |
+| Crossbowman, Human     | 5    | Chainmail, Crossbow, and Shortsword           | 12        |
+| Crossbowman, Dwarf     | 12   | Platemail, Crossbow, and Shortsword           | 14        |
+| Longbowman, Human      | 9    | Chainmail, Longbow, and Shortsword            | 12        |
+| Longbowman, Elf        | 20   | Chainmail, Longbow, and Longsword             | 12        |
+| Light Horseman, Human  | 10   | Leather Armor, Shield, Lance, and Longsword   | 12        |
+| Light Horseman, Elf    | 22   | Leather Armor, Lance, Shortbow, and Longsword | 12        |
+| Medium Horseman, Human | 15   | Chainmail, Shield, Lance, and Longsword       | 12        |
+| Medium Horseman, Elf   | 33   | Chainmail, Lance, Shortbow, and Longsword     | 14        |
+| Heavy Horseman, Human  | 20   | Platemail, Shield, Lance, and Longsword       | 12        |
 
 ::: 

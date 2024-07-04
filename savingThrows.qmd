@@ -1,5 +1,13 @@
 # Saving Throws
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 **Saving throws** represent the ability of a character or creature to resist or avoid special attacks, such as spells or poisons. Like an attack roll, a saving throw is a d20 roll, with a target number based on the character's class and level; for monsters, a comparable class and level are provided for the purpose of determining the monster's saving throw figures. A natural (unadjusted) roll of 1 on a saving throw is always a failure, while a natural 20 is always a success.
 
 The five categories of saving throw as follows: **Death Ray or Poison**, **Magic Wands**, **Paralysis or Petrify**, **Dragon Breath**, and **Spells**. Spells and monster special attacks will indicate which category applies (when a saving throw is allowed), but in some unusual situations the Dungeon Master  will need to choose a category. One way to make this choice is to interpret the categories metaphorically. For example, a DM might be writing an adventure wherein there is a trap that pours burning oil on the hapless adventurers. Avoiding the oil might be considered similar to avoiding Dragon Breath. Or perhaps a stone idol shoots beams of energy from its glaring eyes when approached. This attack may be considered similar to a Magic Wand, or if especially potent, a Spell. Another approach is to interpret the categories in terms of which ability is challenged: 

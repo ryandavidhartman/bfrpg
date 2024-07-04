@@ -1,5 +1,13 @@
 # Multi Class Options
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ## Combination Classes
 
 To become a member of a combination class, a character must meet the requirements of both classes. Combination class characters use the best attack bonus and the best saving throw values of their original two classes, but must gain experience equal to the combined requirements of both base classes to advance in levels. [Elves](races.qmd#elves) are the only characters eligible to be a member of one of these combination classes:
@@ -56,6 +64,7 @@ Mystic Theurges are Magic-Users who place no boundaries on their magical abiliti
 | 18    | 47,000                 | 5/per day | 5/per day  | 6                       | 4                                |
 | 19    | 52,000                 | 5/per day | 5/per day  | 6                       | 4                                |
 | 20    | 60,000                 | 6/per day | 6/per day  | 7                       | 5                                |
+: Mystic Theurge XP Progression {#tbl-xp-theurge}
 
 #### Study of the Divine
 When memorizing spells, the Mystic Theurge can replace a number of magic-user spells (up to their Intelligence bonus) with Cleric spells of the same level instead. The spell level can’t exceed the maximum level of Cleric Spell outlined in the chart above.
@@ -143,6 +152,7 @@ Nature Wardens have a special bond with animals, allowing them to calm or befrie
 +-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
 | 20    | 60,000                 | 6/per day       | 5                                | 5 | 5 | 4 | 4 | 4 | 1 | – | – |
 +-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+: Nature Warden XP Progression {#tbl-xp-warden}
 
 #### Animal Affinity Table
 
@@ -191,6 +201,7 @@ Nature Wardens have a special bond with animals, allowing them to calm or befrie
 +---------------------+-----+----+----+----+----+----+----+----+----+----+----+
 | 20                  | B   | B  | B  | B  | B  | B  | C  | C  | 3  | 7  | 11 |
 +---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+: Nature Warden Animal Affinity {#tbl-xp-warden-animal}
 
 Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice.
 Monstrous Animals or other “Near-Natural” Animals are treated as 1 Hit Die higher.
@@ -267,6 +278,7 @@ Umbral Harbingers can attempt to render an opponent unconscious with a single st
 | 18    | 47,000                 | 5/per day                | 4                              |
 | 19    | 52,000                 | 5/per day                | 4                              |
 | 20    | 60,000                 | 6/per day                | 5                              |
+: Umbral Harbinger XP Progression {#tbl-xp-harbinger}
 
 #### Assassin Skills
 
@@ -292,6 +304,7 @@ Umbral Harbingers can attempt to render an opponent unconscious with a single st
 | 18    | 3                     | 5                       | 5                        | 2                     | 4                         | 3                           | 3                |
 | 19    | 3                     | 5                       | 5                        | 1                     | 3                         | 3                           | 3                |
 | 20    | 3                     | 4                       | 4                        | 1                     | 3                         | 2                           | 2                |
+: Umbral Harbinger Assassin Skills {#tbl-xp-harbinger-skills}
 
 ##### Ability Bonus or Penalty Adjustments
 
@@ -299,7 +312,11 @@ Each Assassin ability is governed by an ability score and affected by the abilit
 
 ##### Effects of Armor
 
-- Wearing plate imparts a -8 penalty
-- Wearing chain imparts a -4 penalty
-- Using a shield imparts a -2 penalty
-- Wearing no armor imparts a +2 bonus
+| Armor            | Penalty/Bonus |
+|------------------|---------------|
+| Plate            | -8            |
+| Chain            | -4            |
+| Shield           | -2            |
+| Leather          | No penalty    |
+| No armor         | +2 bonus      |
+: Assassin Skills Armor Modifier {#tbl-xp-assassin-armor}

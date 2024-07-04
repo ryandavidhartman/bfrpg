@@ -1,5 +1,13 @@
 # Monsters Intro
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ## Terms
 
 **Name:** The first thing given for each monster is its name (or its most common name, if the monster is known by more than one). If an asterisk appears after the monster's name, it indicates that the monster is only able to be hit by special weapons (such as silver or magical weapons, or creatures affected only by fire, etc.) which makes the monster harder to defeat.
@@ -47,7 +55,7 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 ## Beasts of Burden
 
 
-::: {.table-responsive}
+::: {.column-screen-inset-right}
 
 |                   | Camel               | Donkey/Mule  | Horse, Draft     | Horse, Riding     | Horse, War    | Pony          | Pony, War     | 
 |-------------------|---------------------|--------------|------------------|-------------------|---------------|---------------|---------------|

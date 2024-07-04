@@ -1,5 +1,13 @@
 # Equipment {#sec-equip}
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ## Money
 
 ![](./images/coins.png)

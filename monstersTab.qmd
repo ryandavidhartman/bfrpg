@@ -2,6 +2,8 @@
 format: 
   html:
     includes: include-after-body
+  pdf:
+    include-in-header: preamble.tex  
 ---
 
 ```{=html}

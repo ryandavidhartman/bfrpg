@@ -27,90 +27,37 @@ When the party of adventurers comes in contact with potential enemies, time shif
 
 ## Typical Actions
 
-<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
-  <thead>
-    <tr>
-     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Action</th>
-     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Description</th>
-    </tr>
-  </thead>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Attack](combatDetails.qmd#attacking)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Move (encounter movement distance) + melee or ranged attack</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Charge](combatDetails.qmd#charging)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Parting Shot](combatDetails.qmd#disengaging-from-melee)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Free attack (+2 bonus) vs. opponents turning from the fight</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Fighting Withdrawal](combatDetails.qmd#disengaging-from-melee)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Move back (half normal walking movement) + melee attack</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Attack from Behind](combatDetails.qmd#attacking-from-behind)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+2 to Attack (do *not* combine with Sneak Attack ability)</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Flat of the blade](combatDetails.qmd#subduing-damage)</td>
-  <td style="border: 1px solid black; padding-left: 5px;">-4 to attack (1/2 subduing damage)</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Punch](combatDetails.qmd#brawling)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+0 to attack (1d3 subduing damage)</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Kick](combatDetails.qmd#brawling)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">-2 to attack (1d4 subduing damage)</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Attacker/Defender is Invisbile](combatDetails.qmd#attacking-an-invisible-opponent)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+4/-4 to Attack</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Attacker/Defender is Blinded](healingAndInjuries.qmd#blindness)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">-4/+4 to Attack</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Defender is pinned](combatDetails.qmd#grappling-wrestling)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+4 to attack</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">[Touch Attack](combatDetails.qmd#touch-attack)</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Ignores Armor but not Dex bonus</td>
-  </tr>
-</table>
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
+| **Action**                                                                 | **Description**                                                                                   |
+|:-------------------------------------------------------------------------- |:------------------------------------------------------------------------------------------------- |
+| [Attack](combatDetails.qmd#attacking)                                      | Move (encounter movement distance) + melee or ranged attack                                       |
+| [Charge](combatDetails.qmd#charging)                                       | Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC                          |
+| [Parting Shot](combatDetails.qmd#disengaging-from-melee)                   | Free attack (+2 bonus) vs. opponents turning from the fight                                       |
+| [Fighting Withdrawal](combatDetails.qmd#disengaging-from-melee)            | Move back (half normal walking movement) + melee attack                                           |
+| [Attack from Behind](combatDetails.qmd#attacking-from-behind)              | +2 to Attack (do *not* combine with Sneak Attack ability)                                         |
+| [Flat of the blade](combatDetails.qmd#subduing-damage)                     | -4 to attack (1/2 subduing damage)                                                                |
+| [Punch](combatDetails.qmd#brawling)                                        | +0 to attack (1d3 subduing damage)                                                                |
+| [Kick](combatDetails.qmd#brawling)                                         | -2 to attack (1d4 subduing damage)                                                                |
+| [Attacker/Defender is Invisible](combatDetails.qmd#attacking-an-invisible-opponent) | +4/-4 to Attack                                                                                   |
+| [Attacker/Defender is Blinded](healingAndInjuries.qmd#blindness)           | -4/+4 to Attack                                                                                   |
+| [Defender is pinned](combatDetails.qmd#grappling-wrestling)                | +4 to attack                                                                                      |
+| [Touch Attack](combatDetails.qmd#touch-attack)                             | Ignores Armor but not Dex bonus                                                                   |
+: Typical Combat Actions {#tbl-combat-actions}
 
 ## Missile Fire
 
-<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
-  <thead>
-    <tr>
-     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Target Distance</th>
-     <th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">Attack Modifier</th>
-    </tr>
-  </thead>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">5' or less</td>
-    <td style="border: 1px solid black; padding-left: 5px;">-5 (attack from behind bonus +3)</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">Up to short range</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+1</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">Up to medium range</td>
-    <td style="border: 1px solid black; padding-left: 5px;">+0</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">Up to long range</td>
-    <td style="border: 1px solid black; padding-left: 5px;">-2</td>
-  </tr>
-  <tr style="border: 1px solid black;">
-    <td style="border: 1px solid black; padding-left: 5px;">Beyond long range</td>
-    <td style="border: 1px solid black; padding-left: 5px;">Cannot be attacked</td>
-  </tr>
-</table>
+| Target Distance       | Attack Modifier                  |
+|-----------------------|----------------------------------|
+| 5' or less            | -5 (attack from behind bonus +3) |
+| Up to short range     | +1                               |
+| Up to medium range    | +0                               |
+| Up to long range      | -2                               |
+| Beyond long range     | Cannot be attacked               |
+: Missile Range Modifiers {#tbl-missile-range}

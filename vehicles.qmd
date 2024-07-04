@@ -1,5 +1,13 @@
 # Vehicles
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 The following tables give details of various land and sea vehicles. Game Masters should feel free to create their own vehicles, in which case the table can be used for guidance. Some of the statistics given below are explained in detail later.
 
 ## Land Transportation

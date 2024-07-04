@@ -1,5 +1,13 @@
 # Treasure
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 *"Your idea was good, Evron," said Morningstar after we had turned the sarcophagus lid halfway around. "You just got in a bit of a hurry to try it."*
 
 *"Indeed," I said, feeling foolish. I looked into the sarcophagus; lying atop the mummified remains inside I saw a sword, held in both bony hands with the point toward the corpse's feet. The golden blade was untarnished; the huge ruby set into the crossguard shone in the torchlight.*

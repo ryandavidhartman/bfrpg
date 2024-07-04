@@ -1,6 +1,14 @@
 
 # Monster Descriptions 
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 <input type="text" id="input" placeholder="Filter Monsters">
 
 <!-- <div class="container"> -->
@@ -9,18 +17,18 @@
 
 ## Ant, Giant (and Huge, Large)
 
-|                 | Ant, Giant                            | Ant, Huge     | Ant, Large     |
-|-----------------|---------------------------------------|---------------|----------------|
-| Armor Class:    | 17                                    | 15            | 13             |
-| Hit Dice:       | 4                                     | 2             | 1              |
-| No. of Attacks: | 1 bite                                |               |                |
-| Damage:         | 2d6                                   | 1d10 bite     | 1d6 bite       |
-| Movement:       | 60' (10')                             | 50'           | 40'            |
-| No. Appearing:  | 2d6, Lair 4d6                         | 3d6, Lair 4d8 | 4d6, Lair 4d10 |
-| Save As:        | Fighter: 4                            | Fighter: 2    | Fighter: 1     |
-| Morale:         | 10 on first sighting, 20 after engaged                                 |
-| Treasure Type:  | U or special                          |               |                |
-| XP:             | 240                                   | 75            | 25             |
+| Stats           | Ant, Giant                             | Ant, Huge     | Ant, Large     |
+|-----------------|----------------------------------------|---------------|----------------|
+| Armor Class:    | 17                                     | 15            | 13             |
+| Hit Dice:       | 4                                      | 2             | 1              |
+| No. of Attacks: | 1 bite                                 | 1 bite        | 1 bite         |
+| Damage:         | 2d6                                    | 1d10 bite     | 1d6 bite       |
+| Movement:       | 60' (10')                              | 50'           | 40'            |
+| No. Appearing:  | 2d6, Lair 4d6                          | 3d6, Lair 4d8 | 4d6, Lair 4d10 |
+| Save As:        | Fighter: 4                             | Fighter: 2    | Fighter: 1     |
+| Morale:         | 10 on first sighting, 20 after engaged | Same          | Same           |
+| Treasure Type:  | U or special                           | Same          | Same           |                                 
+| XP:             | 240                                    | 75            | 25             |
 
 
 Giant ants are among the hardiest and most adaptable vermin. Soldiers and workers are about 5 to 6 feet long, while queens can grow to a length of 9 feet. Giant ants may be red or black; there is no statistical difference between them. Though relatively shy when first encountered, once combat begins they will fight to the death. They are known to collect shiny things, and so will sometimes have a small amount of treasure in their lair.
@@ -39,7 +47,7 @@ giant ants.
 
 ## Antelope
 
-|   | Antelope  |
+| Stats  | Antelope  |
 |--------------|----|
 | Armor Class: | 13 |
 | Hit Dice: | 1 to 4 |
@@ -66,7 +74,7 @@ better armed than others.
 
 ## Ape, Carnivorous
 
-|   | Ape, Carnivorous  |
+|  Stats | Ape, Carnivorous  |
 |--------------|----|
 | Armor Class: | 14 |
 | Hit Dice: | 4 |
@@ -86,7 +94,7 @@ These powerful creatures resemble gorillas but are far more aggressive; though t
 
 ## Assassin Vine
 
-|   |  Assassin Vine |
+| Stats  |  Assassin Vine |
 |--------------|----|
 | Armor Class: | 15 |
 | Hit Dice: | 6 |
@@ -115,7 +123,7 @@ A subterranean version of the assassin vine grows near hot springs, volcanic ven
 
 ## Barkling
 
-|                 | Barkling                 |
+|  Stats          | Barkling                 |
 |-----------------|--------------------------|
 | Armor Class:    | 15 (11)                  |
 | Hit Dice:       | 1/2 (1d4 HP)             |
@@ -181,7 +189,7 @@ considered a terrible insult.
 
 ## Basilisk (Common, Greater)
 
-|                 | Basilisk, Common        | Basilisk, Greater*                      |
+| Stats           | Basilisk, Common        | Basilisk, Greater*                      |
 |-----------------|-------------------------|-----------------------------------------|
 | Armor Class:    | 16                      | 17                                      |
 | Hit Dice:       | 6**                     | 8***                                    |
@@ -233,7 +241,7 @@ touch the corpse, an obviously bad idea.
 
 ## Bat (and Bat, Giant)
 
-|  | Bat | Giant Bat |
+|Stats  | Bat | Giant Bat |
 |-------|-------|-----|
 | Armor Class: | 14 | 14 |
 | Hit Dice: | 1 Hit Point | 2 |
@@ -264,7 +272,7 @@ Bears attack by rending opponents with their claws, dragging them in and biting 
 
 ### Bear, Black
 
-|   |  Bear, Black |
+| Stats  |  Bear, Black |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 4 |
@@ -287,7 +295,7 @@ are threatened.
 
 ### Bear, Cave
 
-|   |   Bear, Cave |
+| Stats  |   Bear, Cave |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 7 |
@@ -307,7 +315,7 @@ These monstrous bears are even larger than grizzly bears. They are ferocious kil
 
 ### Bear, Grizzly (or Brown)
 
-|   |   Bear, Grizzly (or Brown) |
+| Stats  |   Bear, Grizzly (or Brown) |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 5 |
@@ -330,7 +338,7 @@ just as bloodthirsty.
 
 ### Bear, Polar
 
-|   |   Bear, Polar |
+| Stats  |   Bear, Polar |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 6 |
@@ -350,7 +358,7 @@ These long, lean carnivores are slightly taller than grizzly bears, and just as 
 
 ## Bee, Giant
 
-|   |  Bee, Giant |
+| Stats  |  Bee, Giant |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 1/2* (1d4 HP)* |
@@ -386,7 +394,7 @@ contain special honey which acts as 1d6+1 [Potions of Healing](magicItems.qmd#po
 
 ## Beetle, Giant Bombardier
 
-|   |  Beetle, Giant Bombardier |
+| Stats  |  Beetle, Giant Bombardier |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 2* |
@@ -408,7 +416,7 @@ Giant bombardier beetles, like most beetles, have more or less the same visual a
 
 ## Beetle, Giant Fire
 
-|   |  Beetle, Giant Fire |
+| Stats  |  Beetle, Giant Fire |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 1+2 |
@@ -440,7 +448,7 @@ from behind receive no bonus to do so.
 
 ## Beetle, Giant Oil
 
-|                 | Beetle, Giant Oil          |
+| Stats           | Beetle, Giant Oil          |
 |-----------------|----------------------------|
 | Armor Class:    | 16                         |
 | Hit Dice:       | 2                          |
@@ -476,7 +484,7 @@ hit points to the victim
 
 ## Beetle, Giant Tiger
 
-|   |  Beetle, Giant Tiger |
+| Stats |  Beetle, Giant Tiger |
 |--------------|-----|
 | Armor Class: | 17 |
 | Hit Dice: | 3+1 |
@@ -498,7 +506,7 @@ They are fast runners, depending on their speed to run down prey, and they willi
 
 ## Black Pudding* (Black Jelly)
 
-|   |  Black Pudding* |
+| Stats  |  Black Pudding* |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 10* (+9) |
@@ -524,7 +532,7 @@ The typical black pudding measures 10 feet across and 2 feet thick, and weighs a
 
 ## Blink Dog
 
-|   |  Blink Dog |
+| Stats  |  Blink Dog |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -568,7 +576,7 @@ generally avoiding a fight if possible, but they hate
 
 ## Blood Rose
 
-|   |  Blood Rose |
+| Stats  |  Blood Rose |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 2* to 4* |
@@ -592,7 +600,7 @@ Each blood rose plant will have 1, 2 or 3 whiplike canes studded with thorns wit
 
 ## Boar
 
-|   |  Boar |
+| Stats  |  Boar |
 |--------------|-----|
 | Armor Class: | 13 |
 | Hit Dice: | 3 |
@@ -614,7 +622,7 @@ A boar is covered in coarse, grayish-black fur. Adults are about 4 feet long and
 
 ## Bugbear
 
-|   |  Bugbear |
+| Stats  |  Bugbear |
 |--------------|-----|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 3+1 |
@@ -638,7 +646,7 @@ One out of every eight bugbears will be a hardened warrior of 4+4 Hit Dice (240 
 
 ## Caecilia, Giant
 
-|   |  Caecilia, Giant |
+| Stats  |  Caecilia, Giant |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 6* |
@@ -664,7 +672,7 @@ Once a caecilia has swallowed an opponent, it will generally attempt to disengag
 
 ## Cattle (Including Aurochs and Bison)
 
-|                 | Cattle                        | Aurochs                | Bison                         |
+|   Stats         | Cattle                        | Aurochs                | Bison                         |
 |-----------------|-------------------------------|------------------------|-------------------------------|
 | Armor Class:    | 14                            | 16                     | 16                            |
 | Hit Dice:       | 2+2                           | 3                      | 4                             |
@@ -723,7 +731,7 @@ large caravans going over semi-arid prairie.
 
 ## Cave Locust, Giant
 
-|   |  Cave Locust, Giant |
+| Stats  |  Cave Locust, Giant |
 |--------------|-----|
 | Armor Class: | 16 |
 | Hit Dice: | 2** |
@@ -753,7 +761,7 @@ Finally, a giant cave locust can spray a greenish-brown goo (its digestive juice
 
 ## Caveman
 
-|   |  Caveman |
+| Stats  |  Caveman |
 |--------------|-----|
 | Armor Class: | 12 |
 | Hit Dice: | 2 |
@@ -773,7 +781,7 @@ Cavemen are a species closely related to humans; they are shorter and stockier, 
 
 ## Centaur
 
-|   |  Centaur |
+| Stats  |  Centaur |
 |--------------|-----|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 4 |
@@ -795,7 +803,7 @@ Centaurs are generally haughty and aloof, but very honorable. Most would rather 
 
 ## Centipede, Giant
 
-|   |  Centipede, Giant |
+| Stats  |  Centipede, Giant |
 |--------------|-----|
 | Armor Class: | 11 |
 | Hit Dice: | 1d4 Hit Points* |
@@ -817,7 +825,7 @@ Giant centipedes tend to attack anything that resembles food, biting with their 
 
 ## Cheetah
 
-|   |  Cheetah |
+| Stats  |  Cheetah |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -837,7 +845,7 @@ A Cheetah is one of the fastest land animals - a large (about 100 pounds) cat ca
 
 ## Chimera
 
-|                 | Chimera                                                                  |
+| Stats           | Chimera                                                                  |
 |-----------------|--------------------------------------------------------------------------|
 | Armor Class:    | 16                                                                       |
 | Hit Dice:       | 9** (+8)                                                                 |
@@ -860,7 +868,7 @@ Chimeras are cruel and voracious. They can speak Dragon but seldom bother to do 
 
 ## Cockatrice
 
-|   |  Cockatrice |
+| Stats  |  Cockatrice |
 |--------------|-----|
 | Armor Class: | 14 |
 | Hit Dice: | 5** |
@@ -884,7 +892,7 @@ Anyone touched by a cockatrice, or who touches one (even if gloved), must save v
 
 ## Crab, Giant
 
-|   |  Crab, Giant |
+| Stats  |  Crab, Giant |
 |--------------|-----|
 | Armor Class: | 18 |
 | Hit Dice: | 3 |
@@ -906,7 +914,7 @@ Giant crabs carry their eyes on armored stalks, which means that no bonus is awa
 
 ## Crocodile
 
-|  | **Normal Crocodile** | **Large Crocodile** | **Giant Crocodile** |
+| Stats | **Normal Crocodile** | **Large Crocodile** | **Giant Crocodile** |
 |--------------|-----|----|----|
 | Armor Class: | 15 | 17 | 19 |
 | Hit Dice: | 2 | 6 | 15 (+11) |
@@ -932,7 +940,7 @@ Crocodiles are aggressive predators 11 to 12 feet long. They lie mostly submerge
 ## Deceiver (Panther-Hydra)
 
 
-|                 | Common Deceiver                  | Greater Deceiver                          |
+| Stats           | Common Deceiver                  | Greater Deceiver                          |
 |-----------------|----------------------------------|-------------------------------------------|
 | Armor Class:    | 16                               | 16                                        |
 | Hit Dice:       | 6*                               | 7**                                       |
@@ -958,7 +966,7 @@ Any character fighting a Displacer for the first time will miss his or her first
 
 ## Dinosaur, Deinonychus
 
-|   |  Dinosaur, Deinonychus |
+| Stats  |  Dinosaur, Deinonychus |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 3 |
@@ -978,7 +986,7 @@ The Deinonychus (sometimes mistakenly called a "Velociraptor") is a medium-sized
 
 ## Dinosaur, Pterodactyl (and Pteranodon)
 
-|  | **Pterodactyl** | **Pteranodon** |
+| Stats | **Pterodactyl** | **Pteranodon** |
 |--------------|-----|----|
 | Armor Class: | 12 | 13 |
 | Hit Dice: | 1 | 5 |
@@ -1000,7 +1008,7 @@ Pteranodons are essentially giant-sized pterodactyls, having wingspans of 25 fee
 
 ## Dinosaur, Stegosaurus
 
-|   |  Dinosaur, Stegosaurus |
+| Stats  |  Dinosaur, Stegosaurus |
 |--------------|-----|
 | Armor Class: | 17 |
 | Hit Dice: | 11 (+9) |
@@ -1027,7 +1035,7 @@ where it tramples.
 
 ## Dinosaur, Triceratops
 
-|   |  Dinosaur, Triceratops |
+| Stats  |  Dinosaur, Triceratops |
 |--------------|-----|
 | Armor Class: | 19 |
 | Hit Dice: | 11 (+9) |
@@ -1065,7 +1073,7 @@ attack.
 
 ## Dinosaur, Tyrannosaurus Rex
 
-|   |  Dinosaur, Tyrannosaurus Rex |
+| Stats  |  Dinosaur, Tyrannosaurus Rex |
 |--------------|-----|
 | Armor Class: | 23 |
 | Hit Dice: | 18 (+12) |
@@ -1100,7 +1108,7 @@ large bipedal carnosaurs, such as the allosaurus.
 
 ## Djinni*
 
-|   |  Djinni* |
+| Stats  |  Djinni* |
 |--------------|-----|
 | Armor Class: | 15 (m) |
 | Hit Dice: | 7+1** |
@@ -1128,7 +1136,7 @@ Due to their highly magical nature, djinn cannot be harmed by non-magical weapon
 
 ## Dog
 
-|  | **Normal Dog** | **Riding Dog** |
+| Stats  | **Normal Dog** | **Riding Dog** |
 |--------------|-----|----|
 | Armor Class: | 14 | 14 |
 | Hit Dice: | 1+1 | 2 |
@@ -1150,7 +1158,7 @@ Riding dogs are a large breed, used primarily by Halflings for transport. They m
 
 ## Doppleganger
 
-|   |  Doppleganger |
+| Stats  |  Doppleganger |
 |--------------|-----|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -1234,7 +1242,7 @@ Experience Points (XP) given for dragons on the following pages are for non-spel
 
 ### Dragon, Cloud
 
-|                 | Dragon, Cloud                          |
+| Stats           | Dragon, Cloud                          |
 |-----------------|----------------------------------------|
 | Armor Class:    | 22                                     |
 | Hit Dice:       | 11\*\* (+9)                            |
@@ -1284,7 +1292,7 @@ All cloud dragons have the power to assume the form of any type of humanoid (as 
 
 ### Dragon, Desert (Blue Dragon)
 
-|   | Dragon, Desert    | 
+| Stats  | Dragon, Desert    | 
 |--------------|---|
 | Armor Class: | 20 |
 | Hit Dice: | 9** (+8) |
@@ -1332,7 +1340,7 @@ Desert dragons are immune to normal lightning, and suffer only half damage from 
 
 ### Dragon, Forest (Green Dragon)
 
-|   |   Dragon, Forest |
+| Stats  |   Dragon, Forest |
 |--------------|---|
 | Armor Class: | 19 |
 | Hit Dice: | 8** |
@@ -1376,7 +1384,7 @@ Forest dragons are immune to all poisons. Note that, despite their breath weapon
 
 ### Dragon, Ice (White Dragon)
 
-|   |   Dragon, Ice |
+|  Stats |   Dragon, Ice |
 |--------------|---|
 | Armor Class: | 17 |
 | Hit Dice: | 6** |
@@ -1424,7 +1432,7 @@ Ice dragons are immune to normal cold, and take only half damage from magical co
 
 ### Dragon, Mountain (Red Dragon)
 
-|   |  Dragon, Red |
+|  Stats |  Dragon, Red |
 |--------------|---|
 | Armor Class: | 21 |
 | Hit Dice: | 10** (+9) |
@@ -1472,7 +1480,7 @@ Mountain dragons are immune to normal fire, and suffer only half damage from mag
 
 ### Dragon, Plains (Yellow Dragon)
 
-|                 | Dragon, Plains                     |
+| Stats           | Dragon, Plains                     |
 |-----------------|------------------------------------|
 | Armor Class:    | 16                                 |
 | Hit Dice:       | 5**                                |
@@ -1520,7 +1528,7 @@ The breath weapon of the plains dragon is a scorching, shimmering cone of heat, 
 
 ### Dragon, Sea (Gray Dragon)
 
-|   |   Dragon, Sea |
+| Stats  |   Dragon, Sea |
 |--------------|---|
 | Armor Class: | 19 |
 | Hit Dice: | 8** |
@@ -1566,7 +1574,7 @@ Sea dragons are neutral in outlook, in much the same way as ice dragons. They of
 
 ### Dragon, Swamp (Black Dragon)
 
-|   |   Dragon, Black |
+| Stats  |   Dragon, Black |
 |--------------|-----|
 | Armor Class: | 18 |
 | Hit Dice: | 7** |
@@ -1611,7 +1619,7 @@ Swamp dragons are immune to all forms of acid. A swamp dragon may hold its breat
 
 ### Dragon Turtle
 
-|   | Dragon Turtle    |
+| Stats  | Dragon Turtle    |
 |--------------|---|
 | Armor Class: | 22 |
 | Hit Dice: | 30** (AB +15) |
@@ -1652,7 +1660,7 @@ Due to their massive size, dragon turtles are immune to virtually all poisons.
 
 ## Dryad
 
-|   | Dryad    |  
+| Stats  | Dryad    |  
 |--------------|---|
 | Armor Class: | 15 |
 | Hit Dice: | 2* |
@@ -1677,7 +1685,7 @@ Shy, intelligent, and resolute, dryads are as elusive as they are alluring -- th
 
 ## Eagle
 
-|   |  Eagle |
+| Stats  |  Eagle |
 |--------------|---|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -1711,7 +1719,7 @@ talons, then attack with the beak.
 
 ## Eagle, Giant
 
-|   |  Eagle, Giant |
+| Stats  |  Eagle, Giant |
 |--------------|---|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -1751,7 +1759,7 @@ one
 
 ## Efreeti*
 
-|   |  Efreeti* |
+| Stats  |  Efreeti* |
 |--------------|---|
 | Armor Class: | 21 (m) |
 | Hit Dice: | 10* (+9) |
@@ -1852,7 +1860,7 @@ type.
 ### Elemental, Air*
 
 
-|                 | Staff Elemental, Air | Device Elemental, Air | Spell Elemental, Air |
+| Stats           | Staff Elemental, Air | Device Elemental, Air | Spell Elemental, Air |
 |-----------------|----------------------|-----------------------|----------------------|
 | Armor Class:    | 18 (m)               | 20 (m)                | 22 (m)               |
 | Hit Dice:       | 8*                   | 12* (+10)             | 16* (+12)            |
@@ -1874,7 +1882,7 @@ Air elementals resemble "dust devils," that is, small whirlwinds, but they are m
 
 ### Elemental, Cold*
 
-|                 | Staff Elemental, Earth | Device Elemental, Earth | Spell Elemental, Earth |
+| Stats           | Staff Elemental, Earth | Device Elemental, Earth | Spell Elemental, Earth |
 |-----------------|------------------------|-------------------------|------------------------|
 | Armor Class:    | 18 (m)                 | 20 (m)                  | 22 (m)                 |
 | Hit Dice:       | 8*                     | 12* (+10)               | 16* (+12)              |
@@ -1909,7 +1917,7 @@ of damage each round.
 
 ### Elemental, Earth*
 
-|   | **Staff Elemental, Earth**   | **Device Elemental, Earth** | **Spell Elemental, Earth** |
+| Stats  | **Staff Elemental, Earth**   | **Device Elemental, Earth** | **Spell Elemental, Earth** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 (m) | 20 (m) | 22 (m) |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1929,7 +1937,7 @@ Earth elementals resemble crude, headless humanoid statues, with clublike hands 
 
 ### Elemental, Fire*
 
-|  | **Staff Elemental, Fire** | **Device Elemental, Fire** | **Spell Elemental, Fire** |
+| Stats | **Staff Elemental, Fire** | **Device Elemental, Fire** | **Spell Elemental, Fire** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 (m) | 20 (m) | 22 (m) |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -1952,7 +1960,7 @@ Remember that a fire elemental is constantly burning; such a creature may easily
 
 ### Elemental, Lighting*
 
-|                 | Staff Elemental, Lightning  | Device Elemental, Lightning  | Spell Elemental, Lightning |
+| Stats           | Staff Elemental, Lightning  | Device Elemental, Lightning  | Spell Elemental, Lightning |
 |-----------------|------------------------|-------------------------|------------------------|
 | Armor Class:    | 19 (m)                 | 21 (m)                  | 23 (m)                 |
 | Hit Dice:       | 8*                     | 12* (+10)               | 16* (+12)              |
@@ -1986,7 +1994,7 @@ turns
 
 ### Elemental, Metal*
 
-|                 | Staff Elemental, Metal | Device Elemental, Metal | Spell Elemental, Metal |
+| Stats           | Staff Elemental, Metal | Device Elemental, Metal | Spell Elemental, Metal |
 |-----------------|------------------------|-------------------------|------------------------|
 | Armor Class:    | 19 (m)                 | 21 (m)                  | 23 (m)                 |
 | Hit Dice:       | 8*                     | 12* (+10)               | 16* (+12)              |
@@ -2021,7 +2029,7 @@ height.
 
 ### Elemental, Water*
 
-|  | **Staff Elemental, Water** | **Device Elemental, Water** | **Spell Elemental, Water** |
+| Stats | **Staff Elemental, Water** | **Device Elemental, Water** | **Spell Elemental, Water** |
 |---|-----------|-----------|------|
 | Armor Class: | 18 (m) | 20 (m) | 22 (m) |
 | Hit Dice: | 8* | 12* (+10) | 16* (+12) |
@@ -2051,7 +2059,7 @@ structures which are in the water.
 
 ### Elemental, Wood*
 
-|                 | Staff Elemental, Earth | Device Elemental, Earth | Spell Elemental, Earth |
+| Stats           | Staff Elemental, Earth | Device Elemental, Earth | Spell Elemental, Earth |
 |-----------------|------------------------|-------------------------|------------------------|
 | Armor Class:    | 17 (m)                 | 19 (m)                  | 21 (m)                 |
 | Hit Dice:       | 8*                     | 12* (+10)               | 16* (+12)              |
@@ -2079,7 +2087,7 @@ fire or lightning elementals.
 
 ## Elephant
 
-|                 | Asiatic Elephant                  | African Elephant |
+| Stats            | Asiatic Elephant                 | African Elephant |
 |-----------------|-----------------------------------|------------------|
 | Armor Class:    | 16                                | 18               |
 | Hit Dice:       | 9 (+8)                            | 10 (+9)          |
@@ -2116,7 +2124,7 @@ elephant are worth 1d8 x 100 gp each.
 
 ## Falcon
 
-|                 | Falcon              |
+| Stats           | Falcon              |
 |-----------------|---------------------|
 | Armor Class:    | 11                  |
 | Hit Dice:       | 1/2 (1d4 HP)        |
@@ -2148,7 +2156,7 @@ making the kill with its sharp beak.
 
 ## Fish, Giant Barracuda
 
-|  | **Huge Barracuda** | **Giant Barracuda** |
+| Stats | **Huge Barracuda** | **Giant Barracuda** |
 |---|------|-----|
 | Armor Class: | 16 | 15 |
 | Hit Dice: | 5 | 9 (+8) |
@@ -2170,7 +2178,7 @@ Giant barracudas always appear singly and are 50% likely to break off the attack
 
 ## Fish, Giant Bass
 
-|  | Fish, Giant Bass |
+| Stats | Fish, Giant Bass |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -2192,7 +2200,7 @@ Giant bass are predatory, and on a natural attack roll of 20 a giant bass will s
 
 ## Fish, Giant Catfish
 
-|  | Fish, Giant Catfish |
+| Stats | Fish, Giant Catfish |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 8 |
@@ -2214,7 +2222,7 @@ Because of its large size (15 to 20 feet long) and body design, a giant catfish 
 
 ## Fish, Giant Piranha
 
-|  | Fish, Giant Piranha |
+| Stats | Fish, Giant Piranha |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -2234,7 +2242,7 @@ Giant piranha average 5' in length at adulthood, and are aggressive carnivores. 
 
 ## Fly, Giant
 
-|  | Fly, Giant |
+| Stats | Fly, Giant |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -2254,7 +2262,7 @@ Giant flies look much like ordinary houseflies, but are about 3' long. Some are 
 
 ## Frog, Giant (and Toad, Giant)
 
-|  | Frog, Giant (and Toad, Giant) |
+| Stats | Frog, Giant (and Toad, Giant) |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -2276,7 +2284,7 @@ A giant frog can stretch its tongue out up to 15' and drag up to dwarf-sized pre
 
 ## Gargoyle*
 
-|  | Gargoyle* |
+| Stats | Gargoyle* |
 |---|-----------|
 | Armor Class: | 15 (m) |
 | Hit Dice: | 4** |
@@ -2298,7 +2306,7 @@ Gargoyles require no food, water, or air. Due to their highly magical nature, th
 
 ## Gelatinous Cube
 
-|  | Gelatinous Cube |
+| Stats | Gelatinous Cube |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 4* |
@@ -2323,7 +2331,7 @@ Any treasure indicated will be visible inside the creature, which must be slain 
 
 ## Ghost*
 
-|  | Ghost* |
+| Stats | Ghost* |
 |---|-----------|
 | Armor Class: | 20 (m) |
 | Hit Dice: | 10* (+9) |
@@ -2353,7 +2361,7 @@ Instead of attacking, a ghost may attempt to possess a living creature. This abi
 
 ## Ghoul (and Ghast)
 
-|                 | Ghoul                   | Ghast                        |
+| Stats           | Ghoul                   | Ghast                        |
 |-----------------|-------------------------|------------------------------|
 | Armor Class:    | 14                      | 15                           |
 | Hit Dice:       | 2*                      | 2**                          |
@@ -2436,7 +2444,7 @@ behaves like any other ghast in all respects.
 
 ## Giant, Cloud
 
-|  | Giant, Cloud |
+| Stats | Giant, Cloud |
 |---|-----------|
 | Armor Class: | 19 (13) |
 | Hit Dice: | 12+3* (+10) |
@@ -2460,7 +2468,7 @@ Cloud giants fight in well-organized units, using carefully developed battle pla
 
 ## Giant, Cyclops
 
-|  | Giant, Cyclops |
+| Stats | Giant, Cyclops |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 13* (+10) |
@@ -2484,7 +2492,7 @@ A cyclops can throw a large rock up to 200' for 3d6 points of damage, but they a
 
 ## Giant, Fire
 
-|  | Giant, Fire |
+| Stats | Giant, Fire |
 |---|-----------|
 | Armor Class: | 17 (13) |
 | Hit Dice: | 11+2* (+9) |
@@ -2521,7 +2529,7 @@ Fire giants are immune to all fire-based attacks.
 
 ## Giant, Frost
 
-|  | Giant, Frost |
+| Stats | Giant, Frost |
 |---|-----------|
 | Armor Class: | 17 (13) |
 | Hit Dice: | 10+1* (+9) |
@@ -2547,7 +2555,7 @@ A frost giant can throw large stones up to 200' for 3d6 damage. Frost giants are
 
 ## Giant, Hill
 
-|  | Giant, Hill |
+| Stats | Giant, Hill |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 8 |
@@ -2570,7 +2578,7 @@ Whether attacking with a weapon or st, hill giants deal 2d8 damage. Hill gian
 
 ## Giant, Mountain
 
-|                 | Giant, Mountain                 |
+| Stats           | Giant, Mountain                 |
 |-----------------|---------------------------------|
 | Armor Class:    | 15 (13)                         |
 | Hit Dice:       | 16 (+12)                        |
@@ -2628,7 +2636,7 @@ A mountain giant can throw large stones up to 240' for
 
 ## Giant, Stone
 
-|  | Giant, Stone |
+| Stats | Giant, Stone |
 |---|-----------|
 | Armor Class: | 17 (15) |
 | Hit Dice: | 9 (+8) |
@@ -2662,7 +2670,7 @@ strategy.
 
 ## Giant, Storm
 
-|  | Giant, Storm |
+| Stats | Giant, Storm |
 |---|-----------|
 | Armor Class: | 19 (13) |
 | Hit Dice: | 15** (+11) |
@@ -2690,7 +2698,7 @@ Unlike most other giants, storm giants have been known to befriend humans, elves
 
 ![](images/glantrian-mule.png)
 
-|   | Glantrian Clockwork Mule |
+| Stats  | Glantrian Clockwork Mule |
 |---|--------------------------|
 | Armor Class: | 10 |
 | Hit Dice: | 2d8+2 |
@@ -2750,7 +2758,7 @@ When submerged in water, the mule deploys flotation devices automatically. This 
 <div class="monster" data-tag="Gnoll" >
 ## Gnoll
 
-|  | Gnoll |
+| Stats | Gnoll |
 |---|-----------|
 | Armor Class: | 15 (13) |
 | Hit Dice: | 2 |
@@ -2773,7 +2781,7 @@ One out of every six gnolls will be a hardened warrior of 4 Hit Dice (240 XP) ha
 <div class="monster" data-tag="Gnome" >
 ## Gnome
 
-|  | Gnome |
+| Stats | Gnome |
 |---|-----------|
 | Armor Class: | 15 (11) |
 | Hit Dice: | 1 |
@@ -2799,7 +2807,7 @@ Most gnomes encountered outside their home are warriors; the statistics above ar
 
 ## Goblin
 
-|  | Goblin |
+| Stats | Goblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1-1 |
@@ -2896,7 +2904,7 @@ Fighter of 4^th^ level.
 
 ### Golem, Amber*
 
-|  |  Golem, Amber* |
+| Stats |  Golem, Amber* |
 |---|-----------|
 | Armor Class: | 21 (m) |
 | Hit Dice: | 10* (+9) |
@@ -2918,7 +2926,7 @@ Amber golems are generally built to resemble lions or other great cats. They are
 
 ### Golem, Bone*
 
-|  |  Golem, Bone* |
+| Stats |  Golem, Bone* |
 |---|-----------|
 | Armor Class: | 19 (m) |
 | Hit Dice: | 8* |
@@ -2942,7 +2950,7 @@ When a bone golem enters combat, there is a cumulative 1% chance each round that
 
 ### Golem, Bronze*
 
-|  |  Golem, Bronze* |
+| Stats |  Golem, Bronze* |
 |---|-----------|
 | Armor Class: | 20 (m) |
 | Hit Dice: | 20** (+13) |
@@ -2966,7 +2974,7 @@ When a bronze golem enters combat, there is a cumulative 1% chance each round th
 
 ### Golem, Clay*
 
-|  |  Golem, Clay* |
+| Stats |  Golem, Clay* |
 |---|-----------|
 | Armor Class: | 22 (m) |
 | Hit Dice: | 11** (+9) |
@@ -2997,7 +3005,7 @@ worse, magical healing cures only 1 point per die rolled
 
 ### Golem, Flesh*
 
-|  |  Golem, Flesh* |
+| Stats |  Golem, Flesh* |
 |---|-----------|
 | Armor Class: | 20 (m) |
 | Hit Dice: | 9** (+8) |
@@ -3032,7 +3040,7 @@ instead receives up to 4 points of healing.
 
 ### Golem, Iron*
 
-|  |  Golem, Iron* |
+| Stats |  Golem, Iron* |
 |---|-----------|
 | Armor Class: | 25 (m) |
 | Hit Dice: | 17** (+12) |
@@ -3056,7 +3064,7 @@ A magical attack that deals electricity damage slows an iron golem (as the [slo
 
 ### Golem, Stone*
 
-|  |  Golem, Stone* |
+| Stats |  Golem, Stone* |
 |---|-----------|
 | Armor Class: | 25 (m) |
 | Hit Dice: | 14** (+11) |
@@ -3081,7 +3089,7 @@ A [stone to flesh](allSpells.qmd#flesh-to-stone) spell may be used to weaken t
 
 ### Golem, Wood*
 
-|  |  Golem, Wood* |
+| Stats |  Golem, Wood* |
 |---|-----------|
 | Armor Class: | 13 (m) |
 | Hit Dice: | 2+2* |
@@ -3101,7 +3109,7 @@ Wood golems are small constructs, not more than 4' in height, and are crudely ma
 
 ## Gorgon
 
-|  | Gorgon |
+| Stats | Gorgon |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -3136,7 +3144,7 @@ bull with the rest being cows
 
 ## Griffon
 
-|  | Griffon |
+| Stats | Griffon |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 7 |
@@ -3161,7 +3169,7 @@ Griffons can be trained as mounts if raised in captivity, but even in this case 
 
 ## Hangman Tree
 
-|  | Hangman Tree |
+| Stats | Hangman Tree |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 5 |
@@ -3183,7 +3191,7 @@ The roots of this tree are also animated; they do not attack, but they do pull d
 
 ## Harpy
 
-|  | Harpy |
+| Stats | Harpy |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2* |
@@ -3205,7 +3213,7 @@ A harpy looks like a giant vulture bearing the torso and face of a human female.
 ## Hawk
 
 
-|  | **Normal Hawk** | **Giant Hawk** |
+| Stats | **Normal Hawk** | **Giant Hawk** |
 |---|------|-----|
 | Armor Class: | 12 | 14 |
 | Hit Dice: | 1d4 Hit Points | 4 |
@@ -3236,7 +3244,7 @@ their eggs or offspring are threatened.
 
 ## Hellhound
 
-|  | Hellhound |
+| Stats | Hellhound |
 |---|-----------|
 | Armor Class: | 14 to 18 |
 | Hit Dice: | 3** to 7** |
@@ -3260,7 +3268,7 @@ Note that hellhounds vary with regard to the number of hit dice each has. If gen
 
 ## Hippogriff
 
-|  | Hippogriff |
+| Stats | Hippogriff |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 3 |
@@ -3284,7 +3292,7 @@ Hippogriffs are omnivorous, entering combat only as defense, save for those time
 
 ## Hobgoblin
 
-|  | Hobgoblin |
+| Stats | Hobgoblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1 |
@@ -3308,7 +3316,7 @@ One out of every six hobgoblins will be a warrior of 3 Hit Dice (145 XP). Regula
 
 ## Hydra
 
-|  | Hydra |
+| Stats | Hydra |
 |---|-----------|
 | Armor Class: | 16 to 23 |
 | Hit Dice: | 5 to 12 (+10) |
@@ -3332,7 +3340,7 @@ Some hydras live in the ocean; use the given movement as a swimming rate rather 
 
 ## Hyena
 
-|  | Hyena |
+| Stats | Hyena |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2+1 |
@@ -3353,7 +3361,7 @@ Hyenas are doglike carnivores who exhibit some of the behaviors of canines but a
 
 ## Hyenodon
 
-|  | Hyenodon |
+| Stats | Hyenodon |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3+1 |
@@ -3374,7 +3382,7 @@ These ancient four legged predators are named for their tooth shape, and while t
 
 ## Infernal, Quasit*
 
-|  | Infernal, Quasit* |
+| Stats | Infernal, Quasit* |
 |---|-----------|
 | Armor Class: | 19 (m) |
 | Hit Dice: | 2^**^ |
@@ -3400,7 +3408,7 @@ As an infernal being, a quasit is immune to electrical and poison attacks and su
 
 ## Insect Swarm
 
-|  | Insect Swarm |
+| Stats | Insect Swarm |
 |---|-----------|
 | Armor Class: | Immune to normal weapons, including most magical types |
 | Hit Dice: | 2* to 4* |
@@ -3424,7 +3432,7 @@ Damage is reduced to a single point per round for three rounds if the character 
 
 ## Invisible Stalker
 
-|  | Invisible Stalker |
+| Stats | Invisible Stalker |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -3449,7 +3457,7 @@ Invisible stalkers have an amorphous form. A [detect invisible](allSpells.qmd#d
 
 ## Ironbane*
 
-|                 | Ironbane*       |
+| Stats           | Ironbane*       |
 |-----------------|-----------------|
 | Armor Class:    | 15              |
 | Hit Dice:       | 3*              |
@@ -3499,7 +3507,7 @@ adventurer in any party.
 
 ## Jaguar
 
-|  | Jaguar |
+| Stats | Jaguar |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 4 |
@@ -3537,7 +3545,7 @@ automatically.
 
 ### Jelly, Black (Black Pudding)
 
-|                   | Jelly, Black |
+| Stats             | Jelly, Black |
 |-------------------|--------------|
 | Armor Class:      | 14           |
 | Hit Dice:         | 10* (+9)     |
@@ -3585,7 +3593,7 @@ a result of the splitting described above.
 
 ### Jelly, Glass (Gelatinous Cube)
 
-|                 | Jelly, Glass    |
+| Stats           | Jelly, Glass    |
 |-----------------|-----------------|
 | Armor Class:    | 12              |
 | Hit Dice:       | 4*              |
@@ -3635,7 +3643,7 @@ which must be slain if the treasure is to be recovered.
 
 ### Jelly, Gray (Gray Ooze)
 
-|                 | Jelly, Gray |
+| Stats           | Jelly, Gray |
 |-----------------|-------------|
 | Armor Class:    | 12          |
 | Hit Dice:       | 3*          |
@@ -3674,7 +3682,7 @@ adding any magical "plus" value to the roll if applicable).
 
 ### Jelly, Green* (Green Slime)
 
-|                 | Jelly, Green                  |
+| Stats           | Jelly, Green                  |
 |-----------------|-------------------------------|
 | Armor Class:    | 12 (only hit by fire or cold) |
 | Hit Dice:       | 2**                           |
@@ -3718,7 +3726,7 @@ retrieved by any magic short of a wish.
 
 ### Jelly, Ochre*
 
-|                 | Jelly, Ochre                  |
+| Stats           | Jelly, Ochre                  |
 |-----------------|-------------------------------|
 | Armor Class:    | 12 (only hit by fire or cold) |
 | Hit Dice:       | 5*                            |
@@ -3750,7 +3758,7 @@ simply have no effect on the monster.
 
 ## Kobold
 
-|  | Kobold |
+| Stats | Kobold |
 |---|-----------|
 | Armor Class: | 13 (11) |
 | Hit Dice: | 1d4 Hit Points |
@@ -3774,7 +3782,7 @@ Kobolds are cunning foes. They see all larger races as enemies, and are thus lik
 
 ## Leech, Giant
 
-|  | Leech, Giant |
+| Stats | Leech, Giant |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -3799,7 +3807,7 @@ Once a giant leech hits in combat, it attaches to the victim and sucks blood, ca
 
 ## Leopard (Panther)
 
-|                 | Leopard (Panther)  |
+| Stats           | Leopard (Panther)  |
 |-----------------|--------------------|
 | Armor Class:    | 16                 |
 | Hit Dice:       | 4                  |
@@ -3829,7 +3837,7 @@ tree.
 
 ## Lion
 
-|  | Lion |
+| Stats | Lion |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 5 |
@@ -3875,7 +3883,7 @@ Living statues can be crafted to resemble any sort of living creature, but most 
 
 ### Living Statue, Crystal
 
-|  |  Living Statue, Crystal |
+| Stats |  Living Statue, Crystal |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 3 |
@@ -3895,7 +3903,7 @@ Crystal living statues have no particular special powers, unlike those made of i
 
 ### Living Statue, Iron
 
-|  |  Living Statue, Iron |
+| Stats |  Living Statue, Iron |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 4* |
@@ -3915,7 +3923,7 @@ If struck by a non-magical metal (even partially metal) weapon, the weapon may b
 
 ### Living Statue, Stone
 
-|  |  Living Statue, Stone |
+| Stats |  Living Statue, Stone |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 5* |
@@ -3935,7 +3943,7 @@ A stone living statue attacks by spraying molten rock from its fingertips. The r
 
 ## Lizard, Giant Draco
 
-|  | Lizard, Giant Draco |
+| Stats | Lizard, Giant Draco |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4+2 |
@@ -3955,7 +3963,7 @@ Giant draco lizards are able to extend their ribs and connected skin to form a s
 
 ## Lizard, Giant Gecko
 
-|  | Lizard, Giant Gecko |
+| Stats | Lizard, Giant Gecko |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 3+1 |
@@ -3975,7 +3983,7 @@ Giant gecko lizards range from 4' to 6' in length, and are generally green in co
 
 ## Lizard, Giant Horned Chameleon
 
-|  | Lizard, Giant Horned Chameleon |
+| Stats | Lizard, Giant Horned Chameleon |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 5 |
@@ -3997,7 +4005,7 @@ The horns of the giant horned chameleon are used only in mating rituals, not in 
 
 ## Lizard, Giant Tuatara
 
-|  | Lizard, Giant Tuatara |
+| Stats | Lizard, Giant Tuatara |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 6 |
@@ -4018,9 +4026,9 @@ Giant tuataras are large, being 10' to 12' long, and heavily built. They are pre
 
 ## Lizard, Monitor
 
-|                 |                      |                     |                      |
+
+| Stats           | Large Monitor Lizard | Huge Monitor Lizard | Giant Monitor Lizard |
 |-----------------|----------------------|---------------------|----------------------|
-|                 | Large Monitor Lizard | Huge Monitor Lizard | Giant Monitor Lizard |
 | Armor Class:    | 12                   | 14                  | 16                   |
 | Hit Dice:       | 3*                   | 5*                  | 7*                   |
 | No. of Attacks: | 1 bite               | 1 bite              | 1 bite               |
@@ -4066,7 +4074,7 @@ considered prey.
 
 ## Lizard Man
 
-|                 | Common Lizard Man                       | Subterranean   Lizard Man  |
+| Stats           | Common Lizard Man                       | Subterranean   Lizard Man  |
 |-----------------|-----------------------------------------|--------------------|
 | Armor Class:    | 15 (12)                                 | 15                 |
 | Hit Dice:       | 2                                       | 2                  |
@@ -4151,7 +4159,7 @@ In animal form, lycanthropes may be hit only by silver or magical weapons.
 
 ### Lycanthrope, Werebear*
 
-|  |  Lycanthrope, Werebear* |
+| Stats |  Lycanthrope, Werebear* |
 |---|-----------|
 | Armor Class: | 18 (s) |
 | Hit Dice: | 6* |
@@ -4171,7 +4179,7 @@ Werebears are humans that can transform into large bears. When in human form, th
 
 ### Lycanthrope, Wereboar*
 
-|  |  Lycanthrope, Wereboar* |
+| Stats |  Lycanthrope, Wereboar* |
 |---|-----------|
 | Armor Class: | 16 (s) |
 | Hit Dice: | 4* |
@@ -4202,7 +4210,7 @@ bored with mundane things but are excited by violence
 
 ### Lycanthrope, Wererat*
 
-|  |  Lycanthrope, Wererat* |
+| Stats |  Lycanthrope, Wererat* |
 |---|-----------|
 | Armor Class: | 13 (s) |
 | Hit Dice: | 3* |
@@ -4226,7 +4234,7 @@ Unlike most lycanthropes, wererats prefer to inhabit civilized areas, particular
 
 ### Lycanthrope, Weretiger*
 
-|  |  Lycanthrope, Weretiger* |
+| Stats |  Lycanthrope, Weretiger* |
 |---|-----------|
 | Armor Class: | 17 (s) |
 | Hit Dice: | 5* |
@@ -4247,7 +4255,7 @@ deal with unless whatever offer is made to them is very attractive to them.
 
 ### Lycanthrope, Werewolf*
 
-|  |  Lycanthrope, Werewolf* |
+| Stats |  Lycanthrope, Werewolf* |
 |---|-----------|
 | Armor Class: | 15 (s) |
 | Hit Dice: | 4* |
@@ -4279,7 +4287,7 @@ weapons.
 
 ## Manticore
 
-|  | Manticore |
+| Stats | Manticore |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 6+1* |
@@ -4302,7 +4310,7 @@ Manticores are vicious predators, having a preference for human flesh. They will
 
 ## Mammoths and Mastodons
 
-|                 | Mammoth                            | Mastodon                          |
+| Stats           | Mammoth                           | Mastodon                          |
 |-----------------|-----------------------------------|-----------------------------------|
 | Armor Class:    | 17                                | 18                                |
 | Hit Dice:       | 15 (+11)                          | 15 *(+11)                         |
@@ -4355,7 +4363,7 @@ worth 1d10 x 100 gp.
 
 ## Medusa
 
-|  | Medusa |
+| Stats | Medusa |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 4** |
@@ -4381,7 +4389,7 @@ Medusae are shy and reclusive, owing no doubt to the fact that, once the lair of
 
 ## Mermaid
 
-|  | Mermaid |
+| Stats | Mermaid |
 |---|-----------|
 | Armor Class: | 12 |
 | Hit Dice: | 1* |
@@ -4415,7 +4423,7 @@ Mermaids arm themselves with spears or daggers. They hunt fish and harvest kelp 
 
 ## Minotaur
 
-|  | Minotaur |
+| Stats | Minotaur |
 |---|-----------|
 | Armor Class: | 14 (12) |
 | Hit Dice: | 6 |
@@ -4435,7 +4443,7 @@ Minotaurs are huge bull-headed humanoid monsters. A minotaur stands more than 7 
 
 ## Mountain Lion
 
-|  | Mountain Lion |
+| Stats | Mountain Lion |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3+2 |
@@ -4455,7 +4463,7 @@ These great cats are about 7 feet long (from nose to tail-tip) and weigh about 1
 
 ## Mummy*
 
-|  | Mummy* |
+| Stats | Mummy* |
 |---|-----------|
 | Armor Class: | 17 (m) (see below) |
 | Hit Dice: | 5** |
@@ -4477,7 +4485,7 @@ As they are undead, mummies are immune to **sleep**, **charm** and **hold**�
 
 ## Nixie
 
-|  | Nixie |
+| Stats | Nixie |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 1* |
@@ -4502,7 +4510,7 @@ Nixies are fey creatures, and thus unpredictable. However, they are rarely malic
 
 ## Octopus, Giant
 
-|  | Octopus, Giant |
+| Stats | Octopus, Giant |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8 |
@@ -4540,7 +4548,7 @@ being held will normally be released at this point.
 
 ## Ogre
 
-|  | Ogre |
+| Stats | Ogre |
 |---|-----------|
 | Armor Class: | 15 (12) |
 | Hit Dice: | 4+1 |
@@ -4562,7 +4570,7 @@ One out of every six ogres will be a pack leader of 6+1 Hit Dice (500 XP). Ogres
 
 ## Orc
 
-|  | Orc |
+| Stats | Orc |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 1 |
@@ -4589,7 +4597,7 @@ One out of every eight orcs will be a warrior of 2 Hit Dice (75 XP). Orcs gain a
 ## Ostrich (and Emu) 
    
 
-|                 | Ostrich      | Emu          |
+| Stats           | Ostrich      | Emu          |
 |-----------------|--------------|--------------|
 | Armor Class:    | 14           | 14           |
 | Hit Dice:       | 3 2          |              |
@@ -4617,7 +4625,7 @@ except as meat.
 
 ## Owl
 
-|                 | Owl                 |
+| Stats           | Owl                 |
 |-----------------|---------------------|
 | Armor Class:    | 15                  |
 | Hit Dice:       | 1                   |
@@ -4646,7 +4654,7 @@ talons.
 
 ## Owlbear
 
-|  | Owlbear |
+|Stats  | Owlbear |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 5 |
@@ -4680,7 +4688,7 @@ their native territory.
 
 ## Parrot (or Cockatiel)
 
-|                 | Parrot (or Cockatiel) |
+| Stats           | Parrot (or Cockatiel) |
 |-----------------|-----------------------|
 | Armor Class:    | 11                    |
 | Hit Dice:       | ½ (1d4 hit points)    |
@@ -4708,7 +4716,7 @@ cannot actually carry on a conversation.
 
 ## Pegasus
 
-|  | Pegasus |
+| Stats | Pegasus |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -4738,7 +4746,7 @@ a heavy load, up to 900 pounds.
 
 ## Pixie
 
-|  | Pixie |
+| Stats | Pixie |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 1* |
@@ -4778,7 +4786,7 @@ person."
 
 ## Purple Worm
 
-|  | Purple Worm |
+| Stats | Purple Worm |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 11* (+9) to 20* (+13) |
@@ -4802,7 +4810,7 @@ Any time a purple worm successfully bites a man-sized or smaller opponent with a
 
 ## Rat
 
-|  | **Normal Rat** | **Giant Rat** |
+| Stats | **Normal Rat** | **Giant Rat** |
 |---|------|-----|
 | Armor Class: | 11 | 13 |
 | Hit Dice: | 1 Hit Point | 1d4 Hit Points |
@@ -4828,7 +4836,7 @@ Any rat bite has a 5% chance of causing a disease. A character who suffers one o
 
 ## Rhagodessa, Giant
 
-|  | Rhagodessa, Giant |
+| Stats | Rhagodessa, Giant |
 |---|-----------|
 | Armor Class: | 16 |
 | Hit Dice: | 4 |
@@ -4882,7 +4890,7 @@ will attempt to withdraw to consume its prey in peace.
 
 ## Rhinoceros
 
-|  | **Black Rhino** | **Woolly Rhino** |
+| Stats | **Black Rhino** | **Woolly Rhino** |
 |---|----|-------|
 | Armor Class: | 17 | 19 |
 | Hit Dice: | 8 | 12 (+10) |
@@ -4906,7 +4914,7 @@ The woolly rhinoceros is a prehistoric beast with long fur, found in primitive "
 
 ## Roc
 
-|  | **Normal Roc** | **Large Roc** | **Giant Roc** |
+| Stats | **Normal Roc** | **Large Roc** | **Giant Roc** |
 |---|------|-----|----|
 | Armor Class: | 18 | 18 | 18 |
 | Hit Dice: | 6 | 12 (+10) | 32 (+16) |
@@ -4964,7 +4972,7 @@ their eggs or offspring (morale of 20 in this case).
 
 ## Rock Baboon
 
-|  | Rock Baboon |
+| Stats | Rock Baboon |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 2 |
@@ -4986,7 +4994,7 @@ Rock baboons are omnivorous, but prefer meat. They are aggressive, naturally cru
 
 ## Rot Grub
 
-|  | Rot Grub |
+| Stats | Rot Grub |
 |---|-----------|
 | Armor Class: | 10 |
 | Hit Dice: | 1 hp |
@@ -5006,7 +5014,7 @@ Rot grubs are 1-inch long vermin found in carrion, dung, and other such garbage 
 
 ## Rust Monster*
 
-|  | Rust Monster* |
+| Stats | Rust Monster* |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 5* |
@@ -5056,7 +5064,7 @@ both monsters seem to have the exact same power.
 
 ## Sabre-Tooth Cat
 
-|  | Sabre-Tooth Cat |
+| Stats | Sabre-Tooth Cat |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 8 |
@@ -5084,7 +5092,7 @@ primarily upon large herbivores.
 
 ## Salamander, Flame 
 
-|                 | Salamander, Flame*        |
+| Stats           | Salamander, Flame*        |
 |-----------------|---------------------------|
 | Armor Class:    | 19 (m)                    |
 | Hit Dice:       | 8*                        |
@@ -5117,7 +5125,7 @@ Elvish, Common, and/or Dragon.
 
 ## Salamander, Frost 
 
-|                 | Salamander, Frost*              |
+| Stats           | Salamander, Frost*              |
 |-----------------|---------------------------------|
 | Armor Class:    | 21 (m)                          |
 | Hit Dice:       | 12* (+10)                       |
@@ -5160,7 +5168,7 @@ parley, fight, or even ignore adventurers.
 
 ## Salamander, Lightning*
 
-|                 | Salamander, Lightning*        |
+| Stats           | Salamander, Lightning*        |
 |-----------------|-------------------------------|
 | Armor Class:    | 20 (m)                        |
 | Hit Dice:       | 10* (+9)                      |
@@ -5201,7 +5209,7 @@ those listening).
 
 ## Salamander, Sand*
 
-|                 | Salamander, Sand*           |
+| Stats           | Salamander, Sand*           |
 |-----------------|-----------------------------|
 | Armor Class:    | 18 (m)                      |
 | Hit Dice:       | 7* (+4)                     |
@@ -5248,7 +5256,7 @@ Elvish, Common, or Dragon.
 
 ## Scorpion, Giant
 
-|  | Scorpion, Giant |
+| Stats | Scorpion, Giant |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -5268,7 +5276,7 @@ Giant scorpions are quite large, sometimes as large as a donkey. They are aggres
 
 ## Sea Serpent
 
-|  | Sea Serpent |
+| Stats | Sea Serpent |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -5288,7 +5296,7 @@ Sea serpents are, obviously, serpentine monsters which live in the sea. They ran
 
 ## Shadow*
 
-|  | Shadow* |
+| Stats | Shadow* |
 |---|-----------|
 | Armor Class: | 13 (m) |
 | Hit Dice: | 2* |
@@ -5312,7 +5320,7 @@ Due to their incorporeal nature, shadows cannot be harmed by non-magical weapons
 
 ## Shark, Bull
 
-|  | Shark, Bull |
+| Stats | Shark, Bull |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2 |
@@ -5337,7 +5345,7 @@ and often travel up rivers in search of prey.
 
 ## Shark, Great White
 
-|  | Shark, Great White |
+| Stats | Shark, Great White |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8 |
@@ -5357,7 +5365,7 @@ Great white sharks range from 12' to 15' in length on the average, though specim
 
 ## Shark, Mako
 
-|  | Shark, Mako |
+| Stats | Shark, Mako |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4 |
@@ -5378,7 +5386,7 @@ Mako sharks are fast-moving predators found in temperate and tropical seas. They
 
 ## Shrew, Giant
 
-|                 | Shrew, Common Giant     | Shrew, Venomous Giant |
+| Stats           | Shrew, Common Giant     | Shrew, Venomous Giant |
 |-----------------|-------------------------|-----------------------|
 | Armor Class:    | 16                      | 16                    |
 | Hit Dice:       | 1*                      | 1*                    |
@@ -5414,7 +5422,7 @@ save again in subsequent rounds if bitten again.
 
 ## Shrieker
 
-|  | Shrieker |
+| Stats | Shrieker |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3 |
@@ -5450,7 +5458,7 @@ wails.
 
 ## Skeleton
 
-|  | Skeleton |
+| Stats | Skeleton |
 |---|-----------|
 | Armor Class: | 13 (see below) |
 | Hit Dice: | 1 |
@@ -5470,7 +5478,7 @@ Skeletons are mindless **undead** created by an evil Magic-User or Cleric, gen
 
 ## Snake, Giant Rattlesnake
 
-|  | Snake, Giant Rattlesnake |
+| Stats | Snake, Giant Rattlesnake |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 2* |
@@ -5490,7 +5498,7 @@ style="position: absolute; top: 0in; left: 0in" Giant rattlesnakes are simply mu
 
 ## Snake, Pit Viper
 
-|  | Snake, Pit Viper |
+| Stats | Snake, Pit Viper |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 1* |
@@ -5516,7 +5524,7 @@ Rattlesnakes are a variety of pit viper; in addition to the details given above,
 
 ## Snake, Python
 
-|  | Snake, Python |
+| Stats | Snake, Python |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 5* |
@@ -5536,7 +5544,7 @@ After a successful bite attack, a python will wrap itself around the victim (in 
 
 ## Snake, Sea
 
-|  | Snake, Sea |
+| Stats | Snake, Sea |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3* |
@@ -5558,7 +5566,7 @@ Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, et
 
 ## Snake, Spitting Cobra
 
-|  | Snake, Spitting Cobra |
+| Stats | Snake, Spitting Cobra |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1* |
@@ -5578,7 +5586,7 @@ Spitting cobras average about 7' in length at adulthood. They use their spreadin
 
 ## Spectre*
 
-|  | Spectre* |
+| Stats | Spectre* |
 |---|-----------|
 | Armor Class: | 17 (m) |
 | Hit Dice: | 6** |
@@ -5611,7 +5619,7 @@ Like all undead, they may be Turned by Clerics and are immune to **sleep**, **
 
 ## Spider, Giant Black Widow
 
-|  | Spider, Giant Black Widow |
+| Stats | Spider, Giant Black Widow |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 3* |
@@ -5633,7 +5641,7 @@ The venom of the giant black widow is strong, such that those bitten must save v
 
 ## Spider, Giant Crab
 
-|  | Spider, Giant Crab |
+| Stats | Spider, Giant Crab |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 2* |
@@ -5653,7 +5661,7 @@ Crab spiders are ambush predators, hiding using various forms of camouflage and 
 
 ## Spider, Giant Tarantula
 
-|  | Spider, Giant Tarantula |
+| Stats | Spider, Giant Tarantula |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 4* |
@@ -5677,7 +5685,7 @@ Each round the original victim dances, he or she must save vs. Poison again or t
 
 ## Sprite
 
-|  | Sprite |
+| Stats | Sprite |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 1d4 Hit Points * |
@@ -5699,7 +5707,7 @@ Five sprites acting together can cast **remove curse**, or its reversed form *
 
 ## Squid, Giant
 
-|                 | Squid, Giant Male     | Squid, Giant Female   |
+| Stats           | Squid, Giant Male     | Squid, Giant Female   |
 |-----------------|-----------------------|-----------------------|
 | Armor Class:    | 16                    | 17                    |
 | Hit Dice:       | 6                     | 7                     |
@@ -5745,7 +5753,7 @@ in hopes that at least one will escape any pursuit.
 
 ## Stirge
 
-|  | Stirge |
+| Stats | Stirge |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1* |
@@ -5788,7 +5796,7 @@ but any attack that misses hits the victim instead.
 
 ## Strangle Vine
 
-|                 | Strangle Vine          |
+| Stats           | Strangle Vine          |
 |-----------------|------------------------|
 | Armor Class:    | 15                     |
 | Hit Dice:       | 6                      |
@@ -5850,7 +5858,7 @@ ground variety of the plant.
 
 ## Tentacle Worm
 
-|  | Tentacle Worm |
+| Stats | Tentacle Worm |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 3* |
@@ -5874,7 +5882,7 @@ If all opponents of a tentacle worm are rendered paralyzed, it will begin to fee
 
 ## Tiger
 
-|  | Tiger |
+| Stats | Tiger |
 |---|-----------|
 | Armor Class: | 14 |
 | Hit Dice: | 6 |
@@ -5905,7 +5913,7 @@ areas of habitat to support their requirements for prey.
 
 ## Titanothere
 
-|  | Titanothere |
+| Stats | Titanothere |
 |---|-----------|
 | Armor Class: | 15 |
 | Hit Dice: | 12 (+10) |
@@ -5925,7 +5933,7 @@ A titanothere is a huge prehistoric animal that resembles the rhinoceros; adults
 
 ## Treant
 
-|  | Treant |
+| Stats | Treant |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 8* |
@@ -5993,7 +6001,7 @@ See [Lizard Man](#lizard-man).
 
 ## Troll (and Trollwife)
 
-|                 | Troll                   | Trollwife      |
+| Stats           | Troll                   | Trollwife      |
 |-----------------|-------------------------|----------------|
 | Armor Class:    | 16                      | 16             |
 | Hit Dice:       | 6*                      | 6*             |
@@ -6096,7 +6104,7 @@ of the remains).
 
 ## Trollkin
 
-|                 |   Trollkin, Infant  | Trollkin, Juvenile | Trollkin, Adolescent |
+| Stats           |   Trollkin, Infant  | Trollkin, Juvenile | Trollkin, Adolescent |
 |-----------------|---------------------|--------------------|----------------------|
 | Armor Class:    | 14                  | 15                 | 16                   |
 | Hit Dice:       | 1\* - 2\*           | 3\* - 4\*          | 5\* - 6\*            |
@@ -6147,7 +6155,7 @@ adults
 
 ## Turtle or Tortoise
 
-|                 | Box Turtle         | Snapping Turtle |
+| Stats           | Box Turtle         | Snapping Turtle |
 |-----------------|--------------------|-----------------|
 | Armor Class:    | 15                 | 16              |
 | Hit Dice:       | ½ (1d4 hit points) | 1               |
@@ -6180,7 +6188,7 @@ well-camouflaged, gaining surprise on a roll of 1-3 on
 ## Unicorn (and Alicorn)
 
 
-|  | Unicorn | Alicorn |
+| Stats | Unicorn | Alicorn |
 |---|------|-----|
 | Armor Class: | 19 | 19 |
 | Hit Dice: | 4* | 4* |
@@ -6208,7 +6216,7 @@ Alicorns cannot heal or transport themselves by magic as unicorns do. However, a
 
 ## Urgoblin
 
-|  | Urgoblin |
+| Stats | Urgoblin |
 |---|-----------|
 | Armor Class: | 14 (11) |
 | Hit Dice: | 2* |
@@ -6230,7 +6238,7 @@ Some hobgoblin tribes consider urgoblins an abomination, and kill them whenever 
 
 ## Vampire*
 
-|  | Vampire* |
+| Stats | Vampire* |
 |---|-----------|
 | Armor Class: | 18 to 20 (m) |
 | Hit Dice: | 7** to 9** (+8) |
@@ -6363,7 +6371,7 @@ complete its destruction.
 
 ## Water Termite, Giant
 
-|  | Water Termite, Giant |
+| Stats | Water Termite, Giant |
 |---|-----------|
 | Armor Class: | 13 |
 | Hit Dice: | 1 to 4 |
@@ -6387,7 +6395,7 @@ These creatures are found in fresh and salt water as well as in swamps. The fres
 
 ## Weasel, Giant (or Ferret, Giant)
 
-|  | Weasel, Giant (or Ferret, Giant) |
+| Stats | Weasel, Giant (or Ferret, Giant) |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 5 |
@@ -6411,7 +6419,7 @@ There are many varieties of normal-sized weasel, including several which are cal
 
 ## Whale, Killer
 
-|  | Whale, Killer |
+| Stats | Whale, Killer |
 |---|-----------|
 | Armor Class: | 17 |
 | Hit Dice: | 6 |
@@ -6433,7 +6441,7 @@ Killer whales eat fish, squid, seals, and other whales, but are not above consum
 
 ## Whale, Narwhal
 
-|  | Whale, Narwhal |
+| Stats | Whale, Narwhal |
 |---|-----------|
 | Armor Class: | 19 |
 | Hit Dice: | 12 (+10) |
@@ -6453,7 +6461,7 @@ Narwhals are aquatic mammals resembling large dolphins with a single (or rarely,
 
 ## Whale, Sperm
 
-|  | Whale, Sperm |
+| Stats | Whale, Sperm |
 |---|-----------|
 | Armor Class: | 22 |
 | Hit Dice: | 36* (+16) |
@@ -6473,7 +6481,7 @@ These creatures can be up to 60 feet long. They prey on giant squid. Sperm whale
 
 ## Wight*
 
-|  | Wight* |
+| Stats | Wight* |
 |---|-----------|
 | Armor Class: | 15 (s) |
 | Hit Dice: | 3* |
@@ -6500,7 +6508,7 @@ Like all undead, wights may be Turned by Clerics and are immune to **sleep**, 
 ## Wolf
 
 
-|  | **Normal Wolf** | **Dire Wold** |
+| Stats | **Normal Wolf** | **Dire Wold** |
 |---|-----------|----------|
 | Armor Class: | 13 | 14 |
 | Hit Dice: | 2 | 4 |
@@ -6522,7 +6530,7 @@ Dire wolves are efficient pack hunters that will kill anything they can catch. D
 
 ## Wraith*
 
-|  | Wraith* |
+| Stats | Wraith* |
 |---|-----------|
 | Armor Class: | 15 (m) |
 | Hit Dice: | 4** |
@@ -6544,7 +6552,7 @@ Like all undead, they may be Turned by Clerics and are immune to **sleep**, **
 
 ## Wyvern
 
-|   | Wyvern |
+| Stats  | Wyvern |
 |---|-----------|
 | Armor Class: | 18 |
 | Hit Dice: | 7* |
@@ -6570,7 +6578,7 @@ If a wyvern hits with both its talons, it may attempt to carry off its victim; o
 
 ## Yellow Mold
 
-|  | Yellow Mold |
+| Stats | Yellow Mold |
 |---|-----------|
 | Armor Class: | Can always be hit |
 | Hit Dice: | 2* |
@@ -6591,7 +6599,7 @@ If disturbed, a patch of this mold bursts forth with a cloud of poisonous spores
 
 ## Zombie
 
-|  | Zombie |
+| Stats | Zombie |
 |---|-----------|
 | Armor Class: | 12 (see below) |
 | Hit Dice: | 2 |
@@ -6612,7 +6620,7 @@ Zombies are the **undead** corpses of humanoid creatures. They are deathly slo
 
 ## Zombraire (and Skeletaire)
 
-|                 | Zombraire            | Skeletaire          |
+| Stats           | Zombraire            | Skeletaire          |
 |-----------------|----------------------|---------------------|
 | Armor Class:    | 12 (see below)       | 13 (see below)      |
 | Hit Dice:       | 2* (variable)        | 1* (variable)       |

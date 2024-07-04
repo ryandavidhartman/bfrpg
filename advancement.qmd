@@ -1,5 +1,13 @@
 # Advancement
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ## Experience Points (XP)
 
 Experience points are given for monsters defeated, and for other challenges as the DM sees fit. The following table provides XP values for monsters. Where a monster has both a character level and hit dice given, use the larger value as the monster's level. Non-combat challenges may be assigned a level, or a flat XP value assigned, as the DM wishes.

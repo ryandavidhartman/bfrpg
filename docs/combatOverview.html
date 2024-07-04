@@ -74,6 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -469,35 +470,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
- <span class="menu-text">Extra</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraClasses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Additional Classes</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRaces.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Additional Races</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./extraRules.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Aditional and Alternate Rules</span></span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -569,169 +541,115 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="typical-actions" class="level2">
 <h2 class="anchored" data-anchor-id="typical-actions">Typical Actions</h2>
-<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+<div id="tbl-combat-actions" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-combat-actions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;19.1: Typical Combat Actions
+</figcaption>
+<div aria-describedby="tbl-combat-actions-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
 <thead>
-<tr>
-<th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">
-Action
-</th>
-<th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">
-Description
-</th>
+<tr class="header">
+<th style="text-align: left;"><strong>Action</strong></th>
+<th style="text-align: left;"><strong>Description</strong></th>
 </tr>
 </thead>
-<tbody><tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#attacking">Attack</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Move (encounter movement distance) + melee or ranged attack
-</td>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#attacking">Attack</a></td>
+<td style="text-align: left;">Move (encounter movement distance) + melee or ranged attack</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#charging">Charge</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./combatDetails.html#charging">Charge</a></td>
+<td style="text-align: left;">Move (2 x encounter movement distance) + attack (+2 bonus) x2 dmg, -2 AC</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#disengaging-from-melee">Parting Shot</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Free attack (+2 bonus) vs.&nbsp;opponents turning from the fight
-</td>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#disengaging-from-melee">Parting Shot</a></td>
+<td style="text-align: left;">Free attack (+2 bonus) vs.&nbsp;opponents turning from the fight</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#disengaging-from-melee">Fighting Withdrawal</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Move back (half normal walking movement) + melee attack
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./combatDetails.html#disengaging-from-melee">Fighting Withdrawal</a></td>
+<td style="text-align: left;">Move back (half normal walking movement) + melee attack</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#attacking-from-behind">Attack from Behind</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+2 to Attack (do <em>not</em> combine with Sneak Attack ability)
-</td>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#attacking-from-behind">Attack from Behind</a></td>
+<td style="text-align: left;">+2 to Attack (do <em>not</em> combine with Sneak Attack ability)</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#subduing-damage">Flat of the blade</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
--4 to attack (1/2 subduing damage)
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./combatDetails.html#subduing-damage">Flat of the blade</a></td>
+<td style="text-align: left;">-4 to attack (1/2 subduing damage)</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#brawling">Punch</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+0 to attack (1d3 subduing damage)
-</td>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#brawling">Punch</a></td>
+<td style="text-align: left;">+0 to attack (1d3 subduing damage)</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#brawling">Kick</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
--2 to attack (1d4 subduing damage)
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./combatDetails.html#brawling">Kick</a></td>
+<td style="text-align: left;">-2 to attack (1d4 subduing damage)</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#attacking-an-invisible-opponent">Attacker/Defender is Invisbile</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+4/-4 to Attack
-</td>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#attacking-an-invisible-opponent">Attacker/Defender is Invisible</a></td>
+<td style="text-align: left;">+4/-4 to Attack</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./healingAndInjuries.html#blindness">Attacker/Defender is Blinded</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
--4/+4 to Attack
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./healingAndInjuries.html#blindness">Attacker/Defender is Blinded</a></td>
+<td style="text-align: left;">-4/+4 to Attack</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#grappling-wrestling">Defender is pinned</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+4 to attack
-</td>
+<tr class="odd">
+<td style="text-align: left;"><a href="./combatDetails.html#grappling-wrestling">Defender is pinned</a></td>
+<td style="text-align: left;">+4 to attack</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-<a href="./combatDetails.html#touch-attack">Touch Attack</a>
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Ignores Armor but not Dex bonus
-</td>
+<tr class="even">
+<td style="text-align: left;"><a href="./combatDetails.html#touch-attack">Touch Attack</a></td>
+<td style="text-align: left;">Ignores Armor but not Dex bonus</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 <section id="missile-fire" class="level2">
 <h2 class="anchored" data-anchor-id="missile-fire">Missile Fire</h2>
-<table style="border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
+<div id="tbl-missile-range" class="quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-missile-range-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;19.2: Missile Range Modifiers
+</figcaption>
+<div aria-describedby="tbl-missile-range-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
 <thead>
-<tr>
-<th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">
-Target Distance
-</th>
-<th style="background-color: darkgray; border: 1px solid black; padding-left: 5px;">
-Attack Modifier
-</th>
+<tr class="header">
+<th>Target Distance</th>
+<th>Attack Modifier</th>
 </tr>
 </thead>
-<tbody><tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-5’ or less
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
--5 (attack from behind bonus +3)
-</td>
+<tbody>
+<tr class="odd">
+<td>5’ or less</td>
+<td>-5 (attack from behind bonus +3)</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-Up to short range
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+1
-</td>
+<tr class="even">
+<td>Up to short range</td>
+<td>+1</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-Up to medium range
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-+0
-</td>
+<tr class="odd">
+<td>Up to medium range</td>
+<td>+0</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-Up to long range
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
--2
-</td>
+<tr class="even">
+<td>Up to long range</td>
+<td>-2</td>
 </tr>
-<tr style="border: 1px solid black;">
-<td style="border: 1px solid black; padding-left: 5px;">
-Beyond long range
-</td>
-<td style="border: 1px solid black; padding-left: 5px;">
-Cannot be attacked
-</td>
+<tr class="odd">
+<td>Beyond long range</td>
+<td>Cannot be attacked</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
 </section>

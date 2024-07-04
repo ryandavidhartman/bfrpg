@@ -1,5 +1,14 @@
 # Character Classes
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
+
 The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, and Thief. To be a member of a class, a character must meet the specified Prime Requisite minimum and racial requirements for that class.
 
 

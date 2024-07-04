@@ -1,5 +1,13 @@
 # Skills
 
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
 ![](images/skills.png)
 
 At first level, a character starts with 3 skill level points. Every level after 1st, the character gets 1 additional skill level point that can be applied to a skill as long as the skill level does not exceed the character level.

@@ -1,0 +1,25 @@
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{booktabs}
+
+% Custom table styles
+\newcolumntype{C}{>{\centering\arraybackslash}p{3cm}}
+\arrayrulecolor{black}
+\renewcommand{\arraystretch}{1.2}
+
+% Define colors
+\definecolor{darkgray}{gray}{0.4}
+\definecolor{lightgray}{gray}{0.8}
+
+% Apply color to the header and specific rows
+\AtBeginEnvironment{longtable}{
+    \rowcolor{darkgray} \hline
+    \endfirsthead
+    \hline
+    \endhead
+}
+\AtBeginEnvironment{longtable}{\rowcolors{1}{lightgray}{white}}
+\AtEndEnvironment{longtable}{\rowcolors{1}{white}{lightgray}}
+
