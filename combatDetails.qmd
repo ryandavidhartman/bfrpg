@@ -223,7 +223,7 @@ Being proficient in a weapon means you can add your Attack Bonus to attack rolls
 
 [Druids](class.qmd#druids) start with 3 weapon proficiencies and gain 1 weapon proficiency every 4 levels (1 at 5th, 1 at 9th, etc.). Druids may not utilize metal armor of any type and are likewise limited to wooden shields. Druids may utilize any one-handed melee weapons, as well as staff, sling, and short bow.
 
-[Thieves](class.qmd#thief) and Assassins start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
+[Thieves](class.qmd#thief) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
 
 [Magic Users](class.qmd#magic-user) start with 2 weapon proficiencies and gain no new proficiencies as they spend most of their training time studying books and not practicing with weapons.
 
