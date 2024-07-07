@@ -40,7 +40,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 ## Saving Throw Tables by Class
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|-------|
 | **1** | 11 | 12 | 14 | 16 | 15 |
 | **2-3** | 10 | 11 | 13 | 15 | 14 |
 | **4-5** | 9 | 10 | 13 | 15 | 14 |
@@ -55,7 +55,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Cleric Saving Throws {#tbl-save-clerics-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|--------|
 | **1**     | 13 | 14 | 13 | 16 | 15 |
 | **2-3**   | 13 | 14 | 13 | 15 | 14 |
 | **4-5**   | 12 | 13 | 12 | 15 | 13 |
@@ -70,7 +70,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Druid Saving Throws {#tbl-save-druids-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|-------|
 | **NM** | 13 | 14 | 15 | 16 | 18 |
 | **1** | 12 | 13 | 14 | 15 | 17 |
 | **2-3** | 11 | 12 | 14 | 15 | 16 |
@@ -86,7 +86,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Fighter Saving Throws {#tbl-save-fighter-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|--------|
 | **NM** | 13 | 14 | 15 | 16 | 18 |
 | **1** | 12 | 13 | 14 | 15 | 17 |
 | **2-3** | 11 | 12 | 14 | 15 | 16 |
@@ -102,7 +102,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Paladin Saving Throws {#tbl-save-paladin-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|--------|
 | 1     | 12                  | 13          | 14                   | 15            | 17     |
 | 2-3   | 11                  | 12          | 14                   | 15            | 16     |
 | 4-5   | 11                  | 11          | 13                   | 14            | 15     |
@@ -117,7 +117,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Ranger Saving Throws {#tbl-save-ranger-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|-------|
 | **1** | 13 | 14 | 13 | 16 | 15 |
 | **2-3** | 13 | 14 | 13 | 15 | 14 |
 | **4-5** | 12 | 13 | 12 | 15 | 13 |
@@ -132,7 +132,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 : Magic-User Saving Throws {#tbl-save-mage-2}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
+|-----------|--------------------|-------------|---------------------|---------------|-------|
 | **1** | 13 | 14 | 13 | 16 | 15 |
 | **2-3** | 12 | 14 | 12 | 15 | 14 |
 | **4-5** | 11 | 13 | 12 | 14 | 13 |
@@ -151,7 +151,7 @@ The DM should feel free to amend this rule as he or she wishes; for instance, a 
 There will be times when a player character tries to do something in the game that seems to have no rule covering it. In some of those cases, the DM will assign a Difficulty Challenge (DC) number from 1 to 20.
 The player rolls 1d20 and adds their Ability Bonus for the score the DM thinks is most appropriate, as well as any situational bonus or penalty the DM assigns. The resulting number must equal or be greater than the DC number.
 
-| Percentile% (2d10) | (1d6) | (1d20) | Description          |
+| Percentile% (2d10)  | (1d6) | (1d20) | Description          |
 |---------------------|-------|--------|----------------------|
 | 85%                 | 1-5   | DC 3   | Very Easy            |
 | 70%                 | 1-4   | DC 6   | Easy                 |
