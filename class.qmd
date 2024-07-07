@@ -235,13 +235,11 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 | 13-15  | +1 Orison, +1 1^st^ level spell                   |
 | 16-17  | +2 Orisons, +2 1^st^ level spells                 |
 | 18     | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells |
-
 : Druid Wisdom Bonus {#tbl-wisdom-druids}
 
 | Druid Level | 1^st^    | 2^nd^    | 3^rd^    | 4^th^       | 5^th^  | 8^th^  | 12^th^        | 14^th^      |
 |-------------|----------|----------|----------|-------------|--------|--------|---------------|-------------|
 | Rank/Title  | Aspirant | Initiate | Wayfarer | Grovekeeper | Warden | Herald | Spring Walker | Elder Druid |
-
 : Druid Titles {#tbl-titles-druids}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
@@ -257,9 +255,7 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 | **16-17** | 9                  | 8           | 7                   | 12            | 9      |
 | **18-19** | 9                  | 7           | 6                   | 11            | 9      |
 | **20**    | 8                  | 6           | 5                   | 11            | 8      |
-
 : Druid Saving Throws {#tbl-save-druids}
-:::
 
 ### Animal Affinity
 
