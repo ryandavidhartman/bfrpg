@@ -8,25 +8,24 @@ format:
     include-in-header: preamble.tex
 ---
 
-
 The available classes are Cleric, Druid, Fighter, Paladin, Ranger, Magic-User, and Thief. To be a member of a class, a character must meet the specified Prime Requisite minimum and racial requirements for that class.
 
+| Class              | Minimum Scores                      |
+|--------------------|-------------------------------------|
+| Cleric or Druid    | Wisdom 9                            |
+| Figther            | Strength 9                          |
+| Ranger             | Strength 9, Wisdom 11, Dexterity 11 |
+| Paladin            | Strength 9, Wisdom 11, Charisma 11  |
+| Magic-User         | Intelligence 9                      |
+| Thief              | Dexterity 9                         |
+| Fighter/Magic-User | Strength 9, Intelligence 9          |
+| Magic-User/Thief   | Intelligence 9, Dexterity 9         |
 
-| Class | Minimum Scores |
-|-- |-- |
-| Cleric or Druid | Wisdom 9 |
-| Figther | Strength 9 |
-| Ranger | Strength 9, Wisdom 11, Dexterity 11 |
-| Paladin | Strength 9, Wisdom 11, Charisma 11 |
-| Magic-User | Intelligence 9 |
-| Thief | Dexterity 9 |
-| Fighter/Magic-User | Strength 9, Intelligence 9 |
-| Magic-User/Thief | Intelligence 9, Dexterity 9 |
 : Class Prime Requisites {#tbl-prime-requisites}
 
 ## Cleric
 
-![](images/cleric_class.png)
+![](images/cleric_class.png){fig-align="center" width="200"}
 
 Clerics have devoted themselves to the service of a [deity](gods.qmd). Additionally, there are twelve demigods and twelve Demon Lords. Clerics of demigods and Demon Lords cannot advance beyond 6^th^ level.
 
@@ -36,10 +35,9 @@ Clerics fight about as well as Thieves but not as well as Fighters. They are har
 
 The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score of 9 or higher to become a Cleric. They may wear any armor and have no weapon restrictions.
 
+![](images/cleric.jpg){fig-align="center"}
 
-![](images/cleric.jpg)
-
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
 
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 |       |             |          |         |          |          |   |   |  Spell Level  |   |   |                |
@@ -89,37 +87,39 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 : Cleric XP Progression {#tbl-xp-clerics}
 
-| Wisdom   | Spell Bonus                                 |
-|--------- |---------------------------------------------|
-| 9-11     | No bonus spells                             |
-| 12       | +1 Orison                                   |
-| 13-15    | +1 Orison, +1 1^st^ level spell               |
-| 16-17    | +2 Orisons, +2 1^st^ level spells             |
-| 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
+:::
+
+| Wisdom | Spell Bonus                                       |
+|--------|---------------------------------------------------|
+| 9-11   | No bonus spells                                   |
+| 12     | +1 Orison                                         |
+| 13-15  | +1 Orison, +1 1^st^ level spell                   |
+| 16-17  | +2 Orisons, +2 1^st^ level spells                 |
+| 18     | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells |
+
 : Cleric Wisdom Bonus {#tbl-wisdom-clerics}
 
-
-| Cleric Level |    1    |   2   |    3   |   4   |    5   |      8      |   12   |        14            |
-|------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
+| Cleric Level | 1       | 2     | 3      | 4     | 5      | 8           | 12     | 14                   |
+|--------------|---------|-------|--------|-------|--------|-------------|--------|----------------------|
 | Rank/Title   | Acolyte | Adept | Priest | Vicar | Curate | High Priest | Bishop | Archbishop/Patriarch |
+
 : Cleric Titles {#tbl-titles-clerics}
 
-| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
-| **1** | 11 | 12 | 14 | 16 | 15 |
-| **2-3** | 10 | 11 | 13 | 15 | 14 |
-| **4-5** | 9 | 10 | 13 | 15 | 14 |
-| **6-7** | 9 | 10 | 12 | 14 | 13 |
-| **8-9** | 8 | 9 | 12 | 14 | 13 |
-| **10-11** | 8 | 9 | 11 | 13 | 12 |
-| **12-13** | 7 | 8 | 11 | 13 | 12 |
-| **14-15** | 7 | 8 | 10 | 12 | 11 |
-| **16-17** | 6 | 7 | 10 | 12 | 11 |
-| **18-19** | 6 | 7 | 9 | 11 | 10 |
-| **20** | 5 | 6 | 9 | 11 | 10 |
-: Cleric Saving Throws {#tbl-save-clerics}
+| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **1**     | 11                 | 12          | 14                  | 16            | 15     |
+| **2-3**   | 10                 | 11          | 13                  | 15            | 14     |
+| **4-5**   | 9                  | 10          | 13                  | 15            | 14     |
+| **6-7**   | 9                  | 10          | 12                  | 14            | 13     |
+| **8-9**   | 8                  | 9           | 12                  | 14            | 13     |
+| **10-11** | 8                  | 9           | 11                  | 13            | 12     |
+| **12-13** | 7                  | 8           | 11                  | 13            | 12     |
+| **14-15** | 7                  | 8           | 10                  | 12            | 11     |
+| **16-17** | 6                  | 7           | 10                  | 12            | 11     |
+| **18-19** | 6                  | 7           | 9                   | 11            | 10     |
+| **20**    | 5                  | 6           | 9                   | 11            | 10     |
 
-:::
+: Cleric Saving Throws {#tbl-save-clerics}
 
 ### Turning the Undead
 
@@ -137,38 +137,37 @@ Undead monsters subject to a D (Damaged) result suffer 1d8 damage per level of t
 
 Note: Evil clerics can choose to command Undead rather than turn them.
 
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 | Cleric Lvl | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
-|--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
-|              | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
-| 1            | 13       | 17     | 19    | No    | No     | No    | No      | No      | No    |
-| 2            | 11       | 15     | 18    | 20    | No     | No    | No      | No      | No    |
-| 3            | 9        | 13     | 17    | 19    | No     | No    | No      | No      | No    |
-| 4            | 7        | 11     | 15    | 18    | 20     | No    | No      | No      | No    |
-| 5            | 5        | 9      | 13    | 17    | 19     | No    | No      | No      | No    |
-| 6            | 3        | 7      | 11    | 15    | 18     | 20    | No      | No      | No    |
-| 7            | 2        | 5      | 9     | 13    | 17     | 19    | No      | No      | No    |
-| 8            | T        | 3      | 7     | 11    | 15     | 18    | 20      | No      | No    |
-| 9            | T        | 2      | 5     | 9     | 13     | 17    | 19      | No      | No    |
-| 10           | T        | T      | 3     | 7     | 11     | 15    | 18      | 20      | No    |
-| 11           | D        | T      | 2     | 5     | 9      | 13    | 17      | 19      | No    |
-| 12           | D        | T      | T     | 3     | 7      | 11    | 15      | 18      | 20    |
-| 13           | D        | D      | T     | 2     | 5      | 9     | 13      | 17      | 19    |
-| 14           | D        | D      | T     | T     | 3      | 7     | 11      | 15      | 18    |
-| 15           | D        | D      | D     | T     | 2      | 5     | 9       | 13      | 17    |
-| 16           | D        | D      | D     | T     | T      | 3     | 7       | 11      | 15    |
-| 17           | D        | D      | D     | D     | T      | 2     | 5       | 9       | 13    |
-| 18           | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
-| 19           | D        | D      | D     | D     | D      | T     | 2       | 5       | 9     |
-| 20           | D        | D      | D     | D     | D      | T     | T       | 3       | 7     |
-: Turn Undead Table DC + Wisdom Bonus {#tbl-turn-clerics}
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+|            | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
+| 1          | 13       | 17     | 19    | No    | No     | No    | No      | No      | No    |
+| 2          | 11       | 15     | 18    | 20    | No     | No    | No      | No      | No    |
+| 3          | 9        | 13     | 17    | 19    | No     | No    | No      | No      | No    |
+| 4          | 7        | 11     | 15    | 18    | 20     | No    | No      | No      | No    |
+| 5          | 5        | 9      | 13    | 17    | 19     | No    | No      | No      | No    |
+| 6          | 3        | 7      | 11    | 15    | 18     | 20    | No      | No      | No    |
+| 7          | 2        | 5      | 9     | 13    | 17     | 19    | No      | No      | No    |
+| 8          | T        | 3      | 7     | 11    | 15     | 18    | 20      | No      | No    |
+| 9          | T        | 2      | 5     | 9     | 13     | 17    | 19      | No      | No    |
+| 10         | T        | T      | 3     | 7     | 11     | 15    | 18      | 20      | No    |
+| 11         | D        | T      | 2     | 5     | 9      | 13    | 17      | 19      | No    |
+| 12         | D        | T      | T     | 3     | 7      | 11    | 15      | 18      | 20    |
+| 13         | D        | D      | T     | 2     | 5      | 9     | 13      | 17      | 19    |
+| 14         | D        | D      | T     | T     | 3      | 7     | 11      | 15      | 18    |
+| 15         | D        | D      | D     | T     | 2      | 5     | 9       | 13      | 17    |
+| 16         | D        | D      | D     | T     | T      | 3     | 7       | 11      | 15    |
+| 17         | D        | D      | D     | D     | T      | 2     | 5       | 9       | 13    |
+| 18         | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
+| 19         | D        | D      | D     | D     | D      | T     | 2       | 5       | 9     |
+| 20         | D        | D      | D     | D     | D      | T     | T       | 3       | 7     |
 
+: Turn Undead Table DC + Wisdom Bonus {#tbl-turn-clerics}
 :::
 
 ## Druids
 
-![](images/druid_class.png)
+![](images/druid_class.png){fig-align="center"}
 
 Druids are nature priests, revering the gods of the natural world. They are a hybrid of Magic-User and Cleric, drawing power from nature and ley lines, and revering all the gods of OnceWas as well as elemental forces. Druids serve the natural order in a more direct way by working actively to restore balance. Often, a Druid uses mistletoe as a holy symbol, but this can vary with specific nature deities. Druids spend their time contemplating nature or in mundane forms of service such as ministering in rural areas. However, some are called to go abroad to serve the natural order more directly by working actively to restore balance.
 
@@ -176,12 +175,9 @@ Druids advance at the same rate as Clerics but use the same combat and saving th
 
 The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of 9 or higher to become a Druid. Druids may not utilize metal armor of any type, and they are likewise limited to wooden shields. Druids utilize any one-handed melee weapon, as well as staff, sling, and shortbow.
 
-![](images/druid.jpg)
+![](images/druid.jpg){fig-align="center"}
 
-
-
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 |       |             |          |         |          |          |   |   |  Spell Level  |   |   |                |
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
@@ -230,116 +226,115 @@ The Prime Requisite for Druid is Wisdom; a character must have a Wisdom score of
 +-------+-------------+----------+---------+----------+----------+---+---+---+---+---+---+---+---+----------------+
 : Druid XP Progression {#tbl-xp-druids}
 
-| Wisdom   | Spell Bonus                                 |
-|--------- |---------------------------------------------|
-| 9-11     | No bonus spells                             |
-| 12       | +1 Orison                                   |
-| 13-15    | +1 Orison, +1 1^st^ level spell               |
-| 16-17    | +2 Orisons, +2 1^st^ level spells             |
-| 18       | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells|
+:::
+
+| Wisdom | Spell Bonus                                       |
+|--------|---------------------------------------------------|
+| 9-11   | No bonus spells                                   |
+| 12     | +1 Orison                                         |
+| 13-15  | +1 Orison, +1 1^st^ level spell                   |
+| 16-17  | +2 Orisons, +2 1^st^ level spells                 |
+| 18     | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells |
+
 : Druid Wisdom Bonus {#tbl-wisdom-druids}
 
-| Druid Level |    1^st^ | 2^nd^ | 3^rd^  | 4^th^ |  5^th^ |    8^th^    | 12^th^ |     14^th^           |
-|------------- |---------|-------|--------|-------|--------|-------------|--------|----------------------|
-| Rank/Title   | Aspirant | Initiate | Wayfarer | Grovekeeper | Warden | Herald | Spring Walker | Elder Druid |
+| Druid Level | 1^st^    | 2^nd^    | 3^rd^    | 4^th^       | 5^th^  | 8^th^  | 12^th^        | 14^th^      |
+|-------------|----------|----------|----------|-------------|--------|--------|---------------|-------------|
+| Rank/Title  | Aspirant | Initiate | Wayfarer | Grovekeeper | Warden | Herald | Spring Walker | Elder Druid |
+
 : Druid Titles {#tbl-titles-druids}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
-| **1**     | 13 | 14 | 13 | 16 | 15 |
-| **2-3**   | 13 | 14 | 13 | 15 | 14 |
-| **4-5**   | 12 | 13 | 12 | 15 | 13 |
-| **6-7**   | 12 | 12 | 11 | 14 | 13 |
-| **8-9**   | 11 | 11 | 10 | 14 | 12 |
-| **10-11** | 11 | 10 | 9 | 13 | 11 |
-| **12-13** | 10 | 10 | 9 | 13 | 11 |
-| **14-15** | 10 | 9  | 8 | 12 | 10 |
-| **16-17** | 9  | 8  | 7 | 12 | 9 |
-| **18-19** | 9  | 7  | 6  | 11 | 9 |
-| **20**    | 8  | 6  | 5  | 11 | 8 |
-: Druid Saving Throws {#tbl-save-druids}
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **1**     | 13                 | 14          | 13                  | 16            | 15     |
+| **2-3**   | 13                 | 14          | 13                  | 15            | 14     |
+| **4-5**   | 12                 | 13          | 12                  | 15            | 13     |
+| **6-7**   | 12                 | 12          | 11                  | 14            | 13     |
+| **8-9**   | 11                 | 11          | 10                  | 14            | 12     |
+| **10-11** | 11                 | 10          | 9                   | 13            | 11     |
+| **12-13** | 10                 | 10          | 9                   | 13            | 11     |
+| **14-15** | 10                 | 9           | 8                   | 12            | 10     |
+| **16-17** | 9                  | 8           | 7                   | 12            | 9      |
+| **18-19** | 9                  | 7           | 6                   | 11            | 9      |
+| **20**    | 8                  | 6           | 5                   | 11            | 8      |
 
+: Druid Saving Throws {#tbl-save-druids}
 :::
 
 ### Animal Affinity
 
-Druids can calm or befriend animals. The Druid rolls a d20 and adds their Wisdom Bonus. Cross-reference the Druid's level with the animal's hit dice on the Druids Animal Affinity Table. The number shown is the minimum needed to Calm that sort of animal. 
-Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice, reflecting their relatively easy manageability. 
-Monstrous animals such as griffins, owlbears, pegasi, or other such “near-natural” creatures are treated as they are 1 HD more than listed to reflect their unique natures. 
+Druids can calm or befriend animals. The Druid rolls a d20 and adds their Wisdom Bonus. Cross-reference the Druid's level with the animal's hit dice on the Druids Animal Affinity Table. The number shown is the minimum needed to Calm that sort of animal.  Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice, reflecting their relatively easy manageability. Monstrous animals such as griffins, owlbears, pegasi, or other such “near-natural” creatures are treated as they are 1 HD more than listed to reflect their unique natures. 
 
-If the table indicates “No” then it is not possible for the Druid to affect that type of animal. If the table says “C” for that combination, that type of animal is automatically calmed. If the result shown is a “B” for that combination, that type of animal is automatically befriended.
-If the roll is a success, 2d6 HD of animals is affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success. 
-If a mixed group of animals is to be affected, the druid rolls just once. The result is checked against the weakest sort first and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal.
+If the table indicates “No” then it is not possible for the Druid to affect that type of animal. If the table says “C” for that combination, that type of animal is automatically calmed. If the result shown is a “B” for that combination, that type of animal is automatically befriended. If the roll is a success, 2d6 HD of animals is affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success.  If a mixed group of animals is to be affected, the druid rolls just once. The result is checked against the weakest sort first and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal.
 
 If a Druid succeeds at Calming or Befriending some of the animals, but not all are affected, they may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Druid may not attempt to use their Animal Affinity ability again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose.
 
-Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the DM should roll a [reaction roll](combatDetails.qmd#tbl-monsterReactions) with any result below "uncertain" meaning the animals flee. 
-If the result on the table results in automatically befriending the animals, the DM should treat the animals as if a “Friendly,” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. 
-However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The DM may [check morale](combatDetails.qmd#morale) as necessary when the situation seems appropriate.
+Calm animals will not interact with the Druid in any manner, unless approached by the Druid. The Druid can calmly get them to leave an area, or the Druid can try to befriend the animals. In this case, the DM should roll a [reaction roll](combatDetails.qmd#tbl-monsterReactions) with any result below "uncertain" meaning the animals flee. If the result on the table results in automatically befriending the animals, the DM should treat the animals as if a “Friendly,” result was rolled on the Reaction Roll Table. A Befriended animal will follow the Druid, guarding and assisting within its capabilities so long as the Druid remains in the general vicinity of its normal lair or range. However, it will not fight to the death or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. The DM may [check morale](combatDetails.qmd#morale) as necessary when the situation seems appropriate.
 
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
+| Druid Lvl | \< 1 HD | 1 HD | 2 HD | 3 HD | 4 HD | 5 HD | 6 HD | 7 HD | 8 HD | 9 HD | 10 HD |
+|-----------|---------|------|------|------|------|------|------|------|------|------|-------|
+| 1         | 9       | 13   | 17   | 19   | No   | No   | No   | No   | No   | No   | No    |
+| 2         | 7       | 11   | 15   | 18   | 20   | No   | No   | No   | No   | No   | No    |
+| 3         | 5       | 9    | 13   | 17   | 19   | No   | No   | No   | No   | No   | No    |
+| 4         | 3       | 7    | 11   | 15   | 18   | 20   | No   | No   | No   | No   | No    |
+| 5         | 2       | 5    | 9    | 13   | 17   | 19   | No   | No   | No   | No   | No    |
+| 6         | C       | 3    | 7    | 11   | 15   | 18   | 20   | No   | No   | No   | No    |
+| 7         | C       | 2    | 5    | 9    | 13   | 17   | 19   | No   | No   | No   | No    |
+| 8         | C       | C    | 3    | 7    | 11   | 15   | 18   | 20   | No   | No   | No    |
+| 9         | B       | C    | 2    | 5    | 9    | 13   | 17   | 19   | No   | No   | No    |
+| 10        | B       | C    | C    | 3    | 7    | 11   | 15   | 18   | 20   | No   | No    |
+| 11        | B       | B    | C    | 2    | 5    | 9    | 13   | 17   | 19   | No   | No    |
+| 12        | B       | B    | C    | C    | 3    | 7    | 11   | 15   | 18   | 20   | No    |
+| 13        | B       | B    | B    | C    | 2    | 5    | 9    | 13   | 17   | 19   | No    |
+| 14        | B       | B    | B    | C    | C    | 3    | 7    | 11   | 15   | 18   | 20    |
+| 15        | B       | B    | B    | B    | C    | 2    | 5    | 9    | 13   | 17   | 19    |
+| 16        | B       | B    | B    | B    | C    | C    | 3    | 7    | 11   | 15   | 18    |
+| 17        | B       | B    | B    | B    | B    | C    | 2    | 5    | 9    | 13   | 17    |
+| 18        | B       | B    | B    | B    | B    | C    | C    | 3    | 7    | 11   | 15    |
+| 19        | B       | B    | B    | B    | B    | B    | C    | 2    | 5    | 9    | 13    |
+| 20        | B       | B    | B    | B    | B    | B    | C    | C    | 3    | 7    | 11    |
 
-| Druid Lvl | < 1 HD | 1 HD | 2 HD | 3 HD | 4 HD | 5 HD | 6 HD | 7 HD | 8 HD | 9 HD | 10 HD | 
-|-----------|--------|------|------|------|------|------|------|------|------|------|-------|
-| 1         | 9      | 13   | 17   | 19   | No   | No   | No   | No   | No   | No   | No    |
-| 2         | 7      | 11   | 15   | 18   | 20   | No   | No   | No   | No   | No   | No    |
-| 3         | 5      | 9    | 13   | 17   | 19   | No   | No   | No   | No   | No   | No    |
-| 4         | 3      | 7    | 11   | 15   | 18   | 20   | No   | No   | No   | No   | No    |
-| 5         | 2      | 5    | 9    | 13   | 17   | 19   | No   | No   | No   | No   | No    |
-| 6         | C      | 3    | 7    | 11   | 15   | 18   | 20   | No   | No   | No   | No    |
-| 7         | C      | 2    | 5    | 9    | 13   | 17   | 19   | No   | No   | No   | No    |
-| 8         | C      | C    | 3    | 7    | 11   | 15   | 18   | 20   | No   | No   | No    |
-| 9         | B      | C    | 2    | 5    | 9    | 13   | 17   | 19   | No   | No   | No    |
-| 10        | B      | C    | C    | 3    | 7    | 11   | 15   | 18   | 20   | No   | No    |
-| 11        | B      | B    | C    | 2    | 5    | 9    | 13   | 17   | 19   | No   | No    |
-| 12        | B      | B    | C    | C    | 3    | 7    | 11   | 15   | 18   | 20   | No    |
-| 13        | B      | B    | B    | C    | 2    | 5    | 9    | 13   | 17   | 19   | No    |
-| 14        | B      | B    | B    | C    | C    | 3    | 7    | 11   | 15   | 18   | 20   |
-| 15        | B      | B    | B    | B    | C    | 2    | 5    | 9    | 13   | 17   | 19   |
-| 16        | B      | B    | B    | B    | C    | C    | 3    | 7    | 11   | 15   | 18   |
-| 17        | B      | B    | B    | B    | B    | C    | 2    | 5    | 9    | 13   | 17   |
-| 18        | B      | B    | B    | B    | B    | C    | C    | 3    | 7    | 11   | 15   |
-| 19        | B      | B    | B    | B    | B    | B    | C    | 2    | 5    | 9    | 13   |
-| 20        | B      | B    | B    | B    | B    | B    | C    | C    | 3    | 7    | 11   |
 : Druid Animal Affinity {#tbl-animal-druids}
-
 :::
 
 ## Fighter
 
-![](images/fighter_class.png)
+![](images/fighter_class.png){fig-align="center"}
 
 Fighters include soldiers, town guardsmen, barbarian warriors, and anyone else for whom fighting is a way of life. They train in combat, and they generally approach problems head on, weapon drawn. Not surprisingly, Fighters are the best at fighting of all the classes. They are also the hardiest, able to take more punishment than any other class.
 
 The Prime Requisite for Fighters is Strength; a character must have a Strength score of 9 or higher to become a Fighter. Members of this class may wear any armor and use any weapon.
 
-![](images/fighter.jpg)
+![](images/fighter.jpg){fig-align="center"}
 
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
+| Level | Exp. Points | Hit Dice | Attack Bonus | Attacks/<BR>Round | Weapon Specialization | Skill points | Feats | Weapon Proficiency |
+|-------|-------------|----------|--------------|-------------------|-----------------------|--------------|-------|--------------------|
+| 1     | 0           | 1d10     | +1           | 1/1               | +1/+0                 | 3            |       | 4                  |
+| 2     | 2,000       | 2d10     | +2           | 1/1               | +1/+0                 | 1            | 1     |                    |
+| 3     | 4,000       | 3d10     | +2           | 1/1               | +1/+0                 | 1            |       | 1                  |
+| 4     | 8,000       | 4d10     | +3           | 1/1               | +1/+1                 | 1            | 1     |                    |
+| 5     | 16,000      | 5d10     | +4           | 1/1               | +1/+1                 | 1            |       | 1                  |
+| 6     | 32,000      | 6d10     | +4           | 1/1               | +1/+1                 | 1            | 1     |                    |
+| 7     | 64,000      | 7d10     | +5           | 3/2               | +2/+1                 | 1            |       | 1                  |
+| 8     | 120,000     | 8d10     | +6           | 3/2               | +2/+2                 | 1            | 1     |                    |
+| 9     | 240,000     | 9d10     | +6           | 3/2               | +2/+2                 | 1            |       | 1                  |
+| 10    | 360,000     | 9d10+2   | +6           | 3/2               | +2/+2                 | 1            | 1     |                    |
+| 11    | 480,000     | 9d10+4   | +7           | 3/2               | +2/+2                 | 1            |       | 1                  |
+| 12    | 600,000     | 9d10+6   | +7           | 3/2               | +2/+2                 | 1            | 1     |                    |
+| 13    | 720,000     | 9d10+8   | +8           | 2/1               | +3/+2                 | 1            |       | 1                  |
+| 14    | 840,000     | 9d10+10  | +8           | 2/1               | +3/+2                 | 1            | 1     |                    |
+| 15    | 960,000     | 9d10+12  | +8           | 2/1               | +3/+2                 | 1            |       | 1                  |
+| 16    | 1,080,000   | 9d10+14  | +9           | 2/1               | +3/+3                 | 1            | 1     |                    |
+| 17    | 1,200,000   | 9d10+16  | +9           | 2/1               | +3/+3                 | 1            |       | 1                  |
+| 18    | 1,320,000   | 9d10+18  | +10          | 3/1               | +3/+3                 | 1            | 1     |                    |
+| 19    | 1,440,000   | 9d10+20  | +10          | 3/1               | +3/+3                 | 1            |       | 1                  |
+| 20    | 1,560,000   | 9d10+22  | +10          | 3/1               | +3/+3                 | 1            | 1     |                    |
 
-| Level | Exp. Points | Hit Dice   | Attack Bonus | Attacks/<BR>Round | Weapon Specialization | Skill points | Feats | Weapon Proficiency |
-|-------|--------------|------------|--------------|-------------------|-----------------------|--------------|-------|--------------------|
-| 1     | 0            | 1d10       | +1           | 1/1               | +1/+0                 | 3            |       | 4                  |
-| 2     | 2,000        | 2d10       | +2           | 1/1               | +1/+0                 | 1            | 1     |                    |
-| 3     | 4,000        | 3d10       | +2           | 1/1               | +1/+0                 | 1            |       | 1                  |
-| 4     | 8,000        | 4d10       | +3           | 1/1               | +1/+1                 | 1            | 1     |                    |
-| 5     | 16,000       | 5d10       | +4           | 1/1               | +1/+1                 | 1            |       | 1                  |
-| 6     | 32,000       | 6d10       | +4           | 1/1               | +1/+1                 | 1            | 1     |                    |
-| 7     | 64,000       | 7d10       | +5           | 3/2               | +2/+1                 | 1            |       | 1                  |
-| 8     | 120,000      | 8d10       | +6           | 3/2               | +2/+2                 | 1            | 1     |                    |
-| 9     | 240,000      | 9d10       | +6           | 3/2               | +2/+2                 | 1            |       | 1                  |
-| 10    | 360,000      | 9d10+2     | +6           | 3/2               | +2/+2                 | 1            | 1     |                    |
-| 11    | 480,000      | 9d10+4     | +7           | 3/2               | +2/+2                 | 1            |       | 1                  |
-| 12    | 600,000      | 9d10+6     | +7           | 3/2               | +2/+2                 | 1            | 1     |                    |
-| 13    | 720,000      | 9d10+8     | +8           | 2/1               | +3/+2                 | 1            |       | 1                  |
-| 14    | 840,000      | 9d10+10    | +8           | 2/1               | +3/+2                 | 1            | 1     |                    |
-| 15    | 960,000      | 9d10+12    | +8           | 2/1               | +3/+2                 | 1            |       | 1                  |
-| 16    | 1,080,000    | 9d10+14    | +9           | 2/1               | +3/+3                 | 1            | 1     |                    |
-| 17    | 1,200,000    | 9d10+16    | +9           | 2/1               | +3/+3                 | 1            |       | 1                  |
-| 18    | 1,320,000    | 9d10+18    | +10          | 3/1               | +3/+3                 | 1            | 1     |                    |
-| 19    | 1,440,000    | 9d10+20    | +10          | 3/1               | +3/+3                 | 1            |       | 1                  |
-| 20    | 1,560,000    | 9d10+22    | +10          | 3/1               | +3/+3                 | 1            | 1     |                    |
 : Fighter XP Progression {#tbl-xp-fighters}
+
+:::
 
 | Strength | Fighting Bonus       |
 |----------|----------------------|
@@ -347,25 +342,25 @@ The Prime Requisite for Fighters is Strength; a character must have a Strength s
 | 13-15    | +1 to hit, +1 damage |
 | 16-17    | +2 to hit, +2 damage |
 | 18       | +3 to hit, +3 damage |
+
 : Fighter Attack Bonus {#tbl-bonus-fighters}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
-| **NM** | 13 | 14 | 15 | 16 | 18 |
-| **1** | 12 | 13 | 14 | 15 | 17 |
-| **2-3** | 11 | 12 | 14 | 15 | 16 |
-| **4-5** | 11 | 11 | 13 | 14 | 15 |
-| **6-7** | 10 | 11 | 12 | 14 | 15 |
-| **8-9** | 9 | 10 | 12 | 13 | 14 |
-| **10-11** | 9 | 9 | 11 | 12 | 13 |
-| **12-13** | 8 | 9 | 10 | 12 | 13 |
-| **14-15** | 7 | 8 | 10 | 11 | 12 |
-| **16-17** | 7 | 7 | 9 | 10 | 11 |
-| **18-19** | 6 | 7 | 8 | 10 | 11 |
-| **20** | 5 | 6 | 8 | 9 | 10 |
-: Fighter Saving Throws {#tbl-save-fighter}
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **NM**    | 13                 | 14          | 15                  | 16            | 18     |
+| **1**     | 12                 | 13          | 14                  | 15            | 17     |
+| **2-3**   | 11                 | 12          | 14                  | 15            | 16     |
+| **4-5**   | 11                 | 11          | 13                  | 14            | 15     |
+| **6-7**   | 10                 | 11          | 12                  | 14            | 15     |
+| **8-9**   | 9                  | 10          | 12                  | 13            | 14     |
+| **10-11** | 9                  | 9           | 11                  | 12            | 13     |
+| **12-13** | 8                  | 9           | 10                  | 12            | 13     |
+| **14-15** | 7                  | 8           | 10                  | 11            | 12     |
+| **16-17** | 7                  | 7           | 9                   | 10            | 11     |
+| **18-19** | 6                  | 7           | 8                   | 10            | 11     |
+| **20**    | 5                  | 6           | 8                   | 9             | 10     |
 
-:::
+: Fighter Saving Throws {#tbl-save-fighter}
 
 ### Weapon Specialization
 
@@ -375,7 +370,7 @@ Paladins and Rangers cannot specialize.
 
 ## Paladin
 
-![](images/paladin_class.png)
+![](images/paladin_class.png){fig-align="center" width="200"}
 
 Paladins are the epitome of honor, courage, and righteousness, standing as beacons of hope against the growing darkness descending over the OnceWas. They are holy warriors, dedicated to upholding the tenets of justice and vanquishing evil wherever it may lurk. Blessed by divine powers, Paladins serve as champions of the gods, drawing upon their faith to perform miraculous feats and protect the innocent.
 
@@ -383,8 +378,7 @@ A character must a minimum Strength score of 9, a Wisdom score of 11, and a Char
 
 Paladins have the same attack bonus and saving throws as Fighters of the same level. They should be treated as Fighters for all purposes except they may not specialize.
 
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 +-------+-------------+----------+---------+------------+----------+----------+---+---+---+---+--------------+
 |       |             |          |         |            |          |          |   Spell Level |              |
 +-------+-------------+----------+---------+------------+----------+----------+---+---+---+---+--------------+
@@ -431,32 +425,36 @@ Paladins have the same attack bonus and saving throws as Fighters of the same le
 +-------+-------------+----------+---------+------------+----------+----------+---+---+---+---+--------------+
 | 20    | 1,716,000   | 9d10+22  | +10     | 10         | 1        | 1        | 6 | 6 | 6 | 3 |              |
 +-------+-------------+----------+---------+------------+----------+----------+---+---+---+---+--------------+
+
 : Paladin XP Progression {#tbl-xp-paladin}
+
+:::
 
 Note starting at level 11 a Paladin may Lay Hands or Neutralize Poison the specified number of times per day.
 
-| Paladin Level |  1^st^  | 2^nd^ | 3^rd^ | 4^th^ | 5^th^ |    8^th^    |  12^th^  |      14^th^          |
-|---------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
-| Rank/Title    | Squire  | Initiate | Defender | Crusader | Knight | Champion | Holy Avenger | Paladin Lord |
+| Paladin Level | 1^st^  | 2^nd^    | 3^rd^    | 4^th^    | 5^th^  | 8^th^    | 12^th^       | 14^th^       |
+|---------------|--------|----------|----------|----------|--------|----------|--------------|--------------|
+| Rank/Title    | Squire | Initiate | Defender | Crusader | Knight | Champion | Holy Avenger | Paladin Lord |
+
 : Paladin Titles {#tbl-titles-paladins}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
-| **NM** | 13 | 14 | 15 | 16 | 18 |
-| **1** | 12 | 13 | 14 | 15 | 17 |
-| **2-3** | 11 | 12 | 14 | 15 | 16 |
-| **4-5** | 11 | 11 | 13 | 14 | 15 |
-| **6-7** | 10 | 11 | 12 | 14 | 15 |
-| **8-9** | 9 | 10 | 12 | 13 | 14 |
-| **10-11** | 9 | 9 | 11 | 12 | 13 |
-| **12-13** | 8 | 9 | 10 | 12 | 13 |
-| **14-15** | 7 | 8 | 10 | 11 | 12 |
-| **16-17** | 7 | 7 | 9 | 10 | 11 |
-| **18-19** | 6 | 7 | 8 | 10 | 11 |
-| **20** | 5 | 6 | 8 | 9 | 10 |
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **NM**    | 13                 | 14          | 15                  | 16            | 18     |
+| **1**     | 12                 | 13          | 14                  | 15            | 17     |
+| **2-3**   | 11                 | 12          | 14                  | 15            | 16     |
+| **4-5**   | 11                 | 11          | 13                  | 14            | 15     |
+| **6-7**   | 10                 | 11          | 12                  | 14            | 15     |
+| **8-9**   | 9                  | 10          | 12                  | 13            | 14     |
+| **10-11** | 9                  | 9           | 11                  | 12            | 13     |
+| **12-13** | 8                  | 9           | 10                  | 12            | 13     |
+| **14-15** | 7                  | 8           | 10                  | 11            | 12     |
+| **16-17** | 7                  | 7           | 9                   | 10            | 11     |
+| **18-19** | 6                  | 7           | 8                   | 10            | 11     |
+| **20**    | 5                  | 6           | 8                   | 9             | 10     |
+
 : Paladin Saving Throws {#tbl-save-paladin}
 
-:::
 
 Note Paladins save as a Fighter of the same level.
 
@@ -486,33 +484,32 @@ Starting at fifth level Paladins gain the ability to case [Cleric Spells](spells
 
 Starting ad 2^nd^ level Paladins may [Turn Undead](combatDetails.qmd#turning-the-undead).
 
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
+| Paladin Lvl | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
+|-------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
+|             | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
+| 1           | –        | –      | –     | –     | –      | –     | –       | –       | –     |
+| 2           | 14       | 18     | 20    | No    | No     | No    | No      | No      | No    |
+| 3           | 13       | 17     | 19    | No    | No     | No    | No      | No      | No    |
+| 4           | 11       | 15     | 18    | 20    | No     | No    | No      | No      | No    |
+| 5           | 9        | 13     | 17    | 19    | No     | No    | No      | No      | No    |
+| 6           | 7        | 11     | 15    | 18    | 20     | No    | No      | No      | No    |
+| 7           | 5        | 9      | 13    | 17    | 19     | No    | No      | No      | No    |
+| 8           | 3        | 7      | 11    | 15    | 18     | 20    | No      | No      | No    |
+| 9           | 2        | 5      | 9     | 13    | 17     | 19    | No      | No      | No    |
+| 10          | T        | 3      | 7     | 11    | 15     | 18    | 20      | No      | No    |
+| 11          | T        | 2      | 5     | 9     | 13     | 17    | 19      | No      | No    |
+| 12          | T        | T      | 3     | 7     | 11     | 15    | 18      | 20      | No    |
+| 13          | D        | T      | 2     | 5     | 9      | 13    | 17      | 19      | No    |
+| 14          | D        | T      | T     | 3     | 7      | 11    | 15      | 18      | 20    |
+| 15          | D        | D      | T     | 2     | 5      | 9     | 13      | 17      | 19    |
+| 16          | D        | D      | T     | T     | 3      | 7     | 11      | 15      | 18    |
+| 17          | D        | D      | D     | T     | 2      | 5     | 9       | 13      | 17    |
+| 18          | D        | D      | D     | T     | T      | 3     | 7       | 11      | 15    |
+| 19          | D        | D      | D     | D     | T      | 2     | 5       | 9       | 13    |
+| 20          | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
 
-| Paladin Lvl  | Skeleton | Zombie | Ghoul | Wight | Wraith | Mummy | Spectre | Vampire | Ghost |
-|--------------|----------|--------|-------|-------|--------|-------|---------|---------|-------|
-|              | 1 HD     | 2 HD   | 3 HD  | 4 HD  | 5 HD   | 6 HD  | 7 HD    | 8 HD    | 9+ HD |
-| 1            | –        | –      | –     | –     | –      | –     | –       | –       | –     |
-| 2            | 14       | 18     | 20    | No    | No     | No    | No      | No      | No    |
-| 3            | 13       | 17     | 19    | No    | No     | No    | No      | No      | No    |
-| 4            | 11       | 15     | 18    | 20    | No     | No    | No      | No      | No    |
-| 5            | 9        | 13     | 17    | 19    | No     | No    | No      | No      | No    |
-| 6            | 7        | 11     | 15    | 18    | 20     | No    | No      | No      | No    |
-| 7            | 5        | 9      | 13    | 17    | 19     | No    | No      | No      | No    |
-| 8            | 3        | 7      | 11    | 15    | 18     | 20    | No      | No      | No    |
-| 9            | 2        | 5      | 9     | 13    | 17     | 19    | No      | No      | No    |
-| 10           | T        | 3      | 7     | 11    | 15     | 18    | 20      | No      | No    |
-| 11           | T        | 2      | 5     | 9     | 13     | 17    | 19      | No      | No    |
-| 12           | T        | T      | 3     | 7     | 11     | 15    | 18      | 20      | No    |
-| 13           | D        | T      | 2     | 5     | 9      | 13    | 17      | 19      | No    |
-| 14           | D        | T      | T     | 3     | 7      | 11    | 15      | 18      | 20    |
-| 15           | D        | D      | T     | 2     | 5      | 9     | 13      | 17      | 19    |
-| 16           | D        | D      | T     | T     | 3      | 7     | 11      | 15      | 18    |
-| 17           | D        | D      | D     | T     | 2      | 5     | 9       | 13      | 17    |
-| 18           | D        | D      | D     | T     | T      | 3     | 7       | 11      | 15    |
-| 19           | D        | D      | D     | D     | T      | 2     | 5       | 9       | 13    |
-| 20           | D        | D      | D     | D     | T      | T     | 3       | 7       | 11    |
 : Turn Undead Table DC + Wisdom Bonus {#tbl-turn-clerics}
-
 :::
 
 ### Paladin Restrictions
@@ -525,65 +522,65 @@ A Paladin must tithe, giving a minimum of 10% of all treasures gained or other p
 
 A Paladin must obey a code of honor and strive to perform duties assigned by their deity or religious hierarchy. If the Paladin breaks the code, all granted powers are taken away, and the character must atone for their actions as soon as possible. Until the Paladin successfully atones, they are considered an ordinary Fighter
 
-
 ## Ranger
 
-![](images/ranger_class.png)
+![](images/ranger_class.png){fig-align="center" width="200"}
 
 Rangers roam the borderlands, where their mission is to keep the beasts and monsters of the untamed lands at bay. They generally operate alone or in small groups and rely on stealth and surprise to meet their objectives.
 
 Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger, a character must have a Strength score of 9 or higher, Wisdom of 11 or higher, and a Dexterity of 11 or higher. They may use any weapon and may wear any armor, but some of the Ranger’s special talents and abilities are unavailable when wearing armor heavier than leather armor.
 
-![](images/ranger.jpg)
+![](images/ranger.jpg){fig-align="center"}
 
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
+| Level | Exp. Points | Hit Dice | Attack Bonus  | Arrows<br>Fired/Rd | Skill<br>Points | Feats | Weapon<br>Proficiency |
+|-------|-------------|----------|---------------|--------------------|-----------------|-------|-----------------------|
+| 1     | 0           | 1d10     | +1 (+3 bow)   | 1/1                | 3               |       | 4                     |
+| 2     | 2,200       | 2d10     | +2 (+4 bow)   | 1/1                | 1               | 1     |                       |
+| 3     | 4,400       | 3 d10    | +2 (+5 bow)   | 1/1                | 1               |       | 1                     |
+| 4     | 8,800       | 4d10     | +3 (+6 bow)   | 1/1                | 1               | 1     |                       |
+| 5     | 17,600      | 5d10     | +4 (+7 bow)   | 3/2                | 1               |       | 1                     |
+| 6     | 35,200      | 6d10     | +4 (+7 bow)   | 3/2                | 1               | 1     |                       |
+| 7     | 70,400      | 7d10     | +5 (+8 bow)   | 3/2                | 1               |       | 1                     |
+| 8     | 132,000     | 8d10     | +6 (+9 bow)   | 3/2                | 1               | 1     |                       |
+| 9     | 264,000     | 9d10     | +6 (+9 bow)   | 2/1                | 1               |       | 1                     |
+| 10    | 396,000     | 9d10+2   | +6 (+9 bow)   | 2/1                | 1               | 1     |                       |
+| 11    | 528,000     | 9d10+4   | +7 (+10 bow)  | 2/1                | 1               |       | 1                     |
+| 12    | 660,000     | 9d10+6   | +7 (+10 bow)  | 2/1                | 1               | 1     |                       |
+| 13    | 792,000     | 9d10+8   | +8 (+11 bow)  | 2/1                | 1               |       | 1                     |
+| 14    | 924,000     | 9d10+10  | +8 (+11 bow)  | 2/1                | 1               | 1     |                       |
+| 15    | 1,056,000   | 9d10+12  | +8 (+11 bow)  | 2/1                | 1               |       | 1                     |
+| 16    | 1,188,000   | 9d10+14  | +9 (+12 bow)  | 2/1                | 1               | 1     |                       |
+| 17    | 1,320,000   | 9d10+16  | +9 (+12 bow)  | 2/1                | 1               |       | 1                     |
+| 18    | 1,452,000   | 9d10+18  | +10 (+13 bow) | 2/1                | 1               | 1     |                       |
+| 19    | 1,584,000   | 9d10+20  | +10 (+13 bow) | 2/1                | 1               |       | 1                     |
+| 20    | 1,716,000   | 9d10+22  | +10(+13 bow)  | 2/1                | 1               | 1     |                       |
 
-| Level | Exp. Points | Hit Dice | Attack Bonus | Arrows<br>Fired/Rd | Skill<br>Points | Feats | Weapon<br>Proficiency |
-|-------|-------------|----------|--------------|-----|---|---|---|
-| 1     | 0           | 1d10     | +1 (+3 bow)  | 1/1 | 3 |   | 4 |
-| 2     | 2,200       | 2d10     | +2 (+4 bow)  | 1/1 | 1 | 1 |   |
-| 3     | 4,400       | 3 d10    | +2 (+5 bow)  | 1/1 | 1 |   | 1 |
-| 4     | 8,800       | 4d10     | +3 (+6 bow)  | 1/1 | 1 | 1 |   |
-| 5     | 17,600      | 5d10     | +4 (+7 bow)  | 3/2 | 1 |   | 1 |
-| 6     | 35,200      | 6d10     | +4 (+7 bow)  | 3/2 | 1 | 1 |   |
-| 7     | 70,400      | 7d10     | +5 (+8 bow)  | 3/2 | 1 |   | 1 |
-| 8     | 132,000     | 8d10     | +6 (+9 bow)  | 3/2 | 1 | 1 |   |
-| 9     | 264,000     | 9d10     | +6 (+9 bow)  | 2/1 | 1 |   | 1 |
-| 10    | 396,000     | 9d10+2   | +6 (+9 bow)  | 2/1 | 1 | 1 |   |
-| 11    | 528,000     | 9d10+4   | +7 (+10 bow) | 2/1 | 1 |   | 1 |
-| 12    | 660,000     | 9d10+6   | +7 (+10 bow) | 2/1 | 1 | 1 |   |
-| 13    | 792,000     | 9d10+8   | +8 (+11 bow) | 2/1 | 1 |   | 1 |
-| 14    | 924,000     | 9d10+10  | +8 (+11 bow) | 2/1 | 1 | 1 |   |
-| 15    | 1,056,000   | 9d10+12  | +8 (+11 bow) | 2/1 | 1 |   | 1 |
-| 16    | 1,188,000   | 9d10+14  | +9 (+12 bow) | 2/1 | 1 | 1 |   |
-| 17    | 1,320,000   | 9d10+16  | +9 (+12 bow) | 2/1 | 1 |   | 1 |
-| 18    | 1,452,000   | 9d10+18  | +10 (+13 bow)| 2/1 | 1 | 1 |   |
-| 19    | 1,584,000   | 9d10+20  | +10 (+13 bow)| 2/1 | 1 |   | 1 |
-| 20    | 1,716,000   | 9d10+22  | +10(+13 bow) | 2/1 | 1 | 1 |   |
 : Ranger XP Progression {#tbl-xp-rangers}
 
-| Ranger Level | 1^st^   | 2^nd^ | 3^rd^ | 4^th^ | 5^th^ |    8^th^    |  12^th^  |      14^th^          |
-|--------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
+:::
+
+| Ranger Level | 1^st^   | 2^nd^ | 3^rd^  | 4^th^      | 5^th^    | 8^th^  | 12^th^        | 14^th^      |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
 | Rank/Title   | Tracker | Scout | Hunter | Pathfinder | Guardian | Ranger | Ranger Knight | Ranger Lord |
+
 : Ranger Titles {#tbl-titles-rangers}
 
-
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
-|----|---|----|----|---|---|---|
-| 1     | 12                  | 13          | 14                   | 15            | 17     |
-| 2-3   | 11                  | 12          | 14                   | 15            | 16     |
-| 4-5   | 11                  | 11          | 13                   | 14            | 15     |
-| 6-7   | 10                  | 11          | 12                   | 14            | 15     |
-| 8-9   | 9                   | 10          | 12                   | 13            | 14     |
-| 10-11 | 9                   | 9           | 11                   | 12            | 13     |
-| 12-13 | 8                   | 9           | 10                   | 12            | 13     |
-| 14-15 | 7                   | 8           | 10                   | 11            | 12     |
-| 16-17 | 7                   | 7           | 9                    | 10            | 11     |
-| 18-19 | 6                   | 7           | 8                    | 10            | 11     |
-| 20    | 5                   | 6           | 8                    | 9             | 10     |
-: Ranger Saving Throws {#tbl-save-ranger}
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| 1         | 12                 | 13          | 14                  | 15            | 17     |
+| 2-3       | 11                 | 12          | 14                  | 15            | 16     |
+| 4-5       | 11                 | 11          | 13                  | 14            | 15     |
+| 6-7       | 10                 | 11          | 12                  | 14            | 15     |
+| 8-9       | 9                  | 10          | 12                  | 13            | 14     |
+| 10-11     | 9                  | 9           | 11                  | 12            | 13     |
+| 12-13     | 8                  | 9           | 10                  | 12            | 13     |
+| 14-15     | 7                  | 8           | 10                  | 11            | 12     |
+| 16-17     | 7                  | 7           | 9                   | 10            | 11     |
+| 18-19     | 6                  | 7           | 8                   | 10            | 11     |
+| 20        | 5                  | 6           | 8                   | 9             | 10     |
 
-:::
+: Ranger Saving Throws {#tbl-save-ranger}
 
 ### Ranger Abilities
 
@@ -599,8 +596,7 @@ Rangers are expert bowmen. When using any regular bow (shortbow or longbow, but 
 
 Rangers can Move Silently, Hide, and Track when in wilderness areas, at percentages given in the table below. Apply a -2 penalty when attempting these abilities in urban areas. Move Silently and Hide may not be used in armor heavier than leather.
 
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 | Level | Move Silently (%) | Hide (%) | Track (%) |
 |-------|-------------------|----------|-----------|
 | 1     | 20                | 20       | 30        |
@@ -618,21 +614,21 @@ Rangers can Move Silently, Hide, and Track when in wilderness areas, at percenta
 | 13    | 80                | 80       | 90        |
 | 14    | 85                | 85       | 95        |
 | 15    | 90                | 90       | 100       |
-: Ranger Wilderness Expertise {#tbl-ranger-special-abilities}
 
+: Ranger Wilderness Expertise {#tbl-ranger-special-abilities}
 :::
 
 ## Magic User
 
-![](images/magic_user_class.png)
+![](images/magic_user_class.png){fig-align="center" width="200"}
 
 Magic users are scarce. They are just as frequently reviled as they are revered, often experiencing the shifting tides of popularity as political dynamics ebb and flow.
 
-- Everyone knows that magic exists, but it is not typical in people’s daily lives.
-- It is common among the working class to think that bad things tend to happen whenever magic is about.
-- Magic items are uncommon — hidden away in deep dungeons or put on display as symbols of the owner’s power.
-- Institutions of magic are rare outside of Glantri.
-- Places of interest, cities, religious sites, concentrations of monsters, and wizard towers are all usually built on ley lines or high points.
+-   Everyone knows that magic exists, but it is not typical in people’s daily lives.
+-   It is common among the working class to think that bad things tend to happen whenever magic is about.
+-   Magic items are uncommon — hidden away in deep dungeons or put on display as symbols of the owner’s power.
+-   Institutions of magic are rare outside of Glantri.
+-   Places of interest, cities, religious sites, concentrations of monsters, and wizard towers are all usually built on ley lines or high points.
 
 Magic-Users seek and use knowledge of the arcane. They perform magic not as the Cleric does, by faith in a greater power, but rather through insight and understanding. Every Magic-User has a spellbook containing the magical formulae for each spell the Magic-User has learned. Spellbooks are written in the Arcane Language. All Magic-Users begin play knowing how to read, write, and speak Arcane.
 
@@ -642,11 +638,9 @@ The Prime Requisite for Magic-Users is Intelligence; a character must have an In
 
 A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-magic) and one other spell of first level. These spells are written in a spellbook provided by his or her master. The DM may roll for the spell, assign it as he or she sees fit, or allow the player to choose it, at his or her option. See the [Spells](spells.qmd#magic-user-spells) section for more details.
 
-![](images/magic_user.jpg)
+![](images/magic_user.jpg){fig-align="center"}
 
-
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
 |       |             |          |              |              |       |   |   | Spell Level           |                    |
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
@@ -692,11 +686,15 @@ A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-mag
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
 | 20    | 1,950,000   | 9d4+11   | +7           | 1            | 1     | 9 | 6 | 5 | 5 | 4 | 4 | 3 | 3 |                    |
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
+
 : Magic-User XP Progression {#tbl-xp-magic-users}
 
-| Magic-User Level |    1^st^   |   2^nd^  |   4^th^  | 6^th^  |  8^th^  |    10^th^   | 12^th^ |   14^th^             |
-|------------------|------------|----------|----------|--------|---------|-------------|--------|----------------------|
-| Rank/Title       | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer    | Mage   | Arch Mage            |
+:::
+
+| Magic-User Level | 1^st^      | 2^nd^    | 4^th^    | 6^th^  | 8^th^   | 10^th^   | 12^th^ | 14^th^    |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Rank/Title       | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer | Mage   | Arch Mage |
+
 : Magic-User Titles {#tbl-titles-magic-users}
 
 | Intelligence | Spell Bonus                                        |
@@ -706,24 +704,25 @@ A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-mag
 | 13-15        | +1 Cantrip, +1 1^st^ level spell                   |
 | 16-17        | +2 Cantrips, +2 1^st^ level spells                 |
 | 18           | +3 Cantrips, +3 1^st^ level, +1 2^nd^ level spells |
+
 : Magic-User Intelligence Bonus {#tbl-intelligence-magic-users}
 
-| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
-| **1** | 13 | 14 | 13 | 16 | 15 |
-| **2-3** | 13 | 14 | 13 | 15 | 14 |
-| **4-5** | 12 | 13 | 12 | 15 | 13 |
-| **6-7** | 12 | 12 | 11 | 14 | 13 |
-| **8-9** | 11 | 11 | 10 | 14 | 12 |
-| **10-11** | 11 | 10 | 9 | 13 | 11 |
-| **12-13** | 10 | 10 | 9 | 13 | 11 |
-| **14-15** | 10 | 9 | 8 | 12 | 10 |
-| **16-17** | 9 | 8 | 7 | 12 | 9 |
-| **18-19** | 9 | 7 | 6 | 11 | 9 |
-| **20** | 8 | 6 | 5 | 11 | 8 |
+| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **1**     | 13                 | 14          | 13                  | 16            | 15     |
+| **2-3**   | 13                 | 14          | 13                  | 15            | 14     |
+| **4-5**   | 12                 | 13          | 12                  | 15            | 13     |
+| **6-7**   | 12                 | 12          | 11                  | 14            | 13     |
+| **8-9**   | 11                 | 11          | 10                  | 14            | 12     |
+| **10-11** | 11                 | 10          | 9                   | 13            | 11     |
+| **12-13** | 10                 | 10          | 9                   | 13            | 11     |
+| **14-15** | 10                 | 9           | 8                   | 12            | 10     |
+| **16-17** | 9                  | 8           | 7                   | 12            | 9      |
+| **18-19** | 9                  | 7           | 6                   | 11            | 9      |
+| **20**    | 8                  | 6           | 5                   | 11            | 8      |
+
 : Magic-User Saving Throws {#tbl-save-mage}
 
-:::
 
 ### Magic-User Abilities
 
@@ -745,8 +744,7 @@ This is a bolt of raw magic. The target gets a save vs. spells to avoid all dama
 
 #### Spell Preparation
 
-A Magic-User may only prepare spells after resting and needs one turn per each three spell levels to do so. Spells prepared but not used on a previous day are not lost. For example, a 3rd level Magic-User preparing all three of their available spells (two 1st level and one 2nd level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up).
-Each day, usually in the morning, spellcasters prepare spells by studying their spellbooks to replace those they have used. Spells prepared but not used persist from day to day; only those cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) to prepare a different spell of that level.
+A Magic-User may only prepare spells after resting and needs one turn per each three spell levels to do so. Spells prepared but not used on a previous day are not lost. For example, a 3rd level Magic-User preparing all three of their available spells (two 1st level and one 2nd level) is preparing a total of 4 levels of spells, and thus needs 2 turns (4 divided by 3 and rounded up). Each day, usually in the morning, spellcasters prepare spells by studying their spellbooks to replace those they have used. Spells prepared but not used persist from day to day; only those cast must be replaced. A spellcaster may always choose to dismiss a prepared spell (without casting it) to prepare a different spell of that level.
 
 #### Casting
 
@@ -758,12 +756,9 @@ If a Magic-User is attacked (even if not hit), the character must make a saving 
 
 #### Learning New Spells
 
-A Magic-User may learn spells by being taught directly by another magic user, by studying, by transcribing from a spell scroll or another individual's spellbook, or through research.
-If being taught, a spell can be learned in a single day, while referencing another individual's spellbook takes one day per spell level. It typically costs 300 gps per spell level.
+A Magic-User may learn spells by being taught directly by another magic user, by studying, by transcribing from a spell scroll or another individual's spellbook, or through research. If being taught, a spell can be learned in a single day, while referencing another individual's spellbook takes one day per spell level. It typically costs 300 gps per spell level.
 
-To copy a spell, the character must spend 1d4 hours per Spell Level.
-The chance of successfully mastering a spell is DC 12 -1 per level of the magic-user, - INT bonus, +1 per level of the spell. Any failure requires another Magic-User who knows the spell to teach it.
-Spell mastery failure isn't black and white. Spells that aren't mastered may be cast but require a D20 check on the Potential Spell Failure Table.
+To copy a spell, the character must spend 1d4 hours per Spell Level. The chance of successfully mastering a spell is DC 12 -1 per level of the magic-user, - INT bonus, +1 per level of the spell. Any failure requires another Magic-User who knows the spell to teach it. Spell mastery failure isn't black and white. Spells that aren't mastered may be cast but require a D20 check on the Potential Spell Failure Table.
 
 | Roll  | Effect                                                                                                     |
 |-------|------------------------------------------------------------------------------------------------------------|
@@ -775,13 +770,13 @@ Spell mastery failure isn't black and white. Spells that aren't mastered may be 
 | 13-14 | Spell produces nothing but a loud noise, bright flash of light, awful odor, etc.                           |
 | 15-17 | Spell produces a weaker version of the intended effect.                                                    |
 | 18-20 | Spell is cast normally.                                                                                    |
+: Potential Spell Failure Table {#tbl-potential-spell-failure}                                                                                                                           |
+
 : Potential Spell Failure Table {#tbl-potential-spell-failure}
 
 #### Great School of Magic in Glantri
 
-The Great School of Magic in Glantri City is a place of arcane learning and the heart of Glantrian society. While many magic-users have been privately tutored, the best and brightest come from the Great School.
-There are 4 two-month quarters at the school separated by month long breaks. One on one mentoring continues until the Magic-User is 4th level at which point they are released to independent study. Routine testing is still administered until 6th level at which time the Magic-User graduates and is formally declared a Magic-User.
-After that time, they may stay at the school to use the facilities and take Arcana courses, but this is usually frowned upon.
+The Great School of Magic in Glantri City is a place of arcane learning and the heart of Glantrian society. While many magic-users have been privately tutored, the best and brightest come from the Great School. There are 4 two-month quarters at the school separated by month long breaks. One on one mentoring continues until the Magic-User is 4th level at which point they are released to independent study. Routine testing is still administered until 6th level at which time the Magic-User graduates and is formally declared a Magic-User. After that time, they may stay at the school to use the facilities and take Arcana courses, but this is usually frowned upon.
 
 ##### Great School of Magic Costs and Expenses
 
@@ -789,107 +784,104 @@ The tuition for the Great School is 300 gp per spell level. One week is required
 
 ##### Arcane Symbols
 
-Magic-Users trained at Great School of Magic will be familar with the runes identifying potions created by the School's Master Alchemist.  Kappiyan Flurmastyr is the current Master Alchemist.
+Magic-Users trained at Great School of Magic will be familar with the runes identifying potions created by the School's Master Alchemist. Kappiyan Flurmastyr is the current Master Alchemist.
 
-![](images/potions.png)
+![](images/potions.png){fig-align="center"}
 
 Magic-Users will also recognize certain arcane symbols representing the four basic elements.
 
-![](images/elementalSymbols.png)
-
-
-
+![](images/elementalSymbols.png){fig-align="center"}
 
 ## Thief
 
-![](images/thief_class.png)
+![](images/thief_class.png){fig-align="center"}
 
 Thieves are those who take what they want or need by stealth, disarming traps and picking locks to get to the gold they crave; or “borrowing” money from pockets, beltpouches, etc. right under the nose of the “mark” without the victim ever knowing.
 
 Thieves fight better than Magic-Users but not as well as Fighters. Avoidance of honest work leads Thieves to be less hardy than the other classes, though they do pull ahead of the Magic-Users at higher levels.
 
-![](images/thief.jpg)
+![](images/thief.jpg){fig-align="center" width="4000"}
 
 The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity score of 9 or higher to become a Thief. They may use any weapon, but may not wear metal armor as it interferes with stealthy activities, nor may they use shields of any sort. Leather armor is acceptable, however.
 
-::: {.column-screen-inset-right}
-
+::: column-screen-inset-right
 | Level | Exp. Points | Hit Dice | Attack<BR>Bonus | Skill<BR>Points | Feats | Weapon<BR>Proficiency |
-|-------|-------------|----------|--------------|--------------|-------|--------------------|
-| 1     | 0           | 1d6      | +1           | 3            |       | 3                  |
-| 2     | 1,250       | 2d6      | +1           | 1            | 1     |                    |
-| 3     | 2,500       | 3d6      | +2           | 1            |       |                    |
-| 4     | 5,000       | 4d6      | +2           | 1            | 1     | 1                  |
-| 5     | 10,000      | 5d6      | +3           | 1            |       |                    |
-| 6     | 20,000      | 6d6      | +3           | 1            | 1     |                    |
-| 7     | 40,000      | 7d6      | +4           | 1            |       | 1                  |
-| 8     | 75,000      | 8d6      | +4           | 1            | 1     |                    |
-| 9     | 150,000     | 9d6      | +5           | 1            |       |                    |
-| 10    | 225,000     | 9d6+2    | +5           | 1            | 1     | 1                  |
-| 11    | 300,000     | 9d6+4    | +5           | 1            |       |                    |
-| 12    | 375,000     | 9d6+6    | +6           | 1            | 1     |                    |
-| 13    | 450,000     | 9d6+8    | +6           | 1            |       | 1                  |
-| 14    | 525,000     | 9d6+10   | +6           | 1            | 1     |                    |
-| 15    | 600,000     | 9d6+12   | +7           | 1            |       |                    |
-| 16    | 675,000     | 9d6+14   | +7           | 1            | 1     | 1                  |
-| 17    | 750,000     | 9d6+16   | +7           | 1            |       |                    |
-| 18    | 825,000     | 9d6+18   | +8           | 1            | 1     |                    |
-| 19    | 900,000     | 9d6+20   | +8           | 1            |       | 1                  |
-| 20    | 975,000     | 9d6+22   | +8           | 1            | 1     |                    |
+|-------|-------------|----------|-----------------|-----------------|-------|-----------------------|
+| 1     | 0           | 1d6      | +1              | 3               |       | 3                     |
+| 2     | 1,250       | 2d6      | +1              | 1               | 1     |                       |
+| 3     | 2,500       | 3d6      | +2              | 1               |       |                       |
+| 4     | 5,000       | 4d6      | +2              | 1               | 1     | 1                     |
+| 5     | 10,000      | 5d6      | +3              | 1               |       |                       |
+| 6     | 20,000      | 6d6      | +3              | 1               | 1     |                       |
+| 7     | 40,000      | 7d6      | +4              | 1               |       | 1                     |
+| 8     | 75,000      | 8d6      | +4              | 1               | 1     |                       |
+| 9     | 150,000     | 9d6      | +5              | 1               |       |                       |
+| 10    | 225,000     | 9d6+2    | +5              | 1               | 1     | 1                     |
+| 11    | 300,000     | 9d6+4    | +5              | 1               |       |                       |
+| 12    | 375,000     | 9d6+6    | +6              | 1               | 1     |                       |
+| 13    | 450,000     | 9d6+8    | +6              | 1               |       | 1                     |
+| 14    | 525,000     | 9d6+10   | +6              | 1               | 1     |                       |
+| 15    | 600,000     | 9d6+12   | +7              | 1               |       |                       |
+| 16    | 675,000     | 9d6+14   | +7              | 1               | 1     | 1                     |
+| 17    | 750,000     | 9d6+16   | +7              | 1               |       |                       |
+| 18    | 825,000     | 9d6+18   | +8              | 1               | 1     |                       |
+| 19    | 900,000     | 9d6+20   | +8              | 1               |       | 1                     |
+| 20    | 975,000     | 9d6+22   | +8              | 1               | 1     |                       |
+
 : Thief XP Progression {#tbl-xp-thieves}
 
-| Theif Level   |  1^st^  | 2^nd^ | 4^th^ | 6^th^ |    8^th^    |  10^th^  |      14^th^          |
-|---------------|---------|-------|-------|-------|-------|-------------|----------|----------------------|
-| Rank/Title    | Footpad<br>Initiate  | Rogue | Journeyman<BR>Thief | Burglar | Magsman | Veteran<BR>Thief | Master<BR>Thief |
+:::
+
+| Theif Level | 1^st^               | 2^nd^ | 4^th^               | 6^th^   | 8^th^   | 10^th^           | 14^th^          |
+|-------------|---------------------|-------|---------------------|---------|---------|------------------|-----------------|
+| Rank/Title  | Footpad<br>Initiate | Rogue | Journeyman<BR>Thief | Burglar | Magsman | Veteran<BR>Thief | Master<BR>Thief |
 : Thieve's Guild Ranks {#tbl-titles-thieves}
 
-| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath |Spells |
-|----|---|----|----|---|---|---|
-| **1** | 13 | 14 | 13 | 16 | 15 |
-| **2-3** | 12 | 14 | 12 | 15 | 14 |
-| **4-5** | 11 | 13 | 12 | 14 | 13 |
-| **6-7** | 11 | 13 | 11 | 13 | 13 |
-| **8-9** | 10 | 12 | 11 | 12 | 12 |
-| **10-11** | 9 | 12 | 10 | 11 | 11 |
-| **12-13** | 9 | 10 | 10 | 10 | 11 |
-| **14-15** | 8 | 10 | 9 | 9 | 10 |
-| **16-17** | 7 | 9 | 9 | 8 | 9 |
-| **18-19** | 7 | 9 | 8 | 7 | 9 |
-| **20** | 6 | 8 | 8 | 6 | 8 |
-: Thief Saving Throws {#tbl-save-thief}
+| **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
+|-----------|--------------------|-------------|---------------------|---------------|--------|
+| **1**     | 13                 | 14          | 13                  | 16            | 15     |
+| **2-3**   | 12                 | 14          | 12                  | 15            | 14     |
+| **4-5**   | 11                 | 13          | 12                  | 14            | 13     |
+| **6-7**   | 11                 | 13          | 11                  | 13            | 13     |
+| **8-9**   | 10                 | 12          | 11                  | 12            | 12     |
+| **10-11** | 9                  | 12          | 10                  | 11            | 11     |
+| **12-13** | 9                  | 10          | 10                  | 10            | 11     |
+| **14-15** | 8                  | 10          | 9                   | 9             | 10     |
+| **16-17** | 7                  | 9           | 9                   | 8             | 9      |
+| **18-19** | 7                  | 9           | 8                   | 7             | 9      |
+| **20**    | 6                  | 8           | 8                   | 6             | 8      |
 
-:::
+: Thief Saving Throws {#tbl-save-thief}
 
 ### Thief Abilities
 
 Thieves have a number of special abilities, described below. One Turn must generally be spent to use any of these abilities, though the DM may amend this as he or she sees fit. The DM may choose to make any of these rolls on behalf of the player, at his or her option, to help maintain the proper state of uncertainty. Also note that the DM may apply situational adjustments (plus or minus percentage points) as he or she sees fit; for instance, it's obviously harder to climb a wall slick with slime than one that is dry, so the DM might apply a penalty of -1 for the slimy wall.
 
-::: {.column-screen-inset-right}
+::: column-screen-inset-right
+| Thief Level | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| 1           | 16                | 17                        | 15                  | 16                   | 5                  | 18                     | 15                        | 19                     | No                       |
+| 2           | 15                | 16                        | 14                  | 15                   | 5                  | 17                     | 14                        | 7                      | No                       |
+| 3           | 14                | 15                        | 13                  | 14                   | 5                  | 16                     | 13                        | 6                      | No                       |
+| 4           | 13                | 14                        | 12                  | 13                   | 4                  | 15                     | 13                        | 6                      | 10                       |
+| 5           | 12                | 13                        | 11                  | 12                   | 4                  | 14                     | 12                        | 6                      | 9                        |
+| 6           | 11                | 12                        | 10                  | 11                   | 4                  | 13                     | 11                        | 6                      | 8                        |
+| 7           | 10                | 11                        | 9                   | 10                   | 4                  | 12                     | 10                        | 6                      | 7                        |
+| 8           | 9                 | 10                        | 8                   | 9                    | 4                  | 11                     | 9                         | 6                      | 6                        |
+| 9           | 8                 | 9                         | 7                   | 8                    | 3                  | 10                     | 9                         | 5                      | 5                        |
+| 10          | 8                 | 8                         | 6                   | 8                    | 3                  | 8                      | 8                         | 5                      | 4                        |
+| 11          | 7                 | 7                         | 6                   | 7                    | 3                  | 7                      | 8                         | 5                      | 4                        |
+| 12          | 7                 | 7                         | 5                   | 6                    | 3                  | 6                      | 7                         | 5                      | 4                        |
+| 13          | 6                 | 7                         | 4                   | 5                    | 3                  | 5                      | 6                         | 4                      | 4                        |
+| 14          | 5                 | 6                         | 3                   | 5                    | 3                  | 5                      | 6                         | 4                      | 4                        |
+| 15          | 4                 | 5                         | 3                   | 4                    | 3                  | 5                      | 5                         | 4                      | 4                        |
+| 16          | 4                 | 5                         | 2                   | 4                    | 2                  | 4                      | 5                         | 4                      | 4                        |
+| 17          | 4                 | 5                         | 2                   | 3                    | 2                  | 4                      | 4                         | 4                      | 3                        |
+| 18          | 3                 | 5                         | 2                   | 3                    | 2                  | 4                      | 3                         | 4                      | 3                        |
+| 19          | 3                 | 5                         | 2                   | 2                    | 1                  | 3                      | 3                         | 4                      | 2                        |
+| 20          | 3                 | 4                         | 2                   | 2                    | 1                  | 3                      | 2                         | 4                      | 2                        |
 
-| Thief Level | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear  Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
-|----|----|----|----|----|----|----|----|----|----|
-| 1  | 16 | 17 | 15 | 16 | 5 | 18 | 15 | 19 | No |
-| 2  | 15 | 16 | 14 | 15 | 5 | 17 | 14 | 7  | No |
-| 3  | 14 | 15 | 13 | 14 | 5 | 16 | 13 | 6  | No |
-| 4  | 13 | 14 | 12 | 13 | 4 | 15 | 13 | 6  | 10 |
-| 5  | 12 | 13 | 11 | 12 | 4 | 14 | 12 | 6  | 9  |
-| 6  | 11 | 12 | 10 | 11 | 4 | 13 | 11 | 6  | 8  |
-| 7  | 10 | 11 | 9  | 10 | 4 | 12 | 10 | 6  | 7  |
-| 8  | 9  | 10 | 8  | 9  | 4 | 11 | 9  | 6  | 6  |
-| 9  | 8  | 9  | 7  | 8  | 3 | 10 | 9  | 5  | 5  |
-| 10 | 8  | 8  | 6  | 8  | 3 | 8  | 8  | 5  | 4  |
-| 11 | 7  | 7  | 6  | 7  | 3 | 7  | 8  | 5  | 4  |
-| 12 | 7  | 7  | 5  | 6  | 3 | 6  | 7  | 5  | 4  |
-| 13 | 6  | 7  | 4  | 5  | 3 | 5  | 6  | 4  | 4  |
-| 14 | 5  | 6  | 3  | 5  | 3 | 5  | 6  | 4  | 4  |
-| 15 | 4  | 5  | 3  | 4  | 3 | 5  | 5  | 4  | 4  |
-| 16 | 4  | 5  | 2  | 4  | 2 | 4  | 5  | 4  | 4  |
-| 17 | 4  | 5  | 2  | 3  | 2 | 4  | 4  | 4  | 3  |
-| 18 | 3  | 5  | 2  | 3  | 2 | 4  | 3  | 4  | 3  |
-| 19 | 3  | 5  | 2  | 2  | 1 | 3  | 3  | 4  | 2  |
-| 20 | 3  | 4  | 2  | 2  | 1 | 3  | 2  | 4  | 2  |
 : Thief Abilities {#tbl-abilities-thief}
-
 :::
 
 **Ability Bonus or Penalty Adjustments**
@@ -898,13 +890,14 @@ Each Thief ability is governed by an ability score and affected by the ability s
 
 **Effects of Race**
 
-| Race | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear  Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
-|----|----|----|----|----|----|----|----|----|----|
-| Human    | –  | –  | –  | –  | –  | –  | –  | –  | –  |
-| Dwarf    | +1 | +1 | –  | –  | -2 | –  | +1 | –  | -2 |
-| Elf      | -1 | -1 | –  | +1 | –  | +1 | +1 | +1 | +1 |
-| Half-Elf | –  | –  | –  | +1 | –  | –  | +1 | –  | –  |
-| Halfling | –  | –  | +1 | +1 | -3 | +1 | –  | –  | –  |
+| Race     | Open Locks (+Dex) | Find/ Remove Traps (+Int) | Pick Pockets (+Dex) | Move Silently (+Dex) | Climb Walls (+Str) | Hide in Shadows (+Int) | Listen/ Hear Noise (+Wis) | Decipher Script (+Int) | Use Arcane Scroll (+Int) |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Human    | –                 | –                         | –                   | –                    | –                  | –                      | –                         | –                      | –                        |
+| Dwarf    | +1                | +1                        | –                   | –                    | -2                 | –                      | +1                        | –                      | -2                       |
+| Elf      | -1                | -1                        | –                   | +1                   | –                  | +1                     | +1                        | +1                     | +1                       |
+| Half-Elf | –                 | –                         | –                   | +1                   | –                  | –                      | +1                        | –                      | –                        |
+| Halfling | –                 | –                         | +1                  | +1                   | -3                 | +1                     | –                         | –                      | –                        |
+
 : Thief Abilities Race Modifier {#tbl-abilities-race-thief}
 
 **Effects of Armor**
@@ -915,6 +908,7 @@ Each Thief ability is governed by an ability score and affected by the ability s
 | Chain    | -4       |
 | Shield   | -2       |
 | No Armor | +2 bonus |
+
 : Thief Abilities Armor Modifier {#tbl-abilities-armor-thief}
 
 #### Open Locks
@@ -967,4 +961,4 @@ At 7^th^ level, Thieves get **triple** Sneak Attack damage.
 
 Thieves' Cant is a secret language used by thieves and other criminals to communicate without being understood by outsiders. It combines verbal expressions, hand signals, and sometimes written symbols
 
-![](images/theivesSymbols.jpg)
+![](images/theivesSymbols.jpg){fig-align="center"}

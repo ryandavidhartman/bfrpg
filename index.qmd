@@ -2,7 +2,7 @@
 
 This is Jack Frank's homebrew version of Basic Fantasy, tailored for his Wistful World of OnceWas campaign. For the original game by Chris Gonnerman, please refer to the [Basic Fantasy Role-Playing Game](https://www.basicfantasy.org).
 
-![Yleh](./images/Ylleh.png)
+![](./images/Ylleh.png){fig-align="center"}
 
 Here are some tools you might find useful:
 

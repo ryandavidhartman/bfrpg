@@ -85,7 +85,9 @@ format:
   pdf:
     latex-template: "custom.tex"
     number-depth: 0
+    toc-depth: 2
     toc: true
     execute:
       echo: false
-    documentclass: report  
+    documentclass: report
+    papersize: tabloid
