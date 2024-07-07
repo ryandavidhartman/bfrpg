@@ -770,9 +770,9 @@ To copy a spell, the character must spend 1d4 hours per Spell Level. The chance 
 | 13-14 | Spell produces nothing but a loud noise, bright flash of light, awful odor, etc.                           |
 | 15-17 | Spell produces a weaker version of the intended effect.                                                    |
 | 18-20 | Spell is cast normally.                                                                                    |
-: Potential Spell Failure Table {#tbl-potential-spell-failure}                                                                                                                           |
 
 : Potential Spell Failure Table {#tbl-potential-spell-failure}
+                                                                                                               
 
 #### Great School of Magic in Glantri
 
