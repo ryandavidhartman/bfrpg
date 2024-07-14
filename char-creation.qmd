@@ -13,10 +13,6 @@ Next, choose a [race](races.qmd#character-races) and [class](class.qmd#character
 
 ![Character Information](./images/char.png){#fig-char-info}
 
-# Player Characters
-
-## How to Create a Player Character
-
 Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Dungeon Master  what spell or spells your character knows; it's up to the Dungeon Master  to decide this, but they may allow you to choose one or more spells yourself.
 
 Note on your character sheet that your character has zero (0) experience points (or XP). Also, you may want to note the number needed to advance to second level, as shown in the table for your class.

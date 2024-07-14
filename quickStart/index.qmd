@@ -1,0 +1,402 @@
+---
+title: "The Wistful World of OnceWas Beginner's Essentials"
+author: "Ryan Hartman"
+date: "07-14-2024"
+---
+
+# Beginner's Essentials
+
+All textual materials in this document, as well as all maps, floorplans, diagrams, charts, and forms included herein, are distributed under the terms of the Creative Commons Attribution-ShareAlike 4.0 International License. Most other artwork presented is property of the original artist and is used with permission. Note that you may not publish or otherwise distribute this work as is without permission of the original artists; you must remove all non-licensed artwork before doing so. The full license text can be viewed at:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Website: [oncewarerpg.com](https://oncewasrpg.com/)
+
+## Introduction
+
+Beginner's Essentials offers the key information new players need to quickly create and start playing first level characters in a World of OnceWas role-playing game. This guide does not include all the information required to run a World of OnceWas adventure or campaign. The Game Master should have a copy of the World of OnceWas Role-Playing Game Core Rules, which contains the complete set of rules. The rulebook is available for download at [oncewarerpg.com](https://oncewasrpg.com/). Once characters advance to the second level, players will also need to reference the Core Rules.
+
+## Contents
+
+1. [Creating a Character](#creating-a-character)
+2. [Gear](#gear)
+3. [Combat](#combat)
+4. [Spells](#spells)
+
+## Creating a Character
+
+### Character Creation Steps
+
+1. Roll 4d6 for each ability score, drop the lowest number and reroll any 1's.
+2. Write down the bonus / penalty for each score.
+3. Choose a race & write in its special abilities.
+4. Choose a class & write in its special abilities.
+5. Write down the experience points needed to advance to second level.
+6. For hit points, take the max HP based your class Hit Dice and add your Constitution bonus / penalty.
+7. Write down your attack bonus of +1. (All characters have +1 at first level.)
+8. Write down your saving throw numbers (adjust the figures by your race bonuses / penalties).
+9. Roll for your starting money (3d6 x 10 gold pieces).
+10. Purchase equipment for your character (check the weapon and armor restrictions for your class and race).
+11. Write down your Armor Class, adding your Dexterity bonus / penalty.
+12. Fill out your character with a name and background.
+
+### Character Abilities (4d6, drop the lowest number and reroll ones)
+
+**Ability Bonuses**
+
+- **Strength (STR)**
+  - Adds to the attack roll when using melee weapons.
+  - Adds to the Damage roll for melee weapons or thrown weapons (including slings).
+
+- **Dexterity (DEX)**
+  - Adds to the attack roll when using ranged weapons (bows, crossbows, throwing axes)
+  - Armor Class (AC)
+  - Initiative die roll
+
+- **Constitution (CON)**
+  - Add to each Hit Die
+  - Save vs. Poison
+
+- **Intelligence (INT)**
+  - Number of languages the character knows
+  - Save vs. Illusion
+  - May be useful for remembering spells & research
+
+- **Wisdom (WIS)**
+  - Some saving throws vs. magical attacks
+
+- **Charisma (CHA)**
+  - Reaction rolls
+  - Number of retainers a character may hire
+
+**Ability Bonus/Penalty**
+
+| Ability Score | Bonus / Penalty |
+|---------------|------------------|
+| 6-8           | -1               |
+| 9-12          | 0                |
+| 13-15         | +1               |
+| 16-17         | +2               |
+| 18            | +3               |
+
+## Character Races
+
+### Dwarves
+
+- **Ability Requirements**: CON 9 or higher, CHA 17 or lower
+- **Classes**: Cleric, Fighter, Thief
+- **Hit Die**: Any
+- **Weapons**: Large weapons require two hands. No 2-handed swords, pole-arms, or longbows.
+- **Special**:
+  - Darkvision 60'
+  - Detect new construction, shifting walls, slanting passages, traps w/ 1-2 on d6
+- **Save Bonuses**:
+  - +4 vs. Death Ray or Poison
+  - +4 vs. Magic Wands
+  - +4 vs. Paralysis or Petrify
+  - +3 vs. Dragon Breath
+  - +4 vs. Spells
+- **Languages**: Common, Dwarvish, +1 / point of INT bonus
+- **Description**: Typically about 4' tall, stocky, lifespan of 300-400 years. Thick hair and beards.
+
+### Elves
+
+- **Ability Requirements**: INT 9 or higher, CON 17 or lower
+- **Classes**: Any single class as well as Fighter/Magic-User and Magic-User/Thief
+- **Hit Die**: d6 maximum
+- **Weapons**: Large weapons require two hands.
+- **Special**:
+  - Darkvision (60' range)
+  - Detect secret doors (1-2 on 1d6; 1 on 1d6 with a cursory look)
+  - Immune to the paralyzing attack of ghouls
+  - Range reduction by one for surprise checks (see Check for Surprise below)
+- **Save Bonuses**:
+  - +2 vs. Magic Wands
+  - +1 vs. Paralysis or Petrify
+  - +2 vs. Spells
+- **Languages**: Common, Elvish, +1 / point of INT bonus
+- **Description**: Typically about 5' tall, slender, 130 lbs. Lifespan of 1,200 years or more. Pale with dark hair, pointed ears, little or no facial hair.
+
+### Halflings
+
+- **Ability Requirements**: DEX 9 or higher, STR 17 or lower
+- **Classes**: Cleric, Fighter, Thief
+- **Hit Die**: d6 maximum
+- **Weapons**: Must use medium weapons in two hands. Cannot use large weapons.
+- **Special**:
+  - +1 attack bonus on ranged weapons
+  - +2 bonus to AC when attacked in melee by creatures larger than man-sized
+  - +1 to initiative die rolls
+  - Hide (10% chance to be detected outdoors, 30% chance to be detected indoors)
+- **Save Bonuses**:
+  - +4 vs. Death Ray or Poison
+  - +4 vs. Magic Wands
+  - +4 vs. Paralysis or Petrify
+  - +3 vs. Dragon Breath
+  - +4 vs. Spells
+- **Languages**: Common, Halfling, +1 / point of INT bonus
+- **Description**: Typically 3' tall, 60 lbs., with curly hair, no facial hair, lifespan of about 100 years.
+
+### Humans
+
+- **Ability Requirements**: No ability score requirements
+- **Classes**: Any
+- **Hit Die**: Any
+- **Weapons**: Large weapons require two hands.
+- **Special**: +10% to all earned experience
+- **Save Bonuses**: None
+- **Languages**: Common, +1 / point of INT bonus
+- **Description**: Average male is typically 6' tall, 175 lbs., and lives about 75 years.
+
+## Character Classes
+
+### Cleric
+
+- **Prime Requisite**: WIS (Must be 9+)
+- **Hit Dice**: D6
+- **Weapons**: Blunt weapons only (club, mace, maul, quarterstaff, sling, warhammer)
+- **Armor**: Any, shields allowed
+- **XP for 2nd Level**: 1,500
+- **Spells**: None at first level
+- **Special**: Turn the Undead
+- **Saving Throws at 1st Level**:
+  - Death Ray or Poison: 11
+  - Magic Wands: 12
+  - Paralysis or Petrify: 14
+  - Dragon Breath: 16
+  - Spells: 15
+
+### Fighter
+
+- **Prime Requisite**: STR (Must be 9+)
+- **Hit Dice**: d8
+- **Weapons**: Any
+- **Armor**: Any, shields allowed
+- **XP for 2nd Level**: 2,000
+- **Spells**: None
+- **Special**: None
+- **Saving Throws at 1st Level**:
+  - Death Ray or Poison: 12
+  - Magic Wands: 13
+  - Paralysis or Petrify: 14
+  - Dragon Breath: 15
+  - Spells: 16
+
+### Magic-User
+
+- **Prime Requisite**: INT (Must be 9+)
+- **Hit Dice**: d4
+- **Weapons**: Dagger, staff
+- **Armor**: None, no shields allowed
+- **XP for 2nd Level**: 2,500
+- **Spells**: 1 at first level
+- **Special**: None
+- **Saving Throws at 1st Level**:
+  - Death Ray or Poison: 13
+  - Magic Wands: 14
+  - Paralysis or Petrify: 13
+  - Dragon Breath: 16
+  - Spells: 15
+
+### Thief
+
+- **Prime Requisite**: DEX (Must be 9+)
+- **Hit Dice**: d4
+- **Weapons**: Any
+- **Armor**: Leather, no shields allowed
+- **XP for 2nd Level**: 1,250
+- **Spells**: None
+- **Special**:
+  - Backstab (x2 damage, +4 attack roll if unnoticed)
+  - Thief Skills (see below)
+- **Saving Throws at 1st Level**:
+  - Death Ray or Poison: 13
+  - Magic Wands: 14
+  - Paralysis or Petrify: 13
+  - Dragon Breath: 16
+  - Spells: 15
+
+#### Thief Skills
+
+| Skill         | Base % |
+|---------------|--------|
+| Pick Locks    | 20     |
+| Find/Remove Traps | 20 |
+| Pick Pockets  | 30     |
+| Move Silently | 25     |
+| Climb Walls   | 80     |
+| Hide          | 10     |
+| Listen        | 35     |
+
+## Gear
+
+Characters start with 3d6 x 10 gp. Use the tables in the Core Rules to purchase equipment. Here are some common items and their prices:
+
+### Common Items and Costs
+
+| Item               | Cost  | Weight |
+|--------------------|-------|--------|
+| Backpack           | 5 gp  | 30     |
+| Belt Pouch (small) | 2 gp  | 20     |
+| Rope (50 ft.)      | 1 gp  | 50     |
+| Sack (large)       | 2 gp  | 100    |
+| Sack (small)       | 1 gp  | 50     |
+| Thieves’ Tools     | 25 gp | 10     |
+| Waterskin          | 1 gp  | 30     |
+
+
+### Weapons
+
+| Weapon         | Damage | Cost  | Weight |
+|----------------|--------|-------|--------|
+| Club           | 1d4    | 1 gp  | 3      |
+| Dagger         | 1d4    | 3 gp  | 1      |
+| Longsword      | 1d8    | 10 gp | 4      |
+| Mace           | 1d6    | 5 gp  | 8      |
+| Shortbow       | 1d6    | 25 gp | 2      |
+| Sling          | 1d4    | 2 gp  | 0      |
+| Spear          | 1d6    | 3 gp  | 5      |
+
+### Armor
+
+| Armor         | AC  | Cost  | Weight |
+|---------------|-----|-------|--------|
+| No Armor      | 11  | 0     | 0      |
+| Leather Armor | 13  | 20 gp | 150    |
+| Chainmail     | 15  | 40 gp | 300    |
+| Plate Mail    | 17  | 60 gp | 500    |
+| Shield        | +1  | 10 gp | 100    |
+
+## Combat
+
+### Basic Combat Sequence
+
+1. Roll initiative.
+2. Attacks are made in order of initiative.
+3. Attack rolls are made by rolling a d20 and adding any bonuses. If the result equals or exceeds the target’s Armor Class (AC), the attack hits.
+4. Damage is rolled and subtracted from the target's hit points.
+
+### Saving Throws
+
+Characters may be required to make saving throws to avoid various dangers. Each class has specific saving throws, which improve with level.
+
+## Spells
+
+### Cleric Spells
+
+Clerics gain spells as they advance in level. At 1st level, they do not have any spells. Starting from 2nd level, they gain the ability to cast spells based on their Wisdom score.
+
+### Magic-User Spells
+
+Magic-Users start with one spell at 1st level. They learn new spells as they advance in level and through finding spellbooks and scrolls.
+
+## Cleric Spells
+
+### 1st Level Cleric Spells
+
+- **Cure Light Wounds**
+  - Heals 1d6+1 hit points of damage to a living creature.
+- **Detect Magic**
+  - Reveals magical auras within 60 feet for 2 turns.
+- **Light**
+  - Creates a light source equivalent to a torch for 6 turns.
+- **Protection from Evil**
+  - +1 to AC and saving throws against evil creatures for 12 turns.
+- **Purify Food and Water**
+  - Makes spoiled or contaminated food and water pure and suitable for consumption.
+
+## Magic-User Spells
+
+### 1st Level Magic-User Spells
+
+- **Charm Person**
+  - Causes one humanoid to regard the caster as a trusted friend for a duration.
+- **Detect Magic**
+  - Reveals magical auras within 60 feet for 2 turns.
+- **Magic Missile**
+  - Creates a missile of magical energy that hits automatically and deals 1d6+1 damage.
+- **Read Magic**
+  - Deciphers magical inscriptions for 2 turns.
+- **Shield**
+  - Provides +4 AC against missile weapons and +2 AC against melee attacks for 2 turns.
+- **Sleep**
+  - Puts 2d8 HD of creatures to sleep for 4d4 turns. No saving throw.
+
+## Combat (continued)
+
+### Detailed Combat Steps
+
+1. **Initiative**:
+   - Roll a d6 for each side. The side with the higher roll acts first.
+   - Individual initiative can be used by rolling a d6 for each character.
+
+2. **Movement**:
+   - Characters may move up to their speed in combat.
+   - Running doubles movement but sacrifices the ability to attack.
+
+3. **Attacking**:
+   - Roll a d20 and add the attack bonus.
+   - Compare the result to the target's AC.
+   - If the result meets or exceeds the AC, the attack hits.
+
+4. **Damage**:
+   - Roll the appropriate dice for the weapon used.
+   - Add any bonuses to the damage roll.
+   - Subtract the result from the target's hit points.
+
+5. **Special Attacks and Abilities**:
+   - Abilities such as spellcasting or thief skills can be used as per their rules.
+
+### Armor and Weapons
+
+#### Armor Class (AC)
+
+- **Armor**: Provides a base AC.
+- **Shields**: Add +1 to AC.
+- **Dexterity**: Adds a bonus to AC.
+
+| Armor Type    | AC  | Cost  | Weight |
+|---------------|-----|-------|--------|
+| No Armor      | 11  | 0     | 0      |
+| Leather Armor | 13  | 20 gp | 150    |
+| Chainmail     | 15  | 40 gp | 300    |
+| Plate Mail    | 17  | 60 gp | 500    |
+| Shield        | +1  | 10 gp | 100    |
+
+#### Weapon Damage
+
+- **Club**: 1d4
+- **Dagger**: 1d4
+- **Longsword**: 1d8
+- **Mace**: 1d6
+- **Shortbow**: 1d6
+- **Sling**: 1d4
+- **Spear**: 1d6
+
+### Saving Throws
+
+Characters have specific saving throws for different types of dangers:
+
+- **Death Ray or Poison**
+- **Magic Wands**
+- **Paralysis or Petrify**
+- **Dragon Breath**
+- **Spells**
+
+Each class has its own starting values for these saving throws, which improve as they level up.
+
+## Experience and Leveling Up
+
+### Experience Points (XP)
+
+Characters gain experience points through defeating monsters, completing quests, and achieving goals. The amount of XP needed to level up varies by class.
+
+### Leveling Up
+
+When a character gains enough XP to level up, they receive the following benefits:
+
+- **Increased Hit Points**: Roll the class hit die and add the result to the character's hit points.
+- **Improved Attack Bonus**: Some classes increase their attack bonus at specific levels.
+- **Additional Spells**: Magic-Users and Clerics gain additional spells as they level up.
+- **Improved Saving Throws**: Saving throw values improve with levels.
+

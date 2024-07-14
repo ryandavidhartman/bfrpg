@@ -5,7 +5,8 @@ project:
 book:
   title: "Basic Fantasy RPG, OnceWas edition"
   author: "Jack Frank based on the work of Chris Gonnerman"
-  date: "7/07/2024"  
+  date: "7/07/2024"
+  reader-mode: true
   chapters:
     - index.qmd
     - part: Introduction
@@ -82,12 +83,14 @@ format:
     header-includes: |
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
     mainfont: "Caudex"
+  # pdf:
+  #   latex-template: "custom.tex"
+  #   number-depth: 0
+  #   toc-depth: 2
+  #   toc: true
+  #   execute:
+  #     echo: false
+  #   documentclass: report
+  #   page-layout: full
   pdf:
-    latex-template: "custom.tex"
-    number-depth: 0
-    toc-depth: 2
-    toc: true
-    execute:
-      echo: false
-    documentclass: report
-    papersize: tabloid
+    documentclass: scrreprt
