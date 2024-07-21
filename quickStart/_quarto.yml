@@ -1,9 +1,0 @@
-project:
-  type: book
-  output-dir: docs
-
-book:
-  title: "The Wistful World of OnceWas Beginner's Essentials"
-  author: "Ryan Hartman"
-  chapters:
-    - index.qmd

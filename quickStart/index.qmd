@@ -1,10 +1,16 @@
 ---
-title: "The Wistful World of OnceWas Beginner's Essentials"
+title: "The Wistful World of OnceWas Quick Start Guide"
 author: "Ryan Hartman"
-date: "07-14-2024"
----
+date: "07-20-2024"
+toc: true
 
-# Beginner's Essentials
+format:
+  pdf:
+    number-sections: true
+    geometry: 
+      - top=20mm
+      - left=20mm
+---
 
 All textual materials in this document, as well as all maps, floorplans, diagrams, charts, and forms included herein, are distributed under the terms of the Creative Commons Attribution-ShareAlike 4.0 International License. Most other artwork presented is property of the original artist and is used with permission. Note that you may not publish or otherwise distribute this work as is without permission of the original artists; you must remove all non-licensed artwork before doing so. The full license text can be viewed at:
 
@@ -14,18 +20,10 @@ Website: [oncewarerpg.com](https://oncewasrpg.com/)
 
 ## Introduction
 
-Beginner's Essentials offers the key information new players need to quickly create and start playing first level characters in a World of OnceWas role-playing game. This guide does not include all the information required to run a World of OnceWas adventure or campaign. The Game Master should have a copy of the World of OnceWas Role-Playing Game Core Rules, which contains the complete set of rules. The rulebook is available for download at [oncewarerpg.com](https://oncewasrpg.com/). Once characters advance to the second level, players will also need to reference the Core Rules.
+The Quick Start Guide offers the key information new players need to quickly create and start playing first level characters in a World of OnceWas role-playing game. This guide does not include all the information required to run a World of OnceWas adventure or campaign. The Game Master should have a copy of the World of OnceWas Role-Playing Game Core Rules, which contains the complete set of rules. The rulebook is available for download at [oncewarerpg.com](https://oncewasrpg.com/). Once characters advance to the second level, players will also need to reference the Core Rules.
 
-## Contents
-
-1. [Creating a Character](#creating-a-character)
-2. [Gear](#gear)
-3. [Combat](#combat)
-4. [Spells](#spells)
 
 ## Creating a Character
-
-### Character Creation Steps
 
 1. Roll 4d6 for each ability score, drop the lowest number and reroll any 1's.
 2. Write down the bonus / penalty for each score.
@@ -40,7 +38,7 @@ Beginner's Essentials offers the key information new players need to quickly cre
 11. Write down your Armor Class, adding your Dexterity bonus / penalty.
 12. Fill out your character with a name and background.
 
-### Character Abilities (4d6, drop the lowest number and reroll ones)
+## Character Abilities
 
 **Ability Bonuses**
 
@@ -69,334 +67,1114 @@ Beginner's Essentials offers the key information new players need to quickly cre
   - Reaction rolls
   - Number of retainers a character may hire
 
-**Ability Bonus/Penalty**
+### Ability Bonus/Penalty
 
-| Ability Score | Bonus / Penalty |
-|---------------|------------------|
-| 6-8           | -1               |
-| 9-12          | 0                |
-| 13-15         | +1               |
-| 16-17         | +2               |
-| 18            | +3               |
+  --------------- -----------------
+  Ability Score   Bonus / Penalty
+  6-8             -1
+  9-12            0
+  13-15           +1
+  16-17           +2
+  18              +3
+  --------------- -----------------
 
 ## Character Races
 
 ### Dwarves
 
-- **Ability Requirements**: CON 9 or higher, CHA 17 or lower
-- **Classes**: Cleric, Fighter, Thief
-- **Hit Die**: Any
-- **Weapons**: Large weapons require two hands. No 2-handed swords, pole-arms, or longbows.
-- **Special**:
-  - Darkvision 60'
-  - Detect new construction, shifting walls, slanting passages, traps w/ 1-2 on d6
-- **Save Bonuses**:
-  - +4 vs. Death Ray or Poison
-  - +4 vs. Magic Wands
-  - +4 vs. Paralysis or Petrify
-  - +3 vs. Dragon Breath
-  - +4 vs. Spells
-- **Languages**: Common, Dwarvish, +1 / point of INT bonus
-- **Description**: Typically about 4' tall, stocky, lifespan of 300-400 years. Thick hair and beards.
++----------------------+----------------------------------------------+
+| Ability Requirements | CON 9 or higher, CHA 17 or lower             |
++----------------------+----------------------------------------------+
+| Classes              | Cleric, Fighter, Thief                       |
++----------------------+----------------------------------------------+
+| Hit Die              | Any                                          |
++----------------------+----------------------------------------------+
+| Weapons              | Large weapons require two hands.             |
+|                      |                                              |
+|                      | No 2-handed swords, pole-arms, or longbows.  |
++----------------------+----------------------------------------------+
+| Special              |                                              |
++----------------------+----------------------------------------------+
+| Save Bonuses         |                                              |
++----------------------+----------------------------------------------+
+| Languages            |                                              |
++----------------------+----------------------------------------------+
+| Description          | Typically about 4\' tall, stocky, lifespan   |
+|                      | of 300-400 years. Thick hair and beards.     |
++----------------------+----------------------------------------------+
 
 ### Elves
 
-- **Ability Requirements**: INT 9 or higher, CON 17 or lower
-- **Classes**: Any single class as well as Fighter/Magic-User and Magic-User/Thief
-- **Hit Die**: d6 maximum
-- **Weapons**: Large weapons require two hands.
-- **Special**:
-  - Darkvision (60' range)
-  - Detect secret doors (1-2 on 1d6; 1 on 1d6 with a cursory look)
-  - Immune to the paralyzing attack of ghouls
-  - Range reduction by one for surprise checks (see Check for Surprise below)
-- **Save Bonuses**:
-  - +2 vs. Magic Wands
-  - +1 vs. Paralysis or Petrify
-  - +2 vs. Spells
-- **Languages**: Common, Elvish, +1 / point of INT bonus
-- **Description**: Typically about 5' tall, slender, 130 lbs. Lifespan of 1,200 years or more. Pale with dark hair, pointed ears, little or no facial hair.
+  ---------------------- -------------------------------------------------------------------------------------------------------------------------------------------
+  Ability Requirements   INT 9 or higher, CON 17 or lower
+  Classes                Any single class as well as Fighter/Magic-User and Magic-User/Thief
+  Hit Die                d6 maximum
+  Weapons                Large weapons require two hands.
+  Special                
+  Save Bonuses           
+  Languages              
+  Description            Typically about 5\' tall, slender, 130 lbs. Lifespan of 1,200 years or more. Pale with dark hair, pointed ears, little or no facial hair.
+  ---------------------- -------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Halflings
 
-- **Ability Requirements**: DEX 9 or higher, STR 17 or lower
-- **Classes**: Cleric, Fighter, Thief
-- **Hit Die**: d6 maximum
-- **Weapons**: Must use medium weapons in two hands. Cannot use large weapons.
-- **Special**:
-  - +1 attack bonus on ranged weapons
-  - +2 bonus to AC when attacked in melee by creatures larger than man-sized
-  - +1 to initiative die rolls
-  - Hide (10% chance to be detected outdoors, 30% chance to be detected indoors)
-- **Save Bonuses**:
-  - +4 vs. Death Ray or Poison
-  - +4 vs. Magic Wands
-  - +4 vs. Paralysis or Petrify
-  - +3 vs. Dragon Breath
-  - +4 vs. Spells
-- **Languages**: Common, Halfling, +1 / point of INT bonus
-- **Description**: Typically 3' tall, 60 lbs., with curly hair, no facial hair, lifespan of about 100 years.
++----------------------+----------------------------------------------+
+| Ability Requirements | DEX 9 or higher, STR 17 or lower             |
++----------------------+----------------------------------------------+
+| Classes              | Cleric, Fighter, Thief                       |
++----------------------+----------------------------------------------+
+| Hit Die              | d6 maximum                                   |
++----------------------+----------------------------------------------+
+| Weapons              | Must use medium weapons in two hands.        |
+|                      |                                              |
+|                      | Cannot use large weapons.                    |
++----------------------+----------------------------------------------+
+| Special              |                                              |
++----------------------+----------------------------------------------+
+| Save Bonuses         |                                              |
++----------------------+----------------------------------------------+
+| Languages            |                                              |
++----------------------+----------------------------------------------+
+| Description          | Typically 3\' tall, 60 lbs., with curly      |
+|                      | hair, no facial hair, lifespan of about 100  |
+|                      | years.                                       |
++----------------------+----------------------------------------------+
 
 ### Humans
 
-- **Ability Requirements**: No ability score requirements
-- **Classes**: Any
-- **Hit Die**: Any
-- **Weapons**: Large weapons require two hands.
-- **Special**: +10% to all earned experience
-- **Save Bonuses**: None
-- **Languages**: Common, +1 / point of INT bonus
-- **Description**: Average male is typically 6' tall, 175 lbs., and lives about 75 years.
+  ---------------------- -------------------------------------------------------------------------
+  Ability Requirements   No ability score requirements
+  Classes                Any
+  Hit Die                Any
+  Weapons                Large weapons require two hands.
+  Special                
+  Save Bonuses           None
+  Languages              
+  Description            Average male is typically 6\' tall, 175 lbs., and lives about 75 years.
+  ---------------------- -------------------------------------------------------------------------
+
+### Bonus Languages
+
+The Game Master will have a list of the languages available in their
+campaign. Players are not required to choose bonus languages when the
+character is created. They can choose them at some point in the future.
 
 ## Character Classes
 
 ### Cleric
 
-- **Prime Requisite**: WIS (Must be 9+)
-- **Hit Dice**: D6
-- **Weapons**: Blunt weapons only (club, mace, maul, quarterstaff, sling, warhammer)
-- **Armor**: Any, shields allowed
-- **XP for 2nd Level**: 1,500
-- **Spells**: None at first level
-- **Special**: Turn the Undead
-- **Saving Throws at 1st Level**:
-  - Death Ray or Poison: 11
-  - Magic Wands: 12
-  - Paralysis or Petrify: 14
-  - Dragon Breath: 16
-  - Spells: 15
+  ------------------------------ -----------------------------------------------------------------------
+  Prime Requisite                WIS (Must be 9+)
+  Hit Dice                       D6
+  Weapons                        Blunt weapons only (club, mace, maul, quarterstaff, sling, warhammer)
+  Armor                          Any, shields allowed
+  XP for 2^nd^ Level             1,500
+  Spells                         None at first level
+  Special                        Turn the Undead (*see below*)
+  Saving Throws at 1^st^ Level   
+  ------------------------------ -----------------------------------------------------------------------
+
+Turn the Undead
+
+Clerics may be able to turn the undead or drive away undead monsters by
+means of faith alone. The Cleric brandishes their holy symbol and calls
+upon the power of their divine patron. The player rolls 1d20 and tells
+the GM the result.
 
 ### Fighter
 
-- **Prime Requisite**: STR (Must be 9+)
-- **Hit Dice**: d8
-- **Weapons**: Any
-- **Armor**: Any, shields allowed
-- **XP for 2nd Level**: 2,000
-- **Spells**: None
-- **Special**: None
-- **Saving Throws at 1st Level**:
-  - Death Ray or Poison: 12
-  - Magic Wands: 13
-  - Paralysis or Petrify: 14
-  - Dragon Breath: 15
-  - Spells: 16
+  ------------------------------ ----------------------
+  Prime Requisite                STR (Must be 9+)
+  Hit Dice                       d8
+  Weapons                        Any
+  Armor                          Any, shields allowed
+  XP for 2^nd^ Level             2,000
+  Spells                         None
+  Special                        None
+  Saving Throws at 1^st^ Level   
+  ------------------------------ ----------------------
 
 ### Magic-User
 
-- **Prime Requisite**: INT (Must be 9+)
-- **Hit Dice**: d4
-- **Weapons**: Dagger, staff
-- **Armor**: None, no shields allowed
-- **XP for 2nd Level**: 2,500
-- **Spells**: 1 at first level
-- **Special**: None
-- **Saving Throws at 1st Level**:
-  - Death Ray or Poison: 13
-  - Magic Wands: 14
-  - Paralysis or Petrify: 13
-  - Dragon Breath: 16
-  - Spells: 15
+  ------------------------------ --------------------------------------------
+  Prime Requisite                INT (Must be 9+)
+  Hit Dice                       d4
+  Weapons                        Cudgel, dagger, walking staff
+  Armor                          None
+  XP for 2^nd^ Level             2,500
+  Spells                         1 first-level spell (see **Spells** below)
+  Special                        None
+  Saving Throws at 1^st^ Level   
+  ------------------------------ --------------------------------------------
 
 ### Thief
 
-- **Prime Requisite**: DEX (Must be 9+)
-- **Hit Dice**: d4
-- **Weapons**: Any
-- **Armor**: Leather, no shields allowed
-- **XP for 2nd Level**: 1,250
-- **Spells**: None
-- **Special**:
-  - Backstab (x2 damage, +4 attack roll if unnoticed)
-  - Thief Skills (see below)
-- **Saving Throws at 1st Level**:
-  - Death Ray or Poison: 13
-  - Magic Wands: 14
-  - Paralysis or Petrify: 13
-  - Dragon Breath: 16
-  - Spells: 15
+  ------------------------------ --------------------
+  Prime Requisite                DEX (Must be 9+)
+  Hit Dice                       d4
+  Weapons                        Any
+  Armor                          Leather, no shield
+  XP for 2^nd^ Level             1,250
+  Spells                         None
+  Special                        
+  Saving Throws at 1^st^ Level   
+  ------------------------------ --------------------
 
-#### Thief Skills
+Sneak Attack
 
-| Skill         | Base % |
-|---------------|--------|
-| Pick Locks    | 20     |
-| Find/Remove Traps | 20 |
-| Pick Pockets  | 30     |
-| Move Silently | 25     |
-| Climb Walls   | 80     |
-| Hide          | 10     |
-| Listen        | 35     |
+-   +4 attack bonus and does double damage if it is successful. The
+    attack must be from behind (may require a Move Silently and/or Hide
+    roll).
+-   Can\'t be performed on the same opponent more than once in any given
+    combat.
+-   Can also be performed bare-handed and with the \"flat of the blade\"
+    (+0 attack bonus and does normal damage). In both cases subduing
+    damage is done.
 
-## Gear
+Thief Abilities at First Level
 
-Characters start with 3d6 x 10 gp. Use the tables in the Core Rules to purchase equipment. Here are some common items and their prices:
+  --------------- ----- ------------- -----
+  Open Locks      25%   Climb Walls   80%
+  Remove Traps    20%   Hide\*        10%
+  Pick Pockets    30%   Listen        30%
+  Move Silently   25%                 
+  --------------- ----- ------------- -----
 
-### Common Items and Costs
+\*Halflings should use the special Halfling ability to hide instead,
+which gives them only a 10% chance of being detected in forested terrain
+and 30% anywhere else.
 
-| Item               | Cost  | Weight |
-|--------------------|-------|--------|
-| Backpack           | 5 gp  | 30     |
-| Belt Pouch (small) | 2 gp  | 20     |
-| Rope (50 ft.)      | 1 gp  | 50     |
-| Sack (large)       | 2 gp  | 100    |
-| Sack (small)       | 1 gp  | 50     |
-| Thieves’ Tools     | 25 gp | 10     |
-| Waterskin          | 1 gp  | 30     |
+## GEAR
 
+### Monetary values
+
+  ----------------------- --- -----------------------
+  1 platinum piece (pp)   =   5 gold pieces (gp)
+  1 gold piece (gp)       =   10 silver pieces (sp)
+  1 electrum piece (ep)   =   5 silver pieces (sp)
+  1 silver piece (sp)     =   10 copper pieces (cp)
+  ----------------------- --- -----------------------
+
+For game purposes, assume that one gold piece weighs 1/20th of a pound.
+
+### General Equipment
+
+  ------------------------------------ ------- ------
+  Backpack                             4 gp    \*
+  Belt Pouch                           1 gp    \*
+  Bit and bridle                       15 sp   3
+  Candles, 12                          1 gp    \*
+  Chalk, small bag of pieces           2 gp    \*
+  Cloak                                2 gp    1
+  Clothing, common outfit              4 gp    1
+  Glass bottle or vial                 1 gp    \*
+  Grappling Hook                       2 gp    4
+  Holy Symbol                          25 gp   \*
+  Holy Water, per vial                 10 gp   \*
+  Ink (per jar)                        8 gp    ½
+  Iron Spikes, 12                      1 gp    1
+  Ladder, 10 ft.                       1 gp    20
+  Lantern                              5 gp    2
+  Lantern, Bullseye                    14 gp   3
+  Lantern, Hooded                      8 gp    2
+  Manacles (without padlock)           6 gp    4
+  Map or scroll case                   1 gp    ½
+  Mirror, small metal                  7 gp    \*
+  Oil (per flask)                      1 gp    1
+  Padlock (with 2 keys)                12 gp   1
+  Paper (per sheet)                    1 gp    \*\*
+  Pole, 10\' wooden                    1 gp    10
+  Quill                                1 sp    \*\*
+  Quill Knife                          1 gp    \*
+  Quiver or Bolt case (specify type)   1 gp    1
+  Rations, Dry, one week               10 gp   14
+  Rope, Hemp (per 50 ft.)              1 gp    5
+  Rope, Silk (per 50 ft.)              10 gp   2
+  Sack, Large                          1 gp    \*
+  Sack, Small                          5 sp    \*
+  Saddle, Pack                         5 gp    15
+  Saddle, Riding                       10 gp   35
+  Saddlebags, pair                     4 gp    7
+  Spellbook (128 pages)                25 gp   1
+  Tent, Large (ten men)                25 gp   20
+  Tent, Small (one man)                5 gp    10
+  Thieves\' picks and tools            25 gp   1
+  Tinderbox, flint and steel           3 gp    1
+  Torches, 6                           1 gp    1
+  Whetstone                            1 gp    1
+  Whistle                              1 gp    \*\*
+  Wineskin/Waterskin                   1 gp    2
+  Winter blanket                       1 gp    3
+  ------------------------------------ ------- ------
+
+\* Ten of these items weigh one pound.
+
+\*\* These items should not be considered for encumbrance unless
+hundreds are carried.
+
+**Note**: A Magic-User\'s first spellbook is provided by their master.
+
+### Armor and Shields
+
+  --------------- -------- -------- ----
+  Armor Type      Cost     Weight   AC
+  No Armor        0 gp     0        11
+  Leather Armor   20 gp    15       13
+  Chain Mail      60 gp    40       15
+  Plate Mail      300 gp   50       17
+  Shield          7 gp     5        +1
+  --------------- -------- -------- ----
+
+### Tack and Harness
+
+  ---------------------- ------- --------
+  Item                   Cost    Weight
+  Bit and bridle         15 sp   3
+  Horseshoes & shoeing   1 gp    10
+  Saddle, Pack           5 gp    15
+  Saddle, Riding         10 gp   35
+  Saddlebags, pair       4 gp    7
+  ---------------------- ------- --------
+
+### Beasts of Burden
+
+  --------------- ------ ---- ---- --------- ------------------------------ --------------- --------
+  Animal          Mv     HD   AC   Save as   Attacks                        Load (Lt/Hvy)   Cost
+  Camel           50'    2    13   F2        1 bite, 1 hoof, 1, 1d4         400/800         75 gp
+  Donkey          40'    2    13   F2        1 bite, 1d2                    70/140          40 gp
+  Horse, Draft    60\'   3    13   F3        2 hooves, 1d4 each             350/700         120 gp
+  Horse, War      60\'   3    13   F3        2 hooves, 1d6 each             350/700         200 gp
+  Horse, Riding   80\'   2    13   F2        2 hooves, 1d4 each             250/500         75 gp
+  Mule            40'    2    13   F2        1 kick or 1 bite, 1d4 or 1d2   300/600         40 gp
+  Pony\*          40\'   1    13   F1        1 bite, 1d4                    275/550         40 gp
+  Pony, War\*     40\'   1    13   F1        1 bite, 1d4                    275/550         80 gp
+  --------------- ------ ---- ---- --------- ------------------------------ --------------- --------
+
+\* Due to their small stature, Dwarves and Halflings generally ride
+ponies rather than horses.
+
+#### Load
+
+  ---------- ------------------- ------------ ------------ ------------
+             Dwarf, Elf, Human   Halfling                  
+  Strength   Light Load          Heavy Load   Light Load   Heavy Load
+  3          25                  60           20           40
+  4-5        35                  90           30           60
+  6-8        50                  120          40           80
+  9-12       60                  150          50           100
+  13-15      65                  165          55           110
+  16-17      70                  180          60           120
+  18         80                  195          65           130
+  ---------- ------------------- ------------ ------------ ------------
+
+#### Movement and Encumbrance
+
+  ------------------------------ ---------------- ----------------
+  Armor Type                     Lightly Loaded   Heavily Loaded
+  No Armor or Magic Leather      40\'             30\'
+  Leather Armor or Magic Metal   30\'             20\'
+  Metal Armor                    20\'             10\'
+  ------------------------------ ---------------- ----------------
 
 ### Weapons
 
-| Weapon         | Damage | Cost  | Weight |
-|----------------|--------|-------|--------|
-| Club           | 1d4    | 1 gp  | 3      |
-| Dagger         | 1d4    | 3 gp  | 1      |
-| Longsword      | 1d8    | 10 gp | 4      |
-| Mace           | 1d6    | 5 gp  | 8      |
-| Shortbow       | 1d6    | 25 gp | 2      |
-| Sling          | 1d4    | 2 gp  | 0      |
-| Spear          | 1d6    | 3 gp  | 5      |
+  ------------------------- ------- --- ----- ------
+  Axes                                        
+  Hand Axe                  4 gp    S   5     1d6
+  Battle Axe                7 gp    M   7     1d8
+  Great Axe                 14 gp   L   15    1d10
+  Bows                                        
+  Shortbow                  25 gp   M   2     
+  Shortbow Arrow            1 sp        0.1   1d6
+  Silver\* Shortbow Arrow   2 gp        0.1   1d6
+  Longbow                   60 gp   L   3     
+  Longbow Arrow             2 sp        0.1   1d8
+  Silver\* Longbow Arrow    4 gp        0.1   1d8
+  Light Crossbow            30 gp   M   7     
+  Light Quarrel             2 sp        0.1   1d6
+  Silver\* Light Quarrel    5 gp        0.1   1d6
+  Heavy Crossbow            50 gp   L   14    
+  Heavy Quarrel             4 sp        0.1   1d8
+  Silver\* Heavy Quarrel    10 gp       0.1   1d8
+  Daggers                                     
+  Dagger                    2 gp    S   1     1d4
+  Silver\* Dagger           25 gp   S   1     1d4
+  Swords                                      
+  Shortsword                6 gp    S   3     1d6
+  Longsword/Scimitar        10 gp   M   4     1d8
+  Two-Handed Sword          18 gp   L   10    1d10
+  Hammers and Maces                           
+  Warhammer                 4 gp    S   6     1d6
+  Mace                      6 gp    M   10    1d8
+  Maul                      10 gp   L   16    1d10
+  ------------------------- ------- --- ----- ------
 
-### Armor
+  --------------------------- ------ --- ----- ------
+  Other Weapons                                
+  Club/Cudgel/Walking Staff   2 sp   M   1     1d4
+  Quarterstaff                2 gp   L   4     1d6
+  Pole Arm                    9 gp   L   15    1d10
+  Sling                       1 gp   S   0.1   
+  Bullet                      1 sp       0.1   1d4
+  Stone                       n/a        0.1   1d3
+  Spear                       5 gp   M   5     
+  Thrown (one handed)                          1d6
+  Melee (one handed)                           1d6
+  Melee (two handed)                           1d8
+  --------------------------- ------ --- ----- ------
 
-| Armor         | AC  | Cost  | Weight |
-|---------------|-----|-------|--------|
-| No Armor      | 11  | 0     | 0      |
-| Leather Armor | 13  | 20 gp | 150    |
-| Chainmail     | 15  | 40 gp | 300    |
-| Plate Mail    | 17  | 60 gp | 500    |
-| Shield        | +1  | 10 gp | 100    |
+\* Silver tip or blade, for use against lycanthropes.
 
-## Combat
+### Missile Weapon Ranges
 
-### Basic Combat Sequence
+  ------------------- ------------ ------------ -----------
+  Weapon              Short (+1)   Medium (0)   Long (-2)
+  Longbow             70           140          210
+  Shortbow            50           100          150
+  Heavy Crossbow      80           160          240
+  Light Crossbow      60           120          180
+  Dagger              10           20           30
+  Warhammer           10           20           30
+  Hand Axe            10           20           30
+  Oil or Holy Water   10           30           50
+  Sling               30           60           90
+  Spear               10           20           30
+  ------------------- ------------ ------------ -----------
 
-1. Roll initiative.
-2. Attacks are made in order of initiative.
-3. Attack rolls are made by rolling a d20 and adding any bonuses. If the result equals or exceeds the target’s Armor Class (AC), the attack hits.
-4. Damage is rolled and subtracted from the target's hit points.
+\* These ranges are in feet (indoors) or yards (outdoors).
 
-### Saving Throws
+## Wilderness Movement Rates
 
-Characters may be required to make saving throws to avoid various dangers. Each class has specific saving throws, which improve with level.
+Movement rates in the wilderness are related directly to encounter
+movement rates. See the table below:
 
-## Spells
++--------------------+---------------------+
+| Encounter Movement | Wilderness Movement |
+|                    |                     |
+| (Feet per Round)   | (Miles per Day)     |
++--------------------+---------------------+
+| 10\'               | 6                   |
++--------------------+---------------------+
+| 20\'               | 12                  |
++--------------------+---------------------+
+| 30\'               | 18                  |
++--------------------+---------------------+
+| 40\'               | 24                  |
++--------------------+---------------------+
+| 50\'               | 30                  |
++--------------------+---------------------+
+| 60\'               | 36                  |
++--------------------+---------------------+
+| 70\'               | 42                  |
++--------------------+---------------------+
+| 80\'               | 48                  |
++--------------------+---------------------+
 
-### Cleric Spells
+Naturally, any group traveling together moves at the rate of the slowest
+member.
 
-Clerics gain spells as they advance in level. At 1st level, they do not have any spells. Starting from 2nd level, they gain the ability to cast spells based on their Wisdom score.
+The terrain type will alter the rate somewhat, as shown on this table:
 
-### Magic-User Spells
+  -------------------------- ------------
+  Terrain                    Adjustment
+  Jungle, Mountains, Swamp   x1/3
+  Desert, Forest, Hills      x2/3
+  Clear, Plains, Trail       x1
+  Road (Paved)               x1 1/3
+  -------------------------- ------------
 
-Magic-Users start with one spell at 1st level. They learn new spells as they advance in level and through finding spellbooks and scrolls.
+These rates are for 8 hours of travel. Characters may choose to perform
+a forced march, traveling 12 hours per day. If this is done, add an
+additional 50% to the distance traveled. Each day of forced march
+performed after the first inflicts 1d6 points of damage on the
+characters (and their animals, if any). A save vs. Death Ray with
+Constitution bonus applied is allowed to avoid this damage, but after
+this save is failed once, it is not rolled again for that character or
+creature. A day spent resting "restarts" the progression.
 
-## Cleric Spells
+### Day to Day Survival
 
-### 1st Level Cleric Spells
+Normal characters must consume one day\'s worth of rations (or
+equivalent food) and a minimum of one quart of water per day. Failure to
+consume enough food does not significantly affect a character for the
+first two days, but after that they lose 1 hit point per day.
+Furthermore, at that point the character loses the ability to heal
+wounds normally, though magic will still work. Eating enough food for a
+day (over the course of about a day, not all at once) restores the
+ability to heal, and the character will recover lost hit points at the
+normal rate.
 
-- **Cure Light Wounds**
-  - Heals 1d6+1 hit points of damage to a living creature.
-- **Detect Magic**
-  - Reveals magical auras within 60 feet for 2 turns.
-- **Light**
-  - Creates a light source equivalent to a torch for 6 turns.
-- **Protection from Evil**
-  - +1 to AC and saving throws against evil creatures for 12 turns.
-- **Purify Food and Water**
-  - Makes spoiled or contaminated food and water pure and suitable for consumption.
+Inadequate water affects characters more swiftly; after a single day
+without water, the character loses 1d4 hit points, and will lose an
+additional 1d4 hit points per day thereafter. Healing ability is lost
+when the first die of damage is rolled.
 
-## Magic-User Spells
+Normal characters require 6 hours sleep out of every 24. Subtract from
+this the character\'s Constitution bonus; so a character with 18
+Constitution needs only 3 hours sleep per night (and a character with 3
+Constitution needs 9 hours). These figures are minimums; most characters
+would prefer to sleep two or more hours longer.
 
-### 1st Level Magic-User Spells
+Characters who get less than the required amount of sleep suffer a -1
+penalty on all attack rolls and saving throws (as well as not healing
+any hit points). For each additional night where sufficient sleep is not
+received, the penalty becomes one point worse. Regardless of how long
+the character has gone without adequate sleep, the normal amount of
+sleep will remove these penalties.
 
-- **Charm Person**
-  - Causes one humanoid to regard the caster as a trusted friend for a duration.
-- **Detect Magic**
-  - Reveals magical auras within 60 feet for 2 turns.
-- **Magic Missile**
-  - Creates a missile of magical energy that hits automatically and deals 1d6+1 damage.
-- **Read Magic**
-  - Deciphers magical inscriptions for 2 turns.
-- **Shield**
-  - Provides +4 AC against missile weapons and +2 AC against melee attacks for 2 turns.
-- **Sleep**
-  - Puts 2d8 HD of creatures to sleep for 4d4 turns. No saving throw.
+## COMBAT
 
-## Combat (continued)
+When the party encounters potential enemies, the time scale shifts from
+10-minute-long turns to 10-second-long combat rounds. The phases of
+combat are:
 
-### Detailed Combat Steps
+1.  Check for surprise (GM option)
+2.  Check monster reaction (GM option)
+3.  Combat cycle
 
-1. **Initiative**:
-   - Roll a d6 for each side. The side with the higher roll acts first.
-   - Individual initiative can be used by rolling a d6 for each character.
+### Check for Surprise (GM option)
 
-2. **Movement**:
-   - Characters may move up to their speed in combat.
-   - Running doubles movement but sacrifices the ability to attack.
+If applicable, roll 1d6. Characters are usually surprised on a 1-2, or
+in the case of a well-prepared ambush on a 1-4. Deafened characters are
+surprised on a 1-3 and blinded characters on a 1-4. Elves are surprised
+on a 1 normally, 1-2 if deafened, and 1-3 when blinded or in ambushes.
+Characters who are surprised cannot act in the first combat round,
+though they can defend themselves and so have normal AC.
 
-3. **Attacking**:
-   - Roll a d20 and add the attack bonus.
-   - Compare the result to the target's AC.
-   - If the result meets or exceeds the AC, the attack hits.
+(At this point, the GM may also roll for the monster\'s reaction to the
+party. See the **Basic Fantasy RPG Core Rules** for details.)
 
-4. **Damage**:
-   - Roll the appropriate dice for the weapon used.
-   - Add any bonuses to the damage roll.
-   - Subtract the result from the target's hit points.
+### Combat Cycle
 
-5. **Special Attacks and Abilities**:
-   - Abilities such as spellcasting or thief skills can be used as per their rules.
+1\. Roll Initiative. Roll 1d6 and add any bonuses or penalties,
+including DEX bonus, -1 if deafened, and -2 if blinded.
 
-### Armor and Weapons
+2\. Act in initiative order. Characters who have the same initiative
+number act simultaneously. A character can delay their action until
+another character acts, acting simultaneously with them.
 
-#### Armor Class (AC)
+On their turn, individuals may move and then attack (in that order),
+just move, or just attack. An attack ends the character\'s turn. In
+combat, casting a spell usually takes the same time as making an attack.
+If a spellcaster is attacked on the Initiative number on which they are
+casting a spell, the spell is spoiled and lost.
 
-- **Armor**: Provides a base AC.
-- **Shields**: Add +1 to AC.
-- **Dexterity**: Adds a bonus to AC.
+Continue this cycle until the combat is resolved.
 
-| Armor Type    | AC  | Cost  | Weight |
-|---------------|-----|-------|--------|
-| No Armor      | 11  | 0     | 0      |
-| Leather Armor | 13  | 20 gp | 150    |
-| Chainmail     | 15  | 40 gp | 300    |
-| Plate Mail    | 17  | 60 gp | 500    |
-| Shield        | +1  | 10 gp | 100    |
+A character using a weapon with a long reach (spears, for instance) may
+choose to attack a closing opponent on the closing opponent\'s number
+and thus attack simultaneously with the opponent, even if the attacker
+rolled lower for Initiative.
 
-#### Weapon Damage
+### Combat Movement
 
-- **Club**: 1d4
-- **Dagger**: 1d4
-- **Longsword**: 1d8
-- **Mace**: 1d6
-- **Shortbow**: 1d6
-- **Sling**: 1d4
-- **Spear**: 1d6
+(Also see the sections on **Running**, **Charging**, and **Set Weapons
+Against Charge** below.)
 
-### Saving Throws
+Opponents more than 5\' apart may move freely, but once two opposing
+figures are within 5\' of each other, they are "engaged" and must abide
+by the rules under Defensive Movement, below. In some circumstances two
+opponents who are within 5\' of each other may not realize it, such as
+when one character successfully sneaks up behind the other. In such a
+case, the characters are not engaged.
 
-Characters have specific saving throws for different types of dangers:
+If one side wishes to evade the other, play the evasion and pursuit out
+as combat actions. Mapping, of course, is impossible while fleeing or
+pursuing. Any time a character must pass through a doorway, make a hard
+turn, etc., the GM may require a saving throw vs. Death Ray (with
+Dexterity bonus added); if the save is failed, the character has fallen
+at that point and moves no further that round; they may stand up and
+make a full move on their Initiative number in the next round.
 
-- **Death Ray or Poison**
-- **Magic Wands**
-- **Paralysis or Petrify**
-- **Dragon Breath**
-- **Spells**
+If at any point the pursuers are within 5\' (melee range) at the start
+of a round, they may begin melee combat; the fleeing characters will be
+subject to "parting shots" if they continue to flee after the pursuers
+close to melee range.
 
-Each class has its own starting values for these saving throws, which improve as they level up.
+If the fleeing characters or creatures are ever able to get beyond the
+pursuer\'s sight for a full round, they have evaded pursuit... the
+pursuers have lost them.
 
-## Experience and Leveling Up
+Any time a character turns their back on an adjacent opponent (who has a
+ready weapon) and begins movement, that opponent is allowed a "parting
+shot" with a +2 bonus to attack, even if that opponent has already made
+all attacks for the round. Opponents with attack routines must choose
+one attack mode; for instance, a tiger with a claw/claw/bite routine
+could only claw once or bite once.
 
-### Experience Points (XP)
+Alternately, the character may begin backing away (at up to half normal
+walking movement) while continuing to fight (if the opponent remains
+within reach, that is, follows the retreating character). This is termed
+a **fighting withdrawal**. The character must still move first, however.
 
-Characters gain experience points through defeating monsters, completing quests, and achieving goals. The amount of XP needed to level up varies by class.
+Running
 
-### Leveling Up
+A running character is not normally allowed to attack (but see
+**Charging** below). Running characters can move at double their normal
+encounter movement rate for a maximum number of rounds equal to 2 times
+the character\'s Constitution, after which they are exhausted and may
+only walk (at the normal encounter rate). For monsters without a given
+Constitution, allow the monster to run for 24 rounds. Exhausted
+characters or creatures must rest for at least a turn before running
+again.
 
-When a character gains enough XP to level up, they receive the following benefits:
+### Charging
 
-- **Increased Hit Points**: Roll the class hit die and add the result to the character's hit points.
-- **Improved Attack Bonus**: Some classes increase their attack bonus at specific levels.
-- **Additional Spells**: Magic-Users and Clerics gain additional spells as they level up.
-- **Improved Saving Throws**: Saving throw values improve with levels.
+Under some circumstances, characters or creatures may be allowed to
+attack after a running move. This is called a **charge**, and some
+specific limitations apply. First, the charging character or creature
+must move at least 10 feet, and may move up to double their normal
+movement rate, as given above. The movement must be in a more or less
+straight line toward the intended target, and the path to the target
+must be reasonably clear. Finally, the attacker must be using a weapon
+such as a spear, lance, or pole arm which is suitable for use while
+charging. Certain monsters, especially including those with horns, are
+able to use natural attacks when charging. If the attacker does not have
+line of sight to the opponent at the start of the charge, that opponent
+can't be charged.
+
+The attack made after the charge is made at +2 on the attack roll. The
+charging character or creature takes a -2 penalty to Armor Class for the
+remainder of the round. If the attack hits, it does double damage.
+
+**Set Weapon Against Charge**: Spears, pole arms, and certain other
+piercing weapons deal double damage when "set" (braced against the
+ground or floor) and used against a charging creature. For this to be
+done, the character or creature being charged must have equal or better
+Initiative; this counts as holding an action: both attacker and defender
+act on the attacker\'s Initiative number and are therefore simultaneous.
+
+### Typical Actions
+
+  --------------------- -------------------------------------------------------------
+  Standard\             Move (encounter movement distance) + melee or ranged attack
+  attack                
+
+  Run                   Move (2 x encounter movement distance)
+
+  Charge\*              Move (2 x encounter movement distance) + attack (+2 bonus)
+
+  Parting shot          Free attack (+2 bonus) vs. opponents turning from the fight
+
+  Fighting withdrawal   Move back (half normal walking movement) + melee attack
+  --------------------- -------------------------------------------------------------
+
+\* -2 penalty to Armor Class for the round
+
+### Attack and Defense
+
+The attacker rolls a d20 "to hit" and adds any modifiers, including the
++1 Attack Bonus. If the score is equal to or greater than the target\'s
+armor class (AC) the attack hits and the attacker rolls damage. A
+natural "1" on the die roll is always a failure. A natural "20" is
+always a hit, if the opponent can be hit at all (e.g., monsters that can
+only be hit by silver or magic weapons cannot be hit by normal weapons,
+so a natural "20" with a normal weapon will miss).
+
+### Attack Bonus / Penalty
+
+  -------------------- ---------------------------------------------------
+  Attacking\           +2 (do not combine with the Sneak Attack ability)
+  From Behind          
+
+  Flat of the\         -4 (do half subduing damage)
+  blade attack         
+
+  Punch                +0 (1d3 points subduing damage)
+
+  Kick                 -2 (1d4 points subduing damage)
+
+  Attacker/Defender\   +4 / -4
+  is invisible         
+
+  Attacker/Defender\   -4 / +4
+  is blinded           
+
+  Defender\            +4
+  is pinned            
+  -------------------- ---------------------------------------------------
+
+### Missile Fire
+
+  -------------------- ------------------------
+  Target distance      Attack bonus / penalty
+  5\' or less          -5\*
+  Up to short range    +1
+  Up to medium range   +0
+  Up to long range     -2
+  Beyond long range    Cannot be attacked
+  -------------------- ------------------------
+
+\* If the attacker is behind the target creature and undetected, or that
+creature is distracted apply +1 bonus (+3 total bonus if attacking from
+behind)
+
+### Cover and Concealment Penalty
+
+  ----------- --------- -----------
+  Target is   Covered   Concealed
+  25%         -2        -1
+  50%         -4        -2
+  75%         -6        -3
+  90%         -8        -4
+  ----------- --------- -----------
+
+### Grenade-Like Missiles Miss Table
+
+  ------------ -------- ---
+  (behind)              
+               0        
+  7            8        9
+  5            Target   6
+  2            3        4
+               1        
+  (in front)            
+  ------------ -------- ---
+
+### Oil Grenade-Like Missiles
+
+-   Direct hit: 1d8 points of fire damage, plus in the next round an
+    additional 1d8 points of damage, unless the character spends the
+    round extinguishing the flames.
+-   Splash Hit: 1d6 points of fire damage within 5 feet of the point of
+    impact. A save vs. Death Ray is allowed to avoid this damage.
+-   A burning puddle of oil is effective for 10 rounds. Those attempting
+    to cross the burning oil will receive 1d6 points of fire damage each
+    round they are in it.
+
+### Holy Water vs. Undead
+
+-   Can be thrown at corporeal undead; must be poured out onto
+    incorporeal undead.
+-   Direct hit: 1d8 points of damage.
+-   Splash Hit: 1d6 points of damage within 5 feet of the point of
+    impact.
+-   Effective for 1 round
+
+### Missiles That Miss
+
+With the exception of grenade-like missiles, missile weapons which miss
+the intended target are normally considered lost. However, if the weapon
+is fired into a melee where allies of the shooter are involved, and the
+attack misses, it may hit one of the allied creatures. The GM should
+decide which allies may be hit, and roll attacks against each until a
+hit is made or all possible targets are exhausted. These attack rolls
+are made with the shooter\'s normal attack bonus, just as if they
+intended to attack the allied creature. However, the GM must make these
+rolls, not the player.
+
+### Damage
+
+If an attack hits, the attacker rolls damage as given for the weapon.
+Melee attacks apply the Strength bonus or penalty to the damage dice, as
+do thrown missile weapons such as daggers or spears. Usually, attacks
+with bows or crossbows do not gain the Strength bonus, but sling bullets
+or stones do.
+
+Also, magic weapons will add their bonuses to damage (and cursed weapons
+will apply their penalty). Note that, regardless of any penalties to
+damage, any successful hit will do at least one point of damage. As
+explained elsewhere, a creature or character reduced to 0 hit points is
+dead.
+
+### Subduing Damage
+
+Attacks made with the "flat of the blade" for non-lethal damage are made
+at a -4 attack penalty and do half damage. Most weapons can be used this
+way; only those with penetration or slashing features on all sides
+cannot.
+
+### Wounds & Healing, Death & Dying
+
+Anyone reduced to zero hit points is (probably) dead. At the GM\'s
+discretion, it is possible that a high-level Cleric could raise the
+character from the dead, if the character\'s friends are willing to haul
+the body to one, and if the Cleric is willing. Often a hefty fee or some
+form of service will be required.
+
+If a character who has taken at least some subduing damage is reduced to
+zero hit points, the character becomes unconscious rather than dying.
+(Any further subduing damage is then considered killing damage, allowing
+the possibility that someone might be beaten to death.) A character
+knocked out in this way, but not subsequently killed, will wake up with
+1 hit point in 1d4 turns, or can be awakened (with 1 hit point) by
+someone else after 2d10 rounds.
+
+Wounded characters recover 1 hit point of damage every day, provided
+that normal sleep (6 hours per day, plus / minus Constitution bonus) is
+possible. Characters who choose full bed rest regain an additional hit
+point each evening.
+
+### Brawling
+
+Sometimes a character will attack without a weapon, striking with a fist
+or foot. This is called brawling. Normal characters do 1d3 points of
+subduing damage with a punch, 1d4 with a kick; kicks are rolled at a -2
+attack penalty. A character in no armor or leather armor cannot
+successfully punch or kick a character in metal armor, and in fact, if
+this is attempted the damage is applied to the attacker instead of the
+defender. The GM must decide which monsters can be successfully attacked
+this way. All character classes may engage in brawling; there is no
+"weapon" restriction in this case.
+
+## SPELLS
+
+### Clerics
+
+Clerics have no spells at first level.
+
+### Magic-Users
+
+Magic-Users cast spells through the exercise of knowledge and will. They
+prepare spells by study of their spellbooks; each Magic-User has their
+own spellbook, containing the magical formulae for each spell the
+Magic-User has learned, written in a magical script that can only be
+read by the Magic-User who wrote it, or through the use of a special
+first-level spell: **read magic**. All Magic-Users begin play with
+**read magic** as their first spell, and it is so ingrained that a
+Magic-User can prepare it without a spellbook. **Read magic** has a
+range of "touch" and is permanent with respect to any given magical work
+(spellbook or scroll).
+
+Magic-Users may learn spells by being taught directly by another
+Magic-User, or by studying another Magic-User\'s spellbook. If being
+taught, a spell can be learned in a single day; researching another
+Magic-User\'s spellbook takes one day per spell level. Either way, the
+spell learned must be transcribed into the Magic-User\'s own spellbook,
+at a cost of 500 gp per spell level transcribed. A beginning Magic-User
+starts with a spellbook containing **read magic** and at least one other
+first-level spell, as determined by the GM, at no cost.
+
+Each day, usually in the morning, Magic-Users must study their
+spellbooks to prepare spells to replace those they have used. Spells
+prepared but not used persist from day to day; only those actually cast
+must be replaced. A spellcaster may always choose to dismiss a prepared
+spell (without casting it) in order to prepare a different spell of that
+level.
+
+Spellcasters must have at least one hand free, and be able to speak, in
+order to cast spells; thus, binding and gagging a spellcaster is an
+effective means of preventing them from casting spells. In combat,
+casting a spell usually takes the same time as making an attack. If a
+spell caster is attacked (even if not hit) or must make a saving throw
+(whether successful or not) on the Initiative number on which they are
+casting a spell, the spell is spoiled and lost. As a specific exception,
+two spell casters releasing their spells at each other on the same
+Initiative number will both succeed in their casting; one caster may
+disrupt another with a spell only if they have a better Initiative, and
+chooses to delay casting the spell until right before the other caster.
+
+Some spells are reversible; such spells are shown with an asterisk (\*)
+after the name.
+
+First Level Magic-User Spells
+
+  ---- ------------------------
+  1    Charm Person
+  2    Detect Magic
+  3    Floating Disc
+  4    Hold Portal
+  5    Light\*
+  6    Magic Missile
+  7    Magic Mouth
+  8    Protection from Evil\*
+  9    Read Languages
+  10   Shield
+  11   Sleep
+  12   Ventriloquism
+  ---- ------------------------
+
+Spell Descriptions
+
+Charm PersonRange:30\'
+
+Magic-User 1Duration:special
+
+This spell causes a humanoid (including all character races as well as
+creatures such as orcs, goblins, gnolls, and so on) of 4 hit dice or
+less to perceive the caster as a close friend, love interest, or at the
+very least as its trusted ally. Normal characters (PC or NPC) may be
+affected regardless of level of ability.
+
+A save vs. Spells will negate the effect. If hostilities have already
+commenced or the target otherwise feels threatened by the caster, they
+receive a bonus of +5 on their saving throw.
+
+The caster does not directly control the target; rather, orders must be
+given verbally, in writing, or by means of gestures. Obviously, verbal
+orders will only work if the target and caster share a spoken language,
+and the same limitation applies to written orders. Also note that the
+exact perception of the caster by the affected individual is not under
+the control of the caster; the GM should decide how the subject of this
+spell perceives their relationship to the caster.
+
+Commands that go against the target\'s basic nature or ask them to
+attack their own allies or friends grant them a fresh saving throw with
+a bonus of +5 on the roll. Even if the target fails this save they may
+still choose to do something else when commanded to perform an unwanted
+action. Of course, if the caster is attacked, the charmed creature will
+act to protect their \"friend\" (though that could mean attacking their
+own allies, which might cause the target to instead attempt to carry off
+the caster to a \"safe\" place).
+
+The target receives a new saving throw each day if they have an
+Intelligence of 13 or greater, every week if their Intelligence is 9-12,
+or every month if its Intelligence is 8 or less; the GM must rule on the
+equivalent intelligence of humanoid monsters.
+
+Detect MagicRange:60\'
+
+Cleric 1, Magic-User 1Duration:2 turns
+
+The caster of this spell is able to detect enchanted or enspelled
+objects or creatures within the given range by sight, seeing them
+surrounded by a pale glowing light. Only the caster sees the glow.
+Invisible creatures or objects are not detected by this spell, but the
+emanations of the invisibility magic will be seen as an amorphous
+glowing fog, possibly allowing the caster (only) to attack the invisible
+creature at an attack penalty of only -2.
+
+Floating DiscRange:0
+
+Magic-User 1Duration:5 turns +1/level
+
+The casting of this spell causes an invisible platform of magical force
+to appear. It is about the size of a shield, about 3 feet in diameter
+and an inch deep at its center. It can support a maximum of 500 pounds
+of weight. (Note that water weighs about 8 pounds per gallon.)
+
+The disc floats level to the ground, at about the height of the
+caster\'s waist. It remains still when within 10\' of the caster, and
+follows at the caster\'s movement rate if they move away from it. The
+floating disc can be pushed as needed to position it but will be
+dispelled if somehow moved more than 10 feet from the caster. When the
+spell duration expires, the disc disappears from existence and drops
+whatever was supported to the surface beneath.
+
+The disc must be loaded so that the items placed upon it are properly
+supported, or they will (of course) fall off. For example, the disc can
+support just over 62 gallons of water, but the water must be in a barrel
+or other reasonable container that can be placed upon the disc.
+Similarly, a pile of loose coins will tend to slip and slide about, and
+some will fall off with every step the caster takes; but a large sack
+full of coins, properly tied, will remain stable.
+
+Hold PortalRange:100\'+10\'/level
+
+Magic-User 1Duration:1 round/level
+
+This spell secures a portal such as a door, gate, window, or shutter
+made of normal non-magical building materials; the portal behaves as if
+securely locked for the duration of the spell. The door may be opened
+early only by means of **knock** or a successful casting of **dispel
+magic**, or by literally destroying the door (which may well require
+more time than the duration of this spell allows).
+
+Light\*Range:120\'
+
+Cleric 1, Magic-User 1Duration:6 turns + 1/level
+
+This spell creates a light equal to torchlight which illuminates a 30\'
+radius area well (with dim light extending for an additional 20\')
+around the target location or object. This effect is stationary when
+cast in an area, but it can be cast on a movable object or even onto a
+character or creature.
+
+Reversed, **light** becomes **darkness**, creating an area of darkness
+just as described above. This darkness blocks out Darkvision and negates
+mundane light sources. Wherever both spells overlap they cancel out,
+leaving only normal illumination in the overlapping area.
+
+A light spell may be cast to dispel the darkness spell of an equal or
+lower level caster (and vice versa), leaving neither spell active;
+likewise, a darkness spell can cancel the light spell of an equal or
+lower level caster.
+
+Either version of this spell may be used to blind an opponent by means
+of casting it on the target\'s ocular organs. The target is allowed a
+saving throw vs. Death Ray to avoid the effect, and if the save is made
+the spell does not take effect at all. A **light** or **darkness** spell
+cast to blind does not have the given area of effect (that is, no light
+or darkness is shed around the victim).
+
+Magic MissileRange:100\'+10\'/level
+
+Magic-User 1Duration:instantaneous
+
+This spell causes a magical arrow of energy to fly from the caster\'s
+finger and unerringly hit its target, inflicting 1d6+1 points of damage.
+The target must be at least partially visible to the caster, and no
+saving throw is normally allowed. It\'s not possible to target a
+specific part of the target. Inanimate objects are not affected by this
+spell.
+
+For every three caster levels beyond 1^st^, an additional missile is
+fired: two at 4^th^ level, three at 7^th^, four at 10^th^, and the
+maximum of five missiles at 13^th^ level or higher. When multiple
+missiles are fired in this way, the caster can target one or several
+creatures as desired, as long as all are visible to the caster at the
+same time. All such targets must be designated before any damage is
+rolled.
+
+Magic MouthRange:30\'
+
+Magic-User 1Duration:special
+
+This spell places a simple form of programmed illusion on a non-living
+object within range. When triggered, the spell causes the illusion of a
+mouth to appear on the object and a message to be said aloud. The
+enchantment can remain in place indefinitely, but is expended when
+triggered (i.e. the message is normally delivered only once).
+
+The message recounted may be up to three words per caster level in
+length. The caster may insert pauses in the message, but the entire
+message must be delivered in a time period of no more than a turn. The
+voice of the spell can be made to speak at any volume attainable by a
+normal Human. It will sound enough like the caster\'s own voice to be
+recognized by a close associate of the caster, but not identical.
+
+The illusionary mouth moves as if actually speaking the message being
+delivered, and remains visible during pauses. If placed on an artistic
+depiction of a creature with a mouth (such as a painting or statue), the
+spell can be made to appear to animate the mouth of the object.
+
+This spell cannot be used to activate magic items which have command
+words, nor to activate any other magical effects.
+
+The caster must choose the conditions under which this spell is
+triggered. The conditions may be as complicated or simple as desired,
+but must depend only on sight and hearing; the spell has no other
+sensory capabilities. The spell also has no particular intelligence, and
+can be fooled by disguises or illusions. The spell does have the
+capability to effectively see in normal darkness, but not in any sort of
+magical darkness, and it cannot detect invisible creatures nor see
+through doors, walls, or even opaque curtains. Likewise, stealth or
+magical silence are effective in preventing audible triggers. Finally,
+the spell cannot detect a character\'s class, level, ability scores, or
+any other item not obvious to a normal NPC.
+
+Triggers have an effective sensory range of 10 feet per caster level;
+sounds, sights, or actions outside that range will never trigger the
+spell.
+
+Protection from Evil\*
+
+Cleric 1, Magic-User 1Range:touch
+
+Duration:1 turn/level
+
+This spell protects the caster or a creature touched by the caster (the
+\"subject\") from evil; specifically, the spell wards against summoned
+creatures, creatures with significantly evil intentions, and extraplanar
+creatures of evil nature. A magical barrier with a radius of just 1 foot
+is created around the subject. The barrier moves with the subject, and
+provides three specific forms of magical protection against attacks or
+other effects attempted by the affected creatures against the subject.
+
+First, the subject receives a bonus of +2 to their Armor Class, and a
+similar bonus of +2 on all saving throws.
+
+Second, the barrier blocks all attempts to **charm **or otherwise
+control the subject, or to possess the subject (such as with **magic
+jar**). Such attempts simply fail during the duration of this spell.
+Note however that a creature who receives this protection after being
+possessed is not cured of the possession.
+
+Third, any and all summoned creatures and extraplanar creatures of evil
+nature are unable to physically touch the subject. Attacks by such
+creatures using their natural weapons simply fail. This effect is
+canceled if the subject performs any form of physical attack (even with
+a ranged weapon) on any affected creature, but the other features of the
+spell continue in force.
+
+Reversed, this spell becomes **protection from good**. It functions in
+all ways as described above, save that \"good\" creatures are kept away,
+rather than \"evil\" creatures.
+
+Read LanguagesRange:0
+
+Magic-User 1Duration:special
+
+This spell grants the caster the ability to read almost any written
+language. It may be cast in one of three modes:
+
+In the first mode, the spell allows the caster to read any number of
+written works in a variety of languages. This mode lasts for 1 turn per
+caster level.
+
+In the second mode, the spell allows the caster to read any one book or
+tome; this mode lasts 3 hours per caster level.
+
+In the third mode, the spell allows the caster to read any one
+non-magical scroll or other single-sheet document; this mode is
+permanent.
+
+This spell does not work on any sort of magical text, such as spell
+scrolls or spellbooks; see **read magic**, below, for the correct spell
+to use in such cases.
+
+The spell grants the ability to read the texts, but does not in any way
+hasten the reading nor grant understanding of concepts the caster
+doesn\'t otherwise have the ability to understand. Also, for this spell
+to function, there must be at least one living creature that can read
+the given language somewhere on the same plane. The knowledge is not
+copied from that creature\'s mind; rather, it is the existence of the
+knowledge that enables the spell to function.
+
+Read MagicRange:0
+
+Magic-User 1Duration:permanent
+
+When cast upon any magical text, such as a spellbook or magic-user spell
+scroll, this spell enables the caster to read that text. Casting this
+spell on a cursed text will generally trigger the curse. All Magic-Users
+begin play knowing this spell, and it can be prepared even if the
+Magic-User loses access to their spellbook.
+
+ShieldRange:self
+
+Magic-User 1Duration:5 rounds+1/level
+
+This spell creates an invisible shield made of magical force which
+floats in front of the caster, protecting them from various attacks. The
+spell totally blocks **magic missile** attacks directed at the caster,
+and improves the caster\'s Armor Class by +3 vs. melee attacks and +6
+vs. missile weapons. The Armor Class benefits do not apply to attacks
+originating from behind the caster, but **magic missile** are warded off
+from all directions.
+
+SleepRange:90\'
+
+Magic-User 1Duration:5 rounds/level
+
+This spell puts several creatures of 3 or fewer hit dice into a magical
+slumber. Creatures of 5 or more hit dice are not affected. The caster
+chooses a point of origin for the spell (within the given range, of
+course), and those creatures within 30\' of the chosen point may be
+affected. Each creature in the area of effect is allowed a save vs.
+Spells to resist the effect.
+
+Victims of this spell can always be hit if attacked. Injuring such a
+creature will cause it to awaken, and it may begin fighting back or
+defending itself on the very next round. Slapping or shaking such a
+creature will awaken it in 1d4 rounds, but normal noises will not awaken
+one.
+
+Sleep does not affect unconscious creatures, constructs, or undead
+creatures.
+
+When the duration elapses, the sleeping creatures normally wake up
+immediately; however, if they are made very comfortable and the
+surroundings are quiet, the affected creatures may continue sleeping
+normally at the GM\'s discretion.
+
+VentriloquismRange:60\'
+
+Magic-User 1Duration:1 turn/level
+
+> This spell causes the caster\'s voice to appear to come from another
+> location within range, for example, from a dark alcove or statue. The
+> caster may choose a new location each round if desired, and can cause
+> the spell to temporarily abate without ending it and then resume it
+> again at any time within the given duration.
 
