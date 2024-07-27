@@ -64,7 +64,7 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 | \# of Attacks:    | Bite or Hoof        | Kick or Bite | 2 Hooves         | 2 Hooves          | 2 Hooves      | 2 Hooves      | 2 Hooves      | 
 | Damage:           | 1d4                 | 1d4          | 2d4              | 1d4               | 2d4           | 1d4           | 1d4           | 
 | Movement:         | 50'(10') [40'(10')] | 40' (10')    | 60' (10')        | 80' (10')         | 80' (10')     | 60' (10')     | 60' (10')     | 
-| No. Appearing:    | Wild 2d4            | Wild 2d4     | domestic only    | Wild 10d10        | domestic only | Wild 2d4      | domestic only | 
+| No. Appearing:    | Wild 2d4            | Wild 2d4     | Domestic only    | Wild 10d10        | Domestic only | Wild 2d4      | Domestic only | 
 | Save As: Fighter  | 2                   | 2            | 3                | 2                 | 3             | 2             | 2             | 
 | Morale:           | 10                  | 7            | 8                | 10                | 15            | 10            | 15            | 
 | XP:               | 75                  | 75           | 145              | 75                | 145           | 75            | 95            |

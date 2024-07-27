@@ -1143,7 +1143,7 @@ Due to their highly magical nature, djinn cannot be harmed by non-magical weapon
 | No. of Attacks: | 1 bite | 1 bite |
 | Damage: | 1d4 + hold | 1d4+1 + hold |
 | Movement: | 50' | 50' |
-| No. Appearing: | Wild 3d4 | domestic only |
+| No. Appearing: | Wild 3d4 | Domestic only |
 | Save As: | Fighter: 1 | Fighter: 2 |
 | Morale: | 14 | 9 |
 | Treasure Type: | None | None |
