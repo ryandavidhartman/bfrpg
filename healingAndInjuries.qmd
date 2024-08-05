@@ -118,7 +118,7 @@ Characters may sometimes be exposed to energy drain from undead or evil magic, r
   
 - **Penalties**: Each negative level gives a creature the following penalties:
   - A -1 penalty on attack rolls, saving throws, skill checks, and ability checks.
-  - Loss of 5 hit points.
+  - Loss 1d[Class Hit Dice] of hit points. e.g. 1d4 for a Magic-user
   - A -1 to effective level (for determining the power, duration, DC, and other details of spells or special abilities).
   - A spellcaster loses one spell or spell slot from their highest spell level.
 
