@@ -120,8 +120,7 @@ Characters may sometimes be exposed to energy drain from undead or evil magic, r
   - A -1 penalty on attack rolls, saving throws, skill checks, and ability checks.
   - Loss 1d[Class Hit Dice] of hit points. e.g. 1d4 for a Magic-user
   - A -1 to effective level (for determining the power, duration, DC, and other details of spells or special abilities).
-  - A spellcaster loses one spell or spell slot from their highest spell level.
-
+ 
 - **Spellcasting**: A spellcaster loses access to one of their highest-level spell slots.
 
 - **Saving Throw**: Whether a saving throw is allowed to resist the effect depends on the specific monster type.

@@ -1159,7 +1159,7 @@ Range: 50'
 
 Duration: Instantaneous
 
-The caster points a finger at their intended target and rolls a ranged attack roll against the target that ignores armor (but not any Dexterity bonus).  If the narrow ray of crackling black energy hits, the target suffers 1d4 negative levels and all of the effects described in [Energy Drain](combat.html#energy-drain). There is no saving throw, only the attack roll.
+The caster points a finger at their intended target and rolls a ranged attack roll against the target that ignores armor (but not any Dexterity bonus).  If the narrow ray of crackling black energy hits, the target suffers 1d4 negative levels and all of the effects described in [Energy Drain](healingAndInjuries.qmd#energy-drain). There is no saving throw, only the attack roll.
 
 If the target survives, it will lose the negative levels (i.e. regain their levels) after a number of hours equal to the caster’s level.
 
@@ -3226,7 +3226,7 @@ Range: Touch
 
 Duration: Permanent
 
-Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16^th^ level, two negative levels may be removed. See the rules for Energy Drain (in the [Encounter](combat.html#energy-drain) section) for more details.
+Each casting of the spell removes a single negative level from a creature who has suffered energy drain. At 16^th^ level, two negative levels may be removed. See the rules for Energy Drain (in the [Healing](healingAndInjuries.qmd#energy-drain) section) for more details.
 
 Alternately, this spell can be used to restore drained ability score points. If applied to a character who has suffered temporary loss of ability points, it will restore up to 1d4 lost points to any one drained ability immediately. If applied to a character who has suffered permanent loss of ability points, 1 point can be restored.
 
