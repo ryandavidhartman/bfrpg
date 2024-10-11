@@ -33,13 +33,56 @@ Surprised characters or creatures stand flat-footed for one round. They still de
 
 ## Morale
 
-NPCs and monsters don't always fight to the death; in fact, most will try to avoid death whenever possible. Each monster listing includes the monster's Morale score, a figure between 1 and 20. To make a Morale check, roll 1d20; if the roll is equal to or less than the Morale score, the monster or monsters are willing to stand and fight. If the roll is higher than the score, the monster has lost its nerve. Monsters with a Morale score of 20 never fail a Morale check; they always fight to the death.
+NPCs and monsters often seek to avoid death. Each has a Morale score from 1 to 20. Roll 1d20. If the roll is equal to or greater than the Morale score, the creatures will fight. If lower, they may lose their nerve. 
 
-In general, Morale is checked when monster(s) first encounter opposition, and again when the monster party is reduced to half strength (by numbers if more than one monster, or by hit points if the monster is alone). For this purpose, monsters incapacitated by **sleep**, **charm**, or **hold** magic are counted as if dead.
+**Morale 1**: Rarely fails and 95% of the time fights to the death.
 
-The Dungeon Master  may apply adjustments to a monster's Morale score in some situations, at his or her discretion. Generally, adjustments should not total more than +3 or -3. No adjustment is ever applied to a Morale score of 20.
+### When to Check Morale:
+- At first encounter with opposition.
+- Again when reduced to half strength (by numbers or hit points).
 
-A monster that fails a Morale check will generally attempt to flee; intelligent monsters or NPCs may attempt to surrender, if the DM so desires.
+### Adjustments:
+The DM can modify a creature's Morale score by up to +3 or -3, except for a score of 20.
+
+### Steps to Use Morale:
+
+#### 1. Determine Morale Score:
+- Base scores range from 1 to 20 and can be influenced by:
+  - Leadership quality
+  - Previous battle outcomes
+  - Specific traits (like fearlessness)
+
+#### 2. Trigger Morale Check:
+- Check under these conditions:
+  - Taking heavy casualties (losing half).
+  - Facing a powerful enemy.
+  - Fear effects or spells.
+  - Significant events (e.g., leader's defeat).
+
+#### 3. Make the Check:
+- Roll 1d20 and adjust for any bonuses or penalties (e.g., +2 for a strong leader, -3 for fear). 
+- Compare the total to the Morale score.
+
+#### 4. Interpret Results:
+- **Greater than Morale Score**: NPCs fight or stay loyal.
+- **Less than Morale Score**: NPCs may:
+  - **Flee**: Attempt to escape.
+  - **Surrender**: Yield if it seems best.
+  - **Panic**: Act irrationally, risking danger to themselves or others.
+
+#### 5. Consequences of Failure:
+- Disorganization may occur, leading to disadvantage on future actions.
+- Other nearby NPCs may also need to make morale checks.
+
+#### 6. Reinforcements:
+- Successful actions or morale-boosting events can provide bonuses to future morale checks.
+
+### Example:
+- **Scenario**: Mercenaries (Morale Score: 15) are ambushed.
+- **Roll**: DM rolls a 10, with a -1 penalty for past losses, totaling 9.
+- **Outcome**: Since 9 is less than 15, the mercenaries flee or surrender.
+
+
 
 | Cowardly |  Medium | Brave | Very Brave | Fight to the Death |
 |----------|---------|-------|------------|--------------------|
