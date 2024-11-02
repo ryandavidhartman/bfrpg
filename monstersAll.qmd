@@ -1174,7 +1174,7 @@ Riding dogs are a large breed, used primarily by Halflings for transport. They m
 Dopplegangers are weird humanoid creatures who are
 able to take on the appearance of nearly any other
 humanoid ranging from 3 feet up to 7 feet in height.
-They can also read minds (as the spell, **mind reading**,
+They can also read minds (as the spell, [ESP](allSpells.qmd#esp),
 but with unlimited duration), an ability that can even be
 used to speak any language known to the creature
 whose mind is being read. In their natural form (which

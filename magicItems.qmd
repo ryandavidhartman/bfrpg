@@ -681,7 +681,7 @@ the spell) at will by concentrating. There is no limit to
 how long this device may be used.
 
 **Mind Reading**: Whoever wears this device has access
-to a permanent form of the spell [mind reading](allSpells.qmd#mind-reading); it is
+to a permanent form of the spell [ESP](allSpells.qmd#esp); it is
 always available but only activates when the wearer
 spends a full round concentrating upon it, and persists
 until the wearer ceases to use it. The effect can be
@@ -725,7 +725,7 @@ golden sparkles and disappears.
 immune to all forms of scrying (including crystal balls,
 clairvoyance, clairaudience, and any other means of
 location or spying at a distance) as well as any form of
-mind reading. Other characters who are within 30' of
+mind reading/ESP. Other characters who are within 30' of
 the wearer are also immune to scrying, but not to mind
 reading
 
@@ -754,7 +754,7 @@ shown below. Total chances equal to or greater than
 | Body part, lock of hair, bit of nail, etc. | +50% |
 
 The user of the device is the only one who will see the
-image. No sound will be heard normally. **Detect magic, detect evil, and mind reading** have a 3%
+image. No sound will be heard normally. **Detect magic, detect evil, and ESP** have a 3%
 chance per level of the caster of operating correctly if
 used with a scrying device.
 
@@ -827,7 +827,7 @@ wearer concentrates on it.
 **Telepathy**: Three times per day this item can be
 activated by use of its command word, at which point it
 will grant the wearer the power of a special version of
-the [mind reading](allSpells.qmd#mind-reading) spell which has a range of 90 feet
+the [ESP](allSpells.qmd#esp) spell which has a range of 90 feet
 and lasts for 1 turn. During this time the wearer can
 send thoughts to the mind of any creature whose
 thoughts the wearer is already reading, allowing
