@@ -96,8 +96,9 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 | 13-15  | +1 Orison, +1 1^st^ level spell                   |
 | 16-17  | +2 Orisons, +2 1^st^ level spells                 |
 | 18     | +3 Orisons, +3 1^st^ level, +1 2^nd^ level spells |
-
 : Cleric Wisdom Bonus {#tbl-wisdom-clerics}
+
+::: column-screen-inset-right
 
 | Alignment | Level 1   | Level 2   | Level 3   | Level 4       | Level 5       | Level 9          | Level 12        | Level 14              |
 |-----------|-----------|-----------|-----------|---------------|---------------|------------------|-----------------|-----------------------|
@@ -105,6 +106,7 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 | Neutral   | Seeker    | Devotee   | Guardian  | Shaman        | Guide         | Elder            | Hierarch        | Oracle                |
 | Chaotic   | Initiate  | Zealot    | Cultist   | Ravager       | Doomcaller    | Blightbringer    | Shadow Prophet  | Chaos Lord/Lady       |
 : Cleric Titles {#tbl-titles-clerics}
+:::
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
 |-----------|--------------------|-------------|---------------------|---------------|--------|
