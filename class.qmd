@@ -99,10 +99,11 @@ The Prime Requisite for Clerics is Wisdom; a character must have a Wisdom score 
 
 : Cleric Wisdom Bonus {#tbl-wisdom-clerics}
 
-| Cleric Level | 1       | 2     | 3      | 4     | 5      | 8           | 12     | 14                   |
-|--------------|---------|-------|--------|-------|--------|-------------|--------|----------------------|
-| Rank/Title   | Acolyte | Adept | Priest | Vicar | Curate | High Priest | Bishop | Archbishop/Patriarch |
-
+| Alignment | Level 1   | Level 2   | Level 3   | Level 4       | Level 5       | Level 9          | Level 12        | Level 14              |
+|-----------|-----------|-----------|-----------|---------------|---------------|------------------|-----------------|-----------------------|
+| Lawful    | Acolyte   | Adept     | Priest    | Vicar         | Curate        | High Priest      | Bishop          | Patriarch/Matriarch   |
+| Neutral   | Seeker    | Devotee   | Guardian  | Shaman        | Guide         | Elder            | Hierarch        | Oracle                |
+| Chaotic   | Initiate  | Zealot    | Cultist   | Ravager       | Doomcaller    | Blightbringer    | Shadow Prophet  | Chaos Lord/Lady       |
 : Cleric Titles {#tbl-titles-clerics}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
