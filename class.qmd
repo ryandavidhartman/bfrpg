@@ -341,7 +341,7 @@ The Prime Requisite for Fighters is Strength; a character must have a Strength s
 | Alignment | Level 1   | Level 2   | Level 3   | Level 4       | Level 5       | Level 9          | Level 12        | Level 15              |
 |-----------|-----------|-----------|-----------|---------------|---------------|------------------|-----------------|-----------------------|
 | Lawful    | Squire    | Sergeant  | Cavalier  | Knight        | Captain       | Commander        | Thane           | Lord/Lady             |
-| Neutral   | Bravo     | Duelist   | Sellsword | Swordsmen     | Swordsmaster  | Champion         | Warchief        | Chieftain             |
+| Neutral   | Bravo     | Duelist   | Sellsword | Swordsmen     | Swordsmaster  | Vangaurd         | Warchief        | Chieftain             |
 | Chaotic   | Brawler   | Raider    | Marauder  | Ravager       | Reaver        | Warmonger        | Warlord         | Overlord              |
 : Fighter Titles {#tbl-titles-figthers}
 :::
@@ -433,10 +433,9 @@ Paladins have the same attack bonus and saving throws as Fighters of the same le
 
 Note starting at level 11 a Paladin may Lay Hands or Neutralize Poison the specified number of times per day.
 
-| Paladin Level | 1^st^  | 2^nd^    | 3^rd^    | 4^th^    | 5^th^  | 8^th^    | 12^th^       | 14^th^       |
-|---------------|--------|----------|----------|----------|--------|----------|--------------|--------------|
-| Rank/Title    | Squire | Initiate | Defender | Crusader | Knight | Champion | Holy Avenger | Paladin Lord |
-
+| Paladin Level | 1^st^  | 2^nd^    | 3^rd^    | 4^th^    | 5^th^    | 9^th^    | 12^th^       | 15^th^       |
+|---------------|--------|----------|----------|----------|----------|----------|--------------|--------------|
+| Rank/Title    | Squire | Initiate | Defender | Knight   | Crusader | Champion | Holy Avenger | Paladin Lord |
 : Paladin Titles {#tbl-titles-paladins}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
@@ -556,16 +555,17 @@ Humans, Elves, Half-Elves, and Halflings may become Rangers. To become a Ranger,
 | 18    | 1,452,000   | 9d10+18  | +10 (+13 bow) | 2/1                | 1               | 1     |                       |
 | 19    | 1,584,000   | 9d10+20  | +10 (+13 bow) | 2/1                | 1               |       | 1                     |
 | 20    | 1,716,000   | 9d10+22  | +10(+13 bow)  | 2/1                | 1               | 1     |                       |
-
 : Ranger XP Progression {#tbl-xp-rangers}
-
 :::
 
-| Ranger Level | 1^st^   | 2^nd^ | 3^rd^  | 4^th^      | 5^th^    | 8^th^  | 12^th^        | 14^th^      |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Rank/Title   | Tracker | Scout | Hunter | Pathfinder | Guardian | Ranger | Ranger Knight | Ranger Lord |
-
+::: column-screen-inset-right
+| Alignment | Level 1   | Level 2 | Level 3 | Level 4      | Level 5    | Level 9     | Level 12        | Level 15      |
+|-----------|-----------|---------|---------|--------------|------------|-------------|-----------------|---------------|
+| Lawful    | Tracker   | Scout   | Hunter  | Pathfinder   | Guardian   | Ranger      | Ranger Knight   | Ranger Lord   |
+| Neutral   | Wanderer  | Seeker  | Forager | Trailblazer  | Warden     | Outrider    | Waykeeper       | Forest Warden |
+| Chaotic   | Bandit    | Stalker | Prowler | Nightblade   | Manhunter  | Darkstrider | Shadow Warden   | Wildreaver    |
 : Ranger Titles {#tbl-titles-rangers}
+:::
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
 |-----------|--------------------|-------------|---------------------|---------------|--------|
@@ -687,16 +687,17 @@ A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-mag
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
 | 20    | 1,950,000   | 9d4+11   | +7           | 1            | 1     | 9 | 6 | 5 | 5 | 4 | 4 | 3 | 3 |                    |
 +-------+-------------+----------+--------------+--------------+-------+---+---+---+---+---+---+---+---+--------------------+
-
 : Magic-User XP Progression {#tbl-xp-magic-users}
-
 :::
 
-| Magic-User Level | 1^st^      | 2^nd^    | 4^th^    | 6^th^  | 8^th^   | 10^th^   | 12^th^ | 14^th^    |
-|--------|--------|--------|--------|--------|--------|--------|--------|--------|
-| Rank/Title       | Apprentice | Conjurer | Magician | Wizard | Warlock | Sorcerer | Mage   | Arch Mage |
-
+::: column-screen-inset-right
+| Alignment | Level 1     | Level 2    | Level 3    | Level 4      | Level 5     | Level 9   | Level 12     | Level 15   |
+|-----------|-------------|------------|------------|--------------|-------------|-----------|--------------|------------|
+| Lawful    | Apprentice  | Conjurer   | Magician   | Spellbinder  | Arcanist    | Wizard    | Mage         | Arch Mage  |
+| Neutral   | Novice      | Hedge Mage | Seer       | Sage         | Diviner     | Magus     | Mystagogue   | Arch Magus |
+| Chaotic   | Warlock     | Channeler  | Hexcrafter | Spellbreaker | Chaosmancer | Sorcerer  | Diabolist    | Sorcerous Master |
 : Magic-User Titles {#tbl-titles-magic-users}
+:::
 
 | Intelligence | Spell Bonus                                        |
 |--------------|----------------------------------------------------|
@@ -705,7 +706,6 @@ A first-level Magic-User begins play knowing [read magic](allSpells.qmd#read-mag
 | 13-15        | +1 Cantrip, +1 1^st^ level spell                   |
 | 16-17        | +2 Cantrips, +2 1^st^ level spells                 |
 | 18           | +3 Cantrips, +3 1^st^ level, +1 2^nd^ level spells |
-
 : Magic-User Intelligence Bonus {#tbl-intelligence-magic-users}
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
@@ -833,10 +833,14 @@ The Prime Requisite for Thieves is Dexterity; a character must have a Dexterity 
 
 :::
 
-| Theif Level | 1^st^               | 2^nd^ | 4^th^               | 6^th^   | 8^th^   | 10^th^           | 14^th^          |
-|-------------|---------------------|-------|---------------------|---------|---------|------------------|-----------------|
-| Rank/Title  | Footpad<br>Initiate | Rogue | Journeyman<BR>Thief | Burglar | Magsman | Veteran<BR>Thief | Master<BR>Thief |
-: Thieve's Guild Ranks {#tbl-titles-thieves}
+::: column-screen-inset-right
+| Alignment | Level 1  | Level 2    | Level 3      | Level 4      | Level 5     | Level 9   | Level 12    | Level 15   |
+|-----------|----------|------------|--------------|--------------|-------------|-----------|-------------|------------|
+| Lawful    | Footpad  | Burglar    | Enforcer     | Operative    | Infiltrator | Magsman   | Underboss   | Boss       |
+| Neutral   | Robber   | Scondrel   | Cutpurse     | Highwayman   | Outlaw      | Rogue     | Renegade    | Bandit King/Queen |
+| Chaotic   | Thug     | Cutthroat  | Shadowrunner | Shadow       | Wraith      | Assassin  | Nightblade  | Dreadlord/lady |
+: Thieve's Titles {#tbl-titles-thieves}
+:::
 
 | **Level** | Death Ray / Poison | Magic Wands | Paralysis / Petrify | Dragon Breath | Spells |
 |-----------|--------------------|-------------|---------------------|---------------|--------|
