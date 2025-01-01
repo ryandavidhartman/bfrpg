@@ -27,47 +27,39 @@ format:
 | No. Appearing:  | 2d6, Lair 4d6                          | 3d6, Lair 4d8 | 4d6, Lair 4d10 |
 | Save As:        | Fighter: 4                             | Fighter: 2    | Fighter: 1     |
 | Morale:         | 10 on first sighting, 20 after engaged | Same          | Same           |
-| Treasure Type:  | U or special                           | Same          | Same           |                                 
+| Treasure Type:  | U or special                           | Same          | Same           | 
 | XP:             | 240                                    | 75            | 25             |
 
 
-Giant ants are among the hardiest and most adaptable vermin. Soldiers and workers are about 5 to 6 feet long, while queens can grow to a length of 9 feet. Giant ants may be red or black; there is no statistical difference between them. Though relatively shy when first encountered, once combat begins they will fight to the death. They are known to collect shiny things, and so will sometimes have a small amount of treasure in their lair.
+Giant ants are fantastically enlarged versions of the more common variety of ants. Normal workers are 5 to 6 feet long; queens are larger, growing up to 9 feet in length. Giant ants may be red or black; there is no statistical difference between them. Though relatively shy when first encountered, once combat begins they will fight to the death. They are known to collect shiny things, and so will sometimes have a small amount of treasure in their lair.
 
 Giant ants may occasionally mine shiny metals such as gold or silver; one in three (1-2 on 1d6) giant ant lairs will contain 1d100 x 1d100 gp value in relatively pure nuggets.
 
-Large and huge ants are similar to giant ants in all ways
-except for size; large ants are 1 to 2 feet long, while
-huge ants are 3 to 4 feet in length. Though smaller,
-their colonies have more members, and so their lair
-treasures are of similar size to those found in the lairs of
-giant ants.
+Large and huge ants are similar to giant ants in all ways except for size; large ants are 1 to 2 feet long, while huge ants are 3 to 4 feet in length. Though smaller, their colonies have more members, and so their lair treasures are of similar size to those found in the lairs of giant ants.
 
 </div>
 <div class="monster" data-tag="Antelope" >
 
 ## Antelope
 
-| Stats  | Antelope  |
-|--------------|----|
-| Armor Class: | 13 |
-| Hit Dice: | 1 to 4 |
-| No. of Attacks: | 1 butt |
-| Damage: | 1d4 or 1d6 or 1d8 |
-| Movement: | 80' (10') |
-| No. Appearing: | Wild 3d10 |
-| Save As: | Fighter: 1 to 4 (as Hit Dice) |
-| Morale: | 9 (16) |
-| Treasure Type: | None |
-| XP: | 25 - 240 |
+| Stats           | Antelope                      |
+|-----------------|-------------------------------|
+| Armor Class:    | 13                            |
+| Hit Dice:       | 1 to 4                        |
+| No. of Attacks: | 1 butt                        |
+| Damage:         | 1d4 or 1d6 or 1d8             |
+| Movement:       | 80' (10')                     |
+| No. Appearing:  | Wild 3d10                     |
+| Save As:        | Fighter: 1 to 4 (as Hit Dice) |
+| Morale:         | 9 (16)                        |
+| Treasure Type:  | None                          |
+| XP:             | 25 - 240                      |
 
-The statistics above represent common sorts of wild herd animals, including deer (1 hit die), aurochs (2 hit dice), elk or moose (3 hit dice) and bison (4 hit dice). Such creatures are often skittish and likely to flee if provoked, but males are more aggressive in the presence of females (the parenthesized morale applies in this case).
+The statistics above represent swifter sorts of wild herd animals, including deer (1 hit die, usuallly), antelope (2 hit dice), elk (3 hit dice), and moose (4 hit dice). They are skittish and will flee if provoked, but males are more aggressive in the presence of females (the parenthesized morale applies in this case).
 
-Generally, 1 hit die herd animals inflict 1d4 points of
-damage on a hit, 2 and 3 hit die animals inflict 1d6, and
-4 hit die animals inflict 1d8. The DM should feel free to
-vary from these figures as he or she sees fit; there are
-many types of herd animals in the world, and some are
-better armed than others.
+Cattle, aurochs, and bison are not included in this catagory, they have their own [entry](#cattle-including-aurochs-and-bison).
+
+Generally, 1 hit die herd animals inflict 1d4 points of damage on a hit, 2 and 3 hit die animals inflict 1d6, and4 hit die animals inflict 1d8. The DM should feel free to vary from these figures as he or she sees fit; there are many types of herd animals in the world, and some are better armed than others.
 
 </div>
 <div class="monster" data-tag="Ape, Carnivorous" >
@@ -6508,7 +6500,7 @@ Like all undead, wights may be Turned by Clerics and are immune to **sleep**, 
 ## Wolf
 
 
-| Stats | **Normal Wolf** | **Dire Wold** |
+| Stats | **Normal Wolf** | **Dire Wolf** |
 |---|-----------|----------|
 | Armor Class: | 13 | 14 |
 | Hit Dice: | 2 | 4 |
