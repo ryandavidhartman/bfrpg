@@ -3398,17 +3398,6 @@
     ]
   },
   {
-    "objectID": "allSpells.html#shrink-item",
-    "href": "allSpells.html#shrink-item",
-    "title": "14  Spells, Alphabetical",
-    "section": "Shrink Item",
-    "text": "Shrink Item\nMagic-User 4\nRange: Touch\nDuration: Permanent\nBy means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an Shrink Item spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.",
-    "crumbs": [
-      "Magic",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
-    ]
-  },
-  {
     "objectID": "allSpells.html#ring-of-greater-healing",
     "href": "allSpells.html#ring-of-greater-healing",
     "title": "14  Spells, Alphabetical",
@@ -3513,6 +3502,17 @@
     "title": "14  Spells, Alphabetical",
     "section": "Shield of Thorns",
     "text": "Shield of Thorns\nDruid 2\nRange: Self\nDuration: 1 turn/level\nThick vines and thorny protrusions grow up and around the spell caster, hardening to provide protection and discouraging attacks. The wooden vine “armor” provides a +4 bonus to armor class. In addition, those attempting to strike the caster in close combat (melee attack) must save vs. Death Ray or take 1d4 point of damage from the thorns.\nThose attacking with weapons of length, such as spears or polearms, will not suffer such damage.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
+    "objectID": "allSpells.html#shrink-item",
+    "href": "allSpells.html#shrink-item",
+    "title": "14  Spells, Alphabetical",
+    "section": "Shrink Item",
+    "text": "Shrink Item\nMagic-User 4\nRange: Touch\nDuration: Permanent\nBy means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an Shrink Item spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Spells, Alphabetical</span>"

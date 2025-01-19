@@ -3281,18 +3281,6 @@ Duration: 1 round/level
 This spell reverses gravity in a 30’ x 30’ area of effect, causing all unattached objects and creatures within it to “fall” upward. The reverse gravity lasts as long as the caster desires or until the spell expires. If some solid object is encountered in this “fall,” the object strikes it in the same manner as it would during a normal downward fall. At the end of the spell duration, the affected objects and creatures fall downward. As the spell affects an area, objects tens, hundreds, or even thousands of feet in the air above the area can be affected.
 </div>
 
-<div class="spell" data-tag="Shrink Item" id="Shrink-Item">
-## Shrink Item
- 
-Magic-User 4
-
-Range: Touch
-
-Duration: Permanent
-
-By means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an **Shrink Item** spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.
-</div>
-
 <div class="spell" data-tag="Ring of Greater Healing*" id="Ring-of-Greater-Healing">
 ## Ring of Greater Healing*
 
@@ -3434,6 +3422,18 @@ Duration: 1 turn/level
 Thick vines and thorny protrusions grow up and around the spell caster, hardening to provide protection and discouraging attacks. The wooden vine “armor” provides a +4 bonus to armor class. In addition, those attempting to strike the caster in close combat (melee attack) must save vs. Death Ray or take 1d4 point of damage from the thorns.
 
 Those attacking with weapons of length, such as spears or polearms, will not suffer such damage.
+</div>
+
+<div class="spell" data-tag="Shrink Item" id="Shrink-Item">
+## Shrink Item
+ 
+Magic-User 4
+
+Range: Touch
+
+Duration: Permanent
+
+By means of this spell, the wizard is able to shrink one nonmagical item (if it is within the size limit) to 1/12 of its normal size. Optionally, the caster can also change its now-shrunken composition to a cloth like one. An object in the possession of another creature is allowed a saving throw vs. spell. Objects changed by an **Shrink Item** spell can be returned to normal composition and size merely by tossing them onto any solid surface or by a word of command from the original spellcaster. Even a burning fire and its fuel can be shrunk by this spell.
 </div>
 
 
