@@ -1498,6 +1498,18 @@ Duration: Instantaneoous
 A **Flame Strike** produces a vertical column of divine fire roaring downward (cylinder of 10 ft radius, 30 ft high).  The spell deals 6d8 points of damage to any creatures within the area of effect; a save vs. Spells for half damage is allowed.
 </div>
 
+<div class="spell" data-tag="Flaming Skull" id="Flaming-Skull">
+## Flaming Skull
+
+Magic-User 3
+
+Range: 100' + 10'/level
+
+Duration: Instantaneous
+
+The Magic-User can throw a skull that ignites and detonates with a low roar and deals 6d6 points of fire damage within a spherical volume with a 20' radius.  A save vs. Spells for half damage is allowed.  The explosion creates almost no pressure. The flaming skull sets fire to combustibles and damages objects in the area. 
+ </div>
+
 <div class="spell" data-tag="Flare" id="Flare">
 ## Flare
 
