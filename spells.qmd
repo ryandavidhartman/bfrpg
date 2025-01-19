@@ -3438,7 +3438,7 @@ This spell does 1d4 points of damage to one creature within range.  Furthermore,
 
 ::: {.callout-note icon=false collapse=true}
 
-## Corpose Garden
+## Corpse Garden
 
 Black Magic-User 1
 

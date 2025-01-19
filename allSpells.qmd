@@ -642,7 +642,7 @@ Any corpse drained using this spell provides vigor to the caster and their activ
 </div>
 
 <div class="spell" data-tag="Corpse Garden" id="Corpse-Garden">
-## Corpose Garden
+## Corpse Garden
 
 Black Magic-User 1
 
