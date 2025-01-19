@@ -3640,11 +3640,22 @@
     ]
   },
   {
+    "objectID": "allSpells.html#stench",
+    "href": "allSpells.html#stench",
+    "title": "14  Spells, Alphabetical",
+    "section": "Stench",
+    "text": "Stench\nBlack Magic-User 1\nRange: Self\nDuration: 1 turn/level\nThis spell creates a sickly stinking smell of rot and decay that emanates from the caster’s body. The stench duplicates the sickening effect of ghasts (see its entry in the Monster section). The smell of death and corruption surrounding the caster is so overwhelming that living creatures within 10 feet must succeed a save vs. Poison or be sickened for 2d6 rounds (-2 to attack rolls).\nFor every three levels the caster has, a penalty of ‑1 on the save is applied to those affected (at 3rd the save is at -1, at 6th level at -2, at 9th level at -3, etc). A creature that successfully saves cannot be affected again by this spell or a ghast’s stench for 24 hours. A Neutralize Poison Spell removes the effect from a sickened creature.",
+    "crumbs": [
+      "Magic",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Spells, Alphabetical</span>"
+    ]
+  },
+  {
     "objectID": "allSpells.html#sticks-to-snakes",
     "href": "allSpells.html#sticks-to-snakes",
     "title": "14  Spells, Alphabetical",
     "section": "Sticks to Snakes",
-    "text": "Sticks to Snakes\nCleric 4, Druid 4\nRange: 120’\nDuration: 6 turns\nThis spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. (See the Monsters section for details on types of snakes.) The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.",
+    "text": "Sticks to Snakes\nCleric 4, Druid 4\nRange: 120’\nDuration: 6 turns\nThis spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. See the Monsters section for details on types of snakes. The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.",
     "crumbs": [
       "Magic",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>Spells, Alphabetical</span>"

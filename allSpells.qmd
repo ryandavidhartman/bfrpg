@@ -3589,7 +3589,7 @@ Duration: 3 rounds/level
  </div>
 
 <div class="spell" data-tag="Stench" id="Stench">
- ## Stench
+## Stench
  
 Black Magic-User 1
 
@@ -3611,7 +3611,7 @@ Range: 120'
 
 Duration: 6 turns
 
-This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. (See the [Monsters](monstersAll.html#snake-giant-rattlesnake) section for details on types of snakes.) The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.
+This spell transforms normal wooden sticks into 1d4 hit dice worth of normal (not giant) snakes per every four caster levels. See the [Monsters](monstersAll.html#snake-giant-rattlesnake) section for details on types of snakes. The snakes follow the commands of the caster. When slain, dispelled, or the spell expires, the snakes return to their original stick form. Magical “sticks” such as enchanted staves cannot be affected.
 </div>
 
 <div class="spell" data-tag="Stone Shape" id="Stone-Shape">
