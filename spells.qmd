@@ -6539,7 +6539,6 @@ If spell turning reflects a spell back at a caster who is also under the effect 
 
 ::: {.callout-note icon=false collapse=true}
 
-
 ## Sympathy*
 
 Magic-User 7
@@ -6559,12 +6558,6 @@ Creatures of the designated kind or alignment feel an urge to leave the area or 
 A compulsion forces them to abandon the area or item, shunning it and never willingly returning to it while the spell is in effect. A creature that makes a successful saving throw can stay in the area or touch the item but feels uncomfortable doing so. This distracting discomfort reduces the creature’s Dexterity score by 4 points.
 
  **Sympathy** counters and dispels **Antipathy** and vice versa.
-
-:::
-
-::: {.callout-note icon=false collapse=true}
-
-Sympathy counters and dispels **Antipathy**.
 
 :::
 
