@@ -3438,6 +3438,21 @@ This spell does 1d4 points of damage to one creature within range.  Furthermore,
 
 ::: {.callout-note icon=false collapse=true}
 
+## Corpose Garden
+
+Black Magic-User 1
+
+Range: touch
+
+Duration: Instantaneous
+
+Edible fungus, fruit, or vegetables rapidly sprout from a corpse you touch. The amount of food created depends on the size of the corpse: 3 pounds for Tiny, 6 pounds for Small, 12 pounds for Medium, 24 pounds for Large, 48 pounds for Huge, or 96 pounds for Gargantuan. 3 pounds of food will feed a Small or Medium humanoid for 1 day. This spell may only be cast on any specific corpse once and has no effect on the corpses of Constructs or Elementals.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+
 ## Corpse Servant
 
 Black Magic-User 1
