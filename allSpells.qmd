@@ -1498,6 +1498,20 @@ Duration: Instantaneous
 This spell causes an area 20’x10’x10’ per caster level to be filled with holy fire. The caster can determine the shape of the area, but the entire area must be contiguous. Any creature in the designated area takes 1d6 points of damage that bypasses any immunity or resistance to fire. Any creature that dies from the damage (or was already dead when the fire storm is cast) is completely consumed by the fire.  The fire only harms creatures and does not affect the surrounding environment.
 </div>
 
+<div class="spell" data-tag="Fist of Stone" id="Fist-of-Stone">
+## Fist of Stone
+
+Magic-User 2
+
+Range: Self
+
+Duration: Permanent
+
+Upon completion of this spell, one of the caster's hands (their choice) turns to stone. It is flexible and can be used to punch, smash, or crush objects and opponents as if the wizard had Strength of 18/00. Combat bonuses for Strength do not apply if the caster uses any weapon other than their fist.
+
+While the spell is in effect, the wizard cannot cast spells requiring somatic components.
+</div>
+
 <div class="spell" data-tag="Flame Strike" id="Flame-Strike">
 ## Flame Strike
 
