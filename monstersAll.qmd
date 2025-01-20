@@ -946,16 +946,61 @@ Crocodiles are aggressive predators 11 to 12 feet long. They lie mostly submerge
 | XP:             | 555                              | 800                                       |
 
 
-Displacers are blue-black, catlike monsters with strange bladed winglike arms extending from their shoulders. The blades are carried folded back like wings, but the Displacer swings the blades around in front to attack.
+Deceiver, AKA Displacer Beasts, AKA Panther-Hydras are blue-black, catlike monsters with strange bladed winglike arms extending from their shoulders. The blades are carried folded back like wings, but the Displacer swings the blades around in front to attack.
 
 The real power and danger of the Displacer is its power of **displacement**, which causes the monster's apparent location to shift around constantly over a range of 3' from the monster's true location. This is a form of illusion, but a powerful form that cannot be seen through even by those who know the secret.
 
 Any character fighting a Displacer for the first time will miss his or her first strike regardless of the die roll. Thereafter, all attacks against displacers will be at a penalty of -2 to the attack roll. This is not cumulative with the penalty for fighting blind. Some monsters, such as bats, do not depend on vision to fight and thus may be able to perceive the monster's true location and fight without penalty.
+</div>
+
+<div class="monster" data-tag="Demon, Guardian Daemon" >
+## Demon, Guardian Daemon
+
+| Stats           | Spectator                 |
+|-----------------|---------------------------|
+| Armor Class:    | 20 (natural +9, dex +1)   |
+| Hit Dice:       | 8 HD (68 HP)              |
+| No. of Attacks: | 1 Bite, 2 Claws or Breath |
+| Damage:         | Bite:+9 2d6+3 2 Claw:+9 1d6+3 or BW: 5d6|
+| Movement:       | 40'                       | 
+| No. Appearing:  | 1                         |
+| Save As:        | DC 11                     |
+| Morale:         | 18                        |
+| Treasure Type:  | None                      |
+| XP:             | 5000                      |
+
+### Description
+
+Large Lesser Demon, Neutral Evil
+A guardian daemon is a large demon that speaks with a booming voice. They have a variety of different appearances, but most often appears as a horned and winged and frog, ape or bear. Guardian Daemons radiate an aura of pure menace and evil.
+
+### Abilities
+- **STR** 18 (+3)
+- **DEX** 15 (+1)
+- **CON** 16 (+2)
+- **INT** 12 (+0)
+- **WIS** 14 (+1)
+- **CHA** 14 (+1)
+
+### Damage Resistances
+Can only be hit by magical weapons. Immune to charm, hold, sleep, polymorph, and fear spells.
+
+### Senses
+Darkvision 120 ft.
+
+### Languages
+Common, telepathy 60 ft
+
+### Attack
+**Bite**. +9 to hit, Reach 10 ft., 2d6+3 piercing damage
+
+**2 Claws**. +9 to hit, Reach 10 ft., 1d6+3 slashing damage
+
+**Breath Weapon**. 3/day. 30 ft. cone of fire 5d6 dmg. Save vs. Dragon Breath for half
 
 </div>
 
 <div class="monster" data-tag="Dinosaur, Deinonychus" >
-
 ## Dinosaur, Deinonychus
 
 | Stats  |  Dinosaur, Deinonychus |
@@ -2690,18 +2735,18 @@ Unlike most other giants, storm giants have been known to befriend humans, elves
 
 ![](images/glantrian-mule.png)
 
-| Stats  | Glantrian Clockwork Mule |
-|---|--------------------------|
-| Armor Class: | 10 |
-| Hit Dice: | 2d8+2 |
-| No. of Attacks: | 1 Hoove |
-| Damage: | 1d4+2 or by weapon +4 |
-| Movement: | 40' |
-| No. Appearing: | Special |
-| Save As: | Fighter: 2 |
-| Morale: | 20 |
-| Treasure Type: | None |
-| XP: | 150 |
+| Stats           | Glantrian Clockwork Mule |
+|-----------------|--------------------------|
+| Armor Class:    | 10                       |
+| Hit Dice:       | 2d8+2                    |
+| No. of Attacks: | 1 Hoove                  |
+| Damage:         | 1d4+2 or by weapon +4    |
+| Movement:       | 40'                      | 
+| No. Appearing:  | Special                  |
+| Save As:        | Fighter: 2               |
+| Morale:         | 20                       |
+| Treasure Type:  | None                     |
+| XP:             | 150                      |
 
 ### Description
 
@@ -2744,8 +2789,6 @@ There is a hidden hatch at the rear with a storage space that is 2 feet wide, 2 
 ### Water Adaptability
 When submerged in water, the mule deploys flotation devices automatically. This allows it to float on the water's surface, preventing it from sinking.
 </div>
-
-
 
 <div class="monster" data-tag="Gnoll" >
 ## Gnoll
@@ -5152,12 +5195,9 @@ unauthorized access to the protected area. Those
 which arrive through natural rifts may have any goals or
 motivations the DM wishes, and thus may choose to
 parley, fight, or even ignore adventurers.
-
 </div>
 
-
 <div class="monster" data-tag="Salamander, Lightning*"  >
-
 ## Salamander, Lightning*
 
 | Stats           | Salamander, Lightning*        |
@@ -5194,11 +5234,9 @@ can speak different words with each head at the same
 time (although those who can are known to sing duets
 with themselves, which may give away one's location to
 those listening).
-
 </div>
 
 <div class="monster" data-tag="Salamander, Sand*"  >
-
 ## Salamander, Sand*
 
 | Stats           | Salamander, Sand*           |
@@ -5240,12 +5278,9 @@ as spears or arrows) and suffers half damage from
 cutting attacks. It is intelligent and can speak the
 language of the Plane of Earth; many may also know
 Elvish, Common, or Dragon.
-
 </div>
 
-
 <div class="monster" data-tag="Scorpion, Giant" >
-
 ## Scorpion, Giant
 
 | Stats | Scorpion, Giant |
@@ -5262,10 +5297,9 @@ Elvish, Common, or Dragon.
 | XP: | 280 |
 
 Giant scorpions are quite large, sometimes as large as a donkey. They are aggressive predators and generally attack on sight. If a claw attack hits, the giant scorpion receives a +2 attack bonus with its stinger (but two claw hits do not give a double bonus). Those hit by the stinger must save vs. Poison or die. Giant scorpions are most commonly found in desert areas or caverns.
-
 </div>
-<div class="monster" data-tag="Sea Serpent" >
 
+<div class="monster" data-tag="Sea Serpent" >
 ## Sea Serpent
 
 | Stats | Sea Serpent |
@@ -5282,10 +5316,9 @@ Giant scorpions are quite large, sometimes as large as a donkey. They are aggres
 | XP: | 500 |
 
 Sea serpents are, obviously, serpentine monsters which live in the sea. They range from 20' to 40' long. A sea serpent can choose to wrap around a ship and constrict; in this case, roll 2d10 for damage to the vehicle, and reduce any effective Hardness by half. 
-
 </div>
-<div class="monster" data-tag="Shadow*" >
 
+<div class="monster" data-tag="Shadow*" >
 ## Shadow*
 
 | Stats | Shadow* |
@@ -5306,10 +5339,9 @@ A shadow can be difficult to see in dark or gloomy areas but stands out starkly 
 A shadow's attack does 1d4 damage (from cold) and drains 1 point of Strength from the victim. Victims reduced to 2 or fewer points of Strength collapse and become unable to move; those reduced to 0 Strength die and rise as shadows a day later (at nightfall). Otherwise, Strength points lost to shadows are recovered at a rate of 1 point per turn.
 
 Due to their incorporeal nature, shadows cannot be harmed by non-magical weapons.
-
 </div>
-<div class="monster" data-tag="Shark, Bull" >
 
+<div class="monster" data-tag="Shark, Bull" >
 ## Shark, Bull
 
 | Stats | Shark, Bull |
@@ -5331,10 +5363,9 @@ weigh around 200 pounds, while females have been
 known to be up to 12' long, weighing up to 500
 pounds. Bull sharks are able to tolerate fresh water,
 and often travel up rivers in search of prey.
-
 </div>
-<div class="monster" data-tag="Shark, Great White" >
 
+<div class="monster" data-tag="Shark, Great White" >
 ## Shark, Great White
 
 | Stats | Shark, Great White |
@@ -5351,10 +5382,9 @@ and often travel up rivers in search of prey.
 | XP: | 875 |
 
 Great white sharks range from 12' to 15' in length on the average, though specimens ranging up to 30' in length have been reported. They are apex predators. Great white sharks have the ability to sense the electromagnetic fields of living creatures, allowing them to find prey even when light or water clarity are poor, and are able to smell blood at great distances.
-
 </div>
-<div class="monster" data-tag="Shark, Mako" >
 
+<div class="monster" data-tag="Shark, Mako" >
 ## Shark, Mako
 
 | Stats | Shark, Mako |
@@ -5371,11 +5401,9 @@ Great white sharks range from 12' to 15' in length on the average, though specim
 | XP: | 240 |
 
 Mako sharks are fast-moving predators found in temperate and tropical seas. They average 9' to 13' in length and weigh up to 1,750 pounds. Mako sharks are known for their ability to leap out of the water; they are able to leap up to 20' in the air.
-
 </div>
 
 <div class="monster" data-tag="Shrew, Common Giant" data-tag2="Shrew, Venomous Giant" >
-
 ## Shrew, Giant
 
 | Stats           | Shrew, Common Giant     | Shrew, Venomous Giant |
@@ -5407,11 +5435,9 @@ a giant shrew will kill the victim unless a save vs. Poison
 is made. A victim bitten twice in a round need only
 save once for that round, but of course will have to
 save again in subsequent rounds if bitten again.
-
 </div>
 
 <div class="monster" data-tag="Shrieker" >
-
 ## Shrieker
 
 | Stats | Shrieker |
@@ -5444,10 +5470,9 @@ for 1d4 rounds.
 In game terms, the DM should generally roll a
 wandering monster check each round that this monster
 wails.
-
 </div>
-<div class="monster" data-tag="Skeleton" >
 
+<div class="monster" data-tag="Skeleton" >
 ## Skeleton
 
 | Stats | Skeleton |
@@ -5464,10 +5489,9 @@ wails.
 | XP: | 25 |
 
 Skeletons are mindless **undead** created by an evil Magic-User or Cleric, generally to guard a tomb or treasure hoard, or to act as guards for their creator. They take only ½ damage from edged weapons, and only a single point from arrows, bolts or sling stones (plus any magical bonus). As with all undead, they can be **Turned** by a Cleric, and are immune to **sleep, charm** or **hold** magic. As they are mindless, no form of mind reading is of any use against them. Skeletons never fail morale, and thus always fight until destroyed.
-
 </div>
-<div class="monster" data-tag="Snake, Giant Rattlesnake" >
 
+<div class="monster" data-tag="Snake, Giant Rattlesnake" >
 ## Snake, Giant Rattlesnake
 
 | Stats | Snake, Giant Rattlesnake |
@@ -5484,10 +5508,9 @@ Skeletons are mindless **undead** created by an evil Magic-User or Cleric, gen
 | XP: | 100 |
 
 style="position: absolute; top: 0in; left: 0in" Giant rattlesnakes are simply much enlarged versions of the normal rattlesnake (see **pit vipers**, below, for details). They average 14' to 20' in length at adulthood.
-
 </div>
-<div class="monster" data-tag="Snake, Pit Viper" >
 
+<div class="monster" data-tag="Snake, Pit Viper" >
 ## Snake, Pit Viper
 
 | Stats | Snake, Pit Viper |
@@ -5510,10 +5533,9 @@ Those bitten by a pit viper must save vs. Poison or die.
 Pit vipers are named for the thermally sensitive "pits" between their eyes and nostrils. These are used to detect birds, mammals, and lizards, the natural prey of these snakes. Note that, even though lizards are cold-blooded, pit vipers can still sense them because their temperature will often be slightly higher or lower than their surroundings.
 
 Rattlesnakes are a variety of pit viper; in addition to the details given above, a rattlesnake has a rattle (from which it gets its name) at the end of its tail. The rattle is used to warn away larger creatures.
-
 </div>
-<div class="monster" data-tag="Snake, Python" >
 
+<div class="monster" data-tag="Snake, Python" >
 ## Snake, Python
 
 | Stats | Snake, Python |
@@ -5530,10 +5552,9 @@ Rattlesnakes are a variety of pit viper; in addition to the details given above,
 | XP: | 405 |
 
 After a successful bite attack, a python will wrap itself around the victim (in the same round), constricting for 2d4 damage plus an additional 2d4 per round thereafter. The hold may be broken on a roll of 1 on 1d6 (add the victim's Strength bonus to the range, so a Strength of 16 would result in a range of 1-3 on 1d6); breaking the hold takes a full round.
-
 </div>
-<div class="monster" data-tag="Snake, Sea" >
 
+<div class="monster" data-tag="Snake, Sea" >
 ## Snake, Sea
 
 | Stats | Snake, Sea |
@@ -5552,10 +5573,9 @@ After a successful bite attack, a python will wrap itself around the victim (in 
 Sea snakes are relatively small; the largest varieties rarely exceed 6' in length. They have relatively small heads, and are very stealthy in the water. Their bite does so little damage that the creature bitten has only a 50% chance to notice the attack, but their poison is terribly strong, such that any creature bitten must save vs. Poison at a penalty of -4 or die.
 
 Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, etc.) will they do so. They are very clumsy when out of the water.
-
 </div>
-<div class="monster" data-tag="Snake, Spitting Cobra" >
 
+<div class="monster" data-tag="Snake, Spitting Cobra" >
 ## Snake, Spitting Cobra
 
 | Stats | Snake, Spitting Cobra |
@@ -5572,10 +5592,64 @@ Fortunately, sea snakes rarely attack; only if molested (grabbed, stepped on, et
 | XP: | 37 |
 
 Spitting cobras average about 7' in length at adulthood. They use their spreading hood to warn other creatures not to bother them, and generally refrain from attacking if possible to allow larger creatures time to retreat. Failure to retreat from the spitting cobra will likely result in the cobra spitting venom; the cobra can project its venom up to 5', and any creature hit must roll a save vs. Poison or be blinded permanently (though the **cure blindness** spell can be used to heal this injury). If the cobra cannot deter a creature by spitting, it will attack using its bite. In this case, those successfully hit must save vs. Poison or die.
-
 </div>
-<div class="monster" data-tag="Spectre*" >
 
+<div class="monster" data-tag="Spectator" >
+## Spectator
+
+| Stats           | Spectator                 |
+|-----------------|---------------------------|
+| Armor Class:    | 14 (natural  armor)       |
+| Hit Dice:       | 7 HD (45 HP)              |
+| No. of Attacks: | 1 Bite and 2 Eye Rays     |
+| Damage:         | (see below)               |
+| Movement:       | 40' fly/hoover            | 
+| No. Appearing:  | 1                         |
+| Save As:        | DC 12                     |
+| Morale:         | 18                        |
+| Treasure Type:  | None                      |
+| XP:             | 3500                      |
+
+### Description
+
+Medium Aberration, Lawful Neutral
+A spectator is a lesser type of beholder. It resembles a floating sphere with a gaping maw and a single great eye, set within four eyestalks that shoot forth deadly rays.  Spectators are sometimes summoned from the Far Realm by powerful Magic Users to guard an area for 101 years.
+
+### Abilities
+- **STR** 8  (-1)
+- **DEX** 14 (+1)
+- **CON** 14 (+1)
+- **INT** 13 (+1)
+- **WIS** 14 (+1)
+- **CHA** 11 (+0)
+
+### Damage Resistances: Spell Reflection
+If the spectator makes a successful saving throw against a spell, or a spell attack misses it, the spectator can choose another creature (including the spellcaster) it can see within 30 feet of it. The spell targets the chosen creature instead of the spectator. If the spell forced a saving throw, the chosen creature makes its own save. If the spell was an attack, the attack roll is rerolled against the chosen creature.
+
+### Senses
+Darkvision 120 ft., Passive Perception DC16
+
+### Languages
+Common, telepathy 120 ft
+
+### Attack
+**Bite**. Melee Weapon Attack +4 to hit, reach 5 ft., one target. 1d6 – 1 piercing damage.
+
+**Eye Rays**. The spectator shoots up to two of the following magical eye rays at one or two creatures it can see within 90 feet of it. It can use each ray only once on a turn.
+
+1. Confusion Ray. The target must succeed on a DC 13 Wisdom saving throw, or it can't take reactions until the end of its next turn. On its turn, the target can't MV, and it uses its action to make a melee or ranged attack against a randomly determined creature within range. If the target can't attack, it does nothing on its turn.
+
+2. Paralyzing Ray. The target must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+
+3. Fear Ray. The target must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the spectator is visible to the target, ending the effect on itself on a success.
+
+4. Wounding Ray. The target must make a DC 13 Constitution saving throw, taking 16 (3d10) necrotic damage on a failed save, or half as much damage on a successful one.
+
+### Create Food and Water
+The spectator magically creates enough food and water to sustain itself for 24 hours.
+</div>
+
+<div class="monster" data-tag="Spectre*" >
 ## Spectre*
 
 | Stats | Spectre* |
@@ -5605,10 +5679,9 @@ statistically, most such creatures will be as given above,
 but of course the DM may create special types.
 
 Like all undead, they may be Turned by Clerics and are immune to **sleep**, **charm** and **hold** magics. Due to their incorporeal nature, they cannot be harmed by non-magical weapons.
-
 </div>
-<div class="monster" data-tag="Spider, Giant Black Widow" >
 
+<div class="monster" data-tag="Spider, Giant Black Widow" >
 ## Spider, Giant Black Widow
 
 | Stats | Spider, Giant Black Widow |

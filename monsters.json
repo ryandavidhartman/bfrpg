@@ -533,7 +533,7 @@
         "XP:": "2,850"
     },
     {
-        "Name": "Common Deceiver",
+        "Name": "Deceiver, Common",
         "Armor Class:": "16",
         "Hit Dice:": "6*",
         "No.\u00a0of Attacks:": "3 bites",
@@ -546,7 +546,7 @@
         "XP:": "555"
     },
     {
-        "Name": "Greater Deceiver",
+        "Name": "Deceiver, Greater",
         "Armor Class:": "16",
         "Hit Dice:": "7**",
         "No.\u00a0of Attacks:": "3 bites",
@@ -557,6 +557,19 @@
         "Morale:": "14",
         "Treasure Type:": "D",
         "XP:": "800"
+    },
+    {
+        "Name": "Demon, Guardian Daemon",
+        "Armor Class:": "20 (natural +9, dex +1)",
+        "Hit Dice:": "8 HD (68 HP)",
+        "No.\u00a0of Attacks:": "1 Bite, 2 Claws or Breath",
+        "Damage:": "Bite:+9 2d6+3 2 Claw:+9 1d6+3 or BW: 5d6",
+        "Movement": "40\u2019", 
+        "No.\u00a0Appearing:":  "1",
+        "Save As:": "DC 11",
+        "Morale": "18",
+        "Treasure Type:": "None",
+        "XP:": "5000"
     },
     {
         "Name": "Dinosaur, Deinonychus",
@@ -2794,6 +2807,19 @@
         "Morale:": "10",
         "Treasure Type:": "None",
         "XP:": "37"
+    },
+    {
+        "Name": "Spectator",
+        "Armor Class:": "14",
+        "Hit Dice:": "7  (45 HP)",
+        "No.\u00a0of Attacks:": "1 bite, 2 eye rays",
+        "Damage:": "+4 to 1d6 for bite, see description for eye rays",
+        "Movement:": "Fly 40\u2019",
+        "No.\u00a0Appearing:": "1",
+        "Save As:": "DC 12",
+        "Morale:": "18",
+        "Treasure Type:": "None",
+        "XP:": "3500"
     },
     {
         "Name": "Spectre*",
