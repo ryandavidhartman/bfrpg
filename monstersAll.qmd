@@ -956,7 +956,7 @@ Any character fighting a Displacer for the first time will miss his or her first
 <div class="monster" data-tag="Demon, Guardian Daemon" >
 ## Demon, Guardian Daemon
 
-| Stats           | Spectator                 |
+| Stats           | Guardian Daemon           |
 |-----------------|---------------------------|
 | Armor Class:    | 20 (natural +9, dex +1)   |
 | Hit Dice:       | 8 HD (68 HP)              |
