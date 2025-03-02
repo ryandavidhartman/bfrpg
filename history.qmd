@@ -4,17 +4,17 @@
 
 ![](./images/OnceWas.jpg)
 
-_There once was a Great Kingdom ruled by Acererak, known as the OverKing, who had conquered all the land from the Far Away Sea to the Eastern Ocean. During his reign, advancements in architecture, agriculture, and trade allowed the Great Kingdom to flourish for over a hundred years._
+_There once was a great kingdom. In ages past, it was united and flourished under the wise rule of Lord Feall, whose influence stretched from the distant Endless Sea to the expansive eastern horizon. For nearly two radiant centuries, OnceWas thrived, adorned with awe-inspiring architectural marvels, bountiful harvests, and bustling trade that wove the realm together._
 
-_As time passed, the OverKing became corrupt and evil. Perhaps he was manipulated by his advisor Iuz, or driven mad by arcane longevity. The OverKing became withdrawn from the world, and Iuz ruled as his regent._
+_But the sands of time brought change. Feall’s noble spirit darkened with corruption and malevolence. Perhaps he was manipulated by his advisor, Ixalor the Necromancer, or driven mad by arcane longevity. Retreating from the world, Feall allowed Ixalor to seize power, ushering in an era of turmoil and tyranny._
 
-_Iuz’s rule was chaotic and cruel, a parasite over the Great Kingdom. The human fiefs rose up against him. The houses of Dun, Isig, Nyr, Keo, and Glant rebelled against the necromancer, marking the beginning of the Great War._
+_Ixalor’s iron-fisted rule spread like a malignant blight, a parasitic shadow draining the life from the once-thriving realm. Provinces rebelled, their banners rising against the necromancer’s cruel grip. The noble houses led the charge, igniting the flames of the Great Rebellion that shattered OnceWas into fractured kingdoms._
 
-_The Great Kingdom fell quickly. Iuz created an empire in the North. The House of Dun raised the banner of Dunador, while Glantry, Keoland, and Isigir rose as individual kingdoms._
+_Amidst the chaos, Dunmar, Hearthland, Solara, Arcanum, and Corsairia emerged as independent realms in their own right. Undeterred by dissent, Ixalor forged a dark empire in the North, bolstered by legions of orcs and undead horrors._
 
-_Iuz’s necromancy continued to grow in strength, using dark rituals to steal power and life force. Once beautiful, Iuz now appeared gnarled and old, considered the enemy of every sane and free person in OnceWas. His tyranny ended when an alliance of wizards used a powerful magic device to imprison him in the Far Realm._
+_With each passing day, Ixalor’s malevolent sorcery grew stronger, fueled by unholy rituals that drained life and power from the land. Once a man of noble countenance, he twisted into a grotesque, wretched specter—a loathed scourge upon the realm. His reign of terror endured until a coalition of brave magic wielders, armed with an ancient talisman of formidable power, banished him to the desolate reaches of the Void Beyond the Shattered Gate._
 
-_Hundreds of years have passed, and the people of OnceWas barely remember Acererak, the Great Kingdom, or Iuz. All that remain are strange ruins and old ghosts._
+_Centuries passed like rivers flowing to the sea, and memories of Lord Feall, the Great Kingdom, and the tyrant Ixalor faded into the veils of history. All that remain are strange ruins, lingering ghosts, and the echoes of heroes who once forged their destinies—while new legends await their time to be written._
 
 [History of OnceWas movie](https://youtu.be/GQ2Xa-P-vg0)
 
@@ -38,7 +38,7 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 5 AoM**: Galadriel becomes Elven Queen of Imladris.
 
-- **Year 20 AoM**: Acererak becomes a powerful warlord. He is advised by Iuz, son of Iggwiliv the Witch and once apprentice to Urikel. Iuz is a gifted and cunning necromancer.
+- **Year 20 AoM**: Lord Feall becomes a powerful warlord. He is advised by Ixalor, son of Isoma the Witch and once apprentice to Urikel. Ixalor is a gifted and cunning necromancer.
 
 - **Year 30 AoM**: Longspine, the Great Red Dragon, settles in the Dry Steppes.
 
@@ -46,7 +46,7 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 60 AoM**: The demon Lolth rises in power as a demigoddess.
 
-- **Year 75 AoM**: Acererak grows in power. Iuz unites the Orc clans in Narragor under the banner of Acererak’s green demon. Iuz discovers the Mondbaum tree in Hallras and uses it to prolong Acererak’s life. He has a keep built called Berrad Perras and appoints Gauhir to watch over it.
+- **Year 75 AoM**: Acererak grows in power. Ixalor unites the Orc clans in Narragor under the banner of Acererak’s green demon. Ixalor discovers the Mondbaum tree in Hallras and uses it to prolong Acererak’s life. He has a keep built called Berrad Perras and appoints Gauhir to watch over it.
 
 - **Year 85 AoM**: The dwarves build Drell’s Keep and mine Lonely Hill.
 
@@ -58,61 +58,61 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 125 AoM**: Gishigan, Mordenkainen, Desinor, Lucan, and Pandaras raid Berrad Perras to acquire Mondbaum leaves from the white tree.
 
-- **Year 135 AoM**: The OverKing shows true signs of madness. The older Acererak became, the less human he is. Many believed Acererak was a husk under the complete control of Iuz.
+- **Year 135 AoM**: The OverKing shows true signs of madness. The older Acererak became, the less human he is. Many believed Acererak was a husk under the complete control of Ixalor.
 
-- **Year 140 AoM**: Madness truly takes hold of Acererak. The OverKing is completely withdrawn from the world. Iuz rules as his Regent.
+- **Year 140 AoM**: Madness truly takes hold of Acererak. The OverKing is completely withdrawn from the world. Ixalor rules as his Regent.
 
-- **Year 145 AoM**: Iuz expands his power and raises an army of orcs. Humanoids begin taking over as leaders of formerly human territories.
+- **Year 145 AoM**: Ixalor expands his power and raises an army of orcs. Humanoids begin taking over as leaders of formerly human territories.
 
 - **Year 150 AoM**: The elves of Imladris create the Lamp of Anon.
 
 - **Year 155 AoM**: The demon Malar is wounded by the elves using the Lamp of Anon and flees to Narragor.
 
-- **Year 165 AoM**: Iuz leads an army of orcs to attack Imladris and steal the Lamp.
+- **Year 165 AoM**: Ixalor leads an army of orcs to attack Imladris and steal the Lamp.
 
-- **Year 170 AoM**: Iuz returns to Narragor seeking ways to increase his power. He finds Malar and convinces him to serve him, giving Iuz power over Lycanthropy. Malar destroys the Lamp.
+- **Year 170 AoM**: Ixalor returns to Narragor seeking ways to increase his power. He finds Malar and convinces him to serve him, giving Ixalor power over Lycanthropy. Malar destroys the Lamp.
 
-- **Year 200 AoM**: Acererak dies and is entombed by Iuz. Iuz’s rule is chaotic, and he is seen as a parasite over the Great Kingdom. The human fiefs begin to rise up against him.
+- **Year 200 AoM**: Acererak dies and is entombed by Ixalor. Ixalor’s rule is chaotic, and he is seen as a parasite over the Great Kingdom. The human fiefs begin to rise up against him.
 
-- **Year 205 AoM**: The Dukes of the Great Kingdom (Dun, Isig, Nyr, Keo, and Glant) rebel and wage war against the chaos of Iuz. The Great War begins.
+- **Year 205 AoM**: The Dukes of the Great Kingdom (Dun, Isig, Nyr, Keo, and Glant) rebel and wage war against the chaos of Ixalor. The Great War begins.
 
-- **Year 210 AoM**: Iuz retreats to Sunvale. His orc army conquers that realm. Numenor, the fallen ruler of SunVale is cursed with Vampiracy.
+- **Year 210 AoM**: Ixalor retreats to Sunvale. His orc army conquers that realm. Numenor, the fallen ruler of SunVale is cursed with Vampiracy.
 
-- **Year 215 AoM**: Iuz conquers the areas north of Lake Quag.
+- **Year 215 AoM**: Ixalor conquers the areas north of Lake Quag.
 
-- **Year 220 AoM**: The Great Kingdom falls. The Empire of Iuz is created in the North. The House of Dun raises the banner of Dunnador. Glantry, Keoland, and Isigir rise. War rages against the Empire of Iuz.
+- **Year 220 AoM**: The Great Kingdom falls. The Empire of Ix is created in the North. The House of Dun raises the banner of Dunnador. Glantry, Keoland, and Isigir rise. War rages against the Empire of Ix.
 
 - **Year 235 AoM**: Isig goes missing.
 
 - **Year 237 AoM**: Nyr goes missing.
 
-- **Year 240 AoM**: Iuz begins using dark rituals to steal power and life force. Iuz now appears as an old man. He is considered the enemy of every sane and free person in the Oncewas.
+- **Year 240 AoM**: Ixalor begins using dark rituals to steal power and life force. Ixalor now appears as an old man. He is considered the enemy of every sane and free person in the Oncewas.
 
-- **Year 250 AoM**: Iuz's armies conquer the Shield Lands, the Bandit Kingdom, the Barrens, and occupy part of Imladris. In his conquests, Iuz’s armies slaughter nearly every last man, woman, and child, and then bring them back as undead to serve Iuz.
+- **Year 250 AoM**: Ixalor's armies conquer the Shield Lands, the Bandit Kingdom, the Barrens, and occupy part of Imladris. In his conquests, Ixalor’s armies slaughter nearly every last man, woman, and child, and then bring them back as undead to serve Ixalor.
 
-- **Year 260 AoM**: A road of skulls leads to the Empire’s capital Dorakaa, where Iuz is worshipped as a living god.
+- **Year 260 AoM**: A road of skulls leads to the Empire’s capital Dorakaa, where Ixalor is worshipped as a living god.
 
-- **Year 270 AoM**: Iuz appears to the northern barbarian tribes as their imprisoned deity, Vatun, and using magic to control Sevvord Redbeard, ruler of Stonehold, used these deceptions to start the raids against Glantri and Isigir.
+- **Year 270 AoM**: Ixalor appears to the northern barbarian tribes as their imprisoned deity, Vatun, and using magic to control Sevvord Redbeard, ruler of Stonehold, used these deceptions to start the raids against Glantri and Isigir.
 
 - **Year 300 AoM**: The War of the Sun and the Moon begins between Sunndi and Keoland.
 
 - **Year 310 AoM**: Minas Ithil is built over the ruins of Drell’s Keep.
 
-- **Year 320 AoM**: Iuz ascends and truly becomes a demi-god. Followers of Iuz can cast spells. Nergal gives Iuz the Black Shield.
+- **Year 320 AoM**: Ixalor ascends and truly becomes a demi-god. Followers of Ixalor can cast spells. Nergal gives Ixalor the Black Shield.
 
-- **Year 325 AoM**: An alliance of wizards is formed to stop Iuz. (Mordenkainen, Gishigan, Desinor, Zygag, Stephen Amber, Bigby, Tenser, and Rory)
+- **Year 325 AoM**: An alliance of wizards is formed to stop Ixalor. (Mordenkainen, Gishigan, Desinor, Zygag, Stephen Amber, Bigby, Tenser, and Rory)
 
 - **Year 330 AoM**: Bigby, Tenser, and Rory go missing.
 
-- **Year 335 AoM**: Anu turns his back on Iuz and the sun no longer shines on the Empire.
+- **Year 335 AoM**: Anu turns his back on Ixalor and the sun no longer shines on the Empire.
 
 - **Year 340 AoM**: The Polmarj is created as a penal colony by Keoland.
 
 - **Year 349 AoM**: Zygag the Mad creates the GodTrap.
 
-- **Year 350 AoM**: The Alliance of Wizards attacks Dorakka. The GodTrap imprisons Iuz in the Far Realm. The Alliance claims the Black Shield. Followers of Iuz can no longer cast spells.
+- **Year 350 AoM**: The Alliance of Wizards attacks Dorakka. The GodTrap imprisons Ixalor in the Far Realm. The Alliance claims the Black Shield. Followers of Ixalor can no longer cast spells.
 
-- **Year 355 AoM**: Lord Dorag the Boneshadow rules the Empire during Iuz's absence.
+- **Year 355 AoM**: Lord Dorag the Boneshadow rules the Empire during Ixalor's absence.
 
 - **Year 360 AoM**: Stephen Amber claims the Vorpal Sword.
 
@@ -130,11 +130,11 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 400 AoM**: Bruenor Battlehammer becomes King of the Dwarven Stronghold.
 
-- **Year 410 AoM**: Orcs, once united by Iuz, now war amongst themselves.
+- **Year 410 AoM**: Orcs, once united by Ixalor, now war amongst themselves.
 
 - **Year 430 AoM**: Bruenor Battlehammer becomes Dwarven King of the Rath Knan mountains.
 
-- **Year 440 AoM**: Iuz imposters attempt to take the throne in Dorakka. Civil war breaks out in the Empire of Iuz.
+- **Year 440 AoM**: Ixalor imposters attempt to take the throne in Dorakka. Civil war breaks out in the Empire of Ix.
 
 - **Year 450 AoM**: 100 years of peace begins.
 
@@ -144,7 +144,7 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 570 AoM**: Lynwerd of Aerdi becomes King of Nyrond.
 
-- **Year 585 AoM**: Civil War ends in the Empire of Iuz with Lord Dorag seizing control.
+- **Year 585 AoM**: Civil War ends in the Empire of Ix with Lord Dorag seizing control.
 
 - **Year 595 AoM**: Halfred is born heir to the throne of Dunnador.
 
@@ -166,6 +166,6 @@ _Hundreds of years have passed, and the people of OnceWas barely remember Acerer
 
 - **Year 648 AoM**: The second plague strikes. Lycanthropy spreads through the land. Glantri is blamed. Wizards and magic become scorned and distrusted.
 
-- **Year 649 AoM**: Horrors from the Far Realm begin crossing over into the OnceWas. The Orcs of Narragor begin uniting under the banner of a Red Claw. Followers of Iuz are able to cast spells. Lord Dorag is brutally murdered and his bones are used to fashion a new throne for the Emperor, who is prophesied to return to Dorakka.
+- **Year 649 AoM**: Horrors from the Far Realm begin crossing over into the OnceWas. The Orcs of Narragor begin uniting under the banner of a Red Claw. Followers of Ixalor are able to cast spells. Lord Dorag is brutally murdered and his bones are used to fashion a new throne for the Emperor, who is prophesied to return to Dorakka.
 
 - **Year 650 AoM**: Present day.

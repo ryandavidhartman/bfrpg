@@ -50,23 +50,23 @@ Dunador has a temperate climate.
 - Runneymede
 
 
-## Empire of Iuz
+## Empire of Ix
 
 ### Description
 
-To the North West is the terrible Empire of Iuz. Dedicated to self-serving evil and pursuit of power, Iuz’s armies occupy even his own land as if it were a hostile country needing to be conquered. Refugees speak of a road of skulls leading to the capital city, and watchtowers along the road with beacons fed on the fuel of human fat and flesh.
+To the North West is the terrible Empire of Ix. Dedicated to self-serving evil and pursuit of power, Ixalor’s armies occupy even his own land as if it were a hostile country needing to be conquered. Refugees speak of a road of skulls leading to the capital city, and watchtowers along the road with beacons fed on the fuel of human fat and flesh.
 
-Iuz does not hesitate to prey on the weak and has made several attempts to conquer surrounding realms. His empire currently encompasses the Land of Iuz, the Horned Lands, the Bandit Lands, and the Barren Lands. Few beings have a greater capacity for cruelty than the demigod Iuz. Iuz harbors an undisguised desire to dominate all of the OnceWas like the overking he once served.
+Ixalor does not hesitate to prey on the weak and has made several attempts to conquer surrounding realms. His empire currently encompasses the Land of Ixalor, the Horned Lands, the Bandit Lands, and the Barren Lands. Few beings have a greater capacity for cruelty than the demigod Ixalor. Ixalor harbors an undisguised desire to dominate all of the OnceWas like the overking he once served.
 
-Iuz is the son of the witch Iggwilv. Zagyg and the Circle of Eight banished and imprisoned Iuz 200 years ago. Though Iuz is physically absent, he still holds all power.
+Ixalor is the son of the witch Isoma Ixal. Zagyg and the Circle of Eight banished and imprisoned Ixalor 200 years ago. Though Ixalor is physically absent, he still holds all power.
 
-Of late, his influence has been inconsistent. Iuz’s servants have more control over some regions of the empire than others. Iuz’s clerics inflict cruelty and torture upon all who oppose them. Iuz tolerates no less than fanaticism and complete obedience. His clerics constantly try to outdo each other in their acts of cruelty and evil. They show their superiority over all other beings by hunting for trophies; rare finds such as unicorns or paladins are truly prized.
+Of late, his influence has been inconsistent. Ixalor’s servants have more control over some regions of the empire than others. Ixalor’s clerics inflict cruelty and torture upon all who oppose them. Ixalor tolerates no less than fanaticism and complete obedience. His clerics constantly try to outdo each other in their acts of cruelty and evil. They show their superiority over all other beings by hunting for trophies; rare finds such as unicorns or paladins are truly prized.
 
-The clerics create spells and magic items of terrible power and evil nature and travel the world to commit acts of evil and search out Iuz’s enemies. Iuz is served directly by the Boneheart – two tiers (Greater and Lesser) of six advisers each (clerics and wizards), and by the Boneshadow, six spies and evildoers who roam the world. Iuz builds grand temples to himself in his nation-state, but his churches elsewhere are small and secret. He maintains important sites for mass rituals, sacrifices, and other ill deeds in forbidding wilderness terrain far from the eyes of good.
+The clerics create spells and magic items of terrible power and evil nature and travel the world to commit acts of evil and search out Ixalor’s enemies. Ixalor is served directly by the Boneheart – two tiers (Greater and Lesser) of six advisers each (clerics and wizards), and by the Boneshadow, six spies and evildoers who roam the world. Ixalor builds grand temples to himself in his nation-state, but his churches elsewhere are small and secret. He maintains important sites for mass rituals, sacrifices, and other ill deeds in forbidding wilderness terrain far from the eyes of good.
 
-With Iuz’s disappearance, some of his more opportunistic followers and a few of his fiends broke away to form the Horned Society.
+With Ixalor’s disappearance, some of his more opportunistic followers and a few of his fiends broke away to form the Horned Society.
 
-“The weak must be exploited, tortured, and stripped of hope. The strong must be constantly wary of betrayal by their underlings. Pain is power, and inflicting pain demonstrates power best. Crush those beneath you. Iuz must be obeyed, and those who defy him will know absolute pain.”
+“The weak must be exploited, tortured, and stripped of hope. The strong must be constantly wary of betrayal by their underlings. Pain is power, and inflicting pain demonstrates power best. Crush those beneath you. Ixalor must be obeyed, and those who defy him will know absolute pain.”
 
 ### People
 
@@ -74,17 +74,17 @@ The population numbers about 150,000, of which 55% are human. Of the remaining p
 
 ### Religion
 
-For a long time, the only deity worshipped was [Iuz](gods.qmd#iuz) himself. Note: The priests of Iuz were able to cast spells again about 10 years after Iuz’s banishment. Recently, cults of [Grund-Wyrgen](gods.qmd#grund-wyren) and [Nergal](gods.qmd#nergal) have quietly emerged.
+For a long time, the only deity worshipped was [Ixalor](gods.qmd#ixalor) himself. Note: The priests of Ixalor were able to cast spells again about 10 years after Ixalor’s banishment. Recently, cults of [Grund-Wyrgen](gods.qmd#grund-wyren) and [Nergal](gods.qmd#nergal) have quietly emerged.
 
 ### Government
 
-The Empire of Iuz is technically an imperial theocratic dictatorship with demigod Iuz recognized as the supreme ruler. Iuz's priesthood and War Lords manage the affairs of the empire in his name.
+The Empire of Ix is technically an imperial theocratic dictatorship with demigod Ixalor recognized as the supreme ruler. Ixalor's priesthood and War Lords manage the affairs of the empire in his name.
 
 - The mad Baron Numenor “rules” Greenreach.
 - Baron Dorag the Boneshadow is regent in Fleichshriver.
 - Lord Baltab the Immortal Orc governs Barad Perras in Narragor.
 
-The Bandit Lands are loosely allied petty dictatorships, currently “administered” by occupying forces of Iuz. They are usually warlords and mages supposedly in service to Iuz.
+The Bandit Lands are loosely allied petty dictatorships, currently “administered” by occupying forces of Ixalor. They are usually warlords and mages supposedly in service to Ixalor.
 
 The Horned Lands are an area of the Horns of the Dragon made up of Hobgoblins, Goblins, Bugbears, and Ogres. It is ruled by Lord Azarr Kul, Hobgoblin cleric of the cult of Tiamat.
 
@@ -92,15 +92,15 @@ The Horned Lands are an area of the Horns of the Dragon made up of Hobgoblins, G
 
 The coat of arms features a grinning skull on a black field.
 
-![](images/empire_of_iuz.jpg)
+![](images/empire_of_ix.jpg)
 
 ### Climate
 
-Iuz has a cold bleak climate with a great deal of snow and freezing rain. The sun never shines above Dorakaa which is always gloomy and overcast.
+Ixalor has a cold bleak climate with a great deal of snow and freezing rain. The sun never shines above Dorakaa which is always gloomy and overcast.
 
 ### Cities
 
-- Dorakaa, the capital city of the Empire of Iuz
+- Dorakaa, the capital city of the Empire of Ix
 - Fleichshriver
 - Greensreach
 - Stoink
@@ -377,9 +377,9 @@ Volcanic activity makes the climate hot and dry. The weather is extremely unfrie
 
 ### Description
 
-The Kingdom of Nyrond, birthed by the illustrious King Nyr, scion of the legendary Overking Accerak, once stood as a bastion of prosperity amid abundant natural riches. Today, however, Nyrond is a realm rent asunder, its lands scarred by the aftermath of bloody conflicts against the Empire of Iuz and the lawless Bandit Lands. The toll is grim: nearly 60,000 lives lost in battle, with twice that number fleeing in desperation, seeking refuge and livelihoods beyond its borders.
+The Kingdom of Nyrond, birthed by the illustrious King Nyr, scion of the legendary Overking Lord Feal, once stood as a bastion of prosperity amid abundant natural riches. Today, however, Nyrond is a realm rent asunder, its lands scarred by the aftermath of bloody conflicts against the Empire of Ix and the lawless Bandit Lands. The toll is grim: nearly 60,000 lives lost in battle, with twice that number fleeing in desperation, seeking refuge and livelihoods beyond its borders.
 
-Amidst the fractured realm, morale falters among nobles, soldiers, and the commonfolk alike. Hunger grips the populace, pushing some regions to the brink of starvation, while the kingdom's once brimming coffers now echo hollowly. Taxation, necessary to fend off the looming threat of Iuz to the north, has become a crushing burden, stoking rebellious flames among peasants and urban dwellers alike. Streets once vibrant with commerce now teem with destitute souls, their neighborhoods overrun by beggars and urchins, symbols of a kingdom in decline.
+Amidst the fractured realm, morale falters among nobles, soldiers, and the commonfolk alike. Hunger grips the populace, pushing some regions to the brink of starvation, while the kingdom's once brimming coffers now echo hollowly. Taxation, necessary to fend off the looming threat of Ixalor to the north, has become a crushing burden, stoking rebellious flames among peasants and urban dwellers alike. Streets once vibrant with commerce now teem with destitute souls, their neighborhoods overrun by beggars and urchins, symbols of a kingdom in decline.
 
 In the heart of this turmoil lies Nyr’s Gate, where authorities pluck bodies from the ocean, grim testimony to the treacherous currents that run beneath the surface of the kingdom. Refugees huddle in impoverished districts, while trade, once the lifeblood of Nyrond, withers under the weight of uncertainty and strife.
 

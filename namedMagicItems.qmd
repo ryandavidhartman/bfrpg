@@ -170,9 +170,9 @@ This armor gives a +1 bonus to AC and a +3 bonus to Intimidate rolls.
 
 ## Miscellaneous
 
-### Iggwilv’s Circlet of the Abyss
+### Isoma’s Circlet of the Abyss
 
-The witch Iggwilv possesses an especially malignant version of a [Circlet of the Abyss](magicItems.qmd#circlet-of-the-abyss). Iggwilv’s own circlet is a platinum headpiece adorned with sharp inward-facing barbs that securely hold it in place. It emits an aura of evil and has transformative effects on its wearer. The circlet grants the following properties:
+The witch Isoma Ixal possesses an especially malignant version of a [Circlet of the Abyss](magicItems.qmd#circlet-of-the-abyss). Isoma’s own circlet is a platinum headpiece adorned with sharp inward-facing barbs that securely hold it in place. It emits an aura of evil and has transformative effects on its wearer. The circlet grants the following properties:
 
 **Demon Shielding:** Creates an invisible shield-like force around the wearer, negating magic missile attacks and improving the wearer's Armor Class by +3.
 
@@ -204,7 +204,7 @@ This dark hooded lantern glows with a magical blue flame. The lantern sheds brig
 
 The Elves gravely wounded the demon add it fled to the dark caverns in the Ephel Duath to nurse its wounds.
 
-Later, Iuz would attack Imladris and steal the lamp. [Iuz](gods.qmd#iuz) convinced the Demon to serve him, first by threatening it with the light of the Lamp of Amon, and then by giving the spirit the lamp to destroy.
+Later, Ixalor would attack Imladris and steal the lamp. [Ixalor](gods.qmd#ixalor) convinced the Demon to serve him, first by threatening it with the light of the Lamp of Amon, and then by giving the spirit the lamp to destroy.
 
 Any lycanthropes bathed in the bright light are affected. The Light can drive the evil spirit from the newly cursed. Lycanthropes that have been affected for less than one year are instantly cured.
 

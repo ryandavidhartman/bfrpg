@@ -4239,7 +4239,7 @@ Recipients of this spell must be true living creatures; other creatures such as 
 
 ::: {.callout-note icon=false collapse=true}
 
-## Iggwilv’s Mirror Image
+## Isoma’s Mirror Image
 
 Magic-User 2
 
