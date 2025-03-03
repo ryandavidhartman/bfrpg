@@ -2,6 +2,19 @@
 
 <input type="text" id="input" placeholder="Filter Spell">
 
+<div class="spell" data-tag="Activate Portal" id="Activate-Portal">
+## Activate Portal
+ 
+Magic-user 5
+
+Range: 10'
+
+Duration: 1 Round
+
+When the Magic User casts this spell, they open a dimensional doorway between two fixed, familiar locations within OnceWas. The portal is 10 feet wide and 15 feet tall, allowing creatures and objects to pass through freely. The portal remains open for 1 minute, during which time anyone can travel through. Once the spell ends, the portal closes. The spell can only link two specific locations at a time, and the portal is one-way unless recast.
+
+When cast using a spell slot of 6th level or higher, the portal remains open for an additional round per spell level above 5th.
+
 <div class="spell" data-tag="Alarm" id="Alarm">
 ## Alarm
 
@@ -20,7 +33,7 @@ Audible Alarm: An audible alarm produces the sound of a hand bell, and anyone wi
 Incorporeal creatures do not trigger the alarm.
 </div>
 
-<div class="spell" data-tag="Alter Self" id="Aleter-Self">
+<div class="spell" data-tag="Alter Self" id="Alter-Self">
 ## Alter Self
 
 Magic-User 2

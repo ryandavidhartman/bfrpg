@@ -5631,6 +5631,36 @@ With this spell the caster creates an invisible magical “eye” through which 
 # Level 5, Magic-User
 
 ::: {.callout-note icon=false collapse=true}
+
+## Activate Portal
+ 
+Magic-user 5
+
+Range: 10'
+
+Duration: 1 Round
+
+When the Magic User casts this spell, they open a dimensional doorway between two fixed, familiar locations within OnceWas. The portal is 10 feet wide and 15 feet tall, allowing creatures and objects to pass through freely. The portal remains open for 1 minute, during which time anyone can travel through. Once the spell ends, the portal closes. The spell can only link two specific locations at a time, and the portal is one-way unless recast.
+
+When cast using a spell slot of 6th level or higher, the portal remains open for an additional round per spell level above 5th.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
+
+## Animate Dead
+ 
+Cleric 4, Magic-User 5
+
+Range: Touch
+
+Duration: Special
+
+This spell turns the bones or bodies of dead creatures into undead skeletons or zombies that follow the caster's spoken commands. They remain animated until they are destroyed. The caster may animate a number of hit dice of undead equal to twice his or her caster level, and no more. Animated skeletons have hit dice equal to the number the creature had in life; for skeletons of humans or demi-humans, this means one hit die, regardless of the character level of the deceased. Zombies have one more hit die than the creature had in life. An animated skeleton can be created only from a mostly intact skeleton; a zombie can be created only from a mostly intact corpse. The caster must touch the remains to be animated. No character may normally control more hit dice of undead than 4 times his or her level, regardless of how many times this spell is cast.
+
+:::
+
+::: {.callout-note icon=false collapse=true}
  
 ## Animate Dead
  
