@@ -14,9 +14,7 @@ Some text used in the development of this document was retrieved from Wikipedia,
 Here are some tools you might find useful:
 
 - [Monster Index](monstersTab.qmd)
-- [Interactive Tools](appendix_interactive.qmd)
-- [Dungeon Maker](appendixMapmaker.qmd)
-- A simple [Character Sheet](char_sheet.qmd) tool
+- [Interactive Tools](https://tools.oncewasrpg.com/)
 - Another excellent [Character Sheet](https://codex.quest/) tool created by J. Garrett Vorbeck.
 
 This website was created by Ryan Hartman, based on John Atom's (jmhimara) original code.
