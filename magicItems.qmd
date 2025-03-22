@@ -1119,7 +1119,7 @@ If the user is a magic-user or cleric, they can control the undead created as lo
 
 The horn may be used once per day, but no more than 18 hit dice worth of undead creatures created by the horn can exist simultaneously.
 
-### Incense of Oghma
+### Incense of Curumo
 
 Burning a cone of this powerful incense and meditating for 1 hour, enables a spell caster to memorize 3 additional spell levels.
 

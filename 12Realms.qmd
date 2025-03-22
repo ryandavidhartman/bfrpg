@@ -14,7 +14,7 @@ The population numbers about 300,000, of which 85% are human. Of the remaining p
 
 ### Religion
 
-The favored deity is [Marduk](gods.qmd#marduk), god of wind, thunder, and storms, slayer of monsters. The demi-god [Gilgamesh](gods.qmd#gilgamesh), demi-god of strength, is also worshipped.
+The favored deity is [Gaoth](gods.qmd#gaoth), god of wind, thunder, and storms, slayer of monsters. The demi-god [Gilgamesh](gods.qmd#gilgamesh), demi-god of strength, is also worshipped.
 
 ### Government
 
@@ -86,7 +86,7 @@ The Empire of Ix is technically an imperial theocratic dictatorship with demigod
 
 The Bandit Lands are loosely allied petty dictatorships, currently “administered” by occupying forces of Ixalor. They are usually warlords and mages supposedly in service to Ixalor.
 
-The Horned Lands are an area of the Horns of the Dragon made up of Hobgoblins, Goblins, Bugbears, and Ogres. It is ruled by Lord Azarr Kul, Hobgoblin cleric of the cult of Tiamat.
+The Horned Lands are an area of the Horns of the Dragon made up of Hobgoblins, Goblins, Bugbears, and Ogres. It is ruled by Lord Azarr Kul, Hobgoblin cleric of the cult of Xalara.
 
 ### Heraldry
 
@@ -130,7 +130,7 @@ The predominant languages are Common and Arcane. Elven and Ancient are also spok
 
 ### Religion
 
-The favored deity is [Oghma](gods.qmd#oghma), god of knowledge, with [St. Cuthbert](gods.qmd#cuthbert), the demi-god of wisdom, dedication, and zeal, as a demigod.
+The favored deity is [Curumo](gods.qmd#curumo), god of knowledge, with [St. Cuthbert](gods.qmd#cuthbert), the demi-god of wisdom, dedication, and zeal, as a demigod.
 
 ### Government
 
@@ -170,7 +170,7 @@ Dwarven (Underspeak) is the predominant language. Common is also spoken.
 
 ### Religion
 
-The favored deity is [Goibhnie](gods.qmd#goibhnie), god of hard work and of the earth, with [Hanseath](gods.qmd#hanseath), the demi-god of war and beer, as a demigod.
+The favored deity is [Dobhainn](gods.qmd#dobhainn), god of hard work and of the earth, with [Hanseath](gods.qmd#hanseath), the demi-god of war and beer, as a demigod.
 
 ### Government
 

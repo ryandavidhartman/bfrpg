@@ -28,13 +28,13 @@ _Centuries passed like rivers flowing to the sea, and memories of Lord Feall, th
 
 - These gods aided men, showing them how to forge and harness magic.
 
-- Tiamat spreads terror across the land served by the first necromancer - Urikel Zarl. Urikel distinguished himself by slaying dozens of Metallic dragons over the years. He delighted in resurrecting them as undead servants to his Queen’s cause. Tiamat rewarded her loyal servant by transforming him into a lich, so that Urikel could serve her for eternity as the Ghostlord.
+- Xalara spreads terror across the land served by the first necromancer - Urikel Zarl. Urikel distinguished himself by slaying dozens of Metallic dragons over the years. He delighted in resurrecting them as undead servants to his Queen’s cause. Xalara rewarded her loyal servant by transforming him into a lich, so that Urikel could serve her for eternity as the Ghostlord.
 
-- The Age of Dragons ends with Marduk slaying Tiamat. He fatally wounded her on Lonely Hill and she died in the Veronian Mountains.
+- The Age of Dragons ends with Gaoth slaying Xalara. He fatally wounded her on Lonely Hill and she died in the Veronian Mountains.
 
 ### The Age of Men
 
-- **Year 1 AoM**: The Age of Man begins with the birth of Lord Feall and the death of Tiamat.
+- **Year 1 AoM**: The Age of Man begins with the birth of Lord Feall and the death of Xalara.
 
 - **Year 5 AoM**: Galadriel becomes Elven Queen of Imladris.
 
@@ -50,7 +50,7 @@ _Centuries passed like rivers flowing to the sea, and memories of Lord Feall, th
 
 - **Year 85 AoM**: The dwarves build Drell’s Keep and mine Lonely Hill.
 
-- **Year 90 AoM**: Drell’s Keep and the mines beneath it fall. The Dwarves succumbed to the curse of Tiamat’s greed and slayed each other. Gishigan the Great, a wizard from the north, seals off the mines.
+- **Year 90 AoM**: Drell’s Keep and the mines beneath it fall. The Dwarves succumbed to the curse of Xalara’s greed and slayed each other. Gishigan the Great, a wizard from the north, seals off the mines.
 
 - **Year 100 AoM**: Lord Feall’s armies spread across the OnceWas. Lord Feall is declared the OverKing. An age of enlightenment begins. The Great Kingdom is born.
 
@@ -140,7 +140,7 @@ _Centuries passed like rivers flowing to the sea, and memories of Lord Feall, th
 
 - **Year 550 AoM**: The first plague decimates Dunnador and Glantri.
 
-- **Year 650 AoM**: Hobgoblin cults to Tiamat rise up in the Dunatis Mountains.
+- **Year 650 AoM**: Hobgoblin cults to Xalara rise up in the Dunatis Mountains.
 
 - **Year 570 AoM**: Lynwerd of Aerdi becomes King of Nyrond.
 

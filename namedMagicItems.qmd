@@ -81,8 +81,8 @@ This elven morning star +1, if the wielder scores a critical hit on a natural ro
 ### King Maker
 This elven great axe +1 allows the character once during an encounter to inspire all members within a 20-foot radius to gain a +1 to both their next attack and a +1 to damage.
 
-### Javelin of Marduk
-The Javelin of Marduk becomes a bolt of lightning when hurled by a cleric of Marduk. Should this happen, creatures within a five-foot-wide line between the cleric and the target have to make a saving throw vs. wands or suffer 4d6 lightning damage.
+### Javelin of Gaoth
+The Javelin of Gaoth becomes a bolt of lightning when hurled by a cleric of Gaoth. Should this happen, creatures within a five-foot-wide line between the cleric and the target have to make a saving throw vs. wands or suffer 4d6 lightning damage.
 
 ### Mace of Disruption
 This appears to be a mace +1, but it has a good alignment, and any evil character touching it will receive 2d4 points of damage due to the powerful enchantments laid upon the weapon. If a mace of disruption strikes an undead creature it may utterly destroy the creature.
