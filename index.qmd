@@ -1,8 +1,10 @@
 # Preface {.unnumbered}
 
-Copyright and Usage Notice
-
 This document is Ryan Hartman’s homebrew version of Old School Dungeons & Dragons. All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for personal, non-commercial use only.
+
+![Old School D&D](./images/preface)
+
+Copyright and Usage Notice
 
 Portions of this work make fair use of copyrighted material owned by third parties, including game rules, terminology, and excerpts derived from purchased products. Such use is made under the provisions of Section 107 of the U.S. Copyright Act (Title 17, U.S. Code), which permits limited use of copyrighted works for purposes such as commentary, education, and fan creation. These materials are included solely for non-commercial, transformative purposes, with no intent to infringe upon or compete with the rights holders.
 
