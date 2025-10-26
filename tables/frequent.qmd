@@ -1,4 +1,4 @@
-# Useful Tables
+# Frquently Used Tables
 
 ## Attack Bonus Table 
 | Fighter Level | Cleric or Thief Level | Magic-User Level | Monster Hit Dice | Attack Bonus |

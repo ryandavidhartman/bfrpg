@@ -57,17 +57,20 @@ book:
         - gm02.qmd
         - treasure.qmd
         - randomMagicItems.qmd
-    - part: The World of OnceWas
+    - part: The World of Greyhawk
       chapters:
         - 12Realms.qmd
         - history.qmd
         - gods.qmd
-        - planes.qmd 
+        - planes.qmd
+    - part: Tables
+      chapters: 
+        - tables/npcs.qmd     
     - part: Appendix
       chapters:
         - appendix_interactive.qmd
         - char_sheet.qmd
-        - handyTables.qmd
+        - tables/frequent.qmd
 
 format:
   html:

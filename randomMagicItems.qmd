@@ -19,7 +19,7 @@ viewof form = Inputs.form(
     button1: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any</button>`, {value: 0, 
         reduce: () => highlightTableRow("#armor-weapon-table", 
             generalTableSelect([1,100,0],[[1,25],[26,35],[36,55],[56,85],[86,90],[91,95],[96,100]]))}),
-    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">Weapoon or Armor</button>`, {value: 0, 
+    button2: Inputs.button(html`<button style="color: black; background-color: lightgray;">Weapon or Armor</button>`, {value: 0, 
         reduce: () => highlightTableRow("#armor-weapon-table", 
             generalTableSelect([1,100,0],[[1,70], [71,100]]))}),
     button3: Inputs.button(html`<button style="color: black; background-color: lightgray;">Any Except Weapon</button>`, {value: 0, 

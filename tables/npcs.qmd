@@ -1,0 +1,28 @@
+## NPCs
+
+### Ancestry
+
+:::{#ancestry-table}
+
+| **d%** | **Ancestry** |
+|--------|--------------|
+| 01-50  | Human        |
+| 51-60  | Half-Elf     |
+| 61-70  | Elf          |
+| 71-80  | Dwarf        |
+| 81-90  | Halfling     |
+| 91-95  | Half-orc     |
+| 96-97  | Goblin       |
+| 98-00  | Gnome        |
+
+```{ojs}
+import {generalTableSelect, highlightTableRow} from "../custom.js"
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#ancestry-table", 
+generalTableSelect([1,100,0],[[1,50],[51,60],[61,70],[71,80],[81,90],[91,95],[96,97],[98,100]]))})
+
+```
+
+:::
