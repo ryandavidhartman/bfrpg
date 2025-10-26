@@ -1,22 +1,11 @@
 # Preface {.unnumbered}
 
-This is Jack Frank's homebrew version of the Basic Fantasy Role Playing Game, tailored for his Wistful World of OnceWas campaign. For the original game by Chris Gonnerman, please refer to the [Basic Fantasy Role-Playing Game](https://www.basicfantasy.org) website.
+Copyright and Usage Notice
 
-All textual materials in this document, as well as all maps, floorplans, diagrams, charts, and forms included herein, are distributed under the terms of the Creative Commons Attribution-ShareAlike 4.0 International License. Most other artwork presented is property of the original artist and is used with permission. Note that you may not publish or otherwise distribute this work as is without permission of the original artists; you must remove all non-licensed artwork before doing so. The full license text can be viewed at:
+This document is Ryan Hartman’s homebrew version of Old School Dungeons & Dragons. All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for personal, non-commercial use only.
 
-https://creativecommons.org/licenses/by-sa/4.0/
+Portions of this work make fair use of copyrighted material owned by third parties, including game rules, terminology, and excerpts derived from purchased products. Such use is made under the provisions of Section 107 of the U.S. Copyright Act (Title 17, U.S. Code), which permits limited use of copyrighted works for purposes such as commentary, education, and fan creation. These materials are included solely for non-commercial, transformative purposes, with no intent to infringe upon or compete with the rights holders.
 
-Some text used in the development of this document was retrieved from Wikipedia, and was originally licensed under the Creative Commons Attribution-ShareAlike 3.0 license.
-
-
-![](./images/Ylleh.png){fig-align="center"}
-
-Here are some tools you might find useful:
-
-- [Monster Index](monstersTab.qmd)
-- [Interactive Tools](https://tools.oncewasrpg.com/)
-- Another excellent [Character Sheet](https://codex.quest/) tool created by J. Garrett Vorbeck.
+No part of this work may be sold, redistributed, or republished for profit. Users may adapt or share excerpts for personal use only, provided that attribution to the original author (Ryan Hartman) is retained.
 
 This website was created by Ryan Hartman, based on John Atom's (jmhimara) original code.
-
-All code and unique content on this site are also distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License**.

@@ -19,19 +19,19 @@ function generalDice(n,d,m){
 function rollAbilityScore() {
   // Roll 4 six-sided dice
   let rolls = [];
-  for (let i = 0; i < 4; i++) {
+  for (let i = 0; i < 3; i++) {
       rolls.push(generalDice(1, 6, 0));
   }
   
-  // Reroll any 1's until we get a value higher than 1
-  for (let i = 0; i < rolls.length; i++) {
-      while (rolls[i] === 1) {
-          rolls[i] = generalDice(1, 6, 0);
-      }
-  }
+  // // Reroll any 1's until we get a value higher than 1
+  // for (let i = 0; i < rolls.length; i++) {
+  //     while (rolls[i] === 1) {
+  //         rolls[i] = generalDice(1, 6, 0);
+  //     }
+  // }
   
   // Sort the rolls in descending order
-  rolls.sort((a, b) => b - a);
+  //rolls.sort((a, b) => b - a);
   
   // Sum the highest 3 values
   let sum = 0;
