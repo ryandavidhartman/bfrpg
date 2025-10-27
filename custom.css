@@ -68,3 +68,6 @@ thead {
 .monster {
   width: 100%;
 }
+
+.matrix-firstcol-shade th:first-child,
+.matrix-firstcol-shade td:first-child { background-color: rgba(0,0,0,0.02); font-weight: 600; }

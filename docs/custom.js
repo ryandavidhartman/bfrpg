@@ -497,6 +497,147 @@ export function highlightTableCell(table, r, c) {
   //console.log(cells[c])
 }
 
+// Returns the chosen value plus zero-based matrix coordinates
+export function generalMatrixSelect(rowDice, colDice, matrix) {
+  const rowRoll = generalDice(rowDice[0], rowDice[1], rowDice[2]); // e.g., d3
+  const colRoll = generalDice(colDice[0], colDice[1], colDice[2]); // e.g., d3
+
+  const rowIndex = Math.min(Math.max(rowRoll - 1, 0), matrix.length - 1);
+  const colIndex = Math.min(Math.max(colRoll - 1, 0), matrix[0].length - 1);
+
+  return {
+    value: matrix[rowIndex][colIndex],
+    rowIndex,
+    colIndex
+  };
+}
+
+// Highlights a specific matrix cell in a Markdown-rendered table.
+// Matches the green color of normal table highlights (myHighlighted)
+export function highlightMatrixCell(tableSelector, rowIndex, colIndex) {
+  const table = document.querySelector(tableSelector);
+  if (!table) return;
+
+  // Inject CSS once
+  const STYLE_ID = "matrix-highlight-style";
+  if (!document.getElementById(STYLE_ID)) {
+    const style = document.createElement("style");
+    style.id = STYLE_ID;
+    style.textContent = `
+      .matrix-cell-highlight {
+        background-color: #97B29B !important; /* same green as .myHighlighted */
+        outline: 2px solid #2e8b57;
+        transition: background-color 150ms ease-in;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // Remove previous matrix highlights
+  table.querySelectorAll(".matrix-cell-highlight").forEach(el =>
+    el.classList.remove("matrix-cell-highlight")
+  );
+
+  // Map matrix coords → DOM coords (skip header and row labels)
+  const domRow = rowIndex + 1;
+  const domCol = colIndex + 1;
+
+  const rows = table.querySelectorAll("tr");
+  const targetRow = rows[domRow];
+  if (!targetRow) return;
+
+  const cells = targetRow.querySelectorAll("th, td");
+  const targetCell = cells[domCol];
+  if (!targetCell) return;
+
+  targetCell.classList.add("matrix-cell-highlight");
+}
+
+
+// Extracts the matrix of values from a Markdown-rendered table.
+// Assumes first row = header and first column = row labels.
+export function readMatrixFromTable(tableSelector) {
+  const table = document.querySelector(tableSelector);
+  if (!table) return [];
+
+  const rows = Array.from(table.querySelectorAll("tr"));
+  if (rows.length < 2) return [];
+
+  const matrix = [];
+  for (let r = 1; r < rows.length; r++) {
+    const cells = Array.from(rows[r].querySelectorAll("th, td"));
+    // ignore the first column (row labels)
+    const rowValues = cells.slice(1).map(c => c.textContent.trim());
+    matrix.push(rowValues);
+  }
+  return matrix;
+}
+
+// Rolls once per row and highlights one cell per row (for multi-column tables)
+export function selectRowPairs(tableSelector, rowDice, matrix) {
+  const results = [];
+  const table = document.querySelector(tableSelector);
+  if (!table) return results;
+
+  // clear any old highlights
+  table.querySelectorAll(".matrix-cell-highlight").forEach(el => {
+    el.classList.remove("matrix-cell-highlight");
+  });
+
+  for (let r = 0; r < matrix.length; r++) {
+    const colRoll = generalDice(rowDice[0], rowDice[1], rowDice[2]);
+    const colIndex = Math.min(Math.max(colRoll - 1, 0), matrix[r].length - 1);
+    results.push(matrix[r][colIndex]);
+
+    // add highlight
+    const domRow = r + 1; // skip header
+    const domCol = colIndex + 1; // skip first label col
+    const rows = table.querySelectorAll("tr");
+    const cells = rows[domRow].querySelectorAll("th, td");
+    if (cells[domCol]) cells[domCol].classList.add("matrix-cell-highlight");
+  }
+  return results;
+}
+
+// Highlight multiple matrix cells at once (no clearing between each add)
+export function highlightMatrixCellsMulti(tableSelector, selections) {
+  const table = document.querySelector(tableSelector);
+  if (!table) return;
+
+  // ensure highlight CSS exists (same green you’re using elsewhere)
+  const STYLE_ID = "matrix-highlight-style";
+  if (!document.getElementById(STYLE_ID)) {
+    const style = document.createElement("style");
+    style.id = STYLE_ID;
+    style.textContent = `
+      .matrix-cell-highlight {
+        background-color: ##97B29B !important;
+        outline: 2px solid #2e8b57;
+        transition: background-color 150ms ease-in;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // clear any previous highlights for this table
+  table.querySelectorAll(".matrix-cell-highlight")
+    .forEach(el => el.classList.remove("matrix-cell-highlight"));
+
+  // apply all highlights
+  const rows = table.querySelectorAll("tr");
+  selections.forEach(({ rowIndex, colIndex }) => {
+    const domRow = rowIndex + 1;   // skip header row
+    const domCol = colIndex + 1;   // skip label column
+    const targetRow = rows[domRow];
+    if (!targetRow) return;
+    const cells = targetRow.querySelectorAll("th, td");
+    const cell = cells[domCol];
+    if (cell) cell.classList.add("matrix-cell-highlight");
+  });
+}
+
+
+
 export function calculateModifier (stat) {
   switch (stat) {
     case 3:

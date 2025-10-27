@@ -26,3 +26,130 @@ generalTableSelect([1,100,0],[[1,50],[51,60],[61,70],[71,80],[81,90],[91,95],[96
 ```
 
 :::
+
+### Age
+
+:::{#age-table}
+
+| **d8** | **Age**        |
+|--------|----------------|
+| 1      | Child          |
+| 2      | Adolescent     |
+| 3–4    | Adult          |
+| 5–6    | Middle-Aged    |
+| 7      | Elderly        |
+| 8      | Ancient        |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Age</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([1,8,0], [
+        [1,1],
+        [2,2],
+        [3,4],
+        [5,6],
+        [7,7],
+        [8,8]
+      ]);
+      highlightTableRow("#age-table", result);
+      return ["Child", "Adolescent", "Adult", "Middle-Aged", "Elderly", "Ancient"][result - 1];
+    }
+  }
+)
+```
+:::
+
+
+### Alignment
+
+:::{#alignment-matrix .matrix-firstcol-shade}
+
+| **d3,d3** | Lawful     | Neutral     | Chaotic      |
+|-----------|------------|-------------|--------------|
+| Good      | Crusader   | Benefactor  | Rebel        |
+| Neutral   | Judge      | Neutral     | Free Spirit  |
+| Evil      | Dominator  | Malefactor  | Destroyer    |
+
+```{ojs}
+import { generalMatrixSelect, highlightMatrixCell, readMatrixFromTable, shadeMatrixFirstColumn } from "../custom.js"
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Alignment</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const matrix = readMatrixFromTable("#alignment-matrix");
+      const res = generalMatrixSelect([1,3,0], [1,3,0], matrix);
+      highlightMatrixCell("#alignment-matrix", res.rowIndex, res.colIndex);
+      return res.value;
+    }
+  }
+)
+```
+
+:::
+
+### Wealth
+
+:::{#wealth-table}
+
+| **d6** | **Wealth**     |
+|--------|----------------|
+| 1      | Poor           |
+| 2–3    | Standard       |
+| 4–5    | Wealthy        |
+| 6      | Extravagant    |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Wealth</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([1,6,0], [
+        [1,1],
+        [2,3],
+        [4,5],
+        [6,6]
+      ]);
+      highlightTableRow("#wealth-table", result);
+      return ["Poor", "Standard", "Wealthy", "Extravagant"][result - 1];
+    }
+  }
+)
+```
+:::
+
+### Occupation
+
+:::{#occupation-matrix}
+
+| **d4,d4** | 1            | 2            | 3          | 4           |
+|------------|--------------|--------------|------------|-------------|
+| 1          | Gravedigger  | Carpenter    | Scholar    | Blacksmith  |
+| 2          | Tax Collector| Farmer       | Bartender  | Beggar      |
+| 3          | Baker        | Cook         | Sailor     | Butcher     |
+| 4          | Locksmith    | Cobbler      | Friar/Nun  | Merchant    |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Occupation</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const matrix = readMatrixFromTable("#occupation-matrix");
+      const res = generalMatrixSelect([1,4,0], [1,4,0], matrix);
+      highlightMatrixCell("#occupation-matrix", res.rowIndex, res.colIndex);
+      return res.value;
+    }
+  }
+)
+```
+:::
+

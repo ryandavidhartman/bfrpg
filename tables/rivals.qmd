@@ -1,0 +1,333 @@
+## Rivals
+
+A rival party of Adventures has **1d4+1** members.  All are of the same alignment.
+
+### Ancestry
+
+:::{#ancestry-table}
+
+| **d%** | **Ancestry** |
+|--------|--------------|
+| 01-50  | Human        |
+| 51-60  | Half-Elf     |
+| 61-70  | Elf          |
+| 71-80  | Dwarf        |
+| 81-90  | Halfling     |
+| 91-95  | Half-orc     |
+| 96-97  | Goblin       |
+| 98-00  | Gnome        |
+
+```{ojs}
+import {generalTableSelect, highlightTableRow} from "../custom.js"
+
+Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, 
+{value: 0, 
+reduce: () => highlightTableRow("#ancestry-table", 
+generalTableSelect([1,100,0],[[1,50],[51,60],[61,70],[71,80],[81,90],[91,95],[96,97],[98,100]]))})
+
+```
+
+:::
+
+### Party Alignment
+
+:::{#alignment-matrix .matrix-firstcol-shade}
+
+| **d3,d3** | Lawful      | Neutral     | Chaotic      |
+|-----------|-------------|-------------|--------------|
+| Good      | Crusaders   | Benefactor  | Rebels       |
+| Neutral   | Judges      | Neutrals    | Free Spirits |
+| Evil      | Dominators  | Malefactors | Destroyers   |
+
+```{ojs}
+import { generalMatrixSelect, highlightMatrixCell, readMatrixFromTable, shadeMatrixFirstColumn } from "../custom.js"
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Alignment</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const matrix = readMatrixFromTable("#alignment-matrix");
+      const res = generalMatrixSelect([1,3,0], [1,3,0], matrix);
+      highlightMatrixCell("#alignment-matrix", res.rowIndex, res.colIndex);
+      return res.value;
+    }
+  }
+)
+```
+
+:::
+
+### Class
+
+:::{#class-table}
+
+| **d8** | **Class**          |
+|--------|--------------------|
+| 1      | Assassin or Paladin |
+| 2      | Cleric             |
+| 3      | Druid              |
+| 4      | Fighter            |
+| 5      | Illusionist        |
+| 6      | Magic-User         |
+| 7      | Ranger             |
+| 8      | Thief              |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Class</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([1,8,0], [
+        [1,1],
+        [2,2],
+        [3,3],
+        [4,4],
+        [5,5],
+        [6,6],
+        [7,7],
+        [8,8]
+      ]);
+      highlightTableRow("#class-table", result);
+      return [
+        "Assassin or Paladin",
+        "Cleric",
+        "Druid",
+        "Fighter",
+        "Illusionist",
+        "Magic-User",
+        "Ranger",
+        "Thief"
+      ][result - 1];
+    }
+  }
+)
+```
+:::
+
+### Party Renown
+
+:::{#renown-table}
+
+| **d6** | **Party Renown**     |
+|--------|----------------------|
+| 1      | Unknown              |
+| 2–3    | Locally known        |
+| 4–5    | Widely recognized    |
+| 6      | Extremely famous     |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Party Renown</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([1,6,0], [
+        [1,1],
+        [2,3],
+        [4,5],
+        [6,6]
+      ]);
+      highlightTableRow("#renown-table", result);
+      return [
+        "Unknown",
+        "Locally known",
+        "Widely recognized",
+        "Extremely famous"
+      ][result - 1];
+    }
+  }
+)
+```
+:::
+
+### Party Secret
+
+:::{#party-secret-table}
+
+| **2d6** | **Party Secret**                |
+|---------|----------------------------------|
+| 2       | Betrayed an oath                |
+| 3       | False or stolen identities      |
+| 4       | Owes a debt to the Thieves’ Guild |
+| 5       | One member is secretly cursed   |
+| 6       | Map to a lost or forbidden treasure |
+| 7       | Possesses a stolen relic        |
+| 8       | On the run from the law         |
+| 9       | Under a magical geas or binding |
+| 10      | Serves a hidden cult or cabal   |
+| 11      | Has angered a local noble or wizard |
+| 12      | Protected (or controlled) by a powerful patron |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Party Secret</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([2,6,0], [
+        [2,2],
+        [3,3],
+        [4,4],
+        [5,5],
+        [6,6],
+        [7,7],
+        [8,8],
+        [9,9],
+        [10,10],
+        [11,11],
+        [12,12]
+      ]);
+      highlightTableRow("#party-secret-table", result);
+      return [
+        "Betrayed an oath",
+        "False or stolen identities",
+        "Owes a debt to the Thieves’ Guild",
+        "One member is secretly cursed",
+        "Map to a lost or forbidden treasure",
+        "Possesses a stolen relic",
+        "On the run from the law",
+        "Under a magical geas or binding",
+        "Serves a hidden cult or cabal",
+        "Has angered a local noble or wizard",
+        "Protected (or controlled) by a powerful patron"
+      ][result - 1];
+    }
+  }
+)
+```
+:::
+
+### Party Wealth
+
+:::{#party-wealth-table }
+
+| **d6** | **Party Wealth**  |
+|--------|-------------------|
+| 1      | Poor              |
+| 2–4    | Standard          |
+| 5      | Wealthy           |
+| 6      | Extravagant       |
+
+```{ojs}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Party Wealth</button>`,
+  {
+    value: "",
+    reduce: () => {
+      const result = generalTableSelect([1,6,0], [
+        [1,1],
+        [2,4],
+        [5,5],
+        [6,6]
+      ]);
+      highlightTableRow("#party-wealth-table", result);
+      return ["Poor", "Standard", "Wealthy", "Extravagant"][result - 1];
+    }
+  }
+)
+```
+:::
+
+### Party Name
+
+:::{#party-name-matrix}
+
+| **d20** | **Name 1**      | **Name 2**     | **Known For...**              |
+|:-------:|-----------------|----------------|-------------------------------|
+| 1       | The Savage      | Wardens        | Defeating a dragon            |
+| 2       | The Steel       | Skulls         | Specializing in undead        |
+| 3       | The Icy         | Guardians      | Zealous worship of a god      |
+| 4       | Hell's          | Hammers        | Slaying a two-headed ogre     |
+| 5       | The Dread       | Rangers        | Going missing for a year      |
+| 6       | The Marvelous   | Explorers      | Taking monster trophies       |
+| 7       | The Flaming     | Moon           | Setting taverns on fire       |
+| 8       | The Lone        | Wolves         | Their signature clothing      |
+| 9       | The Noble       | Delvers        | Brashness and arrogance       |
+| 10      | The Mighty      | Dawn           | A disastrous expedition       |
+| 11      | The Iron        | Drakes         | Dabbling in evil magic        |
+| 12      | The Devil's     | Miscreants     | Their frenzied admirers       |
+| 13      | The Emerald     | Scimitars      | Serving in a brutal war       |
+| 14      | The Vigilant    | Storm          | Large gambling debts          |
+| 15      | The Lightless   | Trackers       | Their pet lion                |
+| 16      | The Forest      | Oath           | Surviving the fall of Korint  |
+| 17      | Death's         | Sentinels      | Finding a legendary sword     |
+| 18      | The Dark        | Lions          | Spying on other crawlers      |
+| 19      | The Thundering  | Knights        | Defeating a necromancer       |
+| 20      | The Divine      | Hunters        | Poaching treasure finds       |
+
+```{ojs}
+import { generalDice } from "../custom.js"
+
+function rollPartyName3(tableSel) {
+  const matrix = readMatrixFromTable(tableSel);   // rows: [Name1, Name2, KnownFor]
+  if (!matrix || !matrix.length) return "";
+
+  const clamp = (n) => Math.min(Math.max(n, 0), matrix.length - 1);
+
+  // Three independent d20 rolls
+  const r1 = clamp(generalDice(1, 20, 0) - 1); // Name1
+  const r2 = clamp(generalDice(1, 20, 0) - 1); // Name2
+  const r3 = clamp(generalDice(1, 20, 0) - 1); // Known For
+
+  // --- Highlight selected cells ---
+  const host = document.querySelector(tableSel);
+  if (host) {
+    const table = host.querySelector("table");
+    if (table) {
+      // inject highlight CSS once
+      const STYLE_ID = "matrix-highlight-style";
+      if (!document.getElementById(STYLE_ID)) {
+        const style = document.createElement("style");
+        style.id = STYLE_ID;
+        style.textContent = `
+          .matrix-cell-highlight {
+            background-color: #97B29B !important;
+            outline: 2px solid #2e8b57;
+            transition: background-color 150ms ease-in;
+          }
+        `;
+        document.head.appendChild(style);
+      }
+
+      // clear previous highlights
+      table.querySelectorAll(".matrix-cell-highlight")
+           .forEach(el => el.classList.remove("matrix-cell-highlight"));
+
+      const rows = table.querySelectorAll("tr");
+      const addHL = (rowIndex, colIndex) => {
+        const domRow = rowIndex + 1; // skip header
+        const domCol = colIndex + 1; // skip d20 label
+        const row = rows[domRow];
+        if (!row) return;
+        const cells = row.querySelectorAll("th, td");
+        const cell = cells[domCol];
+        if (cell) cell.classList.add("matrix-cell-highlight");
+      };
+
+      // highlight Name1, Name2, KnownFor
+      addHL(r1, 0);
+      addHL(r2, 1);
+      addHL(r3, 2);
+    }
+  }
+  // ---------------------------------
+
+  // Return composed party name
+  return `${matrix[r1][0]} ${matrix[r2][1]} — ${matrix[r3][2]}`;
+}
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Party Name (3×d20)</button>`,
+  {
+    value: "",
+    reduce: () => rollPartyName3("#party-name-matrix")
+  }
+)
+```
+:::

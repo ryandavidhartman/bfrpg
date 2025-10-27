@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Old School D&amp;D - 38&nbsp; Rivals</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../appendix_interactive.html" rel="next">
+<link href="../tables/npcs.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
+
+
+<link rel="stylesheet" href="../custom.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tables/npcs.html">Tables</a></li><li class="breadcrumb-item"><a href="../tables/rivals.html"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Rivals</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Old School D&amp;D</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../whatIsThis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Player Characters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../char-creation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Character Creation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../abilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Character Abilities</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../races.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Character Races</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../class.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Character Classes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../multiClass.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Multi Class Options</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../skills.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Skills</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../feats.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Feats</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hitPoints.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Hit Points</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../languages.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../equipment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Equipment</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../vehicles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Vehicles</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Magic</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../spells.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Spells</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../allSpells.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Spells, Alphabetical</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Adventure</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../dungeonAdventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Dungeon Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../wildAdventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Wilderness Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hirelings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Hirelings</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../advancement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Advancement</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text">Encounters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../combatOverview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Combat Overview</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../combatDetails.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Combat Details</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../savingThrows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Saving Throws</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../healingAndInjuries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Healing and Injuries</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../senses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Senses</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text">Monsters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monsters.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Monsters Intro</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monstersAll.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Monster Descriptions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monstersTab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Monsters Index</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Magical Items</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../magicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Magical Items</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../namedMagicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Named Magic Items</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text">DM Information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gm01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Managing Encounters</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gm02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../treasure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Treasure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../randomMagicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Random Magical Treasure</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text">The World of Greyhawk</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../12Realms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">The Twelve Realms</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../history.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">History</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Gods, Demons, and other Immortals</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../planes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">Planes of Existence</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text">Tables</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/npcs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">NPCs</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/rivals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Rivals</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix_interactive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Interactive tools</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../char_sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Character Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/frequent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Frquently Used Tables</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#ancestry" id="toc-ancestry" class="nav-link active" data-scroll-target="#ancestry">Ancestry</a></li>
+  <li><a href="#party-alignment" id="toc-party-alignment" class="nav-link" data-scroll-target="#party-alignment">Party Alignment</a></li>
+  <li><a href="#class" id="toc-class" class="nav-link" data-scroll-target="#class">Class</a></li>
+  <li><a href="#party-renown" id="toc-party-renown" class="nav-link" data-scroll-target="#party-renown">Party Renown</a></li>
+  <li><a href="#party-secret" id="toc-party-secret" class="nav-link" data-scroll-target="#party-secret">Party Secret</a></li>
+  <li><a href="#party-wealth" id="toc-party-wealth" class="nav-link" data-scroll-target="#party-wealth">Party Wealth</a></li>
+  <li><a href="#party-name" id="toc-party-name" class="nav-link" data-scroll-target="#party-name">Party Name</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tables/npcs.html">Tables</a></li><li class="breadcrumb-item"><a href="../tables/rivals.html"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Rivals</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Rivals</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>A rival party of Adventures has <strong>1d4+1</strong> members. All are of the same alignment.</p>
+<section id="ancestry" class="level3">
+<h3 class="anchored" data-anchor-id="ancestry">Ancestry</h3>
+<div id="ancestry-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Ancestry</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01-50</td>
+<td>Human</td>
+</tr>
+<tr class="even">
+<td>51-60</td>
+<td>Half-Elf</td>
+</tr>
+<tr class="odd">
+<td>61-70</td>
+<td>Elf</td>
+</tr>
+<tr class="even">
+<td>71-80</td>
+<td>Dwarf</td>
+</tr>
+<tr class="odd">
+<td>81-90</td>
+<td>Halfling</td>
+</tr>
+<tr class="even">
+<td>91-95</td>
+<td>Half-orc</td>
+</tr>
+<tr class="odd">
+<td>96-97</td>
+<td>Goblin</td>
+</tr>
+<tr class="even">
+<td>98-00</td>
+<td>Gnome</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="21" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 20;"><span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect<span class="op">,</span> highlightTableRow} <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> </span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>{<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> </span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRow</span>(<span class="st">"#ancestry-table"</span><span class="op">,</span> </span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">50</span>]<span class="op">,</span>[<span class="dv">51</span><span class="op">,</span><span class="dv">60</span>]<span class="op">,</span>[<span class="dv">61</span><span class="op">,</span><span class="dv">70</span>]<span class="op">,</span>[<span class="dv">71</span><span class="op">,</span><span class="dv">80</span>]<span class="op">,</span>[<span class="dv">81</span><span class="op">,</span><span class="dv">90</span>]<span class="op">,</span>[<span class="dv">91</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span>[<span class="dv">96</span><span class="op">,</span><span class="dv">97</span>]<span class="op">,</span>[<span class="dv">98</span><span class="op">,</span><span class="dv">100</span>]]))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="party-alignment" class="level3">
+<h3 class="anchored" data-anchor-id="party-alignment">Party Alignment</h3>
+<div id="alignment-matrix" class="matrix-firstcol-shade">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d3,d3</strong></th>
+<th>Lawful</th>
+<th>Neutral</th>
+<th>Chaotic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Good</td>
+<td>Crusaders</td>
+<td>Benefactor</td>
+<td>Rebels</td>
+</tr>
+<tr class="even">
+<td>Neutral</td>
+<td>Judges</td>
+<td>Neutrals</td>
+<td>Free Spirits</td>
+</tr>
+<tr class="odd">
+<td>Evil</td>
+<td>Dominators</td>
+<td>Malefactors</td>
+<td>Destroyers</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="43" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 42;"><span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalMatrixSelect<span class="op">,</span> highlightMatrixCell<span class="op">,</span> readMatrixFromTable<span class="op">,</span> shadeMatrixFirstColumn } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Alignment&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#alignment-matrix"</span>)<span class="op">;</span></span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> res <span class="op">=</span> <span class="fu">generalMatrixSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [<span class="dv">1</span><span class="op">,</span><span class="dv">3</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> matrix)<span class="op">;</span></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightMatrixCell</span>(<span class="st">"#alignment-matrix"</span><span class="op">,</span> res<span class="op">.</span><span class="at">rowIndex</span><span class="op">,</span> res<span class="op">.</span><span class="at">colIndex</span>)<span class="op">;</span></span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> res<span class="op">.</span><span class="at">value</span><span class="op">;</span></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="class" class="level3">
+<h3 class="anchored" data-anchor-id="class">Class</h3>
+<div id="class-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d8</strong></th>
+<th><strong>Class</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Assassin or Paladin</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Cleric</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Druid</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fighter</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Illusionist</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Magic-User</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Ranger</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Thief</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="76" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 75;"><span id="cb3-76"><a href="#cb3-76" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb3-77"><a href="#cb3-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Class&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb3-78"><a href="#cb3-78" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb3-79"><a href="#cb3-79" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb3-80"><a href="#cb3-80" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb3-81"><a href="#cb3-81" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">8</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb3-82"><a href="#cb3-82" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb3-83"><a href="#cb3-83" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span></span>
+<span id="cb3-84"><a href="#cb3-84" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">3</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span></span>
+<span id="cb3-85"><a href="#cb3-85" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">4</span><span class="op">,</span><span class="dv">4</span>]<span class="op">,</span></span>
+<span id="cb3-86"><a href="#cb3-86" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">5</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span></span>
+<span id="cb3-87"><a href="#cb3-87" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">6</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span></span>
+<span id="cb3-88"><a href="#cb3-88" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">7</span><span class="op">,</span><span class="dv">7</span>]<span class="op">,</span></span>
+<span id="cb3-89"><a href="#cb3-89" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">8</span><span class="op">,</span><span class="dv">8</span>]</span>
+<span id="cb3-90"><a href="#cb3-90" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb3-91"><a href="#cb3-91" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#class-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb3-92"><a href="#cb3-92" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb3-93"><a href="#cb3-93" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Assassin or Paladin"</span><span class="op">,</span></span>
+<span id="cb3-94"><a href="#cb3-94" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Cleric"</span><span class="op">,</span></span>
+<span id="cb3-95"><a href="#cb3-95" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Druid"</span><span class="op">,</span></span>
+<span id="cb3-96"><a href="#cb3-96" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Fighter"</span><span class="op">,</span></span>
+<span id="cb3-97"><a href="#cb3-97" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Illusionist"</span><span class="op">,</span></span>
+<span id="cb3-98"><a href="#cb3-98" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Magic-User"</span><span class="op">,</span></span>
+<span id="cb3-99"><a href="#cb3-99" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Ranger"</span><span class="op">,</span></span>
+<span id="cb3-100"><a href="#cb3-100" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Thief"</span></span>
+<span id="cb3-101"><a href="#cb3-101" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb3-102"><a href="#cb3-102" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-103"><a href="#cb3-103" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-104"><a href="#cb3-104" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="party-renown" class="level3">
+<h3 class="anchored" data-anchor-id="party-renown">Party Renown</h3>
+<div id="renown-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d6</strong></th>
+<th><strong>Party Renown</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Unknown</td>
+</tr>
+<tr class="even">
+<td>2–3</td>
+<td>Locally known</td>
+</tr>
+<tr class="odd">
+<td>4–5</td>
+<td>Widely recognized</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Extremely famous</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="121" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 120;"><span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Party Renown&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">2</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span></span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">4</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span></span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">6</span><span class="op">,</span><span class="dv">6</span>]</span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#renown-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Unknown"</span><span class="op">,</span></span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Locally known"</span><span class="op">,</span></span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Widely recognized"</span><span class="op">,</span></span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Extremely famous"</span></span>
+<span id="cb4-138"><a href="#cb4-138" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb4-139"><a href="#cb4-139" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="party-secret" class="level3">
+<h3 class="anchored" data-anchor-id="party-secret">Party Secret</h3>
+<div id="party-secret-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>2d6</strong></th>
+<th><strong>Party Secret</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Betrayed an oath</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>False or stolen identities</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Owes a debt to the Thieves’ Guild</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>One member is secretly cursed</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Map to a lost or forbidden treasure</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Possesses a stolen relic</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>On the run from the law</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Under a magical geas or binding</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Serves a hidden cult or cabal</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Has angered a local noble or wizard</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Protected (or controlled) by a powerful patron</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="165" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 164;"><span id="cb5-165"><a href="#cb5-165" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb5-166"><a href="#cb5-166" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Party Secret&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb5-167"><a href="#cb5-167" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb5-168"><a href="#cb5-168" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb5-169"><a href="#cb5-169" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb5-170"><a href="#cb5-170" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb5-171"><a href="#cb5-171" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span></span>
+<span id="cb5-172"><a href="#cb5-172" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">3</span><span class="op">,</span><span class="dv">3</span>]<span class="op">,</span></span>
+<span id="cb5-173"><a href="#cb5-173" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">4</span><span class="op">,</span><span class="dv">4</span>]<span class="op">,</span></span>
+<span id="cb5-174"><a href="#cb5-174" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">5</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span></span>
+<span id="cb5-175"><a href="#cb5-175" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">6</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span></span>
+<span id="cb5-176"><a href="#cb5-176" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">7</span><span class="op">,</span><span class="dv">7</span>]<span class="op">,</span></span>
+<span id="cb5-177"><a href="#cb5-177" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">8</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span></span>
+<span id="cb5-178"><a href="#cb5-178" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">9</span><span class="op">,</span><span class="dv">9</span>]<span class="op">,</span></span>
+<span id="cb5-179"><a href="#cb5-179" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">10</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb5-180"><a href="#cb5-180" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">11</span>]<span class="op">,</span></span>
+<span id="cb5-181"><a href="#cb5-181" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">12</span><span class="op">,</span><span class="dv">12</span>]</span>
+<span id="cb5-182"><a href="#cb5-182" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb5-183"><a href="#cb5-183" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#party-secret-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb5-184"><a href="#cb5-184" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb5-185"><a href="#cb5-185" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Betrayed an oath"</span><span class="op">,</span></span>
+<span id="cb5-186"><a href="#cb5-186" aria-hidden="true" tabindex="-1"></a>        <span class="st">"False or stolen identities"</span><span class="op">,</span></span>
+<span id="cb5-187"><a href="#cb5-187" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Owes a debt to the Thieves’ Guild"</span><span class="op">,</span></span>
+<span id="cb5-188"><a href="#cb5-188" aria-hidden="true" tabindex="-1"></a>        <span class="st">"One member is secretly cursed"</span><span class="op">,</span></span>
+<span id="cb5-189"><a href="#cb5-189" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Map to a lost or forbidden treasure"</span><span class="op">,</span></span>
+<span id="cb5-190"><a href="#cb5-190" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Possesses a stolen relic"</span><span class="op">,</span></span>
+<span id="cb5-191"><a href="#cb5-191" aria-hidden="true" tabindex="-1"></a>        <span class="st">"On the run from the law"</span><span class="op">,</span></span>
+<span id="cb5-192"><a href="#cb5-192" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Under a magical geas or binding"</span><span class="op">,</span></span>
+<span id="cb5-193"><a href="#cb5-193" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Serves a hidden cult or cabal"</span><span class="op">,</span></span>
+<span id="cb5-194"><a href="#cb5-194" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Has angered a local noble or wizard"</span><span class="op">,</span></span>
+<span id="cb5-195"><a href="#cb5-195" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Protected (or controlled) by a powerful patron"</span></span>
+<span id="cb5-196"><a href="#cb5-196" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb5-197"><a href="#cb5-197" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb5-198"><a href="#cb5-198" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-199"><a href="#cb5-199" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-5" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="party-wealth" class="level3">
+<h3 class="anchored" data-anchor-id="party-wealth">Party Wealth</h3>
+<div id="party-wealth-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d6</strong></th>
+<th><strong>Party Wealth</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Poor</td>
+</tr>
+<tr class="even">
+<td>2–4</td>
+<td>Standard</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Wealthy</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Extravagant</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="216" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 215;"><span id="cb6-216"><a href="#cb6-216" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb6-217"><a href="#cb6-217" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Party Wealth&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb6-218"><a href="#cb6-218" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb6-219"><a href="#cb6-219" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb6-220"><a href="#cb6-220" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb6-221"><a href="#cb6-221" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb6-222"><a href="#cb6-222" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb6-223"><a href="#cb6-223" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">2</span><span class="op">,</span><span class="dv">4</span>]<span class="op">,</span></span>
+<span id="cb6-224"><a href="#cb6-224" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">5</span><span class="op">,</span><span class="dv">5</span>]<span class="op">,</span></span>
+<span id="cb6-225"><a href="#cb6-225" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">6</span><span class="op">,</span><span class="dv">6</span>]</span>
+<span id="cb6-226"><a href="#cb6-226" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb6-227"><a href="#cb6-227" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#party-wealth-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb6-228"><a href="#cb6-228" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [<span class="st">"Poor"</span><span class="op">,</span> <span class="st">"Standard"</span><span class="op">,</span> <span class="st">"Wealthy"</span><span class="op">,</span> <span class="st">"Extravagant"</span>][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb6-229"><a href="#cb6-229" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-230"><a href="#cb6-230" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-231"><a href="#cb6-231" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-6" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="party-name" class="level3">
+<h3 class="anchored" data-anchor-id="party-name">Party Name</h3>
+<div id="party-name-matrix">
+<table class="table">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 23%">
+<col style="width: 21%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>d20</strong></th>
+<th><strong>Name 1</strong></th>
+<th><strong>Name 2</strong></th>
+<th><strong>Known For…</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>The Savage</td>
+<td>Wardens</td>
+<td>Defeating a dragon</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>The Steel</td>
+<td>Skulls</td>
+<td>Specializing in undead</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>The Icy</td>
+<td>Guardians</td>
+<td>Zealous worship of a god</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td>Hell’s</td>
+<td>Hammers</td>
+<td>Slaying a two-headed ogre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td>The Dread</td>
+<td>Rangers</td>
+<td>Going missing for a year</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>The Marvelous</td>
+<td>Explorers</td>
+<td>Taking monster trophies</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td>The Flaming</td>
+<td>Moon</td>
+<td>Setting taverns on fire</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td>The Lone</td>
+<td>Wolves</td>
+<td>Their signature clothing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td>The Noble</td>
+<td>Delvers</td>
+<td>Brashness and arrogance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td>The Mighty</td>
+<td>Dawn</td>
+<td>A disastrous expedition</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td>The Iron</td>
+<td>Drakes</td>
+<td>Dabbling in evil magic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td>The Devil’s</td>
+<td>Miscreants</td>
+<td>Their frenzied admirers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td>The Emerald</td>
+<td>Scimitars</td>
+<td>Serving in a brutal war</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td>The Vigilant</td>
+<td>Storm</td>
+<td>Large gambling debts</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td>The Lightless</td>
+<td>Trackers</td>
+<td>Their pet lion</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td>The Forest</td>
+<td>Oath</td>
+<td>Surviving the fall of Korint</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">17</td>
+<td>Death’s</td>
+<td>Sentinels</td>
+<td>Finding a legendary sword</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">18</td>
+<td>The Dark</td>
+<td>Lions</td>
+<td>Spying on other crawlers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">19</td>
+<td>The Thundering</td>
+<td>Knights</td>
+<td>Defeating a necromancer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">20</td>
+<td>The Divine</td>
+<td>Hunters</td>
+<td>Poaching treasure finds</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="265" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 264;"><span id="cb7-265"><a href="#cb7-265" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalDice } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb7-266"><a href="#cb7-266" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-267"><a href="#cb7-267" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">rollPartyName3</span>(tableSel) {</span>
+<span id="cb7-268"><a href="#cb7-268" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(tableSel)<span class="op">;</span>   <span class="co">// rows: [Name1, Name2, KnownFor]</span></span>
+<span id="cb7-269"><a href="#cb7-269" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="op">!</span>matrix <span class="op">||</span> <span class="op">!</span>matrix<span class="op">.</span><span class="at">length</span>) <span class="cf">return</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb7-270"><a href="#cb7-270" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-271"><a href="#cb7-271" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> clamp <span class="op">=</span> (n) <span class="kw">=&gt;</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">min</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>(n<span class="op">,</span> <span class="dv">0</span>)<span class="op">,</span> matrix<span class="op">.</span><span class="at">length</span> <span class="op">-</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb7-272"><a href="#cb7-272" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-273"><a href="#cb7-273" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Three independent d20 rolls</span></span>
+<span id="cb7-274"><a href="#cb7-274" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> r1 <span class="op">=</span> <span class="fu">clamp</span>(<span class="fu">generalDice</span>(<span class="dv">1</span><span class="op">,</span> <span class="dv">20</span><span class="op">,</span> <span class="dv">0</span>) <span class="op">-</span> <span class="dv">1</span>)<span class="op">;</span> <span class="co">// Name1</span></span>
+<span id="cb7-275"><a href="#cb7-275" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> r2 <span class="op">=</span> <span class="fu">clamp</span>(<span class="fu">generalDice</span>(<span class="dv">1</span><span class="op">,</span> <span class="dv">20</span><span class="op">,</span> <span class="dv">0</span>) <span class="op">-</span> <span class="dv">1</span>)<span class="op">;</span> <span class="co">// Name2</span></span>
+<span id="cb7-276"><a href="#cb7-276" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> r3 <span class="op">=</span> <span class="fu">clamp</span>(<span class="fu">generalDice</span>(<span class="dv">1</span><span class="op">,</span> <span class="dv">20</span><span class="op">,</span> <span class="dv">0</span>) <span class="op">-</span> <span class="dv">1</span>)<span class="op">;</span> <span class="co">// Known For</span></span>
+<span id="cb7-277"><a href="#cb7-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-278"><a href="#cb7-278" aria-hidden="true" tabindex="-1"></a>  <span class="co">// --- Highlight selected cells ---</span></span>
+<span id="cb7-279"><a href="#cb7-279" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> host <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(tableSel)<span class="op">;</span></span>
+<span id="cb7-280"><a href="#cb7-280" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (host) {</span>
+<span id="cb7-281"><a href="#cb7-281" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> table <span class="op">=</span> host<span class="op">.</span><span class="fu">querySelector</span>(<span class="st">"table"</span>)<span class="op">;</span></span>
+<span id="cb7-282"><a href="#cb7-282" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (table) {</span>
+<span id="cb7-283"><a href="#cb7-283" aria-hidden="true" tabindex="-1"></a>      <span class="co">// inject highlight CSS once</span></span>
+<span id="cb7-284"><a href="#cb7-284" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> STYLE_ID <span class="op">=</span> <span class="st">"matrix-highlight-style"</span><span class="op">;</span></span>
+<span id="cb7-285"><a href="#cb7-285" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (<span class="op">!</span><span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(STYLE_ID)) {</span>
+<span id="cb7-286"><a href="#cb7-286" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> style <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">createElement</span>(<span class="st">"style"</span>)<span class="op">;</span></span>
+<span id="cb7-287"><a href="#cb7-287" aria-hidden="true" tabindex="-1"></a>        style<span class="op">.</span><span class="at">id</span> <span class="op">=</span> STYLE_ID<span class="op">;</span></span>
+<span id="cb7-288"><a href="#cb7-288" aria-hidden="true" tabindex="-1"></a>        style<span class="op">.</span><span class="at">textContent</span> <span class="op">=</span> <span class="vs">`</span></span>
+<span id="cb7-289"><a href="#cb7-289" aria-hidden="true" tabindex="-1"></a><span class="vs">          .matrix-cell-highlight {</span></span>
+<span id="cb7-290"><a href="#cb7-290" aria-hidden="true" tabindex="-1"></a><span class="vs">            background-color: #97B29B !important;</span></span>
+<span id="cb7-291"><a href="#cb7-291" aria-hidden="true" tabindex="-1"></a><span class="vs">            outline: 2px solid #2e8b57;</span></span>
+<span id="cb7-292"><a href="#cb7-292" aria-hidden="true" tabindex="-1"></a><span class="vs">            transition: background-color 150ms ease-in;</span></span>
+<span id="cb7-293"><a href="#cb7-293" aria-hidden="true" tabindex="-1"></a><span class="vs">          }</span></span>
+<span id="cb7-294"><a href="#cb7-294" aria-hidden="true" tabindex="-1"></a><span class="vs">        `</span><span class="op">;</span></span>
+<span id="cb7-295"><a href="#cb7-295" aria-hidden="true" tabindex="-1"></a>        <span class="bu">document</span><span class="op">.</span><span class="at">head</span><span class="op">.</span><span class="fu">appendChild</span>(style)<span class="op">;</span></span>
+<span id="cb7-296"><a href="#cb7-296" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb7-297"><a href="#cb7-297" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-298"><a href="#cb7-298" aria-hidden="true" tabindex="-1"></a>      <span class="co">// clear previous highlights</span></span>
+<span id="cb7-299"><a href="#cb7-299" aria-hidden="true" tabindex="-1"></a>      table<span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">".matrix-cell-highlight"</span>)</span>
+<span id="cb7-300"><a href="#cb7-300" aria-hidden="true" tabindex="-1"></a>           <span class="op">.</span><span class="fu">forEach</span>(el <span class="kw">=&gt;</span> el<span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">remove</span>(<span class="st">"matrix-cell-highlight"</span>))<span class="op">;</span></span>
+<span id="cb7-301"><a href="#cb7-301" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-302"><a href="#cb7-302" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> rows <span class="op">=</span> table<span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"tr"</span>)<span class="op">;</span></span>
+<span id="cb7-303"><a href="#cb7-303" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> addHL <span class="op">=</span> (rowIndex<span class="op">,</span> colIndex) <span class="kw">=&gt;</span> {</span>
+<span id="cb7-304"><a href="#cb7-304" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> domRow <span class="op">=</span> rowIndex <span class="op">+</span> <span class="dv">1</span><span class="op">;</span> <span class="co">// skip header</span></span>
+<span id="cb7-305"><a href="#cb7-305" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> domCol <span class="op">=</span> colIndex <span class="op">+</span> <span class="dv">1</span><span class="op">;</span> <span class="co">// skip d20 label</span></span>
+<span id="cb7-306"><a href="#cb7-306" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> row <span class="op">=</span> rows[domRow]<span class="op">;</span></span>
+<span id="cb7-307"><a href="#cb7-307" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (<span class="op">!</span>row) <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb7-308"><a href="#cb7-308" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> cells <span class="op">=</span> row<span class="op">.</span><span class="fu">querySelectorAll</span>(<span class="st">"th, td"</span>)<span class="op">;</span></span>
+<span id="cb7-309"><a href="#cb7-309" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> cell <span class="op">=</span> cells[domCol]<span class="op">;</span></span>
+<span id="cb7-310"><a href="#cb7-310" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (cell) cell<span class="op">.</span><span class="at">classList</span><span class="op">.</span><span class="fu">add</span>(<span class="st">"matrix-cell-highlight"</span>)<span class="op">;</span></span>
+<span id="cb7-311"><a href="#cb7-311" aria-hidden="true" tabindex="-1"></a>      }<span class="op">;</span></span>
+<span id="cb7-312"><a href="#cb7-312" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-313"><a href="#cb7-313" aria-hidden="true" tabindex="-1"></a>      <span class="co">// highlight Name1, Name2, KnownFor</span></span>
+<span id="cb7-314"><a href="#cb7-314" aria-hidden="true" tabindex="-1"></a>      <span class="fu">addHL</span>(r1<span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-315"><a href="#cb7-315" aria-hidden="true" tabindex="-1"></a>      <span class="fu">addHL</span>(r2<span class="op">,</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb7-316"><a href="#cb7-316" aria-hidden="true" tabindex="-1"></a>      <span class="fu">addHL</span>(r3<span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb7-317"><a href="#cb7-317" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-318"><a href="#cb7-318" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-319"><a href="#cb7-319" aria-hidden="true" tabindex="-1"></a>  <span class="co">// ---------------------------------</span></span>
+<span id="cb7-320"><a href="#cb7-320" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-321"><a href="#cb7-321" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Return composed party name</span></span>
+<span id="cb7-322"><a href="#cb7-322" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> <span class="vs">`</span><span class="sc">${</span>matrix[r1][<span class="dv">0</span>]<span class="sc">}</span><span class="vs"> </span><span class="sc">${</span>matrix[r2][<span class="dv">1</span>]<span class="sc">}</span><span class="vs"> — </span><span class="sc">${</span>matrix[r3][<span class="dv">2</span>]<span class="sc">}</span><span class="vs">`</span><span class="op">;</span></span>
+<span id="cb7-323"><a href="#cb7-323" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb7-324"><a href="#cb7-324" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-325"><a href="#cb7-325" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb7-326"><a href="#cb7-326" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Party Name (3×d20)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb7-327"><a href="#cb7-327" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb7-328"><a href="#cb7-328" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb7-329"><a href="#cb7-329" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">rollPartyName3</span>(<span class="st">"#party-name-matrix"</span>)</span>
+<span id="cb7-330"><a href="#cb7-330" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-331"><a href="#cb7-331" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-7-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7Z2VuZXJhbFRhYmxlU2VsZWN0LCBoaWdobGlnaHRUYWJsZVJvd30gZnJvbSBcIi4uL2N1c3RvbS5qc1wiXG5cbklucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxue3ZhbHVlOiAwLCBcbnJlZHVjZTogKCkgPT4gaGlnaGxpZ2h0VGFibGVSb3coXCIjYW5jZXN0cnktdGFibGVcIiwgXG5nZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLFtbMSw1MF0sWzUxLDYwXSxbNjEsNzBdLFs3MSw4MF0sWzgxLDkwXSxbOTEsOTVdLFs5Niw5N10sWzk4LDEwMF1dKSl9KVxuXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJpbXBvcnQgeyBnZW5lcmFsTWF0cml4U2VsZWN0LCBoaWdobGlnaHRNYXRyaXhDZWxsLCByZWFkTWF0cml4RnJvbVRhYmxlLCBzaGFkZU1hdHJpeEZpcnN0Q29sdW1uIH0gZnJvbSBcIi4uL2N1c3RvbS5qc1wiXG5cbklucHV0cy5idXR0b24oXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgQWxpZ25tZW50PC9idXR0b24+YCxcbiAge1xuICAgIHZhbHVlOiBcIlwiLFxuICAgIHJlZHVjZTogKCkgPT4ge1xuICAgICAgY29uc3QgbWF0cml4ID0gcmVhZE1hdHJpeEZyb21UYWJsZShcIiNhbGlnbm1lbnQtbWF0cml4XCIpO1xuICAgICAgY29uc3QgcmVzID0gZ2VuZXJhbE1hdHJpeFNlbGVjdChbMSwzLDBdLCBbMSwzLDBdLCBtYXRyaXgpO1xuICAgICAgaGlnaGxpZ2h0TWF0cml4Q2VsbChcIiNhbGlnbm1lbnQtbWF0cml4XCIsIHJlcy5yb3dJbmRleCwgcmVzLmNvbEluZGV4KTtcbiAgICAgIHJldHVybiByZXMudmFsdWU7XG4gICAgfVxuICB9XG4pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTMiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgQ2xhc3M8L2J1dHRvbj5gLFxuICB7XG4gICAgdmFsdWU6IFwiXCIsXG4gICAgcmVkdWNlOiAoKSA9PiB7XG4gICAgICBjb25zdCByZXN1bHQgPSBnZW5lcmFsVGFibGVTZWxlY3QoWzEsOCwwXSwgW1xuICAgICAgICBbMSwxXSxcbiAgICAgICAgWzIsMl0sXG4gICAgICAgIFszLDNdLFxuICAgICAgICBbNCw0XSxcbiAgICAgICAgWzUsNV0sXG4gICAgICAgIFs2LDZdLFxuICAgICAgICBbNyw3XSxcbiAgICAgICAgWzgsOF1cbiAgICAgIF0pO1xuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjY2xhc3MtdGFibGVcIiwgcmVzdWx0KTtcbiAgICAgIHJldHVybiBbXG4gICAgICAgIFwiQXNzYXNzaW4gb3IgUGFsYWRpblwiLFxuICAgICAgICBcIkNsZXJpY1wiLFxuICAgICAgICBcIkRydWlkXCIsXG4gICAgICAgIFwiRmlnaHRlclwiLFxuICAgICAgICBcIklsbHVzaW9uaXN0XCIsXG4gICAgICAgIFwiTWFnaWMtVXNlclwiLFxuICAgICAgICBcIlJhbmdlclwiLFxuICAgICAgICBcIlRoaWVmXCJcbiAgICAgIF1bcmVzdWx0IC0gMV07XG4gICAgfVxuICB9XG4pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgUGFydHkgUmVub3duPC9idXR0b24+YCxcbiAge1xuICAgIHZhbHVlOiBcIlwiLFxuICAgIHJlZHVjZTogKCkgPT4ge1xuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDYsMF0sIFtcbiAgICAgICAgWzEsMV0sXG4gICAgICAgIFsyLDNdLFxuICAgICAgICBbNCw1XSxcbiAgICAgICAgWzYsNl1cbiAgICAgIF0pO1xuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjcmVub3duLXRhYmxlXCIsIHJlc3VsdCk7XG4gICAgICByZXR1cm4gW1xuICAgICAgICBcIlVua25vd25cIixcbiAgICAgICAgXCJMb2NhbGx5IGtub3duXCIsXG4gICAgICAgIFwiV2lkZWx5IHJlY29nbml6ZWRcIixcbiAgICAgICAgXCJFeHRyZW1lbHkgZmFtb3VzXCJcbiAgICAgIF1bcmVzdWx0IC0gMV07XG4gICAgfVxuICB9XG4pXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcbklucHV0cy5idXR0b24oXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgUGFydHkgU2VjcmV0PC9idXR0b24+YCxcbiAge1xuICAgIHZhbHVlOiBcIlwiLFxuICAgIHJlZHVjZTogKCkgPT4ge1xuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsyLDYsMF0sIFtcbiAgICAgICAgWzIsMl0sXG4gICAgICAgIFszLDNdLFxuICAgICAgICBbNCw0XSxcbiAgICAgICAgWzUsNV0sXG4gICAgICAgIFs2LDZdLFxuICAgICAgICBbNyw3XSxcbiAgICAgICAgWzgsOF0sXG4gICAgICAgIFs5LDldLFxuICAgICAgICBbMTAsMTBdLFxuICAgICAgICBbMTEsMTFdLFxuICAgICAgICBbMTIsMTJdXG4gICAgICBdKTtcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI3BhcnR5LXNlY3JldC10YWJsZVwiLCByZXN1bHQpO1xuICAgICAgcmV0dXJuIFtcbiAgICAgICAgXCJCZXRyYXllZCBhbiBvYXRoXCIsXG4gICAgICAgIFwiRmFsc2Ugb3Igc3RvbGVuIGlkZW50aXRpZXNcIixcbiAgICAgICAgXCJPd2VzIGEgZGVidCB0byB0aGUgVGhpZXZlc+KAmSBHdWlsZFwiLFxuICAgICAgICBcIk9uZSBtZW1iZXIgaXMgc2VjcmV0bHkgY3Vyc2VkXCIsXG4gICAgICAgIFwiTWFwIHRvIGEgbG9zdCBvciBmb3JiaWRkZW4gdHJlYXN1cmVcIixcbiAgICAgICAgXCJQb3NzZXNzZXMgYSBzdG9sZW4gcmVsaWNcIixcbiAgICAgICAgXCJPbiB0aGUgcnVuIGZyb20gdGhlIGxhd1wiLFxuICAgICAgICBcIlVuZGVyIGEgbWFnaWNhbCBnZWFzIG9yIGJpbmRpbmdcIixcbiAgICAgICAgXCJTZXJ2ZXMgYSBoaWRkZW4gY3VsdCBvciBjYWJhbFwiLFxuICAgICAgICBcIkhhcyBhbmdlcmVkIGEgbG9jYWwgbm9ibGUgb3Igd2l6YXJkXCIsXG4gICAgICAgIFwiUHJvdGVjdGVkIChvciBjb250cm9sbGVkKSBieSBhIHBvd2VyZnVsIHBhdHJvblwiXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xuICAgIH1cbiAgfVxuKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC02IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXG5JbnB1dHMuYnV0dG9uKFxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIFBhcnR5IFdlYWx0aDwvYnV0dG9uPmAsXG4gIHtcbiAgICB2YWx1ZTogXCJcIixcbiAgICByZWR1Y2U6ICgpID0+IHtcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSw2LDBdLCBbXG4gICAgICAgIFsxLDFdLFxuICAgICAgICBbMiw0XSxcbiAgICAgICAgWzUsNV0sXG4gICAgICAgIFs2LDZdXG4gICAgICBdKTtcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI3BhcnR5LXdlYWx0aC10YWJsZVwiLCByZXN1bHQpO1xuICAgICAgcmV0dXJuIFtcIlBvb3JcIiwgXCJTdGFuZGFyZFwiLCBcIldlYWx0aHlcIiwgXCJFeHRyYXZhZ2FudFwiXVtyZXN1bHQgLSAxXTtcbiAgICB9XG4gIH1cbilcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtNyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGdlbmVyYWxEaWNlIH0gZnJvbSBcIi4uL2N1c3RvbS5qc1wiXG5cbmZ1bmN0aW9uIHJvbGxQYXJ0eU5hbWUzKHRhYmxlU2VsKSB7XG4gIGNvbnN0IG1hdHJpeCA9IHJlYWRNYXRyaXhGcm9tVGFibGUodGFibGVTZWwpOyAgIC8vIHJvd3M6IFtOYW1lMSwgTmFtZTIsIEtub3duRm9yXVxuICBpZiAoIW1hdHJpeCB8fCAhbWF0cml4Lmxlbmd0aCkgcmV0dXJuIFwiXCI7XG5cbiAgY29uc3QgY2xhbXAgPSAobikgPT4gTWF0aC5taW4oTWF0aC5tYXgobiwgMCksIG1hdHJpeC5sZW5ndGggLSAxKTtcblxuICAvLyBUaHJlZSBpbmRlcGVuZGVudCBkMjAgcm9sbHNcbiAgY29uc3QgcjEgPSBjbGFtcChnZW5lcmFsRGljZSgxLCAyMCwgMCkgLSAxKTsgLy8gTmFtZTFcbiAgY29uc3QgcjIgPSBjbGFtcChnZW5lcmFsRGljZSgxLCAyMCwgMCkgLSAxKTsgLy8gTmFtZTJcbiAgY29uc3QgcjMgPSBjbGFtcChnZW5lcmFsRGljZSgxLCAyMCwgMCkgLSAxKTsgLy8gS25vd24gRm9yXG5cbiAgLy8gLS0tIEhpZ2hsaWdodCBzZWxlY3RlZCBjZWxscyAtLS1cbiAgY29uc3QgaG9zdCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IodGFibGVTZWwpO1xuICBpZiAoaG9zdCkge1xuICAgIGNvbnN0IHRhYmxlID0gaG9zdC5xdWVyeVNlbGVjdG9yKFwidGFibGVcIik7XG4gICAgaWYgKHRhYmxlKSB7XG4gICAgICAvLyBpbmplY3QgaGlnaGxpZ2h0IENTUyBvbmNlXG4gICAgICBjb25zdCBTVFlMRV9JRCA9IFwibWF0cml4LWhpZ2hsaWdodC1zdHlsZVwiO1xuICAgICAgaWYgKCFkb2N1bWVudC5nZXRFbGVtZW50QnlJZChTVFlMRV9JRCkpIHtcbiAgICAgICAgY29uc3Qgc3R5bGUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KFwic3R5bGVcIik7XG4gICAgICAgIHN0eWxlLmlkID0gU1RZTEVfSUQ7XG4gICAgICAgIHN0eWxlLnRleHRDb250ZW50ID0gYFxuICAgICAgICAgIC5tYXRyaXgtY2VsbC1oaWdobGlnaHQge1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzk3QjI5QiAhaW1wb3J0YW50O1xuICAgICAgICAgICAgb3V0bGluZTogMnB4IHNvbGlkICMyZThiNTc7XG4gICAgICAgICAgICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDE1MG1zIGVhc2UtaW47XG4gICAgICAgICAgfVxuICAgICAgICBgO1xuICAgICAgICBkb2N1bWVudC5oZWFkLmFwcGVuZENoaWxkKHN0eWxlKTtcbiAgICAgIH1cblxuICAgICAgLy8gY2xlYXIgcHJldmlvdXMgaGlnaGxpZ2h0c1xuICAgICAgdGFibGUucXVlcnlTZWxlY3RvckFsbChcIi5tYXRyaXgtY2VsbC1oaWdobGlnaHRcIilcbiAgICAgICAgICAgLmZvckVhY2goZWwgPT4gZWwuY2xhc3NMaXN0LnJlbW92ZShcIm1hdHJpeC1jZWxsLWhpZ2hsaWdodFwiKSk7XG5cbiAgICAgIGNvbnN0IHJvd3MgPSB0YWJsZS5xdWVyeVNlbGVjdG9yQWxsKFwidHJcIik7XG4gICAgICBjb25zdCBhZGRITCA9IChyb3dJbmRleCwgY29sSW5kZXgpID0+IHtcbiAgICAgICAgY29uc3QgZG9tUm93ID0gcm93SW5kZXggKyAxOyAvLyBza2lwIGhlYWRlclxuICAgICAgICBjb25zdCBkb21Db2wgPSBjb2xJbmRleCArIDE7IC8vIHNraXAgZDIwIGxhYmVsXG4gICAgICAgIGNvbnN0IHJvdyA9IHJvd3NbZG9tUm93XTtcbiAgICAgICAgaWYgKCFyb3cpIHJldHVybjtcbiAgICAgICAgY29uc3QgY2VsbHMgPSByb3cucXVlcnlTZWxlY3RvckFsbChcInRoLCB0ZFwiKTtcbiAgICAgICAgY29uc3QgY2VsbCA9IGNlbGxzW2RvbUNvbF07XG4gICAgICAgIGlmIChjZWxsKSBjZWxsLmNsYXNzTGlzdC5hZGQoXCJtYXRyaXgtY2VsbC1oaWdobGlnaHRcIik7XG4gICAgICB9O1xuXG4gICAgICAvLyBoaWdobGlnaHQgTmFtZTEsIE5hbWUyLCBLbm93bkZvclxuICAgICAgYWRkSEwocjEsIDApO1xuICAgICAgYWRkSEwocjIsIDEpO1xuICAgICAgYWRkSEwocjMsIDIpO1xuICAgIH1cbiAgfVxuICAvLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1cblxuICAvLyBSZXR1cm4gY29tcG9zZWQgcGFydHkgbmFtZVxuICByZXR1cm4gYCR7bWF0cml4W3IxXVswXX0gJHttYXRyaXhbcjJdWzFdfSDigJQgJHttYXRyaXhbcjNdWzJdfWA7XG59XG5cbklucHV0cy5idXR0b24oXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgUGFydHkgTmFtZSAoM8OXZDIwKTwvYnV0dG9uPmAsXG4gIHtcbiAgICB2YWx1ZTogXCJcIixcbiAgICByZWR1Y2U6ICgpID0+IHJvbGxQYXJ0eU5hbWUzKFwiI3BhcnR5LW5hbWUtbWF0cml4XCIpXG4gIH1cbilcbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../tables";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../tables/npcs.html" class="pagination-link" aria-label="NPCs">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">NPCs</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../appendix_interactive.html" class="pagination-link" aria-label="Interactive tools">
+        <span class="nav-page-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Interactive tools</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

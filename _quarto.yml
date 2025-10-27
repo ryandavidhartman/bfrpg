@@ -65,7 +65,8 @@ book:
         - planes.qmd
     - part: Tables
       chapters: 
-        - tables/npcs.qmd     
+        - tables/npcs.qmd
+        - tables/rivals.qmd     
     - part: Appendix
       chapters:
         - appendix_interactive.qmd
