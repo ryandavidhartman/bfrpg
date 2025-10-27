@@ -262,72 +262,25 @@ Inputs.button(
 | 20      | The Divine      | Hunters        | Poaching treasure finds       |
 
 ```{ojs}
-import { generalDice } from "../custom.js"
-
-function rollPartyName3(tableSel) {
-  const matrix = readMatrixFromTable(tableSel);   // rows: [Name1, Name2, KnownFor]
-  if (!matrix || !matrix.length) return "";
-
-  const clamp = (n) => Math.min(Math.max(n, 0), matrix.length - 1);
-
-  // Three independent d20 rolls
-  const r1 = clamp(generalDice(1, 20, 0) - 1); // Name1
-  const r2 = clamp(generalDice(1, 20, 0) - 1); // Name2
-  const r3 = clamp(generalDice(1, 20, 0) - 1); // Known For
-
-  // --- Highlight selected cells ---
-  const host = document.querySelector(tableSel);
-  if (host) {
-    const table = host.querySelector("table");
-    if (table) {
-      // inject highlight CSS once
-      const STYLE_ID = "matrix-highlight-style";
-      if (!document.getElementById(STYLE_ID)) {
-        const style = document.createElement("style");
-        style.id = STYLE_ID;
-        style.textContent = `
-          .matrix-cell-highlight {
-            background-color: #97B29B !important;
-            outline: 2px solid #2e8b57;
-            transition: background-color 150ms ease-in;
-          }
-        `;
-        document.head.appendChild(style);
-      }
-
-      // clear previous highlights
-      table.querySelectorAll(".matrix-cell-highlight")
-           .forEach(el => el.classList.remove("matrix-cell-highlight"));
-
-      const rows = table.querySelectorAll("tr");
-      const addHL = (rowIndex, colIndex) => {
-        const domRow = rowIndex + 1; // skip header
-        const domCol = colIndex + 1; // skip d20 label
-        const row = rows[domRow];
-        if (!row) return;
-        const cells = row.querySelectorAll("th, td");
-        const cell = cells[domCol];
-        if (cell) cell.classList.add("matrix-cell-highlight");
-      };
-
-      // highlight Name1, Name2, KnownFor
-      addHL(r1, 0);
-      addHL(r2, 1);
-      addHL(r3, 2);
-    }
-  }
-  // ---------------------------------
-
-  // Return composed party name
-  return `${matrix[r1][0]} ${matrix[r2][1]} — ${matrix[r3][2]}`;
-}
+import { rollIndependentColumns } from "../custom.js"
 
 Inputs.button(
-  html`<button style="color:black;background-color:lightgray;">Roll Party Name (3×d20)</button>`,
-  {
-    value: "",
-    reduce: () => rollPartyName3("#party-name-matrix")
-  }
+html`<button style="color:black; background-color:lightgray;">
+    Roll Party Name</button>`,
+{
+value: "",
+reduce: () => {
+// columns 0,1,2 for [Name1, Name2, Known For]
+const { values } = rollIndependentColumns(
+"#party-name-matrix",
+[0, 1, 2],
+[[1, 20, 0], [1, 20, 0], [1, 20, 0]]
+);
+
+
+  return `${values[0]} ${values[1]} — ${values[2]}`;
+}
+}
 )
 ```
 :::

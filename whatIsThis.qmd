@@ -1,36 +1,44 @@
 # Introduction
 
-![](./images/odd_company.jpg)
+The Divine Scimitars and the Tomb of Endless Wagers
 
-*It was our first expedition into Drell's cursed mine in the undercity beneath Minas Ithil. We stood before the ancient chamber doors, where legend spoke of untold riches corrupted by the malevolent blood of Xalara. I had scoffed at the tales whispered in the shadowy corners of the city, but Harbek, the stalwart dwarf, believed every word.*
+![](./images/DivineScimitars.png)
 
-*Evron, the enigmatic magic-user, studied the intricate runes etched into the door. "These runes bear ancient magic," he murmured, his voice tinged with curiosity rather than fear. "They seem to ward against trespassers."*
+The torches sputtered in the damp corridor as Vakesh ran a hand along the carved wall, tracing ancient sigils worn nearly smooth. “Luck favors the bold,” he muttered, though his tone carried the unease of a man who had wagered his last coin on that truth one too many times.
 
-*Hunter Morgan, the agile thief, stepped forward, his eyes gleaming with anticipation. "Leave it to me," he grinned, deftly producing his lockpicks. With a series of precise movements, he attempted to breach the enchanted lock. To our surprise, the mechanism yielded with a soft click.*
+Behind him, Torin adjusted his grip on his war axe. “Luck favors the prepared,” the dwarf growled. “And you’ve yet to pay me back for the last round of ale, wizard.”
 
-*Galatea, the cleric of dubious allegiance, smirked knowingly. "Magic bends to those who understand its nature," she remarked, her eyes glinting with a hint of malice.*
+Carisby, ever the opportunist, snorted and crouched beside a stone chest half-buried in dust. “If it makes you feel better, Torin, I’m about to find us all a payday.” His nimble fingers danced across the lock—click—and a faint mist hissed from the seams.
 
-*As the doors swung open, revealing the dimly lit chamber within, a chill wind whispered through the mine, carrying echoes of forgotten whispers. Bones littered the ground around a stone sarcophagus, their eerie presence casting long shadows across the ancient stone walls.*
+Rosalin stepped forward, mace ready, eyes narrowing as the vapor thickened. “Trap. Back!”
 
-*Harbek's grip tightened on his battleaxe as he cautiously entered, his eyes scanning the chamber for any sign of movement. "Watch your step," he grunted, his voice echoing in the oppressive silence.*
+Too late—the halfling sprang back, coughing as the air shimmered with necrotic energy. The runes on the chest flared green, and a figure of light rose before them: a skeletal priest in tattered finery, holding a pair of dice carved from bone.
 
-*Evron approached the sarcophagus, his fingers tracing the intricate carvings that adorned its surface. "The lid looks heavy," he observed thoughtfully. "Let us turn it gently and reveal its secrets without disturbing the restless dead."*
+“Roll… and your fate is sealed,” it rasped.
 
-*Galatea's lips curled into a smile that sent shivers down my spine. "Fools," she hissed, her voice low and filled with dark amusement. "You dare to disturb the sanctum of the fallen?"*
+Vakesh’s grin returned. “Now this is a game I understand.”
 
-*Before anyone could react, the bones on the floor stirred, rattling as if pulled by invisible strings. With unnatural speed, they assembled themselves into skeletal warriors, their hollow sockets glaring at us with malevolent intent. Gripping their ancient weapons, they lunged forward, hungering for the warmth of the living.*
+He reached into his robes and produced a pair of gem-inlaid dice—an old gambler’s charm from his wilder years. As they clattered across the flagstones, the undead priest mirrored the motion. The two sets rolled in eerie unison.
 
-*Evron cursed under his breath, summoning arcane energies to shield us from the skeletal onslaught. Harbek roared a battle cry, swinging his axe with deadly precision. Hunter Morgan darted among the shadows, striking swift and silent blows.*
+The priest’s dice came up snake eyes. Vakesh’s—double sixes.
 
-*Galatea stood at the center of chaos, her dark laughter blending with the clash of steel. "Embrace the darkness," she taunted, her eyes glowing with unholy fervor.*
+A sudden rush of spectral wind blew through the corridor. The ghostly priest bowed stiffly, fading into dust. The chest’s lid cracked open with a low moan, revealing a heap of ancient gold coins and a ring that shimmered faintly with unholy light.
 
-*As the battle raged on, each of us fought with a determination born of survival. The mine echoed with the clash of weapons and the cries of the undead. Amidst the chaos, I found myself wondering if our greed had led us to this cursed place, or if fate had a more sinister hand in our plight.*
+Torin whistled low. “Ain’t often I see the gods smile on a cheat.”
 
-*In the end, it wasn't the lure of treasure that tested our mettle, but the dark forces awakened by our trespass. And as the last echoes of battle faded into silence, we stood victorious yet haunted, our hearts heavy with the knowledge that some secrets are better left undisturbed in the depths of Drell's cursed mine.*
+Rosalin frowned, her cleric’s instincts uneasy. “That ring—best leave it be. Evil clings to it.”
+
+Carisby was already pocketing the coins. “Evil can wait till after supper.”
+
+Vakesh eyed the ring but said nothing. The dice in his palm felt unusually warm. He smiled a gambler’s smile—the kind that hides more than it shows.
+
+“Onward, Scimitars,” he said. “The night is young, and fortune’s still rolling.”
+
+They disappeared deeper into the tomb, laughter echoing through the corridors—reckless, brilliant, and utterly free.
 
 ## What Is This?
 
-The **Basic Fantasy Role-Playing Game** is a rules-light game system inspired by early role-playing game systems. It is intended for fans of "old-school" game mechanics, simple enough for children in second or third grade to play, yet offering enough depth for adults.
+The **Old School D&D Role-Playing Game** is a tabletop system inspired by the earliest fantasy role-playing games. It celebrates the gritty charm of “old-school” mechanics—rooted in sword-and-sorcery tales—where danger is real, treasure is hard-won, and every dungeon crawl holds both peril and wonder.
 
 ## What Is a Role-Playing Game?
 
@@ -46,7 +54,7 @@ This game attempts to balance simplicity and complexity, being neither too detai
 
 As a player, you should have a pencil, some notebook paper, and a set of dice. Graph paper is also useful for drawing maps. You can use preprinted character sheets available on the Basic Fantasy RPG website, but notebook paper works fine.
 
-As the Dungeon Master , you need the same materials. For new GMs or those with limited preparation time, pre-written adventures (modules) are available for free on the [basicfantasy.org](https://www.basicfantasy.org/) website. Modules written for other game systems can also be used with some conversion.
+As the Dungeon Master , you need the same materials. For new DMs or those with limited preparation time, pre-written adventures (modules) are available for free on the [basicfantasy.org](https://www.basicfantasy.org/) website. Modules written for most OSR games can also be used with some conversion.
 
 ## Using the Dice
 

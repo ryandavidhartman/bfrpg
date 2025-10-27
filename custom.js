@@ -573,45 +573,46 @@ export function readMatrixFromTable(tableSelector) {
   return matrix;
 }
 
-// Rolls once per row and highlights one cell per row (for multi-column tables)
-export function selectRowPairs(tableSelector, rowDice, matrix) {
-  const results = [];
-  const table = document.querySelector(tableSelector);
-  if (!table) return results;
+// Select independently from multiple columns in a matrix table and highlight the picks.
+// Requires your existing readMatrixFromTable(tableSelector) and generalDice(n,d,m).
+// Params:
+// - tableSelector: CSS selector for the table wrapper (e.g., "#party-name-matrix").
+// - columns: array of *matrix* column indexes to select from, e.g. [0,1,2].
+// - diceSpecs (optional): per-column dice tuples [[n,d,m], ...]. If omitted,
+//   defaults to uniform roll across the number of rows (1..matrix.length).
+// - options.color (optional): highlight color (default matches your green).
+// Returns: { rows: number[], values: string[] }
+export function rollIndependentColumns(tableSelector, columns, diceSpecs = null, options = {}) {
+  const color = options.color ?? "#97B29B";
 
-  // clear any old highlights
-  table.querySelectorAll(".matrix-cell-highlight").forEach(el => {
-    el.classList.remove("matrix-cell-highlight");
+  const matrix = readMatrixFromTable(tableSelector); // strips header row + first label col
+  if (!matrix || !matrix.length) return { rows: [], values: [] };
+
+  const maxRow = matrix.length - 1;
+  const clamp = (n) => Math.min(Math.max(n, 0), maxRow);
+
+  // Compute selected row per column
+  const rows = columns.map((_, i) => {
+    const spec = diceSpecs?.[i];
+    if (spec && spec.length === 3) {
+      const [n, d, m] = spec;
+      return clamp(generalDice(n, d, m) - 1);
+    }
+    // Default: roll uniformly over visible rows
+    return clamp(generalDice(1, matrix.length, 0) - 1);
   });
 
-  for (let r = 0; r < matrix.length; r++) {
-    const colRoll = generalDice(rowDice[0], rowDice[1], rowDice[2]);
-    const colIndex = Math.min(Math.max(colRoll - 1, 0), matrix[r].length - 1);
-    results.push(matrix[r][colIndex]);
+  // Collect values in the requested columns
+  const values = rows.map((ri, i) => matrix[ri][columns[i]]);
 
-    // add highlight
-    const domRow = r + 1; // skip header
-    const domCol = colIndex + 1; // skip first label col
-    const rows = table.querySelectorAll("tr");
-    const cells = rows[domRow].querySelectorAll("th, td");
-    if (cells[domCol]) cells[domCol].classList.add("matrix-cell-highlight");
-  }
-  return results;
-}
-
-// Highlight multiple matrix cells at once (no clearing between each add)
-export function highlightMatrixCellsMulti(tableSelector, selections) {
-  const table = document.querySelector(tableSelector);
-  if (!table) return;
-
-  // ensure highlight CSS exists (same green you’re using elsewhere)
+  // ---- Highlighting ----
   const STYLE_ID = "matrix-highlight-style";
   if (!document.getElementById(STYLE_ID)) {
     const style = document.createElement("style");
     style.id = STYLE_ID;
     style.textContent = `
       .matrix-cell-highlight {
-        background-color: ##97B29B !important;
+        background-color: ${color} !important;
         outline: 2px solid #2e8b57;
         transition: background-color 150ms ease-in;
       }
@@ -619,22 +620,31 @@ export function highlightMatrixCellsMulti(tableSelector, selections) {
     document.head.appendChild(style);
   }
 
-  // clear any previous highlights for this table
-  table.querySelectorAll(".matrix-cell-highlight")
-    .forEach(el => el.classList.remove("matrix-cell-highlight"));
+  const host = document.querySelector(tableSelector);
+  const table = host?.querySelector("table");
+  if (table) {
+    // clear old highlights
+    table.querySelectorAll(".matrix-cell-highlight")
+         .forEach(el => el.classList.remove("matrix-cell-highlight"));
 
-  // apply all highlights
-  const rows = table.querySelectorAll("tr");
-  selections.forEach(({ rowIndex, colIndex }) => {
-    const domRow = rowIndex + 1;   // skip header row
-    const domCol = colIndex + 1;   // skip label column
-    const targetRow = rows[domRow];
-    if (!targetRow) return;
-    const cells = targetRow.querySelectorAll("th, td");
-    const cell = cells[domCol];
-    if (cell) cell.classList.add("matrix-cell-highlight");
-  });
+    const domRows = table.querySelectorAll("tr");
+    const addHL = (rowIndex, colIndex) => {
+      const domRow = rowIndex + 1; // skip header row
+      const domCol = colIndex + 1; // skip first label column
+      const row = domRows[domRow];
+      if (!row) return;
+      const cells = row.querySelectorAll("th, td");
+      const cell = cells[domCol];
+      if (cell) cell.classList.add("matrix-cell-highlight");
+    };
+
+    rows.forEach((ri, i) => addHL(ri, columns[i]));
+  }
+  // ----------------------
+
+  return { rows, values };
 }
+
 
 
 
