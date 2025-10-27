@@ -15,5 +15,7 @@ table {
   }
   /* td:nth-child(odd) {
     background-color: lightgray;
-  } */
+  } */  .matrix-firstcol-shade th:first-child,
+.matrix-firstcol-shade td:first-child { background-color: darkgray; font-weight: 600; }
+
   

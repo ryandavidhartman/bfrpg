@@ -7358,171 +7358,6 @@
     ]
   },
   {
-    "objectID": "appendix_interactive.html",
-    "href": "appendix_interactive.html",
-    "title": "38  Interactive tools",
-    "section": "",
-    "text": "Character Generation Helpers",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Interactive tools</span>"
-    ]
-  },
-  {
-    "objectID": "appendix_interactive.html#character-generation-helpers",
-    "href": "appendix_interactive.html#character-generation-helpers",
-    "title": "38  Interactive tools",
-    "section": "",
-    "text": "Character Abilities\n\nimport {generalDice, calculateModifier, rollAbilityScore} from \"./custom.js\"\n\n\n\nviewof statrolls = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll Stats&lt;/button&gt;`, {reduce: () =&gt; [rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore()]}\n\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbility\nValue\nModifier\n\n\n\n\nStrength\n\n\n\n\nIntelligence\n\n\n\n\nWisdom\n\n\n\n\nDexterity\n\n\n\n\nConstitution\n\n\n\n\nCharisma\n\n\n\n\n\n\n\nStarting Gold\n\nviewof goldRoll = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll Gold (3d6 x 10)&lt;/button&gt;`, {value: 0, reduce: () =&gt; {\n  let temp = (10 * generalDice(3,6,0));\n  set (viewof startingGold, temp);\n  return temp}})\n\n\n\n\n\n\nStarting Gold: \n\n\nBuy Equipment\n\nimport { convertToGold } from \"./custom.js\"\n\nfunction set(input, value) {\n  input.value = value;\n  input.dispatchEvent(new Event(\"input\", {bubbles: true}));\n}\n\nviewof startingGold = Inputs.text({label: \"Starting Gold: \"})\n\nspent = {\n  if (myarray.length != 0){\n      let pricesGP = myarray.map(x =&gt; x[1].split(\" \")).map(x =&gt; convertToGold(Number(x[0]), x[1]))\n      let total = pricesGP.reduce ((x,y) =&gt; x + y)\n      return total\n  } else {return 0}\n}\n\nremainingGold = Number(startingGold) - spent\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemaining Gold:  gp\nClick to select. Use Ctrl (Cmd) or Shift to select multiple.\n\ndata = {\n  const d = await FileAttachment(\"equipment.json\").json()\n  return d\n}\n\nmiscs =  data[0].map( x =&gt; [x[\"Item\"], x[\"Price\"]] )\nweapons = data[1].map( x =&gt; [x[\"Weapon\"], x[\"Price\"]])\narmor = data[2].map( x =&gt; [x[\"Armor Type\"], x[\"Price\"]])\nanimals = data[3].map( x =&gt; [x[\"Item\"], x[\"Price\"]])\nallItems = miscs.concat(weapons.concat(armor.concat(animals)))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof search  = {\n  let n = Inputs.search(allItems);\nreturn n\n}\n\n\n\n\n\n\n\nviewof items = Inputs.select(search, {multiple: true\n, format: (x) =&gt; `${x[0]},   (${x[1]})`\n} )\nmiscPrice = items.map(x =&gt; x[1])\n\nmiscItems = items.map(x =&gt; x[0])\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmutable myarray = []\n\n\nviewof b = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;add selected&lt;/button&gt;`, {\n    reduce: () =&gt; mutable myarray = [...mutable myarray].concat(items) })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof inventory = Inputs.select(myarray, {multiple:true\n, format: (x) =&gt; `${x[0]},   (${x[1]})`\n})\n\n\n\n\n\n\n\nviewof c = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;remove selected&lt;/button&gt;`, {\n    reduce: () =&gt; mutable myarray = [...mutable myarray].filter(item =&gt; !inventory.includes(item)) })",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Interactive tools</span>"
-    ]
-  },
-  {
-    "objectID": "char_sheet.html",
-    "href": "char_sheet.html",
-    "title": "39  Character Sheet",
-    "section": "",
-    "text": "OnceWas RPG Character Generator\nCreating a character for OnceWas RPG has never been easier! Our online character generator streamlines the process, allowing you to quickly build a hero ready for adventure. Whether you’re a seasoned player or brand new to the world of OnceWas, this tool ensures you have everything you need to get started.",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Character Sheet</span>"
-    ]
-  },
-  {
-    "objectID": "char_sheet.html#features-of-the-character-generator",
-    "href": "char_sheet.html#features-of-the-character-generator",
-    "title": "39  Character Sheet",
-    "section": "Features of the Character Generator:",
-    "text": "Features of the Character Generator:\n\nQuick & Easy Creation – Generate a complete character in just a few clicks.\n\nCustomizable Options – Choose your ancestry, class, and background to shape your character’s story.\n\nEquipment & Spells – Automatically selects starting gear and spells based on your character’s abilities.\n\nLevel Adjustments – Create characters of any level, perfect for one-shots or ongoing campaigns.\n\nPrintable & Digital Sheets – Save your character as a PDF or access it online during gameplay.\n\nReady to embark on your journey?\nTry it out now! Generate Your Character at tools.oncewasrpg.com",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Character Sheet</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html",
-    "href": "tables/frequent.html",
-    "title": "40  Frquently Used Tables",
-    "section": "",
-    "text": "Attack Bonus Table",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#attack-bonus-table",
-    "href": "tables/frequent.html#attack-bonus-table",
-    "title": "40  Frquently Used Tables",
-    "section": "",
-    "text": "Table 40.1: Attack Bonus Table\n\n\n\n\n\n\n\n\n\n\n\n\nFighter Level\nCleric or Thief Level\nMagic-User Level\nMonster Hit Dice\nAttack Bonus\n\n\n\n\n NM \n\n\nless than 1\n+0\n\n\n1\n1-2\n1-3\n1\n+1\n\n\n2-3\n3-4\n4-5\n2\n+2\n\n\n4\n5-6\n6-8\n3\n+3\n\n\n5-6\n7-8\n9-12\n4\n+4\n\n\n7\n9-11\n13-15\n5\n+5\n\n\n8-10\n12-14\n16-18\n6\n+6\n\n\n11-12\n15-17\n19-20\n7\n+7\n\n\n13-15\n18-20\n\n8-9\n+8\n\n\n16-17\n\n\n10-11\n+9\n\n\n18-20\n\n\n12-13\n+10\n\n\n\n\n\n14-15\n+11\n\n\n\n\n\n16-19\n+12\n\n\n\n\n\n20-23\n+13\n\n\n\n\n\n24-27\n+14\n\n\n\n\n\n28-31\n+15\n\n\n\n\n\n32 or more\n+16",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#critical-hit",
-    "href": "tables/frequent.html#critical-hit",
-    "title": "40  Frquently Used Tables",
-    "section": "Critical Hit",
-    "text": "Critical Hit\nA natural 20 always hits. (barring magic or silver weapon requirements). Roll an additional d20 + modifiers to determine if it is a special.\n\n\n\nTable 40.2: Critical Hit Table\n\n\n\n\n\n\n\n\n\nRoll (d20)\nResult\n\n\n\n\n1-10 (50%)\nRegular Damage\n\n\n11-15 (25%)\nMaximum Damage (for example: a character with regular normal damage of 1d6 +2 would have a Maximum Damage of 6 +2 = 8)\n\n\n16-19 (20%)\nCritical Damage. Roll Regular Damage + Maximum Damage + Modifier (for example 1d6+2, the character rolls a 3 + Maximum Damage of 6 + 2 = 3 + 6 +2 = 11)\n\n\n20 (5%)\nCritical Damage (see above) plus roll on the chart below:\n\n\n\n\n\n\n\n\n\nTable 40.3: Critical Damage Table\n\n\n\n\n\n\n\n\n\n\nRoll (1d4)\nCondition\nEffect\n\n\n\n\n1\nEnemy is Disarmed\nPrimary weapon is knocked from enemy’s grasp\n\n\n2\nEnemy is Shaken\n-2 to hit, Saves, DC checks\n\n\n3\nEnemy is Prone\n-4 to hit, a -4 AC (melee), +4 AC (ranged)\n\n\n4\nEnemy is Blinded\n-4 to hit, a -4 AC, -2 Init",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#critical-miss",
-    "href": "tables/frequent.html#critical-miss",
-    "title": "40  Frquently Used Tables",
-    "section": "Critical Miss",
-    "text": "Critical Miss\nA natural 1 always misses. Roll an additional d20 to determine if it is a special.\n\n\n\nTable 40.4: Critical Miss Table\n\n\n\n\n\n\n\n\n\nRoll (d20)\nResult\n\n\n\n\n1-2 (10%)\nWeapon breaks, no attack next round\n\n\n3-5 (15%)\nStumble; DEX check (DC20) or -1 to combat rolls for 1d2 rounds\n\n\n6-10 (25%)\nSloppy Attack; DEX check (DC15) or opponent gets free attack\n\n\n11-15 (25%)\nDrop weapon, no attack next round\n\n\n16-20 (25%)\nJust a Miss",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#difficulty-check-table",
-    "href": "tables/frequent.html#difficulty-check-table",
-    "title": "40  Frquently Used Tables",
-    "section": "Difficulty Check Table",
-    "text": "Difficulty Check Table\n\nDifficulty Check Table\n\n\nPercentile\n(1d6)\n(1d20)\nDescription\n\n\n\n\n85%\n1-5\nDC 3\nVery Easy\n\n\n70%\n1-4\nDC 6\nEasy\n\n\n50%\n1-3\nDC 10\nNormal\n\n\n35%\n1-2\nDC 13\nHard\n\n\n15%\n1-1\nDC 15\nVery Hard\n\n\n5%\n-\nDC 20\nExtremely Difficult",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#grenade-like-missiles",
-    "href": "tables/frequent.html#grenade-like-missiles",
-    "title": "40  Frquently Used Tables",
-    "section": "Grenade-Like Missiles",
-    "text": "Grenade-Like Missiles\nWhen throwing grenade-like missiles (flasks of oil, etc.), a successful attack roll indicates a direct hit. Otherwise, the DM will roll 1d10 and consult the diagram below to determine where the missile hit. Treat each number as representing a 10’ square area.\n\n\n\n\n\n\nFigure 40.1: Grenade AOT",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#mishap-table",
-    "href": "tables/frequent.html#mishap-table",
-    "title": "40  Frquently Used Tables",
-    "section": "Mishap Table",
-    "text": "Mishap Table\n\nMishap Table\n\n\n(1d20)\nDescription\n\n\n\n\n1-4\nTotal Failure with major consequences\n\n\n5-8\nTotal Failure with minor consequences\n\n\n9-12\nPartial Success with major consequences\n\n\n13-16\nPartial Success with minor consequences\n\n\n17-20\nMostly Successful but poorly executed",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#reaction-table",
-    "href": "tables/frequent.html#reaction-table",
-    "title": "40  Frquently Used Tables",
-    "section": "Reaction Table",
-    "text": "Reaction Table\n\nReaction Table\n\n\n\n\n\n\nDC + CHA +Leadership or Diplomacy Bonus\nReaction\n\n\n\n\n1\nViolently hostile, immediate attack\n\n\n2-5\nHostile, immediate attack\n\n\n6-9\nUncertain but prone to negative\n\n\n10-11\nNeutral, uninterested, uncertain\n\n\n12-15\nUncertain but prone to positive\n\n\n16-19\nFriendly, immediate action\n\n\n20\nEnthusiastically friendly, immediate acceptance",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#dc-20",
-    "href": "tables/frequent.html#dc-20",
-    "title": "40  Frquently Used Tables",
-    "section": "DC 20",
-    "text": "DC 20\n\n\n\n\n\n\n\nRoll\nResult\n\n\n\n\n1 (5%)\nNo Magic Items\n\n\n2-6 (25%)\n1 Potion rolled randomly (D30)\n\n\n7-10 (20%)\nMelee Weapon (Mace, Dagger, Short Sword, or Long Sword) +1\n\n\n11-14 (20%)\nRanged Weapon (Short Bow or Long Bow) +1\n\n\n15-17 (20%)\nRing rolled randomly (D6)\n\n\n18-19 (10%)\nRing of Protection +1, 2 Potions rolled randomly (D30), Melee or Ranged Weapon +1\n\n\n20 (5%)\nRing of Protection +2, 3 Potions rolled randomly (D30), Melee or Ranged Weapon +2",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#potions-d30",
-    "href": "tables/frequent.html#potions-d30",
-    "title": "40  Frquently Used Tables",
-    "section": "Potions (D30)",
-    "text": "Potions (D30)\n\nAlchemist’s Fire\nCat’s Grace\nClairaudience\nClairvoyance\nCold Resistance\nControl Animal\nControl Dragon\nControl Giant\nControl Human\nControl Plant\nControl Undead\nDelusion\nDiminution\nESP\nFire Resistance\nFlying\nGaseous Form\nGiant Strength\nGrowth\nSpeed\nHeroism\nInvisibility\nKeoghtom’s Ointment\nLevitation\nLongevity\nPolymorph Self\nSpeed\nSpider Climb\nTreasure Finding\nWater Breathing",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
-    "objectID": "tables/frequent.html#rings-d6",
-    "href": "tables/frequent.html#rings-d6",
-    "title": "40  Frquently Used Tables",
-    "section": "Rings (D6)",
-    "text": "Rings (D6)\n\nRing of Darkvision\nRing of Resistance (Roll d4 - 1: Fire, 2: Cold, 3: Electrical, 4: Poison)\nRing of Free Action\nRing of Protection +1\nRing of Telekinesis\nRing of X-Ray Vision",
-    "crumbs": [
-      "Appendix",
-      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Frquently Used Tables</span>"
-    ]
-  },
-  {
     "objectID": "tables/rivals.html",
     "href": "tables/rivals.html",
     "title": "38  Rivals",
@@ -7534,14 +7369,168 @@
     ]
   },
   {
-    "objectID": "whatIsThis.html#what-is-this",
-    "href": "whatIsThis.html#what-is-this",
-    "title": "1  Introduction",
-    "section": "What Is This?",
-    "text": "What Is This?\nThe Basic Fantasy Role-Playing Game is a rules-light game system inspired by early role-playing game systems. It is intended for fans of “old-school” game mechanics, simple enough for children in second or third grade to play, yet offering enough depth for adults.",
+    "objectID": "appendix_interactive.html",
+    "href": "appendix_interactive.html",
+    "title": "39  Interactive tools",
+    "section": "",
+    "text": "Character Generation Helpers",
     "crumbs": [
-      "Introduction",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "Appendix",
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Interactive tools</span>"
+    ]
+  },
+  {
+    "objectID": "appendix_interactive.html#character-generation-helpers",
+    "href": "appendix_interactive.html#character-generation-helpers",
+    "title": "39  Interactive tools",
+    "section": "",
+    "text": "Character Abilities\n\nimport {generalDice, calculateModifier, rollAbilityScore} from \"./custom.js\"\n\n\n\nviewof statrolls = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll Stats&lt;/button&gt;`, {reduce: () =&gt; [rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore(),rollAbilityScore()]}\n\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbility\nValue\nModifier\n\n\n\n\nStrength\n\n\n\n\nIntelligence\n\n\n\n\nWisdom\n\n\n\n\nDexterity\n\n\n\n\nConstitution\n\n\n\n\nCharisma\n\n\n\n\n\n\n\nStarting Gold\n\nviewof goldRoll = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;Roll Gold (3d6 x 10)&lt;/button&gt;`, {value: 0, reduce: () =&gt; {\n  let temp = (10 * generalDice(3,6,0));\n  set (viewof startingGold, temp);\n  return temp}})\n\n\n\n\n\n\nStarting Gold: \n\n\nBuy Equipment\n\nimport { convertToGold } from \"./custom.js\"\n\nfunction set(input, value) {\n  input.value = value;\n  input.dispatchEvent(new Event(\"input\", {bubbles: true}));\n}\n\nviewof startingGold = Inputs.text({label: \"Starting Gold: \"})\n\nspent = {\n  if (myarray.length != 0){\n      let pricesGP = myarray.map(x =&gt; x[1].split(\" \")).map(x =&gt; convertToGold(Number(x[0]), x[1]))\n      let total = pricesGP.reduce ((x,y) =&gt; x + y)\n      return total\n  } else {return 0}\n}\n\nremainingGold = Number(startingGold) - spent\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRemaining Gold:  gp\nClick to select. Use Ctrl (Cmd) or Shift to select multiple.\n\ndata = {\n  const d = await FileAttachment(\"equipment.json\").json()\n  return d\n}\n\nmiscs =  data[0].map( x =&gt; [x[\"Item\"], x[\"Price\"]] )\nweapons = data[1].map( x =&gt; [x[\"Weapon\"], x[\"Price\"]])\narmor = data[2].map( x =&gt; [x[\"Armor Type\"], x[\"Price\"]])\nanimals = data[3].map( x =&gt; [x[\"Item\"], x[\"Price\"]])\nallItems = miscs.concat(weapons.concat(armor.concat(animals)))\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof search  = {\n  let n = Inputs.search(allItems);\nreturn n\n}\n\n\n\n\n\n\n\nviewof items = Inputs.select(search, {multiple: true\n, format: (x) =&gt; `${x[0]},   (${x[1]})`\n} )\nmiscPrice = items.map(x =&gt; x[1])\n\nmiscItems = items.map(x =&gt; x[0])\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmutable myarray = []\n\n\nviewof b = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;add selected&lt;/button&gt;`, {\n    reduce: () =&gt; mutable myarray = [...mutable myarray].concat(items) })\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nviewof inventory = Inputs.select(myarray, {multiple:true\n, format: (x) =&gt; `${x[0]},   (${x[1]})`\n})\n\n\n\n\n\n\n\nviewof c = Inputs.button(html`&lt;button style=\"color: black; background-color: lightgray;\"&gt;remove selected&lt;/button&gt;`, {\n    reduce: () =&gt; mutable myarray = [...mutable myarray].filter(item =&gt; !inventory.includes(item)) })",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Interactive tools</span>"
+    ]
+  },
+  {
+    "objectID": "char_sheet.html",
+    "href": "char_sheet.html",
+    "title": "40  Character Sheet",
+    "section": "",
+    "text": "OnceWas RPG Character Generator\nCreating a character for OnceWas RPG has never been easier! Our online character generator streamlines the process, allowing you to quickly build a hero ready for adventure. Whether you’re a seasoned player or brand new to the world of OnceWas, this tool ensures you have everything you need to get started.",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Character Sheet</span>"
+    ]
+  },
+  {
+    "objectID": "char_sheet.html#features-of-the-character-generator",
+    "href": "char_sheet.html#features-of-the-character-generator",
+    "title": "40  Character Sheet",
+    "section": "Features of the Character Generator:",
+    "text": "Features of the Character Generator:\n\nQuick & Easy Creation – Generate a complete character in just a few clicks.\n\nCustomizable Options – Choose your ancestry, class, and background to shape your character’s story.\n\nEquipment & Spells – Automatically selects starting gear and spells based on your character’s abilities.\n\nLevel Adjustments – Create characters of any level, perfect for one-shots or ongoing campaigns.\n\nPrintable & Digital Sheets – Save your character as a PDF or access it online during gameplay.\n\nReady to embark on your journey?\nTry it out now! Generate Your Character at tools.oncewasrpg.com",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Character Sheet</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html",
+    "href": "tables/frequent.html",
+    "title": "41  Frquently Used Tables",
+    "section": "",
+    "text": "Attack Bonus Table",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#attack-bonus-table",
+    "href": "tables/frequent.html#attack-bonus-table",
+    "title": "41  Frquently Used Tables",
+    "section": "",
+    "text": "Table 41.1: Attack Bonus Table\n\n\n\n\n\n\n\n\n\n\n\n\nFighter Level\nCleric or Thief Level\nMagic-User Level\nMonster Hit Dice\nAttack Bonus\n\n\n\n\n NM \n\n\nless than 1\n+0\n\n\n1\n1-2\n1-3\n1\n+1\n\n\n2-3\n3-4\n4-5\n2\n+2\n\n\n4\n5-6\n6-8\n3\n+3\n\n\n5-6\n7-8\n9-12\n4\n+4\n\n\n7\n9-11\n13-15\n5\n+5\n\n\n8-10\n12-14\n16-18\n6\n+6\n\n\n11-12\n15-17\n19-20\n7\n+7\n\n\n13-15\n18-20\n\n8-9\n+8\n\n\n16-17\n\n\n10-11\n+9\n\n\n18-20\n\n\n12-13\n+10\n\n\n\n\n\n14-15\n+11\n\n\n\n\n\n16-19\n+12\n\n\n\n\n\n20-23\n+13\n\n\n\n\n\n24-27\n+14\n\n\n\n\n\n28-31\n+15\n\n\n\n\n\n32 or more\n+16",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#critical-hit",
+    "href": "tables/frequent.html#critical-hit",
+    "title": "41  Frquently Used Tables",
+    "section": "Critical Hit",
+    "text": "Critical Hit\nA natural 20 always hits. (barring magic or silver weapon requirements). Roll an additional d20 + modifiers to determine if it is a special.\n\n\n\nTable 41.2: Critical Hit Table\n\n\n\n\n\n\n\n\n\nRoll (d20)\nResult\n\n\n\n\n1-10 (50%)\nRegular Damage\n\n\n11-15 (25%)\nMaximum Damage (for example: a character with regular normal damage of 1d6 +2 would have a Maximum Damage of 6 +2 = 8)\n\n\n16-19 (20%)\nCritical Damage. Roll Regular Damage + Maximum Damage + Modifier (for example 1d6+2, the character rolls a 3 + Maximum Damage of 6 + 2 = 3 + 6 +2 = 11)\n\n\n20 (5%)\nCritical Damage (see above) plus roll on the chart below:\n\n\n\n\n\n\n\n\n\nTable 41.3: Critical Damage Table\n\n\n\n\n\n\n\n\n\n\nRoll (1d4)\nCondition\nEffect\n\n\n\n\n1\nEnemy is Disarmed\nPrimary weapon is knocked from enemy’s grasp\n\n\n2\nEnemy is Shaken\n-2 to hit, Saves, DC checks\n\n\n3\nEnemy is Prone\n-4 to hit, a -4 AC (melee), +4 AC (ranged)\n\n\n4\nEnemy is Blinded\n-4 to hit, a -4 AC, -2 Init",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#critical-miss",
+    "href": "tables/frequent.html#critical-miss",
+    "title": "41  Frquently Used Tables",
+    "section": "Critical Miss",
+    "text": "Critical Miss\nA natural 1 always misses. Roll an additional d20 to determine if it is a special.\n\n\n\nTable 41.4: Critical Miss Table\n\n\n\n\n\n\n\n\n\nRoll (d20)\nResult\n\n\n\n\n1-2 (10%)\nWeapon breaks, no attack next round\n\n\n3-5 (15%)\nStumble; DEX check (DC20) or -1 to combat rolls for 1d2 rounds\n\n\n6-10 (25%)\nSloppy Attack; DEX check (DC15) or opponent gets free attack\n\n\n11-15 (25%)\nDrop weapon, no attack next round\n\n\n16-20 (25%)\nJust a Miss",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#difficulty-check-table",
+    "href": "tables/frequent.html#difficulty-check-table",
+    "title": "41  Frquently Used Tables",
+    "section": "Difficulty Check Table",
+    "text": "Difficulty Check Table\n\nDifficulty Check Table\n\n\nPercentile\n(1d6)\n(1d20)\nDescription\n\n\n\n\n85%\n1-5\nDC 3\nVery Easy\n\n\n70%\n1-4\nDC 6\nEasy\n\n\n50%\n1-3\nDC 10\nNormal\n\n\n35%\n1-2\nDC 13\nHard\n\n\n15%\n1-1\nDC 15\nVery Hard\n\n\n5%\n-\nDC 20\nExtremely Difficult",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#grenade-like-missiles",
+    "href": "tables/frequent.html#grenade-like-missiles",
+    "title": "41  Frquently Used Tables",
+    "section": "Grenade-Like Missiles",
+    "text": "Grenade-Like Missiles\nWhen throwing grenade-like missiles (flasks of oil, etc.), a successful attack roll indicates a direct hit. Otherwise, the DM will roll 1d10 and consult the diagram below to determine where the missile hit. Treat each number as representing a 10’ square area.\n\n\n\n\n\n\nFigure 41.1: Grenade AOT",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#mishap-table",
+    "href": "tables/frequent.html#mishap-table",
+    "title": "41  Frquently Used Tables",
+    "section": "Mishap Table",
+    "text": "Mishap Table\n\nMishap Table\n\n\n(1d20)\nDescription\n\n\n\n\n1-4\nTotal Failure with major consequences\n\n\n5-8\nTotal Failure with minor consequences\n\n\n9-12\nPartial Success with major consequences\n\n\n13-16\nPartial Success with minor consequences\n\n\n17-20\nMostly Successful but poorly executed",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#reaction-table",
+    "href": "tables/frequent.html#reaction-table",
+    "title": "41  Frquently Used Tables",
+    "section": "Reaction Table",
+    "text": "Reaction Table\n\nReaction Table\n\n\n\n\n\n\nDC + CHA +Leadership or Diplomacy Bonus\nReaction\n\n\n\n\n1\nViolently hostile, immediate attack\n\n\n2-5\nHostile, immediate attack\n\n\n6-9\nUncertain but prone to negative\n\n\n10-11\nNeutral, uninterested, uncertain\n\n\n12-15\nUncertain but prone to positive\n\n\n16-19\nFriendly, immediate action\n\n\n20\nEnthusiastically friendly, immediate acceptance",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#dc-20",
+    "href": "tables/frequent.html#dc-20",
+    "title": "41  Frquently Used Tables",
+    "section": "DC 20",
+    "text": "DC 20\n\n\n\n\n\n\n\nRoll\nResult\n\n\n\n\n1 (5%)\nNo Magic Items\n\n\n2-6 (25%)\n1 Potion rolled randomly (D30)\n\n\n7-10 (20%)\nMelee Weapon (Mace, Dagger, Short Sword, or Long Sword) +1\n\n\n11-14 (20%)\nRanged Weapon (Short Bow or Long Bow) +1\n\n\n15-17 (20%)\nRing rolled randomly (D6)\n\n\n18-19 (10%)\nRing of Protection +1, 2 Potions rolled randomly (D30), Melee or Ranged Weapon +1\n\n\n20 (5%)\nRing of Protection +2, 3 Potions rolled randomly (D30), Melee or Ranged Weapon +2",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#potions-d30",
+    "href": "tables/frequent.html#potions-d30",
+    "title": "41  Frquently Used Tables",
+    "section": "Potions (D30)",
+    "text": "Potions (D30)\n\nAlchemist’s Fire\nCat’s Grace\nClairaudience\nClairvoyance\nCold Resistance\nControl Animal\nControl Dragon\nControl Giant\nControl Human\nControl Plant\nControl Undead\nDelusion\nDiminution\nESP\nFire Resistance\nFlying\nGaseous Form\nGiant Strength\nGrowth\nSpeed\nHeroism\nInvisibility\nKeoghtom’s Ointment\nLevitation\nLongevity\nPolymorph Self\nSpeed\nSpider Climb\nTreasure Finding\nWater Breathing",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables/frequent.html#rings-d6",
+    "href": "tables/frequent.html#rings-d6",
+    "title": "41  Frquently Used Tables",
+    "section": "Rings (D6)",
+    "text": "Rings (D6)\n\nRing of Darkvision\nRing of Resistance (Roll d4 - 1: Fire, 2: Cold, 3: Electrical, 4: Poison)\nRing of Free Action\nRing of Protection +1\nRing of Telekinesis\nRing of X-Ray Vision",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Frquently Used Tables</span>"
     ]
   }
 ]
