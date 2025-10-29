@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +104,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -502,12 +538,75 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#demography-of-oncewas" id="toc-demography-of-oncewas" class="nav-link active" data-scroll-target="#demography-of-oncewas">Demography of OnceWas</a></li>
-  <li><a href="#dwarves" id="toc-dwarves" class="nav-link" data-scroll-target="#dwarves">Dwarves</a></li>
-  <li><a href="#elves" id="toc-elves" class="nav-link" data-scroll-target="#elves">Elves</a></li>
-  <li><a href="#half-elves" id="toc-half-elves" class="nav-link" data-scroll-target="#half-elves">Half-Elves</a></li>
-  <li><a href="#halflings" id="toc-halflings" class="nav-link" data-scroll-target="#halflings">Halflings</a></li>
-  <li><a href="#humans" id="toc-humans" class="nav-link" data-scroll-target="#humans">Humans</a></li>
+  <li><a href="#demography-of-greyhawk" id="toc-demography-of-greyhawk" class="nav-link active" data-scroll-target="#demography-of-greyhawk">Demography of Greyhawk</a></li>
+  <li><a href="#dwarves" id="toc-dwarves" class="nav-link" data-scroll-target="#dwarves">Dwarves</a>
+  <ul>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
+  <li><a href="#restrictions" id="toc-restrictions" class="nav-link" data-scroll-target="#restrictions">Restrictions</a></li>
+  <li><a href="#special-abilities" id="toc-special-abilities" class="nav-link" data-scroll-target="#special-abilities">Special Abilities</a></li>
+  <li><a href="#saving-throws" id="toc-saving-throws" class="nav-link" data-scroll-target="#saving-throws">Saving Throws</a></li>
+  <li><a href="#starting-age" id="toc-starting-age" class="nav-link" data-scroll-target="#starting-age">Starting Age</a></li>
+  <li><a href="#male-height-weight" id="toc-male-height-weight" class="nav-link" data-scroll-target="#male-height-weight">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight" id="toc-female-height-weight" class="nav-link" data-scroll-target="#female-height-weight">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#elves" id="toc-elves" class="nav-link" data-scroll-target="#elves">Elves</a>
+  <ul>
+  <li><a href="#description-1" id="toc-description-1" class="nav-link" data-scroll-target="#description-1">Description</a></li>
+  <li><a href="#restrictions-1" id="toc-restrictions-1" class="nav-link" data-scroll-target="#restrictions-1">Restrictions</a></li>
+  <li><a href="#special-abilities-1" id="toc-special-abilities-1" class="nav-link" data-scroll-target="#special-abilities-1">Special Abilities</a></li>
+  <li><a href="#saving-throws-1" id="toc-saving-throws-1" class="nav-link" data-scroll-target="#saving-throws-1">Saving Throws</a></li>
+  <li><a href="#starting-age-1" id="toc-starting-age-1" class="nav-link" data-scroll-target="#starting-age-1">Starting Age</a></li>
+  <li><a href="#male-height-weight-1" id="toc-male-height-weight-1" class="nav-link" data-scroll-target="#male-height-weight-1">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-1" id="toc-female-height-weight-1" class="nav-link" data-scroll-target="#female-height-weight-1">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#gnomes" id="toc-gnomes" class="nav-link" data-scroll-target="#gnomes">Gnomes</a>
+  <ul>
+  <li><a href="#starting-age-2" id="toc-starting-age-2" class="nav-link" data-scroll-target="#starting-age-2">Starting Age</a></li>
+  <li><a href="#male-height-weight-2" id="toc-male-height-weight-2" class="nav-link" data-scroll-target="#male-height-weight-2">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-2" id="toc-female-height-weight-2" class="nav-link" data-scroll-target="#female-height-weight-2">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#goblins" id="toc-goblins" class="nav-link" data-scroll-target="#goblins">Goblins</a>
+  <ul>
+  <li><a href="#starting-age-3" id="toc-starting-age-3" class="nav-link" data-scroll-target="#starting-age-3">Starting Age</a></li>
+  <li><a href="#male-height-weight-3" id="toc-male-height-weight-3" class="nav-link" data-scroll-target="#male-height-weight-3">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-3" id="toc-female-height-weight-3" class="nav-link" data-scroll-target="#female-height-weight-3">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#half-elves" id="toc-half-elves" class="nav-link" data-scroll-target="#half-elves">Half-Elves</a>
+  <ul>
+  <li><a href="#description-2" id="toc-description-2" class="nav-link" data-scroll-target="#description-2">Description</a></li>
+  <li><a href="#restrictions-2" id="toc-restrictions-2" class="nav-link" data-scroll-target="#restrictions-2">Restrictions</a></li>
+  <li><a href="#special-abilities-2" id="toc-special-abilities-2" class="nav-link" data-scroll-target="#special-abilities-2">Special Abilities</a></li>
+  <li><a href="#saving-throws-2" id="toc-saving-throws-2" class="nav-link" data-scroll-target="#saving-throws-2">Saving Throws</a></li>
+  <li><a href="#starting-age-4" id="toc-starting-age-4" class="nav-link" data-scroll-target="#starting-age-4">Starting Age</a></li>
+  <li><a href="#male-height-weight-4" id="toc-male-height-weight-4" class="nav-link" data-scroll-target="#male-height-weight-4">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-4" id="toc-female-height-weight-4" class="nav-link" data-scroll-target="#female-height-weight-4">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#half-orc" id="toc-half-orc" class="nav-link" data-scroll-target="#half-orc">Half-Orc</a>
+  <ul>
+  <li><a href="#starting-age-5" id="toc-starting-age-5" class="nav-link" data-scroll-target="#starting-age-5">Starting Age</a></li>
+  <li><a href="#male-height-weight-5" id="toc-male-height-weight-5" class="nav-link" data-scroll-target="#male-height-weight-5">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-5" id="toc-female-height-weight-5" class="nav-link" data-scroll-target="#female-height-weight-5">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#halflings" id="toc-halflings" class="nav-link" data-scroll-target="#halflings">Halflings</a>
+  <ul>
+  <li><a href="#description-3" id="toc-description-3" class="nav-link" data-scroll-target="#description-3">Description</a></li>
+  <li><a href="#restrictions-3" id="toc-restrictions-3" class="nav-link" data-scroll-target="#restrictions-3">Restrictions</a></li>
+  <li><a href="#special-abilities-3" id="toc-special-abilities-3" class="nav-link" data-scroll-target="#special-abilities-3">Special Abilities</a></li>
+  <li><a href="#saving-throws-3" id="toc-saving-throws-3" class="nav-link" data-scroll-target="#saving-throws-3">Saving Throws</a></li>
+  <li><a href="#starting-age-6" id="toc-starting-age-6" class="nav-link" data-scroll-target="#starting-age-6">Starting Age</a></li>
+  <li><a href="#male-height-weight-6" id="toc-male-height-weight-6" class="nav-link" data-scroll-target="#male-height-weight-6">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-6" id="toc-female-height-weight-6" class="nav-link" data-scroll-target="#female-height-weight-6">Female Height &amp; Weight</a></li>
+  </ul></li>
+  <li><a href="#humans" id="toc-humans" class="nav-link" data-scroll-target="#humans">Humans</a>
+  <ul>
+  <li><a href="#description-4" id="toc-description-4" class="nav-link" data-scroll-target="#description-4">Description</a></li>
+  <li><a href="#restrictions-4" id="toc-restrictions-4" class="nav-link" data-scroll-target="#restrictions-4">Restrictions</a></li>
+  <li><a href="#special-abilities-4" id="toc-special-abilities-4" class="nav-link" data-scroll-target="#special-abilities-4">Special Abilities</a></li>
+  <li><a href="#saving-throws-4" id="toc-saving-throws-4" class="nav-link" data-scroll-target="#saving-throws-4">Saving Throws</a></li>
+  <li><a href="#starting-age-7" id="toc-starting-age-7" class="nav-link" data-scroll-target="#starting-age-7">Starting Age</a></li>
+  <li><a href="#male-height-weight-7" id="toc-male-height-weight-7" class="nav-link" data-scroll-target="#male-height-weight-7">Male Height &amp; Weight</a></li>
+  <li><a href="#female-height-weight-7" id="toc-female-height-weight-7" class="nav-link" data-scroll-target="#female-height-weight-7">Female Height &amp; Weight</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -534,9 +633,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><img src="images/races.png" class="img-fluid"></p>
-<section id="demography-of-oncewas" class="level2">
-<h2 class="anchored" data-anchor-id="demography-of-oncewas">Demography of OnceWas</h2>
-<p>The allowed PC character races in OnceWas are Human, Dwarf, Elf, Half-Elf, or Halfling. Human is preferred for this campaign. In the world of OnceWas, 80% of the humanoid population is human, 5% are dwarves, 1.5% are halflings, 1% are elves, 0.5% are half-elves, and 12% are other races such as Orcs, Goblins, etc. It’s important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.</p>
+<section id="demography-of-greyhawk" class="level2">
+<h2 class="anchored" data-anchor-id="demography-of-greyhawk">Demography of Greyhawk</h2>
+<p>The allowed PC character races in Old School D&amp;D are Human, Dwarf, Elf, Half-Elf, Halfling, Half-Orc, Gnome and Goblin. Human is preferred for this campaign. In the world of Greyhawk, 50% of the humanoid population is human, 10% are dwarves, 10% are halflings, 10% are elves, 5 are half-orcs, and 2% are goblins and gnomes. It’s important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.</p>
 <div id="tbl-racial-requirements" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-racial-requirements-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -597,48 +696,1809 @@ Table&nbsp;4.1: Racial Requirements
 </section>
 <section id="dwarves" class="level2">
 <h2 class="anchored" data-anchor-id="dwarves">Dwarves</h2>
-<p><strong>Description:</strong> Dwarves constitute 5% of the population of OnceWas. They are short, stocky beings with beards, typically standing around four feet tall and weighing approximately 160 pounds. Their long hair and thick beards come in dark brown, gray, or black hues. They take great pride in their beards, often braiding or forking them. Dwarves tend to have dark, ruddy complexions.</p>
+<section id="description" class="level3">
+<h3 class="anchored" data-anchor-id="description">Description</h3>
+<p>Dwarves constitute 10% of the population of Greyhawk. They are short, stocky beings with beards, typically standing around four feet tall and weighing approximately 160 pounds. Their long hair and thick beards come in dark brown, gray, or black hues. They take great pride in their beards, often braiding or forking them. Dwarves tend to have dark, ruddy complexions.</p>
 <p>Renowned for their strength and hardiness, dwarves endure pain, fatigue, and suffering better than most other races, boasting a lifespan of three to four centuries. Despite their hardiness, they tend to appear old upon reaching maturity.</p>
 <p>Dwarves are skilled in blacksmithing, gem cutting, and craftwork, particularly with materials like stone, gold, silver, and mithril. They are typically known for their practicality, stubbornness, and courage, though they can also be introspective, suspicious, and possessive. Dwarves have a fondness for beer and ale.</p>
-<p>Many Dwarven clans reside in Hammerfast, the Dwarvish Stronghold, including the Battlehammer, Stoutaxes, Strongfellow, and Rockbrow families.</p>
-<p><strong>Restrictions:</strong> Dwarves may pursue careers as Clerics, Fighters, or Thieves. They must have a minimum Constitution score of 9. Due to their generally dour dispositions, they may not possess a Charisma score higher than 17. Additionally, dwarves are restricted from wielding Large weapons exceeding four feet in length, such as two-handed swords, polearms, and longbows.</p>
+<p>Dwarves in Greyhawk primarily live in fortified mountain citadels and tunnel networks within mountain ranges, especially in the Iron Hills and Lortmils. They can also be found in other regions like the Glorioles, Crystalmists, Principality of Ulek, and Ratik</p>
+</section>
+<section id="restrictions" class="level3">
+<h3 class="anchored" data-anchor-id="restrictions">Restrictions</h3>
+<p>Dwarves may pursue careers as Clerics, Fighters, or Thieves. They must have a minimum Constitution score of 9. Due to their generally dour dispositions, they may not possess a Charisma score higher than 17. Additionally, dwarves are restricted from wielding Large weapons exceeding four feet in length, such as two-handed swords, polearms, and longbows.</p>
 <p>Dwarves also incur a -10 feet penalty to combat movement.</p>
-<p><strong>Special Abilities:</strong> All Dwarves possess Darkvision with a range of 60 feet and are adept at detecting slanting passages, traps, shifting walls, and new constructions, gaining a +1 bonus on Investigation Skill checks when examining and searching these features.</p>
-<p><strong>Saving Throws:</strong> Dwarves gain a +4 bonus against Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, as well as a +3 bonus against Dragon Breath.</p>
+</section>
+<section id="special-abilities" class="level3">
+<h3 class="anchored" data-anchor-id="special-abilities">Special Abilities</h3>
+<p>All Dwarves possess Darkvision with a range of 60 feet and are adept at detecting slanting passages, traps, shifting walls, and new constructions, gaining a +1 bonus on Investigation Skill checks when examining and searching these features.</p>
+</section>
+<section id="saving-throws" class="level3">
+<h3 class="anchored" data-anchor-id="saving-throws">Saving Throws</h3>
+<p>Dwarves gain a +4 bonus against Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, as well as a +3 bonus against Dragon Breath.</p>
+</section>
+<section id="starting-age" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>250 + 2d10 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>40 + 5d4 years</td>
+</tr>
+<tr class="odd">
+<td>Thief / Assassin</td>
+<td>75 + 3d6 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight">Male Height &amp; Weight</h3>
+<div id="dwarf-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>3 ft 9 in + 1d4 in</td>
+<td>130 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–25</td>
+<td>Slim</td>
+<td>4 ft 1 in + 1d4 in</td>
+<td>140 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>26–55</td>
+<td>Normal</td>
+<td>4 ft 2 in + 1d4 in</td>
+<td>150 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>56–85</td>
+<td>Stout</td>
+<td>4 ft 2 in + 1d4 in</td>
+<td>160 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>4 ft 6 in + 1d4 in</td>
+<td>160 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>4 ft 9 in + 1d4 in</td>
+<td>170 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="72" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 71;"><span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalTableSelect<span class="op">,</span> highlightTableRow } <span class="im">from</span> <span class="st">"./custom.js"</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">26</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">56</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#dwarf-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 3 ft 9 in + 1d4 in / 130 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 4 ft 1 in + 1d4 in / 140 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 4 ft 2 in + 1d4 in / 150 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 4 ft 2 in + 1d4 in / 160 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 4 ft 6 in + 1d4 in / 160 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 4 ft 9 in + 1d4 in / 170 lbs + 1d20 lbs"</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight">Female Height &amp; Weight</h3>
+<div id="dwarf-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>3 ft 7 in + 1d4 in</td>
+<td>100 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>3 ft 11 in + 1d4 in</td>
+<td>110 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>4 ft 0 in + 1d4 in</td>
+<td>120 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>4 ft 0 in + 1d4 in</td>
+<td>130 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>4 ft 4 in + 1d4 in</td>
+<td>130 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>4 ft 7 in + 1d4 in</td>
+<td>140 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="117" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 116;"><span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb2-124"><a href="#cb2-124" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb2-125"><a href="#cb2-125" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb2-126"><a href="#cb2-126" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#dwarf-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 3 ft 7 in + 1d4 in / 100 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 3 ft 11 in + 1d4 in / 110 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 4 ft 0 in + 1d4 in / 120 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 4 ft 0 in + 1d4 in / 130 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 4 ft 4 in + 1d4 in / 130 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 4 ft 7 in + 1d4 in / 140 lbs + 1d20 lbs"</span></span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="elves" class="level2">
 <h2 class="anchored" data-anchor-id="elves">Elves</h2>
-<p><strong>Description:</strong> The mysterious Elves make up 1% of the population. They are the oldest and wisest of the races of Oncewas. It is said that the elves first arrived during the start of the Age of Dragons, having traveled East across the Far Away Sea. They settled in the Luisian Forest and built Imladris, the City of Elves. Elves are practically immortal, noble, and fair.</p>
+<section id="description-1" class="level3">
+<h3 class="anchored" data-anchor-id="description-1">Description</h3>
+<p>The mysterious Elves make up 10% of the population. They are the oldest and wisest of the races of Oncewas. It is said that the elves first arrived during the start of the Age of Dragons, having traveled East across the Far Away Sea. They settled in the Luisian Forest and built Imladris, the City of Elves. Elves are practically immortal, noble, and fair.</p>
 <p>Elves are a slender race, with both genders standing around five feet tall and weighing around 130 pounds. Most have dark hair, with little or no body or facial hair. Their skin is pale, and they have pointed ears and delicate features. Elves are lithe and graceful, with keen eyesight and hearing. They are typically inquisitive, passionate, self-assured, and sometimes haughty. Their typical lifespan is a dozen centuries or more. Elves do not sleep but instead enter trances for 4 hours a day in which they remain semiconscious.</p>
-<p><strong>Restrictions:</strong> Elves may become <a href="./class.html#cleric">Clerics</a>, <a href="./class.html#fighter">Fighters</a>, <a href="./class.html#magic-users">Magic-Users</a>, or <a href="./class.html#thief">Thieves</a>; they are also allowed to combine the classes of Fighter and Magic-User, and of Magic-User and Thief (see <a href="./class.html#combination-classes">Combination Classes</a>). They are required to have a minimum Intelligence of 9. Due to their generally delicate nature, they may not have a Constitution higher than 17. Elves never roll larger than six-sided dice (d6) for hit points.</p>
-<p><strong>Special Abilities:</strong> All Elves have <a href="./dungeonAdventures.html#darkvision">Darkvision</a> with a 60’ range. Elves are so observant that they have an additional +1 on Perception Skill and Spot Skills checks. Elves are immune to the paralyzing attack of ghouls, as well as the Sleep spell. Elves are only surprised on a DC17 or better. Elves also receive +10 feet to combat movement.</p>
-<p><strong>Saving Throws:</strong> Elves save at +1 vs.&nbsp;Paralysis or Petrify, and +2 vs.&nbsp;Magic Wands and Spells.</p>
+</section>
+<section id="restrictions-1" class="level3">
+<h3 class="anchored" data-anchor-id="restrictions-1">Restrictions</h3>
+<p>Elves may become <a href="./class.html#cleric">Clerics</a>, <a href="./class.html#fighter">Fighters</a>, <a href="./class.html#magic-users">Magic-Users</a>, or <a href="./class.html#thief">Thieves</a>; they are also allowed to combine the classes of Fighter and Magic-User, and of Magic-User and Thief (see <a href="./class.html#combination-classes">Combination Classes</a>). They are required to have a minimum Intelligence of 9. Due to their generally delicate nature, they may not have a Constitution higher than 17. Elves never roll larger than six-sided dice (d6) for hit points.</p>
+</section>
+<section id="special-abilities-1" class="level3">
+<h3 class="anchored" data-anchor-id="special-abilities-1">Special Abilities</h3>
+<p>All Elves have <a href="./dungeonAdventures.html#darkvision">Darkvision</a> with a 60’ range. Elves are so observant that they have an additional +1 on Perception Skill and Spot Skills checks. Elves are immune to the paralyzing attack of ghouls, as well as the Sleep spell. Elves are only surprised on a DC17 or better. Elves also receive +10 feet to combat movement.</p>
+</section>
+<section id="saving-throws-1" class="level3">
+<h3 class="anchored" data-anchor-id="saving-throws-1">Saving Throws</h3>
+<p>Elves save at +1 vs.&nbsp;Paralysis or Petrify, and +2 vs.&nbsp;Magic Wands and Spells.</p>
+</section>
+<section id="starting-age-1" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-1">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>500 + 10d10 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>130 + 5d6 years</td>
+</tr>
+<tr class="odd">
+<td>Magic-User / Illusionist</td>
+<td>150 + 5d6</td>
+</tr>
+<tr class="even">
+<td>Thief / Assassin</td>
+<td>100 + 5d6 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-1" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-1">Male Height &amp; Weight</h3>
+<div id="elf-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Small</td>
+<td>4 ft 7 in + 1d4 in</td>
+<td>70 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–45</td>
+<td>Slim</td>
+<td>4 ft 11 in + 1d4 in</td>
+<td>80 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>46–75</td>
+<td>Normal</td>
+<td>5 ft 0 in + 1d4 in</td>
+<td>90 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>76–80</td>
+<td>Stout</td>
+<td>5 ft 0 in + 1d4 in</td>
+<td>95 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>81–95</td>
+<td>Tall</td>
+<td>5 ft 4 in + 1d4 in</td>
+<td>95 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>5 ft 7 in + 1d4 in</td>
+<td>100 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="185" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 184;"><span id="cb3-185"><a href="#cb3-185" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb3-186"><a href="#cb3-186" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb3-187"><a href="#cb3-187" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb3-188"><a href="#cb3-188" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb3-189"><a href="#cb3-189" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb3-190"><a href="#cb3-190" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb3-191"><a href="#cb3-191" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb3-192"><a href="#cb3-192" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">45</span>]<span class="op">,</span></span>
+<span id="cb3-193"><a href="#cb3-193" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">46</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span></span>
+<span id="cb3-194"><a href="#cb3-194" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">76</span><span class="op">,</span><span class="dv">80</span>]<span class="op">,</span></span>
+<span id="cb3-195"><a href="#cb3-195" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">81</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb3-196"><a href="#cb3-196" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb3-197"><a href="#cb3-197" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb3-198"><a href="#cb3-198" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#elf-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb3-199"><a href="#cb3-199" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb3-200"><a href="#cb3-200" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 4 ft 7 in + 1d4 in / 70 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb3-201"><a href="#cb3-201" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 4 ft 11 in + 1d4 in / 80 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb3-202"><a href="#cb3-202" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 0 in + 1d4 in / 90 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb3-203"><a href="#cb3-203" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 5 ft 0 in + 1d4 in / 95 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb3-204"><a href="#cb3-204" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 4 in + 1d4 in / 95 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb3-205"><a href="#cb3-205" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 5 ft 7 in + 1d4 in / 100 lbs + 1d20 lbs"</span></span>
+<span id="cb3-206"><a href="#cb3-206" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb3-207"><a href="#cb3-207" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-208"><a href="#cb3-208" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-209"><a href="#cb3-209" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-1" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-1">Female Height &amp; Weight</h3>
+<div id="elf-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>4 ft 3 in + 1d4 in</td>
+<td>64 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–45</td>
+<td>Svelte</td>
+<td>4 ft 7 in + 1d4 in</td>
+<td>72 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>46–75</td>
+<td>Normal</td>
+<td>4 ft 8 in + 1d4 in</td>
+<td>80 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>76–80</td>
+<td>Curvy</td>
+<td>4 ft 8 in + 1d4 in</td>
+<td>85 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>81–95</td>
+<td>Tall</td>
+<td>5 ft 0 in + 1d4 in</td>
+<td>85 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>5 ft 3 in + 1d4 in</td>
+<td>90 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="230" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 229;"><span id="cb4-230"><a href="#cb4-230" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb4-231"><a href="#cb4-231" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb4-232"><a href="#cb4-232" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb4-233"><a href="#cb4-233" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb4-234"><a href="#cb4-234" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb4-235"><a href="#cb4-235" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb4-236"><a href="#cb4-236" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb4-237"><a href="#cb4-237" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">45</span>]<span class="op">,</span></span>
+<span id="cb4-238"><a href="#cb4-238" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">46</span><span class="op">,</span><span class="dv">75</span>]<span class="op">,</span></span>
+<span id="cb4-239"><a href="#cb4-239" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">76</span><span class="op">,</span><span class="dv">80</span>]<span class="op">,</span></span>
+<span id="cb4-240"><a href="#cb4-240" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">81</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb4-241"><a href="#cb4-241" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb4-242"><a href="#cb4-242" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb4-243"><a href="#cb4-243" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#elf-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb4-244"><a href="#cb4-244" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb4-245"><a href="#cb4-245" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 4 ft 3 in + 1d4 in / 64 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb4-246"><a href="#cb4-246" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 4 ft 7 in + 1d4 in / 72 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb4-247"><a href="#cb4-247" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 4 ft 8 in + 1d4 in / 80 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb4-248"><a href="#cb4-248" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 4 ft 8 in + 1d4 in / 85 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb4-249"><a href="#cb4-249" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 0 in + 1d4 in / 85 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb4-250"><a href="#cb4-250" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 5 ft 3 in + 1d4 in / 90 lbs + 1d20 lbs"</span></span>
+<span id="cb4-251"><a href="#cb4-251" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb4-252"><a href="#cb4-252" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-253"><a href="#cb4-253" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-254"><a href="#cb4-254" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="gnomes" class="level2">
+<h2 class="anchored" data-anchor-id="gnomes">Gnomes</h2>
+<section id="starting-age-2" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-2">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>300 + 3d12 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>60 + 5d4 years</td>
+</tr>
+<tr class="odd">
+<td>Magic-User / Illusionist</td>
+<td>100 + 2d12</td>
+</tr>
+<tr class="even">
+<td>Thief / Assassin</td>
+<td>80 + 5d4 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-2" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-2">Male Height &amp; Weight</h3>
+<div id="gnome-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>2 ft 10 in + 1d3 in</td>
+<td>50 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–25</td>
+<td>Slim</td>
+<td>3 ft 1 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>26–55</td>
+<td>Normal</td>
+<td>3 ft 2 in + 1d3 in</td>
+<td>60 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>56–85</td>
+<td>Stout</td>
+<td>3 ft 2 in + 1d3 in</td>
+<td>65 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>3 ft 5 in + 1d3 in</td>
+<td>65 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>3 ft 7 in + 1d3 in</td>
+<td>70 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb5" data-startfrom="284" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 283;"><span id="cb5-284"><a href="#cb5-284" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb5-285"><a href="#cb5-285" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb5-286"><a href="#cb5-286" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb5-287"><a href="#cb5-287" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb5-288"><a href="#cb5-288" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb5-289"><a href="#cb5-289" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb5-290"><a href="#cb5-290" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb5-291"><a href="#cb5-291" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb5-292"><a href="#cb5-292" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">26</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span></span>
+<span id="cb5-293"><a href="#cb5-293" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">56</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb5-294"><a href="#cb5-294" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb5-295"><a href="#cb5-295" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb5-296"><a href="#cb5-296" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb5-297"><a href="#cb5-297" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#gnome-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb5-298"><a href="#cb5-298" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb5-299"><a href="#cb5-299" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 2 ft 10 in + 1d3 in / 50 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb5-300"><a href="#cb5-300" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 3 ft 1 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb5-301"><a href="#cb5-301" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 2 in + 1d3 in / 60 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb5-302"><a href="#cb5-302" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 3 ft 2 in + 1d3 in / 65 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb5-303"><a href="#cb5-303" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 3 ft 5 in + 1d3 in / 65 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb5-304"><a href="#cb5-304" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 3 ft 7 in + 1d3 in / 70 lbs + 1d20 lbs"</span></span>
+<span id="cb5-305"><a href="#cb5-305" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb5-306"><a href="#cb5-306" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb5-307"><a href="#cb5-307" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-308"><a href="#cb5-308" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-5" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-2" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-2">Female Height &amp; Weight</h3>
+<div id="gnome-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>2 ft 8 in + 1d3 in</td>
+<td>42 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>2 ft 11 in + 1d3 in</td>
+<td>45 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>3 ft 0 in + 1d3 in</td>
+<td>50 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>3 ft 0 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>3 ft 3 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>3 ft 5 in + 1d3 in</td>
+<td>60 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb6" data-startfrom="329" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 328;"><span id="cb6-329"><a href="#cb6-329" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb6-330"><a href="#cb6-330" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb6-331"><a href="#cb6-331" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb6-332"><a href="#cb6-332" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb6-333"><a href="#cb6-333" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb6-334"><a href="#cb6-334" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb6-335"><a href="#cb6-335" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb6-336"><a href="#cb6-336" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb6-337"><a href="#cb6-337" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb6-338"><a href="#cb6-338" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb6-339"><a href="#cb6-339" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb6-340"><a href="#cb6-340" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb6-341"><a href="#cb6-341" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb6-342"><a href="#cb6-342" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#gnome-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb6-343"><a href="#cb6-343" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb6-344"><a href="#cb6-344" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 2 ft 8 in + 1d3 in / 42 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb6-345"><a href="#cb6-345" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 2 ft 11 in + 1d3 in / 45 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb6-346"><a href="#cb6-346" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 0 in + 1d3 in / 50 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb6-347"><a href="#cb6-347" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 3 ft 0 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb6-348"><a href="#cb6-348" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 3 ft 3 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb6-349"><a href="#cb6-349" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 3 ft 5 in + 1d3 in / 60 lbs + 1d20 lbs"</span></span>
+<span id="cb6-350"><a href="#cb6-350" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb6-351"><a href="#cb6-351" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb6-352"><a href="#cb6-352" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-353"><a href="#cb6-353" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-6" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="goblins" class="level2">
+<h2 class="anchored" data-anchor-id="goblins">Goblins</h2>
+<section id="starting-age-3" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-3">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>16 + 1d4 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>14 + 1d4 years</td>
+</tr>
+<tr class="odd">
+<td>Magic-User / Illusionist</td>
+<td>18 + 2d4 years</td>
+</tr>
+<tr class="even">
+<td>Thief / Assassin</td>
+<td>12 + 1d4 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-3" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-3">Male Height &amp; Weight</h3>
+<div id="goblin-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>3 ft 5 in + 1d3 in</td>
+<td>61 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–25</td>
+<td>Slim</td>
+<td>3 ft 9 in + 1d3 in</td>
+<td>67 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>26–55</td>
+<td>Normal</td>
+<td>3 ft 11 in + 1d3 in</td>
+<td>73 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>56–85</td>
+<td>Stout</td>
+<td>3 ft 11 in + 1d3 in</td>
+<td>79 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>4 ft 2 in + 1d3 in</td>
+<td>79 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>4 ft 4 in + 1d3 in</td>
+<td>85 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb7" data-startfrom="384" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 383;"><span id="cb7-384"><a href="#cb7-384" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb7-385"><a href="#cb7-385" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb7-386"><a href="#cb7-386" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb7-387"><a href="#cb7-387" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb7-388"><a href="#cb7-388" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb7-389"><a href="#cb7-389" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb7-390"><a href="#cb7-390" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb7-391"><a href="#cb7-391" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb7-392"><a href="#cb7-392" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">26</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span></span>
+<span id="cb7-393"><a href="#cb7-393" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">56</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb7-394"><a href="#cb7-394" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb7-395"><a href="#cb7-395" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb7-396"><a href="#cb7-396" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb7-397"><a href="#cb7-397" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#goblin-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb7-398"><a href="#cb7-398" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb7-399"><a href="#cb7-399" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 3 ft 5 in + 1d3 in / 61 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb7-400"><a href="#cb7-400" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 3 ft 9 in + 1d3 in / 67 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb7-401"><a href="#cb7-401" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 11 in + 1d3 in / 73 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb7-402"><a href="#cb7-402" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 3 ft 11 in + 1d3 in / 79 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb7-403"><a href="#cb7-403" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 4 ft 2 in + 1d3 in / 79 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb7-404"><a href="#cb7-404" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 4 ft 4 in + 1d3 in / 85 lbs + 1d20 lbs"</span></span>
+<span id="cb7-405"><a href="#cb7-405" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb7-406"><a href="#cb7-406" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb7-407"><a href="#cb7-407" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb7-408"><a href="#cb7-408" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-7" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-3" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-3">Female Height &amp; Weight</h3>
+<div id="goblin-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>3 ft 2 in + 1d3 in</td>
+<td>51 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>3 ft 6 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>3 ft 8 in + 1d3 in</td>
+<td>61 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>3 ft 8 in + 1d3 in</td>
+<td>67 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>3 ft 11 in + 1d3 in</td>
+<td>67 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>4 ft 1 in + 1d3 in</td>
+<td>72 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb8" data-startfrom="429" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 428;"><span id="cb8-429"><a href="#cb8-429" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb8-430"><a href="#cb8-430" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb8-431"><a href="#cb8-431" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb8-432"><a href="#cb8-432" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb8-433"><a href="#cb8-433" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb8-434"><a href="#cb8-434" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb8-435"><a href="#cb8-435" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb8-436"><a href="#cb8-436" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb8-437"><a href="#cb8-437" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb8-438"><a href="#cb8-438" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb8-439"><a href="#cb8-439" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb8-440"><a href="#cb8-440" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb8-441"><a href="#cb8-441" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb8-442"><a href="#cb8-442" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#goblin-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb8-443"><a href="#cb8-443" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb8-444"><a href="#cb8-444" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 3 ft 2 in + 1d3 in / 51 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb8-445"><a href="#cb8-445" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 3 ft 6 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb8-446"><a href="#cb8-446" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 8 in + 1d3 in / 61 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb8-447"><a href="#cb8-447" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 3 ft 8 in + 1d3 in / 67 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb8-448"><a href="#cb8-448" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 3 ft 11 in + 1d3 in / 67 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb8-449"><a href="#cb8-449" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 4 ft 1 in + 1d3 in / 72 lbs + 1d20 lbs"</span></span>
+<span id="cb8-450"><a href="#cb8-450" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb8-451"><a href="#cb8-451" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb8-452"><a href="#cb8-452" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb8-453"><a href="#cb8-453" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-8" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="half-elves" class="level2">
 <h2 class="anchored" data-anchor-id="half-elves">Half-Elves</h2>
-<p><strong>Description:</strong> Half-Elves make up 0.5% of the population of OnceWas. These beings combine the best parts of elves and humans, or so they say. They don’t really belong in either world, having to decide which community they identify with more. For this reason, they work excellently as ambassadors or wander off feeling excluded from all places, sometimes in search of adventurers with whom they can find a sense of belonging. An average Half-Elf male stands around 5’5” in height, with females averaging an inch shorter. They have pointed ears, but their features tend to favor the Human parent a bit more than the Elf. Half-elves live much longer than Humans, often exceeding 200 years.</p>
-<p><strong>Restrictions:</strong> Half-Elves may become members of any class or combination allowed to Elves. They are required to have a minimum Intelligence of 9, and like Elves, they may not have Constitution scores higher than 17. They do not suffer from the Elven hit dice limit.</p>
-<p><strong>Special Abilities:</strong> Half-Elves have <a href="./dungeonAdventures.html#darkvision">Darkvision</a> with a 30’ range. They also have an additional +1 on Perception Skill checks. Half-Elves gain a bonus of +5% on all earned experience, unless a member of a combination class.</p>
-<p><strong>Saving Throws:</strong> Half-Elves save at +1 vs.&nbsp;Magic Wands and Spells.</p>
+<section id="description-2" class="level3">
+<h3 class="anchored" data-anchor-id="description-2">Description</h3>
+<p>Half-Elves make up 0.5% of the population of OnceWas. These beings combine the best parts of elves and humans, or so they say. They don’t really belong in either world, having to decide which community they identify with more. For this reason, they work excellently as ambassadors or wander off feeling excluded from all places, sometimes in search of adventurers with whom they can find a sense of belonging. An average Half-Elf male stands around 5’5” in height, with females averaging an inch shorter. They have pointed ears, but their features tend to favor the Human parent a bit more than the Elf. Half-elves live much longer than Humans, often exceeding 200 years.</p>
+</section>
+<section id="restrictions-2" class="level3">
+<h3 class="anchored" data-anchor-id="restrictions-2">Restrictions</h3>
+<p>Half-Elves may become members of any class or combination allowed to Elves. They are required to have a minimum Intelligence of 9, and like Elves, they may not have Constitution scores higher than 17. They do not suffer from the Elven hit dice limit.</p>
+</section>
+<section id="special-abilities-2" class="level3">
+<h3 class="anchored" data-anchor-id="special-abilities-2">Special Abilities</h3>
+<p>Half-Elves have <a href="./dungeonAdventures.html#darkvision">Darkvision</a> with a 30’ range. They also have an additional +1 on Perception Skill checks. Half-Elves gain a bonus of +5% on all earned experience, unless a member of a combination class.</p>
+</section>
+<section id="saving-throws-2" class="level3">
+<h3 class="anchored" data-anchor-id="saving-throws-2">Saving Throws</h3>
+<p>Half-Elves save at +1 vs.&nbsp;Magic Wands and Spells.</p>
+</section>
+<section id="starting-age-4" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-4">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>40 + 2d4 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>22 + 3d4 years</td>
+</tr>
+<tr class="odd">
+<td>Magic-User / Illusionist</td>
+<td>30 + 2d8 years</td>
+</tr>
+<tr class="even">
+<td>Thief / Assassin</td>
+<td>22 + 3d8 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-4" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-4">Male Height &amp; Weight</h3>
+<div id="halfelf-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>5 ft 1 in + 1d4 in</td>
+<td>105 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–30</td>
+<td>Slim</td>
+<td>5 ft 5 in + 1d4 in</td>
+<td>115 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–70</td>
+<td>Normal</td>
+<td>5 ft 6 in + 1d4 in</td>
+<td>125 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>71–80</td>
+<td>Stout</td>
+<td>5 ft 6 in + 1d4 in</td>
+<td>135 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>81–95</td>
+<td>Tall</td>
+<td>5 ft 10 in + 1d4 in</td>
+<td>135 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>6 ft 1 in + 1d4 in</td>
+<td>145 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb9" data-startfrom="497" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 496;"><span id="cb9-497"><a href="#cb9-497" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb9-498"><a href="#cb9-498" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb9-499"><a href="#cb9-499" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb9-500"><a href="#cb9-500" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb9-501"><a href="#cb9-501" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb9-502"><a href="#cb9-502" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb9-503"><a href="#cb9-503" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb9-504"><a href="#cb9-504" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb9-505"><a href="#cb9-505" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">70</span>]<span class="op">,</span></span>
+<span id="cb9-506"><a href="#cb9-506" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">71</span><span class="op">,</span><span class="dv">80</span>]<span class="op">,</span></span>
+<span id="cb9-507"><a href="#cb9-507" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">81</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb9-508"><a href="#cb9-508" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb9-509"><a href="#cb9-509" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb9-510"><a href="#cb9-510" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halfelf-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb9-511"><a href="#cb9-511" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb9-512"><a href="#cb9-512" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 5 ft 1 in + 1d4 in / 105 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb9-513"><a href="#cb9-513" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 5 ft 5 in + 1d4 in / 115 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb9-514"><a href="#cb9-514" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 6 in + 1d4 in / 125 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb9-515"><a href="#cb9-515" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 5 ft 6 in + 1d4 in / 135 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb9-516"><a href="#cb9-516" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 10 in + 1d4 in / 135 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb9-517"><a href="#cb9-517" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 6 ft 1 in + 1d4 in / 145 lbs + 1d20 lbs"</span></span>
+<span id="cb9-518"><a href="#cb9-518" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb9-519"><a href="#cb9-519" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb9-520"><a href="#cb9-520" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb9-521"><a href="#cb9-521" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-9" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-4" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-4">Female Height &amp; Weight</h3>
+<div id="halfelf-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>4 ft 9 in + 1d4 in</td>
+<td>80 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>5 ft 1 in + 1d4 in</td>
+<td>90 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>5 ft 2 in + 1d4 in</td>
+<td>100 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>5 ft 2 in + 1d4 in</td>
+<td>110 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>5 ft 6 in + 1d4 in</td>
+<td>110 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>5 ft 9 in + 1d4 in</td>
+<td>120 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb10" data-startfrom="542" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 541;"><span id="cb10-542"><a href="#cb10-542" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb10-543"><a href="#cb10-543" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb10-544"><a href="#cb10-544" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb10-545"><a href="#cb10-545" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb10-546"><a href="#cb10-546" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb10-547"><a href="#cb10-547" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb10-548"><a href="#cb10-548" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb10-549"><a href="#cb10-549" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb10-550"><a href="#cb10-550" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb10-551"><a href="#cb10-551" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb10-552"><a href="#cb10-552" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb10-553"><a href="#cb10-553" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb10-554"><a href="#cb10-554" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb10-555"><a href="#cb10-555" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halfelf-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb10-556"><a href="#cb10-556" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb10-557"><a href="#cb10-557" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 4 ft 9 in + 1d4 in / 80 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb10-558"><a href="#cb10-558" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 5 ft 1 in + 1d4 in / 90 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb10-559"><a href="#cb10-559" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 2 in + 1d4 in / 100 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb10-560"><a href="#cb10-560" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 5 ft 2 in + 1d4 in / 110 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb10-561"><a href="#cb10-561" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 6 in + 1d4 in / 110 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb10-562"><a href="#cb10-562" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 5 ft 9 in + 1d4 in / 120 lbs + 1d20 lbs"</span></span>
+<span id="cb10-563"><a href="#cb10-563" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb10-564"><a href="#cb10-564" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb10-565"><a href="#cb10-565" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb10-566"><a href="#cb10-566" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-10" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="half-orc" class="level2">
+<h2 class="anchored" data-anchor-id="half-orc">Half-Orc</h2>
+<section id="starting-age-5" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-5">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>20 + 1d4 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>13 + 1d4 years</td>
+</tr>
+<tr class="odd">
+<td>Thief / Assassin</td>
+<td>20 + 2d4 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-5" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-5">Male Height &amp; Weight</h3>
+<div id="halforc-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>5 ft 3 in + 1d4 in</td>
+<td>130 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–25</td>
+<td>Slim</td>
+<td>5 ft 7 in + 1d4 in</td>
+<td>140 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>26–55</td>
+<td>Normal</td>
+<td>5 ft 8 in + 1d4 in</td>
+<td>150 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>56–85</td>
+<td>Stout</td>
+<td>5 ft 8 in + 1d4 in</td>
+<td>165 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>6 ft 0 in + 1d4 in</td>
+<td>160 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>6 ft 3 in + 1d4 in</td>
+<td>170 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb11" data-startfrom="595" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 594;"><span id="cb11-595"><a href="#cb11-595" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb11-596"><a href="#cb11-596" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb11-597"><a href="#cb11-597" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb11-598"><a href="#cb11-598" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb11-599"><a href="#cb11-599" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb11-600"><a href="#cb11-600" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb11-601"><a href="#cb11-601" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb11-602"><a href="#cb11-602" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb11-603"><a href="#cb11-603" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">26</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span></span>
+<span id="cb11-604"><a href="#cb11-604" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">56</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb11-605"><a href="#cb11-605" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb11-606"><a href="#cb11-606" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb11-607"><a href="#cb11-607" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb11-608"><a href="#cb11-608" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halforc-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb11-609"><a href="#cb11-609" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb11-610"><a href="#cb11-610" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 5 ft 3 in + 1d4 in / 130 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb11-611"><a href="#cb11-611" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 5 ft 7 in + 1d4 in / 140 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb11-612"><a href="#cb11-612" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 8 in + 1d4 in / 150 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb11-613"><a href="#cb11-613" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 5 ft 8 in + 1d4 in / 165 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb11-614"><a href="#cb11-614" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 6 ft 0 in + 1d4 in / 160 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb11-615"><a href="#cb11-615" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 6 ft 3 in + 1d4 in / 170 lbs + 1d20 lbs"</span></span>
+<span id="cb11-616"><a href="#cb11-616" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb11-617"><a href="#cb11-617" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb11-618"><a href="#cb11-618" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb11-619"><a href="#cb11-619" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-11" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-5" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-5">Female Height &amp; Weight</h3>
+<div id="halforc-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>4 ft 10 in + 1d4 in</td>
+<td>100 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>5 ft 2 in + 1d4 in</td>
+<td>110 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>5 ft 3 in + 1d4 in</td>
+<td>120 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>5 ft 3 in + 1d4 in</td>
+<td>135 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>5 ft 7 in + 1d4 in</td>
+<td>130 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>5 ft 10 in + 1d4 in</td>
+<td>140 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb12" data-startfrom="640" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 639;"><span id="cb12-640"><a href="#cb12-640" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb12-641"><a href="#cb12-641" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb12-642"><a href="#cb12-642" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb12-643"><a href="#cb12-643" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb12-644"><a href="#cb12-644" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb12-645"><a href="#cb12-645" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb12-646"><a href="#cb12-646" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb12-647"><a href="#cb12-647" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb12-648"><a href="#cb12-648" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb12-649"><a href="#cb12-649" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb12-650"><a href="#cb12-650" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb12-651"><a href="#cb12-651" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb12-652"><a href="#cb12-652" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb12-653"><a href="#cb12-653" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halforc-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb12-654"><a href="#cb12-654" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb12-655"><a href="#cb12-655" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 4 ft 10 in + 1d4 in / 100 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb12-656"><a href="#cb12-656" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 5 ft 2 in + 1d4 in / 110 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb12-657"><a href="#cb12-657" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 3 in + 1d4 in / 120 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb12-658"><a href="#cb12-658" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 5 ft 3 in + 1d4 in / 135 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb12-659"><a href="#cb12-659" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 7 in + 1d4 in / 130 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb12-660"><a href="#cb12-660" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 5 ft 10 in + 1d4 in / 140 lbs + 1d20 lbs"</span></span>
+<span id="cb12-661"><a href="#cb12-661" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb12-662"><a href="#cb12-662" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb12-663"><a href="#cb12-663" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb12-664"><a href="#cb12-664" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-12" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="halflings" class="level2">
 <h2 class="anchored" data-anchor-id="halflings">Halflings</h2>
-<p><strong>Description:</strong> Halflings make up 1.5% of the population of OnceWas. They are isolated, cheerful people who love the comfort of their homes and communities, which is why most of them don’t stray from their shires. However, a strong sense of curiosity inhabits many of them, leading some of these little folk to become adventurers or travel to other places. They are extremely agile, but due to their short legs, they are not as fast as other races. Halflings are good-natured, hospitable, and easygoing folk, three to four feet in height and weighing about 60 pounds. They have curly brown hair on their heads and feet, but rarely have facial hair. They are usually fair-skinned, often with ruddy cheeks. Halflings are remarkably rugged for their small size. They are dexterous and nimble, capable of moving quietly and remaining very still. They usually go barefoot. Halflings have lifespans comparable to, but slightly longer than, humans. A halfling is typically considered an adult in their early twenties, and some live into their 150s.</p>
-<p><strong>Restrictions:</strong> Halflings may become <a href="./class.html#cleric">Clerics</a>, <a href="./class.html#fighter">Fighters</a>, or <a href="./class.html#thief">Thieves</a>. They are required to have a minimum Dexterity of 9. Due to their small stature, they may not have a Strength higher than 17. Halflings never roll larger than six-sided dice (d6) for hit points regardless of class. Halflings may not use Large weapons and must wield Medium weapons with both hands.</p>
-<p><strong>Special Abilities:</strong> Halflings are unusually accurate with all sorts of ranged weapons, gaining a +1 attack bonus when employing them. When attacked in melee by creatures larger than man-sized, Halflings gain a +2 bonus to their Armor Class. Halflings are quick-witted, thus adding +1 to <a href="./combatDetails.html#initiative">Initiative</a> die rolls. Halflings can hide in shadows indoors like the <a href="./class.html#thief">Thief</a> ability and hide outdoors like the <a href="./class.html#ranger">Ranger</a> ability of the same level.</p>
-<p><strong>Saving Throws:</strong> Halflings save at +4 vs.&nbsp;Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, and at +3 vs.&nbsp;Dragon Breath.</p>
+<section id="description-3" class="level3">
+<h3 class="anchored" data-anchor-id="description-3">Description</h3>
+<p>Halflings make up 1.5% of the population of OnceWas. They are isolated, cheerful people who love the comfort of their homes and communities, which is why most of them don’t stray from their shires. However, a strong sense of curiosity inhabits many of them, leading some of these little folk to become adventurers or travel to other places. They are extremely agile, but due to their short legs, they are not as fast as other races. Halflings are good-natured, hospitable, and easygoing folk, three to four feet in height and weighing about 60 pounds. They have curly brown hair on their heads and feet, but rarely have facial hair. They are usually fair-skinned, often with ruddy cheeks. Halflings are remarkably rugged for their small size. They are dexterous and nimble, capable of moving quietly and remaining very still. They usually go barefoot. Halflings have lifespans comparable to, but slightly longer than, humans. A halfling is typically considered an adult in their early twenties, and some live into their 150s.</p>
+</section>
+<section id="restrictions-3" class="level3">
+<h3 class="anchored" data-anchor-id="restrictions-3">Restrictions</h3>
+<p>Halflings may become <a href="./class.html#cleric">Clerics</a>, <a href="./class.html#fighter">Fighters</a>, or <a href="./class.html#thief">Thieves</a>. They are required to have a minimum Dexterity of 9. Due to their small stature, they may not have a Strength higher than 17. Halflings never roll larger than six-sided dice (d6) for hit points regardless of class. Halflings may not use Large weapons and must wield Medium weapons with both hands.</p>
+</section>
+<section id="special-abilities-3" class="level3">
+<h3 class="anchored" data-anchor-id="special-abilities-3">Special Abilities</h3>
+<p>Halflings are unusually accurate with all sorts of ranged weapons, gaining a +1 attack bonus when employing them. When attacked in melee by creatures larger than man-sized, Halflings gain a +2 bonus to their Armor Class. Halflings are quick-witted, thus adding +1 to <a href="./combatDetails.html#initiative">Initiative</a> die rolls. Halflings can hide in shadows indoors like the <a href="./class.html#thief">Thief</a> ability and hide outdoors like the <a href="./class.html#ranger">Ranger</a> ability of the same level.</p>
+</section>
+<section id="saving-throws-3" class="level3">
+<h3 class="anchored" data-anchor-id="saving-throws-3">Saving Throws</h3>
+<p>Halflings save at +4 vs.&nbsp;Death Ray or Poison, Magic Wands, Paralysis or Petrify, and Spells, and at +3 vs.&nbsp;Dragon Breath.</p>
+</section>
+<section id="starting-age-6" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-6">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Druid</td>
+<td>40 + 3d4 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>20 + 3d4 years</td>
+</tr>
+<tr class="odd">
+<td>Thief / Assassin</td>
+<td>40 + 2d4 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-6" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-6">Male Height &amp; Weight</h3>
+<div id="halfling-male-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>3 ft 1 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>11–25</td>
+<td>Slim</td>
+<td>3 ft 5 in + 1d3 in</td>
+<td>61 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>26–55</td>
+<td>Normal</td>
+<td>3 ft 6 in + 1d3 in</td>
+<td>66 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>56–85</td>
+<td>Stout</td>
+<td>3 ft 6 in + 1d3 in</td>
+<td>72 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>3 ft 9 in + 1d3 in</td>
+<td>72 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>3 ft 11 in + 1d3 in</td>
+<td>77 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb13" data-startfrom="708" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 707;"><span id="cb13-708"><a href="#cb13-708" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb13-709"><a href="#cb13-709" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb13-710"><a href="#cb13-710" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb13-711"><a href="#cb13-711" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb13-712"><a href="#cb13-712" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb13-713"><a href="#cb13-713" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb13-714"><a href="#cb13-714" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb13-715"><a href="#cb13-715" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb13-716"><a href="#cb13-716" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">26</span><span class="op">,</span><span class="dv">55</span>]<span class="op">,</span></span>
+<span id="cb13-717"><a href="#cb13-717" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">56</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb13-718"><a href="#cb13-718" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb13-719"><a href="#cb13-719" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb13-720"><a href="#cb13-720" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb13-721"><a href="#cb13-721" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halfling-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb13-722"><a href="#cb13-722" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb13-723"><a href="#cb13-723" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 3 ft 1 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb13-724"><a href="#cb13-724" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 3 ft 5 in + 1d3 in / 61 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb13-725"><a href="#cb13-725" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 6 in + 1d3 in / 66 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb13-726"><a href="#cb13-726" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 3 ft 6 in + 1d3 in / 72 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb13-727"><a href="#cb13-727" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 3 ft 9 in + 1d3 in / 72 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb13-728"><a href="#cb13-728" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 3 ft 11 in + 1d3 in / 77 lbs + 1d20 lbs"</span></span>
+<span id="cb13-729"><a href="#cb13-729" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb13-730"><a href="#cb13-730" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb13-731"><a href="#cb13-731" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb13-732"><a href="#cb13-732" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-13" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="female-height-weight-6" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-6">Female Height &amp; Weight</h3>
+<div id="halfling-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>2 ft 11 in + 1d3 in</td>
+<td>46 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>3 ft 2 in + 1d3 in</td>
+<td>50 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>3 ft 4 in + 1d3 in</td>
+<td>55 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>3 ft 4 in + 1d3 in</td>
+<td>61 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>3 ft 7 in + 1d3 in</td>
+<td>61 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>3 ft 9 in + 1d3 in</td>
+<td>66 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb14" data-startfrom="753" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 752;"><span id="cb14-753"><a href="#cb14-753" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb14-754"><a href="#cb14-754" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb14-755"><a href="#cb14-755" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb14-756"><a href="#cb14-756" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb14-757"><a href="#cb14-757" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb14-758"><a href="#cb14-758" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb14-759"><a href="#cb14-759" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb14-760"><a href="#cb14-760" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb14-761"><a href="#cb14-761" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb14-762"><a href="#cb14-762" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb14-763"><a href="#cb14-763" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb14-764"><a href="#cb14-764" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb14-765"><a href="#cb14-765" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb14-766"><a href="#cb14-766" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#halfling-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb14-767"><a href="#cb14-767" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb14-768"><a href="#cb14-768" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 2 ft 11 in + 1d3 in / 46 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb14-769"><a href="#cb14-769" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 3 ft 2 in + 1d3 in / 50 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb14-770"><a href="#cb14-770" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 3 ft 4 in + 1d3 in / 55 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb14-771"><a href="#cb14-771" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 3 ft 4 in + 1d3 in / 61 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb14-772"><a href="#cb14-772" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 3 ft 7 in + 1d3 in / 61 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb14-773"><a href="#cb14-773" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 3 ft 9 in + 1d3 in / 66 lbs + 1d20 lbs"</span></span>
+<span id="cb14-774"><a href="#cb14-774" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb14-775"><a href="#cb14-775" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb14-776"><a href="#cb14-776" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb14-777"><a href="#cb14-777" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-14" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
 </section>
 <section id="humans" class="level2">
 <h2 class="anchored" data-anchor-id="humans">Humans</h2>
-<p><strong>Description:</strong> Humans make up 80% of the population of OnceWas. They come in a broad variety of shapes and sizes. The towering barbarians of Stonehold would seem to have very little in common with the desert dwellers of Sunndi. An average human male in good health stands just less than six feet tall and weighs about 175 pounds. Most humans in OnceWas live around 80 years.</p>
-<p><strong>Restrictions:</strong> Humans may choose any single class. They have no minimum or maximum ability score requirements.</p>
-<p><strong>Special Abilities:</strong> Humans learn unusually quickly, gaining a bonus of 10% to all experience points earned.</p>
-<p><strong>Saving Throws:</strong> Humans are considered the “standard,” and thus have no saving throw bonuses.</p>
+<section id="description-4" class="level3">
+<h3 class="anchored" data-anchor-id="description-4">Description</h3>
+<p>Humans make up 80% of the population of OnceWas. They come in a broad variety of shapes and sizes. The towering barbarians of Stonehold would seem to have very little in common with the desert dwellers of Sunndi. An average human male in good health stands just less than six feet tall and weighs about 175 pounds. Most humans in OnceWas live around 80 years.</p>
+</section>
+<section id="restrictions-4" class="level3">
+<h3 class="anchored" data-anchor-id="restrictions-4">Restrictions</h3>
+<p>Humans may choose any single class. They have no minimum or maximum ability score requirements.</p>
+</section>
+<section id="special-abilities-4" class="level3">
+<h3 class="anchored" data-anchor-id="special-abilities-4">Special Abilities</h3>
+<p>Humans learn unusually quickly, gaining a bonus of 10% to all experience points earned.</p>
+</section>
+<section id="saving-throws-4" class="level3">
+<h3 class="anchored" data-anchor-id="saving-throws-4">Saving Throws</h3>
+<p>Humans are considered the “standard,” and thus have no saving throw bonuses.</p>
+</section>
+<section id="starting-age-7" class="level3">
+<h3 class="anchored" data-anchor-id="starting-age-7">Starting Age</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Class</strong></th>
+<th><strong>Starting Age</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cleric / Druid</td>
+<td>20 + 1d4 years</td>
+</tr>
+<tr class="even">
+<td>Fighter / Ranger / Paladin</td>
+<td>15 + 1d4 years</td>
+</tr>
+<tr class="odd">
+<td>Magic-User / Illusionist</td>
+<td>24 + 2d8 years</td>
+</tr>
+<tr class="even">
+<td>Thief / Assassin</td>
+<td>20 + 1d4 years</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="male-height-weight-7" class="level3">
+<h3 class="anchored" data-anchor-id="male-height-weight-7">Male Height &amp; Weight</h3>
+<div id="human-male-height-weight-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–10</td>
+<td>Small</td>
+<td>5 ft 4 in + 1d4 in</td>
+</tr>
+<tr class="even">
+<td>11–30</td>
+<td>Slim</td>
+<td>5 ft 8 in + 1d4 in</td>
+</tr>
+<tr class="odd">
+<td>31–70</td>
+<td>Normal</td>
+<td>5 ft 9 in + 1d4 in</td>
+</tr>
+<tr class="even">
+<td>71–80</td>
+<td>Stout</td>
+<td>5 ft 9 in + 1d4 in</td>
+</tr>
+<tr class="odd">
+<td>81–95</td>
+<td>Tall</td>
+<td>6 ft 1 in + 1d4 in</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>6 ft 4 in + 1d4 in</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb15" data-startfrom="820" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 819;"><span id="cb15-820"><a href="#cb15-820" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb15-821"><a href="#cb15-821" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb15-822"><a href="#cb15-822" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb15-823"><a href="#cb15-823" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb15-824"><a href="#cb15-824" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb15-825"><a href="#cb15-825" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb15-826"><a href="#cb15-826" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">10</span>]<span class="op">,</span></span>
+<span id="cb15-827"><a href="#cb15-827" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">11</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb15-828"><a href="#cb15-828" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">70</span>]<span class="op">,</span></span>
+<span id="cb15-829"><a href="#cb15-829" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">71</span><span class="op">,</span><span class="dv">80</span>]<span class="op">,</span></span>
+<span id="cb15-830"><a href="#cb15-830" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">81</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb15-831"><a href="#cb15-831" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb15-832"><a href="#cb15-832" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb15-833"><a href="#cb15-833" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#human-male-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb15-834"><a href="#cb15-834" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb15-835"><a href="#cb15-835" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Small — 5 ft 4 in + 1d4 in / 140 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb15-836"><a href="#cb15-836" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Slim — 5 ft 8 in + 1d4 in / 155 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb15-837"><a href="#cb15-837" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 9 in + 1d4 in / 170 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb15-838"><a href="#cb15-838" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Stout — 5 ft 9 in + 1d4 in / 185 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb15-839"><a href="#cb15-839" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 6 ft 1 in + 1d4 in / 185 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb15-840"><a href="#cb15-840" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 6 ft 4 in + 1d4 in / 200 lbs + 1d20 lbs"</span></span>
+<span id="cb15-841"><a href="#cb15-841" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb15-842"><a href="#cb15-842" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb15-843"><a href="#cb15-843" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb15-844"><a href="#cb15-844" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-15" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="female-height-weight-7" class="level3">
+<h3 class="anchored" data-anchor-id="female-height-weight-7">Female Height &amp; Weight</h3>
+<div id="human-female-height-weight-table">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 22%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>d%</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Height</strong></th>
+<th><strong>Weight</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01–15</td>
+<td>Petite</td>
+<td>4 ft 11 in + 1d4 in</td>
+<td>105 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>16–30</td>
+<td>Svelte</td>
+<td>5 ft 3 in + 1d4 in</td>
+<td>115 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>31–65</td>
+<td>Normal</td>
+<td>5 ft 4 in + 1d4 in</td>
+<td>125 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>66–85</td>
+<td>Curvy</td>
+<td>5 ft 4 in + 1d4 in</td>
+<td>135 lbs + 1d20 lbs</td>
+</tr>
+<tr class="odd">
+<td>86–95</td>
+<td>Tall</td>
+<td>5 ft 8 in + 1d4 in</td>
+<td>135 lbs + 1d20 lbs</td>
+</tr>
+<tr class="even">
+<td>96–00</td>
+<td>Outsize</td>
+<td>5 ft 11 in + 1d4 in</td>
+<td>145 lbs + 1d20 lbs</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb16" data-startfrom="863" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 862;"><span id="cb16-863"><a href="#cb16-863" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb16-864"><a href="#cb16-864" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Height &amp; Weight&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb16-865"><a href="#cb16-865" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb16-866"><a href="#cb16-866" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb16-867"><a href="#cb16-867" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb16-868"><a href="#cb16-868" aria-hidden="true" tabindex="-1"></a>      <span class="kw">const</span> result <span class="op">=</span> <span class="fu">generalTableSelect</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">100</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span> [</span>
+<span id="cb16-869"><a href="#cb16-869" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span><span class="dv">15</span>]<span class="op">,</span></span>
+<span id="cb16-870"><a href="#cb16-870" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">16</span><span class="op">,</span><span class="dv">30</span>]<span class="op">,</span></span>
+<span id="cb16-871"><a href="#cb16-871" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">31</span><span class="op">,</span><span class="dv">65</span>]<span class="op">,</span></span>
+<span id="cb16-872"><a href="#cb16-872" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">66</span><span class="op">,</span><span class="dv">85</span>]<span class="op">,</span></span>
+<span id="cb16-873"><a href="#cb16-873" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">86</span><span class="op">,</span><span class="dv">95</span>]<span class="op">,</span></span>
+<span id="cb16-874"><a href="#cb16-874" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">96</span><span class="op">,</span><span class="dv">100</span>]</span>
+<span id="cb16-875"><a href="#cb16-875" aria-hidden="true" tabindex="-1"></a>      ])<span class="op">;</span></span>
+<span id="cb16-876"><a href="#cb16-876" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#human-female-height-weight-table"</span><span class="op">,</span> result)<span class="op">;</span></span>
+<span id="cb16-877"><a href="#cb16-877" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> [</span>
+<span id="cb16-878"><a href="#cb16-878" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Petite — 4 ft 11 in + 1d4 in / 105 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb16-879"><a href="#cb16-879" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Svelte — 5 ft 3 in + 1d4 in / 115 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb16-880"><a href="#cb16-880" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Normal — 5 ft 4 in + 1d4 in / 125 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb16-881"><a href="#cb16-881" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Curvy — 5 ft 4 in + 1d4 in / 135 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb16-882"><a href="#cb16-882" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Tall — 5 ft 8 in + 1d4 in / 135 lbs + 1d20 lbs"</span><span class="op">,</span></span>
+<span id="cb16-883"><a href="#cb16-883" aria-hidden="true" tabindex="-1"></a>        <span class="st">"Outsize — 5 ft 11 in + 1d4 in / 145 lbs + 1d20 lbs"</span></span>
+<span id="cb16-884"><a href="#cb16-884" aria-hidden="true" tabindex="-1"></a>      ][result <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb16-885"><a href="#cb16-885" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb16-886"><a href="#cb16-886" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb16-887"><a href="#cb16-887" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-16" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
 
 
 </section>
+</section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGdlbmVyYWxUYWJsZVNlbGVjdCwgaGlnaGxpZ2h0VGFibGVSb3cgfSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEhlaWdodCAmIFdlaWdodDwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSwgW1xyXG4gICAgICAgIFsxLDEwXSxcclxuICAgICAgICBbMTEsMjVdLFxyXG4gICAgICAgIFsyNiw1NV0sXHJcbiAgICAgICAgWzU2LDg1XSxcclxuICAgICAgICBbODYsOTVdLFxyXG4gICAgICAgIFs5NiwxMDBdXHJcbiAgICAgIF0pO1xyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNkd2FyZi1tYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlNtYWxsIOKAlCAzIGZ0IDkgaW4gKyAxZDQgaW4gLyAxMzAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlNsaW0g4oCUIDQgZnQgMSBpbiArIDFkNCBpbiAvIDE0MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCA0IGZ0IDIgaW4gKyAxZDQgaW4gLyAxNTAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN0b3V0IOKAlCA0IGZ0IDIgaW4gKyAxZDQgaW4gLyAxNjAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDQgZnQgNiBpbiArIDFkNCBpbiAvIDE2MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiT3V0c2l6ZSDigJQgNCBmdCA5IGluICsgMWQ0IGluIC8gMTcwIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxNV0sXHJcbiAgICAgICAgWzE2LDMwXSxcclxuICAgICAgICBbMzEsNjVdLFxyXG4gICAgICAgIFs2Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjZHdhcmYtZmVtYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlBldGl0ZSDigJQgMyBmdCA3IGluICsgMWQ0IGluIC8gMTAwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTdmVsdGUg4oCUIDMgZnQgMTEgaW4gKyAxZDQgaW4gLyAxMTAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk5vcm1hbCDigJQgNCBmdCAwIGluICsgMWQ0IGluIC8gMTIwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJDdXJ2eSDigJQgNCBmdCAwIGluICsgMWQ0IGluIC8gMTMwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJUYWxsIOKAlCA0IGZ0IDQgaW4gKyAxZDQgaW4gLyAxMzAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDQgZnQgNyBpbiArIDFkNCBpbiAvIDE0MCBsYnMgKyAxZDIwIGxic1wiXHJcbiAgICAgIF1bcmVzdWx0IC0gMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5JbnB1dHMuYnV0dG9uKFxyXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgSGVpZ2h0ICYgV2VpZ2h0PC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICBjb25zdCByZXN1bHQgPSBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLCBbXHJcbiAgICAgICAgWzEsMTVdLFxyXG4gICAgICAgIFsxNiw0NV0sXHJcbiAgICAgICAgWzQ2LDc1XSxcclxuICAgICAgICBbNzYsODBdLFxyXG4gICAgICAgIFs4MSw5NV0sXHJcbiAgICAgICAgWzk2LDEwMF1cclxuICAgICAgXSk7XHJcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI2VsZi1tYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlNtYWxsIOKAlCA0IGZ0IDcgaW4gKyAxZDQgaW4gLyA3MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiU2xpbSDigJQgNCBmdCAxMSBpbiArIDFkNCBpbiAvIDgwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJOb3JtYWwg4oCUIDUgZnQgMCBpbiArIDFkNCBpbiAvIDkwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTdG91dCDigJQgNSBmdCAwIGluICsgMWQ0IGluIC8gOTUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDUgZnQgNCBpbiArIDFkNCBpbiAvIDk1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCA1IGZ0IDcgaW4gKyAxZDQgaW4gLyAxMDAgbGJzICsgMWQyMCBsYnNcIlxyXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEhlaWdodCAmIFdlaWdodDwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSwgW1xyXG4gICAgICAgIFsxLDE1XSxcclxuICAgICAgICBbMTYsNDVdLFxyXG4gICAgICAgIFs0Niw3NV0sXHJcbiAgICAgICAgWzc2LDgwXSxcclxuICAgICAgICBbODEsOTVdLFxyXG4gICAgICAgIFs5NiwxMDBdXHJcbiAgICAgIF0pO1xyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNlbGYtZmVtYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlBldGl0ZSDigJQgNCBmdCAzIGluICsgMWQ0IGluIC8gNjQgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN2ZWx0ZSDigJQgNCBmdCA3IGluICsgMWQ0IGluIC8gNzIgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk5vcm1hbCDigJQgNCBmdCA4IGluICsgMWQ0IGluIC8gODAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIkN1cnZ5IOKAlCA0IGZ0IDggaW4gKyAxZDQgaW4gLyA4NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiVGFsbCDigJQgNSBmdCAwIGluICsgMWQ0IGluIC8gODUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDUgZnQgMyBpbiArIDFkNCBpbiAvIDkwIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC01IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxMF0sXHJcbiAgICAgICAgWzExLDI1XSxcclxuICAgICAgICBbMjYsNTVdLFxyXG4gICAgICAgIFs1Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjZ25vbWUtbWFsZS1oZWlnaHQtd2VpZ2h0LXRhYmxlXCIsIHJlc3VsdCk7XHJcbiAgICAgIHJldHVybiBbXHJcbiAgICAgICAgXCJTbWFsbCDigJQgMiBmdCAxMCBpbiArIDFkMyBpbiAvIDUwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTbGltIOKAlCAzIGZ0IDEgaW4gKyAxZDMgaW4gLyA1NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCAzIGZ0IDIgaW4gKyAxZDMgaW4gLyA2MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiU3RvdXQg4oCUIDMgZnQgMiBpbiArIDFkMyBpbiAvIDY1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJUYWxsIOKAlCAzIGZ0IDUgaW4gKyAxZDMgaW4gLyA2NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiT3V0c2l6ZSDigJQgMyBmdCA3IGluICsgMWQzIGluIC8gNzAgbGJzICsgMWQyMCBsYnNcIlxyXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTYiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEhlaWdodCAmIFdlaWdodDwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSwgW1xyXG4gICAgICAgIFsxLDE1XSxcclxuICAgICAgICBbMTYsMzBdLFxyXG4gICAgICAgIFszMSw2NV0sXHJcbiAgICAgICAgWzY2LDg1XSxcclxuICAgICAgICBbODYsOTVdLFxyXG4gICAgICAgIFs5NiwxMDBdXHJcbiAgICAgIF0pO1xyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNnbm9tZS1mZW1hbGUtaGVpZ2h0LXdlaWdodC10YWJsZVwiLCByZXN1bHQpO1xyXG4gICAgICByZXR1cm4gW1xyXG4gICAgICAgIFwiUGV0aXRlIOKAlCAyIGZ0IDggaW4gKyAxZDMgaW4gLyA0MiBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiU3ZlbHRlIOKAlCAyIGZ0IDExIGluICsgMWQzIGluIC8gNDUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk5vcm1hbCDigJQgMyBmdCAwIGluICsgMWQzIGluIC8gNTAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIkN1cnZ5IOKAlCAzIGZ0IDAgaW4gKyAxZDMgaW4gLyA1NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiVGFsbCDigJQgMyBmdCAzIGluICsgMWQzIGluIC8gNTUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDMgZnQgNSBpbiArIDFkMyBpbiAvIDYwIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC03IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxMF0sXHJcbiAgICAgICAgWzExLDI1XSxcclxuICAgICAgICBbMjYsNTVdLFxyXG4gICAgICAgIFs1Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjZ29ibGluLW1hbGUtaGVpZ2h0LXdlaWdodC10YWJsZVwiLCByZXN1bHQpO1xyXG4gICAgICByZXR1cm4gW1xyXG4gICAgICAgIFwiU21hbGwg4oCUIDMgZnQgNSBpbiArIDFkMyBpbiAvIDYxIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTbGltIOKAlCAzIGZ0IDkgaW4gKyAxZDMgaW4gLyA2NyBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCAzIGZ0IDExIGluICsgMWQzIGluIC8gNzMgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN0b3V0IOKAlCAzIGZ0IDExIGluICsgMWQzIGluIC8gNzkgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDQgZnQgMiBpbiArIDFkMyBpbiAvIDc5IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCA0IGZ0IDQgaW4gKyAxZDMgaW4gLyA4NSBsYnMgKyAxZDIwIGxic1wiXHJcbiAgICAgIF1bcmVzdWx0IC0gMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtOCIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5JbnB1dHMuYnV0dG9uKFxyXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgSGVpZ2h0ICYgV2VpZ2h0PC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICBjb25zdCByZXN1bHQgPSBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLCBbXHJcbiAgICAgICAgWzEsMTVdLFxyXG4gICAgICAgIFsxNiwzMF0sXHJcbiAgICAgICAgWzMxLDY1XSxcclxuICAgICAgICBbNjYsODVdLFxyXG4gICAgICAgIFs4Niw5NV0sXHJcbiAgICAgICAgWzk2LDEwMF1cclxuICAgICAgXSk7XHJcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI2dvYmxpbi1mZW1hbGUtaGVpZ2h0LXdlaWdodC10YWJsZVwiLCByZXN1bHQpO1xyXG4gICAgICByZXR1cm4gW1xyXG4gICAgICAgIFwiUGV0aXRlIOKAlCAzIGZ0IDIgaW4gKyAxZDMgaW4gLyA1MSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiU3ZlbHRlIOKAlCAzIGZ0IDYgaW4gKyAxZDMgaW4gLyA1NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCAzIGZ0IDggaW4gKyAxZDMgaW4gLyA2MSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiQ3Vydnkg4oCUIDMgZnQgOCBpbiArIDFkMyBpbiAvIDY3IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJUYWxsIOKAlCAzIGZ0IDExIGluICsgMWQzIGluIC8gNjcgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDQgZnQgMSBpbiArIDFkMyBpbiAvIDcyIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC05IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxMF0sXHJcbiAgICAgICAgWzExLDMwXSxcclxuICAgICAgICBbMzEsNzBdLFxyXG4gICAgICAgIFs3MSw4MF0sXHJcbiAgICAgICAgWzgxLDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjaGFsZmVsZi1tYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlNtYWxsIOKAlCA1IGZ0IDEgaW4gKyAxZDQgaW4gLyAxMDUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlNsaW0g4oCUIDUgZnQgNSBpbiArIDFkNCBpbiAvIDExNSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCA1IGZ0IDYgaW4gKyAxZDQgaW4gLyAxMjUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN0b3V0IOKAlCA1IGZ0IDYgaW4gKyAxZDQgaW4gLyAxMzUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDUgZnQgMTAgaW4gKyAxZDQgaW4gLyAxMzUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDYgZnQgMSBpbiArIDFkNCBpbiAvIDE0NSBsYnMgKyAxZDIwIGxic1wiXHJcbiAgICAgIF1bcmVzdWx0IC0gMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTAiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEhlaWdodCAmIFdlaWdodDwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSwgW1xyXG4gICAgICAgIFsxLDE1XSxcclxuICAgICAgICBbMTYsMzBdLFxyXG4gICAgICAgIFszMSw2NV0sXHJcbiAgICAgICAgWzY2LDg1XSxcclxuICAgICAgICBbODYsOTVdLFxyXG4gICAgICAgIFs5NiwxMDBdXHJcbiAgICAgIF0pO1xyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNoYWxmZWxmLWZlbWFsZS1oZWlnaHQtd2VpZ2h0LXRhYmxlXCIsIHJlc3VsdCk7XHJcbiAgICAgIHJldHVybiBbXHJcbiAgICAgICAgXCJQZXRpdGUg4oCUIDQgZnQgOSBpbiArIDFkNCBpbiAvIDgwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTdmVsdGUg4oCUIDUgZnQgMSBpbiArIDFkNCBpbiAvIDkwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJOb3JtYWwg4oCUIDUgZnQgMiBpbiArIDFkNCBpbiAvIDEwMCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiQ3Vydnkg4oCUIDUgZnQgMiBpbiArIDFkNCBpbiAvIDExMCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiVGFsbCDigJQgNSBmdCA2IGluICsgMWQ0IGluIC8gMTEwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCA1IGZ0IDkgaW4gKyAxZDQgaW4gLyAxMjAgbGJzICsgMWQyMCBsYnNcIlxyXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTExIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxMF0sXHJcbiAgICAgICAgWzExLDI1XSxcclxuICAgICAgICBbMjYsNTVdLFxyXG4gICAgICAgIFs1Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjaGFsZm9yYy1tYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlNtYWxsIOKAlCA1IGZ0IDMgaW4gKyAxZDQgaW4gLyAxMzAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlNsaW0g4oCUIDUgZnQgNyBpbiArIDFkNCBpbiAvIDE0MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCA1IGZ0IDggaW4gKyAxZDQgaW4gLyAxNTAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN0b3V0IOKAlCA1IGZ0IDggaW4gKyAxZDQgaW4gLyAxNjUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDYgZnQgMCBpbiArIDFkNCBpbiAvIDE2MCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiT3V0c2l6ZSDigJQgNiBmdCAzIGluICsgMWQ0IGluIC8gMTcwIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5JbnB1dHMuYnV0dG9uKFxyXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgSGVpZ2h0ICYgV2VpZ2h0PC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICBjb25zdCByZXN1bHQgPSBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLCBbXHJcbiAgICAgICAgWzEsMTVdLFxyXG4gICAgICAgIFsxNiwzMF0sXHJcbiAgICAgICAgWzMxLDY1XSxcclxuICAgICAgICBbNjYsODVdLFxyXG4gICAgICAgIFs4Niw5NV0sXHJcbiAgICAgICAgWzk2LDEwMF1cclxuICAgICAgXSk7XHJcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI2hhbGZvcmMtZmVtYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlBldGl0ZSDigJQgNCBmdCAxMCBpbiArIDFkNCBpbiAvIDEwMCBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiU3ZlbHRlIOKAlCA1IGZ0IDIgaW4gKyAxZDQgaW4gLyAxMTAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk5vcm1hbCDigJQgNSBmdCAzIGluICsgMWQ0IGluIC8gMTIwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJDdXJ2eSDigJQgNSBmdCAzIGluICsgMWQ0IGluIC8gMTM1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJUYWxsIOKAlCA1IGZ0IDcgaW4gKyAxZDQgaW4gLyAxMzAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIk91dHNpemUg4oCUIDUgZnQgMTAgaW4gKyAxZDQgaW4gLyAxNDAgbGJzICsgMWQyMCBsYnNcIlxyXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTEzIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxMF0sXHJcbiAgICAgICAgWzExLDI1XSxcclxuICAgICAgICBbMjYsNTVdLFxyXG4gICAgICAgIFs1Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjaGFsZmxpbmctbWFsZS1oZWlnaHQtd2VpZ2h0LXRhYmxlXCIsIHJlc3VsdCk7XHJcbiAgICAgIHJldHVybiBbXHJcbiAgICAgICAgXCJTbWFsbCDigJQgMyBmdCAxIGluICsgMWQzIGluIC8gNTUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlNsaW0g4oCUIDMgZnQgNSBpbiArIDFkMyBpbiAvIDYxIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJOb3JtYWwg4oCUIDMgZnQgNiBpbiArIDFkMyBpbiAvIDY2IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTdG91dCDigJQgMyBmdCA2IGluICsgMWQzIGluIC8gNzIgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDMgZnQgOSBpbiArIDFkMyBpbiAvIDcyIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCAzIGZ0IDExIGluICsgMWQzIGluIC8gNzcgbGJzICsgMWQyMCBsYnNcIlxyXG4gICAgICBdW3Jlc3VsdCAtIDFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTE0IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBIZWlnaHQgJiBXZWlnaHQ8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sIFtcclxuICAgICAgICBbMSwxNV0sXHJcbiAgICAgICAgWzE2LDMwXSxcclxuICAgICAgICBbMzEsNjVdLFxyXG4gICAgICAgIFs2Niw4NV0sXHJcbiAgICAgICAgWzg2LDk1XSxcclxuICAgICAgICBbOTYsMTAwXVxyXG4gICAgICBdKTtcclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjaGFsZmxpbmctZmVtYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlBldGl0ZSDigJQgMiBmdCAxMSBpbiArIDFkMyBpbiAvIDQ2IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJTdmVsdGUg4oCUIDMgZnQgMiBpbiArIDFkMyBpbiAvIDUwIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJOb3JtYWwg4oCUIDMgZnQgNCBpbiArIDFkMyBpbiAvIDU1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJDdXJ2eSDigJQgMyBmdCA0IGluICsgMWQzIGluIC8gNjEgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDMgZnQgNyBpbiArIDFkMyBpbiAvIDYxIGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCAzIGZ0IDkgaW4gKyAxZDMgaW4gLyA2NiBsYnMgKyAxZDIwIGxic1wiXHJcbiAgICAgIF1bcmVzdWx0IC0gMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMTUiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEhlaWdodCAmIFdlaWdodDwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgY29uc3QgcmVzdWx0ID0gZ2VuZXJhbFRhYmxlU2VsZWN0KFsxLDEwMCwwXSwgW1xyXG4gICAgICAgIFsxLDEwXSxcclxuICAgICAgICBbMTEsMzBdLFxyXG4gICAgICAgIFszMSw3MF0sXHJcbiAgICAgICAgWzcxLDgwXSxcclxuICAgICAgICBbODEsOTVdLFxyXG4gICAgICAgIFs5NiwxMDBdXHJcbiAgICAgIF0pO1xyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNodW1hbi1tYWxlLWhlaWdodC13ZWlnaHQtdGFibGVcIiwgcmVzdWx0KTtcclxuICAgICAgcmV0dXJuIFtcclxuICAgICAgICBcIlNtYWxsIOKAlCA1IGZ0IDQgaW4gKyAxZDQgaW4gLyAxNDAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlNsaW0g4oCUIDUgZnQgOCBpbiArIDFkNCBpbiAvIDE1NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiTm9ybWFsIOKAlCA1IGZ0IDkgaW4gKyAxZDQgaW4gLyAxNzAgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN0b3V0IOKAlCA1IGZ0IDkgaW4gKyAxZDQgaW4gLyAxODUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlRhbGwg4oCUIDYgZnQgMSBpbiArIDFkNCBpbiAvIDE4NSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiT3V0c2l6ZSDigJQgNiBmdCA0IGluICsgMWQ0IGluIC8gMjAwIGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0xNiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5JbnB1dHMuYnV0dG9uKFxyXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgSGVpZ2h0ICYgV2VpZ2h0PC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICBjb25zdCByZXN1bHQgPSBnZW5lcmFsVGFibGVTZWxlY3QoWzEsMTAwLDBdLCBbXHJcbiAgICAgICAgWzEsMTVdLFxyXG4gICAgICAgIFsxNiwzMF0sXHJcbiAgICAgICAgWzMxLDY1XSxcclxuICAgICAgICBbNjYsODVdLFxyXG4gICAgICAgIFs4Niw5NV0sXHJcbiAgICAgICAgWzk2LDEwMF1cclxuICAgICAgXSk7XHJcbiAgICAgIGhpZ2hsaWdodFRhYmxlUm93KFwiI2h1bWFuLWZlbWFsZS1oZWlnaHQtd2VpZ2h0LXRhYmxlXCIsIHJlc3VsdCk7XHJcbiAgICAgIHJldHVybiBbXHJcbiAgICAgICAgXCJQZXRpdGUg4oCUIDQgZnQgMTEgaW4gKyAxZDQgaW4gLyAxMDUgbGJzICsgMWQyMCBsYnNcIixcclxuICAgICAgICBcIlN2ZWx0ZSDigJQgNSBmdCAzIGluICsgMWQ0IGluIC8gMTE1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJOb3JtYWwg4oCUIDUgZnQgNCBpbiArIDFkNCBpbiAvIDEyNSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiQ3Vydnkg4oCUIDUgZnQgNCBpbiArIDFkNCBpbiAvIDEzNSBsYnMgKyAxZDIwIGxic1wiLFxyXG4gICAgICAgIFwiVGFsbCDigJQgNSBmdCA4IGluICsgMWQ0IGluIC8gMTM1IGxicyArIDFkMjAgbGJzXCIsXHJcbiAgICAgICAgXCJPdXRzaXplIOKAlCA1IGZ0IDExIGluICsgMWQ0IGluIC8gMTQ1IGxicyArIDFkMjAgbGJzXCJcclxuICAgICAgXVtyZXN1bHQgLSAxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn1dfQ==
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
