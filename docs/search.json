@@ -14,7 +14,7 @@
     "href": "whatIsThis.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "What Is This?\nThe Old School D&D Role-Playing Game is a tabletop system inspired by the earliest fantasy role-playing games. It celebrates the gritty charm of “old-school” mechanics—rooted in sword-and-sorcery tales—where danger is real, treasure is hard-won, and every dungeon crawl holds both peril and wonder.",
+    "text": "What Is This?\nThe Old School D&D Role-Playing Game is a tabletop system inspired by the earliest fantasy role-playing games. It celebrates the gritty charm of old-school mechanics—rooted in the sword-and-sorcery tradition—where danger is real, treasure is hard-won, and every dungeon crawl brims with both peril and wonder.",
     "crumbs": [
       "Introduction",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
@@ -25,7 +25,7 @@
     "href": "whatIsThis.html#what-is-a-role-playing-game",
     "title": "1  Introduction",
     "section": "What Is a Role-Playing Game?",
-    "text": "What Is a Role-Playing Game?\nIn the almost 50 years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played. Still, some have not tried RPGs; if you are one of those people, this part is for you.\nRole-playing games are played by a number of players, commonly two to eight, and a Dungeon Master (DM), who is responsible for running the world, creating and managing the towns, nations, ruins, non-player characters (NPCs), monsters, treasure, and all other elements that aid or challenge the players. Dice are often used to determine the success or failure of actions in the game; Basic Fantasy RPG uses polyhedral dice for this purpose.\nIn essence, role-playing games are grown-up games of pretend, with rules to determine outcomes. These rules range from very free-form and simple to very complex and detailed.\nThis game attempts to balance simplicity and complexity, being neither too detailed nor too free-form.",
+    "text": "What Is a Role-Playing Game?\nIn the more than fifty years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played them. Still, some have yet to try an RPG; if you’re one of those people, this section is for you.\nA role-playing game is played by a group of players—typically two to eight—and a Dungeon Master (DM), who runs the world. The DM creates and manages towns, dungeons, nations, non-player characters (NPCs), monsters, treasures, and all other elements that aid or challenge the players. Dice are often used to determine whether actions succeed or fail; Old School D&D uses polyhedral dice for this purpose.\nAt its heart, a role-playing game is a structured game of make-believe—grown-up pretend—with rules to guide the outcomes of the players’ choices. These rules may be simple and flexible or detailed and complex, depending on the game.\nThis system aims to capture the spirit of how D&D was played in the early 1980s while refining and modernizing the rules for today’s tables.",
     "crumbs": [
       "Introduction",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
@@ -36,7 +36,7 @@
     "href": "whatIsThis.html#what-do-i-need-to-play",
     "title": "1  Introduction",
     "section": "What Do I Need to Play?",
-    "text": "What Do I Need to Play?\nAs a player, you should have a pencil, some notebook paper, and a set of dice. Graph paper is also useful for drawing maps. You can use preprinted character sheets available on the Basic Fantasy RPG website, but notebook paper works fine.\nAs the Dungeon Master , you need the same materials. For new DMs or those with limited preparation time, pre-written adventures (modules) are available for free on the basicfantasy.org website. Modules written for most OSR games can also be used with some conversion.",
+    "text": "What Do I Need to Play?\nAs a player, you’ll need a pencil, some notebook paper, and a set of dice. Graph paper is useful for mapping your adventures. You can use a pre-printed character sheet or simply make your own on notebook paper.\nAs the Dungeon Master, you’ll need the same materials. For new DMs or those with limited preparation time, pre-written adventures (modules) are freely available at basicfantasy.org. Modules written for most other OSR systems can also be adapted with minimal conversion.",
     "crumbs": [
       "Introduction",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
@@ -47,7 +47,7 @@
     "href": "whatIsThis.html#using-the-dice",
     "title": "1  Introduction",
     "section": "Using the Dice",
-    "text": "Using the Dice\nThe 20-sided die (d20) is used to resolve attack rolls and saving throws. The 10-sided die (d10) generates numbers from 1 to 10, and pairs are used together to generate numbers from 1 to 100 (percentile rolls). The 4-sided die (d4) is flipped rather than rolled. Other commonly used dice include the 6-sided die (d6), 8-sided die (d8), and 12-sided die (d12).",
+    "text": "Using the Dice\nThe 20-sided die (d20) is used for attack rolls and saving throws.\nThe 10-sided die (d10) generates numbers from 1 to 10; rolling two together produces numbers from 1 to 100 (percentile rolls).\nThe 4-sided die (d4) is flipped rather than rolled.\nOther dice commonly used include the d6, d8, and d12.",
     "crumbs": [
       "Introduction",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
