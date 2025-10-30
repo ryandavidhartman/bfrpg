@@ -11,7 +11,7 @@ Write down the ability score bonus (or penalty) for each score beside the score 
 Next, choose a [race](races.qmd#character-races) and [class](class.qmd#character-classes) for your character. Your character must meet the Prime Requisite minimum for a class, as described in the [Character Classes](class.qmd#tbl-prime-requisites) section, to be a member of that class. Additionally, note that there are minimum (and maximum) ability requirements for the various races, which must be met, as described in the [Character Races](races.qmd#tbl-racial-requirements) section.
 
 
-![Character Information](./images/char.png){#fig-char-info}
+![Character Information](./images/sheet.png){#fig-char-info}
 
 Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Dungeon Master  what spell or spells your character knows; it's up to the Dungeon Master  to decide this, but they may allow you to choose one or more spells yourself.
 
