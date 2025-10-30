@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Ryan Hartman">
-<meta name="dcterms.date" content="2025-10-25">
+<meta name="dcterms.date" content="2025-10-30">
 
 <title>Old School D&amp;D</title>
 <style>
@@ -502,7 +502,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul>
+  <li><a href="#copyright-and-usage-notice" id="toc-copyright-and-usage-notice" class="nav-link" data-scroll-target="#copyright-and-usage-notice">Copyright and Usage Notice</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -528,7 +531,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 25, 2025</p>
+      <p class="date">October 30, 2025</p>
     </div>
   </div>
   
@@ -542,22 +545,104 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This document is Ryan Hartman’s homebrew version of Old School Dungeons &amp; Dragons. All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for personal, non-commercial use only.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/preface.png" class="img-fluid figure-img"></p>
-<figcaption>Old School D&amp;D</figcaption>
-</figure>
-</div>
-<p>Copyright and Usage Notice</p>
+<p>This document is Ryan Hartman’s homebrew version of Old School Dungeons &amp; Dragons.<br>
+All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for personal, non-commercial use only.</p>
+<p><img src="./images/preface.png" alt="Old School D&amp;D" width="100%"></p>
+<hr>
+<section id="copyright-and-usage-notice" class="level3">
+<h3 class="anchored" data-anchor-id="copyright-and-usage-notice">Copyright and Usage Notice</h3>
 <p>Portions of this work make fair use of copyrighted material owned by third parties, including game rules, terminology, and excerpts derived from purchased products. Such use is made under the provisions of Section 107 of the U.S. Copyright Act (Title 17, U.S. Code), which permits limited use of copyrighted works for purposes such as commentary, education, and fan creation. These materials are included solely for non-commercial, transformative purposes, with no intent to infringe upon or compete with the rights holders.</p>
 <p>No part of this work may be sold, redistributed, or republished for profit. Users may adapt or share excerpts for personal use only, provided that attribution to the original author (Ryan Hartman) is retained.</p>
 <p>This website was created by Ryan Hartman, based on John Atom’s (jmhimara) original code.</p>
 
 
 </section>
+</section>
 
 </main> <!-- /main -->
+<style>
+/* Only hide images in the main document content, not in nav/sidebar */
+.imgs-hidden #quarto-document-content img {
+  display: none !important;
+}
+#toggle-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .9rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: .35rem;
+  background: transparent;
+  cursor: pointer;
+}
+#toggle-images-btn[aria-pressed="true"] {
+  opacity: .75;
+}
+</style>
+
+<script>
+(function () {
+  const STORAGE_KEY = "quarto.imgsHidden";
+
+  function applyState(hidden) {
+    const root = document.documentElement; // or document.body
+    root.classList.toggle("imgs-hidden", hidden);
+    const btn = document.getElementById("toggle-images-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+      btn.title = hidden ? "Images are hidden" : "Images are visible";
+      btn.querySelector(".label").textContent = hidden ? "Show images" : "Hide images";
+    }
+  }
+
+  function currentState() {
+    return localStorage.getItem(STORAGE_KEY) === "1";
+  }
+
+  function setState(hidden) {
+    localStorage.setItem(STORAGE_KEY, hidden ? "1" : "0");
+    applyState(hidden);
+  }
+
+  function ensureButton() {
+    if (document.getElementById("toggle-images-btn")) return;
+
+    // Try common sidebar containers; fall back to the sidebar root
+    const sidebar =
+      document.querySelector("#quarto-sidebar .sidebar-menu-container") ||
+      document.querySelector("#quarto-sidebar .sidebar-tools") ||
+      document.querySelector("#quarto-sidebar") ||
+      null;
+
+    if (!sidebar) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.style.margin = "0.5rem 0 0.75rem";
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-images-btn";
+    btn.type = "button";
+    btn.innerHTML = `<span class="label">Hide images</span>`;
+    btn.addEventListener("click", () => setState(!currentState()));
+
+    wrapper.appendChild(btn);
+    // Insert near the top of the sidebar
+    sidebar.insertBefore(wrapper, sidebar.firstChild);
+  }
+
+  function init() {
+    ensureButton();
+    applyState(currentState());
+  }
+
+  // Run on first load
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Also run after Quarto client-side navigation (if enabled)
+  document.addEventListener("quarto:pageLoaded", init);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -940,6 +940,89 @@ Table&nbsp;7.2: Opposed Skill Check
 </section>
 
 </main> <!-- /main -->
+<style>
+/* Only hide images in the main document content, not in nav/sidebar */
+.imgs-hidden #quarto-document-content img {
+  display: none !important;
+}
+#toggle-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .9rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: .35rem;
+  background: transparent;
+  cursor: pointer;
+}
+#toggle-images-btn[aria-pressed="true"] {
+  opacity: .75;
+}
+</style>
+
+<script>
+(function () {
+  const STORAGE_KEY = "quarto.imgsHidden";
+
+  function applyState(hidden) {
+    const root = document.documentElement; // or document.body
+    root.classList.toggle("imgs-hidden", hidden);
+    const btn = document.getElementById("toggle-images-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+      btn.title = hidden ? "Images are hidden" : "Images are visible";
+      btn.querySelector(".label").textContent = hidden ? "Show images" : "Hide images";
+    }
+  }
+
+  function currentState() {
+    return localStorage.getItem(STORAGE_KEY) === "1";
+  }
+
+  function setState(hidden) {
+    localStorage.setItem(STORAGE_KEY, hidden ? "1" : "0");
+    applyState(hidden);
+  }
+
+  function ensureButton() {
+    if (document.getElementById("toggle-images-btn")) return;
+
+    // Try common sidebar containers; fall back to the sidebar root
+    const sidebar =
+      document.querySelector("#quarto-sidebar .sidebar-menu-container") ||
+      document.querySelector("#quarto-sidebar .sidebar-tools") ||
+      document.querySelector("#quarto-sidebar") ||
+      null;
+
+    if (!sidebar) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.style.margin = "0.5rem 0 0.75rem";
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-images-btn";
+    btn.type = "button";
+    btn.innerHTML = `<span class="label">Hide images</span>`;
+    btn.addEventListener("click", () => setState(!currentState()));
+
+    wrapper.appendChild(btn);
+    // Insert near the top of the sidebar
+    sidebar.insertBefore(wrapper, sidebar.firstChild);
+  }
+
+  function init() {
+    ensureButton();
+    applyState(currentState());
+  }
+
+  // Run on first load
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Also run after Quarto client-side navigation (if enabled)
+  document.addEventListener("quarto:pageLoaded", init);
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

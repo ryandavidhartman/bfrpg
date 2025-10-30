@@ -889,6 +889,89 @@ Table&nbsp;15.2: Player Character Movement Rates
 </section>
 
 </main> <!-- /main -->
+<style>
+/* Only hide images in the main document content, not in nav/sidebar */
+.imgs-hidden #quarto-document-content img {
+  display: none !important;
+}
+#toggle-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .9rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: .35rem;
+  background: transparent;
+  cursor: pointer;
+}
+#toggle-images-btn[aria-pressed="true"] {
+  opacity: .75;
+}
+</style>
+
+<script>
+(function () {
+  const STORAGE_KEY = "quarto.imgsHidden";
+
+  function applyState(hidden) {
+    const root = document.documentElement; // or document.body
+    root.classList.toggle("imgs-hidden", hidden);
+    const btn = document.getElementById("toggle-images-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+      btn.title = hidden ? "Images are hidden" : "Images are visible";
+      btn.querySelector(".label").textContent = hidden ? "Show images" : "Hide images";
+    }
+  }
+
+  function currentState() {
+    return localStorage.getItem(STORAGE_KEY) === "1";
+  }
+
+  function setState(hidden) {
+    localStorage.setItem(STORAGE_KEY, hidden ? "1" : "0");
+    applyState(hidden);
+  }
+
+  function ensureButton() {
+    if (document.getElementById("toggle-images-btn")) return;
+
+    // Try common sidebar containers; fall back to the sidebar root
+    const sidebar =
+      document.querySelector("#quarto-sidebar .sidebar-menu-container") ||
+      document.querySelector("#quarto-sidebar .sidebar-tools") ||
+      document.querySelector("#quarto-sidebar") ||
+      null;
+
+    if (!sidebar) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.style.margin = "0.5rem 0 0.75rem";
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-images-btn";
+    btn.type = "button";
+    btn.innerHTML = `<span class="label">Hide images</span>`;
+    btn.addEventListener("click", () => setState(!currentState()));
+
+    wrapper.appendChild(btn);
+    // Insert near the top of the sidebar
+    sidebar.insertBefore(wrapper, sidebar.firstChild);
+  }
+
+  function init() {
+    ensureButton();
+    applyState(currentState());
+  }
+
+  // Run on first load
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Also run after Quarto client-side navigation (if enabled)
+  document.addEventListener("quarto:pageLoaded", init);
+})();
+</script>
 <script type="ojs-module-contents">
 eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxEaWNlfSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHRvcmNoID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Ub3JjaCBUdXJucyAoMWQ0KzQpPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+ICg0ICsgZ2VuZXJhbERpY2UoMSw0LDApKX0pXHJcblxyXG5odGwuaHRtbGBcclxuICA8ZGl2IHN0eWxlPVwiZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjtcIj5cclxuICAgIDxkaXY+XHJcbiAgICAgICR7dmlld29mIHRvcmNofVxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IHN0eWxlPVwibWFyZ2luLWxlZnQ6IDEwcHg7XCI+XHJcbiAgICAgIFRvcmNoIGJ1cm4gdHVybnMgPSAke3RvcmNofVxyXG4gICAgPC9kaXY+XHJcbiAgPC9kaXY+XHJcbmBcclxuXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG52aWV3b2Ygb2lsID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5PaWwgTGFudGVybiAoMWQ2ICsxOCk8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIHJlZHVjZTogKCkgPT4gKDE4ICsgZ2VuZXJhbERpY2UoMSw2LDApICl9KVxyXG5cclxuaHRsLmh0bWxgXHJcbiAgPGRpdiBzdHlsZT1cImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7XCI+XHJcbiAgICA8ZGl2PlxyXG4gICAgICAke3ZpZXdvZiBvaWx9XHJcbiAgICA8L2Rpdj5cclxuICAgIDxkaXYgc3R5bGU9XCJtYXJnaW4tbGVmdDogMTBweDtcIj5cclxuICAgICAgTGFudGVybiB0dXJucyA9ICR7b2lsfVxyXG4gICAgPC9kaXY+XHJcbiAgPC9kaXY+XHJcbmBcclxuXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG52aWV3b2YgaSA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+U3R1Y2sgRG9vcjwvYnV0dG9uPmAsIHt2YWx1ZTogMSwgcmVkdWNlOiAoKSA9PiAoKGdlbmVyYWxEaWNlKDEsMjAsMCkgPj0gMTMgPyAnU3VjY2VzcycgOiAnRmFpbGVkJyApICl9KVxyXG52aWV3b2YgaiA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+TG9ja2VkIERvb3I8L2J1dHRvbj5gLCB7dmFsdWU6IDAsIHJlZHVjZTogKCkgPT4gKCAoZ2VuZXJhbERpY2UoMSwyMCwwKSA+PSAxNSA/ICdTdWNjZXNzJyA6ICdGYWlsZWQnICkpfSlcclxudmlld29mIGsgPSBJbnB1dHMuYnV0dG9uKGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOiBibGFjazsgYmFja2dyb3VuZC1jb2xvcjogbGlnaHRncmF5O1wiPkJlbmQgQmFyPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+ICgoZ2VuZXJhbERpY2UoMSwyMCwwKSA+PSAyMCA/ICdTdWNjZXNzJyA6ICdGYWlsZWQnICkgKX0pIFxyXG5cclxuaHRsLmh0bWxgXHJcbiAgPGRpdiBzdHlsZT1cImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7XCI+XHJcbiAgICA8ZGl2PlxyXG4gICAgICAke3ZpZXdvZiBpfVxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IHN0eWxlPVwibWFyZ2luLWxlZnQ6IDEwcHg7XCI+XHJcbiAgICAgIE9wZW4gU3R1Y2sgRG9vciBSZXN1bHRzID0gJHtpfVxyXG4gICAgPC9kaXY+XHJcbiAgPC9kaXY+XHJcbiAgPGRpdiBzdHlsZT1cImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7XCI+XHJcbiAgICA8ZGl2PlxyXG4gICAgICAke3ZpZXdvZiBqfVxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IHN0eWxlPVwibWFyZ2luLWxlZnQ6IDEwcHg7XCI+XHJcbiAgICAgIE9wZW4gTG9ja2VkIERvb3IgUmVzdWx0cyA9ICR7an1cclxuICAgIDwvZGl2PlxyXG4gIDwvZGl2PlxyXG4gIDxkaXYgc3R5bGU9XCJkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyO1wiPlxyXG4gICAgPGRpdj5cclxuICAgICAgJHt2aWV3b2Yga31cclxuICAgIDwvZGl2PlxyXG4gICAgPGRpdiBzdHlsZT1cIm1hcmdpbi1sZWZ0OiAxMHB4O1wiPlxyXG4gICAgICBCZW5kIEJhciBSZXN1bHRzID0gJHtrfVxyXG4gICAgPC9kaXY+XHJcbiAgPC9kaXY+XHJcbmBcclxuXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgndG9yY2gnKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnb2lsJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2knKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnaicpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdrJykifV19
 </script>

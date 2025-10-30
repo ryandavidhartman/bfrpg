@@ -5,7 +5,7 @@ project:
 book:
   title: "Old School D&D"
   author: "Ryan Hartman"
-  date: "10/25/2025"
+  date: "10/30/2025"
   reader-mode: true
   chapters:
     - index.qmd
@@ -86,6 +86,7 @@ format:
     header-includes: |
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
     mainfont: "Caudex"
+    include-after-body: toggle-images.html
   pdf:
     latex-template: "custom.tex"
     number-depth: 0

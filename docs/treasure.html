@@ -1331,6 +1331,89 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 
 </main> <!-- /main -->
+<style>
+/* Only hide images in the main document content, not in nav/sidebar */
+.imgs-hidden #quarto-document-content img {
+  display: none !important;
+}
+#toggle-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .9rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: .35rem;
+  background: transparent;
+  cursor: pointer;
+}
+#toggle-images-btn[aria-pressed="true"] {
+  opacity: .75;
+}
+</style>
+
+<script>
+(function () {
+  const STORAGE_KEY = "quarto.imgsHidden";
+
+  function applyState(hidden) {
+    const root = document.documentElement; // or document.body
+    root.classList.toggle("imgs-hidden", hidden);
+    const btn = document.getElementById("toggle-images-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+      btn.title = hidden ? "Images are hidden" : "Images are visible";
+      btn.querySelector(".label").textContent = hidden ? "Show images" : "Hide images";
+    }
+  }
+
+  function currentState() {
+    return localStorage.getItem(STORAGE_KEY) === "1";
+  }
+
+  function setState(hidden) {
+    localStorage.setItem(STORAGE_KEY, hidden ? "1" : "0");
+    applyState(hidden);
+  }
+
+  function ensureButton() {
+    if (document.getElementById("toggle-images-btn")) return;
+
+    // Try common sidebar containers; fall back to the sidebar root
+    const sidebar =
+      document.querySelector("#quarto-sidebar .sidebar-menu-container") ||
+      document.querySelector("#quarto-sidebar .sidebar-tools") ||
+      document.querySelector("#quarto-sidebar") ||
+      null;
+
+    if (!sidebar) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.style.margin = "0.5rem 0 0.75rem";
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-images-btn";
+    btn.type = "button";
+    btn.innerHTML = `<span class="label">Hide images</span>`;
+    btn.addEventListener("click", () => setState(!currentState()));
+
+    wrapper.appendChild(btn);
+    // Insert near the top of the sidebar
+    sidebar.insertBefore(wrapper, sidebar.firstChild);
+  }
+
+  function init() {
+    ensureButton();
+    applyState(currentState());
+  }
+
+  // Run on first load
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Also run after Quarto client-side navigation (if enabled)
+  document.addEventListener("quarto:pageLoaded", init);
+})();
+</script>
 <script type="ojs-module-contents">
 eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2hpZ2hsaWdodFRhYmxlUm93LCB0cmVhc3VyZUdlTVRhYmxlfSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIGdlbUpld2VsID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2dlbS1qZXdlbHJ5XCIsIHRyZWFzdXJlR2VNVGFibGUoKSl9KVxyXG5cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbmltcG9ydCB7dHJlYXN1cmVHZU1UYWJsZTJ9IGZyb20gXCIuL2N1c3RvbS5qc1wiXHJcblxyXG52aWV3b2YgZ2VtSmV3ZWwyID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2dlbS1qZXdlbHJ5LTJcIiwgdHJlYXN1cmVHZU1UYWJsZTIoKSl9KVxyXG5cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiXHJcbmltcG9ydCB7Z2VuZXJhbFRhYmxlU2VsZWN0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIGdlbUpld2VsMyA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIFxyXG57dmFsdWU6IDAsIFxyXG5yZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93KFwiI2dlbS1qZXdlbHJ5LTNcIiwgXHJcbmdlbmVyYWxUYWJsZVNlbGVjdChbMSwxMDAsMF0sW1sxLDVdLFs2LDEyXSxbMTMsMjBdLFsyMSwzMF0sWzMxLDQwXSxbNDEsNDNdLFs0NCw0OF0sWzQ5LDU3XSxbNTgsNjNdLFs2NCw2OF0sWzY5LDc4XSxbNzksODhdLFs4OSw5MV0sWzkyLDk1XSxbOTYsMTAwXV0pKX0pXHJcblxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTQiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuaW1wb3J0IHt0cmVhc3VyZUdlTVRhYmxlNCwgaGlnaGxpZ2h0VGFibGVDZWxsfSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIGdlbUpld2VsNCA9IElucHV0cy5idXR0b24oaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6IGJsYWNrOyBiYWNrZ3JvdW5kLWNvbG9yOiBsaWdodGdyYXk7XCI+Um9sbCBvbiBUYWJsZTwvYnV0dG9uPmAsIHt2YWx1ZTogMCwgcmVkdWNlOiAoKSA9PiB7dmFyIHRlbXAgPSB0cmVhc3VyZUdlTVRhYmxlNCgpOyBoaWdobGlnaHRUYWJsZUNlbGwoXCIjZ2VtLWpld2VscnktNFwiLCB0ZW1wWzBdLCB0ZW1wWzFdKX19KVxyXG5cclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdnZW1KZXdlbCcpIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdnZW1KZXdlbDInKSJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnZ2VtSmV3ZWwzJykifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXRRdWlldCIsInNvdXJjZSI6InNoaW55SW5wdXQoJ2dlbUpld2VsNCcpIn1dfQ==
 </script>
