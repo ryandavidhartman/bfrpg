@@ -1,16 +1,25 @@
+<img src="./images/cover2.png" alt="Old School D&D Cover" width="100%">
+
 # Preface {.unnumbered}
 
-This document is Ryan Hartman’s homebrew version of Old School Dungeons & Dragons.  
-All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for personal, non-commercial use only.
+This document is Ryan Hartman’s homebrew adaptation of **Shadowdark RPG**, titled _Old School D&D_. All textual materials, maps, floorplans, diagrams, charts, and forms included herein are provided for **personal, non-commercial use only**.
 
-<img src="./images/preface.png" alt="Old School D&D" width="100%">
+::: {.pagebreak}
+:::
 
----
+## Shadowdark Attribution
 
-### Copyright and Usage Notice
+_Old School D&D_ is an independent product published under the **Shadowdark RPG Third-Party License** and is not affiliated with **The Arcane Library, LLC**.  *Shadowdark RPG © 2025 The Arcane Library, LLC.*
 
-Portions of this work make fair use of copyrighted material owned by third parties, including game rules, terminology, and excerpts derived from purchased products. Such use is made under the provisions of Section 107 of the U.S. Copyright Act (Title 17, U.S. Code), which permits limited use of copyrighted works for purposes such as commentary, education, and fan creation. These materials are included solely for non-commercial, transformative purposes, with no intent to infringe upon or compete with the rights holders.
+## Website
 
-No part of this work may be sold, redistributed, or republished for profit. Users may adapt or share excerpts for personal use only, provided that attribution to the original author (Ryan Hartman) is retained.
+This website was created by Ryan Hartman, based on the original open-source code by John Atom [jmhimara](https://github.com/jmhimara/bfrpg).
 
-This website was created by Ryan Hartman, based on John Atom’s (jmhimara) original code.
+## Copyright and Usage Notice
+
+Portions of this work make **fair use** of copyrighted material owned by third parties, including game rules, terminology, and excerpts derived from purchased products.  Such use is made under the provisions of **Section 107 of the U.S. Copyright Act (Title 17, U.S. Code)**, which permits limited use of copyrighted works for purposes such as commentary, education, and fan creation. These materials are included solely for **non-commercial, transformative purposes**, with no intent to infringe upon or compete with the rights holders.
+
+No part of this work may be sold, redistributed, or republished for profit. Users may adapt or share excerpts for **personal use only**, provided that attribution to the original author (Ryan Hartman) is retained.
+
+::: {.pagebreak}
+:::

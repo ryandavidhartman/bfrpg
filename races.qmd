@@ -2,9 +2,9 @@
 
 ![](images/races.png)
 
-## Demography of Greyhawk
+## Demography of The Western Reaches
 
-The allowed PC character races in Old School D&D are Human, Dwarf, Elf, Half-Elf, Halfling, Half-Orc, Gnome and Goblin. Human is preferred for this campaign. In the world of Greyhawk, 50% of the humanoid population is human, 10% are dwarves, 10% are halflings, 10% are elves, 5 are half-orcs, and 2% are goblins and gnomes.  It's important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.
+The allowed PC character races in Old School D&D are Human, Dwarf, Elf, Half-Elf, Halfling, Half-Orc, Gnome and Goblin. Human is preferred for this campaign. In the Western Reaches, 50% of the humanoid population is human, 10% are dwarves, 10% are halflings, 10% are elves, 5 are half-orcs, and 2% are goblins and gnomes.  It's important to note that each race, except for Humans, has specific minimum and maximum ability score requirements.
 
 ---
 format:
@@ -27,13 +27,13 @@ format:
 ## Dwarves
 
 ### Description
-Dwarves constitute 10% of the population of Greyhawk. They are short, stocky beings with beards, typically standing around four feet tall and weighing approximately 160 pounds. Their long hair and thick beards come in dark brown, gray, or black hues. They take great pride in their beards, often braiding or forking them. Dwarves tend to have dark, ruddy complexions.
+Dwarves constitute 10% of the population of The Western Reaches. They are short, stocky beings with beards, typically standing around four feet tall and weighing approximately 160 pounds. Their long hair and thick beards come in dark brown, gray, or black hues. They take great pride in their beards, often braiding or forking them. Dwarves tend to have dark, ruddy complexions.
 
 Renowned for their strength and hardiness, dwarves endure pain, fatigue, and suffering better than most other races, boasting a lifespan of three to four centuries. Despite their hardiness, they tend to appear old upon reaching maturity.
 
 Dwarves are skilled in blacksmithing, gem cutting, and craftwork, particularly with materials like stone, gold, silver, and mithril. They are typically known for their practicality, stubbornness, and courage, though they can also be introspective, suspicious, and possessive. Dwarves have a fondness for beer and ale.
 
-Dwarves in Greyhawk primarily live in fortified mountain citadels and tunnel networks within mountain ranges, especially in the Iron Hills and Lortmils. They can also be found in other regions like the Glorioles, Crystalmists, Principality of Ulek, and Ratik
+Dwarves primarily live in fortified mountain citadels and tunnel networks within mountain ranges.
 
 ### Restrictions
 Dwarves may pursue careers as Clerics, Fighters, or Thieves. They must have a minimum Constitution score of 9. Due to their generally dour dispositions, they may not possess a Charisma score higher than 17. Additionally, dwarves are restricted from wielding Large weapons exceeding four feet in length, such as two-handed swords, polearms, and longbows.
