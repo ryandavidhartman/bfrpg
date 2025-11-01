@@ -1,54 +1,46 @@
-# Introduction {.unnumbered}
+# Introduction
 
 ## The Divine Scimitars and the Tomb of Endless Wagers
 
 <img src="./images/DivineScimitars.png" alt="The Divine Scimitars" width="100%">
 
-The torches sputtered in the damp corridor as Vakesh ran a hand along the carved wall, tracing ancient sigils worn nearly smooth.  “Luck favors the bold,” he muttered—though his tone carried the unease of a man who had wagered his last coin on that truth one too many times.
+_The torches sputtered in the damp corridor as **Vakesh** ran a hand along the carved wall, tracing ancient sigils worn nearly smooth.  “Luck favors the bold,” he muttered—though his tone carried the unease of a man who had wagered his last coin on that truth one too many times._
 
-Behind him, Torin adjusted his grip on his war axe.  “Luck favors the prepared,” the dwarf growled. “And you’ve yet to pay me back for the last round of ale, wizard.”
+_Behind him, **Torin** adjusted his grip on his war axe.  “Luck favors the prepared,” the dwarf growled. “And you’ve yet to pay me back for the last round of ale, wizard.”_
 
-Carisby, ever the opportunist, crouched beside a stone chest half-buried in dust.  “If it makes you feel better, Torin, I’m about to find us all a payday.”  His nimble fingers danced across the lock—*click*—and a faint mist hissed from the seams.
+_**Carisby**, ever the opportunist, crouched beside a stone chest half-buried in dust.  “If it makes you feel better, Torin, I’m about to find us all a payday.”  His nimble fingers danced across the lock—*click*—and a faint mist hissed from the seams._
 
-Rosalin stepped forward, mace raised, eyes narrowing as the vapor thickened.  “Trap. Back!”
+_**Rosalin** stepped forward, mace raised, eyes narrowing as the vapor thickened.  “Trap. Back!”_
 
-Too late—the halfling sprang away, coughing as the air shimmered with necrotic light. The runes on the chest flared green, and a figure of ghostly radiance rose before them: a skeletal priest in tattered finery, clutching a pair of dice carved from bone.
+_Too late—the halfling sprang away, coughing as the air shimmered with necrotic light. The runes on the chest flared green, and a figure of ghostly radiance rose before them: a skeletal priest in tattered finery, clutching a pair of dice carved from bone._
 
-“Roll… and your fate is sealed,” it rasped. Vakesh’s grin returned. “Now *this* is a game I understand.”  He reached into his robes and drew forth a pair of gem-inlaid dice—an old gambler’s charm from his wilder years. As they clattered across the flagstones, the undead priest mirrored the motion. Both sets rolled in eerie unison. The priest’s dice came up snake eyes.  Vakesh’s—double sixes.
+_“Roll… and your fate is sealed,” it rasped. Vakesh’s grin returned. “Now *this* is a game I understand.”  He reached into his robes and drew forth a pair of gem-inlaid dice—an old gambler’s charm from his wilder years. As they clattered across the flagstones, the undead priest mirrored the motion. Both sets rolled in eerie unison. The priest’s dice came up snake eyes.  Vakesh’s—double sixes._
 
-A sudden rush of spectral wind swept through the corridor. The ghostly priest bowed stiffly, fading into dust. The chest’s lid cracked open with a low moan, revealing a heap of ancient gold coins and a ring that shimmered with unholy light.
+_A sudden rush of spectral wind swept through the corridor. The ghostly priest bowed stiffly, fading into dust. The chest’s lid cracked open with a low moan, revealing a heap of ancient gold coins and a ring that shimmered with unholy light._
 
-Torin whistled low. “Ain’t often I see the gods smile on a cheat.”
+_Torin whistled low. “Ain’t often I see the gods smile on a cheat.”_
 
-Rosalin frowned, her cleric’s instincts uneasy. “That ring—best leave it be. Evil clings to it.”  Carisby was already pocketing coins. “Evil can wait till after supper.”  Vakesh eyed the ring but said nothing. The dice in his palm felt warm *too* warm. He smiled a gambler’s smile, the kind that hides more than it shows.
+_Rosalin frowned, her cleric’s instincts uneasy. “That ring—best leave it be. Evil clings to it.”  Carisby was already pocketing coins. “Evil can wait till after supper.”  Vakesh eyed the ring but said nothing. The dice in his palm felt warm *too* warm. He smiled a gambler’s smile, the kind that hides more than it shows._
 
-“Onward, Scimitars,” he said. “The night is young, and fortune’s still rolling.”  They disappeared deeper into the tomb, laughter echoing through the corridors—reckless, brilliant, and utterly free.
+_“Onward, **Scimitars**,” he said. “The night is young, and fortune’s still rolling.”  They disappeared deeper into the tomb, laughter echoing through the corridors—reckless, brilliant, and utterly free._
 
 ::: {.pagebreak}
 :::
 
 ## What Is This?
 
-The **Old School D&D Role-Playing Game** is a tabletop system inspired by the earliest fantasy role-playing games. It celebrates the gritty charm of *old-school* mechanics—rooted in the sword-and-sorcery tradition—where danger is real, treasure is hard-won, and every dungeon crawl brims with both peril and wonder.
+The **Old School D&D Role-Playing Game** is a homebrew verion of **Shadowdark** inspired by the earliest fantasy role-playing games. It celebrates the gritty charm of *old-school* mechanics rooted in the sword-and-sorcery tradition where danger is real, treasure is hard-won, and every dungeon crawl brims with both peril and wonder.
 
-## What Is a Role-Playing Game?
+## What Defines Shadowdark?
 
-In the more than fifty years since the first role-playing game appeared, much has changed. Most people have at least heard of one or two such games, and many have played them. Still, some have yet to try an RPG; if you’re one of those people, this section is for you.
+Speed, danger, and simplicity. Magic is perilous, and battles are fast and deadly. Being clever is crucial for survival.
 
-A role-playing game is played by a group of players—typically two to eight—and a **Dungeon Master (DM)**, who runs the world. The DM creates and manages towns, dungeons, nations, non-player characters (NPCs), monsters, treasures, and all other elements that aid or challenge the players. Dice are often used to determine whether actions succeed or fail; **Old School D&D** uses polyhedral dice for this purpose.
+Shadowdark RPG is rules-light and intuitive. It encourages quick decisions rather than hunting through the rulebook for answers.
 
-At its heart, a role-playing game is a structured form of make-believe—grown-up pretend—with rules to guide the outcomes of the players’ choices. These rules may be simple and flexible or detailed and complex, depending on the game.
-
-This system aims to capture the spirit of how D&D was played in the early 1980s while refining and modernizing the rules for today’s tables.
+In this game, a torch only holds back the pressing darkness for one hour of real-world time. There isn’t a moment to waste when the flames are burning low...
 
 ## What Do I Need to Play?
 
-As a player, you’ll need a pencil, some notebook paper, and a set of dice. Graph paper is useful for mapping your adventures. You can use a [pre-printed character sheet](char_sheet.qmd) or simply make your own.
+As a player, you’ll need a pencil, some notebook paper, and a set of dice. Graph paper is useful for mapping your adventures. You can use a [pre-printed character sheet](./images/charactersheet.png) or simply make your own.
 
-As the Dungeon Master, you’ll need the same materials. For new DMs or those with limited preparation time, pre-written adventures (modules) are freely available at [basicfantasy.org](https://www.basicfantasy.org/). Modules written for most other OSR systems can also be adapted with minimal conversion.
-
-## Using the Dice
-
-<img src="./images/dice.png" alt="Polyhedral Dice" width="100%">
-
-The 20-sided die (**d20**) is used for attack rolls and saving throws. The 10-sided die (**d10**) generates numbers from 1 to 10; rolling two together produces numbers from 1 to 100 (percentile rolls).  The 4-sided die (**d4**) is rolled and read from the number facing up.  Other dice commonly used include the **d6**, **d8**, and **d12**.
+As the Dungeon Master, you’ll need the same materials. For new DMs or those with limited preparation time, pre-written adventures (modules) are freely available at [basicfantasy.org](https://www.basicfantasy.org/). Modules written for most other **OSR** systems can also be adapted with minimal conversion.

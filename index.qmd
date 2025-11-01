@@ -11,7 +11,7 @@ This document is Ryan Hartman’s homebrew adaptation of **Shadowdark RPG**, tit
 
 _Old School D&D_ is an independent product published under the **Shadowdark RPG Third-Party License** and is not affiliated with **The Arcane Library, LLC**.  *Shadowdark RPG © 2025 The Arcane Library, LLC.*
 
-## Website
+## Source Code
 
 This website was created by Ryan Hartman, based on the original open-source code by John Atom [jmhimara](https://github.com/jmhimara/bfrpg).
 

@@ -5,13 +5,14 @@ project:
 book:
   title: "Old School D&D"
   author: "Ryan Hartman"
-  date: "10/30/2025"
+  date: "10/31/2025"
   reader-mode: true
   chapters:
     - index.qmd
     - part: Introduction
       chapters:
         - whatIsThis.qmd
+        - basics.qmd
     - part: Player Characters
       chapters: 
         - char-creation.qmd
@@ -79,7 +80,7 @@ format:
       light: cosmo
       dark: Solar
     number-depth: 0
-    css: custom.css
+    css: [custom.css, styles.css]
     toc-depth: 4
     execute:
       echo: false
@@ -96,5 +97,6 @@ format:
       echo: false
     documentclass: report
     page-layout: full
+    include-in-header: preamble.tex
   # pdf:
   #   documentclass: scrreprt

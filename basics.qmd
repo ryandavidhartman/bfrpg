@@ -1,0 +1,57 @@
+## The Basics
+
+If this is your first time playing **Old School D&D**, it’s best to begin with a premade character.  
+The free digital [Shadowdark RPG Quickstart Set](https://www.thearcanelibrary.com/products/shadowdark-rpg-quickstart-set-pdf) includes several ready-to-play examples that can get you started quickly.
+
+---
+
+### Characters
+
+You describe what your character does, says, or attempts, and tell it to the referee—also called the **Dungeon Master (DM)**.  The DM listens, considers the situation, and decides whether your action succeeds, often calling for a dice roll to test your luck.  Through this exchange between player and DM, and in the company of your fellow adventurers, the story of your heroes unfolds—one choice, one roll, and one peril at a time.
+
+Always ask yourself: *If you were really your character, what would you do right now?*
+
+### Actions
+
+On your turn, describe what your character attempts to do. For example, you might say you’re firing your bow at a troll.   The DM may ask you to make a **check** (see *Checks*, below) to determine whether your action succeeds.
+
+### Movement
+
+During your turn, you may move up to **near** distance (roughly 30 feet).  You can divide this movement however you wish, before or after taking an action.  If you forgo your action entirely, you may move **near** a second time instead.
+
+### Rounds
+
+Play proceeds in **rounds**. Each person takes a turn, starting with the DM and continuing clockwise around the table.  The DM controls monsters and the environment, describing how everyone’s actions alter the unfolding scene.  When all participants have taken a turn, the round ends and a new one begins.
+
+### Dice
+
+<img src="./images/dice.png" alt="Polyhedral Dice" width="100%">
+
+You’ll need several dice: a four-sided (_d4_), six-sided (_d6_), eight-sided (_d8_), ten-sided (_d10_), twelve-sided (_d12_), and twenty-sided (_d20_).  When you see something like _3d6_, it means “roll three six-sided dice and add the results together.”
+
+**Advantage:** Roll twice and use the higher result.  
+**Disadvantage:** Roll twice and use the lower result.
+
+### Ability Scores
+
+![](images/abilities.png){.always-show}
+
+Your **Ability Scores**—often called *stats*—represent your character’s natural aptitudes.  
+Each score ranges from 3 to 18 and carries a **modifier (MOD)** from −4 to +4 that adjusts related rolls.  
+High scores grant bonuses; low scores impose penalties. These values define what your hero excels at—and where they falter.
+
+### Checks
+
+When attempting a risky or uncertain action, roll a _d20_ and add the appropriate modifier.  This is called making a **check**. The DM sets a target number called a **Difficulty Class (DC)** based on the challenge.  If your total (_d20_ + modifier) equals or exceeds the DC, you succeed.
+
+*Example:* The DM might decide that leaping across a narrow chasm requires a **DC 9 Strength check**.
+
+### Hit Points
+
+Injuries cause you to take damage and lose **hit points (HP)**.  Most common weapons deal _1d6_ damage. You regain lost HP after a night’s rest.  Characters reduced to zero HP are at death’s door—if no aid reaches them within _1d4_ + Constitution modifier round(minimum 1), they perish, one more nameless soul claimed by the dark.
+
+---
+
+**What’s Next?**
+
+You can play a complete adventure using only these basic rules.  When you’re ready for more, the chapters that follow expand on these foundations with new options, challenges, and depth.

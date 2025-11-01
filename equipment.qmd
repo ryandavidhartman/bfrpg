@@ -8,6 +8,9 @@ format:
     include-in-header: preamble.tex
 ---
 
+## Gear Slots
+You can carry a number of items equal to your Strength stat or 10, whichever is higher. Unless noted, all gear besides typical clothing fills one gear slot.  Gear that is hard to transport might fill more than one slot.
+
 ## Money
 
 ![](./images/coins.png)

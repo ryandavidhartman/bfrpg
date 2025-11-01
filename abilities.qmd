@@ -1,6 +1,4 @@
-# Character Abilities 
-
-![](images/abilities.png)
+# Character Stats
 
 ## Ability Scores
 
@@ -15,37 +13,37 @@ format:
 ---
 
 +-------------------+-------------------+
-| **Ability Score** | **Bonus/Penalty** |
+| **Ability Score** | **Modifier**      |
 +:=================:+:=================:+
-| 3                 | -3                |
+| 1-3               | -4                |
 +-------------------+-------------------+
-| 4-5               | -2                |
+| 4-5               | -3                |
 +-------------------+-------------------+
-| 6-8               | -1                |
+| 6-7               | -2                |
 +-------------------+-------------------+
-| 9-12              | 0                 |
+| 8-9               | -1                |
 +-------------------+-------------------+
-| 13-15             | +1                |
+| 10-11             | 0                 |
 +-------------------+-------------------+
-| 16-17             | +2                |
+| 12-13             | +1                |
 +-------------------+-------------------+
-| 18                | +3                |
+| 14-15             | +2                |
 +-------------------+-------------------+
-| 19                | +4                |
+| 16-17             | +3                |
 +-------------------+-------------------+
-| 20                | +5                |
+| 18+               | +4                |
 +-------------------+-------------------+
 : Ability Modifiers {#tbl-ability-modifiers}
 
 **Strength:** This ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand-to-hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](combatDetails.qmd#damage) section for details).
 
-**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character can learn to read and write. Characters with an Intelligence penalty may struggle with learning languages, being limited to understanding only their native language.
-
-**Wisdom:** Wisdom is a combination of intuition, willpower, and common sense. It is the Prime Requisite for [Clerics](class.qmd#cleric), who receive a Spell Bonus and a bonus to Turn Undead based on their Wisdom score. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
-
 **Dexterity:** This ability measures the character's quickness, balance, and aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty applies to all [attack rolls](combatDetails.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](combatDetails.qmd#initiative) die roll.
 
 **Constitution:** Constitution is a combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
+
+**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character can learn to read and write. Characters with an Intelligence penalty may struggle with learning languages, being limited to understanding only their native language.
+
+**Wisdom:** Wisdom is a combination of intuition, willpower, and common sense. It is the Prime Requisite for [Clerics](class.qmd#cleric), who receive a Spell Bonus and a bonus to Turn Undead based on their Wisdom score. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
 
 **Charisma:** This ability represents the character's ability to influence or lead people. Those with high Charisma are well-liked or highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of [retainers](hirelings.qmd#retainers) a character can hire and the loyalty of those retainers are affected by Charisma.
 

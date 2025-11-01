@@ -1,33 +1,59 @@
+---
+title: "Character Creation"
+---
+
 # Character Creation
 
-## How to Create a Player Character
+To make an **Old School D&D** character (also called a player character, or PC), grab your dice, a blank character sheet, and follow the steps below. You can also view a walkthrough at [youtube.com/thearcanelibrary](https://youtube.com/thearcanelibrary).
 
-To begin creating your player character, you'll need a piece of paper to record their statistics. You can use a preprinted character sheet if available, or simply use a piece of notebook paper. An example character is shown below. It's recommended to use a pencil for recording information, as any statistic may change during play.
+![Character Information](./images/charactersheet.png){#fig-char-info fig-cap="Example Character Sheet"}
+---
 
-[Roll 3d6](appendix_interactive.qmd#character-abilities) for each ability score.  Assign the results to each ability, described in the [Character Abilities](abilities.qmd#ability-scores) section, as desired.
+## Name
+Choose a worthy name for your adventurer.
 
-Write down the ability score bonus (or penalty) for each score beside the score itself, as shown on the table on the next page.
+## Ancestry
+Your character’s cultural and ancestral heritage.  Choose your [race](races.qmd#character-races) and note any special abilities it grants.  Make sure you meet the racial minimum and maximum ability requirements listed in [Racial Requirements](races.qmd#tbl-racial-requirements).
 
-Next, choose a [race](races.qmd#character-races) and [class](class.qmd#character-classes) for your character. Your character must meet the Prime Requisite minimum for a class, as described in the [Character Classes](class.qmd#tbl-prime-requisites) section, to be a member of that class. Additionally, note that there are minimum (and maximum) ability requirements for the various races, which must be met, as described in the [Character Races](races.qmd#tbl-racial-requirements) section.
+## Class
+Your character’s vocation or calling.  Choose a [class](class.qmd#character-classes) that fits your concept.  You must meet the **Prime Requisite** minimum for your chosen class ([Prime Requisites Table](class.qmd#tbl-prime-requisites)).  
+Record your class features and talents.
 
+## Level
+You begin at **Level 1**, unless your DM instructs otherwise.  Level advancement depends on earned experience points (XP).  You can note the amount required for Level 2 on your sheet for reference.
 
-![Character Information](./images/charactersheet.png){#fig-char-info}
+## Experience (XP)
+You start with **0 XP**.  You gain XP from treasure, quests, and successful adventuring.
 
-Write down the special abilities of your race and class choices, as described below. If you have chosen to play a Magic-User, ask your Dungeon Master  what spell or spells your character knows; it's up to the Dungeon Master  to decide this, but they may allow you to choose one or more spells yourself.
+## Alignment & Deity
+Choose your alignment — **Lawful**, **Neutral**, or **Chaotic** — reflecting your place in the cosmic struggle between order and entropy.  If desired, record your deity or patron.
 
-Note on your character sheet that your character has zero (0) experience points (or XP). Also, you may want to note the number needed to advance to second level, as shown in the table for your class.
+## Title
+As you gain levels, your title evolves based on your class and alignment.  Titles signify prestige within your adventuring community.
 
-First-level characters begin play with the maximum HP for your class plus your Constitution bonus or penalty. Note the result as your hit points on your character sheet.
+## Background
+Write a short note about your history and what kind of life you led before adventuring.   This can inform role-play and grant the DM context for situational rulings.
 
-Roll for your starting money. Generally, your character will start with 3d6 times 10 gold pieces, but ask the Dungeon Master  before rolling.  [Here](appendix_interactive.qmd#starting-gold) is an interactive tool to roll your starting gold.
+## Stats
+Roll **3d6** for each ability score using the [interactive roller](appendix_interactive.qmd#character-abilities). Assign each result to an ability as you choose (see [Character Abilities](abilities.qmd#ability-scores)).  Record bonuses or penalties from the ability score table.
 
-Now, purchase equipment for your character, as shown in the [Equipment](equipment.qmd#equipment-explanations) section. Write your purchases on your character sheet and note how much money remains afterward. Ensure you understand the weapon and armor restrictions for your class and race before making your purchases. [Here](appendix_interactive.qmd#buy-equipment) is an interactive tool to purchase equipment.
+## Hit Points (HP)
+First-level characters begin with the **maximum HP** for their class plus Constitution modifier.  Write this total on your sheet as your current and maximum HP.
 
-Since you now know what sort of armor your character is wearing, note your Armor Class on your character sheet. Don't forget to add your Dexterity bonus or penalty to the figure.
+## Staring Gold
+Roll **3d6 × 10 gp** for your starting money using the [Starting Gold Roller](appendix_interactive.qmd#starting-gold). Ask your DM if any adjustments apply.
 
-Look up your character's attack bonus (see @tbl-attacking-bonus in [Encounters](combatDetails.qmd)) and note it on your character sheet. Don't add your ability bonuses (or penalties) to this figure, as you will add a different bonus (Strength or Dexterity) depending on the sort of weapon you use in combat (i.e., melee or missile weapon).
+## Gear
+Spend your starting gold on items from the [Equipment](equipment.qmd#equipment-explanations) section.  Write down your purchases and remaining gold.  Confirm that your class and race can use each weapon or armor type.  You can also use the [Buy Equipment Tool](appendix_interactive.qmd#buy-equipment).  You can carry up to **10 + Strength** items (whichever is higher).
 
-Also, look up your saving throws (from the tables near the end of the [Encounter](combatDetails.qmd#saving-throw-tables-by-class) or at the appropriate [class](class.qmd#character-classes)). Note them on your character sheet. Adjust the saving throw figures based on your race, if your character is a demi-human (see [Character Races](races.qmd)). Please note that the saving throw bonuses for demi-humans are presented as "plus" values, to be added to the die roll. For convenience, you may simply subtract them from the saving throw numbers on the character sheet instead.
+## Armor Class (AC)
+Determine your AC based on your armor, shield, and Dexterity modifier.  Record this on your sheet.
 
-Finally, if you haven't done so already, name your character. This often takes longer than all the other steps combined.
+## Attacks
+List your weapons and note your **attack bonus** (see [Attacking Bonus Table](combatDetails.qmd#tbl-attacking-bonus)).   Add Strength for melee or Dexterity for missile attacks as appropriate.
 
+## Spells
+If your class uses magic, ask your DM what spells you begin with.  Some DMs may allow you to choose.  Write your known spells in the spells section of your sheet.
+
+## Final Details
+Write your character’s name, alignment, ancestry, class, HP, AC, and equipment on your character sheet.  Keep a pencil handy—everything can change once you start adventuring.
