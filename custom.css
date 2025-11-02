@@ -71,3 +71,10 @@ thead {
 
 .matrix-firstcol-shade th:first-child,
 .matrix-firstcol-shade td:first-child { background-color: rgba(0,0,0,0.02); font-weight: 600; }
+
+table.backgrounds-table col:nth-child(1) { width:5%; }
+table.backgrounds-table col:nth-child(2) { width:15%; }
+table.backgrounds-table col:nth-child(3) { width:15%; }
+table.backgrounds-table col:nth-child(4) { width:15%; }
+table.backgrounds-table col:nth-child(5) { width:50%; }
+

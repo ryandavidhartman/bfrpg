@@ -19,6 +19,7 @@ book:
         - abilities.qmd
         - races.qmd
         - class.qmd
+        - backgrounds.qmd
         - multiClass.qmd
         - skills.qmd
         - feats.qmd

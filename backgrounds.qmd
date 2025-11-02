@@ -1,0 +1,132 @@
+## Backgrounds
+
+::: column-screen-inset-right
+:::{#backgrounds-table}
+| **d%** | **Background** | **Possessions** | **Details**   |
+|:------:|----------------|-----------------|---------------|
+|   1 | Alchemist | Staff; Oil, 1 flask | You brewed volatile draughts for coin and questions you’d rather not answer. |
+|   2 | Animal trainer | Club; Pony | You read beasts like books and calm them with a word and a palm. |
+|   3 | Apothecarist | Cudgel (as staff); Steel vial | You traded in remedies, rumors, and the bitter taste of truth. |
+|   4 | Armorer | Hammer (as club); Iron helmet | You hammered plate and patch; few know steel’s moods like you. |
+|   5 | Artisan | Staff; Clay, 1 lb. | Craft scarred your hands and honed your will. |
+|   6 | Astrologer | Dagger; Spyglass | You sell hope and doom to those who can’t tell the difference. |
+|   7 | Attendant | Dagger; Silver comb | You served your betters in silence and learned more than they guessed. |
+|   8 | Banished | Club; Small toolkit | Your people cast you out for supposed crimes. |
+|   9 | Barbarian | Club; Fetish necklace | You left the horde, but it never quite left you. |
+|  10 | Barber | Razor (as dagger); Scissors | Steel, steadiness, and secrets—your daily tools. |
+|  11 | Barkeep | Club; Tankard | Heard more secrets over ale than most priests in confession. |
+|  12 | Barrister | Quill (as dart); Book | You twist words until truth gives up. |
+|  13 | Beadle | Staff; Holy symbol | You keep order with ceremony and a firm hand. |
+|  14 | Beekeeper | Staff; Jar of honey | You learned sweet patience among stings. |
+|  15 | Beggar | Club; Wooden bowl | You’ve learned the art of survival one copper at a time. |
+|  16 | Blacksmith | Hammer (as club); Steel tongs | You forged strength from fire and long nights. |
+|  17 | Bonepicker | Club; Pouch of trinkets | You sift through ruins and corpses for stories and silver. |
+|  18 | Bookbinder | Awl (as dagger); Glue pot | You learned that even lies can be bound in leather. |
+|  19 | Butcher | Cleaver (as axe); Side of beef | You’ve seen life’s end one cut at a time. |
+|  20 | Caravan guard | Short sword; Linen, 1 yard | You’ve stood watch in the rain and seen too much blood. |
+|  21 | Cartographer | Dagger; Map case and quill | You draw the world to remember where you’ve already bled. |
+|  22 | Chandler | Scissors (as dagger); Candles, 20 | You poured light for those who feared the dark. |
+|  23 | Charcoal-Burner | Staff; Sooted hood | You tend smoky pits where wood becomes fuel and lungs grow old. |
+|  24 | Chest-maker | Chisel (as dagger); Wood, 10 lbs. | You built what others hide their treasures in. |
+|  25 | Chirurgeon | Club; Small toolkit | You know anatomy, surgery, and first aid. |
+|  26 | Cobbler | Awl (as dagger); Shoehorn | You mend what others wear out—boots, tempers, and patience. |
+|  27 | Confidence artist | Dagger; Quality cloak | You lie smoother than silk and quicker than regret. |
+|  28 | Cooper | Crowbar (as club); Barrel | You know how to bend wood and make it hold. |
+|  29 | Costermonger | Knife (as dagger); Fruit | You’ve peddled wares and rumors in equal measure. |
+|  30 | Cult Initiate | Club; Small toolkit | You know blasphemous secrets and rituals. |
+|  31 | Cutpurse | Dagger; Small chest | You live by your wits and the weight of other people’s purses. |
+|  32 | Ditch Digger | Shovel (as staff); Muddy boots | Earned strength and silence under a hard sun. |
+|  33 | Dancer | Dagger; Bells and ribbons | You learned grace before you learned caution. |
+|  34 | Dock worker | Pole (as staff); Coil of rope | You’ve hauled cargo and corpses alike. |
+|  35 | Dyer | Staff; Fabric, 3 yards | You know which dyes fade fast and which kill slow. |
+|  36 | Falconer | Dagger; Falcon | You teach wild tempers obedience—and envy their freedom. |
+|  37 | Farmer* | Pitchfork (as spear); Hen** | You know the patience of the plow and the moods of the soil. |
+|  38 | Forester | Staff; Herbs, 1 lb. | You read the grain of wood and the weather of the wilds. |
+|  39 | Fortune-teller | Dagger; Tarot deck | You sell hope to fools and hear too much truth. |
+|  40 | Gambler | Club; Dice | You live by chance, lie by instinct, and die by odds. |
+|  41 | Gravedigger’s Apprentice | Shovel (as staff); Lantern | You dug beside the dead until they stopped frightening you. |
+|  42 | Glassblower | Hammer (as club); Glass beads | You shaped beauty that shatters at a breath. |
+|  43 | Glove maker | Awl (as dagger); Gloves, 4 pairs | You stitched fine seams while plotting your escape. |
+|  44 | Grave digger | Shovel (as staff); Trowel | You handle death calmly—it’s the living that cause trouble. |
+|  45 | Guild beggar | Sling; Crutches | You learned the city’s back ways and how to sleep with one eye open. |
+|  46 | Hearth Keeper | Club; Iron poker | You kept the fires burning while others fought the cold and the dark. |
+|  47 | Haberdasher | Scissors (as dagger); Fine suits, 3 sets | From long years as a haberdasher, you’ve learned how to endure and adapt. |
+|  48 | Healer | Club; Holy water, 1 vial | You’ve bound wounds and brewed cures from roots and chance. |
+|  49 | Herbalist | Club; Herbs, 1 lb. | You know plants, medicines, and poisons. |
+|  50 | Herder | Staff; Herding dog** | You wander where grass grows, counting more beasts than friends. |
+|  51 | Herder | Staff; Sow** | You wander where grass grows, counting more beasts than friends. |
+|  52 | Hunter | Shortbow; Deer pelt | You know how to wait, and when not to miss. |
+|  53 | Indentured servant | Staff; Locket | You bought your freedom one scar at a time. |
+|  54 | Jester | Dart; Silk clothes | You mask fear with laughter and hide truth in jokes. |
+|  55 | Jeweler | Dagger; Gem worth 20 gp | You can easily appraise value and authenticity. |
+|  56 | Jailer | Club; Set of keys | You’ve watched men rot and wondered which deserved it. |
+|  57 | Locksmith | Dagger; Lockpicks | Knows every secret a keyhole can tell. |
+|  58 | Mariner | Knife (as dagger); Sailcloth, 2 yards | You belong to the tide more than any port. |
+|  59 | Mendicant | Club; Begging Bowl | You beg from saints, sinners, and anything that listens. |
+|  60 | Mercenary | Longsword; Hide armor | You fought friend and foe alike for your coin. |
+|  61 | Merchant | Dagger; 4 gp, 14 sp, 27 cp | You’ve learned the worth of words and the price of everything else. |
+|  62 | Miller/baker | Club; Flour, 1 lb. | You measure life in turns of the wheel and handfuls of grain. |
+|  63 | Miner | Pick (as club); Lantern | You’ve dug deep where light fears to go. |
+|  64 | Minstrel | Dagger; Instrument (simple) | You’ve traveled far with your charm and talent. |
+|  65 | Mortician | Razor (as dagger); Embalming salts | You dress the dead better than the living. |
+|  66 | Moneylender | Short sword; 5 gp, 10 sp, 200 cp | You trade in trust, and collect what’s left of it. |
+|  67 | Mushroom-farmer | Shovel (as staff); Sack | You know the patience of the plow and the moods of the soil. |
+|  68 | Navigator | Shortbow; Spyglass | The road of a navigator is rough, but you know every turn of it. |
+|  69 | Noble | Longsword; Gold ring worth 10 gp | A famous name has opened many doors for you. |
+|  70 | Noble (Disgraced) | Dagger; Tattered seal | You learned grace, deceit, and how to bow without kneeling. |
+|  71 | Orphan | Club; Rag doll | An unusual guardian rescued and raised you. |
+|  72 | Ostler | Staff; Bridle | You know beasts better than men. |
+|  73 | Outlaw | Short sword; Leather armor | Faces blur on the road, but yours is remembered by the wrong people. |
+|  74 | Painter | Dagger; Pigment box | Sees beauty and doom in every shade of color. |
+|  75 | Ranger | Shortbow; Snare and 10' cord | The woods and wilds are your true home. |
+|  76 | Rat-catcher | Club; Net | You learned the tunnels by smell and the squeal of dying things. |
+|  77 | Relic Hunter | Short sword; Tarnished holy symbol | You chase legends for gold, glory, or ghosts that won’t rest. |
+|  78 | Rope maker | Knife (as dagger); Rope, 100’ | You know every knot that binds, breaks, or saves a life. |
+|  79 | Runesmith | Hammer (as club); Engraver’s chisel | You carve words of power that remember more than you do. |
+|  80 | Sage | Dagger; Parchment and quill pen | Your past as a sage still echoes in every choice you make. |
+|  81 | Sailor | Club; Coil of rope (25') | Pirate, privateer, or merchant, the seas are yours. |
+|  82 | Scholar | Dagger; Ink and quill | You know much about ancient history and lore. |
+|  83 | Scout | Shortbow; Snare and 10' cord | You survived on stealth, observation, and speed. |
+|  84 | Scribe | Dart; Parchment, 10 sheets | You’ve copied more lies and legends than you can count. |
+|  85 | Scribe (Itinerant) | Dagger; Journal and quill | Wanders with words, binding strangers’ tales into their own. |
+|  86 | Shaman | Mace; Bone fetish | Spirits whisper truths no one else dares hear. |
+|  87 | Slave | Club; Strange-looking rock | You’ve learned obedience, and the price of freedom. |
+|  88 | Smuggler | Sling; Waterproof sack | You know which tides hide the truth and which wash it clean. |
+|  89 | Soldier | Spear; Shield | You served as a fighter in an organized way. |
+|  90 | Spy | Dagger; Disguise Kit | Walks among enemies with a dozen borrowed faces. |
+|  91 | Squire | Longsword; Steel helmet | You once dreamed of knighthood; now you dream of survival. |
+|  92 | Stonemason | Hammer; Fine stone, 10 lbs. | You built walls meant to outlast men. |
+|  93 | Tax collector | Longsword; Ledger | You measure lives in coin and resentment. |
+|  94 | Thieves’ Guild | Club; Small toolkit | You have connections, contacts, and debts. |
+|  95 | Torchbearer | Club; Lantern and 2 flasks of oil | You walk behind heroes, lighting their triumphs and graves alike. |
+|  96 | Trader | Short sword; 20 sp | You earned your keep on the road and know a fair deal when you see one. |
+|  97 | Trapper | Sling; Badger pelt | You know how to wait, and when not to miss. |
+|  98 | Urchin | Stick (as club); Begging bowl | You grew up on the merciless streets of a large city. |
+|  99 | Vagrant | Club; Begging bowl | The road is your bed, the stars your ceiling, and hunger your companion. |
+| 100 | Wainwright | Club; Pushcart*** | You built what carries burdens when legs give out. |
+:::
+
+```{ojs}
+import { generalTableSelect, highlightTableRow, readMatrixFromTable } from "./custom.js"
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Background (d%)</button>`,
+  {
+    value: "",
+    reduce: () => {
+      var matrix = readMatrixFromTable("#backgrounds-table");
+      var n = matrix.length;
+
+      // Inline 1..N ranges; no const
+      var idx = generalTableSelect([1, 100, 0], Array.from({length: n}, function(_, i){ return [i+1, i+1]; }));
+
+      highlightTableRow("#backgrounds-table", idx);
+
+      // matrix row = [Background, Possessions, Details]
+      var row = matrix[idx - 1];
+      return row[0] + " — " + row[1] + ". " + row[2];
+    }
+  }
+)
+```
+:::
