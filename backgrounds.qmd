@@ -1,5 +1,9 @@
 ## Backgrounds
 
+Your character once toiled at ordinary work—plowing fields, hammering steel, or serving a master’s trade. Family and peers still do. Those years left you with calloused hands, a few hard-earned skills, and training in a simple weapon.
+
+Your background knowledge and experience might yet prove useful on the road or in the dungeon. Work with the DM to decide when your past offers an advantage or a scrap of insight. Even humble trades can save a life when fortune runs thin.
+
 ::: column-screen-inset-right
 :::{#backgrounds-table}
 | **d1000** | **Background** | **Possessions** | **Details**   |
