@@ -32,7 +32,7 @@ Choose your alignment — **Lawful**, **Neutral**, or **Chaotic** — reflecting
 As you gain levels, your title evolves based on your class and alignment.  Titles signify prestige within your adventuring community.
 
 ## Background
-Write a short note about your history and what kind of life you led before adventuring.   This can inform role-play and grant the DM context for situational rulings.
+Write a short note about your history and what kind of [life you led before adventuring](backgrounds.qmd).   This can inform role-play and grant the DM context for situational rulings.
 
 ## Stats
 Roll **3d6** for each ability score using the [interactive roller](appendix_interactive.qmd#character-abilities). Assign each result to an ability as you choose (see [Character Abilities](abilities.qmd#ability-scores)).  Record bonuses or penalties from the ability score table.
