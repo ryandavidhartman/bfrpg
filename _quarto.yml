@@ -5,28 +5,28 @@ project:
 book:
   title: "Old School D&D"
   author: "Ryan Hartman"
-  date: "10/31/2025"
+  date: "11/05/2025"
   reader-mode: true
   chapters:
     - index.qmd
     - part: Introduction
       chapters:
-        - whatIsThis.qmd
-        - basics.qmd
+        - introduction/whatIsThis.qmd
+        - introduction/basics.qmd
     - part: Player Characters
       chapters: 
-        - char-creation.qmd
-        - abilities.qmd
-        - races.qmd
-        - class.qmd
-        - backgrounds.qmd
-        - multiClass.qmd
-        - skills.qmd
-        - feats.qmd
-        - hitPoints.qmd
-        - languages.qmd
-        - equipment.qmd
-        - vehicles.qmd
+        - characters/char-creation.qmd
+        - characters/abilities.qmd
+        - characters//races.qmd
+        - characters/class.qmd
+        - characters/backgrounds.qmd
+        - characters/multiClass.qmd
+        - characters/skills.qmd
+        - characters/feats.qmd
+        - characters/hitPoints.qmd
+        - characters/languages.qmd
+        - characters/equipment.qmd
+        - characters/vehicles.qmd
     - part: Magic
       chapters: 
         - spells.qmd

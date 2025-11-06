@@ -1,0 +1,79 @@
+---
+title: "Character Creation"
+---
+
+# Character Creation
+
+To create an **Old School D&D** character—often called a *player character* (PC)—gather your dice, a blank character sheet, and follow the steps below.  
+A helpful walkthrough is available at [youtube.com/thearcanelibrary](https://youtube.com/thearcanelibrary).
+
+![Character Information](../images/charactersheet.png){#fig-char-info fig-cap="Example Character Sheet"}
+
+## Name
+
+Choose a name worthy of an adventurer.  Whether simple or strange, a good name helps bring your character to life at the table.
+
+## Ancestry
+
+Your ancestry defines your character’s cultural and racial heritage.  Choose your [race](races.qmd#character-races) and record any special abilities it grants.  Be sure you meet the minimum and maximum ability requirements listed in [Racial Requirements](races.qmd#tbl-racial-requirements).
+
+## Class
+
+Your class represents your character’s vocation or calling.  Select a [class](class.qmd#character-classes) that fits your concept.  You must meet the **Prime Requisite** minimum listed in the [Prime Requisites Table](class.qmd#tbl-prime-requisites).  Record the class features and talents appropriate to your choice.
+
+## Level
+
+Characters typically begin at **Level 0** or **Level 1**, unless the DM directs otherwise.  Levels represent experience and renown gained through adventuring. Advancement occurs when sufficient **experience points (XP)** are earned.
+
+## Experience (XP)
+
+You start with **0 XP**.  Experience is gained from treasure recovered, quests completed, and other successes achieved through play.
+
+## Alignment & Deity
+
+Choose an alignment—**Lawful**, **Neutral**, or **Chaotic**—to reflect your outlook and place in the eternal struggle between order and entropy.  If your character serves a god or patron, record that as well.
+
+## Title
+
+As you rise in level, your title changes according to class and alignment.  Titles mark status and reputation among other adventurers and within the world.
+
+## Background
+
+Note a few words about your past—what trade, craft, or life you led before taking up the adventuring path.  Your [background](backgrounds.qmd) can enrich role-playing and help the DM rule on certain situations or skills.
+
+## Ability Scores
+
+Roll **3d6** for each ability using the [interactive roller](../appendix_interactive.qmd#character-abilities).  Assign the results to whichever abilities you choose (see [Character Abilities](./abilities.qmd#ability-scores)).  Record any bonuses or penalties from the ability score table beside each score.
+
+## Hit Points (HP)
+
+**Hit Points (HP)** measure how much injury you can endure before death.  Weapons, traps, spells, and other hazards reduce your HP when they deal damage.  You regain lost HP after resting or through other means granted by the rules.
+
+## Armor Class (AC)
+
+**Armor Class (AC)** represents how difficult you are to strike—whether through agility, armor, or luck.  Your class determines the types of armor you can wear, and better protection raises your AC.
+
+## Attacks
+
+Record the weapons your class allows you to wield and how you use them in combat (see [Combat](../combatOverview.qmd)).  Each weapon has its own damage die and may include special qualities.
+
+
+## Talents
+
+**Talents** are special abilities granted by your class, ancestry, or rolls on the talent tables.  Multiple instances of the same talent stack unless stated otherwise.  Keep a list of all talents and their effects for easy reference during play.
+
+## Starting Gold
+
+Roll **3d6 × 10 gp** to determine your initial wealth using the [Starting Gold Roller](../appendix_interactive.qmd#starting-gold).  Ask your DM if any modifiers apply based on your background or campaign setting.
+
+## Spells
+
+If your class can cast spells, consult your DM to learn which spells you begin with.  Some DMs allow players to select from the available list; others assign them randomly.  Record your known spells in the proper section of your character sheet.
+
+## Gear
+
+Spend your starting gold on equipment from the [Equipment](equipment.qmd#equipment-explanations) section.  List each purchase and track remaining gold.  Ensure that your class and race permit use of your chosen weapons and armor.  You can also use the [Buy Equipment Tool](../appendix_interactive.qmd#buy-equipment).  Your character can carry up to **10 + Strength** items (whichever is higher) before becoming encumbered.
+
+## Finishing Touches
+
+Once everything is recorded, review your sheet for completeness.  Give your adventurer a brief description—appearance, voice, or quirks—and prepare to step into the dungeon.  From here, the dice—and your wits—will decide your fate.

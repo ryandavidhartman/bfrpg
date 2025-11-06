@@ -260,15 +260,15 @@ To roll "to hit," the attacker rolls 1d20 and adds his or her attack bonus (AB),
 
 Being proficient in a weapon means you can add your Attack Bonus to attack rolls made with that weapon. If you're not proficient, you can still use the weapon but cannot add your Attack Bonus.
 
-[Fighters](class.qmd#fighter), [Rangers](class.qmd#ranger), and [Paladins](class.qmd#paladin) start with 4 weapon proficiencies and gain 1 weapon proficiency every other level after 1st (1 at 3rd, 1 at 5th, 1 at 7th, etc.). Only true Fighters can also specialize in a weapon.
+[Fighters](./characters/class.qmd#fighter), [Rangers](./characters/class.qmd#ranger), and [Paladins](./characters/class.qmd#paladin) start with 4 weapon proficiencies and gain 1 weapon proficiency every other level after 1st (1 at 3rd, 1 at 5th, 1 at 7th, etc.). Only true Fighters can also specialize in a weapon.
 
-[Clerics](class.qmd#cleric) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Clerics may wear any armor and have no weapon restrictions.
+[Clerics](./characters/class.qmd#cleric) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Clerics may wear any armor and have no weapon restrictions.
 
-[Druids](class.qmd#druids) start with 3 weapon proficiencies and gain 1 weapon proficiency every 4 levels (1 at 5th, 1 at 9th, etc.). Druids may not utilize metal armor of any type and are likewise limited to wooden shields. Druids may utilize any one-handed melee weapons, as well as staff, sling, and short bow.
+[Druids](./characters/class.qmd#druids) start with 3 weapon proficiencies and gain 1 weapon proficiency every 4 levels (1 at 5th, 1 at 9th, etc.). Druids may not utilize metal armor of any type and are likewise limited to wooden shields. Druids may utilize any one-handed melee weapons, as well as staff, sling, and short bow.
 
-[Thieves](class.qmd#thief) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
+[Thieves](./characters/class.qmd#thief) start with 3 weapon proficiencies and gain 1 weapon proficiency every 3 levels (1 at 4th, 1 at 7th, etc.). Thieves may wear leather armor without penalty to thieving abilities and have no weapon restrictions. The Assassins' Assassinate attack must be carried out with a one-handed piercing weapon, such as a dagger or sword.
 
-[Magic Users](class.qmd#magic-user) start with 2 weapon proficiencies and gain no new proficiencies as they spend most of their training time studying books and not practicing with weapons.
+[Magic Users](./characters/class.qmd#magic-user) start with 2 weapon proficiencies and gain no new proficiencies as they spend most of their training time studying books and not practicing with weapons.
 
 ### Normal Men
 
@@ -330,17 +330,17 @@ A "Touch Attack" is a melee attack that simply requires the attacker to touch th
 
 ### Missile Fire
 
-Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the [Missile Weapon Ranges](equipment.qmd#missile-weapon-ranges) table. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
+Missile weapons may be used to attack foes at a distance. The distance the attacker is from his target affects the attack roll, as shown on the [Missile Weapon Ranges](./characters/equipment.qmd#missile-weapon-ranges) table. In general, opponents within Short range are attacked at +1 on the die, those beyond Short range but within Medium range are attacked at +0, and those beyond Medium but within Long range are attacked at -2. Foes beyond Long range cannot be effectively attacked.
 
 If a character attempts to use a missile weapon against a foe who is within 5' of him or her (i.e. who is engaged with the shooter), a penalty of -5 is applied to the attack roll. This is due to the shooter dodging around to avoid the foe's attacks. The only exception is if the attacker is behind the target creature and undetected, or that creature is distracted so as to not be able to attack the shooter; in these cases, apply the usual +1 bonus (+3 total bonus if attacking from behind).
 
 ### Damage
 
-If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the [Strength](abilities.qmd#ability-scores) bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
+If an attack hits, the attacker rolls damage as given for the weapon. Melee attacks apply the [Strength](./characters/abilities.qmd#ability-scores) bonus or penalty to the damage dice, as do thrown missile weapons such as daggers or spears. Usually, attacks with bows or crossbows do not gain the Strength bonus, but sling bullets or stones do.
 
 Also, magic weapons will add their bonuses to damage (and cursed weapons will apply their penalty). Note that, regardless of any penalties to damage, any successful hit will do at least one point of damage.
 
-As [explained elsewhere](hitPoints.qmd#unconscious), a creature or character reduced to 0 hit points is unconscious, and dying when they have negative hit points.
+As [explained elsewhere](./characters/hitPoints.qmd#unconscious), a creature or character reduced to 0 hit points is unconscious, and dying when they have negative hit points.
 
 ### Subduing Damage
 
@@ -356,7 +356,7 @@ Attacking an invisible opponent incurs a -4 penalty on the attack roll, similar 
 
 ### Attacking from Behind
 
-Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the [Sneak Attack](class.qmd#thief-abilities) ability.
+Attacks made from behind an opponent usually receive a +2 attack bonus. This does not combine with the [Sneak Attack](./characters/class.qmd#thief-abilities) ability.
 
 ### Brawling
 

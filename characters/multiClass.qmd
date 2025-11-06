@@ -1,0 +1,322 @@
+# Multi Class Options
+
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
+## Combination Classes
+
+To become a member of a combination class, a character must meet the requirements of both classes. Combination class characters use the best attack bonus and the best saving throw values of their original two classes, but must gain experience equal to the combined requirements of both base classes to advance in levels. [Elves](races.qmd#elves) are the only characters eligible to be a member of one of these combination classes:
+
+**Fighter/Magic-User:** These characters may both fight and cast magic spells; further, they are allowed to cast magic spells while wearing armor. These characters roll six-sided dice (d6) for hit points.
+
+**Magic-User/Thief:** Members of this combination class may cast spells while wearing leather armor, and may use any weapon. These characters roll four-sided dice (d4) for hit points.
+
+## Class-Kits
+
+A Class-Kit is a set of class-like options that can be layered upon another base-class in order to create additional character archetypes or types of characters that cannot be easily achieved by use of the typical or core class offerings. Each class-kit has its own set of requirements and offers unique benefits in exchange for an additional experience point requirement. Many class-kits are designed to emulate certain standard fantasy gaming concepts such as a Shadowblade is essentially a Figther with the Assassin class-kit.  Or a Arcane Healer is a Magic-User with the Mystic Theurge class-kit. Other class-kits are altogether new character concepts that have not been represented in these sorts of games.
+
+Overall, the idea is to create a multitude of character concepts with just a few additional options added. If one uses just the four core classes, each added class-kit adds another four variations for character types, leading to many more combinations if some of the optional standard sub-classes are utilized as well. That all said, the Dungeon Master should not feel obligated to use every class-kit presented here, nor allow every conceivable combination.
+
+### The Class-Kit Mechanic
+
+Adding a class-kit works in a similar fashion to combination class characters or multi-class characters found in other game editions. One main difference is that the class-kit does not alter or expand the standard base-class features such as hit die, saves, or attacking bonus directly, except in certain situations that are detailed in the individual class-kit description.
+
+Typically, a class-kit is chosen when the character is created. The sum of experience points for both the base and class-kit is necessary to achieve the new character level in a manner just like combo-classes. While not generally recommended, a character might decide to take on a class-kit after adventuring for a time (and acquiring levels). In this case, it is suggested that the character must devote all earned experience toward the class-kit until the class-kit level matches the base-class level. After achieving that equilibrium, normal progression (at the combined XP requirement) resumes.
+
+While the Dungeon Master may make special individual exceptions, it is generally recommended that a class-kit cannot be added to a character that is already combination-classed, as the character must split their attention between two such professions. Likewise, it is not recommended that more than one class-kit be applied to a single character. However, it is permissible that a character might mix a particular sub-class (if such are available) with an appropriate class-kit. For instance, if the Dungeon Master utilizes Druids (clerical sub-class), the character might be allowed to become a Barbaric-Druid with the DM's approval. Certain combinations may be inappropriate regardless. The DM is suggested to exercise care with non-standard combinations with an eye for overall balance or campaign consistency.
+
+### Mystic Theurge Kit
+
+A [Magic-User](class.qmd#magic-user) may choose to add the Mystic Theurge Kit. The additional Experience Point requirements for Mystic Theurge are added to those of the Magic-User.
+
+Mystic Theurges are Magic-Users who place no boundaries on their magical abilities and find no irreconcilable paradox in devotion to the arcane as well as the divine. They seek magic in all of its forms, finding no reason or logic in denying themselves instruction by limiting their knowledge to one stifling paradigm, though many are simply hungry for limitless power. No matter what their motivations, Mystic Theurges believe that perception is reality, and through the divine forces and astral energies of the multiverse, that perception can be used to manipulate and control not only the nature of this reality, but destiny itself.
+
+#### Requirements
+- For a Wizard to qualify to become a mystic theurge, the character must have at least 1 skill point in Religion.
+- Mystic Theurges must tithe at least 5% of their earnings toward the church.
+
+#### XP Progression
+
+| Level | Additional Exp. Points | Lay Hands | Holy Burst | Max. Cleric Spell Level | Religion Skill Point Requirement |
+|-------|------------------------|-----------|------------|-------------------------|----------------------------------|
+| 1     | 1000                   | 1/per day | 1/per day  | 0                       | 1                                |
+| 2     | 2000                   | 1/per day | 1/per day  | 0                       | 1                                |
+| 3     | 3500                   | 1/per day | 1/per day  | 1                       | 1                                |
+| 4     | 4500                   | 2/per day | 2/per day  | 1                       | 1                                |
+| 5     | 5500                   | 2/per day | 2/per day  | 1                       | 1                                |
+| 6     | 7500                   | 2/per day | 2/per day  | 2                       | 2                                |
+| 7     | 9500                   | 2/per day | 2/per day  | 2                       | 2                                |
+| 8     | 11,500                 | 3/per day | 3/per day  | 2                       | 2                                |
+| 9     | 14,000                 | 3/per day | 3/per day  | 3                       | 3                                |
+| 10    | 16,500                 | 3/per day | 3/per day  | 3                       | 3                                |
+| 11    | 19,000                 | 3/per day | 3/per day  | 3                       | 3                                |
+| 12    | 23,000                 | 4/per day | 4/per day  | 4                       | 3                                |
+| 13    | 26,000                 | 4/per day | 4/per day  | 4                       | 3                                |
+| 14    | 29,000                 | 4/per day | 4/per day  | 4                       | 3                                |
+| 15    | 33,000                 | 4/per day | 4/per day  | 5                       | 4                                |
+| 16    | 37,000                 | 5/per day | 5/per day  | 5                       | 4                                |
+| 17    | 42,000                 | 5/per day | 5/per day  | 6                       | 4                                |
+| 18    | 47,000                 | 5/per day | 5/per day  | 6                       | 4                                |
+| 19    | 52,000                 | 5/per day | 5/per day  | 6                       | 4                                |
+| 20    | 60,000                 | 6/per day | 6/per day  | 7                       | 5                                |
+: Mystic Theurge XP Progression {#tbl-xp-theurge}
+
+#### Study of the Divine
+When memorizing spells, the Mystic Theurge can replace a number of magic-user spells (up to their Intelligence bonus) with Cleric spells of the same level instead. The spell level can’t exceed the maximum level of Cleric Spell outlined in the chart above.
+
+#### Holy Burst
+A Mystic Theurge may channel divine power in order to combat the forces of darkness. This Holy Burst causes damage equal to the Mystic Theurge level to any undead, affecting all such creatures within a 10-foot radius. The Mystic Theurge may use this power a number of times per day according to their level (see chart) plus their Charisma bonus. For instance, a Magic-User with 3 levels of Mystic Theurge with a 15 Charisma (+1 bonus) can produce a Holy Burst twice per day.
+
+#### Lay on Hands
+A Mystic Theurge may lay hands and heal 2 points of damage plus Intelligence Bonus. The Mystic Theurge may use this power a number of times per day according to their level (see chart).
+
+
+### Nature Warden Kit
+A [Ranger](class.qmd#ranger) may choose to adopt the *Nature Warden Kit*, augmenting their skills and responsibilities. The additional Experience Point requirements for the Nature Warden are added to those of the Ranger.
+
+Nature Wardens are devout followers of [Ki](../gods.qmd#ki), the goddess of nature and life, entrusted with safeguarding the delicate balance of the natural world. They embody a harmonious blend of martial prowess and primal magic, drawing strength and wisdom from their deep connection to wild places and Ki.
+
+Through disciplined study and communion with natural forces, Nature Wardens channel energies to protect forests, mountains, and rivers from harm. Their combat skills are complemented by an innate understanding of the land's rhythms and its inhabitants, making them formidable adversaries to those who threaten nature's balance.
+
+#### Requirements
+To qualify as a Nature Warden, a Ranger must have at least 1 skill point in Religion (Ki) and be at least 6^th^ level. Additionally, Nature Wardens must tithe at least 5% of their earnings to a Temple of Ki.
+
+#### Special Abilities
+
+##### Druid Spells
+
+Nature Warden's are able to cast a certain Druid spells per day as shown on the chart below.
+
+##### Nature’s Insight
+The Nature Warden possesses a natural affinity for the environment, allowing them to:
+- Identify any natural animal or plant with ease.
+- Determine the cleanliness of water sources by sensing purity or contamination.
+
+These abilities stem from their deep connection to nature and enhance their skills in survival, herbalism, and environmental protection.
+
+##### Nature’s Bond
+At 2^nd^ level as a Nature Warden, choose a type of terrain (such as Forest, Mountains, Swamp, etc.). The Nature Warden gains an additional +1 Initiative bonus when interacting in this terrain. This bonus reflects their heightened awareness and familiarity with the nuances of their chosen natural habitat.
+
+##### Limited Animal Affinity
+Nature Wardens have a special bond with animals, allowing them to calm or befriend them to a limited extent. When encountering animals, the Nature Warden can attempt to calm or befriend them based on their level and the animals' hit dice, as detailed in the Animal Affinity Table. This ability reinforces their role as protectors and stewards of the natural world, fostering cooperation with wildlife when needed.
+
+#### XP Progression
+
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+|       |                        |                 |                                  |   |   |Spell Level    |   |   |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| Level | Additional Exp. Points | Animal Affinity | Religion Skill Point Requirement | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
++:=====:+:======================:+:===============:+:================================:+:=:+:=:+:=:+:=:+:=:+:=:+:=:+:=:+
+| 1     | 1000                   | 1/per day       | 1                                | 1 | – | – | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 2     | 2000                   | 1/per day       | 1                                | 1 | – | – | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 3     | 3500                   | 1/per day       | 1                                | 1 | 1 | – | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 4     | 4500                   | 2/per day       | 1                                | 2 | 1 | – | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 5     | 5500                   | 2/per day       | 1                                | 2 | 2 | – | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 6     | 7500                   | 2/per day       | 2                                | 2 | 3 | – | – | – | – | – | – | 
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 7     | 9500                   | 2/per day       | 2                                | 2 | 3 | 1 | – | – | – | – | – | 
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 8     | 11,500                 | 3/per day       | 2                                | 3 | 3 | 2 | – | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 9     | 14,000                 | 3/per day       | 3                                | 3 | 3 | 2 | 1 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 10    | 16,500                 | 3/per day       | 3                                | 3 | 3 | 3 | 1 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 11    | 19,000                 | 3/per day       | 3                                | 3 | 3 | 3 | 2 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 12    | 23,000                 | 4/per day       | 3                                | 4 | 4 | 3 | 2 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 13    | 26,000                 | 4/per day       | 3                                | 4 | 4 | 4 | 2 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 14    | 29,000                 | 4/per day       | 3                                | 4 | 4 | 4 | 3 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 15    | 33,000                 | 4/per day       | 4                                | 4 | 4 | 4 | 4 | – | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 16    | 37,000                 | 5/per day       | 4                                | 5 | 4 | 4 | 4 | 1 | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 17    | 42,000                 | 5/per day       | 4                                | 5 | 4 | 4 | 4 | 2 | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 18    | 47,000                 | 5/per day       | 4                                | 5 | 4 | 4 | 4 | 3 | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 19    | 52,000                 | 5/per day       | 4                                | 5 | 4 | 4 | 4 | 4 | – | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+| 20    | 60,000                 | 6/per day       | 5                                | 5 | 5 | 4 | 4 | 4 | 1 | – | – |
++-------+------------------------+-----------------+----------------------------------+---+---+---+---+---+---+---+---+
+: Nature Warden XP Progression {#tbl-xp-warden}
+
+#### Animal Affinity Table
+
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+|                     |     |    |    Animal Hit Die                |    |    |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| Nature Warden Level | < 1 | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 |
++:===================:+:===:+:==:+:==:+:==:+:==:+:==:+:==:+:==:+:==:+:==:+:==:+
+| 1                   | 9   | 13 | 17 | 19 | No | No | No | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 2                   | 7   | 11 | 15 | 18 | 20 | No | No | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 3                   | 5   | 9  | 13 | 17 | 19 | No | No | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 4                   | 3   | 7  | 11 | 15 | 18 | 20 | No | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 5                   | 2   | 5  | 9  | 13 | 17 | 19 | No | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 6                   | C   | 3  | 7  | 11 | 15 | 18 | 20 | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 7                   | C   | 2  | 5  | 9  | 13 | 17 | 19 | No | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 8                   | C   | C  | 3  | 7  | 11 | 15 | 18 | 20 | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 9                   | B   | C  | 2  | 5  | 9  | 13 | 17 | 19 | No | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 10                  | B   | C  | C  | 3  | 7  | 11 | 15 | 18 | 20 | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 11                  | B   | B  | C  | 2  | 5  | 9  | 13 | 17 | 19 | No | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 12                  | B   | B  | C  | C  | 3  | 7  | 11 | 15 | 18 | 20 | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 13                  | B   | B  | B  | C  | 2  | 5  | 9  | 13 | 17 | 19 | No |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 14                  | B   | B  | B  | C  | C  | 3  | 7  | 11 | 15 | 18 | 20 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 15                  | B   | B  | B  | B  | C  | 2  | 5  | 9  | 13 | 17 | 19 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 16                  | B   | B  | B  | B  | C  | C  | 3  | 7  | 11 | 15 | 18 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 17                  | B   | B  | B  | B  | B  | C  | 2  | 5  | 9  | 13 | 17 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 18                  | B   | B  | B  | B  | B  | C  | C  | 3  | 7  | 11 | 15 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 19                  | B   | B  | B  | B  | B  | B  | C  | 2  | 5  | 9  | 13 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+| 20                  | B   | B  | B  | B  | B  | B  | C  | C  | 3  | 7  | 11 |
++---------------------+-----+----+----+----+----+----+----+----+----+----+----+
+: Nature Warden Animal Affinity {#tbl-xp-warden-animal}
+
+Tame, Domesticated, or Normal Beasts of Burden are treated as half their actual Hit Dice.
+Monstrous Animals or other “Near-Natural” Animals are treated as 1 Hit Die higher.
+
+The DM looks up the Nature Warden's level on the Nature Wardens Animal Affinity Table, below, and cross-references it with the animal's hit dice. Tame or normally domesticated animals such as livestock, family pets, or normal beasts of burden are treated as half their actual HD, reflecting their relative easy manageability. Monstrous animals such as griffins, owlbears, pegasi, or other such “near-natural” creatures are treated as they are 1 HD more than listed to reflect their unique natures. If the table indicates “No” for that combination, it is not possible for the Nature Warden to affect that type of animal. If the table gives a number, that is the minimum number needed on the 1d20 to Calm that sort of animal. If the table says “C” for that combination, that type of animal is automatically affected. If the result shown is a “B” for that combination, that type of animal is automatically befriended.
+
+If the roll is a success, 2d6 HD of animals are affected. Surplus hit dice are lost, but at least one animal is always affected if the first roll is a success.
+
+If a mixed group of animals (say, a boar and a black bear) is to be affected, the player still rolls just once. The result is checked against the weakest sort first (the boar), and if they are successfully Calmed or Befriended, the same result is checked against the next higher type of animal. Likewise, the 2d6 HD are rolled only once. For example, if the group described above is to be affected by a 2nd level Nature Warden, he or she would first need to have rolled a 15 or higher to Calm the boar. If this is a success, 2d6 are rolled; assuming the 2d6 roll is a 6, this would Calm the boar and leave a remainder of 4 HD of effect. Black bears are in fact 4 HD animals, so assuming the original 1d20 roll was a 20, the black bear is Calmed as well. Obviously, were it a group of 2 boars and a black bear, the 2d6 roll would have to be a total of 8 or higher to affect them all.
+
+If a Nature Warden succeeds at Calming or Befriending the animals, but not all animals present are affected, he or she may try again in the next round to affect those which remain. If any roll to Calm or Befriend the Animals fails, that Nature Warden may not attempt to use his or her Animal Affinity ability again for one full turn. A partial failure (possible against a mixed group) counts as a failure for this purpose.
+
+Calm animals will not interact with the Nature Warden (or others accompanying the Nature Warden) in any manner, unless approached by the Nature Warden. The Nature Warden can calmly get them to leave an area, or the Nature Warden can try to befriend the animals. In this case, the DM should roll a reaction roll with any result below favorable meaning the animals flee. If the result on the table results in automatically befriending the animals, the DM should treat the animals as if a “Very Favorable” result was rolled on the [Reaction Roll Table](../combatDetails.qmd#reaction-table).
+
+A Befriended animal will follow the Nature Warden, guarding and assisting within its capabilities so long as the Nature Warden remains in the general vicinity of its normal lair or range. However, it will not “fight to the death” or sacrifice itself indiscriminately. When substantially wounded, an animal will flee the area immediately. Check morale as necessary when the situation seems appropriate.
+
+
+### Umbral Harbinger Kit
+
+#### Background
+
+The **Umbral Harbinger** is a secretive sect of [clerics](class.qmd#cleric) who specialize in the clandestine arts of assassination, blending their divine magic with lethal precision. They serve dark or death-oriented deities, viewing themselves as instruments of divine justice or agents of necessary darkness in a troubled world. 
+
+Their actions are guided by a belief that darkness serves as a necessary counterbalance to the light, ensuring that justice, as their deity defines it, is served.
+
+#### Requirements
+
+To qualify as an Umbral Harbinger, a Cleric must be at least 6^th^ level and meet the following criteria:
+
+- **Alignment:** Neutral or evil alignments.
+- **Skills:** Must have at least 1 skill point in Poison.
+- **Deity:** Must worship a dark deity.
+- **Society of Whispers Assignments:** Umbral Harbingers must occasionally undertake missions assigned by the Society of Whispers, a clandestine organization that deals in information gathering, espionage, and covert operations. These missions could involve infiltration, assassination, gathering intelligence, or eliminating threats to the Society's interests. The Society of Whispers provides resources, information, and support to Umbral Harbingers in exchange for their services, forging a secretive alliance that strengthens both parties in the shadowy realm of intrigue and deception.
+
+#### Special Abilities
+
+##### Sneak Attack
+Umbral Harbingers can perform a Sneak Attack whenever they are behind an opponent in melee, and it is reasonably likely the opponent doesn't know they are there. A successful Move Silently or Hide roll may determine this. The Sneak Attack is made with a +4 attack bonus and inflicts double damage if successful. An Umbral Harbinger cannot perform a Sneak Attack on the same opponent twice in the same combat encounter.
+
+The Sneak Attack can be executed with any melee weapon or bare-handed (inflicting subduing damage). It can also be performed with the "flat of the blade," where bonuses and penalties cancel out, resulting in a +0 attack bonus that deals normal damage (subduing damage in this case). At 7^th^ level, Umbral Harbingers gain triple damage with their Sneak Attack.
+
+##### Poison
+Umbral Harbingers are proficient in the creation and application of lethal poisons, enhancing their capabilities in covert operations and assassination.
+
+##### Assassinate
+This is the Umbral Harbinger's primary special ability. Like the Sneak Attack, an Assassinate attempt can be made whenever the Umbral Harbinger is behind an opponent in melee and undetected. The attack must be made with a one-handed piercing weapon, such as a dagger or sword.
+
+The attack is rolled with a +4 attack bonus. If the attack hits, the victim must make a saving throw vs. Death Ray or be instantly killed. A successful saving throw reduces the effect to normal weapon damage.
+
+##### Waylay
+Umbral Harbingers can attempt to render an opponent unconscious with a single strike, known as Waylay. This is executed in a manner like Assassinate, but using a weapon that normally inflicts subduing damage (e.g., club or cudgel). The attack is rolled with a +4 attack bonus. If successful, the victim must make a saving throw vs. Death Ray or be knocked unconscious. Creatures knocked unconscious by Waylay remain in that state for 2d8 turns if not awakened, suffering normal subduing damage in the process.
+
+#### XP Progression
+
+| Level | Additional Exp. Points | Assassin Special Ability | Poison Skill Point Requirement |
+|-------|------------------------|--------------------------|--------------------------------|
+| 1     | 1000                   | 1/per day                | 1                              |
+| 2     | 2000                   | 1/per day                | 1                              |
+| 3     | 3500                   | 1/per day                | 1                              |
+| 4     | 4500                   | 2/per day                | 1                              |
+| 5     | 5500                   | 2/per day                | 1                              |
+| 6     | 7500                   | 2/per day                | 2                              |
+| 7     | 9500                   | 2/per day                | 2                              |
+| 8     | 11,500                 | 3/per day                | 2                              |
+| 9     | 14,000                 | 3/per day                | 3                              |
+| 10    | 16,500                 | 3/per day                | 3                              |
+| 11    | 19,000                 | 3/per day                | 3                              |
+| 12    | 23,000                 | 4/per day                | 3                              |
+| 13    | 26,000                 | 4/per day                | 3                              |
+| 14    | 29,000                 | 4/per day                | 3                              |
+| 15    | 33,000                 | 4/per day                | 4                              |
+| 16    | 37,000                 | 5/per day                | 4                              |
+| 17    | 42,000                 | 5/per day                | 4                              |
+| 18    | 47,000                 | 5/per day                | 4                              |
+| 19    | 52,000                 | 5/per day                | 4                              |
+| 20    | 60,000                 | 6/per day                | 5                              |
+: Umbral Harbinger XP Progression {#tbl-xp-harbinger}
+
+#### Assassin Skills
+
+| Level | Open Locks<br>(+Dex) | Pick Pockets<br>(+Dex) | Move Silently<br>(+Dex) | Climb Walls<br>(+Str) | Hide in Shadow<br>(+Int) | Listen/Hear Noise<br>(+Wis) | Poison<br>(+Wis) |
+|-------|-----------------------|-------------------------|--------------------------|-----------------------|---------------------------|-----------------------------|------------------|
+| 1     | 16                    | 17                      | 17                       | 5                     | 18                        | 15                          | 15               |
+| 2     | 15                    | 16                      | 16                       | 5                     | 17                        | 14                          | 14               |
+| 3     | 14                    | 15                      | 15                       | 5                     | 16                        | 13                          | 13               |
+| 4     | 13                    | 14                      | 14                       | 4                     | 15                        | 13                          | 13               |
+| 5     | 14                    | 13                      | 13                       | 4                     | 14                        | 12                          | 12               |
+| 6     | 11                    | 12                      | 12                       | 4                     | 13                        | 11                          | 11               |
+| 7     | 10                    | 11                      | 11                       | 4                     | 12                        | 10                          | 10               |
+| 8     | 9                     | 10                      | 10                       | 4                     | 11                        | 9                           | 9                |
+| 9     | 8                     | 9                       | 9                        | 3                     | 10                        | 9                           | 9                |
+| 10    | 8                     | 9                       | 9                        | 3                     | 9                         | 9                           | 9                |
+| 11    | 8                     | 9                       | 9                        | 3                     | 8                         | 8                           | 8                |
+| 12    | 7                     | 8                       | 8                        | 3                     | 7                         | 7                           | 7                |
+| 13    | 7                     | 8                       | 8                        | 3                     | 6                         | 7                           | 7                |
+| 14    | 6                     | 7                       | 7                        | 3                     | 5                         | 6                           | 6                |
+| 15    | 4                     | 5                       | 5                        | 3                     | 5                         | 5                           | 5                |
+| 16    | 4                     | 5                       | 5                        | 2                     | 5                         | 5                           | 5                |
+| 17    | 4                     | 5                       | 5                        | 2                     | 4                         | 4                           | 4                |
+| 18    | 3                     | 5                       | 5                        | 2                     | 4                         | 3                           | 3                |
+| 19    | 3                     | 5                       | 5                        | 1                     | 3                         | 3                           | 3                |
+| 20    | 3                     | 4                       | 4                        | 1                     | 3                         | 2                           | 2                |
+: Umbral Harbinger Assassin Skills {#tbl-xp-harbinger-skills}
+
+##### Ability Bonus or Penalty Adjustments
+
+Each Assassin ability is governed by an ability score and affected by the ability score modifier. Abilities are further adjusted by race and armor.
+
+##### Effects of Armor
+
+| Armor            | Penalty/Bonus |
+|------------------|---------------|
+| Plate            | -8            |
+| Chain            | -4            |
+| Shield           | -2            |
+| Leather          | No penalty    |
+| No armor         | +2 bonus      |
+: Assassin Skills Armor Modifier {#tbl-xp-assassin-armor}

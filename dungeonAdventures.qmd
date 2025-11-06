@@ -11,7 +11,7 @@ format:
 
 ### Dungeon Survival
 
-As described in the [Equipment](equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
+As described in the [Equipment](../characters/equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
 
 Failure to consume enough food does not significantly affect a character for the first two days, after which he or she loses 1 hit point per day. Furthermore, at that point the character loses the ability to heal wounds normally, though magic will still work. Eating enough food for a day (over the course of about a day, not all at once) restores the ability to heal, and the character will recover lost hit points at the normal rate.
 
@@ -129,7 +129,7 @@ htl.html`
 
 ### Listening
 
-A careful character might choose to listen at a door before opening it. Anybody can hear noise on successful Perception check DC 15. Dwarves, Elves, & Half-Elves have an additional +1 to hear noise. Thieves have a special ability, [Listen](class.qmd#listen), which should be applied if the listener is a Thief. 
+A careful character might choose to listen at a door before opening it. Anybody can hear noise on successful Perception check DC 15. Dwarves, Elves, & Half-Elves have an additional +1 to hear noise. Thieves have a special ability, [Listen](./characters/class.qmd#listen), which should be applied if the listener is a Thief. 
 
 Sounds heard might include voices, footsteps, or any other sound the DM considers appropriate. Of course, the room beyond the door might really be silent; thus, the Dungeon Master must make the roll, so that a roll of 1 in such a case will not give anything away to the players.
 
@@ -179,7 +179,7 @@ htl.html`
 
 ### Traps
 
-Normal characters can detect traps on a successful DC 17 + Investigation Skill bonus. Thieves have a special ability to [find and remove traps](class.qmd#findremove-traps). 
+Normal characters can detect traps on a successful DC 17 + Investigation Skill bonus. Thieves have a special ability to [find and remove traps](./characters/class.qmd#findremove-traps). 
 
 Dwarves have a +1 racial bonus to Investigation Skill checks when stonework traps are involved. A Dwarven Thief is a special case; apply whichever trap-detection ability is higher. 
 

@@ -65,7 +65,7 @@ Cursed armor cannot be removed from the wearer once the curse is proven, that is
 
 A potion is an elixir concocted with a spell-like effect that affects only the drinker. Unless otherwise noted, a potion grants its benefits for 1d6+6 turns (even if the duration of an associated spell is longer or shorter).
 
-Almost all potions are created by Kappiyan Flurmastyr, master alchemist from Glantry. The glass bottles bear his symbol: a large circle, within which is a triangle, containing a square, within which is a circle. An additional [symbol](class.qmd#arcane-symbols) indicates the nature of the potion.
+Almost all potions are created by Kappiyan Flurmastyr, master alchemist from Glantry. The glass bottles bear his symbol: a large circle, within which is a triangle, containing a square, within which is a circle. An additional [symbol](./characters/class.qmd#arcane-symbols) indicates the nature of the potion.
 
 ![](images/potion.png)
 
@@ -245,7 +245,7 @@ A cursed scroll inflicts some curse upon whoever reads it. It need not be read c
 
 ### Protection Scrolls
 
-Protection Scrolls can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under [Language](languages.qmd) in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
+Protection Scrolls can be read by any character class, assuming the character can read the language the scroll is written in (see the notes under [Language](./characters/languages.qmd) in the **Character** section for details). When read, a protection scroll creates a 10' radius protective circle around the reader; preventing the warded creatures from entering. The circle moves with the reader. Any creature other than the sort the scroll wards may enter, including of course the allies of the scroll-reader, who are themselves protected so long as they remain entirely within the circle. If any creature within the circle performs a melee attack against any of the warded creatures, the circle is broken and the warded creatures may freely attack. Normal protection scrolls last for 2 turns after being read.
 
 ### Protection from Magic
 
@@ -1051,7 +1051,7 @@ Roll only the first time the bottle is opened (or the DM may choose which sort o
 
 ### Elven Boots
 
-These soft boots enable the wearer to move quietly in virtually any surroundings, granting a DC 9 (- Dex bonus) chance of success (Like a 8^th^ level [Thief](class.qmd#thief-abilities)).
+These soft boots enable the wearer to move quietly in virtually any surroundings, granting a DC 9 (- Dex bonus) chance of success (Like a 8^th^ level [Thief](./characters/class.qmd#thief-abilities)).
 
 ### Elven Cloak
             
@@ -1093,7 +1093,7 @@ This leather coat with four sleeves allows the wearer to summon and control a se
 
 ### Helm of Reading Languages and Magic
 
-Appearing as a normal helmet, this helm grants its wearer the ability to understand the spoken words of any creature and to read text in any language, including magical writing. The wearer of this helm can also use arcane scrolls with the same proficiency as a 7th-level [thief](class.qmd#thief-abilities) (DC 7).
+Appearing as a normal helmet, this helm grants its wearer the ability to understand the spoken words of any creature and to read text in any language, including magical writing. The wearer of this helm can also use arcane scrolls with the same proficiency as a 7th-level [thief](./characters/class.qmd#thief-abilities) (DC 7).
 
 ### Helm of Telepathy
 
