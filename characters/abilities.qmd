@@ -2,7 +2,7 @@
 
 ## Ability Scores
 
-Each character will have a score ranging from 6 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
+Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
 
 ---
 format:
@@ -35,7 +35,7 @@ format:
 +-------------------+-------------------+
 : Ability Modifiers {#tbl-ability-modifiers}
 
-**Strength:** This ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all attack and damage rolls in melee (hand-to-hand) combat. Note that a penalty here will not reduce damage from a successful attack below one point in any case (see the [Combat](../combatDetails.qmd#damage) section for details).
+**Strength:** This ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all melee attack rolls in combat. See the [Combat](../combatDetails.qmd#damage) section for details.
 
 **Dexterity:** This ability measures the character's quickness, balance, and aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty applies to all [attack rolls](../combatDetails.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](../combatDetails.qmd#initiative) die roll.
 
