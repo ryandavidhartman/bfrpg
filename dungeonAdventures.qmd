@@ -11,7 +11,7 @@ format:
 
 ### Dungeon Survival
 
-As described in the [Equipment](../characters/equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
+As described in the [Equipment](./characters/equipment.qmd) section, normal characters must consume one day's worth of rations (or equivalent food) and at least one quart of water per day.
 
 Failure to consume enough food does not significantly affect a character for the first two days, after which he or she loses 1 hit point per day. Furthermore, at that point the character loses the ability to heal wounds normally, though magic will still work. Eating enough food for a day (over the course of about a day, not all at once) restores the ability to heal, and the character will recover lost hit points at the normal rate.
 
