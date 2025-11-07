@@ -1,130 +1,151 @@
 # Hirelings
 
----
-format:
-  html:
-    css: styles.css
-  pdf:
-    include-in-header: preamble.tex
+*Shadowdark* intentionally omits detailed rules for retainers and hirelings to preserve its “dark and lonely” atmosphere—rather than the old TSR-era approach of adventuring with a dozen paid lackeys ready to trip every trap in the dungeon.  Even so, such helpers can still have a place in your game. They’re useful for rounding out small parties, guarding mounts and supplies, or carrying torches while the heroes delve into danger.
+
+As always, use your judgment and do what best serves the tone and needs of your table.
+
 ---
 
-Player characters will sometimes want or need to hire NPCs (Non-Player Characters) to work for them. There are several categories of NPCs available for hire, as follows:
+### Retainers and Hirelings
 
-### Retainers
+**Retainers** are non-player characters (NPCs) with class levels and adventuring experience.  They are mercenaries and sellswords who will accompany the party on expeditions and fight alongside them when the cause and coin suit.  Retainers will not hire on with parties whose average level is lower than their own.
 
-A retainer is a close associate of his employer. Retainers are hired for a share of treasure (typically at least 15% of the employer's income) plus support costs (weapons, armor, rations, and basic equipment provided by the employer). Retainers are typically very loyal and are willing to take reasonable risks; in particular, they are the only sort of hireling who will generally accompany a player character into a dungeon, lair, or ruin.
+**Hirelings** are zero-level NPCs—ordinary townsfolk seeking a few coins rather than glory.  They follow once the way is clear, carry gear and torches, and defend themselves only if cornered. They are not adventurers and will avoid danger whenever possible.
 
-Hiring a retainer is more involved than hiring other NPCs. First, the player character must advertise for a retainer, typically by hiring a crier, posting notices in public places, or asking (and possibly paying) NPCs such as innkeepers or taverners to direct potential retainers to the player character. It is up to the Dungeon Master  to rule on what must be done, and how successful these activities are.
+**Specialists** are skilled NPCs who perform professional services rather than dungeon work. They do not adventure, disarm traps, or fight monsters, but instead handle specialized tasks such as construction, animal training, or ship operation.  A player character may hire as many specialists as they can afford.  Charisma does not limit this number.
 
-If the player character is successful, one or more NPCs will present themselves to be interviewed. The Dungeon Master  should play out the interview with the player, and after all offers have been made and all questions asked, a reaction roll should be made. To check the potential retainer's reaction, the Dungeon Master  rolls 2d6 and adds the player character's Charisma bonus. In addition, the Dungeon Master  may apply any adjustments he or she feels are appropriate (a bonus of +1 for higher-than-average pay or the offer of a magic item such as a **sword +1**, or a penalty if the player character offers poor terms). The roll is read as follows:
+---
 
-```{ojs}
+## Rules for Retainers
 
-import {generalTableSelect2, highlightTableRowRet} from "./custom.js"
+### Maximum Number
+A character may employ a total number of retainers and hirelings equal to **3 + Charisma modifier** (minimum 1).
 
-viewof reaction = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll on Table</button>`, {value: 0, reduce: () => highlightTableRowRet("#reaction-roll", generalTableSelect2([1,20,0],[[1,1], [2,2],[3,6],[7,8],[9,12],[14,18],[19,19],[20, 20]]))})
-md`1d20: ${reaction}`
-```
+### Cost
+Retainers expect a share of any treasure found. The amount offered modifies Charisma checks for both hiring and loyalty.
 
-:::{#reaction-roll}
+<table id="tbl-hiring-loyalty" class="table">
+<thead>
+<tr>
+  <th><strong>Treasure Share</strong></th>
+  <th><strong>Loyalty Check Modifier</strong></th>
+  <th><strong>Notes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>¼ Share</td>
+  <td style="text-align:center;">−4</td>
+  <td rowspan="5">
+    For treasure shares, divide the total treasure by the number of shares.<br/>  
+    For example, if 4 PCs and one retainer (receiving a ½ share) find 450 gp, that’s 4.5 shares.<br/><br/>
+    One share = 100 gp. Each player receives 100 gp; the retainer receives 50 gp.
+  </td>
+</tr>
+<tr><td>⅓ Share</td><td style="text-align:center;">−2</td></tr>
+<tr><td>½ Share</td><td style="text-align:center;">0</td></tr>
+<tr><td>⅔ Share</td><td style="text-align:center;">+2</td></tr>
+<tr><td>Full Share</td><td style="text-align:center;">+4</td></tr>
+</tbody>
+</table>
 
-| **Adjusted Die Roll** | **Result** |
-|---|---|
-| 1 or less | Refusal, -2 on further rolls |
-| 2 | Refusal, -1 on further rolls |
-| 3-6 | Refusal |
-| 7-8 | Try again
-| 9-12 | Try again, +1 on future rolls |
-| 14-18 | Acceptance |
-| 19 | Acceptance, +1 to Loyalty |
-| 20 or more | Acceptance, +2 to Loyalty |
-
+:::{.table-caption}
+**Table: Retainer Hiring and Loyalty Modifiers**
 :::
 
-**Refusal, -1/-2 on further rolls** means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 or -2 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.
+### Hiring
+Make a **DC 9 Charisma check** to hire a retainer.  On a modified or natural 1 or lower, the NPC bears ill will toward the party.  On a 20 or higher, all future loyalty checks for that retainer are rolled with advantage.
 
-If a **Try again** result is rolled, the potential retainer is reluctant, and needs more convincing; the player character must "sweeten" the deal in order to get an additional roll, such as by offering more pay, a magic item, etc. If the player character makes no better offer, treat **Try again** as a **Refusal** result.
+### Equipment
+Retainers begin with weapons, armor, and class-appropriate tools (holy symbol, thieves’ tools, etc.).  Additional equipment must be provided at the player character’s expense.
 
-**Loyalty:** All retainers have a Loyalty score, which is generally 10 plus the employer's Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.
+### Experience
+Retainers gain experience at **half the rate** of player characters.
 
-If a Loyalty check roll made in combat is a natural 1, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 20 is fanatical... the retainer will do virtually anything the player character asks, and never flee in combat. However, the Dungeon Master  should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.
+### Loyalty
+Make a **DC 6 Charisma check** whenever a retainer faces great danger or at the end of each adventure.  On failure, the retainer departs and cannot be rehired.
 
-In addition, the Dungeon Master  should roll a Loyalty check for each retainer at the end of each adventure, after treasure is divided, to determine if the retainer will remain with the player character. The DM may apply adjustments to this roll, probably no more than two points plus or minus, if the retainer is particularly well or poorly paid.
+---
 
-**Maximum Number of Retainers:** A player character may hire at most 4 retainers, adjusted by the character's Charisma bonus or penalty. Any attempts to hire more than this number of retainers will be met with automatic refusals.
+## Rules for Hirelings
 
-**Level of Retainers:** Normally, potential retainers will be one-half the level of the employer (or less). So, a first level character cannot hire retainers, second level PCs can only hire first level characters, and so on. Of course, there is no way for the retainers to directly know the level of the PC employer, nor for the employer to know the level of the potential retainer; but the Dungeon Master  should usually enforce this rule for purposes of game balance. It shouldn't be surprising that first level characters can't hire retainers, as they have no reputation to speak of yet.
+### Maximum Number
+A character may employ a total number of retainers and hirelings equal to **3 + Charisma modifier** (minimum 1).
 
-**Experience for Retainers:** Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See [Character Advancement](advancement.qmd#advancement).
+### Cost
+Hirelings expect a daily wage. The amount offered affects Charisma checks for hiring and loyalty.
 
-### Specialists
+:::{#tbl-hirelings-loyalty}
+| **Wage (per Day)**  | **Loyalty Check Modifier** |
+|:-------------------:|:--------------------------:|
+| 1 sp/day            | −4                         |
+| 2 sp/day            | −2                         |
+| 5 sp/day            | 0                          |
+| 1 gp/day            | +2                         |
+| 5 gp/day            | +4                         |
+:::
+:::{.table-caption}
+**Table: Hireling Hiring and Loyalty Modifiers**
+:::
 
-Specialists are NPCs who may be hired by player characters to perform various tasks. Specialists do not go on adventures or otherwise risk their lives fighting monsters, disarming traps, or any of the other dangerous things player characters and retainers may do. Rather, specialists perform services the player characters usually can't perform for themselves, like designing and erecting castles, training animals, or operating ships.
+### Hiring
+Make a **DC 9 Charisma check** to hire a hireling.  On a modified or natural 1 or lower, the NPC bears ill will toward the party.  On a 20 or higher, all future loyalty checks are rolled with advantage.
 
-A player character is limited in the number of specialists he or she can hire only by the amount of money they cost; Charisma does not affect this.
+### Equipment
+Hirelings begin with simple clothing and possibly a walking stick or knife.  All other gear must be provided by the employer.
 
-**Alchemist:** *1,000 gp per month.*These characters are generally hired for one of two reasons: to make potions, or to assist a Magic-User with magical research.
+### Experience
+Hirelings gain **no experience**.
 
-An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User. Review the rules for [Magical Research](gm01.qmd#magical-research) for details.
+### Loyalty
+Make a **DC 12 Charisma check** whenever a hireling faces danger, and a **DC 9** check after each adventure.  On failure, the hireling departs and cannot be rehired.
 
-Alternately, a Magic-User seeking to create certain magic items may employ an alchemist as an assistant. In this case, the alchemist adds 15% to the Magic-User's chance of success.
+---
 
-**Animal Trainer:** *250 to 750 gp per month.* Characters wishing to ride hippogriffs or employ carnivorous apes as guards will need the assistance of an animal trainer. The lowest cost above is for an average animal trainer, able to train one type of "normal" animal such as carnivorous apes; those able to train more than one sort of animal, or to train monstrous creatures such as hippogriffs, are more expensive to hire. The Dungeon Master  must decide how long it takes to train an animal; in some cases, animal training may take years, a fact the player characters may find inconvenient as well as expensive. A single animal trainer can train and manage no more than 5 animals at a time, though in most cases once an animal is fully trained, if it is put into service right away the animal trainer won't be needed to handle it any longer.
+## Specialists
 
-**Armorer (or Weaponsmith):** *100 to 500 gp per month.* Characters hiring mercenaries, or having armed and armored followers to take care of, will need the services of an armorer. In general, for every 50 Fighters employed, one armorer is required to care for their gear. The armorer's equipment is not included in the costs given above, but the cost to maintain his apprentices is included; most such characters will have 1d4 apprentices assisting.
+### Alchemist
+*1,000 gp per month.*  
+Alchemists may be hired to brew potions or assist magic-users with research.
 
-Higher priced armorers or weaponsmiths may be hired to assist in making magic weapons or armor; in this case, the character hired will be a specialist, an expert in making one particular type of armor or weapon, and will command a higher price (as shown above). Such characters will rarely agree to do the mundane work of maintaining weapons and armor for a military unit.
+An alchemist can craft a potion given materials and either a sample or written formula, in the same time and for the same cost as a magic-user.  They may also research new potions, though this takes twice the time and cost.  See [Magical Research](gm01.qmd#magical-research) for details.  When aiding in magic item creation, an alchemist adds **+15%** to the caster’s success chance.
 
-**Engineer:** *750 gp per month.* Any player character wishing to build a fortress, a ship, or any other mundane construction will need an engineer. Large projects may require several engineers, at the DM's option.
+---
 
-**Savant:** *1,500 gp per month.* Savants are experts in ancient and obscure knowledge. Many savants have particular interests in very limited or focused areas (for example, "Elven migrations of the 2^nd^ age"), but even these will know or have access to a lot of facts. The listed cost is the minimum required to maintain a savant with his library, collections, etc. If the savant's patron asks a difficult question, there may be additional costs for materials or research to answer it.
+### Animal Trainer
+*250–750 gp per month.*  
+Animal trainers can tame and instruct beasts for riding, guarding, or labor.  Basic trainers handle common animals; those skilled with monstrous or exotic creatures demand higher pay.  A single trainer can manage up to five animals at once. Training may take months—or even years—at the DM’s discretion.
 
-**Ship's Crew:** *Special.* A crew for a waterborne vessel involves several types of characters. At the very least, a complement of sailors and a Captain are needed; rowers will be needed aboard galleys, and a Navigator is required aboard ships going out of sight of land.
+---
 
-Costs per month for each sort of character are given below:
+### Armorer (or Weaponsmith)
+*100–500 gp per month.*  
+Armorers maintain weapons and armor for troops or adventuring bands.  Typically, one armorer is needed per 50 fighters.  
+Costs include apprentices (1d4).  Master armorers or weaponsmiths able to craft enchanted arms may demand higher wages.
 
-| Seaman Type | Cost   |
-|-------------|--------|
-| Captain     | 300 gp |
-| Navigator   | 200 gp |
-| Sailor      | 10 gp  |
-| Rower       | 3 gp   |
+---
 
-In general, all such characters are normal men, and are not armored; they will usually be armed with clubs, daggers, or shortswords. Player characters with appropriate backgrounds may act as Captain, but unless experienced as a ship's captain, they will have difficulty commanding respect from the regular sailors (lower the Morale of such regular sailors by -2 if led by an inexperienced Captain).
+### Engineer
+*750 gp per month.*  
+Engineers oversee construction projects such as fortresses, ships, bridges, and siege engines. Large undertakings may require several engineers.
 
-### Mercenaries
+---
 
-Mercenaries are hired warriors. They are generally hired in units as small as platoons: 32 to 48 Fighters, divided into two to four squads of soldiers; each squad is led by a corporal, while the platoon is led by a lieutenant plus a sergeant. Platoons are joined together into companies, each generally consisting of two to five platoons and led by a captain with a sergeant as his assistant (called a **first sergeant**).
+### Sage
+*1,500 gp per month.*  
+Sages are scholars of lost ages and obscure lore.  They may charge additional fees for rare materials or deep research.  Each sagae maintains a library or collection suited to their field of study.
 
-As mercenaries are almost always veteran troops, the average mercenary is a 1^st^ level Fighter; 10% of corporals and 50% of sergeants are 2^nd^ level. A mercenary lieutenant will generally be 2^nd^ level, while a captain will be 2^nd^ to 4^th^ level and his first sergeant will be 2^nd^ or 3^rd^ level. Larger mercenary units will usually be beyond the reach of player characters until they have reached fairly high levels, and are left to the Dungeon Master  to detail.
+---
 
-Mercenaries will virtually never go into a dungeon, lair, or ruin, at least until it has been fully cleared. Rather, they are used in outdoor military engagements; high level player characters may hire mercenaries to defend or help defend their castles or other holdings.
+### Ship’s Crew
+*Varies.*  
+A ship’s complement includes sailors, rowers, a navigator, and a captain.  Typical monthly wages are as follows:
 
-Mercenaries housed in a player character's stronghold require 200 square feet each but cost 25% less per month, as this is covered by their room and board. (Elven mercenaries, however, require 500 square feet of space each in order to reduce their pay, as they demand better living conditions.) See the **Stronghold** section for more details.
+| **Crew Type** | **Cost (per Month)** |
+|:--------------|:--------------------:|
+| Captain       | 300 gp |
+| Navigator     | 200 gp |
+| Sailor        | 10 gp  |
+| Rower         | 3 gp   |
 
-Statistics are given below for the most common sorts of mercenaries; the statistics are for first level characters, and should be adjusted when higher level characters are indicated (as given above). In particular, multiply the given cost of each mercenary by his or her level. Listed costs are in gold pieces per month.
-
-:::{.column-page-right}
-
-| Type of Mercenary      | Cost | Equipment                                     | Morale    |  
-|------------------------|:----:|:----------------------------------------------|:---------:|
-| Light Foot, Human      | 2    | Leather Armor, Shield, and Longsword          | 12        |
-| Light Foot, Elf        | 8    | Leather Armor, Shield, and Longsword          | 12        |
-| Light Foot, Orc        | 1    | Leather Armor and Spear                       | 11        |
-| Heavy Foot, Human      | 3    | Chainmail, Shield, and Longsword              | 12        |
-| Heavy Foot, Dwarf      | 6    | Chainmail, Shield, and Shortsword             | 14        |
-| Heavy Foot, Orc        | 2    | Chainmail, Shield, and Shortsword             | 12        |
-| Archer, Human          | 5    | Leather Armor, Shortbow, and Shortsword       | 12        |
-| Archer, Elf            | 15   | Chainmail, Shortbow, and Shortsword           | 12        |
-| Archer, Orc            | 3    | Leather Armor, Shortbow, and Shortsword       | 12        |
-| Crossbowman, Human     | 5    | Chainmail, Crossbow, and Shortsword           | 12        |
-| Crossbowman, Dwarf     | 12   | Platemail, Crossbow, and Shortsword           | 14        |
-| Longbowman, Human      | 9    | Chainmail, Longbow, and Shortsword            | 12        |
-| Longbowman, Elf        | 20   | Chainmail, Longbow, and Longsword             | 12        |
-| Light Horseman, Human  | 10   | Leather Armor, Shield, Lance, and Longsword   | 12        |
-| Light Horseman, Elf    | 22   | Leather Armor, Lance, Shortbow, and Longsword | 12        |
-| Medium Horseman, Human | 15   | Chainmail, Shield, Lance, and Longsword       | 12        |
-| Medium Horseman, Elf   | 33   | Chainmail, Lance, Shortbow, and Longsword     | 14        |
-| Heavy Horseman, Human  | 20   | Platemail, Shield, Lance, and Longsword       | 12        |
-
-::: 
+All crew are unarmored commoners, usually armed with clubs, daggers, or shortswords.  Player characters may serve as captain, though inexperienced leaders suffer a **−2 Loyatity** penalty among the crew.

@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -104,8 +70,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -550,14 +514,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#retainers" id="toc-retainers" class="nav-link active" data-scroll-target="#retainers">Retainers</a></li>
-  <li><a href="#specialists" id="toc-specialists" class="nav-link" data-scroll-target="#specialists">Specialists</a></li>
-  <li><a href="#mercenaries" id="toc-mercenaries" class="nav-link" data-scroll-target="#mercenaries">Mercenaries</a></li>
+  <li><a href="#retainers-and-hirelings" id="toc-retainers-and-hirelings" class="nav-link active" data-scroll-target="#retainers-and-hirelings">Retainers and Hirelings</a></li>
+  <li><a href="#rules-for-retainers" id="toc-rules-for-retainers" class="nav-link" data-scroll-target="#rules-for-retainers">Rules for Retainers</a>
+  <ul>
+  <li><a href="#maximum-number" id="toc-maximum-number" class="nav-link" data-scroll-target="#maximum-number">Maximum Number</a></li>
+  <li><a href="#cost" id="toc-cost" class="nav-link" data-scroll-target="#cost">Cost</a></li>
+  <li><a href="#hiring" id="toc-hiring" class="nav-link" data-scroll-target="#hiring">Hiring</a></li>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment">Equipment</a></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a></li>
+  <li><a href="#loyalty" id="toc-loyalty" class="nav-link" data-scroll-target="#loyalty">Loyalty</a></li>
+  </ul></li>
+  <li><a href="#rules-for-hirelings" id="toc-rules-for-hirelings" class="nav-link" data-scroll-target="#rules-for-hirelings">Rules for Hirelings</a>
+  <ul>
+  <li><a href="#maximum-number-1" id="toc-maximum-number-1" class="nav-link" data-scroll-target="#maximum-number-1">Maximum Number</a></li>
+  <li><a href="#cost-1" id="toc-cost-1" class="nav-link" data-scroll-target="#cost-1">Cost</a></li>
+  <li><a href="#hiring-1" id="toc-hiring-1" class="nav-link" data-scroll-target="#hiring-1">Hiring</a></li>
+  <li><a href="#equipment-1" id="toc-equipment-1" class="nav-link" data-scroll-target="#equipment-1">Equipment</a></li>
+  <li><a href="#experience-1" id="toc-experience-1" class="nav-link" data-scroll-target="#experience-1">Experience</a></li>
+  <li><a href="#loyalty-1" id="toc-loyalty-1" class="nav-link" data-scroll-target="#loyalty-1">Loyalty</a></li>
+  </ul></li>
+  <li><a href="#specialists" id="toc-specialists" class="nav-link" data-scroll-target="#specialists">Specialists</a>
+  <ul>
+  <li><a href="#alchemist" id="toc-alchemist" class="nav-link" data-scroll-target="#alchemist">Alchemist</a></li>
+  <li><a href="#animal-trainer" id="toc-animal-trainer" class="nav-link" data-scroll-target="#animal-trainer">Animal Trainer</a></li>
+  <li><a href="#armorer-or-weaponsmith" id="toc-armorer-or-weaponsmith" class="nav-link" data-scroll-target="#armorer-or-weaponsmith">Armorer (or Weaponsmith)</a></li>
+  <li><a href="#engineer" id="toc-engineer" class="nav-link" data-scroll-target="#engineer">Engineer</a></li>
+  <li><a href="#sage" id="toc-sage" class="nav-link" data-scroll-target="#sage">Sage</a></li>
+  <li><a href="#ships-crew" id="toc-ships-crew" class="nav-link" data-scroll-target="#ships-crew">Ship’s Crew</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./dungeonAdventures.html">Adventure</a></li><li class="breadcrumb-item"><a href="./hirelings.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Hirelings</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -578,271 +567,239 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Player characters will sometimes want or need to hire NPCs (Non-Player Characters) to work for them. There are several categories of NPCs available for hire, as follows:</p>
-<section id="retainers" class="level3">
-<h3 class="anchored" data-anchor-id="retainers">Retainers</h3>
-<p>A retainer is a close associate of his employer. Retainers are hired for a share of treasure (typically at least 15% of the employer’s income) plus support costs (weapons, armor, rations, and basic equipment provided by the employer). Retainers are typically very loyal and are willing to take reasonable risks; in particular, they are the only sort of hireling who will generally accompany a player character into a dungeon, lair, or ruin.</p>
-<p>Hiring a retainer is more involved than hiring other NPCs. First, the player character must advertise for a retainer, typically by hiring a crier, posting notices in public places, or asking (and possibly paying) NPCs such as innkeepers or taverners to direct potential retainers to the player character. It is up to the Dungeon Master to rule on what must be done, and how successful these activities are.</p>
-<p>If the player character is successful, one or more NPCs will present themselves to be interviewed. The Dungeon Master should play out the interview with the player, and after all offers have been made and all questions asked, a reaction roll should be made. To check the potential retainer’s reaction, the Dungeon Master rolls 2d6 and adds the player character’s Charisma bonus. In addition, the Dungeon Master may apply any adjustments he or she feels are appropriate (a bonus of +1 for higher-than-average pay or the offer of a magic item such as a&nbsp;<strong>sword +1</strong>, or a penalty if the player character offers poor terms). The roll is read as follows:</p>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="23" data-source-offset="-2"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 22;"><span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {generalTableSelect2<span class="op">,</span> highlightTableRowRet} <span class="im">from</span> <span class="st">"./custom.js"</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>viewof reaction <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll on Table&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> <span class="fu">highlightTableRowRet</span>(<span class="st">"#reaction-roll"</span><span class="op">,</span> <span class="fu">generalTableSelect2</span>([<span class="dv">1</span><span class="op">,</span><span class="dv">20</span><span class="op">,</span><span class="dv">0</span>]<span class="op">,</span>[[<span class="dv">1</span><span class="op">,</span><span class="dv">1</span>]<span class="op">,</span> [<span class="dv">2</span><span class="op">,</span><span class="dv">2</span>]<span class="op">,</span>[<span class="dv">3</span><span class="op">,</span><span class="dv">6</span>]<span class="op">,</span>[<span class="dv">7</span><span class="op">,</span><span class="dv">8</span>]<span class="op">,</span>[<span class="dv">9</span><span class="op">,</span><span class="dv">12</span>]<span class="op">,</span>[<span class="dv">14</span><span class="op">,</span><span class="dv">18</span>]<span class="op">,</span>[<span class="dv">19</span><span class="op">,</span><span class="dv">19</span>]<span class="op">,</span>[<span class="dv">20</span><span class="op">,</span> <span class="dv">20</span>]]))})</span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">md</span><span class="vs">`1d20: </span><span class="sc">${</span>reaction<span class="sc">}</span><span class="vs">`</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-3" data-nodetype="expression">
-
-</div>
-</div>
-</div>
-</div>
-<div id="reaction-roll">
-<table class="table">
-<thead>
-<tr class="header">
-<th><strong>Adjusted Die Roll</strong></th>
-<th><strong>Result</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1 or less</td>
-<td>Refusal, -2 on further rolls</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Refusal, -1 on further rolls</td>
-</tr>
-<tr class="odd">
-<td>3-6</td>
-<td>Refusal</td>
-</tr>
-<tr class="even">
-<td>7-8</td>
-<td>Try again</td>
-</tr>
-<tr class="odd">
-<td>9-12</td>
-<td>Try again, +1 on future rolls</td>
-</tr>
-<tr class="even">
-<td>14-18</td>
-<td>Acceptance</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>Acceptance, +1 to Loyalty</td>
-</tr>
-<tr class="even">
-<td>20 or more</td>
-<td>Acceptance, +2 to Loyalty</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p><strong>Refusal, -1/-2 on further rolls</strong>&nbsp;means that all further reaction rolls made toward that player character in the given town or region will be at a penalty of -1 or -2 due to unkind words said by the NPC to his fellows. If the player character tries again in a different town, the penalty does not apply.</p>
-<p>If a&nbsp;<strong>Try again</strong>&nbsp;result is rolled, the potential retainer is reluctant, and needs more convincing; the player character must “sweeten” the deal in order to get an additional roll, such as by offering more pay, a magic item, etc. If the player character makes no better offer, treat&nbsp;<strong>Try again</strong>&nbsp;as a&nbsp;<strong>Refusal</strong>&nbsp;result.</p>
-<p><strong>Loyalty:</strong>&nbsp;All retainers have a Loyalty score, which is generally 10 plus the employer’s Charisma bonus (or penalty). The Loyalty score is used just as the Morale score of monsters or mercenaries is used.</p>
-<p>If a Loyalty check roll made in combat is a natural 1, the Loyalty of the retainer increases by +1 point. Note that a Loyalty of 20 is fanatical… the retainer will do virtually anything the player character asks, and never flee in combat. However, the Dungeon Master should still apply penalties when the player character instructs the retainer to do something which appears very risky, making a failed check possible.</p>
-<p>In addition, the Dungeon Master should roll a Loyalty check for each retainer at the end of each adventure, after&nbsp;treasure is divided, to determine if the retainer will remain with the player character. The DM may apply adjustments to this roll, probably no more than two points plus or minus, if the retainer is particularly well or poorly paid.</p>
-<p><strong>Maximum Number of Retainers:</strong>&nbsp;A player character may hire at most 4 retainers, adjusted by the character’s Charisma bonus or penalty. Any attempts to hire more than this number of retainers will be met with automatic refusals.</p>
-<p><strong>Level of Retainers:</strong>&nbsp;Normally, potential retainers will be one-half the level of the employer (or less). So, a first level character cannot hire retainers, second level PCs can only hire first level characters, and so on. Of course, there is no way for the retainers to directly know the level of the PC employer, nor for the employer to know the level of the potential retainer; but the Dungeon Master should usually enforce this rule for purposes of game balance. It shouldn’t be surprising that first level characters can’t hire retainers, as they have no reputation to speak of yet.</p>
-<p><strong>Experience for Retainers:</strong>&nbsp;Unlike other hired NPCs, retainers do gain experience just as other adventurers do; however, as they are under the command of a player character, only one-half of a share of XP is allocated to each retainer. See&nbsp;<a href="./advancement.html#advancement">Character Advancement</a>.</p>
+<p><em>Shadowdark</em> intentionally omits detailed rules for retainers and hirelings to preserve its “dark and lonely” atmosphere—rather than the old TSR-era approach of adventuring with a dozen paid lackeys ready to trip every trap in the dungeon. Even so, such helpers can still have a place in your game. They’re useful for rounding out small parties, guarding mounts and supplies, or carrying torches while the heroes delve into danger.</p>
+<p>As always, use your judgment and do what best serves the tone and needs of your table.</p>
+<hr>
+<section id="retainers-and-hirelings" class="level3">
+<h3 class="anchored" data-anchor-id="retainers-and-hirelings">Retainers and Hirelings</h3>
+<p><strong>Retainers</strong> are non-player characters (NPCs) with class levels and adventuring experience. They are mercenaries and sellswords who will accompany the party on expeditions and fight alongside them when the cause and coin suit. Retainers will not hire on with parties whose average level is lower than their own.</p>
+<p><strong>Hirelings</strong> are zero-level NPCs—ordinary townsfolk seeking a few coins rather than glory. They follow once the way is clear, carry gear and torches, and defend themselves only if cornered. They are not adventurers and will avoid danger whenever possible.</p>
+<p><strong>Specialists</strong> are skilled NPCs who perform professional services rather than dungeon work. They do not adventure, disarm traps, or fight monsters, but instead handle specialized tasks such as construction, animal training, or ship operation. A player character may hire as many specialists as they can afford. Charisma does not limit this number.</p>
+<hr>
 </section>
-<section id="specialists" class="level3">
-<h3 class="anchored" data-anchor-id="specialists">Specialists</h3>
-<p>Specialists are NPCs who may be hired by player characters to perform various tasks. Specialists do not go on adventures or otherwise risk their lives fighting monsters, disarming traps, or any of the other dangerous things player characters and retainers may do. Rather, specialists perform services the player characters usually can’t perform for themselves, like designing and erecting castles, training animals, or operating ships.</p>
-<p>A player character is limited in the number of specialists he or she can hire only by the amount of money they cost; Charisma does not affect this.</p>
-<p><strong>Alchemist:</strong>&nbsp;<em>1,000 gp per month.</em>These characters are generally hired for one of two reasons: to make potions, or to assist a Magic-User with magical research.</p>
-<p>An alchemist can produce a potion, given the required materials and a sample or a written formula for the potion, in the same time and for the same cost as a Magic-User. They may also research new potions, but at twice the cost in time and materials as a Magic-User. Review the rules for <a href="./gm01.html#magical-research">Magical Research</a> for details.</p>
-<p>Alternately, a Magic-User seeking to create certain magic items may employ an alchemist as an assistant. In this case, the alchemist adds 15% to the Magic-User’s chance of success.</p>
-<p><strong>Animal Trainer:</strong>&nbsp;<em>250 to 750 gp per month.</em>&nbsp;Characters wishing to ride hippogriffs or employ carnivorous apes as guards will need the assistance of an animal trainer. The lowest cost above is for an average animal trainer, able to train one type of “normal” animal such as carnivorous apes; those able to train more than one sort of animal, or to train monstrous creatures such as hippogriffs, are more expensive to hire. The Dungeon Master must decide how long it takes to train an animal; in some cases, animal training may take years, a fact the player characters may find inconvenient as well as expensive. A single animal trainer can train and manage no more than 5 animals at a time, though in most cases once an animal is fully trained, if it is put into service right away the animal trainer won’t be needed to handle it any longer.</p>
-<p><strong>Armorer (or Weaponsmith):</strong>&nbsp;<em>100 to 500 gp per month.</em>&nbsp;Characters hiring mercenaries, or having armed and armored followers to take care of, will need the services of an armorer. In general, for every 50 Fighters employed, one armorer is required to care for their gear. The armorer’s equipment is not included in the costs given above, but the cost to maintain his apprentices is included; most such characters will have 1d4 apprentices assisting.</p>
-<p>Higher priced armorers or weaponsmiths may be hired to assist in making magic weapons or armor; in this case, the character hired will be a specialist, an expert in making one particular type of armor or weapon, and will command a higher price (as shown above). Such characters will rarely agree to do the mundane work of maintaining weapons and armor for a military unit.</p>
-<p><strong>Engineer:</strong>&nbsp;<em>750 gp per month.</em>&nbsp;Any player character wishing to build a fortress, a ship, or any other mundane construction will need an engineer. Large projects may require several engineers, at the DM’s option.</p>
-<p><strong>Savant:</strong>&nbsp;<em>1,500 gp per month.</em>&nbsp;Savants are experts in ancient and obscure knowledge. Many savants have particular interests in very limited or focused areas (for example, “Elven migrations of the 2<sup>nd</sup>&nbsp;age”), but even these will know or have access to a lot of facts. The listed cost is the minimum required to maintain a savant with his library, collections, etc. If the savant’s patron asks a difficult question, there may be additional costs for materials or research to answer it.</p>
-<p><strong>Ship’s Crew:</strong>&nbsp;<em>Special.</em>&nbsp;A crew for a waterborne vessel involves several types of characters. At the very least, a complement of sailors and a Captain are needed; rowers will be needed aboard galleys, and a Navigator is required aboard ships going out of sight of land.</p>
-<p>Costs per month for each sort of character are given below:</p>
-<table class="table">
+<section id="rules-for-retainers" class="level2">
+<h2 class="anchored" data-anchor-id="rules-for-retainers">Rules for Retainers</h2>
+<section id="maximum-number" class="level3">
+<h3 class="anchored" data-anchor-id="maximum-number">Maximum Number</h3>
+<p>A character may employ a total number of retainers and hirelings equal to <strong>3 + Charisma modifier</strong> (minimum 1).</p>
+</section>
+<section id="cost" class="level3">
+<h3 class="anchored" data-anchor-id="cost">Cost</h3>
+<p>Retainers expect a share of any treasure found. The amount offered modifies Charisma checks for both hiring and loyalty.</p>
+<table id="tbl-hiring-loyalty" class="table">
 <thead>
-<tr class="header">
-<th>Seaman Type</th>
-<th>Cost</th>
+<tr>
+<th>
+<strong>Treasure Share</strong>
+</th>
+<th>
+<strong>Loyalty Check Modifier</strong>
+</th>
+<th>
+<strong>Notes</strong>
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Captain</td>
-<td>300 gp</td>
+<tr>
+<td>
+¼ Share
+</td>
+<td style="text-align:center;">
+−4
+</td>
+<td rowspan="5">
+For treasure shares, divide the total treasure by the number of shares.<br><br>
+For example, if 4 PCs and one retainer (receiving a ½ share) find 450 gp, that’s 4.5 shares.<br><br> One share = 100 gp. Each player receives 100 gp; the retainer receives 50 gp.
+</td>
 </tr>
-<tr class="even">
-<td>Navigator</td>
-<td>200 gp</td>
+<tr>
+<td>
+⅓ Share
+</td>
+<td style="text-align:center;">
+−2
+</td>
 </tr>
-<tr class="odd">
-<td>Sailor</td>
-<td>10 gp</td>
+<tr>
+<td>
+½ Share
+</td>
+<td style="text-align:center;">
+0
+</td>
 </tr>
-<tr class="even">
-<td>Rower</td>
-<td>3 gp</td>
+<tr>
+<td>
+⅔ Share
+</td>
+<td style="text-align:center;">
++2
+</td>
+</tr>
+<tr>
+<td>
+Full Share
+</td>
+<td style="text-align:center;">
++4
+</td>
 </tr>
 </tbody>
 </table>
-<p>In general, all such characters are normal men, and are not armored; they will usually be armed with clubs, daggers, or shortswords. Player characters with appropriate backgrounds may act as Captain, but unless experienced as a ship’s captain, they will have difficulty commanding respect from the regular sailors (lower the Morale of such regular sailors by -2 if led by an inexperienced Captain).</p>
+<div class="table-caption">
+<p><strong>Table: Retainer Hiring and Loyalty Modifiers</strong></p>
+</div>
 </section>
-<section id="mercenaries" class="level3 page-columns page-full">
-<h3 class="anchored" data-anchor-id="mercenaries">Mercenaries</h3>
-<p>Mercenaries are hired warriors. They are generally hired in units as small as platoons: 32 to 48 Fighters, divided into two to four squads of soldiers; each squad is led by a corporal, while the platoon is led by a lieutenant plus a sergeant. Platoons are joined together into companies, each generally consisting of two to five platoons and led by a captain with a sergeant as his assistant (called a&nbsp;<strong>first sergeant</strong>).</p>
-<p>As mercenaries are almost always veteran troops, the average mercenary is a 1<sup>st</sup>&nbsp;level Fighter; 10% of corporals and 50% of sergeants are 2<sup>nd</sup>&nbsp;level. A mercenary lieutenant will generally be 2<sup>nd</sup>&nbsp;level, while a captain will be 2<sup>nd</sup>&nbsp;to 4<sup>th</sup>&nbsp;level and his first sergeant will be 2<sup>nd</sup>&nbsp;or 3<sup>rd</sup>&nbsp;level. Larger mercenary units will usually be beyond the reach of player characters until they have reached fairly high levels, and are left to the Dungeon Master to detail.</p>
-<p>Mercenaries will virtually never go into a dungeon, lair, or ruin, at least until it has been fully cleared. Rather, they are used in outdoor military engagements; high level player characters may hire mercenaries to defend or help defend their castles or other holdings.</p>
-<p>Mercenaries housed in a player character’s stronghold require 200 square feet each but cost 25% less per month, as this is covered by their room and board. (Elven mercenaries, however, require 500 square feet of space each in order to reduce their pay, as they demand better living conditions.) See the&nbsp;<strong>Stronghold</strong>&nbsp;section for more details.</p>
-<p>Statistics are given below for the most common sorts of mercenaries; the statistics are for first level characters, and should be adjusted when higher level characters are indicated (as given above). In particular, multiply the given cost of each mercenary by his or her level. Listed costs are in gold pieces per month.</p>
-<div class="column-page-right">
+<section id="hiring" class="level3">
+<h3 class="anchored" data-anchor-id="hiring">Hiring</h3>
+<p>Make a <strong>DC 9 Charisma check</strong> to hire a retainer. On a modified or natural 1 or lower, the NPC bears ill will toward the party. On a 20 or higher, all future loyalty checks for that retainer are rolled with advantage.</p>
+</section>
+<section id="equipment" class="level3">
+<h3 class="anchored" data-anchor-id="equipment">Equipment</h3>
+<p>Retainers begin with weapons, armor, and class-appropriate tools (holy symbol, thieves’ tools, etc.). Additional equipment must be provided at the player character’s expense.</p>
+</section>
+<section id="experience" class="level3">
+<h3 class="anchored" data-anchor-id="experience">Experience</h3>
+<p>Retainers gain experience at <strong>half the rate</strong> of player characters.</p>
+</section>
+<section id="loyalty" class="level3">
+<h3 class="anchored" data-anchor-id="loyalty">Loyalty</h3>
+<p>Make a <strong>DC 6 Charisma check</strong> whenever a retainer faces great danger or at the end of each adventure. On failure, the retainer departs and cannot be rehired.</p>
+<hr>
+</section>
+</section>
+<section id="rules-for-hirelings" class="level2">
+<h2 class="anchored" data-anchor-id="rules-for-hirelings">Rules for Hirelings</h2>
+<section id="maximum-number-1" class="level3">
+<h3 class="anchored" data-anchor-id="maximum-number-1">Maximum Number</h3>
+<p>A character may employ a total number of retainers and hirelings equal to <strong>3 + Charisma modifier</strong> (minimum 1).</p>
+</section>
+<section id="cost-1" class="level3">
+<h3 class="anchored" data-anchor-id="cost-1">Cost</h3>
+<p>Hirelings expect a daily wage. The amount offered affects Charisma checks for hiring and loyalty.</p>
+<div id="tbl-hirelings-loyalty" class="anchored">
 <table class="table">
-<colgroup>
-<col style="width: 27%">
-<col style="width: 6%">
-<col style="width: 53%">
-<col style="width: 12%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Type of Mercenary</th>
-<th style="text-align: center;">Cost</th>
-<th style="text-align: left;">Equipment</th>
-<th style="text-align: center;">Morale</th>
+<th style="text-align: center;"><strong>Wage (per Day)</strong></th>
+<th style="text-align: center;"><strong>Loyalty Check Modifier</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Light Foot, Human</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">1 sp/day</td>
+<td style="text-align: center;">−4</td>
 </tr>
 <tr class="even">
-<td>Light Foot, Elf</td>
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">Leather Armor, Shield, and Longsword</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">2 sp/day</td>
+<td style="text-align: center;">−2</td>
 </tr>
 <tr class="odd">
-<td>Light Foot, Orc</td>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">Leather Armor and Spear</td>
-<td style="text-align: center;">11</td>
+<td style="text-align: center;">5 sp/day</td>
+<td style="text-align: center;">0</td>
 </tr>
 <tr class="even">
-<td>Heavy Foot, Human</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">Chainmail, Shield, and Longsword</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">1 gp/day</td>
+<td style="text-align: center;">+2</td>
 </tr>
 <tr class="odd">
-<td>Heavy Foot, Dwarf</td>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
-<td style="text-align: center;">14</td>
-</tr>
-<tr class="even">
-<td>Heavy Foot, Orc</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">Chainmail, Shield, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Archer, Human</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td>Archer, Elf</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: left;">Chainmail, Shortbow, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Archer, Orc</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">Leather Armor, Shortbow, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td>Crossbowman, Human</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">Chainmail, Crossbow, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Crossbowman, Dwarf</td>
-<td style="text-align: center;">12</td>
-<td style="text-align: left;">Platemail, Crossbow, and Shortsword</td>
-<td style="text-align: center;">14</td>
-</tr>
-<tr class="even">
-<td>Longbowman, Human</td>
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">Chainmail, Longbow, and Shortsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Longbowman, Elf</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: left;">Chainmail, Longbow, and Longsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td>Light Horseman, Human</td>
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">Leather Armor, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Light Horseman, Elf</td>
-<td style="text-align: center;">22</td>
-<td style="text-align: left;">Leather Armor, Lance, Shortbow, and Longsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="even">
-<td>Medium Horseman, Human</td>
-<td style="text-align: center;">15</td>
-<td style="text-align: left;">Chainmail, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">12</td>
-</tr>
-<tr class="odd">
-<td>Medium Horseman, Elf</td>
-<td style="text-align: center;">33</td>
-<td style="text-align: left;">Chainmail, Lance, Shortbow, and Longsword</td>
-<td style="text-align: center;">14</td>
-</tr>
-<tr class="even">
-<td>Heavy Horseman, Human</td>
-<td style="text-align: center;">20</td>
-<td style="text-align: left;">Platemail, Shield, Lance, and Longsword</td>
-<td style="text-align: center;">12</td>
+<td style="text-align: center;">5 gp/day</td>
+<td style="text-align: center;">+4</td>
 </tr>
 </tbody>
 </table>
 </div>
+<div class="table-caption">
+<p><strong>Table: Hireling Hiring and Loyalty Modifiers</strong></p>
+</div>
+</section>
+<section id="hiring-1" class="level3">
+<h3 class="anchored" data-anchor-id="hiring-1">Hiring</h3>
+<p>Make a <strong>DC 9 Charisma check</strong> to hire a hireling. On a modified or natural 1 or lower, the NPC bears ill will toward the party. On a 20 or higher, all future loyalty checks are rolled with advantage.</p>
+</section>
+<section id="equipment-1" class="level3">
+<h3 class="anchored" data-anchor-id="equipment-1">Equipment</h3>
+<p>Hirelings begin with simple clothing and possibly a walking stick or knife. All other gear must be provided by the employer.</p>
+</section>
+<section id="experience-1" class="level3">
+<h3 class="anchored" data-anchor-id="experience-1">Experience</h3>
+<p>Hirelings gain <strong>no experience</strong>.</p>
+</section>
+<section id="loyalty-1" class="level3">
+<h3 class="anchored" data-anchor-id="loyalty-1">Loyalty</h3>
+<p>Make a <strong>DC 12 Charisma check</strong> whenever a hireling faces danger, and a <strong>DC 9</strong> check after each adventure. On failure, the hireling departs and cannot be rehired.</p>
+<hr>
+</section>
+</section>
+<section id="specialists" class="level2">
+<h2 class="anchored" data-anchor-id="specialists">Specialists</h2>
+<section id="alchemist" class="level3">
+<h3 class="anchored" data-anchor-id="alchemist">Alchemist</h3>
+<p><em>1,000 gp per month.</em><br>
+Alchemists may be hired to brew potions or assist magic-users with research.</p>
+<p>An alchemist can craft a potion given materials and either a sample or written formula, in the same time and for the same cost as a magic-user. They may also research new potions, though this takes twice the time and cost. See <a href="./gm01.html#magical-research">Magical Research</a> for details. When aiding in magic item creation, an alchemist adds <strong>+15%</strong> to the caster’s success chance.</p>
+<hr>
+</section>
+<section id="animal-trainer" class="level3">
+<h3 class="anchored" data-anchor-id="animal-trainer">Animal Trainer</h3>
+<p><em>250–750 gp per month.</em><br>
+Animal trainers can tame and instruct beasts for riding, guarding, or labor. Basic trainers handle common animals; those skilled with monstrous or exotic creatures demand higher pay. A single trainer can manage up to five animals at once. Training may take months—or even years—at the DM’s discretion.</p>
+<hr>
+</section>
+<section id="armorer-or-weaponsmith" class="level3">
+<h3 class="anchored" data-anchor-id="armorer-or-weaponsmith">Armorer (or Weaponsmith)</h3>
+<p><em>100–500 gp per month.</em><br>
+Armorers maintain weapons and armor for troops or adventuring bands. Typically, one armorer is needed per 50 fighters.<br>
+Costs include apprentices (1d4). Master armorers or weaponsmiths able to craft enchanted arms may demand higher wages.</p>
+<hr>
+</section>
+<section id="engineer" class="level3">
+<h3 class="anchored" data-anchor-id="engineer">Engineer</h3>
+<p><em>750 gp per month.</em><br>
+Engineers oversee construction projects such as fortresses, ships, bridges, and siege engines. Large undertakings may require several engineers.</p>
+<hr>
+</section>
+<section id="sage" class="level3">
+<h3 class="anchored" data-anchor-id="sage">Sage</h3>
+<p><em>1,500 gp per month.</em><br>
+Sages are scholars of lost ages and obscure lore. They may charge additional fees for rare materials or deep research. Each sagae maintains a library or collection suited to their field of study.</p>
+<hr>
+</section>
+<section id="ships-crew" class="level3">
+<h3 class="anchored" data-anchor-id="ships-crew">Ship’s Crew</h3>
+<p><em>Varies.</em><br>
+A ship’s complement includes sailors, rowers, a navigator, and a captain. Typical monthly wages are as follows:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Crew Type</strong></th>
+<th style="text-align: center;"><strong>Cost (per Month)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Captain</td>
+<td style="text-align: center;">300 gp</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Navigator</td>
+<td style="text-align: center;">200 gp</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Sailor</td>
+<td style="text-align: center;">10 gp</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Rower</td>
+<td style="text-align: center;">3 gp</td>
+</tr>
+</tbody>
+</table>
+<p>All crew are unarmored commoners, usually armed with clubs, daggers, or shortswords. Player characters may serve as captain, though inexperienced leaders suffer a <strong>−2 Loyatity</strong> penalty among the crew.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -930,17 +887,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   // Also run after Quarto client-side navigation (if enabled)
   document.addEventListener("quarto:pageLoaded", init);
 })();
-</script>
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5pbXBvcnQge2dlbmVyYWxUYWJsZVNlbGVjdDIsIGhpZ2hsaWdodFRhYmxlUm93UmV0fSBmcm9tIFwiLi9jdXN0b20uanNcIlxyXG5cclxudmlld29mIHJlYWN0aW9uID0gSW5wdXRzLmJ1dHRvbihodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjogYmxhY2s7IGJhY2tncm91bmQtY29sb3I6IGxpZ2h0Z3JheTtcIj5Sb2xsIG9uIFRhYmxlPC9idXR0b24+YCwge3ZhbHVlOiAwLCByZWR1Y2U6ICgpID0+IGhpZ2hsaWdodFRhYmxlUm93UmV0KFwiI3JlYWN0aW9uLXJvbGxcIiwgZ2VuZXJhbFRhYmxlU2VsZWN0MihbMSwyMCwwXSxbWzEsMV0sIFsyLDJdLFszLDZdLFs3LDhdLFs5LDEyXSxbMTQsMThdLFsxOSwxOV0sWzIwLCAyMF1dKSl9KVxyXG5tZGAxZDIwOiAke3JlYWN0aW9ufWBcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0UXVpZXQiLCJzb3VyY2UiOiJzaGlueUlucHV0KCdyZWFjdGlvbicpIn1dfQ==
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../..";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
