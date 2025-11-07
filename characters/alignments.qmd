@@ -1,0 +1,48 @@
+# Alignments
+
+Alignment defines your role in the clash between good and evil. All creatures are connected to the eternal conflict wagedby Law, Chaos, and Neutrality,
+whether they know it or not. Law is benevolence, Chaos is malevolence, and Neutrality is impartial, favoring neither.  Choose one of the following three alignments.
+
+## Chaotic
+
+::: columns
+::: column
+![](../images/chaotic_chracters.png)
+:::
+::: column
+<div style="margin-left: 1rem;">
+Chaotic character align themselves with destruction, ambition, and wickedness.They adopta “survival of the fittest” mentality.  They believe fundamentally in entropy and seek constantly to undermine or rule those around them. At higher levels, chaotic characters find themselves aligned with demons and devils, sinister monsters, extraplanar creatures, and the supernatural Chaos Lords. In mundane life, chaotic behavior covers a wide spectrum of chicanery, subterfuge, aggression, and power politics, and chaotic characters are always looking for an advantage over their peers.
+</div>
+:::
+::: 
+
+## Lawful
+
+::: columns
+::: column
+![](../images/lawful_characters.png)
+:::
+::: column
+<div style="margin-left: 1rem;">
+Lawful characters align themselves with fairness, order, and virtue. They operate from a “good of the whole” mentality. Lawful characters believe fundamentally in unity and prioritize the values of mankind: order, authority, loyalty, and charity. They have a moral conscience that points them toward the appropriate action. At higher levels, lawful characters find themselves interacting with celestials, angels, demi-gods, and powerful Lords of Law. In mundane life, there are many shades of lawful behavior, and not all lawful characters agree on the same course of action at any time; though they invariably unite when mankind is threatened by outside forces.
+</div>
+:::
+::: 
+
+## Neutral
+
+::: columns
+::: column
+![](../images/neutral_characters.png)
+:::
+::: column
+<div style="margin-left: 1rem;">
+Neutral characters find balance between Law and Chaos. They align with the cycle of growth and decline, adopting a “nature must take its course mentality.  Neutrality between Law and Chaos can reflect a measured morality – balancing costs and benefits, without strong principles one way or the other. It can also reflect ambivalence or indifference. Fundamentally, neutral characters make choices based not on loyalty, values, or self-advantage, but by evaluating each
+and every opportunity that comes along. At higher levels, neutral characters find themselves aligned with elementals, extraplanar un-dead, and astral and ethereal beings.
+</div>
+:::
+:::
+
+---
+
+The eternal struggle between Law and Chaos is real. Gods and demons battle on other planes for superiority, and the actions of man give those entities power. Make your choice carefully, for it will become increasingly important as you become more powerful.

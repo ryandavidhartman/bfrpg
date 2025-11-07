@@ -1,0 +1,43 @@
+# Starting Level
+
+A character’s **level** measures their experience, skill, and renown.  New adventurers begin at either **0-level** or **1st level**, depending on the campaign’s tone and the Dungeon Master’s guidance.  Each level represents growth through hard-won experience—earned not by time passed, but by treasure claimed, monsters defeated, and dangers survived.
+
+---
+
+## 0-Level Characters
+
+Some campaigns begin with **0-level characters** ordinary peasants, laborers, or would-be heroes who have not yet proven themselves in the crucible of adventure.  These characters are fragile and untested, relying more on luck than on training or courage.
+
+DMs seeking additional guidance should see [The Gauntlet](../gauntlet.qmd) section.
+
+Because 0-level characters benefit from beginner’s luck, they may wield any gear until reaching 1st level.
+
+**0-level characters creation**
+
+- [Roll Ability Scores](abilities.qmd#stat-roller)  
+- [Choose a Race](races.qmd)  
+- **Hit Points:** equal to Constitution modifier (minimum 1)  
+- [Roll a Backgroud](backgrounds.qmd)  
+- [Choose an Alignment](alignments.qmd)  
+- **Starting Gear:** see page 33  
+
+0-level characters advance to **1st level** after surviving their first adventure (see page 39).
+
+---
+
+## 1st-Level Characters
+
+Some campaigns begin with **1st-level characters**—fledgling heroes ready to face the perils of the dungeon.  
+They are sturdier and more capable than their 0-level counterparts, each possessing the first spark of true adventuring skill.
+
+**1st-level characters begin play with:**
+
+- **Ability Scores:** see page 15  
+- **Choice of Ancestry:** see page 16  
+- **Choice of Class:** see pages 18–24  
+- **One Class Talent Roll**  
+- **Hit Points:** equal to one roll of the class hit-point die + Constitution modifier (minimum 1); these replace any HP gained at level 0  
+- **Background:** see page 26  
+- **Choice of Alignment:** see page 27  
+- **Title:** see page 30  
+- **Starting Gear:** see page 33  

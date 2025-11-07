@@ -1,0 +1,11 @@
+# Gauntlets
+
+---
+format:
+  html:
+    css: styles.css
+  pdf:
+    include-in-header: preamble.tex
+---
+
+hi

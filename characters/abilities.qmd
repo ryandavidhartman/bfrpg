@@ -1,17 +1,9 @@
 # Character Stats
 
-## Ability Scores
+To generate your character’s ability scores, roll **3d6** six times.  Assign these numbers to the six abilities as you wish, then record each score and its modifier on your sheet.  *Optional:* If none of your scores are **14** or higher, you may discard the set and roll a new six scores.
 
-Each character will have a score ranging from 3 to 18 in each of the following abilities. A bonus or penalty is associated with each score, as shown on the table below. Each class has a [Prime Requisite](class.qmd#character-classes) ability score, which must be at least 9 for the character to become a member of that class. Additionally, there are required minimum and maximum scores for each character race other than Humans, as described under [Character Races](races.qmd#character-races).
 
----
-format:
-  html:
-    css: styles_abilities.css
-  pdf:
-    include-in-header: preamble_abilities.tex
----
-
+:::{#tbl-ability-modifiers}
 +-------------------+-------------------+
 | **Ability Score** | **Modifier**      |
 +:=================:+:=================:+
@@ -33,19 +25,24 @@ format:
 +-------------------+-------------------+
 | 18+               | +4                |
 +-------------------+-------------------+
-: Ability Modifiers {#tbl-ability-modifiers}
+:::
+:::{.table-caption}
+**Table:** Ability Modifiers
+:::
 
-**Strength:** This ability measures the character's raw physical power. Strength is the Prime Requisite for [Fighters](class.qmd#fighter). Apply the ability bonus or penalty for Strength to all melee attack rolls in combat. See the [Combat](../combatDetails.qmd#damage) section for details.
+**Strength:** Raw physical power. Apply the Strength modifier to all melee attack rolls. See [Combat](../combatDetails.qmd#damage) for details.  
 
-**Dexterity:** This ability measures the character's quickness, balance, and aptitude with tools. Dexterity is the Prime Requisite for [Thieves](class.qmd#thief). The Dexterity bonus or penalty applies to all [attack rolls](../combatDetails.qmd#attacking-maneuvers) with missile (ranged) weapons, to the character's [Armor Class](equipment.qmd#armor-and-shields) value, and to the character's [Initiative](../combatDetails.qmd#initiative) die roll.
+**Dexterity:** Quickness, balance, and deft hands. Apply the Dexterity modifier to all ranged **attack rolls**, to [Armor Class](equipment.qmd#armor-and-shields), and to [Intiative](../combatDetails.qmd#initiative).  
 
-**Constitution:** Constitution is a combination of general health and vitality. Apply the Constitution bonus or penalty to each hit die rolled by the character. Note that a penalty here will not reduce any hit die roll to less than 1 point.
+**Constitution:** Health and vitality. Apply the Constitution modifier to each **hit die** you roll (a penalty never reduces a hit-die roll below 1).  
 
-**Intelligence:** This is the ability to learn and apply knowledge. Intelligence is the Prime Requisite for [Magic-Users](class.qmd#magic-users), and they receive a Spell Bonus based on their Intelligence score. The ability bonus for Intelligence is added to the number of [languages](abilities.qmd#languages) the character can learn to read and write. Characters with an Intelligence penalty may struggle with learning languages, being limited to understanding only their native language.
+**Intelligence:** Learning and lore. Important to [Magic-Users](class.qmd#magic-users), who gain a **Spell Bonus** from Intelligence.  
 
-**Wisdom:** Wisdom is a combination of intuition, willpower, and common sense. It is the Prime Requisite for [Clerics](class.qmd#cleric), who receive a Spell Bonus and a bonus to Turn Undead based on their Wisdom score. The Wisdom bonus or penalty may apply to some saving throws vs. magical attacks, particularly those affecting the target's will.
+**Wisdom:** Will, insight, and common sense. Primary for [Clerics](class.qmd#cleric), who gain a **Spell Bonus** from Wisdom. Wisdom may also modify certain saving DCs against mind-affecting magic.  
 
-**Charisma:** This ability represents the character's ability to influence or lead people. Those with high Charisma are well-liked or highly respected. Apply the Charisma bonus or penalty to reaction rolls. Also, the number of [retainers](../hirelings.qmd#retainers) a character can hire and the loyalty of those retainers are affected by Charisma.
+**Charisma:** Presence and leadership. Apply the Charisma modifier to **reaction rolls**; it also affects the number and loyalty of [Hirelings](../hirelings.qmd#retainers-and-hirelings).
+
+---
 
 
 #### Stat Roller
@@ -64,6 +61,10 @@ import { calculateModifier } from "../custom.js"
     var x = ""
     if (statRolls != null) {
         x = html`<br><table style="max-width:20%;">
+                    <tr>
+                        <th>Roll:</th>
+                        <th>Modifier:</th>
+                    </tr>
                     <tr>
                         <td>${statRolls[0]}</td>
                         <td>(${calculateModifier(statRolls[0])})</td>

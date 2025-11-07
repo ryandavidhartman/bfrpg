@@ -15,15 +15,15 @@ Choose a name worthy of an adventurer.  Whether simple or strange, a good name h
 
 ## Ancestry
 
-Your ancestry defines your character’s cultural and racial heritage.  Choose your [race](races.qmd#character-races) and record any special abilities it grants.  Be sure you meet the minimum and maximum ability requirements listed in [Racial Requirements](races.qmd#tbl-racial-requirements).
+Your ancestry defines your character’s cultural and racial heritage.  Choose your [race](races.qmd#character-races) and record any special abilities it grants.  
 
 ## Class
 
-Your class represents your character’s vocation or calling.  Select a [class](class.qmd#character-classes) that fits your concept.  You must meet the **Prime Requisite** minimum listed in the [Prime Requisites Table](class.qmd#tbl-prime-requisites).  Record the class features and talents appropriate to your choice.
+Your class represents your character’s vocation or calling.  Select a [class](class.qmd#character-classes) that fits your concept.  Record the class features and talents appropriate to your choice.
 
 ## Level
 
-Characters typically begin at **Level 0** or **Level 1**, unless the DM directs otherwise.  Levels represent experience and renown gained through adventuring. Advancement occurs when sufficient **experience points (XP)** are earned.
+Characters typically begin at [**Level 0** or **Level 1**](starting-level.qmd), unless the DM directs otherwise.  Levels represent experience and renown gained through adventuring. Advancement occurs when sufficient **experience points (XP)** are earned.
 
 ## Experience (XP)
 

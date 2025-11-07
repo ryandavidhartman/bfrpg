@@ -16,13 +16,12 @@ book:
     - part: Player Characters
       chapters: 
         - characters/char-creation.qmd
+        - characters/starting-level.qmd
         - characters/abilities.qmd
         - characters//races.qmd
         - characters/class.qmd
         - characters/backgrounds.qmd
-        - characters/multiClass.qmd
-        - characters/skills.qmd
-        - characters/feats.qmd
+        - characters/alignments.qmd
         - characters/hitPoints.qmd
         - characters/languages.qmd
         - characters/equipment.qmd
@@ -54,7 +53,8 @@ book:
         - magicItems.qmd
         - namedMagicItems.qmd
     - part: DM Information
-      chapters: 
+      chapters:
+        - gauntlet.qmd 
         - gm01.qmd
         - gm02.qmd
         - treasure.qmd
