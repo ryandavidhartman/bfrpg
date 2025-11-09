@@ -1,0 +1,78 @@
+# Awarding XP
+
+Characters gain XP from **valuable treasures and boons** discovered during their adventures.  XP represents *worth*—not necessarily monetary value. Magic, secrets, and blessings can be as valuable as gold.
+
+Each PC gains the **full XP value** of each treasure or boon recovered. When a character gains a level, their XP resets to **0** for the new level.
+
+## Sources of XP
+
+XP may also be granted for exceptional moments or discoveries, such as:
+
+- **Gold and gems** of significant value  
+- **Magic items** or **fabled relics**  
+- **Oaths, secrets, or blessings** gained through play  
+- **Meaningful trophies or tokens** tied to accomplishments  
+- **Clever thinking** or problem-solving that changes an encounter’s course (+1 XP)
+
+### Treasure Categories
+
+:::{#xp-treasure-table}
+| **Treasure Type** | **Description**                         | **XP Award** |
+|:-----------------:|----------------------------------------|:-------------:|
+| **Poor**          | Mundane, common, unremarkable trinkets | 0 XP          |
+| **Normal**        | Worth protecting, useful or desirable  | 1 XP          |
+| **Fabulous**      | Incredible, rare, or well-guarded      | 3 XP          |
+| **Legendary**     | Mythic, unique, or quest-worthy        | 10 XP         |
+:::
+:::{.table-caption}
+**Table:** Treasure categories and XP awards
+:::
+
+### Quality XP Examples
+
+:::{#xp-quality-examples}
+| **Quality**   | **Examples**                                      |
+|:-------------:|---------------------------------------------------|
+| **Poor**      | Bag of silver, used dagger, knucklebone dice      |
+| **Normal**    | Bag of gold, gem, fine armor, magic scroll        |
+| **Fabulous**  | Magic sword, giant diamond, mithral chainmail     |
+| **Legendary** | The Staff of Ord, a djinni’s wish, a dragon hoard |
+:::
+:::{.table-caption}
+**Table:** Example treasures by quality
+:::
+
+### XP Awards by Accomplishment
+
+In addition to treasure, the referee may award XP for significant achievements.
+
+:::{#xp-awards-table}
+| **Award (XP)** | **Accomplishment**                                                                   |
+|:--------------:|--------------------------------------------------------------------------------------|
+| **+1 XP**      | Minor success: clever plan, small treasure, or narrow escape                         |
+| **+2 XP**      | Notable success: major find, defeating a dangerous foe, or completing a side quest   |
+| **+3 XP**      | Major success: completing an adventure site or securing a priceless item             |
+| **+4 XP**      | Great triumph: saving a town, overcoming a deadly dungeon, or completing a quest arc |
+| **+5 XP**      | Epic deed: world-shaking event or mythic-level accomplishment                        |
+:::
+:::{.table-caption}
+**Table:** XP awards by accomplishment
+:::
+
+
+
+## Suggested Gold Values
+
+Over time, heroes gain and lose gold through adventuring, carousing, and buying gear.  Each adventure site or major treasure find should roughly yield:
+
+:::{#xp-gold-table}
+| **Character Level Range** | **Typical Treasure Value** |
+|:--------------------------:|:---------------------------:|
+| Levels 0–3 | ~20 gp total value |
+| Levels 4–6 | ~50 gp total value |
+| Levels 7–9 | ~80 gp total value |
+:::
+:::{.table-caption}
+**Table:** Typical treasure values by party level
+:::
+

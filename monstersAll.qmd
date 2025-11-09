@@ -1270,7 +1270,6 @@ All dragons crave wealth, hoarding as many coins, gems, items of jewelry, and be
 Unlike other monsters, multiple dragons encountered in a lair together do not share treasure; generate a full treasure for each dragon individually. Treasure for dragons is special, as noted on the treasure section . The odds of monetary treasure increase with the monster's age category, while the chances of gems, jewelry, and magic items are based upon its hit dice.
 
 Young dragons typically have brightly colored, glossy skin; as a dragon ages, both the color and the sheen slowly become dull.
-Experience Points (XP) given for dragons on the following pages are for non-spell-casting dragons of age category 4.  The DM must calculate the XP award for any specific dragon as given in the [character advancement section](advancement.qmd#experience-points-xp), adding a special ability bonus (i.e. a "star") if the dragon casts spells.
 
 </div>
 

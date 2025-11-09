@@ -23,8 +23,6 @@ may be marked as having ½ hit dice; this means 1d4
 points, and the creature has "less than one hit die" for
 attack bonus purposes
 
-One or two asterisks (*) may appear after the hit dice figure; where present, they indicate a Special Ability Bonus to experience points (XP) awarded for the monster. See [Character Advancement](advancement.qmd#advancement).
-
 If the monster's **Attack Bonus** (see @tbl-attacking-bonus) is different than its number of Hit Dice, for convenience the Attack Bonus will be listed in parentheses after the Hit Dice figure.
 
 **Movement:** This line gives the monster's movement rate, or rates for those monsters able to move in more than one fashion. For example, Bugbears have a normal walking movement of 30', and this is all that is listed for them. Mermaids can only move about in the water, and so their movement is given as **Swim 40'**. Pegasi can both walk and fly, so their movement is listed as **80' Fly 160'**.
@@ -48,9 +46,6 @@ Note that number appearing applies to combatants. Non-combatant monsters (juveni
 **Morale:** The number that must be rolled equal to or less than on 2d6 for the monster to pass a [Morale Check](combatDetails.qmd#morale). Monsters having a Morale of 20 never fail morale checks, and fight until destroyed (or until they have no enemies left). 
 
 **Treasure Type:** This line reflects how much wealth the creature owns. See the [Treasure](treasure.qmd#treasure-types) section for more details. In most cases, a creature keeps valuables in its home or lair and has no treasure with it when it travels. Intelligent creatures that own useful, portable treasure (such as magic items) tend to carry and use these, leaving bulky items at home.
-
-**XP**: The number of experience points awarded for defeating this monster. In some cases, the figure will vary; for instance, Dragons of different age categories will have different XP values. Review the [Experience Points](advancement.qmd#experience-points-xp) awards table in the **Adventure** section, to calculate the correct figure in these cases.
-
 
 ## Beasts of Burden
 

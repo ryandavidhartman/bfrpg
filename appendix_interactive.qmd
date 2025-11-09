@@ -30,8 +30,8 @@ viewof statrolls = Inputs.button(html`<button style="color: black; background-co
 ```{ojs}
 
 
-viewof goldRoll = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Gold (3d6 x 10)</button>`, {value: 0, reduce: () => {
-  let temp = (10 * generalDice(3,6,0));
+viewof goldRoll = Inputs.button(html`<button style="color: black; background-color: lightgray;">Roll Gold (2d6 x 5)</button>`, {value: 0, reduce: () => {
+  let temp = (5 * generalDice(2,6,0));
   set (viewof startingGold, temp);
   return temp}})
 ```

@@ -5,27 +5,28 @@ project:
 book:
   title: "Old School D&D"
   author: "Ryan Hartman"
-  date: "11/05/2025"
+  date: "11/08/2025"
   reader-mode: true
   chapters:
     - index.qmd
     - part: Introduction
       chapters:
-        - introduction/whatIsThis.qmd
-        - introduction/basics.qmd
-    - part: Player Characters
+        - 01-introduction/01-Old-School-D&D.qmd
+        - 01-introduction/02-Basics.qmd
+    - part: Characters
       chapters: 
-        - characters/char-creation.qmd
-        - characters/starting-level.qmd
-        - characters/abilities.qmd
-        - characters//races.qmd
-        - characters/class.qmd
-        - characters/backgrounds.qmd
-        - characters/alignments.qmd
-        - characters/hitPoints.qmd
-        - characters/languages.qmd
-        - characters/equipment.qmd
-        - characters/vehicles.qmd
+        - 02-characters/01-Overview.qmd
+        - 02-characters/02-Starting-Level.qmd
+        - 02-characters/03-Abilities.qmd
+        - 02-characters//races.qmd
+        - 02-characters/class.qmd
+        - 02-characters/backgrounds.qmd
+        - 02-characters/alignments.qmd
+        - 02-characters/hitPoints.qmd
+        - 02-characters/languages.qmd
+        - 02-characters/equipment.qmd
+        - 02-characters/vehicles.qmd
+        - 02-characters/10-Level-Advancement.qmd
     - part: Magic
       chapters: 
         - spells.qmd
@@ -35,7 +36,6 @@ book:
         - dungeonAdventures.qmd
         - wildAdventures.qmd
         - hirelings.qmd
-        - advancement.qmd
     - part: Encounters
       chapters: 
         - combatOverview.qmd
@@ -55,6 +55,7 @@ book:
     - part: DM Information
       chapters:
         - gauntlet.qmd 
+        - Awarding-XP.qmd
         - gm01.qmd
         - gm02.qmd
         - treasure.qmd

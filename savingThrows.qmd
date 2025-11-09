@@ -23,9 +23,9 @@ The saving throw vs. Death Ray is often used as a "catch all" save versus many o
 
 In general, saving throw rolls are not adjusted by ability score bonus or penalty figures. There are a few exceptions:
 
--   Poison saving throws are always adjusted by the character's [Constitution](./characters/abilities.qmd#ability-scores) modifier.
--   Saving throws against illusions (such as **phantasmal force**) are always adjusted by the character's [Intelligence](./characters/abilities.qmd#ability-scores) modifier.
--   Saving throws against **charm** spells (and other forms of mind control) are adjusted by the character's [Wisdom](./characters/abilities.qmd#ability-scores) modifier.
+-   Poison saving throws are always adjusted by the character's [Constitution](./02-characters/03-Abilities.qmd#ability-scores) modifier.
+-   Saving throws against illusions (such as **phantasmal force**) are always adjusted by the character's [Intelligence](./02-characters/03-Abilities.qmd#ability-scores) modifier.
+-   Saving throws against **charm** spells (and other forms of mind control) are adjusted by the character's [Wisdom](./02-characters/03-Abilities.qmd#ability-scores) modifier.
 
 The DM may decide on other saving throw adjustments as he or she sees fit.
 
