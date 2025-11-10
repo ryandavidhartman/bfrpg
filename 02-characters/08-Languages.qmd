@@ -1,0 +1,125 @@
+# Languages
+![](../images/languages.png)
+
+All characters begin the game knowing the Common tongue, but many races know additional languages:
+
+:::{#languages-by-race-table}
+| **Race**   | **Languages Known**    |
+|:-----------|:-----------------------|
+| Dwarves    | Common, Dwarvish       |
+| Elves      | Common, Elvish, Sylvan |
+| Gnomes     | Common, Gnomish        |
+| Goblins    | Common, Goblin         |
+| Half-Elves | Common, Elvish         |
+| Half-Orcs  | Common, Orcish         |
+| Halflings  | Common                 |
+| Humans     | Common                 |
+:::
+:::{.table-caption}
+**Table:** Common Languages by Race
+:::
+
+Some classes also know additonal languages:
+
+:::{#class-languages-table}
+| **Class**    | **Bonus Languages**                                   |
+|:------------|:-------------------------------------------------------|
+| Clerics     | Celestial, Diabolic, or Primordial                     |
+| Magic-Users | Two additional common languages and two rare languages |
+| Thieves     | Thieves’ Cant                                          |
+:::
+:::{.table-caption}
+**Table:** Class Bonus Languages
+:::
+
+## Common
+
+Here are the most commonly know languages of the realm:
+
+:::{#languages-table}
+| **d10** | **Language** | **Who Speaks It**               |
+|:-------:|:-------------|:--------------------------------|
+| 1       | Dwarvish     | Dwarves                         |
+| 2       | Elvish       | Elves                           |
+| 3       | Giant        | Giants, ogres, trolls           |
+| 4       | Gnomish      | Gnomes, Dwarves, Halflings      |
+| 5       | Goblin       | Bugbears, goblins, hobgoblins   |
+| 6       | Merran       | Merfolk, sahuagin, sirens       |
+| 7       | Orcish       | Orcs                            |
+| 8       | Reptilian    | Lizardfolk, viperians           |
+| 9       | Sylvan       | Centaurs, dryads, faeries       |
+| 10      | Thanian      | Minotaurs, beastmen, manticores |
+:::
+:::{.table-caption}
+**Table:** Languages of the Realm
+:::
+
+```{ojs}
+import { generalTableSelect, highlightTableRow, readMatrixFromTable } from "../custom.js"
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Language (d10)</button>`,
+  {
+    value: "",
+    reduce: () => {
+      var matrix = readMatrixFromTable("#languages-table");
+      var n = matrix.length;
+
+      // Roll d10
+      var idx = generalTableSelect(
+        [1, 10, 0],
+        Array.from({ length: n }, function(_, i) { return [i + 1, i + 1]; })
+      );
+
+      highlightTableRow("#languages-table", idx);
+
+      // matrix row = [d10, Language, Who Speaks It]
+      var row = matrix[idx - 1];
+      return "You rolled " + idx + ": " + row[1] + " — spoken by " + row[2];
+    }
+  }
+)
+```
+
+## Rare
+
+Here are some less common languages used in this campaign: 
+
+:::{#rare-languages-table}
+| **d6** | **Language**  | **Who Speaks It**             |
+|:------:|:--------------|:------------------------------|
+| 1      | Celestial     | Angels                        |
+| 2      | Diabolic      | Demons, devils                |
+| 3      | Draconic      | Dragons                       |
+| 4      | Primordia l   | Elder things, elementals      |
+| 5      | Thieves' Cant | Trained thieves               |
+| 6      | Ancient       | Scholars, ancient manuscripts |
+:::
+:::{.table-caption}
+**Table:** Rare Languages of the Realm
+:::
+
+```{ojs}
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Rare Language (d6)</button>`,
+  {
+    value: "",
+    reduce: () => {
+      var matrix = readMatrixFromTable("#rare-languages-table");
+      var n = matrix.length;
+
+      // Roll d6
+      var idx = generalTableSelect(
+        [1, 6, 0],
+        Array.from({ length: n }, function(_, i) { return [i + 1, i + 1]; })
+      );
+
+      highlightTableRow("#rare-languages-table", idx);
+
+      // matrix row = [d6, Language, Who Speaks It]
+      var row = matrix[idx - 1];
+      return "You rolled " + idx + ": " + row[1] + " — spoken by " + row[2];
+    }
+  }
+)
+```

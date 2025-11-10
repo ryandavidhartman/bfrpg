@@ -32,13 +32,13 @@ To generate your character’s ability scores, roll **3d6** six times.  Assign t
 
 **Strength:** Raw physical power. Apply the Strength modifier to all melee attack rolls. See [Combat](../combatDetails.qmd#damage) for details.  
 
-**Dexterity:** Quickness, balance, and deft hands. Apply the Dexterity modifier to all ranged **attack rolls**, to [Armor Class](equipment.qmd#armor-and-shields), and to [Intiative](../combatDetails.qmd#initiative).  
+**Dexterity:** Quickness, balance, and deft hands. Apply the Dexterity modifier to all ranged **attack rolls**, to [Armor Class](09-Equipment.qmd#armor-and-shields), and to [Intiative](../combatDetails.qmd#initiative).  
 
 **Constitution:** Health and vitality. Apply the Constitution modifier to each **hit die** you roll (a penalty never reduces a hit-die roll below 1).  
 
-**Intelligence:** Learning and lore. Important to [Magic-Users](class.qmd#magic-users), who gain a **Spell Bonus** from Intelligence.  
+**Intelligence:** Learning and lore. Important to [Magic-Users](05-Classes.qmd#magic-users), who gain a **Spell Bonus** from Intelligence.  
 
-**Wisdom:** Will, insight, and common sense. Primary for [Clerics](class.qmd#cleric), who gain a **Spell Bonus** from Wisdom. Wisdom may also modify certain saving DCs against mind-affecting magic.  
+**Wisdom:** Will, insight, and common sense. Primary for [Clerics](05-Classes.qmd#cleric), who gain a **Spell Bonus** from Wisdom. Wisdom may also modify certain saving DCs against mind-affecting magic.  
 
 **Charisma:** Presence and leadership. Apply the Charisma modifier to **reaction rolls**; it also affects the number and loyalty of [Hirelings](../hirelings.qmd#retainers-and-hirelings).
 

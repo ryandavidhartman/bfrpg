@@ -11,11 +11,11 @@ Choose a name worthy of an adventurer.  Whether simple or strange, a good name h
 
 ## Ancestry
 
-Your ancestry defines your character’s cultural and racial heritage.  Choose your [race](races.qmd#character-races) and record any special abilities it grants.  
+Your ancestry defines your character’s cultural and racial heritage.  Choose your [race](04-Races.qmd#character-races) and record any special abilities it grants.  
 
 ## Class
 
-Your class represents your character’s vocation or calling.  Select a [class](class.qmd#character-classes) that fits your concept.  Record the class features and talents appropriate to your choice.
+Your class represents your character’s vocation or calling.  Select a [class](05-Classes.qmd#character-classes) that fits your concept.  Record the class features and talents appropriate to your choice.
 
 ## Level
 
@@ -35,7 +35,7 @@ As you rise in level, your title changes according to class and alignment.  Titl
 
 ## Background
 
-Note a few words about your past—what trade, craft, or life you led before taking up the adventuring path.  Your [background](backgrounds.qmd) can enrich role-playing and help the DM rule on certain situations or skills.
+Note a few words about your past—what trade, craft, or life you led before taking up the adventuring path.  Your [background](06-Backgrounds.qmd) can enrich role-playing and help the DM rule on certain situations or skills.
 
 ## Ability Scores
 
@@ -68,7 +68,7 @@ If your class can cast spells, consult your DM to learn which spells you begin w
 
 ## Gear
 
-Spend your starting gold on equipment from the [Equipment](equipment.qmd#equipment-explanations) section.  List each purchase and track remaining gold.  Ensure that your class and race permit use of your chosen weapons and armor.  You can also use the [Buy Equipment Tool](../appendix_interactive.qmd#buy-equipment).  Your character can carry up to **10 + Strength** items (whichever is higher) before becoming encumbered.
+Spend your starting gold on equipment from the [Equipment](09-Equipment.qmd#equipment-explanations) section.  List each purchase and track remaining gold.  Ensure that your class and race permit use of your chosen weapons and armor.  You can also use the [Buy Equipment Tool](../appendix_interactive.qmd#buy-equipment).  Your character can carry up to **10 + Strength** items (whichever is higher) before becoming encumbered.
 
 ## Finishing Touches
 

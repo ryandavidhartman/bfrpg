@@ -18,15 +18,14 @@ book:
         - 02-characters/01-Overview.qmd
         - 02-characters/02-Starting-Level.qmd
         - 02-characters/03-Abilities.qmd
-        - 02-characters//races.qmd
-        - 02-characters/class.qmd
-        - 02-characters/backgrounds.qmd
-        - 02-characters/alignments.qmd
-        - 02-characters/hitPoints.qmd
-        - 02-characters/languages.qmd
-        - 02-characters/equipment.qmd
+        - 02-characters/04-Races.qmd
+        - 02-characters/05-Classes.qmd
+        - 02-characters/06-Backgrounds.qmd
+        - 02-characters/07-Alignments.qmd
+        - 02-characters/08-Languages.qmd
+        - 02-characters/09-Equipment.qmd
         - 02-characters/vehicles.qmd
-        - 02-characters/10-Level-Advancement.qmd
+        - 02-characters/11-Level-Advancement.qmd
     - part: Magic
       chapters: 
         - spells.qmd

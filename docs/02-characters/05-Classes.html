@@ -1,0 +1,2121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Old School D&amp;D - 7&nbsp; Character Classes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../02-characters/06-Backgrounds.html" rel="next">
+<link href="../02-characters/04-Races.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
+
+
+<link rel="stylesheet" href="../custom.css">
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/05-Classes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Character Classes</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Old School D&amp;D</a> 
+        <div class="sidebar-tools-main">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../01-introduction/01-Old-School-D&amp;D.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../01-introduction/02-Basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Basics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Characters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/01-Overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Overview</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/02-Starting-Level.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Starting Level</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/03-Abilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Character Stats</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/04-Races.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Character Races</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/05-Classes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Character Classes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/06-Backgrounds.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Backgrounds</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/07-Alignments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Alignments</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/08-Languages.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/09-Equipment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Equipment</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/vehicles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Vehicles</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-characters/11-Level-Advancement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Level Advancement</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Magic</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../spells.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Spells</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../allSpells.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Spells, Alphabetical</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Adventure</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../dungeonAdventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Dungeon Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../wildAdventures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Wilderness Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../hirelings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Hirelings</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+ <span class="menu-text">Encounters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../combatOverview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Combat Overview</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../combatDetails.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Combat Details</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../savingThrows.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Saving Throws</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../healingAndInjuries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Healing and Injuries</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../senses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Senses</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+ <span class="menu-text">Monsters</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monsters.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Monsters Intro</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monstersAll.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Monster Descriptions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../monstersTab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Monsters Index</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+ <span class="menu-text">Magical Items</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../magicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Magical Items</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../namedMagicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Named Magic Items</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true">
+ <span class="menu-text">DM Information</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gauntlet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Gauntlets</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Awarding-XP.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Awarding XP</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gm01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Managing Encounters</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gm02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../treasure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Treasure</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../randomMagicItems.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Random Magical Treasure</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+ <span class="menu-text">The World of Greyhawk</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../12Realms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">The Twelve Realms</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../history.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">History</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Gods, Demons, and other Immortals</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../planes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Planes of Existence</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+ <span class="menu-text">Tables</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/npcs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">NPCs</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/rivals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Rivals</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendix_interactive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Interactive tools</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../char_sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Character Sheet</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tables/frequent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Frquently Used Tables</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#cleric" id="toc-cleric" class="nav-link active" data-scroll-target="#cleric">Cleric</a>
+  <ul>
+  <li><a href="#languages" id="toc-languages" class="nav-link" data-scroll-target="#languages">Languages</a></li>
+  <li><a href="#turn-undead" id="toc-turn-undead" class="nav-link" data-scroll-target="#turn-undead">Turn Undead</a></li>
+  <li><a href="#deity" id="toc-deity" class="nav-link" data-scroll-target="#deity">Deity</a></li>
+  <li><a href="#spellcasting" id="toc-spellcasting" class="nav-link" data-scroll-target="#spellcasting">Spellcasting</a></li>
+  <li><a href="#talents" id="toc-talents" class="nav-link" data-scroll-target="#talents">Talents</a></li>
+  <li><a href="#titles" id="toc-titles" class="nav-link" data-scroll-target="#titles">Titles</a></li>
+  </ul></li>
+  <li><a href="#fighter" id="toc-fighter" class="nav-link" data-scroll-target="#fighter">Fighter</a>
+  <ul>
+  <li><a href="#hauler" id="toc-hauler" class="nav-link" data-scroll-target="#hauler">Hauler</a></li>
+  <li><a href="#weapon-mastery." id="toc-weapon-mastery." class="nav-link" data-scroll-target="#weapon-mastery.">Weapon Mastery.</a></li>
+  <li><a href="#grit" id="toc-grit" class="nav-link" data-scroll-target="#grit">Grit</a></li>
+  <li><a href="#talents-1" id="toc-talents-1" class="nav-link" data-scroll-target="#talents-1">Talents</a></li>
+  <li><a href="#titles-1" id="toc-titles-1" class="nav-link" data-scroll-target="#titles-1">Titles</a></li>
+  </ul></li>
+  <li><a href="#magic-user" id="toc-magic-user" class="nav-link" data-scroll-target="#magic-user">Magic User</a>
+  <ul>
+  <li><a href="#languages-1" id="toc-languages-1" class="nav-link" data-scroll-target="#languages-1">Languages</a></li>
+  <li><a href="#learning-spells" id="toc-learning-spells" class="nav-link" data-scroll-target="#learning-spells">Learning Spells</a></li>
+  <li><a href="#spellcasting-1" id="toc-spellcasting-1" class="nav-link" data-scroll-target="#spellcasting-1">Spellcasting</a></li>
+  <li><a href="#talents-2" id="toc-talents-2" class="nav-link" data-scroll-target="#talents-2">Talents</a></li>
+  <li><a href="#titles-2" id="toc-titles-2" class="nav-link" data-scroll-target="#titles-2">Titles</a></li>
+  </ul></li>
+  <li><a href="#thief" id="toc-thief" class="nav-link" data-scroll-target="#thief">Thief</a>
+  <ul>
+  <li><a href="#backstab" id="toc-backstab" class="nav-link" data-scroll-target="#backstab">Backstab</a></li>
+  <li><a href="#thievery" id="toc-thievery" class="nav-link" data-scroll-target="#thievery">Thievery</a></li>
+  <li><a href="#talents-3" id="toc-talents-3" class="nav-link" data-scroll-target="#talents-3">Talents</a></li>
+  <li><a href="#titles-3" id="toc-titles-3" class="nav-link" data-scroll-target="#titles-3">Titles</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/05-Classes.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Character Classes</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Character Classes</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="cleric" class="level2">
+<h2 class="anchored" data-anchor-id="cleric">Cleric</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/cleric_class.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p>Crusading templars, prophetic shamans, or mad-eyed zealots who wield the power of their gods to cleanse the unholy.</p>
+<ul>
+<li>Weapons: Club, crossbow, dagger, mace, longsword, staff, warhammer</li>
+<li>Armor: All armor and shields</li>
+<li>Hit Points: <em>1d6</em> per level</li>
+</ul>
+<section id="languages" class="level3">
+<h3 class="anchored" data-anchor-id="languages">Languages</h3>
+<p>You know Celestial, Diabolic, or Primordial.</p>
+</section>
+<section id="turn-undead" class="level3">
+<h3 class="anchored" data-anchor-id="turn-undead">Turn Undead</h3>
+<p>You know the turn undead spell. It doesn’t count toward your number of known spells</p>
+</section>
+<section id="deity" class="level3">
+<h3 class="anchored" data-anchor-id="deity">Deity</h3>
+<p>Choose a god to serve who matches your alignment (see <a href="../gods.html">Deities</a>). You have a holy symbol for your god (it takes up no gear slots).</p>
+</section>
+<section id="spellcasting" class="level3">
+<h3 class="anchored" data-anchor-id="spellcasting">Spellcasting</h3>
+<p>You can cast cleric spells you know. You know two tier 1 spells of your choice from the <a href="../spells.html#cleric-spells">cleric spell list</a>.</p>
+<p>Each time you gain a level, you choose new cleric spells to learn according to the Cleric Spells Known table. For casting cleric spells see <a href="../spells.html">Spellcasting</a>.</p>
+<div id="cleric-spells-known-table">
+<table class="table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: center;"><strong>Tier 1</strong></th>
+<th style="text-align: center;"><strong>Tier 2</strong></th>
+<th style="text-align: center;"><strong>Tier 3</strong></th>
+<th style="text-align: center;"><strong>Tier 4</strong></th>
+<th style="text-align: center;"><strong>Tier 5</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Cleric Spells Known by Spell Tier</p>
+</div>
+</section>
+<section id="talents" class="level3">
+<h3 class="anchored" data-anchor-id="talents">Talents</h3>
+<div id="cleric-talent-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>2d6</strong></th>
+<th><strong>Effect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Gain advantage on casting one spell you know</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–6</td>
+<td>+1 to melee or ranged attacks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7–9</td>
+<td>+1 to Cleric spellcasting checks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10–11</td>
+<td>+2 to Strength or Wisdom stat</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td>Choose a talent or +2 points to distribute to stats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Cleric Talent Table</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="62" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 61;"><span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalTableSelect<span class="op">,</span> highlightTableRow<span class="op">,</span> readMatrixFromTable } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Cleric Talent (2d6)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#cleric-talent-table"</span>)<span class="op">;</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll 2d6</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> roll <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>) <span class="op">+</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Map 2d6 roll to table row index</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx<span class="op">;</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (roll <span class="op">===</span> <span class="dv">2</span>) {</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">3</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">6</span>) {</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">7</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">9</span>) {</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">10</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">11</span>) {</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> {</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#cleric-talent-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span> <span class="co">// [2d6, Effect]</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> roll <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="titles" class="level3">
+<h3 class="anchored" data-anchor-id="titles">Titles</h3>
+<div id="cleric-titles-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: left;"><strong>Lawful</strong></th>
+<th style="text-align: left;"><strong>Chaotic</strong></th>
+<th style="text-align: left;"><strong>Neutral</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1–2</td>
+<td style="text-align: left;">Acolyte</td>
+<td style="text-align: left;">Initiate</td>
+<td style="text-align: left;">Seeker</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–4</td>
+<td style="text-align: left;">Crusader</td>
+<td style="text-align: left;">Zealot</td>
+<td style="text-align: left;">Invoker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5–6</td>
+<td style="text-align: left;">Templar</td>
+<td style="text-align: left;">Cultist</td>
+<td style="text-align: left;">Haruspex</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7–8</td>
+<td style="text-align: left;">Champion</td>
+<td style="text-align: left;">Scourge</td>
+<td style="text-align: left;">Mystic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9–10</td>
+<td style="text-align: left;">Paladin</td>
+<td style="text-align: left;">Chaos Knight</td>
+<td style="text-align: left;">Oracle</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Cleric Titles by Alignment</p>
+</div>
+</section>
+</section>
+<section id="fighter" class="level2">
+<h2 class="anchored" data-anchor-id="fighter">Fighter</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/fighter_class.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p>Blood-soaked gladiators in dented armor, acrobatic duelists with darting swords, or far-eyed elven archers who carve their legends with steel and grit.</p>
+<ul>
+<li>Weapons: All weapons</li>
+<li>Armor: All armor and shields</li>
+<li>Hit Points: <em>1d8</em>+ per level</li>
+</ul>
+<section id="hauler" class="level3">
+<h3 class="anchored" data-anchor-id="hauler">Hauler</h3>
+<p>Add your Constitution modifier, if positive, to your gear slots.</p>
+</section>
+<section id="weapon-mastery." class="level3">
+<h3 class="anchored" data-anchor-id="weapon-mastery.">Weapon Mastery.</h3>
+<p>Choose one type of weapon, such as longswords. You gain +1 to attack and damage with that weapon type. In addition, add half your level to these rolls (round down).</p>
+</section>
+<section id="grit" class="level3">
+<h3 class="anchored" data-anchor-id="grit">Grit</h3>
+<p>Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force,such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).</p>
+</section>
+<section id="talents-1" class="level3">
+<h3 class="anchored" data-anchor-id="talents-1">Talents</h3>
+<div id="fighter-talent-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>2d6</strong></th>
+<th><strong>Effect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Gain Weapon Mastery with one additional weapon type</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–6</td>
+<td>+1 to melee and ranged attacks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7–9</td>
+<td>+2 to Strength, Dexterity, or Constitution stat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10–11</td>
+<td>Choose one kind of armor. You get +1 AC from that armor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td>Choose a talent or +2 points to distribute to stats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Fighter Talent Table</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="150" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 149;"><span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Fighter Talent (2d6)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#fighter-talent-table"</span>)<span class="op">;</span></span>
+<span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll 2d6</span></span>
+<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> roll <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>) <span class="op">+</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Map 2d6 roll to table row index</span></span>
+<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx<span class="op">;</span></span>
+<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (roll <span class="op">===</span> <span class="dv">2</span>) {</span>
+<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">3</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">6</span>) {</span>
+<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">7</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">9</span>) {</span>
+<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb2-168"><a href="#cb2-168" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">10</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">11</span>) {</span>
+<span id="cb2-169"><a href="#cb2-169" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb2-170"><a href="#cb2-170" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> {</span>
+<span id="cb2-171"><a href="#cb2-171" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb2-172"><a href="#cb2-172" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#fighter-talent-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span> <span class="co">// [2d6, Effect]</span></span>
+<span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> roll <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</section>
+<section id="titles-1" class="level3">
+<h3 class="anchored" data-anchor-id="titles-1">Titles</h3>
+<div id="fighter-titles-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: left;"><strong>Lawful</strong></th>
+<th style="text-align: left;"><strong>Chaotic</strong></th>
+<th style="text-align: left;"><strong>Neutral</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1–2</td>
+<td style="text-align: left;">Squire</td>
+<td style="text-align: left;">Knave</td>
+<td style="text-align: left;">Warrior</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–4</td>
+<td style="text-align: left;">Cavalier</td>
+<td style="text-align: left;">Bandit</td>
+<td style="text-align: left;">Barbarian</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5–6</td>
+<td style="text-align: left;">Knight</td>
+<td style="text-align: left;">Slayer</td>
+<td style="text-align: left;">Battlerager</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7–8</td>
+<td style="text-align: left;">Thane</td>
+<td style="text-align: left;">Reaver</td>
+<td style="text-align: left;">Warchief</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9–10</td>
+<td style="text-align: left;">Lord/Lady</td>
+<td style="text-align: left;">Warlord</td>
+<td style="text-align: left;">Chieftain</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Fighter Titles by Alignment</p>
+</div>
+</section>
+</section>
+<section id="magic-user" class="level2">
+<h2 class="anchored" data-anchor-id="magic-user">Magic User</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../images/magic_user_class.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+<p>Rune-tattooed adepts, bespectacled magi, and flameconjuring witches who dare to manipulate the fell forces of magic.</p>
+<ul>
+<li>Weapons: Dagger, staff</li>
+<li>Armor: None</li>
+<li>Hit Points: <em>1d4</em> per level</li>
+</ul>
+<section id="languages-1" class="level3">
+<h3 class="anchored" data-anchor-id="languages-1">Languages</h3>
+<p>You know two additional common languages and two rare languages (see <a href="../02-characters/08-Languages.html">Languages</a>)</p>
+</section>
+<section id="learning-spells" class="level3">
+<h3 class="anchored" data-anchor-id="learning-spells">Learning Spells</h3>
+<p>You can permanently learn a magic-user spell from a spell scroll by studying it for a day and succeeding on a DC 15 Intelligence check. Whether you succeed or fail, you expend the spell scroll. Spells you learn in this way don’t count toward your known spells.</p>
+</section>
+<section id="spellcasting-1" class="level3">
+<h3 class="anchored" data-anchor-id="spellcasting-1">Spellcasting</h3>
+<p>You can cast magic-user spells you know. You know three tier 1 spells of your choice from the <a href="../spells.html#magic-user-spells">magic-user spell list</a>. Each time you gain a level, you choose new wizard spells to learn according to the Magic-Usrs Spells Known table. For casting magic-user spells, see <a href="../spells.html">Spellcasting</a>.</p>
+<div id="magic-user-spells-known-table">
+<table class="table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: center;"><strong>Tier 1</strong></th>
+<th style="text-align: center;"><strong>Tier 2</strong></th>
+<th style="text-align: center;"><strong>Tier 3</strong></th>
+<th style="text-align: center;"><strong>Tier 4</strong></th>
+<th style="text-align: center;"><strong>Tier 5</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Magic-User Spells Known by Spell Tier</p>
+</div>
+</section>
+<section id="talents-2" class="level3">
+<h3 class="anchored" data-anchor-id="talents-2">Talents</h3>
+<div id="magic-user-talent-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>2d6</strong></th>
+<th><strong>Effect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Make 1 random magic item of a type you choose (<a href="../magicItems.html">Magic Items</a>)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–7</td>
+<td>+2 to Intelligence stat or +1 to wizard spellcasting checks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">8–9</td>
+<td>Gain advantage on casting one spell you know</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10–11</td>
+<td>Learn one additional wizard spell of any tier you know</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td>Choose a talent or +2 points to distribute to stats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Magic-User Talent Table</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="252" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 251;"><span id="cb3-252"><a href="#cb3-252" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb3-253"><a href="#cb3-253" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Magic-User Talent (2d6)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb3-254"><a href="#cb3-254" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb3-255"><a href="#cb3-255" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb3-256"><a href="#cb3-256" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb3-257"><a href="#cb3-257" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#magic-user-talent-table"</span>)<span class="op">;</span></span>
+<span id="cb3-258"><a href="#cb3-258" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-259"><a href="#cb3-259" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll 2d6</span></span>
+<span id="cb3-260"><a href="#cb3-260" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> roll <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>) <span class="op">+</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb3-261"><a href="#cb3-261" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-262"><a href="#cb3-262" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Map 2d6 roll to table row index</span></span>
+<span id="cb3-263"><a href="#cb3-263" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx<span class="op">;</span></span>
+<span id="cb3-264"><a href="#cb3-264" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (roll <span class="op">===</span> <span class="dv">2</span>) {</span>
+<span id="cb3-265"><a href="#cb3-265" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb3-266"><a href="#cb3-266" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">3</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">7</span>) {</span>
+<span id="cb3-267"><a href="#cb3-267" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb3-268"><a href="#cb3-268" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">8</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">9</span>) {</span>
+<span id="cb3-269"><a href="#cb3-269" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb3-270"><a href="#cb3-270" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">10</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">11</span>) {</span>
+<span id="cb3-271"><a href="#cb3-271" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb3-272"><a href="#cb3-272" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> {</span>
+<span id="cb3-273"><a href="#cb3-273" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb3-274"><a href="#cb3-274" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb3-275"><a href="#cb3-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-276"><a href="#cb3-276" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#magic-user-talent-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb3-277"><a href="#cb3-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-278"><a href="#cb3-278" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span> <span class="co">// [2d6, Effect]</span></span>
+<span id="cb3-279"><a href="#cb3-279" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> roll <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb3-280"><a href="#cb3-280" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-281"><a href="#cb3-281" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb3-282"><a href="#cb3-282" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</section>
+<section id="titles-2" class="level3">
+<h3 class="anchored" data-anchor-id="titles-2">Titles</h3>
+<div id="magic-user-titles-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: left;"><strong>Lawful</strong></th>
+<th style="text-align: left;"><strong>Chaotic</strong></th>
+<th style="text-align: left;"><strong>Neutral</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1–2</td>
+<td style="text-align: left;">Apprentice</td>
+<td style="text-align: left;">Adept</td>
+<td style="text-align: left;">Shaman</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–4</td>
+<td style="text-align: left;">Conjurer</td>
+<td style="text-align: left;">Channeler</td>
+<td style="text-align: left;">Seer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5–6</td>
+<td style="text-align: left;">Arcanist</td>
+<td style="text-align: left;">Witch/Warlock</td>
+<td style="text-align: left;">Warden</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7–8</td>
+<td style="text-align: left;">Mage</td>
+<td style="text-align: left;">Diabolist</td>
+<td style="text-align: left;">Sage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9–10</td>
+<td style="text-align: left;">Archmage</td>
+<td style="text-align: left;">Sorcerer</td>
+<td style="text-align: left;">Druid</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Magic-User Titles by Alignment</p>
+</div>
+</section>
+</section>
+<section id="thief" class="level2">
+<h2 class="anchored" data-anchor-id="thief">Thief</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/thief_class.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Rooftop assassins, grinning con artists, or cloaked cat burglars who can pluck a gem from the claws of a sleeping demon and sell it for twice its worth.</p>
+<ul>
+<li>Weapons: Club, crossbow, dagger, shortbow, shortsword</li>
+<li>Armor: Leather armor, mithral chainmail</li>
+<li>Hit Points: <em>1d4</em> per level</li>
+</ul>
+<section id="backstab" class="level3">
+<h3 class="anchored" data-anchor-id="backstab">Backstab</h3>
+<p>If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).</p>
+</section>
+<section id="thievery" class="level3">
+<h3 class="anchored" data-anchor-id="thievery">Thievery</h3>
+<p>You are adept at thieving skills and have the necessary tools of the trade secreted on your person (they take up no gear slots). You are trained in the following tasks and have advantage on any associated checks:</p>
+<ul>
+<li>Climbing</li>
+<li>Sneaking and hiding</li>
+<li>Applying disguises</li>
+<li>Finding and disabling traps</li>
+<li>Delicate tasks such as picking pockets and opening locks</li>
+</ul>
+</section>
+<section id="talents-3" class="level3">
+<h3 class="anchored" data-anchor-id="talents-3">Talents</h3>
+<div id="thief-talent-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>2d6</strong></th>
+<th><strong>Effect</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td>Gain advantage on initiative rolls (reroll if duplicate)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–5</td>
+<td>Your Backstab deals +1 dice of damage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6–9</td>
+<td>+2 to Strength, Dexterity, or Charisma stat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10–11</td>
+<td>+1 to melee and ranged attacks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">12</td>
+<td>Choose a talent or +2 points to distribute to stats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Thief Talent Table</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb4" data-startfrom="342" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 341;"><span id="cb4-342"><a href="#cb4-342" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb4-343"><a href="#cb4-343" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Thief Talent (2d6)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb4-344"><a href="#cb4-344" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb4-345"><a href="#cb4-345" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb4-346"><a href="#cb4-346" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb4-347"><a href="#cb4-347" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#thief-talent-table"</span>)<span class="op">;</span></span>
+<span id="cb4-348"><a href="#cb4-348" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-349"><a href="#cb4-349" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll 2d6</span></span>
+<span id="cb4-350"><a href="#cb4-350" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> roll <span class="op">=</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>) <span class="op">+</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> <span class="dv">6</span>) <span class="op">+</span> <span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb4-351"><a href="#cb4-351" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-352"><a href="#cb4-352" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Map 2d6 roll to table row index</span></span>
+<span id="cb4-353"><a href="#cb4-353" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx<span class="op">;</span></span>
+<span id="cb4-354"><a href="#cb4-354" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (roll <span class="op">===</span> <span class="dv">2</span>) {</span>
+<span id="cb4-355"><a href="#cb4-355" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb4-356"><a href="#cb4-356" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">3</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">5</span>) {</span>
+<span id="cb4-357"><a href="#cb4-357" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb4-358"><a href="#cb4-358" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">6</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">9</span>) {</span>
+<span id="cb4-359"><a href="#cb4-359" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb4-360"><a href="#cb4-360" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> <span class="cf">if</span> (roll <span class="op">&gt;=</span> <span class="dv">10</span> <span class="op">&amp;&amp;</span> roll <span class="op">&lt;=</span> <span class="dv">11</span>) {</span>
+<span id="cb4-361"><a href="#cb4-361" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb4-362"><a href="#cb4-362" aria-hidden="true" tabindex="-1"></a>      } <span class="cf">else</span> {</span>
+<span id="cb4-363"><a href="#cb4-363" aria-hidden="true" tabindex="-1"></a>        idx <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb4-364"><a href="#cb4-364" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb4-365"><a href="#cb4-365" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-366"><a href="#cb4-366" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#thief-talent-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb4-367"><a href="#cb4-367" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-368"><a href="#cb4-368" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span> <span class="co">// [2d6, Effect]</span></span>
+<span id="cb4-369"><a href="#cb4-369" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> roll <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb4-370"><a href="#cb4-370" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb4-371"><a href="#cb4-371" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb4-372"><a href="#cb4-372" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-4" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</section>
+<section id="titles-3" class="level3">
+<h3 class="anchored" data-anchor-id="titles-3">Titles</h3>
+<div id="thief-titles-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Level</strong></th>
+<th style="text-align: left;"><strong>Lawful</strong></th>
+<th style="text-align: left;"><strong>Chaotic</strong></th>
+<th style="text-align: left;"><strong>Neutral</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1–2</td>
+<td style="text-align: left;">Footpad</td>
+<td style="text-align: left;">Thug</td>
+<td style="text-align: left;">Robber</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3–4</td>
+<td style="text-align: left;">Burglar</td>
+<td style="text-align: left;">Cutthroat</td>
+<td style="text-align: left;">Outlaw</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5–6</td>
+<td style="text-align: left;">Rook</td>
+<td style="text-align: left;">Shadow</td>
+<td style="text-align: left;">Rogue</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">7–8</td>
+<td style="text-align: left;">Underboss</td>
+<td style="text-align: left;">Assassin</td>
+<td style="text-align: left;">Renegade</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9–10</td>
+<td style="text-align: left;">Boss</td>
+<td style="text-align: left;">Wraith</td>
+<td style="text-align: left;">Bandit King/Queen</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Thief Titles by Alignment</p>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<style>
+/* Only hide images in the main document content, not in nav/sidebar */
+.imgs-hidden #quarto-document-content img {
+  display: none !important;
+}
+#toggle-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .9rem;
+  padding: .35rem .6rem;
+  border: 1px solid var(--bs-border-color, #ccc);
+  border-radius: .35rem;
+  background: transparent;
+  cursor: pointer;
+}
+#toggle-images-btn[aria-pressed="true"] {
+  opacity: .75;
+}
+
+ .imgs-hidden #quarto-document-content img.always-show { display: block !important; }
+</style>
+
+<script>
+(function () {
+  const STORAGE_KEY = "quarto.imgsHidden";
+
+  function applyState(hidden) {
+    const root = document.documentElement; // or document.body
+    root.classList.toggle("imgs-hidden", hidden);
+    const btn = document.getElementById("toggle-images-btn");
+    if (btn) {
+      btn.setAttribute("aria-pressed", hidden ? "true" : "false");
+      btn.title = hidden ? "Images are hidden" : "Images are visible";
+      btn.querySelector(".label").textContent = hidden ? "Show images" : "Hide images";
+    }
+  }
+
+  function currentState() {
+    return localStorage.getItem(STORAGE_KEY) === "1";
+  }
+
+  function setState(hidden) {
+    localStorage.setItem(STORAGE_KEY, hidden ? "1" : "0");
+    applyState(hidden);
+  }
+
+  function ensureButton() {
+    if (document.getElementById("toggle-images-btn")) return;
+
+    // Try common sidebar containers; fall back to the sidebar root
+    const sidebar =
+      document.querySelector("#quarto-sidebar .sidebar-menu-container") ||
+      document.querySelector("#quarto-sidebar .sidebar-tools") ||
+      document.querySelector("#quarto-sidebar") ||
+      null;
+
+    if (!sidebar) return;
+
+    const wrapper = document.createElement("div");
+    wrapper.style.margin = "0.5rem 0 0.75rem";
+
+    const btn = document.createElement("button");
+    btn.id = "toggle-images-btn";
+    btn.type = "button";
+    btn.innerHTML = `<span class="label">Hide images</span>`;
+    btn.addEventListener("click", () => setState(!currentState()));
+
+    wrapper.appendChild(btn);
+    // Insert near the top of the sidebar
+    sidebar.insertBefore(wrapper, sidebar.firstChild);
+  }
+
+  function init() {
+    ensureButton();
+    applyState(currentState());
+  }
+
+  // Run on first load
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Also run after Quarto client-side navigation (if enabled)
+  document.addEventListener("quarto:pageLoaded", init);
+})();
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGdlbmVyYWxUYWJsZVNlbGVjdCwgaGlnaGxpZ2h0VGFibGVSb3csIHJlYWRNYXRyaXhGcm9tVGFibGUgfSBmcm9tIFwiLi4vY3VzdG9tLmpzXCJcclxuXHJcbklucHV0cy5idXR0b24oXHJcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBDbGVyaWMgVGFsZW50ICgyZDYpPC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICB2YXIgbWF0cml4ID0gcmVhZE1hdHJpeEZyb21UYWJsZShcIiNjbGVyaWMtdGFsZW50LXRhYmxlXCIpO1xyXG5cclxuICAgICAgLy8gUm9sbCAyZDZcclxuICAgICAgdmFyIHJvbGwgPSAoTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogNikgKyAxKSArIChNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiA2KSArIDEpO1xyXG5cclxuICAgICAgLy8gTWFwIDJkNiByb2xsIHRvIHRhYmxlIHJvdyBpbmRleFxyXG4gICAgICB2YXIgaWR4O1xyXG4gICAgICBpZiAocm9sbCA9PT0gMikge1xyXG4gICAgICAgIGlkeCA9IDE7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAzICYmIHJvbGwgPD0gNikge1xyXG4gICAgICAgIGlkeCA9IDI7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSA3ICYmIHJvbGwgPD0gOSkge1xyXG4gICAgICAgIGlkeCA9IDM7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAxMCAmJiByb2xsIDw9IDExKSB7XHJcbiAgICAgICAgaWR4ID0gNDtcclxuICAgICAgfSBlbHNlIHtcclxuICAgICAgICBpZHggPSA1O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNjbGVyaWMtdGFsZW50LXRhYmxlXCIsIGlkeCk7XHJcblxyXG4gICAgICB2YXIgcm93ID0gbWF0cml4W2lkeCAtIDFdOyAvLyBbMmQ2LCBFZmZlY3RdXHJcbiAgICAgIHJldHVybiBcIllvdSByb2xsZWQgXCIgKyByb2xsICsgXCI6IFwiICsgcm93WzFdO1xyXG4gICAgfVxyXG4gIH1cclxuKVxyXG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJcclxuSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIEZpZ2h0ZXIgVGFsZW50ICgyZDYpPC9idXR0b24+YCxcclxuICB7XHJcbiAgICB2YWx1ZTogXCJcIixcclxuICAgIHJlZHVjZTogKCkgPT4ge1xyXG4gICAgICB2YXIgbWF0cml4ID0gcmVhZE1hdHJpeEZyb21UYWJsZShcIiNmaWdodGVyLXRhbGVudC10YWJsZVwiKTtcclxuXHJcbiAgICAgIC8vIFJvbGwgMmQ2XHJcbiAgICAgIHZhciByb2xsID0gKE1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIDYpICsgMSkgKyAoTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogNikgKyAxKTtcclxuXHJcbiAgICAgIC8vIE1hcCAyZDYgcm9sbCB0byB0YWJsZSByb3cgaW5kZXhcclxuICAgICAgdmFyIGlkeDtcclxuICAgICAgaWYgKHJvbGwgPT09IDIpIHtcclxuICAgICAgICBpZHggPSAxO1xyXG4gICAgICB9IGVsc2UgaWYgKHJvbGwgPj0gMyAmJiByb2xsIDw9IDYpIHtcclxuICAgICAgICBpZHggPSAyO1xyXG4gICAgICB9IGVsc2UgaWYgKHJvbGwgPj0gNyAmJiByb2xsIDw9IDkpIHtcclxuICAgICAgICBpZHggPSAzO1xyXG4gICAgICB9IGVsc2UgaWYgKHJvbGwgPj0gMTAgJiYgcm9sbCA8PSAxMSkge1xyXG4gICAgICAgIGlkeCA9IDQ7XHJcbiAgICAgIH0gZWxzZSB7XHJcbiAgICAgICAgaWR4ID0gNTtcclxuICAgICAgfVxyXG5cclxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjZmlnaHRlci10YWxlbnQtdGFibGVcIiwgaWR4KTtcclxuXHJcbiAgICAgIHZhciByb3cgPSBtYXRyaXhbaWR4IC0gMV07IC8vIFsyZDYsIEVmZmVjdF1cclxuICAgICAgcmV0dXJuIFwiWW91IHJvbGxlZCBcIiArIHJvbGwgKyBcIjogXCIgKyByb3dbMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMyIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxyXG5JbnB1dHMuYnV0dG9uKFxyXG4gIGh0bWxgPGJ1dHRvbiBzdHlsZT1cImNvbG9yOmJsYWNrO2JhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1wiPlJvbGwgTWFnaWMtVXNlciBUYWxlbnQgKDJkNik8L2J1dHRvbj5gLFxyXG4gIHtcclxuICAgIHZhbHVlOiBcIlwiLFxyXG4gICAgcmVkdWNlOiAoKSA9PiB7XHJcbiAgICAgIHZhciBtYXRyaXggPSByZWFkTWF0cml4RnJvbVRhYmxlKFwiI21hZ2ljLXVzZXItdGFsZW50LXRhYmxlXCIpO1xyXG5cclxuICAgICAgLy8gUm9sbCAyZDZcclxuICAgICAgdmFyIHJvbGwgPSAoTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogNikgKyAxKSArIChNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiA2KSArIDEpO1xyXG5cclxuICAgICAgLy8gTWFwIDJkNiByb2xsIHRvIHRhYmxlIHJvdyBpbmRleFxyXG4gICAgICB2YXIgaWR4O1xyXG4gICAgICBpZiAocm9sbCA9PT0gMikge1xyXG4gICAgICAgIGlkeCA9IDE7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAzICYmIHJvbGwgPD0gNykge1xyXG4gICAgICAgIGlkeCA9IDI7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSA4ICYmIHJvbGwgPD0gOSkge1xyXG4gICAgICAgIGlkeCA9IDM7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAxMCAmJiByb2xsIDw9IDExKSB7XHJcbiAgICAgICAgaWR4ID0gNDtcclxuICAgICAgfSBlbHNlIHtcclxuICAgICAgICBpZHggPSA1O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNtYWdpYy11c2VyLXRhbGVudC10YWJsZVwiLCBpZHgpO1xyXG5cclxuICAgICAgdmFyIHJvdyA9IG1hdHJpeFtpZHggLSAxXTsgLy8gWzJkNiwgRWZmZWN0XVxyXG4gICAgICByZXR1cm4gXCJZb3Ugcm9sbGVkIFwiICsgcm9sbCArIFwiOiBcIiArIHJvd1sxXTtcclxuICAgIH1cclxuICB9XHJcbilcclxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC00IiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLmJ1dHRvbihcclxuICBodG1sYDxidXR0b24gc3R5bGU9XCJjb2xvcjpibGFjaztiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JheTtcIj5Sb2xsIFRoaWVmIFRhbGVudCAoMmQ2KTwvYnV0dG9uPmAsXHJcbiAge1xyXG4gICAgdmFsdWU6IFwiXCIsXHJcbiAgICByZWR1Y2U6ICgpID0+IHtcclxuICAgICAgdmFyIG1hdHJpeCA9IHJlYWRNYXRyaXhGcm9tVGFibGUoXCIjdGhpZWYtdGFsZW50LXRhYmxlXCIpO1xyXG5cclxuICAgICAgLy8gUm9sbCAyZDZcclxuICAgICAgdmFyIHJvbGwgPSAoTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogNikgKyAxKSArIChNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiA2KSArIDEpO1xyXG5cclxuICAgICAgLy8gTWFwIDJkNiByb2xsIHRvIHRhYmxlIHJvdyBpbmRleFxyXG4gICAgICB2YXIgaWR4O1xyXG4gICAgICBpZiAocm9sbCA9PT0gMikge1xyXG4gICAgICAgIGlkeCA9IDE7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAzICYmIHJvbGwgPD0gNSkge1xyXG4gICAgICAgIGlkeCA9IDI7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSA2ICYmIHJvbGwgPD0gOSkge1xyXG4gICAgICAgIGlkeCA9IDM7XHJcbiAgICAgIH0gZWxzZSBpZiAocm9sbCA+PSAxMCAmJiByb2xsIDw9IDExKSB7XHJcbiAgICAgICAgaWR4ID0gNDtcclxuICAgICAgfSBlbHNlIHtcclxuICAgICAgICBpZHggPSA1O1xyXG4gICAgICB9XHJcblxyXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiN0aGllZi10YWxlbnQtdGFibGVcIiwgaWR4KTtcclxuXHJcbiAgICAgIHZhciByb3cgPSBtYXRyaXhbaWR4IC0gMV07IC8vIFsyZDYsIEVmZmVjdF1cclxuICAgICAgcmV0dXJuIFwiWW91IHJvbGxlZCBcIiArIHJvbGwgKyBcIjogXCIgKyByb3dbMV07XHJcbiAgICB9XHJcbiAgfVxyXG4pXHJcbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../02-characters";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../02-characters/04-Races.html" class="pagination-link" aria-label="Character Races">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Character Races</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../02-characters/06-Backgrounds.html" class="pagination-link" aria-label="Backgrounds">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Backgrounds</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -15,29 +15,28 @@ Because 0-level characters benefit from beginner’s luck, they may wield any ge
 **0-level characters creation**
 
 - [Roll Ability Scores](03-Abilities.qmd#stat-roller)  
-- [Choose a Race](races.qmd)  
+- [Choose a Race](04-Races.qmd)  
 - **Hit Points:** equal to Constitution modifier (minimum 1)
-- [Roll a Backgroud](backgrounds.qmd)  
-- [Choose an Alignment](alignments.qmd)  
-- [Starting Gear](equipment.qmd#starting-gear)  
+- [Roll a Backgroud](06-Backgrounds.qmd)  
+- [Choose an Alignment](07-Alignments.qmd)  
+- [Starting Gear](09-Equipment.qmd#starting-gear)  
 
-0-level characters advance to **1st level** after surviving their first adventure. See [Advancement](10-Level-Advancement.qmd).
+0-level characters advance to **1st level** after surviving their first adventure. See [Advancement](11-Level-Advancement.qmd).
 
 ---
 
 ## 1st-Level Characters
 
-Some campaigns begin with **1st-level characters**—fledgling heroes ready to face the perils of the dungeon.  
-They are sturdier and more capable than their 0-level counterparts, each possessing the first spark of true adventuring skill.
+Some campaigns begin with **1st-level characters**—fledgling heroes ready to face the perils of the dungeon.  They are sturdier and more capable than their 0-level counterparts, each possessing the first spark of true adventuring skill.
 
 **1st-level characters begin play with:**
 
-- **Ability Scores:** see page 15  
-- **Choice of Ancestry:** see page 16  
-- **Choice of Class:** see pages 18–24  
+- [Roll Ability Scores](03-Abilities.qmd#stat-roller)   
+- [Choose a Race](04-Races.qmd)   
+- [Choose a Class](./05-Classes.qmd)  
 - **One Class Talent Roll**  
 - **Hit Points:** equal to one roll of the class hit-point die + Constitution modifier (minimum 1); these replace any HP gained at level 0  
-- **Background:** see page 26  
-- **Choice of Alignment:** see page 27  
-- **Title:** see page 30  
-- **Starting Gear:** see page 33  
+- [Roll a Backgroud](06-Backgrounds.qmd)  
+- [Choose an Alignment](07-Alignments.qmd)    
+- **Title:** based on class
+- [Starting Gear](./09-Equipment.qmd#starting-gold)  

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Old School D&amp;D - 11&nbsp; Languages</title>
+<title>Old School D&amp;D - 10&nbsp; Languages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../02-characters/equipment.html" rel="next">
-<link href="../02-characters/hitPoints.html" rel="prev">
+<link href="../02-characters/09-Equipment.html" rel="next">
+<link href="../02-characters/07-Alignments.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,6 +104,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caudex">
 
 
@@ -86,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/languages.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Languages</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/08-Languages.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -177,56 +213,50 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/races.html" class="sidebar-item-text sidebar-link">
+  <a href="../02-characters/04-Races.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Character Races</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/class.html" class="sidebar-item-text sidebar-link">
+  <a href="../02-characters/05-Classes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Character Classes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/backgrounds.html" class="sidebar-item-text sidebar-link">
+  <a href="../02-characters/06-Backgrounds.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Backgrounds</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/alignments.html" class="sidebar-item-text sidebar-link">
+  <a href="../02-characters/07-Alignments.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Alignments</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/hitPoints.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Hit Points</span></span></a>
+  <a href="../02-characters/08-Languages.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/languages.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Languages</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../02-characters/equipment.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Equipment</span></span></a>
+  <a href="../02-characters/09-Equipment.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Equipment</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../02-characters/vehicles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Vehicles</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Vehicles</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../02-characters/10-Level-Advancement.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Level Advancement</span></span></a>
+  <a href="../02-characters/11-Level-Advancement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Level Advancement</span></span></a>
   </div>
 </li>
       </ul>
@@ -243,13 +273,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../spells.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Spells</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Spells</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../allSpells.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Spells, Alphabetical</span></span></a>
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Spells, Alphabetical</span></span></a>
   </div>
 </li>
       </ul>
@@ -266,19 +296,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../dungeonAdventures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Dungeon Adventures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Dungeon Adventures</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../wildAdventures.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Wilderness Adventures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Wilderness Adventures</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../hirelings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Hirelings</span></span></a>
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Hirelings</span></span></a>
   </div>
 </li>
       </ul>
@@ -295,31 +325,31 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../combatOverview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Combat Overview</span></span></a>
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Combat Overview</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../combatDetails.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Combat Details</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Combat Details</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../savingThrows.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Saving Throws</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Saving Throws</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../healingAndInjuries.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Healing and Injuries</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Healing and Injuries</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../senses.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Senses</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Senses</span></span></a>
   </div>
 </li>
       </ul>
@@ -336,19 +366,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../monsters.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Monsters Intro</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Monsters Intro</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../monstersAll.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Monster Descriptions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Monster Descriptions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../monstersTab.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Monsters Index</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Monsters Index</span></span></a>
   </div>
 </li>
       </ul>
@@ -365,13 +395,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../magicItems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Magical Items</span></span></a>
+ <span class="menu-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Magical Items</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../namedMagicItems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Named Magic Items</span></span></a>
+ <span class="menu-text"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Named Magic Items</span></span></a>
   </div>
 </li>
       </ul>
@@ -388,37 +418,37 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../gauntlet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Gauntlets</span></span></a>
+ <span class="menu-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Gauntlets</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Awarding-XP.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Awarding XP</span></span></a>
+ <span class="menu-text"><span class="chapter-number">30</span>&nbsp; <span class="chapter-title">Awarding XP</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../gm01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Managing Encounters</span></span></a>
+ <span class="menu-text"><span class="chapter-number">31</span>&nbsp; <span class="chapter-title">Managing Encounters</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../gm02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span></a>
+ <span class="menu-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Crafting Adventures</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../treasure.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Treasure</span></span></a>
+ <span class="menu-text"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Treasure</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../randomMagicItems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">Random Magical Treasure</span></span></a>
+ <span class="menu-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Random Magical Treasure</span></span></a>
   </div>
 </li>
       </ul>
@@ -435,25 +465,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../12Realms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">The Twelve Realms</span></span></a>
+ <span class="menu-text"><span class="chapter-number">35</span>&nbsp; <span class="chapter-title">The Twelve Realms</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../history.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">History</span></span></a>
+ <span class="menu-text"><span class="chapter-number">36</span>&nbsp; <span class="chapter-title">History</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../gods.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Gods, Demons, and other Immortals</span></span></a>
+ <span class="menu-text"><span class="chapter-number">37</span>&nbsp; <span class="chapter-title">Gods, Demons, and other Immortals</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../planes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Planes of Existence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Planes of Existence</span></span></a>
   </div>
 </li>
       </ul>
@@ -470,13 +500,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tables/npcs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">NPCs</span></span></a>
+ <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">NPCs</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tables/rivals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Rivals</span></span></a>
+ <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Rivals</span></span></a>
   </div>
 </li>
       </ul>
@@ -493,19 +523,19 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../appendix_interactive.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Interactive tools</span></span></a>
+ <span class="menu-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Interactive tools</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../char_sheet.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Character Sheet</span></span></a>
+ <span class="menu-text"><span class="chapter-number">42</span>&nbsp; <span class="chapter-title">Character Sheet</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../tables/frequent.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">44</span>&nbsp; <span class="chapter-title">Frquently Used Tables</span></span></a>
+ <span class="menu-text"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Frquently Used Tables</span></span></a>
   </div>
 </li>
       </ul>
@@ -516,14 +546,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#common" id="toc-common" class="nav-link active" data-scroll-target="#common">Common</a></li>
+  <li><a href="#rare" id="toc-rare" class="nav-link" data-scroll-target="#rare">Rare</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/languages.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Languages</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../02-characters/01-Overview.html">Characters</a></li><li class="breadcrumb-item"><a href="../02-characters/08-Languages.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Languages</span></h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Languages</span></h1>
 </div>
 
 
@@ -540,32 +577,274 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>There are twelve languages in the OnceWas:</p>
-<ol type="1">
-<li>Common</li>
-<li>Ancient Tongue (from the Age of Dragons, before the Age of Man)</li>
-<li>Elvish or Sylvan</li>
-<li>Dwarven or Underspeak</li>
-<li>Northern or the Cold Tongue</li>
-<li>Sunndi or the Desert Tongue</li>
-<li>Orkish (goblins, bugbears, gnolls, etc. all speak this)</li>
-<li>Draconic (dragons, lizardmen, kobolds, etc. all speak this)</li>
-<li>Abysmal or Demonic</li>
-<li>Arcane or Magic Tongue</li>
-<li>Thieve’s Cant or Thieve’s Tongue</li>
-<li>Druidic</li>
-</ol>
-<ul>
-<li>All characters speak Common.</li>
-<li>Elves and Dwarves know their language as well.</li>
-<li>Magic-Users will know Arcane.</li>
-<li>Thieves will know Thieve’s Cant.</li>
-</ul>
-<p>Characters with Intelligence of 13 or higher may choose to begin the game knowing one or more languages other than those given above; the number of additional languages that may be learned is equal to the <a href="../02-characters/03-Abilities.html#ability-scores">Intelligence bonus</a> (+1, +2, or +3).</p>
-<p>Characters may choose to learn other demi-human languages, as well as humanoid languages such as Orkish, etc. The DM will decide which humanoid languages may be learned. The player may choose to leave one or more bonus language “slots” open, to be filled during play.</p>
-<p>Some Game Masters may even allow player characters to learn exotic languages such as Draconic; also, “dead” or otherwise archaic languages might be allowed to more scholarly characters.</p>
+<p><img src="../images/languages.png" class="img-fluid"></p>
+<p>All characters begin the game knowing the Common tongue, but many races know additional languages:</p>
+<div id="languages-by-race-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Race</strong></th>
+<th style="text-align: left;"><strong>Languages Known</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Dwarves</td>
+<td style="text-align: left;">Common, Dwarvish</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Elves</td>
+<td style="text-align: left;">Common, Elvish, Sylvan</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Gnomes</td>
+<td style="text-align: left;">Common, Gnomish</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Goblins</td>
+<td style="text-align: left;">Common, Goblin</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Half-Elves</td>
+<td style="text-align: left;">Common, Elvish</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Half-Orcs</td>
+<td style="text-align: left;">Common, Orcish</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Halflings</td>
+<td style="text-align: left;">Common</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Humans</td>
+<td style="text-align: left;">Common</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Common Languages by Race</p>
+</div>
+<p>Some classes also know additonal languages:</p>
+<div id="class-languages-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Class</strong></th>
+<th style="text-align: left;"><strong>Bonus Languages</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Clerics</td>
+<td style="text-align: left;">Celestial, Diabolic, or Primordial</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Magic-Users</td>
+<td style="text-align: left;">Two additional common languages and two rare languages</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Thieves</td>
+<td style="text-align: left;">Thieves’ Cant</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Class Bonus Languages</p>
+</div>
+<section id="common" class="level2">
+<h2 class="anchored" data-anchor-id="common">Common</h2>
+<p>Here are the most commonly know languages of the realm:</p>
+<div id="languages-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>d10</strong></th>
+<th style="text-align: left;"><strong>Language</strong></th>
+<th style="text-align: left;"><strong>Who Speaks It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Dwarvish</td>
+<td style="text-align: left;">Dwarves</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Elvish</td>
+<td style="text-align: left;">Elves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Giant</td>
+<td style="text-align: left;">Giants, ogres, trolls</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Gnomish</td>
+<td style="text-align: left;">Gnomes, Dwarves, Halflings</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Goblin</td>
+<td style="text-align: left;">Bugbears, goblins, hobgoblins</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Merran</td>
+<td style="text-align: left;">Merfolk, sahuagin, sirens</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Orcish</td>
+<td style="text-align: left;">Orcs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">Reptilian</td>
+<td style="text-align: left;">Lizardfolk, viperians</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Sylvan</td>
+<td style="text-align: left;">Centaurs, dryads, faeries</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">Thanian</td>
+<td style="text-align: left;">Minotaurs, beastmen, manticores</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Languages of the Realm</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="58" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 57;"><span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalTableSelect<span class="op">,</span> highlightTableRow<span class="op">,</span> readMatrixFromTable } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Language (d10)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#languages-table"</span>)<span class="op">;</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> n <span class="op">=</span> matrix<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll d10</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx <span class="op">=</span> <span class="fu">generalTableSelect</span>(</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span> <span class="dv">10</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({ <span class="dt">length</span><span class="op">:</span> n }<span class="op">,</span> <span class="kw">function</span>(_<span class="op">,</span> i) { <span class="cf">return</span> [i <span class="op">+</span> <span class="dv">1</span><span class="op">,</span> i <span class="op">+</span> <span class="dv">1</span>]<span class="op">;</span> })</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>      )<span class="op">;</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#languages-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>      <span class="co">// matrix row = [d10, Language, Who Speaks It]</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> idx <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>] <span class="op">+</span> <span class="st">" — spoken by "</span> <span class="op">+</span> row[<span class="dv">2</span>]<span class="op">;</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="rare" class="level2">
+<h2 class="anchored" data-anchor-id="rare">Rare</h2>
+<p>Here are some less common languages used in this campaign:</p>
+<div id="rare-languages-table">
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>d6</strong></th>
+<th style="text-align: left;"><strong>Language</strong></th>
+<th style="text-align: left;"><strong>Who Speaks It</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Celestial</td>
+<td style="text-align: left;">Angels</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Diabolic</td>
+<td style="text-align: left;">Demons, devils</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Draconic</td>
+<td style="text-align: left;">Dragons</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Primordia l</td>
+<td style="text-align: left;">Elder things, elementals</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Thieves’ Cant</td>
+<td style="text-align: left;">Trained thieves</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Ancient</td>
+<td style="text-align: left;">Scholars, ancient manuscripts</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-caption">
+<p><strong>Table:</strong> Rare Languages of the Realm</p>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="102" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 101;"><span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Rare Language (d6)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb2-104"><a href="#cb2-104" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb2-105"><a href="#cb2-105" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb2-106"><a href="#cb2-106" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-107"><a href="#cb2-107" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#rare-languages-table"</span>)<span class="op">;</span></span>
+<span id="cb2-108"><a href="#cb2-108" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> n <span class="op">=</span> matrix<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb2-109"><a href="#cb2-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-110"><a href="#cb2-110" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll d6</span></span>
+<span id="cb2-111"><a href="#cb2-111" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx <span class="op">=</span> <span class="fu">generalTableSelect</span>(</span>
+<span id="cb2-112"><a href="#cb2-112" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span></span>
+<span id="cb2-113"><a href="#cb2-113" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({ <span class="dt">length</span><span class="op">:</span> n }<span class="op">,</span> <span class="kw">function</span>(_<span class="op">,</span> i) { <span class="cf">return</span> [i <span class="op">+</span> <span class="dv">1</span><span class="op">,</span> i <span class="op">+</span> <span class="dv">1</span>]<span class="op">;</span> })</span>
+<span id="cb2-114"><a href="#cb2-114" aria-hidden="true" tabindex="-1"></a>      )<span class="op">;</span></span>
+<span id="cb2-115"><a href="#cb2-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-116"><a href="#cb2-116" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#rare-languages-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb2-117"><a href="#cb2-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-118"><a href="#cb2-118" aria-hidden="true" tabindex="-1"></a>      <span class="co">// matrix row = [d6, Language, Who Speaks It]</span></span>
+<span id="cb2-119"><a href="#cb2-119" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb2-120"><a href="#cb2-120" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> idx <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>] <span class="op">+</span> <span class="st">" — spoken by "</span> <span class="op">+</span> row[<span class="dv">2</span>]<span class="op">;</span></span>
+<span id="cb2-121"><a href="#cb2-121" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb2-122"><a href="#cb2-122" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb2-123"><a href="#cb2-123" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-2" data-nodetype="expression">
+
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <style>
@@ -652,6 +931,17 @@ ul.task-list li input[type="checkbox"] {
   // Also run after Quarto client-side navigation (if enabled)
   document.addEventListener("quarto:pageLoaded", init);
 })();
+</script>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImltcG9ydCB7IGdlbmVyYWxUYWJsZVNlbGVjdCwgaGlnaGxpZ2h0VGFibGVSb3csIHJlYWRNYXRyaXhGcm9tVGFibGUgfSBmcm9tIFwiLi4vY3VzdG9tLmpzXCJcblxuSW5wdXRzLmJ1dHRvbihcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBMYW5ndWFnZSAoZDEwKTwvYnV0dG9uPmAsXG4gIHtcbiAgICB2YWx1ZTogXCJcIixcbiAgICByZWR1Y2U6ICgpID0+IHtcbiAgICAgIHZhciBtYXRyaXggPSByZWFkTWF0cml4RnJvbVRhYmxlKFwiI2xhbmd1YWdlcy10YWJsZVwiKTtcbiAgICAgIHZhciBuID0gbWF0cml4Lmxlbmd0aDtcblxuICAgICAgLy8gUm9sbCBkMTBcbiAgICAgIHZhciBpZHggPSBnZW5lcmFsVGFibGVTZWxlY3QoXG4gICAgICAgIFsxLCAxMCwgMF0sXG4gICAgICAgIEFycmF5LmZyb20oeyBsZW5ndGg6IG4gfSwgZnVuY3Rpb24oXywgaSkgeyByZXR1cm4gW2kgKyAxLCBpICsgMV07IH0pXG4gICAgICApO1xuXG4gICAgICBoaWdobGlnaHRUYWJsZVJvdyhcIiNsYW5ndWFnZXMtdGFibGVcIiwgaWR4KTtcblxuICAgICAgLy8gbWF0cml4IHJvdyA9IFtkMTAsIExhbmd1YWdlLCBXaG8gU3BlYWtzIEl0XVxuICAgICAgdmFyIHJvdyA9IG1hdHJpeFtpZHggLSAxXTtcbiAgICAgIHJldHVybiBcIllvdSByb2xsZWQgXCIgKyBpZHggKyBcIjogXCIgKyByb3dbMV0gKyBcIiDigJQgc3Bva2VuIGJ5IFwiICsgcm93WzJdO1xuICAgIH1cbiAgfVxuKVxuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLmJ1dHRvbihcbiAgaHRtbGA8YnV0dG9uIHN0eWxlPVwiY29sb3I6YmxhY2s7YmFja2dyb3VuZC1jb2xvcjpsaWdodGdyYXk7XCI+Um9sbCBSYXJlIExhbmd1YWdlIChkNik8L2J1dHRvbj5gLFxuICB7XG4gICAgdmFsdWU6IFwiXCIsXG4gICAgcmVkdWNlOiAoKSA9PiB7XG4gICAgICB2YXIgbWF0cml4ID0gcmVhZE1hdHJpeEZyb21UYWJsZShcIiNyYXJlLWxhbmd1YWdlcy10YWJsZVwiKTtcbiAgICAgIHZhciBuID0gbWF0cml4Lmxlbmd0aDtcblxuICAgICAgLy8gUm9sbCBkNlxuICAgICAgdmFyIGlkeCA9IGdlbmVyYWxUYWJsZVNlbGVjdChcbiAgICAgICAgWzEsIDYsIDBdLFxuICAgICAgICBBcnJheS5mcm9tKHsgbGVuZ3RoOiBuIH0sIGZ1bmN0aW9uKF8sIGkpIHsgcmV0dXJuIFtpICsgMSwgaSArIDFdOyB9KVxuICAgICAgKTtcblxuICAgICAgaGlnaGxpZ2h0VGFibGVSb3coXCIjcmFyZS1sYW5ndWFnZXMtdGFibGVcIiwgaWR4KTtcblxuICAgICAgLy8gbWF0cml4IHJvdyA9IFtkNiwgTGFuZ3VhZ2UsIFdobyBTcGVha3MgSXRdXG4gICAgICB2YXIgcm93ID0gbWF0cml4W2lkeCAtIDFdO1xuICAgICAgcmV0dXJuIFwiWW91IHJvbGxlZCBcIiArIGlkeCArIFwiOiBcIiArIHJvd1sxXSArIFwiIOKAlCBzcG9rZW4gYnkgXCIgKyByb3dbMl07XG4gICAgfVxuICB9XG4pXG4ifV19
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../02-characters";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1208,13 +1498,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../02-characters/hitPoints.html" class="pagination-link" aria-label="Hit Points">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Hit Points</span></span>
+      <a href="../02-characters/07-Alignments.html" class="pagination-link" aria-label="Alignments">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Alignments</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../02-characters/equipment.html" class="pagination-link" aria-label="Equipment">
-        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Equipment</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../02-characters/09-Equipment.html" class="pagination-link" aria-label="Equipment">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Equipment</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

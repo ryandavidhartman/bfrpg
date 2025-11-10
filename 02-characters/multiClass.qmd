@@ -10,7 +10,7 @@ format:
 
 ## Combination Classes
 
-To become a member of a combination class, a character must meet the requirements of both classes. Combination class characters use the best attack bonus and the best saving throw values of their original two classes, but must gain experience equal to the combined requirements of both base classes to advance in levels. [Elves](races.qmd#elves) are the only characters eligible to be a member of one of these combination classes:
+To become a member of a combination class, a character must meet the requirements of both classes. Combination class characters use the best attack bonus and the best saving throw values of their original two classes, but must gain experience equal to the combined requirements of both base classes to advance in levels. [Elves](04-Races.qmd#elves) are the only characters eligible to be a member of one of these combination classes:
 
 **Fighter/Magic-User:** These characters may both fight and cast magic spells; further, they are allowed to cast magic spells while wearing armor. These characters roll six-sided dice (d6) for hit points.
 
@@ -32,7 +32,7 @@ While the Dungeon Master may make special individual exceptions, it is generally
 
 ### Mystic Theurge Kit
 
-A [Magic-User](class.qmd#magic-user) may choose to add the Mystic Theurge Kit. The additional Experience Point requirements for Mystic Theurge are added to those of the Magic-User.
+A [Magic-User](05-Classes.qmd#magic-user) may choose to add the Mystic Theurge Kit. The additional Experience Point requirements for Mystic Theurge are added to those of the Magic-User.
 
 Mystic Theurges are Magic-Users who place no boundaries on their magical abilities and find no irreconcilable paradox in devotion to the arcane as well as the divine. They seek magic in all of its forms, finding no reason or logic in denying themselves instruction by limiting their knowledge to one stifling paradigm, though many are simply hungry for limitless power. No matter what their motivations, Mystic Theurges believe that perception is reality, and through the divine forces and astral energies of the multiverse, that perception can be used to manipulate and control not only the nature of this reality, but destiny itself.
 
@@ -77,7 +77,7 @@ A Mystic Theurge may lay hands and heal 2 points of damage plus Intelligence Bon
 
 
 ### Nature Warden Kit
-A [Ranger](class.qmd#ranger) may choose to adopt the *Nature Warden Kit*, augmenting their skills and responsibilities. The additional Experience Point requirements for the Nature Warden are added to those of the Ranger.
+A [Ranger](05-Classes.qmd#ranger) may choose to adopt the *Nature Warden Kit*, augmenting their skills and responsibilities. The additional Experience Point requirements for the Nature Warden are added to those of the Ranger.
 
 Nature Wardens are devout followers of [Ki](../gods.qmd#ki), the goddess of nature and life, entrusted with safeguarding the delicate balance of the natural world. They embody a harmonious blend of martial prowess and primal magic, drawing strength and wisdom from their deep connection to wild places and Ki.
 
@@ -223,7 +223,7 @@ A Befriended animal will follow the Nature Warden, guarding and assisting within
 
 #### Background
 
-The **Umbral Harbinger** is a secretive sect of [clerics](class.qmd#cleric) who specialize in the clandestine arts of assassination, blending their divine magic with lethal precision. They serve dark or death-oriented deities, viewing themselves as instruments of divine justice or agents of necessary darkness in a troubled world. 
+The **Umbral Harbinger** is a secretive sect of [clerics](05-Classes.qmd#cleric) who specialize in the clandestine arts of assassination, blending their divine magic with lethal precision. They serve dark or death-oriented deities, viewing themselves as instruments of divine justice or agents of necessary darkness in a troubled world. 
 
 Their actions are guided by a belief that darkness serves as a necessary counterbalance to the light, ensuring that justice, as their deity defines it, is served.
 

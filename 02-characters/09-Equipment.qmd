@@ -232,7 +232,7 @@ A **Whetstone** is used to sharpen and maintain edged weapons such as swords, 
 
 ## Weapon Size
 
-[Humans](races.qmd#humans) and [Elves](races.qmd#elves) must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. [Halflings](races.qmd#halflings) may not use Large weapons at all, and must use Medium weapons with both hands. [Dwarves](races.qmd#dwarves), due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
+[Humans](04-Races.qmd#humans) and [Elves](04-Races.qmd#elves) must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. [Halflings](04-Races.qmd#halflings) may not use Large weapons at all, and must use Medium weapons with both hands. [Dwarves](04-Races.qmd#dwarves), due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
 
 The DM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.
 

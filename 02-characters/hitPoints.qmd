@@ -1,6 +1,6 @@
 # Hit Points
 
-First-level characters begin play with maximum HP based on the hit die for their class, plus the Constitution bonus or penalty. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](class.qmd#character-classes), and no longer add the Constitution bonus or penalty.
+First-level characters begin play with maximum HP based on the hit die for their class, plus the Constitution bonus or penalty. Each time a character gains a level, the player should roll another hit die and add the character's Constitution bonus or penalty, with the result again being a minimum of 1 point. Add this amount to the character's maximum hit points figure. Note that after 9^th^ level, characters receive a fixed number of hit points each level, as shown in the [advancement table for the class](05-Classes.qmd#character-classes), and no longer add the Constitution bonus or penalty.
 
 ## Negative Hit Points and Death
 

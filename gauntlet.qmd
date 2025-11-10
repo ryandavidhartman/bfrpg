@@ -1,11 +1,71 @@
 # Gauntlets
 
----
-format:
-  html:
-    css: styles.css
-  pdf:
-    include-in-header: preamble.tex
+Before 1^st^ level, there is only desperation.
+
+Old School play begins not with balanced heroes, but with the raw chaos of chance and survival.  This process known variously as the **Funnel** (DCC) or **The Gauntlet** (Shadowdark) forges adventurers from the dust of nameless peasants.  Only the survivors earn the right to call themselves heroes.
+
+### Overview
+
+Each player begins by generating **multiple 0-level characters** ordinary folk armed with hope and whatever lies at hand.  These characters are thrown into a deadly introductory adventure meant to winnow the weak and temper the strong.  Those who live through the ordeal ascend to 1st level, gaining a class, equipment, and their first taste of glory.
+
 ---
 
-hi
+### Step 1: Generate 0-Level Characters
+
+Each player creates **4 random 0-level characters**.  See [character creation](./02-characters/02-Starting-Level.qmd)
+
+Each peasant represents a potential future class.  There is **no fine-tuning or optimization** just chance, chaos, and fate.
+
+---
+
+### Step 2: Introduce the Rabble
+
+Once all characters are generated, players briefly introduce their hapless peasants to the table:  farmhands, candle-makers, beggars, or scribes—all dreaming of fame, treasure, or simple survival.  This creates immediate attachment to otherwise fragile, throwaway characters.
+
+---
+
+### Step 3: Enter the Gauntlet
+
+The 0-level adventure should be **extremely dangerous** a true trial by fire.  Deadly traps, swarming monsters, collapsing corridors, and reckless treasure await.
+
+Each player chooses **one 0-level character to run at a time**.  When one dies (and many will), the player immediately replaces them with another from their pool, explaining how the new fool arrived:  reinforcements from town, a rescued prisoner, or a straggler from the last village caravan.
+
+0-level characters who reach **0 HP** die instantly. No saving throws, no mercy.
+
+---
+
+### Step 4: The Survivors
+
+By the end of the session, most characters will be dead or maimed.  Each player should have **one survivor** who clawed their way through the nightmare.  That survivor becomes their **1st-level character**, gaining a class, hit points, and any rewards earned during play. Their background and scars from the Gaunlet define them forever.
+
+---
+
+### Step 5: Total Loss
+
+If a player loses **all 0-level characters**, allow them to roll **1d4 new peasants** to join the adventure as reinforcements.  
+The Gaunlet is cruel but never hopeless; fate always leaves room for one more fool to try.
+
+---
+
+### How to Run It
+
+A good Gauntlet should feel like a **dark folk tale come alive**:
+- Brutal, yet fair.  
+- Filled with strange treasure, meaningful choices, and black humor.  
+- Deadly traps balanced by enticing rewards.  
+- Enough risk that survival feels earned.
+
+The goal is not balance, it’s **story through attrition**.  Players end up deeply attached to the unlikely survivors who rose from mud and madness.
+
+---
+
+### The Spirit of the Funnel
+
+This process replaces character “builds” with **character stories**.  Players find themselves caring about the one who lived—not because of a stat block, but because of what they endured.
+
+Those 0-level exploits will echo through the campaign forever, etched in scars and legend.
+
+---
+
+> *“From the rabble, heroes are born.  
+> From the dead, only tales remain.”*
