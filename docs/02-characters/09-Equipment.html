@@ -111,7 +111,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <link rel="stylesheet" href="../custom.css">
 <link rel="stylesheet" href="../styles.css">
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -554,6 +553,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#gear-slots" id="toc-gear-slots" class="nav-link active" data-scroll-target="#gear-slots">Gear Slots</a></li>
   <li><a href="#starting-gear" id="toc-starting-gear" class="nav-link" data-scroll-target="#starting-gear">0 Starting Gear</a></li>
   <li><a href="#starting-gold" id="toc-starting-gold" class="nav-link" data-scroll-target="#starting-gold">Starting Gold</a></li>
+  <li><a href="#coins" id="toc-coins" class="nav-link" data-scroll-target="#coins">Coins</a></li>
   <li><a href="#misc.-equipment" id="toc-misc.-equipment" class="nav-link" data-scroll-target="#misc.-equipment">Misc. Equipment</a>
   <ul>
   <li><a href="#equipment-explanations" id="toc-equipment-explanations" class="nav-link" data-scroll-target="#equipment-explanations">Equipment Explanations</a></li>
@@ -615,6 +615,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<p><img src="../images/equipment.png" class="img-fluid"></p>
 <section id="gear-slots" class="level2">
 <h2 class="anchored" data-anchor-id="gear-slots">Gear Slots</h2>
 <p>You can carry a number of items equal to your Strength stat or 10, whichever is higher. Unless noted, all gear besides typical clothing fills one gear slot. Gear that is hard to transport might fill more than one slot.</p>
@@ -628,56 +629,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="header">
 <th style="text-align: center;"><strong>d12</strong></th>
 <th><strong>Gear</strong></th>
+<th>Gear Slots</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td>Torch</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td>Dagger</td>
+<td>1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td>Pole</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td>Shortbow and 5 arrows</td>
+<td>2</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td>Rope, 60’</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td>Oil, flask</td>
+<td>1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
 <td>Crowbar</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">8</td>
 <td>Iron spikes (10)</td>
+<td>1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">9</td>
 <td>Flint and steel</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">10</td>
 <td>Grappling hook</td>
+<td>1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">11</td>
 <td>Club</td>
+<td>1</td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">12</td>
 <td>Caltrops (one bag)</td>
+<td>1</td>
 </tr>
 </tbody>
 </table>
@@ -686,29 +700,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong>Table:</strong> 0-Level Starting Gear</p>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="40" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalTableSelect<span class="op">,</span> highlightTableRow<span class="op">,</span> readMatrixFromTable } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Gear (d12)&lt;/button&gt;`</span><span class="op">,</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  {</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#starting-gear-table"</span>)<span class="op">;</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> n <span class="op">=</span> matrix<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll d12</span></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx <span class="op">=</span> <span class="fu">generalTableSelect</span>(</span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span> <span class="dv">12</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({ <span class="dt">length</span><span class="op">:</span> n }<span class="op">,</span> <span class="kw">function</span>(_<span class="op">,</span> i) { <span class="cf">return</span> [i <span class="op">+</span> <span class="dv">1</span><span class="op">,</span> i <span class="op">+</span> <span class="dv">1</span>]<span class="op">;</span> })</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>      )<span class="op">;</span></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#starting-gear-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>      <span class="co">// matrix row = [d12, Gear]</span></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> idx <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    }</span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="33" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 32;"><span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalTableSelect<span class="op">,</span> highlightTableRow<span class="op">,</span> readMatrixFromTable } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">button</span>(</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">html</span><span class="vs">`&lt;button style="color:black;background-color:lightgray;"&gt;Roll Gear (d12)&lt;/button&gt;`</span><span class="op">,</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>    <span class="dt">value</span><span class="op">:</span> <span class="st">""</span><span class="op">,</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> matrix <span class="op">=</span> <span class="fu">readMatrixFromTable</span>(<span class="st">"#starting-gear-table"</span>)<span class="op">;</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> n <span class="op">=</span> matrix<span class="op">.</span><span class="at">length</span><span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>      <span class="co">// Roll d12</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> idx <span class="op">=</span> <span class="fu">generalTableSelect</span>(</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        [<span class="dv">1</span><span class="op">,</span> <span class="dv">12</span><span class="op">,</span> <span class="dv">0</span>]<span class="op">,</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>        <span class="bu">Array</span><span class="op">.</span><span class="fu">from</span>({ <span class="dt">length</span><span class="op">:</span> n }<span class="op">,</span> <span class="kw">function</span>(_<span class="op">,</span> i) { <span class="cf">return</span> [i <span class="op">+</span> <span class="dv">1</span><span class="op">,</span> i <span class="op">+</span> <span class="dv">1</span>]<span class="op">;</span> })</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>      )<span class="op">;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      <span class="fu">highlightTableRow</span>(<span class="st">"#starting-gear-table"</span><span class="op">,</span> idx)<span class="op">;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>      <span class="co">// matrix row = [d12, Gear]</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      <span class="kw">var</span> row <span class="op">=</span> matrix[idx <span class="op">-</span> <span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>      <span class="cf">return</span> <span class="st">"You rolled "</span> <span class="op">+</span> idx <span class="op">+</span> <span class="st">": "</span> <span class="op">+</span> row[<span class="dv">1</span>]<span class="op">;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-1-1" data-nodetype="declaration">
@@ -729,9 +743,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="starting-gold">Starting Gold</h2>
 <p>First level characters generally begin the game with <em>2d6</em> x 5 gp (unless the DM decides otherwise).</p>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="73" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 72;"><span id="cb2-73"><a href="#cb2-73" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalDice } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
-<span id="cb2-74"><a href="#cb2-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-75"><a href="#cb2-75" aria-hidden="true" tabindex="-1"></a>viewof goldRoll <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll Starting Gold&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> (<span class="dv">5</span> <span class="op">*</span> <span class="fu">generalDice</span>(<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="66" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 65;"><span id="cb2-66"><a href="#cb2-66" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { generalDice } <span class="im">from</span> <span class="st">"../custom.js"</span></span>
+<span id="cb2-67"><a href="#cb2-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-68"><a href="#cb2-68" aria-hidden="true" tabindex="-1"></a>viewof goldRoll <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">button</span>(<span class="fu">html</span><span class="vs">`&lt;button style="color: black; background-color: lightgray;"&gt;Roll Starting Gold&lt;/button&gt;`</span><span class="op">,</span> {<span class="dt">value</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">reduce</span><span class="op">:</span> () <span class="kw">=&gt;</span> (<span class="dv">5</span> <span class="op">*</span> <span class="fu">generalDice</span>(<span class="dv">2</span><span class="op">,</span><span class="dv">6</span><span class="op">,</span><span class="dv">0</span>))})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <div id="ojs-cell-2-1" data-nodetype="declaration">
@@ -749,23 +763,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><strong>Starting Gold</strong>: <span><span id="ojs-element-id-1"></span></span></p>
 </section>
+<section id="coins" class="level2">
+<h2 class="anchored" data-anchor-id="coins">Coins</h2>
+<p>In <strong>Old School D&amp;D</strong>, coinage follows the traditional fantasy standard: <strong>1 gold piece (gp) = 10 silver pieces (sp) = 100 copper pieces (cp).</strong></p>
+<p>To put this in perspective, imagine <strong>1 cp</strong> is roughly equal to <strong>$1</strong> in modern value, making <strong>1 sp</strong> about <strong>$10</strong> and <strong>1 gp</strong> about <strong>$100</strong>. These values are only an abstraction to help gauge the relative worth of treasure and expenses in the game world.</p>
+</section>
 <section id="misc.-equipment" class="level2">
 <h2 class="anchored" data-anchor-id="misc.-equipment">Misc. Equipment</h2>
-<p>This list represents common adventuring equipment at average prices. Prices and availability may vary. Weights are expressed in pounds. Items marked * weigh very little; ten such items weigh one pound. Items marked ** have almost no weight and should not usually be counted.</p>
 <div class="tableFixHead">
 <table class="table">
 <thead>
 <tr class="header">
 <th>Item</th>
-<th>Price</th>
-<th>Weight</th>
+<th>Cost</th>
+<th>Quantity Per Gear Slot</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Backpack</td>
-<td>4 gp</td>
-<td>*</td>
+<td>2 gp</td>
+<td>1 (first one free to carry)</td>
 </tr>
 <tr class="even">
 <td>Belt Pouch</td>
@@ -1017,7 +1035,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>A&nbsp;<strong>Torch</strong>&nbsp;sheds light over a 30’ radius, with dim light extending about 20’ further, and burns for 1d4+4 turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight.</p>
 <p>A&nbsp;<strong>Whetstone</strong>&nbsp;is used to sharpen and maintain edged weapons such as swords, daggers, and axes.</p>
 <p><strong>Wineskin/Waterskin</strong>&nbsp;is a container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. If adventuring in the desert or other hot, dry areas, a character may need as much as ten times this amount. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight.</p>
-<p><img src="./images/weapons.jpg" class="img-fluid"></p>
 </section>
 </section>
 <section id="weapons" class="level2">

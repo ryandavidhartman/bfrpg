@@ -450,10 +450,10 @@ Choice either Elven *Farsight* or Human *Ambitious*
 
 | **Class**                  | **Starting Age** |
 |----------------------------|------------------|
-| Cleric / Druid             | 40 + 2d4 years   |
-| Fighter / Ranger / Paladin | 22 + 3d4 years   |
-| Magic-User / Illusionist   | 30 + 2d8 years   |
-| Thief / Assassin           | 22 + 3d8 years   |
+| Cleric                     | 40 + 2d4 years   |
+| Fighter                    | 22 + 3d4 years   |
+| Magic-User                 | 30 + 2d8 years   |
+| Thief                      | 22 + 3d8 years   |
 
 ### Male Height & Weight
 

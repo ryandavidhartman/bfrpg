@@ -1,12 +1,5 @@
 # Equipment {#sec-equip}
-
----
-format:
-  html:
-    css: styles.css
-  pdf:
-    include-in-header: preamble.tex
----
+![](../images/equipment.png)
 
 ## Gear Slots
 You can carry a number of items equal to your Strength stat or 10, whichever is higher. Unless noted, all gear besides typical clothing fills one gear slot.  Gear that is hard to transport might fill more than one slot.
@@ -16,20 +9,20 @@ You can carry a number of items equal to your Strength stat or 10, whichever is 
 **0-level** characters start with _1d4_ of the following items:
 
 :::{#starting-gear-table}
-| **d12** | **Gear**              |
-|:-------:|-----------------------|
-| 1       | Torch                 |
-| 2       | Dagger                |
-| 3       | Pole                  |
-| 4       | Shortbow and 5 arrows |
-| 5       | Rope, 60'             |
-| 6       | Oil, flask            |
-| 7       | Crowbar               |
-| 8       | Iron spikes (10)      |
-| 9       | Flint and steel       |
-| 10      | Grappling hook        |
-| 11      | Club                  |
-| 12      | Caltrops (one bag)    |
+| **d12** | **Gear**              | Gear Slots |
+|:-------:|-----------------------|------------|
+| 1       | Torch                 | 1          |
+| 2       | Dagger                | 1          |
+| 3       | Pole                  | 1          |
+| 4       | Shortbow and 5 arrows | 2          |
+| 5       | Rope, 60'             | 1          |
+| 6       | Oil, flask            | 1          |
+| 7       | Crowbar               | 1          |
+| 8       | Iron spikes (10)      | 1          |
+| 9       | Flint and steel       | 1          |
+| 10      | Grappling hook        | 1          |
+| 11      | Club                  | 1          |
+| 12      | Caltrops (one bag)    | 1          |
 :::
 :::{.table-caption}
 **Table:** 0-Level Starting Gear
@@ -77,15 +70,20 @@ viewof goldRoll = Inputs.button(html`<button style="color: black; background-col
 
 **Starting Gold**: ${goldRoll}
 
-## Misc. Equipment
+## Coins
 
-This list represents common adventuring equipment at average prices. Prices and availability may vary. Weights are expressed in pounds. Items marked * weigh very little; ten such items weigh one pound. Items marked ** have almost no weight and should not usually be counted.
+In **Old School D&D**, coinage follows the traditional fantasy standard: **1 gold piece (gp) = 10 silver pieces (sp) = 100 copper pieces (cp).**
+
+To put this in perspective, imagine **1 cp** is roughly equal to **$1** in modern value, making **1 sp** about **$10** and **1 gp** about **$100**.  These values are only an abstraction to help gauge the relative worth of treasure and expenses in the game world.
+
+
+## Misc. Equipment
 
 <div class="tableFixHead">
 
-| Item | Price | Weight |
+| Item | Cost | Quantity Per Gear Slot |
 |------|-------|--------|
-| Backpack | 4 gp | * |
+| Backpack | 2 gp | 1 (first one free to carry) |
 | Belt Pouch | 1 gp | * |
 | Bit and bridle | 15 sp | 3 |
 | Candles, 12 | 1 gp | * |
@@ -175,8 +173,6 @@ A **Torch** sheds light over a 30' radius, with dim light extending about 20' 
 A **Whetstone** is used to sharpen and maintain edged weapons such as swords, daggers, and axes.
 
 **Wineskin/Waterskin** is a container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. If adventuring in the desert or other hot, dry areas, a character may need as much as ten times this amount. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight.
-
-![](./images/weapons.jpg)
 
 ## Weapons
 
