@@ -4,7 +4,7 @@
 ## Gear Slots
 You can carry a number of items equal to your Strength stat or 10, whichever is higher. Unless noted, all gear besides typical clothing fills one gear slot.  Gear that is hard to transport might fill more than one slot.
 
-## 0 Starting Gear
+## Starting Gear
 
 **0-level** characters start with _1d4_ of the following items:
 
@@ -76,500 +76,556 @@ In **Old School D&D**, coinage follows the traditional fantasy standard: **1 gol
 
 To put this in perspective, imagine **1 cp** is roughly equal to **$1** in modern value, making **1 sp** about **$10** and **1 gp** about **$100**.  These values are only an abstraction to help gauge the relative worth of treasure and expenses in the game world.
 
+## Melee Weapons
 
-## Misc. Equipment
+:::{melee-weapons-table}
+| Weapon            | Cost | Type | Range | Damage    | Properties      |
+|:------------------|:-----|:-----|:------|:----------|:----------------|
+| Bastard Sword     | 10 gp| M    | C     | 1d8/1d10  | V, 2 slots      |
+| Bludgeon          | 5 sp | M    | C     | 1d2       | SW              |
+| Buckler           | 10 gp| M    | C     | 1d4       | D, SW           |
+| Club              | 5 cp | M    | C     | 1d4       | —               |
+| Dagger            | 1 gp | M/R  | C/N   | 1d4       | F, Th           |
+| Flail             | 8 gp | M    | C     | 1d6/1d8   | V               |
+| Great Axe         | 10 gp| M    | C     | 1d8/1d10  | V, 2 slots      |
+| Great Sword       | 12 gp| M    | C     | 1d12      | 2H, 2 slots     |
+| Halberd / Polearm | 12 gp| M    | 2× C  | 1d10      | 2H, 2 slots     |
+| Hand Axe          | 2 gp | M/R  | C/N   | 1d6       | F, Th           |
+| Improvised Weapon | —    | M/R  | C/N   | 1d4       | F, SW           |
+| Javelin           | 5 sp | M/R  | C/F   | 1d4       | Th              |
+| Katana            | 40 gp| M    | C     | 1d8/1d10  | F, V, SW        |
+| Knife             | 10 sp| M    | C     | 1d4       | F               |
+| Knuckle Duster    | 10 sp| M    | C     | 1d4       | F               |
+| Long Sword        | 8 gp | M    | C     | 1d8       | —               |
+| Mace              | 5 gp | M    | C     | 1d6       | —               |
+| Maul              | 8 gp | M    | C     | 1d10      | 2H              |
+| Morning Star      | 5 gp | M    | C     | 1d6/1d8   | V               |
+| Pike              | 10 gp| M    | 2× C  | 1d10      | 2H, 2 slots     |
+| Rapier            | 10 gp| M    | C     | 1d6       | F               |
+| Razor Chain       | 12 gp| M/R  | N     | 1d6       | F, La           |
+| Scimitar          | 8 gp | M    | C     | 1d6       | F               |
+| Short Sword       | 7 gp | M    | C     | 1d6       | —               |
+| Spear             | 5 gp | M/R  | C/N   | 1d6       | Th              |
+| Staff             | 5 sp | M    | C     | 1d4       | 2H              |
+| Staff Sling       | 1 gp | M/R  | C/F   | 1d4/1d6   | 2H, SW          |
+| Stave             | 2 gp | M    | C     | 1d6       | 2H, S, SW       |
+| War Club          | 5 sp | M    | C     | 1d6       | —               |
+| War Hammer        | 10 gp| M    | C     | 1d8/1d10  | V               |
+| Whip              | 10 gp| M/R  | N     | 1d4       | F, La           |
+| Woodsman Axe      | 5 gp | M    | C     | 1d6/1d8   | V               |
+:::
+:::{.table-caption}
+**Table:** Melee Weapons
+:::
 
-<div class="tableFixHead">
+## Ranged Weapons
 
-| Item | Cost | Quantity Per Gear Slot |
-|------|-------|--------|
-| Backpack | 2 gp | 1 (first one free to carry) |
-| Belt Pouch | 1 gp | * |
-| Bit and bridle | 15 sp | 3 |
-| Candles, 12 | 1 gp | * |
-| Chalk, small bag of pieces | 2 gp | * |
-| Cloak | 2 gp | 1 |
-| Clothing, common outfit | 4 gp | 1 |
-| Glass bottle or vial | 1 gp | * |
-| Grappling Hook | 2 gp | 4 |
-| Holy Symbol | 25 gp | * |
-| Holy Water, per vial | 10 gp | * |
-| Horseshoes & shoeing | 1 gp | 10 |
-| Ink, per jar | 8 gp | ½ |
-| Iron Spikes, 12 | 1 gp | 1 |
-| Ladder, 10 ft. | 1 gp | 20 |
-| Lantern | 5 gp | 2 |
-| Lantern, Bullseye | 14 gp | 3 |
-| Lantern, Hooded | 8 gp | 2 |
-| Manacles (without padlock) | 6 gp | 4 |
-| Map or scroll case | 1 gp | ½ |
-| Mirror, small metal | 7 gp | * |
-| Oil (per flask) | 1 gp | 1 |
-| Padlock (with 2 keys) | 12 gp | 1 |
-| Paper (per sheet) | 1 gp | ** |
-| Pole, 10' wooden | 1 gp | 10 |
-| Quill | 1 sp | ** |
-| Quill Knife | 1 gp | * |
-| Quiver or Bolt case | 1 gp | 1 |
-| Rations, Dry, one week | 10 gp | 14 |
-| Rope, Hemp (per 50 ft.) | 1 gp | 5 |
-| Rope, Silk (per 50 ft.) | 10 gp | 2 |
-| Sack, Large | 1 gp | * |
-| Sack, Small | 5 sp | * |
-| Saddle, Pack | 5 gp | 15 |
-| Saddle, Riding | 10 gp | 35 |
-| Saddlebags, pair | 4 gp | 7 |
-| Spellbook (128 pages) | 25 gp | 1 |
-| Tent, Large (ten men) | 25 gp | 20 |
-| Tent, Small (one man) | 5 gp | 10 |
-| Thieves' picks and tools | 25 gp | 1 |
-| Tinderbox, flint and steel | 3 gp | 1 |
-| Torches, 6 | 1 gp | 1 |
-| Whetstone | 1 gp | 1 |
-| Whistle | 1 gp | ** |
-| Wineskin/Waterskin | 1 gp | 2 |
-| Winter blanket | 1 gp | 3 |
+:::{ranged-weapons-table}
+| **Weapon**         | **Cost** | **Type** | **Range** | **Damage** | **Properties**           |
+|:-------------------|:---------|:---------|:----------|:-----------|:-------------------------|
+| Blow Gun           | 5 gp     | R        | N         | 1          | SW                       |
+| Bolas              | 2 gp     | R        | N         | —          | SW                       |
+| Composite Bow      | 8 gp     | R        | F         | 1d6        | 2H                       |
+| Crossbow           | 8 gp     | R        | F         | 1d6        | 2H, L                    |
+| Dagger             | 1 gp     | M/R      | C/N       | 1d4        | F, Th                    |
+| Dart               | 2 sp     | R        | N         | 1d2        | F, SW                    |
+| Hand Axe           | 2 gp     | M/R      | C/N       | 1d6        | F, Th                    |
+| Improvised Weapon  | —        | M/R      | C/N       | 1d4        | F, SW                    |
+| Heavy Crossbow     | 15 gp    | R        | F         | 1d10       | 2H, L1R, 2 slots, SW     |
+| Javelin            | 5 sp     | M/R      | C/F       | 1d4        | Th                       |
+| Longbow            | 8 gp     | R        | F         | 1d8        | 2H                       |
+| Pistol Crossbow    | 20 gp    | R        | N         | 1d4        | SW                       |
+| Razor Chain        | 12 gp    | M/R      | N         | 1d6        | F, La                    |
+| Repeater Crossbow  | 30 gp    | R        | F         | 1d4        | 2H, L1R, SW              |
+| Short Bow          | 6 gp     | R        | F         | 1d4        | 2H                       |
+| Shuriken           | 1 gp     | R        | N         | 1d4        | SW                       |
+| Sling              | 5 sp     | R        | F         | 1d4        | —                        |
+| Spear              | 5 gp     | M/R      | C/N       | 1d6        | Th                       |
+| Staff Sling        | 1 gp     | M/R      | C/F       | 1d4/1d6    | 2H, SW                   |
+| Whip               | 10 gp    | M/R      | N         | 1d4        | F, La                    |
+:::
+:::{.table-caption}
+**Table:** Ranged Weapons
+:::
 
+## Weapon Properties
+
+::: columns
+::: column
+
+**Defense (D)**. Used defensively; grants +1 AC.
+
+**Finesse (F)**. Attack with either STR or DEX.
+
+**Lash (La)**. When you make a ranged attack with this weapon, it does not leave your grasp.
+
+**Loading (L)**. You must skip movement to reload.
+
+**Loading 1 Round (L1R)**. Requires a full round to reload.
+:::
+
+::: column
+
+**Special Weapon (SW)**. See below
+
+**Sundering (S)**. When you are hit with a melee attack, you may choose to destroy this item to negate all damage from the attack.
+
+**Thrown (Th)**. Can be thrown for a ranged attack using STR.
+
+**Two-Handed (2H)**. Must be used with two hands.
+
+**Versatile (V)**. Can be used one- or two-handed; use the higher damage die when wielded with two hands.
+:::
+:::
+
+## Weapon Ranges
+
+| **Code** | **Meaning**                    | **Description**                      |
+|:--------:|--------------------------------|--------------------------------------|
+| **C**    | Close                          | Adjacent / arm’s reach               |
+| **N**    | Near                           | Short distance                       |
+| **F**    | Far                            | Long distance                        |
+| **M**    | Melee                          | Close-quarters weapon attacks        |
+| **R**    | Ranged                         | Attacks made at a distance           |
+
+## Special Weapons
+
+- **Blowgun**. Firing this weapon from hiding doesn't reveal your position.
+
+- **Bludgeon**. After making a successful strike to the head with this small club weapon, calculate damage (1d2), then roll another d20 and consult the results below. *If the opponent is wearing a helmet, roll with a DISV.*
+
+| **d20 Roll** | **Result**       | **Effect**                                      |
+|:------------:|------------------|-------------------------------------------------|
+| 1–8          | Grazing Blow     | No effect.                                      |
+| 9–11         | Dazed            | Opponent’s next round is at a DISV.             |
+| 12–15        | Stunned          | Opponent’s next 1d6 rounds are at a DISV.       |
+| 16–20        | Knocked Out      | Opponent is unconscious for the next 1d6 rounds.|
+
+
+- **Bolas**. When you hit a legged creature the size of a horse or smaller, the target's speed is reduced to **Close** until it frees itself (DC 15 STR or DEX check).
+
+- **Buckler**. A small round shield used in defense which is combined with a melee weapon in the opposite hand. Often bucklers were made with a sharp spike extending out from the front or side of the shield for offensive attacks. Bucklers are useful for deflecting blows, binding a fighter’s arms, or striking a blow. This weapon adds **+1 AC**.
+
+- **Dart**. A small projectile weapon designed to be thrown by hand. It is usually coated with a toxicant applied to the sharp tip, enhancing its limited damage potential and making it more effective.
+
+- **Heavy Crossbow**. The largest and strongest among the crossbows, giving this weapon the ability to deliver a powerful punch. However, the size and weight create a disadvantage, making it more cumbersome. The heavy crossbow requires **1 full round to reload** before it can be fired again.
+
+- **Improvised Weapon**. Anything that can be picked up and used at a second’s notice. If you find yourself with a broken or lost weapon, a rock, bottle, bar stool, ceramic tankard, frying pan, tree branch, heavy tome, or whatever is at hand’s reach can serve. You may use any of these items as a melee or ranged weapon thrown up to a **Near** distance. The GM can decide whether Strength or Dexterity is the appropriate stat to use in each situation.
+
+- **Katana**. An exotic sword originating from a distant and enigmatic land. They are only brought to this realm by a foreign keeper or venturous traveling merchant. Renowned for its legendary razor-sharp edge and superior balance, the katana is light enough to wield single-handed. However, its elongated hilt is designed to accommodate two hands, granting it the capacity to deliver truly lethal strikes that can decisively end any fight. Wielding this rare sword is a privilege; those lucky enough to own one hold its blade in the highest regard.
+
+- **Pistol Crossbow**. Also referred to as the assassin’s crossbow, this is a lightweight and compact weapon that is easy to conceal. It is quick to reload and can be fired using just one hand. Despite its small size, it possesses considerable potency, especially when the bolts are laced with a venom or other toxic substances.
+
+- **Repeater Crossbow**. This weapon revolutionized the process of spanning the bow, loading the bolt, and shooting into a single, fluid movement. This innovation significantly increased the firing speed compared to a standard crossbow. The design of the repeater crossbow was first developed by dwarven weapon smiths. It features a top-mounted magazine holding a reservoir of **10 bolts** which feeds the crossbow using the force of gravity. This crossbow fires **2 bolts per round**. Roll two separate d20 dice, one for each bolt when making an attack. It requires **1 full round to reload** the magazine.
+
+- **Shuriken.** Can be thrown into the ground. Living creatures who steop on it take 1 damage and can only move at half speed for 10 rounds.
+
+- **Staff Sling**. This weapon combines the wooden staff and sling into one. It can be used as a melee or ranged weapon as well. Unlike the standard sling, the staff sling can send much heavier objects down range, causing significantly more damage.
+
+- **Stave**.  A surdier version of a staff, it has the sundering property
+
+## Armor
+
+:::{armor-table}
+| **Item**              | **Cost** | **Gear Slots** | **AC**          | **Properties**                               |
+|:----------------------|:---------|:---------------|:----------------|-----------------------------------------------|
+| Hide, Pelts           | 5 gp     | 1              | 11 + DEX mod    | Advantage on stealth; Disadvantage on CHA     |
+| Padded                | 5 gp     | 1              | 11 + DEX mod    | Disadvantage on swim                          |
+| Leather               | 10 gp    | 1              | 11 + DEX mod    | —                                             |
+| Studded Leather       | 15 gp    | 1              | 12 + DEX mod    | —                                             |
+| Hide, Exotic          | 20 gp    | 1              | 12 + DEX mod    | Disadvantage on stealth                       |
+| Brigandine            | 50 gp    | 1              | 13 + DEX mod    | Disadvantage on swim                          |
+| Ring Mail             | 50 gp    | 2              | 13 + DEX mod    | Disadvantage on stealth & swim                |
+| Chain Mail Shirt      | 60 gp    | 2              | 13 + DEX mod    | Disadvantage on stealth & swim                |
+| Scale Mail Shirt      | 70 gp    | 2              | 14 + DEX mod    | No swim; Disadvantage on stealth              |
+| Back & Breast Plate   | 80 gp    | 2              | 14 + DEX mod    | Disadvantage on swim                          |
+| Chain Mail Long Coat  | 90 gp    | 2              | 15              | No swim; Disadvantage on stealth              |
+| Plate Mail, Full      | 150 gp   | 3              | 16              | No swim; Disadvantage on stealth              |
+| Buckler               | 10 gp    | 1              | +1              | Occupies one hand                             |
+| Shield, Wooden        | 10 gp    | 1              | +2              | Occupies one hand                             |
+| Shield, Metal         | 15 gp    | 1              | +2              | Occupies one hand                             |
+| Round Shield          | 15 gp    | 1              | +2              | Occupies one hand; Sundering                  |
+| Mithral (metal only)  | ×4 cost  | -1             | —               | No penalty to stealth or swim                 |
+| Mithral: Rare         | ×6 cost  | -1             | +1 bonus        | No penalty to stealth or swim                 |
+| Mithral: Mythological | ×10 cost | -1             | +2 bonus        | No penalty to stealth or swim                 |
+:::
+:::{.table-caption}
+**Table:** Armor
+:::
+
+## Gear
+
+:::{gear-table}
+| **Item**            | **Cost** | **Qty / Slot**                      |
+|:--------------------|:---------|:------------------------------------|
+| Backpack            | 2 gp     | 1 (first one free to carry)         |
+| Bandoleer           | 5 gp     | 1                                    |
+| Bedroll             | 1 gp     | 1                                    |
+| Blanket             | 5 sp     | 1                                    |
+| Bottle, Glass       | 3 sp     | 1                                    |
+| Caltrops (1 bag)    | 5 sp     | 1                                    |
+| Candles (5)         | 5 sp     | 5 = 1                                |
+| Case, Map or Scroll | 1 gp     | 1                                    |
+| Cooking Pot         | 1 gp     | 1                                    |
+| Crowbar             | 5 sp     | 1                                    |
+| Cutlery, Wooden     | 5 sp     | Free                                 |
+| Cutlery, Metal      | 1 gp     | Free                                 |
+| Flask, Leather      | 5 sp     | 1                                    |
+| Flask, Metal        | 1 gp     | 1                                    |
+| Flint & Steel       | 5 sp     | 1                                    |
+| Grappling Hook      | 1 gp     | 1                                    |
+| Hacksaw             | 2 gp     | 1                                    |
+| Hammer              | 1 gp     | 1                                    |
+| Iron Spikes (10)    | 1 gp     | 10 = 1                               |
+| Kettle              | 1 gp     | 1                                    |
+| Lantern             | 5 gp     | 1                                    |
+| Lantern Oil, Flask  | 5 sp     | 1                                    |
+| Lock, Average       | 1 gc     | 1                                    |
+| Lock, Quality       | 10 gp    | 1                                    |
+| Lock Picks          | 10 gp    | Free                                 |
+| Manacles            | 5 gp     | 1                                    |
+| Mirror              | 10 gp    | 1                                    |
+| Parchment / Sheet   | 1 sp     | 5 = 1                                |
+| Pole, 10’           | 5 sp     | 1                                    |
+| Pouch / Purse       | 5 sp     | 1 (holds 100 coins)                  |
+| Rations (3)         | 5 sp     | 3 = 1                                |
+| Religious Symbol    | 1 gp     | Free                                 |
+| Rope, 60’           | 1 gp     | 1                                    |
+| Saddle Bags         | 4 gp     | 2 (holds total 500 coins)            |
+| Slingbag            | 1 gp     | 1 (first one free to carry)          |
+| Tankard, Metal      | 1 gp     | 1                                    |
+| Tankard, Wood       | 5 sp     | 1                                    |
+| Tent                | 1 gp     | 1                                    |
+| Torch               | 5 sp     | 1                                    |
+| Water Skin          | 5 sp     | 1                                    |
+| Writing Kit         | 10 gp    | 1                                    |
+:::
+:::{.table-caption}
+**Table:** Gear
+:::
+
+### Gear Descriptions
+
+::: columns
+::: column
+
+**Backpack**. Holds all the gear you can carry. Don't lose it.
+
+**Caltrops**. Tiny, triangle-shaped iron spikes. Living creatures who step on caltrops take 1 damage and can only move at half speed for 10 rounds.
+
+**Coin**. One gold piece (gp) is worth 10 silver pieces (sp) or 100 copper pieces (cp).
+
+**Crowbar**. Grants advantage on checks to pry open stuck objects.
+
+**Flask or bottle**. Glass containers that hold one draught of liquid.
+
+**Flint and steel**. A small fire starter. With it, routine attempts to light a fire always succeed.
+
+**Gem**. Gems come in numerous varieties and are very valuable.
+
+:::
+
+::: column
+
+**Grappling hook**. A rope anchor with three curved tines.
+
+**Iron spikes**. Strong spikes. Each has a hole for threading rope. Can be hammered in with weapons or other iron spikes.
+
+**Lantern**. Casts light up to a double near distance (see [Light Sources](../dungeonAdventures.qmd#light)). Requires oil. Has a shutter to hide the light.
+
+**Mirror**. A small, polished mirror.
+
+**Oil flask**. Fuels a lantern for one hour of real time. One flask covers a close area and burns for 4 rounds, dealing 1d4 damage each round.
+
+**Pole**. Wooden, 10' long.
+
+**Rations**. One day of food and water supply for one person.
+
+**Rope**. Hemp, 60’ long.
+
+**Torch**. Sheds light to a near distance (see [Light Sources](../dungeonAdventures.qmd#light)). Burns for one hour of real time.
+
+:::
+:::
+
+## Ammunition
+
+:::{ammunition-table}
+| **Item**                      | **Cost** | **Qty / Slot**  |
+|:------------------------------|:---------|:----------------|
+| Arrows (20)                   | 1 gp     | 20 = 1          |
+| Blow Gun Needles (20, case)   | 1 gp     | 20 = 1          |
+| Sling Bullets, Iron (20)      | 1 sp     | 20 = 1          |
+| Crossbow Bolts — Hand (20)    | 2 gp     | 20 = 1          |
+| Crossbow Bolts — Heavy (20)   | 1 gp     | 20 = 1          |
+| Crossbow Bolts — Standard (20)| 1 gp     | 20 = 1          |
+:::
+:::{.table-caption}
+**Table:** Ammunition
+:::
+
+## Marketplace
+
+### Common Items
+
+::: columns
+::: column
+<div style="padding-right: 1.5rem;">
+
+| **Clothing**              | **Cost**    |
+|:--------------------------|:------------|
+| Belt                      | 3 sp        |
+| Boots, High               | 3 gp        |
+| Boots, Low                | 1 gp        |
+| Boots, Riding             | 3 gp        |
+| Breeches / Pants          | 8 sp        |
+| Cap / Hat                 | 5 sp        |
+| Cape, Short               | 1 gp        |
+| Cape, Long                | 2 gp        |
+| Cloak, Hooded             | 5 gp        |
+| Codpiece                  | 2 gp        |
+| Costume                   | 5 gp+       |
+| Doublet / Heavy Shirt     | 2 gp        |
+| Dress / Gown              | 4 gp        |
+| Gloves, Leather           | 3 gp        |
+| Hat, Wide Brimmed         | 1 gp        |
+| Jacket, Light             | 3 gp        |
+| Jacket, Heavy             | 5 gp        |
+| Jewelry                   | 5–30 gp     |
+| Jerkin / Vest             | 1 gp        |
+| Kilt                      | 2 gp        |
+| Mask                      | 1 gp        |
+| Noble’s Clothing          | 50 gp       |
+| Overcoat                  | 10 gp       |
+| Rags                      | 1 cp        |
+| Robes, Priest or Wizard   | 15 gp       |
+| Royal Garb                | 100 gp      |
+| Scarf                     | 1 gp        |
+| Socks, Pair               | 1 gp        |
+| Shoes, Leather            | 1 gp        |
+| Tunic                     | 1 gp        |
+| Uniform                   | 15 gp       |
 </div>
 
-### Equipment Explanations
+:::
+::: column
 
-A **Backpack** will hold a maximum 40 pounds or 3 cubic feet of goods. Some items may be lashed to the outside, and thus count toward the weight limit but not the volume limit. A Halfling's backpack holds at most 30 pounds and/or 1½ cubic feet, but costs the same as a full-sized item.
+| **Travel / Person**     | **Cost (per 10 miles)**  |
+|:------------------------|:-------------------------|
+| Cart or Wagon           | 5 sp                     |
+| Cart with 2 Horses      | 1 gp                     |
+| Coach                   | 2 gp                     |
+| River Boat              | 2 gp                     |
+| Ship Passage            | 4 gp                     |
 
-A **Candle** will shed light over a 5' radius, with dim light extending 5' further. A normal candle will burn about 3 turns per inch of height.
+| **Lodging / Person**    | **Cost per Night** |
+|:------------------------|:-------------------|
+| Bath                    | 1 sp               |
+| Coaching Inn Barn       | 10 cp              |
+| Inn, Common Room        | 5 sp               |
+| Inn, Private Room       | 1 gp               |
+| Stabling for Mounts     | 40 cp              |
 
-**Chalk** is useful for "blazing a trail" through a dungeon or ruin.
+**Miscellaneous Items**
 
-**Holy Water** is explained in the [Encounter section](../combatDetails.qmd#holy-water).
+| **Item**                     | **Cost** | **Qty / Slot** |
+|:-----------------------------|:---------|:----------------|
+| Blessed Holy Water           | 10 gp    | 1               |
+| Deck of Cards                | 1 gp     | Free            |
+| Dice, Bone                   | 5 sp     | Free            |
+| Disguise Kit                 | 5 gp     | 1               |
+| Leather Bound Book, Blank (100 pages) | 30 gp | 1       |
+| Lucky Charm                  | 5 gp     | Free            |
+| Magnifying Glass             | 40 gp    | 1               |
+| Map                          | 5 gp+    | 5 = 1           |
+| Perfume / Cologne            | 1 gp     | Free            |
+| Pipe & Tobacco               | 1 gp     | Free            |
+| Signal Whistle               | 1 sp     | Free            |
+| Spyglass / Telescope         | 80 gp    | 1               |
+| Talisman                     | 5 sp     | Free            |
+| Whetstone                    | 1 gp     | 1               |
+:::
+:::
 
-**Iron Spikes** are useful for spiking doors closed (or spiking them open) and may be used as crude pitons in appropriate situations.
+### Food & Drink
 
-A **Lantern** will provide light covering a 30' radius; dim light will extend about 20' further. A lantern will consume a flask of oil in 18+1d6 turns. A **Hooded Lantern** allows the light to be hidden or revealed as the user pleases; in all other ways it performs as an ordinary lantern. A **Bullseye Lantern** projects a cone of light 30' long and 30' wide at the widest point, with dim light extending an additional 20' beyond that point. This type of lantern is generally hooded.
+::: columns
+::: column
+<div style="padding-right: 1.5rem;">
 
-A **Map or Scroll Case** is a tubular oiled leather case used to carry maps, scrolls, or other paper items. The case will have a water-resistant (but not waterproof) cap which slides over the end, and a loop to allow the case to be hung from a belt or bandolier. A standard scroll case can hold up to 10 sheets of paper, or a single scroll of up to seven spells.
+| **Libations**               | **Cost** |
+|:----------------------------|:---------|
+| Ale, Common Pint            | 5 cp     |
+| Beer, Pint                  | 3 cp     |
+| Brandy, Quality Glass       | 5 sp     |
+| Brandy, Quality Bottle      | 5 gp     |
+| Cider, Hard Glass           | 10 cp    |
+| Cider, Hard Jug             | 5 sp     |
+| Elven Wine, Glass           | 2 gp     |
+| Elven Wine, Bottle          | 10 gp    |
+| Golden Dragon Ale, Pint     | 10 cp    |
+| Halfling Finkleberry Wine   | 1 gp     |
+| Keg, Ale                    | 6 gp     |
+| Keg, Beer                   | 3 gp     |
+| Mead, Glass                 | 2 sp     |
+| Mead, Bottle                | 2 gp     |
+| Pirate’s Grog               | 5 cp     |
+| Rum, Glass                  | 1 sp     |
+| Rum, Bottle                 | 1 gp     |
+| Spirits, Shot               | 1 sp     |
+| Spirits, Bottle             | 1 gp     |
+| Wine, Common Glass          | 1 sp     |
+| Wine, Quality Glass         | 5 sp     |
 
-A **Mirror** is useful in a dungeon environment for many reasons; for instance, it is the only way to look at a Medusa without being turned to stone. Mirrors are also useful for looking around corners, and can be used outdoors to send signals using reflected sunlight.
 
-A **Quiver** is an open container used to hold arrows. A **Bolt Case** is a similar sort of container for crossbow bolts. In either case, the standard capacity is 20 missiles. The length of a quiver or bolt case must match the length of the ammunition for it to be useful; therefore, there are longbow and shortbow quivers and light and heavy crossbow bolt cases. The price is the same for all types.
-
-**Dry Rations** may consist of dry bread, hard cheese, dried fruit, nuts, beans, jerky, or any other food which will not "go bad" in less than about a month (if not longer). Dry rations are generally sold in quantities sufficient for one character for a week, and are packaged in waxed or oiled cloth to protect them.
-
-**Hemp Rope** is ½ inch in diameter and has a breaking strength of 1,600 pounds. Safe working load for a rope is normally one-quarter of the breaking strength. One or more knots in a rope cut the breaking strength in half. This does not affect the safe working load, because knots are figured into the listed one-quarter ratio.
-
-**Silk Rope** is about 3/8 inch in diameter and has a breaking strength of 1,600 pounds, although it weighs considerably less than hemp rope. The notes regarding rope strength given for hemp rope, above, apply here also.
-
-A **Large Sack** will hold at most 40 pounds or 4 cubic feet of goods.
-
-A **Small Sack** will hold at most 20 pounds or 2 cubic feet of goods.
-
-A pair of **Saddlebags** will hold at most 10 pounds or 1 cubic foot of goods (divided evenly between both bags).
-
-**Thieves' Picks and Tools** are required for the use of Thief abilities such as opening locks and removing traps. These abilities may not be usable without appropriate tools, or may be used at a penalty at the option of the Dungeon Master .
-
-A **Tinderbox** is generally purchased with a **flint and steel**; the flint, a piece of hard rock, is struck vigorously against a C-shaped piece of high-carbon steel. When done correctly, hot sparks will fly from the flint and steel into the tinder, hopefully starting a fire. The best tinder is a dried piece of prepared tinder fungus, carried in the tinderbox to keep it dry; char cloth, hemp rope, or even very dry grass can substitute if prepared tinder fungus is not available. The time required to start a fire should be determined by the DM according to the prevailing conditions; under ideal conditions, starting a fire with a flint, steel and tinder takes about a turn.
-
-A **Torch** sheds light over a 30' radius, with dim light extending about 20' further, and burns for 1d4+4 turns. Of course, a torch is also useful for setting flammable materials (such as cobwebs or oil) alight.
-
-A **Whetstone** is used to sharpen and maintain edged weapons such as swords, daggers, and axes.
-
-**Wineskin/Waterskin** is a container for drinking water or wine; though generally water is taken into a dungeon or wilderness environment. The standard waterskin holds one quart of liquid, which is the minimum amount required by a normal character in a single day. If adventuring in the desert or other hot, dry areas, a character may need as much as ten times this amount. Note that the given 2 pound weight is for a full skin; an empty skin has negligible weight.
-
-## Weapons
-
-<div class="tableFixHead">
-
-| Weapon | Price | Size | Weight | Dmg. |
-|--------|-------|------|--------|------|
-| **Axes** |  |  |  |  |
-| Hand Axe | 4 gp | S | 5 | 1d6 |
-| Battle Axe | 7 gp | M | 7 | 1d8 |
-| Great Axe | 14 gp | L | 15 | 1d10 |
-| **Bows** |  |  |  |  |
-| Shortbow | 25 gp | M | 2 |  |
-| Shortbow Arrow | 1 sp |  | * | 1d6 |
-| Silver^†^ Shortbow Arrow | 2 gp |  | * | 1d6 |
-| Longbow | 60 gp | L | 3 |  |
-| Longbow Arrow | 2 sp |  | * | 1d8 |
-| Silver^†^ Longbow Arrow | 4 gp |  | * | 1d8 |
-| Light Crossbow | 30 gp | M | 7 |  |
-| Light Quarrel | 2 sp |  | * | 1d6 |
-| Silver^†^ Light Quarrel | 5 gp |  | * | 1d6 |
-| Heavy Crossbow | 50 gp | L | 14 |  |
-| Heavy Quarrel | 4 sp |  | * | 1d8 |
-| Silver^†^ Heavy Quarrel | 10 gp |  | * | 1d8 |
-| **Daggers** |  |  |  |  |
-| Dagger | 2 gp | S | 1 | 1d4 |
-| Silver^†^ Dagger | 25 gp | S | 1 | 1d4 |
-| **Swords** |  |  |  |  |
-| Shortsword | 6 gp | S | 3 | 1d6 |
-| Longsword/Scimitar | 10 gp | M | 4 | 1d8 |
-| Two-Handed Sword | 18 gp | L | 10 | 1d10 |
-| **Hammers and Maces** |  |  |  |  |
-| Warhammer | 4 gp | S | 6 | 1d6 |
-| Mace | 6 gp | M | 10 | 1d8 |
-| Maul | 10 gp | L | 16 | 1d10 |
-| **Other Weapons** |  |  |  |  |
-| Club/Cudgel/Walking Staff | 2 sp | M | 1 | 1d4 |
-| Quarterstaff | 2 gp | L | 4 | 1d6 |
-| Pole Arm | 9 gp | L | 15 | 1d10 |
-| Sling | 1 gp | S | * |  |
-| Bullet | 1 sp |  | * | 1d4 |
-| Stone | n/a |  | * | 1d3 |
-| Spear | 5 gp | M | 5 |  |
-| Thrown (one handed) |  |  |  | 1d6 |
-| Melee (one handed) |  |  |  | 1d6 |
-| Melee (two handed) |  |  |  | 1d8 |
-
-\* These items weigh little individually. Ten of these items weigh one pound.
-
-† Silver tip or blade, for use against lycanthropes
-
+| **Hard Alcohol**   | **Cost per Shot** |
+|:--------------------|:------------------|
+| Dragon’s Breath     | 5 sp              |
+| Dwarven Hammer      | 2 sp              |
+| Ogre Piss           | 10 cp             |
+| Rot Gut             | 5 cp              |
+| Shadow Fire         | 1 gp              |
+| Troll’s Blood       | 5 sp              |
+| Unicorn Spit        | 2 gp              |
+| Wizard’s Gin        | 5 sp              |
 </div>
 
-## Weapon Size
-
-[Humans](04-Races.qmd#humans) and [Elves](04-Races.qmd#elves) must wield Large weapons with both hands, but may use Small or Medium weapons in one hand. [Halflings](04-Races.qmd#halflings) may not use Large weapons at all, and must use Medium weapons with both hands. [Dwarves](04-Races.qmd#dwarves), due to their stocky, powerful builds, are able to use Medium weapons one-handed and some Large weapons in two hands, but Large weapons more than four feet in length are prohibited (specifically, two-handed swords, polearms, and longbows). Some weapons must be used with both hands by design (such as bows and crossbows) but the maximum size limits still apply.
-
-The DM should apply similar limitations to weapon-armed monsters; for instance, kobolds and goblins are similar in size to Halflings, and thus should have similar weapon limits.
-
-## Missile Weapon Ranges
-
-| Weapon | Short (+1) | Medium (0) | Long (-2) |
-|--------|------------|------------|-----------|
-| Longbow | 70 | 140 | 210 |
-| Shortbow | 50 | 100 | 150 |
-| Heavy Crossbow | 80 | 160 | 240 |
-| Light Crossbow | 60 | 120 | 180 |
-| Dagger | 10 | 20 | 30 |
-| Hand Axe | 10 | 20 | 30 |
-| Oil or Holy Water | 10 | 30 | 50 |
-| Sling | 30 | 60 | 90 |
-| Spear | 10 | 20 | 30 |
-| Warhammer | 10 | 20 | 30 |
-
-Missile weapon ranges are given in feet. In the wilderness, substitute yards for feet. If the target is as close as or closer than the Short range figure, the attacker receives a +1 attack bonus. If the target is further away than the Medium range figure, but not beyond the Long range figure, the attacker receives a -2 attack penalty.
-
-![](images/armor_shields.png)
-
-## Armor and Shields
-
-| Armor Type                | Price    | Weight | AC  |
-|---------------------------|----------|--------|-----|
-| No Armor                  | 0 gp     | 0      | 10  |
-| Padded Armor              | 15 gp    | 10     | 11  |
-| Hide                      | 10 gp    | 30     | 12  |
-| Leather Armor             | 20 gp    | 15     | 13  |
-| Ring Mail or Studded Leather | 25 gp    | 30     | 14  |
-| Chain Mail                | 60 gp    | 40     | 15  |
-| Splint Mail               | 100 gp   | 45     | 16  |
-| Plate Mail                | 300 gp   | 50     | 17  |
-| Field Plate               | 500 gp   | 70     | 18  |
-| Full Plate                | 1500 gp  | 50     | 19  |
-| Shield                    | 7 gp     | 8      | +1  |
-
- _Note: that armor for Halfling characters is 50% heavy as armor for the other races._
-
-## Beasts of Burden
-
-Note: Statistics for the animals below are [here](../monsters.qmd#beasts-of-burden).
-
-| Item          | Price  |
-|---------------|--------|
-| Camel         | 80 gp  |
-| Donkey/Mule   | 50 gp  |
-| Horse, Draft  | 120 gp |
-| Horse, Riding | 75 gp  |
-| Horse, War    | 200 gp |
-| Pony*         | 50 gp  |
-| Pony, War*    | 80 gp  |
-<sup>*</sup>Due to their small stature, Dwarves and Halflings generally ride ponies rather than horses.
-
-### War Horse Barding
-
-Barding is armor designed to protect an animal’s head, neck, chest, and body. War Horses and War Ponies are able to wear barding. Studded Leather, Chain, and Plate armor can be purchased as barding. The cost is four times the equivalent armor made for humanoids, and it weighs twice as much.
-
-| Barding Type           | AC  | Cost    |
-|------------------------|-----|---------|
-| No Barding             | 12  | -       |
-| Studded Leather Barding| 16  | 100 gp  |
-| Chain Barding          | 17  | 240 gp  |
-| Plate Barding          | 19  | 1200 gp |
-
-## Poisons
-
-![](images/poison.png)
-
-### Basic Poison
-
-The first poison must Poisoners learn and easily produced by shadier folks. This poison is the bread and butter for assassins just starting out.
-
-This is a contact poison in a thick, reddish liquid form. It somewhat smells like cucumbers.
-
-Cost: 25 gp per dose
-
-Component: Poisonous Plants
-
-Effect: On a hit, the target takes 1d4 poison damage. Save versus Poison negates.
-
-Potency: The poison retains potency for 1 minute before drying.
-
-### Oleander
-
-Oleander is a beautiful plant known for its striking flowers. Though commonly grown as a hedge and ornamental, all parts of the oleander plant are deadly and contain toxins. If eaten, oleander can cause vomiting, diarrhea, erratic pulse, seizures, coma, and death, and contact with the leaves and sap is known to be a skin irritant to some people. Indeed, the toxins in oleander are so strong that people have become ill after eating honey made by bees that visited the flowers! Fortunately, fatalities from oleander poisoning are rare, as the plant is very bitter and thus quickly deters anyone sampling the vegetation.
-
-Cost: 25 gp per dose
-
-Component: Poisonous Plants
-
-Effect: If ingested, the target takes 1d2 poison damage and is poisoned for 1d12 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
-
-Potency: The poison retains potency in food or drink for 2d4 days.
-
-### Deadly Nightshade
-
-The sweetness of the berries that often lures children and unwitting adults to consume this lethal plant. A native of wooded or waste areas in the OnceWas, deadly nightshade has dull green leaves and shiny black berries about the size of cherries. Nightshade toxins in its stems, leaves, berries, and roots causes paralysis in the involuntary muscles of the body, including the heart. Even physical contact with the leaves may cause skin irritation.
-
-Cost: 25 gp per dose
-
-Component: Poisonous Plants
-
-Effect: If ingested, the target takes 1d4 dmg. Save versus poison or be paralyzed for 4d4 hours.
-
-Potency: The poison retains potency in food or drink for 2d4 days.
-
-### White Snakeroot
-
-White snakeroot is an herb with flat-topped clusters of small white flowers. Simply drinking the milk of a cow that had grazed on the plant has poisoned some victims. Indeed, both the meat and milk from poisoned livestock can pass the toxin to human consumers. Symptoms of "milk poisoning" include loss of appetite, nausea, weakness, abdominal discomfort, reddened tongue, abnormal acidity of the blood, and death. Luckily farmers are now aware of this life-threatening hazard and make efforts remove the plant from animal pastures.
-
-Cost: 25 gp per dose
-
-Component: Poisonous Plants
-
-Effect: If ingested, the target takes 1d4 poison damage and is poisoned for 2d12 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
-
-Potency: The poison retains potency in food or drink for 2d4 days.
-
-### Water Hemlock
-
-A large wildflower in the carrot family, water hemlock is sometimes confused with edible parsnips or celery. The roots are especially toxic, and will rapidly generate potentially fatal symptoms in anyone unlucky enough to ingest this poison. Painful convulsions, abdominal cramps, nausea, and death are common, and those who survive are often afflicted with amnesia or lasting tremors.
-
-Cost: 25 gp per dose
-
-Component: Poisonous Plants
-
-Effect: If ingested, the target takes 2d4 poison damage and is poisoned for 24 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks. Save versus Poison for half.
-
-Potency: The poison retains potency in food or drink for 2d6 weeks..
-
-### Giant Spider Poison
-
-This is an ingested Poison in a milky liquid form. It smells pungent and bitter.
-
-Cost: 50 gp per dose
-
-Component: Giant Poisonous Spiders
-
-Effect: If consumed this poison causes 1d10 hp dmg and parallzation for 2d4 hours. Save for half damage and violent vomiting for 1-4 rounds.
-
-Potency: The poison retains potency in food or drink for 2d6 months.
-
-### Assassin’s Blood
-
-An assassin's favorite tool to make the target think they have food poisoning. This is the best tool to get a target away from a group and allow them to finish the job.
-
-This is an ingested Poison in a clear liquid form. It faintly smells like copper.
-
-Cost: 75 gp per dose
-
-Component:  Giant Scorpion Venom
-
-Effect: When ingested, the target takes 1d12 poison damage and is poisoned for 24 hours. A poisoned creature has -1 on Attack rolls, Saving Throws and Ability Checks.. Save versus Poison for half.
-
-Potency: The poison retains potency for 1 hour when applied to food or drink.
-
-### Serpent Venom
-
-This poison is harvested from a dead or giant Poisonous Snake.
-
-It is a greasy contact Poison that has an oily sheen.
-
-Cost: 100 gps per dose
-
-Component: Giant Poisonous Snake Venom
-
-Effect: 3d6 poison damage. Save negates.
-
-Potency: This poison stays potent for 24 hours or until delivered through a wound or washed off.
-
-### Carrion Crawler Mucus
-
-One of the odder venoms on the market, this venom is theorized to be created from the necrotic flesh that Carrion Crawlers regularly devour.
-
-This is a contact poison in a thick, yellow paste. It smells like rotting garbage.
-
-Cost: 200 gp per dose
-
-Component: Carrion Crawlers Mucus
-
-Effect: On a hit, the target must make a Poison saving throw, they are poisoned and take 1d4 poison damage on a fail, or half damage on a save.
-
-Aftereffect: If the target fails the initial saving throw, at the start of their next turn they become paralyzed. At the end of their turn they can repeat the saving throw, ending the paralyzed and poisoned condition on a success.
-
-Duration: Target is Poisoned and Paralyzed until they save.
-
-Potency: This poison stays potent for 10 minutes when applied to a weapon.
-
-### Essence of Ether
-
-Breathing in this vapor subjects a creatures to its effect. Holding one's breath is ineffective against inhaled poisons, as they affect nasal membranes, tear ducts, and other parts of the body. A creature subjected to this poison must succeed on a poison saving throw with a -1 penalty or become unconscious.
-
-This poison is a pleasant-smelling colorless inhaled vapor.
-
-Cost: 250 gps
-
-Component: This is a mysterious Alchemist concoction
-
-Effect: The poisoned creature is unconscious. The creature awakens if they take damage or if another creature spends an action to awaken them.
-
-Duration: 8 hours
-
-Potency: Dissipates in 1d4 rounds
-
-### Malice
-
-Malice is a white, odorless, bitter crystalline powder that is blown into the eyes or inhaled by the victim.
-
-Cost: 300 gps per dose
-
-Component:
-
-Effect: A creature subjected to this poison must succeed on a Poison saving throw or become blinded for 1 hour.  
-
-Duration: 1 hour.
-
-Potency: Dissipates immediately.
-
-### Pale Tincture
-
-This strange substance is harvested from fungi cultivated by Myconids in their lairs under ground. The poison is extracted by squeezing the liquid out of the Pale mushrooms.
-
-This pale tan liquid is an ingested poison with an earthy smell.
-
-Cost: 400 gp per dose
-
-Component: Fungi cultivated by Myconids
-
-Effect: A creature subjected to this poison must make a Poison saving throw or take 1d6 poison damage
-
-and become poisoned.
-
-Aftereffects: The poisoned creature must repeat the saving throw every 24 hours, taking 1d6 poison damage on a failed save.
-
-Duration: Target is poisoned until they succeed on seven saving throws against the poison.
-
-Potency: This poison stays potent for 1 hour when applied to food or drink.
- 
-### Burnt Othur Fumes
-
-This mist is sprayed out into a 5 foot cube and burns through the membranes of nasal passageways and through the soft tissue of the mouth. This lingering poison is designed to kill quickly before its affects can be stopped.
-
-This is sprayed mist that smells like burning dust.
-
-Cost: 500 gp per dose
-
-Component: Giant Wasp Venom
-
-Effect: A creature subjected to this must succeed on a saving throw against poison or take 3d6 poison damage and must repeat the saving throw at the start of each of its turns.
-
-Aftereffect: On each successive failed save, the character takes 3 (1d6) poison damage. After three successful saves, the poison ends.
-
-Duration: Target must make three successful saves.
-
-Potency: Dissipates immediately.
-
-### Drow Sleep Poison
-
-This poison is said to be made only by the drow, and only in a place far removed from sunlight.     The Drow Sleep Poison is a contact poison that is a black, gummy, and heavy substance similar to molasses.
-
-Cost: 600 gps per dose
-
-Component: Drow poisonmakers extract this toxin from a slippery, black fungus that grows like great slicks of oil in the Vault.
-
-Effect: Unconsciousness for 4d6 hours. A successful Save negates unconsciousness but the creature suffers a -2 penalty to Attack, Saving throws, and Ability Checks for 2d6 hours.
-
-Potency: The poison retains potency for 2 hours when applied to a weapon. Sunlight reduces the potency by half.
-
-### Wyvern Poison
-
-This venom comes from the vicious wyvern. Many have died trying to harvest this venom as it the tail of the wyvern will occasionally jab out with muscle spasms, even in death.
-
-Wyvern Poison is a thick, amber colored contact poison.
-
-Cost: 1200 gp per dose
-
-Component: Wyvern Stinger Poison
-
-Effect: On a hit, the target must make a saving throw, taking 7d6 poison damage on a fail, or half as much on a successful save.
-
-Potency: Stays potent until delivered through a wound or washed off.
-
-### Midnight Tears
-
-A creature that ingests this poison suffers no Effect until the stroke of midnight. If the poison has not been neutralized before then, the creature must succeed on a poison throw, taking 9d6 poison damage on a failed save, or half as much damage on a successful one.
-
-A clear, odorless and colorless liquid, it only reveals itself as an inky black poison when it comes into contact with cold iron.
-
-Cost: 1500 gps per dose
-
-Component: Rare black flowers that bloom at midnight in the Grey Lands.
-
-Effect: The poisoned creature is unconscious. The creature awakens they take damage or if another creature spends an action to awaken them.
-
-Duration: 8 hours
-
-Potency: Dissipates immediately
-
-### Purple Worm Poison
-
-From the stingers of a Purple Worm, this powerful poison is also used in alcoholic beverages to provide a powerful kick, not for the feint of heart.
-
-This is a gooey purplish contact poison that has a sharp smell to it that burns the nostrils.
-
-Cost: 2000 gp per dose
-
-Component: Purple Worm Stingers
-
-Effect: On a hit, the target must make a Poison saving throw, taking 12d6 poison damage on a fail, or half as much on a successful save.
-
-Potency: Stays potent until delivered through a wound or washed off.
-
-## Clerical Spell Costs
-
-### Seeking Divine Aid
-
-It is often possible to seek divine aid in the form of clerical spells from temples dedicated to one of the 12 gods of OnceWas. The availability and cost may vary depending on the specific god's temple, the region, and the cleric's willingness to perform the spell. Some temples may also require a quest or service in addition to the monetary cost. It is recommended to inquire at multiple temples and be prepared for potential additional requirements or variations in pricing.
-
-**0 Level Spell** - 50 gp  
-*Example: Cure Minor Wounds*
-
-**1st Level Spell** (Adept, minimum 2nd level cleric) - 100 gp  
-*Example: Cure Light Wounds*
-
-**2nd Level Spell** (Vicar, minimum 4th level cleric) - 200 gp  
-*Example: Restore Health (level 2) - 50 gp*
-
-**3rd Level Spell** (Curate, minimum 6th level cleric) - 500 gp  
-*Examples: Cure Blindness, Cure Deafness, Cure Disease, Remove Curse*
-
-**4th Level Spell** (High Priest, minimum 8th level cleric) - 1000 gp  
-*Example: Cure Serious Wounds*
-
-**5th Level Spell** (High Priest, minimum 10th level cleric) - 10,000 gp  
-*Example: Raise Dead*
-
-**6th Level Spell** (Bishop, 12th level cleric) - 20,000 gp  
-*Example: Restoration*
-
-**7th Level Spell** (Patriarch, minimum 14th level cleric) - 50,000 gp  
-*Example: Resurrection*
-
+:::
+::: column
+
+| **Food Item**                | **Cost** |
+|:-----------------------------|:---------|
+| Bacon, Fried                 | 1 cp     |
+| Bird or Fowl, Roasted        | 3 cp     |
+| Bread, Loaf                  | 2 cp     |
+| Butter, by the Pound         | 10 cp    |
+| Cabbage, Baked or Boiled     | 1 cp     |
+| Cheap Pie                    | 5 cp     |
+| Cheese, by the Pound         | 10 cp    |
+| Coffee, Cup                  | 2 cp     |
+| Corn on the Cobb             | 1 cp     |
+| Eggs, Dozen                  | 10 cp    |
+| Fish, Fresh                  | 2 cp     |
+| Fish, Pickled or Salted      | 3 cp     |
+| Haggis or Hog Maw            | 10 cp    |
+| Halfling Pie                 | 10 cp    |
+| Meats, Grilled or Roasted    | 5 cp     |
+| Mutton, Grilled or Roasted   | 5 cp     |
+| Porridge, Bowl               | 1 cp     |
+| Potato, Baked or Boiled      | 1 cp     |
+| Pudding, Bread               | 1 cp     |
+| Pudding, Black               | 2 cp     |
+| Rations, Fresh (3)           | 3 sp     |
+| Rations, Iron (3)            | 5 sp     |
+| Sausage                      | 1 cp     |
+| Stew, Bowl                   | 3 cp     |
+| Tart, Fruit                  | 2 cp     |
+| Tea, Cup                     | 2 cp     |
+| Turnip, Baked or Boiled      | 1 cp     |
+
+
+:::
+:::
+
+## Mounts
+
+Mounts include beasts of burden and creatures with riders. All humanoids can ride common and uncommon mounts. Rare
+mounts, like scrag, require special training to ride. (See [Monsters](../monsters.qmd#beasts-of-burden))
+
+**Gear Slots**
+Mounts have a number of gear slots equal to 5x their STR bonus. A *rider* and the rider's carried gear (such as a backpack and worn items) occupy 10 slots.
+
+**Movement**
+When riding a mount, you use its speed instead of your own. **Push**. While traveling, a rider can push a mount to move a number
+of additional 6-mile hexes each day equal to its CON bonus. A pushed mount must pass a DC 12 CON check or be unable to travel the next day.  The DC increases by one step for each consecutive day of pushing
+
+**Combat**
+Most mounts bearing a rider can't attack in combat. However, a mount of LV 7+ may make one attack on its rider's turn.  Getting on or off a mount uses up the rider's movement.  A mount unaccustomed to fighting might **spook** during combat. The first time it or its rider is wounded, it must make a morale check. 
+
+**Food and Water**
+Warm-blooded mounts must consume rations equal to their base level each day (do not include bonus levels). Camels and cold-blooded mounts must only do this once per week. Mounts can go three days beyond their limit without water and three weeks beyond their limit without food. After that, they take 1d8 damage per day that can't be healed until given a full feeding of food or water.
+
+### Prices
+
+:::{mounts-table}
+| **Name**                | **Cost** | **Spooks?** | **Rarity** | **Properties**      |
+|:------------------------|:---------|:------------|:-----------|:--------------------|
+| Boar^1^, Large Riding   | 50 gp    | Yes         | Uncommon   | —                   |
+| Boar^1^, Large War      | 150 gp   | No          | Rare       | Can wear armor      |
+| Camel                   | 50 gp    | Yes         | Common     | —                   |
+| Camel, Silver           | 200 gp   | No          | Rare       | —                   |
+| Donkey^2^ / Mule        | 40 gp    | Yes         | Common     | —                   |
+| Donkey^2^               | 40 gp    | Yes         | Common     | —                   |
+| Elephant                | 400 gp   | No          | Rare       | —                   |
+| Horse, Riding           | 50 gp    | Yes         | Common     | ADV on morale       |
+| Pony^2^                 | 40 gp    | Yes         | Common     | —                   |
+| Ram^3^, Large Riding    | 100 gp   | Yes         | Uncommon   | ADV on morale       |
+| Ram^3^, Large War       | 200 gp   | No          | Rare       | Can wear armor      |
+| Scrag                   | 150 gp   | Yes         | Uncommon   | —                   |
+| Scrag, War              | 250 gp   | No          | Rare       | Can wear armor      |
+| Warhorse, Light         | 100 gp   | No          | Uncommon   | Can wear armor      |
+| Warhorse, Destrier      | 200 gp   | No          | Rare       | Can wear armor      |
+:::
+:::{.table-caption}
+**Table:** Mounts
+:::
+
+- ^1^ Boars are commonly ridden & trained by Goblins and Half-Orcs.
+- ^2^ Donkeys and Ponies are usually ridden & trained by Halflings.
+- ^3^ Rams are ridden & trained by Dwarves.
+
+
+But there is no rule against other ancestries from riding and training these animals, just rare situations.
+
+### Mount Demeanor
+
+:::{mount-personality-table}
+| **2d6 + CHA mod** | **Demeanor**  | **Behaviors**                          |
+|:------------------:|:-------------|:---------------------------------------|
+| 0–4                | Horrid       | Rebellious, stubborn, malicious        |
+| 5–7                | Ornery       | Only likes owner, sassy, rude          |
+| 8–9                | Reliable     | Steadfast, obedient, protective        |
+| 10+                | Lovely       | Loyal, sweet, affectionate             |
+:::
+:::{.table-caption}
+**Table:** Mount Personality
+:::
+
+### Equipment & Armor
+
+:::{mount-gear-table}
+| **Name**          | **Cost** | **Properties**                                                       |
+|:------------------|:---------|:---------------------------------------------------------------------|
+| Armor, Leather    | 30 gp    | AC 11 + DEX mod                                                      |
+| Armor, Chainmail  | 80 gp    | AC 13 + DEX mod; DISADV swim and stealth; 2 slots                    |
+| Armor, Plate      | 150 gp   | AC 15; no swim or stealth; 3 slots                                   |
+| Armor, Mithral    | ×5       | Metal only; –1 slot; normal stealth/swim                             |
+| Saddle            | 30 gp    | Rider ADV on checks to stay mounted; 1 free for mount to carry       |
+| Wagon             | 120 gp   | No rider on mount; move at half speed; +15 gear slots; limit 1/mount |
+:::
+:::{.table-caption}
+**Table:** Mount Equipment & Gear
+:::
+
+## Animals
+
+:::{animal-table}
+| **Name**        | **Cost** | **Spooks?** | **Rarity** | **Properties**      |
+|:----------------|:---------|:------------|:-----------|:--------------------|
+| Cat             | 1 sp     | Yes         | Common     | —                   |
+| Chicken         | 5 cp     | Yes         | Common     | —                   |
+| Cow             | 10 gp    | Yes         | Common     | —                   |
+| Dog             | 3 gp     | Yes         | Common     | ADV on morale       |
+| Dog, War        | 30 gp    | No          | Uncommon   | *Can wear armor*    |
+| Goat / Sheep    | 2 gp     | Yes         | Common     | —                   |
+| Hawk / Falcon   | 80 gp    | No          | Rare       | ADV on morale       |
+| Horse, Pack     | 30 gp    | Yes         | Common     | —                   |
+| Horse, Work     | 40 gp    | Yes         | Common     | —                   |
+| Mule            | 20 gp    | Yes         | Common     | —                   |
+| Ox              | 30 gp    | Yes         | Common     | —                   |
+| Pig / Boar      | 3 gp     | Yes         | Common     | —                   |
+| Pigeon, Homing  | 1 gp     | Yes         | Uncommon   | —                   |
+:::
+:::{.table-caption}
+**Table:** Livestock
+:::
