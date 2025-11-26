@@ -1,0 +1,60 @@
+# Vehicles
+
+The following tables give details of various land and sea vehicles. Dungeon Masters should feel free to create their own vehicles, in which case the table can be used for guidance. Some of the statistics given below are explained in detail later.
+
+## Land Transportation
+
+:::{land-vehicle-table}
+| Vehicle        | Length x Width^1^ | Cargo  | Cost (gp) |
+|----------------|-------------------|--------|-----------|
+| Cart, 2 person | 18' x 6'          | 20     | 20        | 
+| Chariot        | 15' x 6'          | 5      | 100       | 
+| Coach          | 30' x 8'          | 10     | 200       |
+| Wagon, open    | 35' x 8'          | 40     | 35        |
+| Wagon, covered | 35' x 8'          | 40     | 40        |
+| Wagon, closed  | 35' x 8'          | 40     | 150       |
+:::
+:::{.table-caption}
+**Table:** Land Transportation
+:::
+
+^1^Includes hitched horses or mules.
+
+### Notes
+A **cart** requires a single horse or mule.  A **chariot** requires a single horse, generally a warhorse, to pull it. Both **coaches** and **wagons** require at least a pair of draft horses to pull them.
+
+
+## Water Transportation
+
+:::{water-vehicle-table}
+| Vehicle       | Length x Width | Cargo    | Crew | Miles/Day | Cost (gp) |
+|---------------|----------------|----------|------|-----------|-----------|
+| Canoe         | 15' x 4'       | ½ ton    | 1    | 30        | 50        |
+| Caravel       | 55' x 15'      | 75 tons  | 10   | 42        | 10,000    |
+| Carrack       | 60' x 20'      | 135 tons | 20   | 48        | 20,000    |
+| Galley, Small | 100' x 15'     | 210 tons | 90   | 36 / 24   | 15,000    |
+| Galley, Large | 120' x 20'     | 375 tons | 160  | 42 / 24   | 30,000    |
+| Longship      | 110' x 15'     | 10 tons  | 70   | 42 / 24   | 25,000    |
+| Raft/Barge    | per 10' x 10'  | 1 ton    | 2    | 18        | 100       |
+| Riverboat     | 50' x 20'      | 50 tons  | 10   | 30        | 3,500     |
+| Rowboat       | 15' x 6'       | 1 ton    | 1    | 24        | 60        |
+| Sailboat      | 40' x 8'       | 5 tons   | 1    | 36        | 2,000     |
+:::
+:::{.table-caption}
+**Table:** Water Transportation
+:::
+
+### Notes
+
+The **Crew** figure given reflects the minimum number of sailors and/or rowers needed to operate the ship. Officers are not counted among these numbers, and of course it is always a good idea to hire extra sailors and/or rowers to ensure that any casualties will not slow down the ship.
+
+**Cargo** for ships it is given in tons. If the ship sails night and day, each passenger requires living space equivalent to one ton of cargo; in addition, provisions for one man for one month occupy 1/10 of a ton of space.
+
+A **caravel** is a highly maneuverable sailing ship with two or three masts. Though superficially similar to the larger carrack, caravels are capable of sailing up rivers, a task for which the larger ship is ill suited.
+
+A **carrack** is a large, ocean-going sailing ship with three or four masts.
+
+**Galleys** are equipped with both sails and oars; the second listed movement rate for galleys is the rowing speed. A small galley will have around 20 rows of oars, with each oar pulled by two men (for a total of 80 rowers) while a large galley will have around 35 rows of oars (for a total of 140 rowers). Galleys are generally much more maneuverable than sailing ships such as the carrack or caravel, and may be outfitted with rams.
+
+The **longship** commonly used by northern raiders is very similar to the large galley. However, where more civilized nations have specialist rowers, sailors, and marines, the crew of a longship is more generalized; most crewmen will be qualified for all of these tasks.
+

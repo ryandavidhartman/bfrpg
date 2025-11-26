@@ -24,8 +24,9 @@ book:
         - 02-characters/07-Alignments.qmd
         - 02-characters/08-Languages.qmd
         - 02-characters/09-Equipment.qmd
-        - 02-characters/vehicles.qmd
-        - 02-characters/11-Level-Advancement.qmd
+        - 02-characters/10-Vehicles.qmd
+        - 02-characters/11-Random-Characters.qmd
+        - 02-characters/12-Level-Advancement.qmd
     - part: Magic
       chapters: 
         - spells.qmd

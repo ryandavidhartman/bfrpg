@@ -21,7 +21,7 @@ Because 0-level characters benefit from beginner’s luck, they may wield any ge
 - [Choose an Alignment](07-Alignments.qmd)  
 - [Starting Gear](09-Equipment.qmd#starting-gear)  
 
-0-level characters advance to **1st level** after surviving their first adventure. See [Advancement](11-Level-Advancement.qmd).
+0-level characters advance to **1st level** after surviving their first adventure. See [Advancement](12-Level-Advancement.qmd).
 
 ---
 

@@ -348,6 +348,27 @@ To put this in perspective, imagine **1 cp** is roughly equal to **$1** in moder
 :::
 :::
 
+### Crawling Kit
+
+A crawling kit costs 7gp, it uses 7 gear slots and contains the following items.
+
+:::{crawling-kit-table}
+| **Item**                      | **Quality** | **Gear Slots** | **Cost** |
+|:------------------------------|:------------|:---------------|:---------|
+| Backpack                      | 1           | 0              | 2 gp     |
+| Flint and Steel               | 1           | 1              | 5 sp     |
+| Torch                         | 2           | 2              | 1 gp     |
+| Rations                       | 3           | 1              | 5 sp     |
+| Iron Spikes                   | 10          | 1              | 1 gp     |
+| Grappling Hook                | 1           | 1              | 1 gp     |
+| Rope, 60'                     | 1           | 1              | 1 gp     |
+:::
+:::{.table-caption}
+**Table:** Crawling Kit
+:::
+
+
+
 ## Ammunition
 
 :::{ammunition-table}
