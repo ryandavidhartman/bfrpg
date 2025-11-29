@@ -4,8 +4,59 @@
 
 ## Demography
 
-The allowed PC character races in Old School D&D are Human, Dwarf, Elf, Half-Elf, Halfling, Half-Orc, Gnome and Goblin.  50% of the humanoid population is human, 10% are dwarves, 10% are halflings, 10% are elves, 5 are half-orcs, and 5% are goblins and gnomes. 
+The allowed PC character races in Old School D&D are Human, Dwarf, Elf, Half-Elf, Halfling, Half-Orc, Gnome and Goblin.  
 
+:::{#demography-table}
+| **Race** | **% of Population** | **Extra Language(s)** |
+|:--------:|:-------------------:|:---------------------:|
+| Dwarf    | 10%                 | Dwarvish              |
+| Elf      | 10%                 | Elvish, and Sylvan    |
+| Gnome    | 5%                  | Gnomish               |
+| Goblin   | 5%                  | Goblin                |
+| Half-Elf | 5%                  | Elvish                |
+| Half-Orc | 5%                  | Orchish               |
+| Halfling | 10%                 | n/a                   |
+| Human    | 50%                 | n/a                   |
+:::
+:::{.table-caption}
+**Table:** Demographical Distribution
+:::
+
+```{ojs}
+import { highlightTableRow, readMatrixFromTable } from "../custom.js"
+
+Inputs.button(
+  html`<button style="color:black;background-color:lightgray;">Roll Race</button>`,
+  {
+    value: "",
+    reduce: () => {
+      var matrix = readMatrixFromTable("#demography-table");
+
+      // Weighted by percentage
+      var weights = [
+        { range: [1, 10], idx: 1 },  // Dwarf 10%
+        { range: [11, 20], idx: 2 }, // Elf 10%
+        { range: [21, 25], idx: 3 }, // Gnome 5%
+        { range: [26, 30], idx: 4 }, // Goblin 5%
+        { range: [31, 35], idx: 5 }, // Half-Elf 5%
+        { range: [36, 40], idx: 6 }, // Half-Orc 5%
+        { range: [41, 50], idx: 7 }, // Halfling 10%
+        { range: [51, 100], idx: 8 } // Human 50%
+      ];
+
+      // Roll percentile
+      var roll = Math.floor(Math.random() * 100) + 1;
+      var entry = weights.find(w => roll >= w.range[0] && roll <= w.range[1]);
+      var idx = entry.idx;
+
+      highlightTableRow("#demography-table", idx);
+
+      var row = matrix[idx - 1]; // [Race, %, Extra Language]
+      return "You rolled " + roll + ": " + row[0] + " (" + row[1] + " of population). Extra Languages: " + (row[2] || "None");
+    }
+  }
+)
+```
 
 ## Dwarves
 
@@ -41,7 +92,7 @@ Start with +2HP.  Roll HP per level with advantage
 | 96–00  | Outsize         | 4 ft 9 in + 1d4 in      | 170 lbs + 1d20 lbs      |
 
 ```{ojs}
-import { generalTableSelect, highlightTableRow } from "../custom.js"
+import { generalTableSelect } from "../custom.js"
 
 Inputs.button(
   html`<button style="color:black;background-color:lightgray;">Roll Height & Weight</button>`,
